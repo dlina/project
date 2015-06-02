@@ -24,8 +24,8 @@ start =
         element alias {
           attribute xml:id { xsd:ID },
           attribute type { 'voiceOf' | 'stageName' | 'alias' }?,
-          element name { text }?,
-          element sex { 'M' | 'F' | 'male' | 'female' | 'm' | 'f' }
+          element name { text },
+          element sex { 'M' | 'F' | 'male' | 'female' | 'm' | 'f' }?
         }+
       }*
     },
