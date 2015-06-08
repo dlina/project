@@ -9,7 +9,7 @@ start =
       element genretitle { text }?,
       element author { text },
       element date {
-      	attribute when { xsd:int },
+      	attribute when { xsd:int }?,
       	attribute type { "print" | "premiere" | "written" }?,
       	text?
       }+,
