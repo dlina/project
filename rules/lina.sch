@@ -11,5 +11,10 @@
             Character unbekannt: <value-of select="$results"/>
         </assert>
         </rule>
+        <rule context="@who">
+        	<report test="contains(., '  ') or ends-with(., ' ') or starts-with(., ' ')">
+        		Doppelte Leerzeichen oder Leerzeichen am Anfang bzw. Ende
+        	</report>
+        </rule>
     </pattern>
 </schema>
