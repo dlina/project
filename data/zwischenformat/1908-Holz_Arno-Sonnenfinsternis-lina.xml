@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital">
+  <header>
+    <title>Sonnenfinsternis</title>
+    <subtitle>Tragödie</subtitle>
+  	<genretitle>Tragödie</genretitle>
+    <author>Holz, Arno</author>
+  	<date when="1908" type="print" />
+  	<date when="1913" type="premiere" />
+  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:qhpn.0/data</source>
+  </header>
+  <personae>
+    <character>
+      <name>LA BELLA CENCI</name>
+      <alias xml:id="la_bella_cenci">
+        <name>LA BELLA CENCI</name>
+      </alias>
+    	<alias xml:id="la">
+    		<name>LA</name>
+    	</alias>
+    	<alias xml:id="beatrice">
+    		<name>BEATRICE</name>
+    	</alias>
+    </character>
+    <character>
+      <name>URL</name>
+      <alias xml:id="url">
+        <name>URL</name>
+      </alias>
+    </character>
+    <character>
+      <name>HOLLRIEDER</name>
+      <alias xml:id="hollrieder">
+        <name>HOLLRIEDER</name>
+      </alias>
+    </character>
+    <character>
+      <name>MUSMANN</name>
+      <alias xml:id="musmann">
+        <name>MUSMANN</name>
+      </alias>
+    </character>
+    <character>
+      <name>LIPSIUS</name>
+      <alias xml:id="lipsius">
+        <name>LIPSIUS</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER PRÄSIDENT DER SEZESSION</name>
+      <alias xml:id="der_präsident_der_sezession">
+        <name>DER PRÄSIDENT DER SEZESSION</name>
+      </alias>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Arno Holz</head>
+    </div>
+    <div>
+      <head>Personen</head>
+      <div>
+        <head>noName</head>
+      </div>
+    </div>
+    <div>
+      <head>1. Akt</head>
+      <div>
+        <head>Erster Akt</head>
+        <sp who="#la_bella_cenci">
+          <amount n="189" unit="speech_acts"/>
+          <amount n="4161" unit="words"/>
+          <amount n="112" unit="lines"/>
+          <amount n="25404" unit="chars"/>
+        </sp>
+        <sp who="#url">
+          <amount n="194" unit="speech_acts"/>
+          <amount n="3523" unit="words"/>
+          <amount n="123" unit="lines"/>
+          <amount n="21667" unit="chars"/>
+        </sp>
+        <sp who="#la">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="24" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="148" unit="chars"/>
+        </sp>
+        <sp who="#hollrieder">
+          <amount n="140" unit="speech_acts"/>
+          <amount n="2918" unit="words"/>
+          <amount n="97" unit="lines"/>
+          <amount n="17906" unit="chars"/>
+        </sp>
+        <sp who="#musmann">
+          <amount n="55" unit="speech_acts"/>
+          <amount n="909" unit="words"/>
+          <amount n="41" unit="lines"/>
+          <amount n="5745" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>2. Akt</head>
+      <div>
+        <head>Zweiter Akt</head>
+        <sp who="#hollrieder">
+          <amount n="246" unit="speech_acts"/>
+          <amount n="3948" unit="words"/>
+          <amount n="164" unit="lines"/>
+          <amount n="24375" unit="chars"/>
+        </sp>
+        <sp who="#url">
+          <amount n="155" unit="speech_acts"/>
+          <amount n="2096" unit="words"/>
+          <amount n="117" unit="lines"/>
+          <amount n="12474" unit="chars"/>
+        </sp>
+        <sp who="#musmann">
+          <amount n="25" unit="speech_acts"/>
+          <amount n="374" unit="words"/>
+          <amount n="18" unit="lines"/>
+          <amount n="2277" unit="chars"/>
+        </sp>
+        <sp who="#beatrice">
+          <amount n="42" unit="speech_acts"/>
+          <amount n="610" unit="words"/>
+          <amount n="31" unit="lines"/>
+          <amount n="3550" unit="chars"/>
+        </sp>
+        <sp who="#lipsius">
+          <amount n="35" unit="speech_acts"/>
+          <amount n="798" unit="words"/>
+          <amount n="23" unit="lines"/>
+          <amount n="5067" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>3. Akt</head>
+      <div>
+        <head>Dritter Akt</head>
+        <sp who="#der_präsident_der_sezession">
+          <amount n="67" unit="speech_acts"/>
+          <amount n="2375" unit="words"/>
+          <amount n="27" unit="lines"/>
+          <amount n="13780" unit="chars"/>
+        </sp>
+        <sp who="#musmann">
+          <amount n="55" unit="speech_acts"/>
+          <amount n="723" unit="words"/>
+          <amount n="44" unit="lines"/>
+          <amount n="4570" unit="chars"/>
+        </sp>
+        <sp who="#lipsius">
+          <amount n="60" unit="speech_acts"/>
+          <amount n="808" unit="words"/>
+          <amount n="43" unit="lines"/>
+          <amount n="4855" unit="chars"/>
+        </sp>
+        <sp who="#beatrice">
+          <amount n="77" unit="speech_acts"/>
+          <amount n="744" unit="words"/>
+          <amount n="59" unit="lines"/>
+          <amount n="4537" unit="chars"/>
+        </sp>
+        <sp who="#la_bella_cenci">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="13" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="78" unit="chars"/>
+        </sp>
+        <sp who="#musmann #beatrice">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="17" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="99" unit="chars"/>
+        </sp>
+        <sp who="#hollrieder">
+          <amount n="52" unit="speech_acts"/>
+          <amount n="1006" unit="words"/>
+          <amount n="27" unit="lines"/>
+          <amount n="6440" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>4. Akt</head>
+      <div>
+        <head>Vierter Akt</head>
+        <sp who="#musmann">
+          <amount n="54" unit="speech_acts"/>
+          <amount n="748" unit="words"/>
+          <amount n="33" unit="lines"/>
+          <amount n="4863" unit="chars"/>
+        </sp>
+        <sp who="#hollrieder">
+          <amount n="170" unit="speech_acts"/>
+          <amount n="2447" unit="words"/>
+          <amount n="112" unit="lines"/>
+          <amount n="14808" unit="chars"/>
+        </sp>
+        <sp who="#url">
+          <amount n="75" unit="speech_acts"/>
+          <amount n="893" unit="words"/>
+          <amount n="49" unit="lines"/>
+          <amount n="5265" unit="chars"/>
+        </sp>
+        <sp who="#lipsius">
+          <amount n="68" unit="speech_acts"/>
+          <amount n="725" unit="words"/>
+          <amount n="46" unit="lines"/>
+          <amount n="4426" unit="chars"/>
+        </sp>
+        <sp who="#beatrice">
+          <amount n="21" unit="speech_acts"/>
+          <amount n="222" unit="words"/>
+          <amount n="13" unit="lines"/>
+          <amount n="1418" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>5. Akt</head>
+      <div>
+        <head>Fünfter Akt</head>
+        <sp who="#url">
+          <amount n="188" unit="speech_acts"/>
+          <amount n="2151" unit="words"/>
+          <amount n="152" unit="lines"/>
+          <amount n="13414" unit="chars"/>
+        </sp>
+        <sp who="#musmann">
+          <amount n="52" unit="speech_acts"/>
+          <amount n="812" unit="words"/>
+          <amount n="31" unit="lines"/>
+          <amount n="5491" unit="chars"/>
+        </sp>
+        <sp who="#beatrice">
+          <amount n="122" unit="speech_acts"/>
+          <amount n="4226" unit="words"/>
+          <amount n="63" unit="lines"/>
+          <amount n="25821" unit="chars"/>
+        </sp>
+        <sp who="#hollrieder">
+          <amount n="55" unit="speech_acts"/>
+          <amount n="3225" unit="words"/>
+          <amount n="27" unit="lines"/>
+          <amount n="22071" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+  </text>
+</play>

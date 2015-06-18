@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital">
+  <header>
+    <title>Alfonso und Estrella</title>
+  	<subtitle>Romantische Oper in drei Akten</subtitle>
+    <genretitle>Oper</genretitle>
+    <author>Schober, Franz von</author>
+    <date when="1854" type="premiere" />
+  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:v401.0/data</source>
+  </header>
+  <personae>
+    <character>
+      <name>CHOR</name>
+      <alias xml:id="chor">
+        <name>CHOR</name>
+      </alias>
+    	<alias xml:id="allgemeiner_chor">
+    		<name>ALLGEMEINER CHOR</name>
+    	</alias>
+    </character>
+    <character>
+      <name>EDWIGA</name>
+      <alias xml:id="edwiga">
+        <name>EDWIGA</name>
+      </alias>
+    </character>
+    <character>
+      <name>GUISTO</name>
+      <alias xml:id="guisto">
+        <name>GUISTO</name>
+      </alias>
+    </character>
+    <character>
+      <name>TROILA</name>
+      <alias xml:id="troila">
+        <name>TROILA</name>
+      </alias>
+    </character>
+    <character>
+      <name>ALFONSO</name>
+      <alias xml:id="alfonso">
+        <name>ALFONSO</name>
+      </alias>
+    </character>
+    <character>
+      <name>CHOR DER MÄNNER</name>
+      <alias xml:id="chor_der_männer">
+        <name>CHOR DER MÄNNER</name>
+      </alias>
+    </character>
+    <character>
+      <name>CHOR DER MÄDCHEN</name>
+      <alias xml:id="chor_der_mädchen">
+        <name>CHOR DER MÄDCHEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>ESTRELLA</name>
+      <alias xml:id="estrella">
+        <name>ESTRELLA</name>
+      </alias>
+    </character>
+    <character>
+      <name>CHOR DER LANDLEUTE</name>
+      <alias xml:id="chor_der_landleute">
+        <name>CHOR DER LANDLEUTE</name>
+      </alias>
+    </character>
+    <character>
+      <name>MAUREGATO</name>
+      <alias xml:id="mauregato">
+        <name>MAUREGATO</name>
+      </alias>
+    </character>
+    <character>
+      <name>CHOR DES GEFOLGES</name>
+      <alias xml:id="chor_des_gefolges">
+        <name>CHOR DES GEFOLGES</name>
+      </alias>
+    </character>
+    <character>
+      <name>KRIEGER</name>
+      <alias xml:id="krieger">
+        <name>KRIEGER</name>
+      </alias>
+    	<alias xml:id="chor_der_krieger">
+    		<name>Chor der Krieger</name>
+    	</alias>
+    </character>
+    <character>
+      <name>VOLK</name>
+      <alias xml:id="volk">
+        <name>VOLK</name>
+      </alias>
+    	<alias xml:id="chor_des_volkes">
+    		<name>Chor des Volkes</name>
+    	</alias>
+    </character>
+    <character>
+      <name>ADOLFO</name>
+      <alias xml:id="adolfo">
+        <name>ADOLFO</name>
+      </alias>
+    </character>
+    <character>
+      <name>CHOR DER FRAUEN</name>
+      <alias xml:id="chor_der_frauen">
+        <name>CHOR DER FRAUEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>ERSTER CHOR</name>
+      <alias xml:id="erster_chor">
+        <name>ERSTER CHOR</name>
+      </alias>
+    </character>
+    <character>
+      <name>ZWEITER CHOR</name>
+      <alias xml:id="zweiter_chor">
+        <name>ZWEITER CHOR</name>
+      </alias>
+    </character>
+    <character>
+      <name>GREIS</name>
+      <alias xml:id="greis">
+        <name>GREIS</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE BEGLEITER</name>
+      <alias xml:id="die_begleiter">
+        <name>DIE BEGLEITER</name>
+      </alias>
+    </character>
+    <character>
+      <name>CHOR DER JÄGER</name>
+      <alias xml:id="chor_der_jäger">
+        <name>CHOR DER JÄGER</name>
+      </alias>
+    	<alias xml:id="jägerchor">
+    		<name>JÄGERCHOR</name>
+    	</alias>
+    </character>
+  	<character>
+  		<name>HOFSTAAT</name>
+  		<alias xml:id="hofstaat">
+  			<name>Hofstaat</name>
+  		</alias>
+  		<alias xml:id="chor_des_hofstaates">
+  			<name>Chor des hofstaates</name>
+  		</alias>
+  	</character>
+  </personae>
+  <text>
+    <div>
+      <head>Personen</head>
+    </div>
+    <div>
+      <head>1. Akt</head>
+      <div>
+        <head>1. Szene</head>
+        <div>
+          <head>1. Scene.</head>
+          <sp who="#chor">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="87" unit="words"/>
+            <amount n="17" unit="lines"/>
+            <amount n="443" unit="chars"/>
+          </sp>
+          <sp who="#edwiga">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="26" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="131" unit="chars"/>
+          </sp>
+          <sp who="#guisto">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="26" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="133" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Szene</head>
+        <div>
+          <head>2. Scene.</head>
+          <sp who="#troila">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="126" unit="words"/>
+            <amount n="24" unit="lines"/>
+            <amount n="693" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3. Szene</head>
+        <div>
+          <head>3. Scene.</head>
+          <sp who="#troila">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="208" unit="words"/>
+            <amount n="36" unit="lines"/>
+            <amount n="1102" unit="chars"/>
+          </sp>
+          <sp who="#alfonso">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="203" unit="words"/>
+            <amount n="36" unit="lines"/>
+            <amount n="1059" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>4. Szene</head>
+        <div>
+          <head>4. Scene.</head>
+          <sp who="#chor">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="72" unit="words"/>
+            <amount n="14" unit="lines"/>
+            <amount n="405" unit="chars"/>
+          </sp>
+          <sp who="#edwiga">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="9" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="59" unit="chars"/>
+          </sp>
+          <sp who="#edwiga #guisto">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="12" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="55" unit="chars"/>
+          </sp>
+          <sp who="#chor_der_männer">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="34" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="188" unit="chars"/>
+          </sp>
+          <sp who="#chor_der_frauen #chor_der_mädchen">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="24" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="150" unit="chars"/>
+          </sp>
+          <sp who="#troila">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="67" unit="words"/>
+            <amount n="11" unit="lines"/>
+            <amount n="372" unit="chars"/>
+          </sp>
+          <sp who="#guisto">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="32" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="177" unit="chars"/>
+          </sp>
+          <sp who="#alfonso">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="20" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="100" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>5. Szene</head>
+        <div>
+          <head>5. Scene.</head>
+          <sp who="#alfonso">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="32" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="174" unit="chars"/>
+          </sp>
+          <sp who="#troila">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="18" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="108" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>6. Szene</head>
+        <div>
+          <head>6. Scene.</head>
+          <sp who="#alfonso">
+            <amount n="14" unit="speech_acts"/>
+            <amount n="183" unit="words"/>
+            <amount n="39" unit="lines"/>
+            <amount n="1015" unit="chars"/>
+          </sp>
+          <sp who="#estrella">
+            <amount n="12" unit="speech_acts"/>
+            <amount n="145" unit="words"/>
+            <amount n="26" unit="lines"/>
+            <amount n="730" unit="chars"/>
+          </sp>
+          <sp who="#chor_der_landleute">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="36" unit="words"/>
+            <amount n="8" unit="lines"/>
+            <amount n="189" unit="chars"/>
+          </sp>
+          <sp who="#chor">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="27" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="148" unit="chars"/>
+          </sp>
+          <sp who="#estrella #alfonso">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="28" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="152" unit="chars"/>
+          </sp>
+          <sp who="#alfonso #estrella">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="60" unit="words"/>
+            <amount n="11" unit="lines"/>
+            <amount n="326" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>2. Akt</head>
+      <div>
+        <head>1. Szene</head>
+        <div>
+          <head>1. Scene.</head>
+          <sp who="#mauregato">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="266" unit="words"/>
+            <amount n="42" unit="lines"/>
+            <amount n="1416" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Szene</head>
+        <div>
+          <head>2. Scene.</head>
+          <sp who="#chor_des_gefolges">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="3" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="8" unit="chars"/>
+          </sp>
+          <sp who="#mauregato">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="83" unit="words"/>
+            <amount n="17" unit="lines"/>
+            <amount n="453" unit="chars"/>
+          </sp>
+          <sp who="#chor">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="30" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="140" unit="chars"/>
+          </sp>
+          <sp who="#estrella">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="196" unit="words"/>
+            <amount n="34" unit="lines"/>
+            <amount n="1056" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>4. Szene</head>
+        <div>
+          <head>4. Scene.</head>
+          <sp who="#chor_der_krieger #chor_des_volkes">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="9" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="48" unit="chars"/>
+          </sp>
+          <sp who="#krieger">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="45" unit="words"/>
+            <amount n="9" unit="lines"/>
+            <amount n="241" unit="chars"/>
+          </sp>
+          <sp who="#volk">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="26" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="136" unit="chars"/>
+          </sp>
+          <sp who="#adolfo">
+            <amount n="14" unit="speech_acts"/>
+            <amount n="208" unit="words"/>
+            <amount n="35" unit="lines"/>
+            <amount n="1132" unit="chars"/>
+          </sp>
+          <sp who="#mauregato">
+            <amount n="10" unit="speech_acts"/>
+            <amount n="141" unit="words"/>
+            <amount n="22" unit="lines"/>
+            <amount n="775" unit="chars"/>
+          </sp>
+          <sp who="#estrella">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="125" unit="words"/>
+            <amount n="21" unit="lines"/>
+            <amount n="638" unit="chars"/>
+          </sp>
+          <sp who="#hofstaat #volk">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="7" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="42" unit="chars"/>
+          </sp>
+          <sp who="#adolfo #chor">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="6" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="25" unit="chars"/>
+          </sp>
+          <sp who="#chor_des_hofstaates #chor_des_volkes">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="6" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="34" unit="chars"/>
+          </sp>
+          <sp who="#chor_der_krieger">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="30" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="157" unit="chars"/>
+          </sp>
+          <sp who="#estrella #mauregato">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="74" unit="words"/>
+            <amount n="12" unit="lines"/>
+            <amount n="397" unit="chars"/>
+          </sp>
+          <sp who="#volk #hofstaat">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="12" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="58" unit="chars"/>
+          </sp>
+          <sp who="#chor_der_frauen">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="23" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="120" unit="chars"/>
+          </sp>
+          <sp who="#chor_der_männer">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="24" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="125" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>5. Szene</head>
+        <div>
+          <head>5. Scene.</head>
+          <sp who="#erster_chor">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="50" unit="words"/>
+            <amount n="10" unit="lines"/>
+            <amount n="282" unit="chars"/>
+          </sp>
+          <sp who="#zweiter_chor">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="3" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="21" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>6. Szene</head>
+        <div>
+          <head>6. Scene.</head>
+          <sp who="#erster_chor #zweiter_chor">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="44" unit="words"/>
+            <amount n="10" unit="lines"/>
+            <amount n="256" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>7. Szene</head>
+        <div>
+          <head>7. Scene.</head>
+          <sp who="#adolfo">
+            <amount n="13" unit="speech_acts"/>
+            <amount n="300" unit="words"/>
+            <amount n="54" unit="lines"/>
+            <amount n="1633" unit="chars"/>
+          </sp>
+          <sp who="#chor">
+            <amount n="12" unit="speech_acts"/>
+            <amount n="61" unit="words"/>
+            <amount n="15" unit="lines"/>
+            <amount n="305" unit="chars"/>
+          </sp>
+          <sp who="#adolfo #chor">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="18" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="104" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>3. Akt</head>
+      <div>
+        <head>1. Szene</head>
+        <div>
+          <head>1. Scene.</head>
+          <sp who="#edwiga">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="44" unit="words"/>
+            <amount n="7" unit="lines"/>
+            <amount n="212" unit="chars"/>
+          </sp>
+          <sp who="#greis">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="64" unit="words"/>
+            <amount n="13" unit="lines"/>
+            <amount n="366" unit="chars"/>
+          </sp>
+          <sp who="#chor_der_frauen #chor_der_mädchen">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="6" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="32" unit="chars"/>
+          </sp>
+          <sp who="#chor">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="11" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="58" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Szene</head>
+        <div>
+          <head>2. Scene.</head>
+          <sp who="#adolfo">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="90" unit="words"/>
+            <amount n="17" unit="lines"/>
+            <amount n="500" unit="chars"/>
+          </sp>
+          <sp who="#estrella">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="92" unit="words"/>
+            <amount n="16" unit="lines"/>
+            <amount n="476" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3. Szene</head>
+        <div>
+          <head>3. Scene.</head>
+          <sp who="#alfonso">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="116" unit="words"/>
+            <amount n="21" unit="lines"/>
+            <amount n="625" unit="chars"/>
+          </sp>
+          <sp who="#adolfo">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="6" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="43" unit="chars"/>
+          </sp>
+          <sp who="#estrella">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="144" unit="words"/>
+            <amount n="27" unit="lines"/>
+            <amount n="773" unit="chars"/>
+          </sp>
+          <sp who="#die_begleiter">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="11" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="56" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>4. Szene</head>
+        <div>
+          <head>4. Scene.</head>
+          <sp who="#estrella">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="11" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="64" unit="chars"/>
+          </sp>
+          <sp who="#alfonso">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="55" unit="words"/>
+            <amount n="10" unit="lines"/>
+            <amount n="300" unit="chars"/>
+          </sp>
+          <sp who="#chor">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="32" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="173" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>5. Szene</head>
+        <div>
+          <head>5. Scene.</head>
+          <sp who="#alfonso">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="38" unit="words"/>
+            <amount n="7" unit="lines"/>
+            <amount n="203" unit="chars"/>
+          </sp>
+          <sp who="#estrella">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="8" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="41" unit="chars"/>
+          </sp>
+          <sp who="#chor_der_jäger">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="10" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="54" unit="chars"/>
+          </sp>
+          <sp who="#chor_der_krieger">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="11" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="67" unit="chars"/>
+          </sp>
+          <sp who="#jägerchor">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="17" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="98" unit="chars"/>
+          </sp>
+          <sp who="#chor_der_jäger #chor_der_krieger">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="14" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="64" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>6. Szene</head>
+        <div>
+          <head>6. Scene.</head>
+          <sp who="#troila">
+            <amount n="10" unit="speech_acts"/>
+            <amount n="174" unit="words"/>
+            <amount n="28" unit="lines"/>
+            <amount n="885" unit="chars"/>
+          </sp>
+          <sp who="#alfonso">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="79" unit="words"/>
+            <amount n="15" unit="lines"/>
+            <amount n="419" unit="chars"/>
+          </sp>
+          <sp who="#estrella">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="47" unit="words"/>
+            <amount n="9" unit="lines"/>
+            <amount n="238" unit="chars"/>
+          </sp>
+          <sp who="#chor_der_krieger #chor_der_jäger">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="19" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="112" unit="chars"/>
+          </sp>
+          <sp who="#chor">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="21" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="104" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>7. Szene</head>
+        <div>
+          <head>7. Scene.</head>
+          <sp who="#mauregato">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="109" unit="words"/>
+            <amount n="20" unit="lines"/>
+            <amount n="558" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>8. Szene</head>
+        <div>
+          <head>8. Scene.</head>
+          <sp who="#mauregato">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="56" unit="words"/>
+            <amount n="10" unit="lines"/>
+            <amount n="270" unit="chars"/>
+          </sp>
+          <sp who="#troila">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="58" unit="words"/>
+            <amount n="12" unit="lines"/>
+            <amount n="287" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>9. Szene</head>
+        <div>
+          <head>9. Scene.</head>
+          <sp who="#troila">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="94" unit="words"/>
+            <amount n="17" unit="lines"/>
+            <amount n="501" unit="chars"/>
+          </sp>
+          <sp who="#mauregato">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="73" unit="words"/>
+            <amount n="14" unit="lines"/>
+            <amount n="374" unit="chars"/>
+          </sp>
+          <sp who="#estrella">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="18" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="98" unit="chars"/>
+          </sp>
+          <sp who="#estrella">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="25" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="127" unit="chars"/>
+          </sp>
+          <sp who="#chor_der_krieger #chor_der_jäger">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="75" unit="words"/>
+            <amount n="16" unit="lines"/>
+            <amount n="403" unit="chars"/>
+          </sp>
+          <sp who="#alfonso">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="37" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="180" unit="chars"/>
+          </sp>
+          <sp who="#estrella #chor">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="3" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="10" unit="chars"/>
+          </sp>
+          <sp who="#chor">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="13" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="74" unit="chars"/>
+          </sp>
+          <sp who="#mauregato #chor">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="6" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="51" unit="chars"/>
+          </sp>
+          <sp who="#alfonso #estrella">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="28" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="167" unit="chars"/>
+          </sp>
+          <sp who="#chor_der_krieger">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="5" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="28" unit="chars"/>
+          </sp>
+          <sp who="#chor_der_landleute #chor_der_jäger">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="4" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="25" unit="chars"/>
+          </sp>
+          <sp who="#allgemeiner_chor">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="18" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="111" unit="chars"/>
+          </sp>
+          <sp who="#mauregato #troila">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="9" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="56" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+  </text>
+</play>

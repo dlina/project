@@ -1,0 +1,1413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital">
+  <header>
+    <title>Der gestiefelte Kater</title>
+    <subtitle>Ein Kindermärchen in drei Akten, mit Zwischenspielen, einem Prologe und Epiloge</subtitle>
+    <genretitle></genretitle>
+    <author>Tieck, Ludwig</author>
+    <date type="print">1797</date>
+    <date type="premiere">1844</date>
+    <date type="written"></date>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:wdvq.0/data</source>
+  </header>
+  <personae>
+    <character>
+      <name>FISCHER</name>
+      <alias xml:id="fischer">
+        <name>FISCHER</name>
+      </alias>
+    </character>
+    <character>
+      <name>MÜLLER</name>
+      <alias xml:id="müller">
+        <name>MÜLLER</name>
+      </alias>
+    </character>
+    <character>
+      <name>SCHLOSSER</name>
+      <alias xml:id="schlosser">
+        <name>SCHLOSSER</name>
+      </alias>
+    </character>
+    <character>
+      <name>LEUTNER</name>
+      <alias xml:id="leutner">
+        <name>LEUTNER</name>
+      </alias>
+    </character>
+    <character>
+      <name>VIELE STIMMEN</name>
+      <alias xml:id="viele_stimmen">
+        <name>VIELE STIMMEN</name>
+      </alias>
+      <alias xml:id="stimmen">
+        <name>STIMMEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>BÖTTICHER</name>
+      <alias xml:id="bötticher">
+        <name>BÖTTICHER</name>
+      </alias>
+    </character>
+    <character>
+      <name>WIESENER</name>
+      <alias xml:id="wiesener">
+        <name>WIESENER</name>
+      </alias>
+    </character>
+    <character>
+      <name>LAMPENPUTZER</name>
+      <alias xml:id="lampenputzer">
+        <name>LAMPENPUTZER</name>
+      </alias>
+    </character>
+    <character>
+      <name>DICHTER</name>
+      <alias xml:id="dichter">
+        <name>DICHTER</name>
+      </alias>
+    </character>
+    <character>
+      <name>NACHBAR</name>
+      <alias xml:id="nachbar">
+        <name>NACHBAR</name>
+      </alias>
+    </character>
+    <character>
+      <name>STIMME VON DER GALERIE</name>
+      <alias xml:id="stimme_von_der_galerie">
+        <name>STIMME VON DER GALERIE</name>
+      </alias>
+    </character>
+    <character>
+      <name>LORENZ</name>
+      <alias xml:id="lorenz">
+        <name>LORENZ</name>
+      </alias>
+    </character>
+    <character>
+      <name>BARTHEL</name>
+      <alias xml:id="barthel">
+        <name>BARTHEL</name>
+      </alias>
+    </character>
+    <character>
+      <name>GOTTLIEB</name>
+      <alias xml:id="gottlieb">
+        <name>GOTTLIEB</name>
+      </alias>
+    </character>
+    <character>
+      <name>HINZE DER KATER</name>
+      <alias xml:id="hinze_der_kater">
+        <name>HINZE DER KATER</name>
+      </alias>
+      <alias xml:id="hinze">
+        <name>HINZE</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE KUNSTRICHTER</name>
+      <alias xml:id="die_kunstrichter">
+        <name>DIE KUNSTRICHTER</name>
+      </alias>
+    </character>
+    <character>
+      <name>SCHUHMACHER</name>
+      <alias xml:id="schuhmacher">
+        <name>SCHUHMACHER</name>
+      </alias>
+    </character>
+    <character>
+      <name>KÖNIG</name>
+      <alias xml:id="könig">
+        <name>KÖNIG</name>
+      </alias>
+      <alias xml:id="der_könig">
+        <name>DER KÖNIG</name>
+      </alias>
+    </character>
+    <character>
+      <name>PRINZESSIN</name>
+      <alias xml:id="prinzessin">
+        <name>PRINZESSIN</name>
+      </alias>
+      <alias xml:id="die_prinzessin">
+        <name>DIE PRINZESSIN</name>
+      </alias>
+    </character>
+    <character>
+      <name>LEANDER</name>
+      <alias xml:id="leander">
+        <name>LEANDER</name>
+      </alias>
+    </character>
+    <character>
+      <name>KAMMERDIENER</name>
+      <alias xml:id="kammerdiener">
+        <name>KAMMERDIENER</name>
+      </alias>
+    </character>
+    <character>
+      <name>NATHANAEL</name>
+      <alias xml:id="nathanael">
+        <name>NATHANAEL</name>
+      </alias>
+    </character>
+    <character>
+      <name>WIRT</name>
+      <alias xml:id="wirt">
+        <name>WIRT</name>
+      </alias>
+      <alias xml:id="der_wirt">
+        <name>DER WIRT</name>
+      </alias>
+    </character>
+    <character>
+      <name>KUNZ</name>
+      <alias xml:id="kunz">
+        <name>KUNZ</name>
+      </alias>
+    </character>
+    <character>
+      <name>MICHEL</name>
+      <alias xml:id="michel">
+        <name>MICHEL</name>
+      </alias>
+    </character>
+    <character>
+      <name>SOLDAT</name>
+      <alias xml:id="soldat">
+        <name>SOLDAT</name>
+      </alias>
+    </character>
+    <character>
+      <name>ERSTER HUSAR</name>
+      <alias xml:id="erster_husar">
+        <name>ERSTER HUSAR</name>
+      </alias>
+    </character>
+    <character>
+      <name>ZWEITER HUSAR</name>
+      <alias xml:id="zweiter_husar">
+        <name>ZWEITER HUSAR</name>
+      </alias>
+    </character>
+    <character>
+      <name>ER</name>
+      <alias xml:id="er">
+        <name>ER</name>
+      </alias>
+    </character>
+    <character>
+      <name>SIE</name>
+      <alias xml:id="sie">
+        <name>SIE</name>
+      </alias>
+    </character>
+    <character>
+      <name>KOCH</name>
+      <alias xml:id="koch">
+        <name>KOCH</name>
+      </alias>
+    </character>
+    <character>
+      <name>HISTORIOGRAPH</name>
+      <alias xml:id="historiograph">
+        <name>HISTORIOGRAPH</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN BEDIENTER</name>
+      <alias xml:id="ein_bedienter">
+        <name>EIN BEDIENTER</name>
+      </alias>
+    </character>
+    <character>
+      <name>HANSWURST</name>
+      <alias xml:id="hanswurst">
+        <name>HANSWURST</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN HOFMANN</name>
+      <alias xml:id="ein_hofmann">
+        <name>EIN HOFMANN</name>
+      </alias>
+    </character>
+    <character>
+      <name>IM PARTERRE</name>
+      <alias xml:id="im_parterre">
+        <name>IM PARTERRE</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE VIERFÜSSIGEN</name>
+      <alias xml:id="die_vierfüssigen">
+        <name>DIE VIERFÜSSIGEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE VÖGEL</name>
+      <alias xml:id="die_vögel">
+        <name>DIE VÖGEL</name>
+      </alias>
+    </character>
+    <character>
+      <name>VEREINIGTES CHOR</name>
+      <alias xml:id="vereinigtes_chor">
+        <name>VEREINIGTES CHOR</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER BESÄNFTIGER</name>
+      <alias xml:id="der_besänftiger">
+        <name>DER BESÄNFTIGER</name>
+      </alias>
+      <alias xml:id="besänftiger">
+        <name>BESÄNFTIGER</name>
+      </alias>
+    </character>
+    <character>
+      <name>BAUER</name>
+      <alias xml:id="bauer">
+        <name>BAUER</name>
+      </alias>
+    </character>
+    <character>
+      <name>POPANZ</name>
+      <alias xml:id="popanz">
+        <name>POPANZ</name>
+      </alias>
+    </character>
+    <character>
+      <name>AMTMANN</name>
+      <alias xml:id="amtmann">
+        <name>AMTMANN</name>
+      </alias>
+    </character>
+    <character>
+      <name>HINTER DEM VORHANGE</name>
+      <alias xml:id="hinter_dem_vorhange">
+        <name>HINTER DEM VORHANGE</name>
+      </alias>
+    </character>
+    <character>
+      <name>SOUFFLEUR</name>
+      <alias xml:id="souffleur">
+        <name>SOUFFLEUR</name>
+      </alias>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Personen</head>
+    </div>
+    <div>
+      <head>Prolog</head>
+      <div>
+        <head>Prolog</head>
+        <sp who="#fischer">
+          <amount n="14" unit="speech_acts"/>
+          <amount n="254" unit="words"/>
+          <amount n="9" unit="lines"/>
+          <amount n="1469" unit="chars"/>
+        </sp>
+        <sp who="#müller">
+          <amount n="14" unit="speech_acts"/>
+          <amount n="203" unit="words"/>
+          <amount n="10" unit="lines"/>
+          <amount n="1182" unit="chars"/>
+        </sp>
+        <sp who="#schlosser">
+          <amount n="11" unit="speech_acts"/>
+          <amount n="323" unit="words"/>
+          <amount n="6" unit="lines"/>
+          <amount n="1812" unit="chars"/>
+        </sp>
+        <sp who="#leutner">
+          <amount n="12" unit="speech_acts"/>
+          <amount n="116" unit="words"/>
+          <amount n="10" unit="lines"/>
+          <amount n="629" unit="chars"/>
+        </sp>
+        <sp who="#viele_stimmen">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="14" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="67" unit="chars"/>
+        </sp>
+        <sp who="#bötticher">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="75" unit="words"/>
+          <amount n="455" unit="chars"/>
+        </sp>
+        <sp who="#wiesener">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="18" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="104" unit="chars"/>
+        </sp>
+        <sp who="#stimmen">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="9" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="41" unit="chars"/>
+        </sp>
+        <sp who="#fischer #müller #schlosser #leutner #viele_stimmen #bötticher #wiesener #lampenputzer #dichter #nachbar #stimme_von_der_galerie">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="29" unit="words"/>
+          <amount n="5" unit="lines"/>
+          <amount n="170" unit="chars"/>
+        </sp>
+        <sp who="#lampenputzer">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="46" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="267" unit="chars"/>
+        </sp>
+        <sp who="#dichter">
+          <amount n="11" unit="speech_acts"/>
+          <amount n="255" unit="words"/>
+          <amount n="6" unit="lines"/>
+          <amount n="1494" unit="chars"/>
+        </sp>
+        <sp who="#nachbar">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="7" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="49" unit="chars"/>
+        </sp>
+        <sp who="#stimme_von_der_galerie">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="3" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="10" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>1. Akt</head>
+      <div>
+        <head>1. Szene</head>
+        <div>
+          <head>Erste Szene</head>
+          <sp who="#lorenz">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="90" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="479" unit="chars"/>
+          </sp>
+          <sp who="#leutner">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="79" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="431" unit="chars"/>
+          </sp>
+          <sp who="#müller">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="127" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="670" unit="chars"/>
+          </sp>
+          <sp who="#schlosser">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="42" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="257" unit="chars"/>
+          </sp>
+          <sp who="#barthel">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="26" unit="words"/>
+            <amount n="149" unit="chars"/>
+          </sp>
+          <sp who="#gottlieb">
+            <amount n="32" unit="speech_acts"/>
+            <amount n="632" unit="words"/>
+            <amount n="25" unit="lines"/>
+            <amount n="3404" unit="chars"/>
+          </sp>
+          <sp who="#fischer">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="32" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="184" unit="chars"/>
+          </sp>
+          <sp who="#hinze_der_kater">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="10" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="67" unit="chars"/>
+          </sp>
+          <sp who="#die_kunstrichter">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="8" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="38" unit="chars"/>
+          </sp>
+          <sp who="#hinze">
+            <amount n="26" unit="speech_acts"/>
+            <amount n="721" unit="words"/>
+            <amount n="9" unit="lines"/>
+            <amount n="3998" unit="chars"/>
+          </sp>
+          <sp who="#schuhmacher">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="72" unit="words"/>
+            <amount n="7" unit="lines"/>
+            <amount n="347" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Szene</head>
+        <div>
+          <head>Zweite Szene</head>
+          <sp who="#könig">
+            <amount n="14" unit="speech_acts"/>
+            <amount n="790" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="4425" unit="chars"/>
+          </sp>
+          <sp who="#prinzessin">
+            <amount n="12" unit="speech_acts"/>
+            <amount n="197" unit="words"/>
+            <amount n="7" unit="lines"/>
+            <amount n="1243" unit="chars"/>
+          </sp>
+          <sp who="#fischer">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="30" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="186" unit="chars"/>
+          </sp>
+          <sp who="#schlosser">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="31" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="146" unit="chars"/>
+          </sp>
+          <sp who="#müller">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="27" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="163" unit="chars"/>
+          </sp>
+          <sp who="#die_prinzessin">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="109" unit="words"/>
+            <amount n="559" unit="chars"/>
+          </sp>
+          <sp who="#leander">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="182" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="1084" unit="chars"/>
+          </sp>
+          <sp who="#kammerdiener">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="17" unit="words"/>
+            <amount n="105" unit="chars"/>
+          </sp>
+          <sp who="#nathanael">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="192" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="1036" unit="chars"/>
+          </sp>
+          <sp who="#leutner">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="44" unit="words"/>
+            <amount n="294" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3. Szene</head>
+        <div>
+          <head>Dritte Szene</head>
+          <sp who="#lorenz">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="111" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="568" unit="chars"/>
+          </sp>
+          <sp who="#wirt">
+            <amount n="13" unit="speech_acts"/>
+            <amount n="261" unit="words"/>
+            <amount n="8" unit="lines"/>
+            <amount n="1451" unit="chars"/>
+          </sp>
+          <sp who="#kunz">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="5" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="22" unit="chars"/>
+          </sp>
+          <sp who="#michel">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="19" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="111" unit="chars"/>
+          </sp>
+          <sp who="#soldat">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="41" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="240" unit="chars"/>
+          </sp>
+          <sp who="#erster_husar">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="39" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="211" unit="chars"/>
+          </sp>
+          <sp who="#zweiter_husar">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="41" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="198" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>Zwischenakt</head>
+      <div>
+        <head>Zwischenakt</head>
+        <sp who="#fischer">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="44" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="223" unit="chars"/>
+        </sp>
+        <sp who="#leutner">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="57" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="304" unit="chars"/>
+        </sp>
+        <sp who="#schlosser">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="44" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="221" unit="chars"/>
+        </sp>
+        <sp who="#müller">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="18" unit="words"/>
+          <amount n="109" unit="chars"/>
+        </sp>
+        <sp who="#wiesener">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="61" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="337" unit="chars"/>
+        </sp>
+        <sp who="#nachbar">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="71" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="363" unit="chars"/>
+        </sp>
+        <sp who="#bötticher">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="225" unit="words"/>
+          <amount n="1296" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>2. Akt</head>
+      <div>
+        <head>1. Szene</head>
+        <div>
+          <head>Erste Szene</head>
+          <sp who="#gottlieb">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="88" unit="words"/>
+            <amount n="9" unit="lines"/>
+            <amount n="486" unit="chars"/>
+          </sp>
+          <sp who="#hinze">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="183" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="999" unit="chars"/>
+          </sp>
+          <sp who="#fischer">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="29" unit="words"/>
+            <amount n="145" unit="chars"/>
+          </sp>
+          <sp who="#leutner">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="12" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="64" unit="chars"/>
+          </sp>
+          <sp who="#müller">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="10" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="62" unit="chars"/>
+          </sp>
+          <sp who="#schlosser">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="49" unit="words"/>
+            <amount n="297" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Szene</head>
+        <div>
+          <head>Zweite Szene</head>
+          <sp who="#hinze">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="589" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="3262" unit="chars"/>
+          </sp>
+          <sp who="#er">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="211" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="1141" unit="chars"/>
+          </sp>
+          <sp who="#sie">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="104" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="568" unit="chars"/>
+          </sp>
+          <sp who="#wiesener">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="30" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="150" unit="chars"/>
+          </sp>
+          <sp who="#nachbar">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="10" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="47" unit="chars"/>
+          </sp>
+          <sp who="#fischer">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="20" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="91" unit="chars"/>
+          </sp>
+          <sp who="#leutner">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="36" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="183" unit="chars"/>
+          </sp>
+          <sp who="#müller">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="13" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="79" unit="chars"/>
+          </sp>
+          <sp who="#schlosser">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="41" unit="words"/>
+            <amount n="216" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3. Szene</head>
+        <div>
+          <head>Dritte Szene</head>
+          <sp who="#könig">
+            <amount n="14" unit="speech_acts"/>
+            <amount n="673" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="3645" unit="chars"/>
+          </sp>
+          <sp who="#koch">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="73" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="423" unit="chars"/>
+          </sp>
+          <sp who="#prinzessin">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="3" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="12" unit="chars"/>
+          </sp>
+          <sp who="#fischer">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="41" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="194" unit="chars"/>
+          </sp>
+          <sp who="#kammerdiener">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="107" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="608" unit="chars"/>
+          </sp>
+          <sp who="#hinze">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="24" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="137" unit="chars"/>
+          </sp>
+          <sp who="#nathanael">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="9" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="50" unit="chars"/>
+          </sp>
+          <sp who="#historiograph">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="4" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="15" unit="chars"/>
+          </sp>
+          <sp who="#leutner">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="28" unit="words"/>
+            <amount n="138" unit="chars"/>
+          </sp>
+          <sp who="#schlosser">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="10" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="57" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>4. Szene</head>
+        <div>
+          <head>Vierte Szene</head>
+          <sp who="#könig">
+            <amount n="33" unit="speech_acts"/>
+            <amount n="1301" unit="words"/>
+            <amount n="25" unit="lines"/>
+            <amount n="7123" unit="chars"/>
+          </sp>
+          <sp who="#ein_bedienter">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="14" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="77" unit="chars"/>
+          </sp>
+          <sp who="#hanswurst">
+            <amount n="20" unit="speech_acts"/>
+            <amount n="700" unit="words"/>
+            <amount n="9" unit="lines"/>
+            <amount n="3860" unit="chars"/>
+          </sp>
+          <sp who="#hinze">
+            <amount n="13" unit="speech_acts"/>
+            <amount n="113" unit="words"/>
+            <amount n="12" unit="lines"/>
+            <amount n="579" unit="chars"/>
+          </sp>
+          <sp who="#leander">
+            <amount n="15" unit="speech_acts"/>
+            <amount n="416" unit="words"/>
+            <amount n="8" unit="lines"/>
+            <amount n="2441" unit="chars"/>
+          </sp>
+          <sp who="#prinzessin">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="32" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="157" unit="chars"/>
+          </sp>
+          <sp who="#ein_hofmann">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="5" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="27" unit="chars"/>
+          </sp>
+          <sp who="#dichter">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="104" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="558" unit="chars"/>
+          </sp>
+          <sp who="#im_parterre">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="6" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="37" unit="chars"/>
+          </sp>
+          <sp who="#fischer">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="3" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="13" unit="chars"/>
+          </sp>
+          <sp who="#wiesener">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="13" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="62" unit="chars"/>
+          </sp>
+          <sp who="#nachbar">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="14" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="74" unit="chars"/>
+          </sp>
+          <sp who="#könig #ein_bedienter #hanswurst #hinze #leander #prinzessin #ein_hofmann #dichter #im_parterre #fischer #wiesener #nachbar #die_vierfüssigen #die_vögel #vereinigtes_chor #der_besänftiger">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="7" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="39" unit="chars"/>
+          </sp>
+          <sp who="#die_vierfüssigen">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="5" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="25" unit="chars"/>
+          </sp>
+          <sp who="#die_vögel">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="6" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="22" unit="chars"/>
+          </sp>
+          <sp who="#vereinigtes_chor">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="9" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="40" unit="chars"/>
+          </sp>
+          <sp who="#der_besänftiger">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="28" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="138" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>Zwischenakt [1]</head>
+      <div>
+        <head>Zwischenakt</head>
+        <sp who="#wiesener">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="10" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="67" unit="chars"/>
+        </sp>
+        <sp who="#nachbar">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="8" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="42" unit="chars"/>
+        </sp>
+        <sp who="#leutner">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="3" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="13" unit="chars"/>
+        </sp>
+        <sp who="#fischer">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="50" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="259" unit="chars"/>
+        </sp>
+        <sp who="#schlosser">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="16" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="81" unit="chars"/>
+        </sp>
+        <sp who="#bötticher">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="788" unit="words"/>
+          <amount n="4535" unit="chars"/>
+        </sp>
+        <sp who="#müller">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="11" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="63" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>3. Akt</head>
+      <div>
+        <head>1. Szene</head>
+        <div>
+          <head>Erste Szene</head>
+          <sp who="#gottlieb">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="133" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="692" unit="chars"/>
+          </sp>
+          <sp who="#hinze">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="125" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="655" unit="chars"/>
+          </sp>
+          <sp who="#schlosser">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="141" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="721" unit="chars"/>
+          </sp>
+          <sp who="#fischer">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="33" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="172" unit="chars"/>
+          </sp>
+          <sp who="#müller">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="26" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="148" unit="chars"/>
+          </sp>
+          <sp who="#wiesener">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="54" unit="words"/>
+            <amount n="273" unit="chars"/>
+          </sp>
+          <sp who="#nachbar">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="6" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="34" unit="chars"/>
+          </sp>
+          <sp who="#bötticher">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="39" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="236" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Szene</head>
+        <div>
+          <head>Zweite Szene</head>
+          <sp who="#hinze">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="147" unit="words"/>
+            <amount n="806" unit="chars"/>
+          </sp>
+          <sp who="#er">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="33" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="200" unit="chars"/>
+          </sp>
+          <sp who="#sie">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="33" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="183" unit="chars"/>
+          </sp>
+          <sp who="#er #sie">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="8" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="48" unit="chars"/>
+          </sp>
+          <sp who="#bötticher">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="7" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="23" unit="chars"/>
+          </sp>
+          <sp who="#schlosser">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="10" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="54" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3. Szene</head>
+        <div>
+          <head>Dritte Szene</head>
+          <sp who="#könig">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="233" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="1363" unit="chars"/>
+          </sp>
+          <sp who="#prinzessin">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="26" unit="words"/>
+            <amount n="181" unit="chars"/>
+          </sp>
+          <sp who="#leander">
+            <amount n="10" unit="speech_acts"/>
+            <amount n="118" unit="words"/>
+            <amount n="8" unit="lines"/>
+            <amount n="690" unit="chars"/>
+          </sp>
+          <sp who="#hanswurst">
+            <amount n="13" unit="speech_acts"/>
+            <amount n="152" unit="words"/>
+            <amount n="11" unit="lines"/>
+            <amount n="874" unit="chars"/>
+          </sp>
+          <sp who="#leutner">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="23" unit="words"/>
+            <amount n="114" unit="chars"/>
+          </sp>
+          <sp who="#müller">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="13" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="72" unit="chars"/>
+          </sp>
+          <sp who="#fischer">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="35" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="146" unit="chars"/>
+          </sp>
+          <sp who="#hinze">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="282" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="1619" unit="chars"/>
+          </sp>
+          <sp who="#schlosser">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="36" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="193" unit="chars"/>
+          </sp>
+          <sp who="#bötticher">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="5" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="16" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>4. Szene</head>
+        <div>
+          <head>Vierte Szene</head>
+          <sp who="#der_wirt">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="134" unit="words"/>
+            <amount n="741" unit="chars"/>
+          </sp>
+          <sp who="#hinze">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="177" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="926" unit="chars"/>
+          </sp>
+          <sp who="#wirt">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="308" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="1589" unit="chars"/>
+          </sp>
+          <sp who="#prinzessin">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="42" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="242" unit="chars"/>
+          </sp>
+          <sp who="#könig">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="122" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="618" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>5. Szene</head>
+        <div>
+          <head>Fünfte Szene</head>
+          <sp who="#kunz">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="180" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="929" unit="chars"/>
+          </sp>
+          <sp who="#hinze">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="78" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="404" unit="chars"/>
+          </sp>
+          <sp who="#fischer">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="5" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="30" unit="chars"/>
+          </sp>
+          <sp who="#schlosser">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="12" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="52" unit="chars"/>
+          </sp>
+          <sp who="#könig">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="99" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="517" unit="chars"/>
+          </sp>
+          <sp who="#prinzessin">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="29" unit="words"/>
+            <amount n="147" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>6. Szene</head>
+        <div>
+          <head>Sechste Szene</head>
+          <sp who="#gottlieb">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="83" unit="words"/>
+            <amount n="7" unit="lines"/>
+            <amount n="408" unit="chars"/>
+          </sp>
+          <sp who="#hinze">
+            <amount n="11" unit="speech_acts"/>
+            <amount n="127" unit="words"/>
+            <amount n="9" unit="lines"/>
+            <amount n="633" unit="chars"/>
+          </sp>
+          <sp who="#könig">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="85" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="483" unit="chars"/>
+          </sp>
+          <sp who="#prinzessin">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="1" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="8" unit="chars"/>
+          </sp>
+          <sp who="#ein_bedienter">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="36" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="184" unit="chars"/>
+          </sp>
+          <sp who="#leutner">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="16" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="92" unit="chars"/>
+          </sp>
+          <sp who="#wiesener">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="6" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="32" unit="chars"/>
+          </sp>
+          <sp who="#nachbar">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="8" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="31" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>7. Szene</head>
+        <div>
+          <head>Siebente Szene</head>
+          <sp who="#bauer">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="37" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="207" unit="chars"/>
+          </sp>
+          <sp who="#popanz">
+            <amount n="14" unit="speech_acts"/>
+            <amount n="166" unit="words"/>
+            <amount n="11" unit="lines"/>
+            <amount n="924" unit="chars"/>
+          </sp>
+          <sp who="#amtmann">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="91" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="489" unit="chars"/>
+          </sp>
+          <sp who="#hinze">
+            <amount n="12" unit="speech_acts"/>
+            <amount n="242" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="1357" unit="chars"/>
+          </sp>
+          <sp who="#schlosser">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="144" unit="words"/>
+            <amount n="809" unit="chars"/>
+          </sp>
+          <sp who="#bötticher">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="185" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="1085" unit="chars"/>
+          </sp>
+          <sp who="#fischer">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="36" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="196" unit="chars"/>
+          </sp>
+          <sp who="#müller">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="51" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="257" unit="chars"/>
+          </sp>
+          <sp who="#leutner">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="35" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="194" unit="chars"/>
+          </sp>
+          <sp who="#dichter">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="266" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="1313" unit="chars"/>
+          </sp>
+          <sp who="#besänftiger">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="86" unit="words"/>
+            <amount n="15" unit="lines"/>
+            <amount n="442" unit="chars"/>
+          </sp>
+          <sp who="#wiesener">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="16" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="77" unit="chars"/>
+          </sp>
+          <sp who="#könig">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="31" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="171" unit="chars"/>
+          </sp>
+          <sp who="#gottlieb">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="45" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="258" unit="chars"/>
+          </sp>
+          <sp who="#prinzessin">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="5" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="22" unit="chars"/>
+          </sp>
+          <sp who="#leander">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="141" unit="words"/>
+            <amount n="14" unit="lines"/>
+            <amount n="829" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>Epilog</head>
+      <div>
+        <head>Epilog</head>
+        <sp who="#der_könig">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="11" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="73" unit="chars"/>
+        </sp>
+        <sp who="#fischer">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="31" unit="words"/>
+          <amount n="5" unit="lines"/>
+          <amount n="155" unit="chars"/>
+        </sp>
+        <sp who="#könig">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="6" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="38" unit="chars"/>
+        </sp>
+        <sp who="#fischer #hinter_dem_vorhange #hanswurst #dichter #müller #schlosser #leutner #souffleur #bötticher">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="11" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="52" unit="chars"/>
+        </sp>
+        <sp who="#hinter_dem_vorhange">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="19" unit="words"/>
+          <amount n="124" unit="chars"/>
+        </sp>
+        <sp who="#hanswurst">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="92" unit="words"/>
+          <amount n="496" unit="chars"/>
+        </sp>
+        <sp who="#dichter">
+          <amount n="16" unit="speech_acts"/>
+          <amount n="193" unit="words"/>
+          <amount n="15" unit="lines"/>
+          <amount n="1085" unit="chars"/>
+        </sp>
+        <sp who="#müller">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="79" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="431" unit="chars"/>
+        </sp>
+        <sp who="#schlosser">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="42" unit="words"/>
+          <amount n="253" unit="chars"/>
+        </sp>
+        <sp who="#leutner">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="18" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="105" unit="chars"/>
+        </sp>
+        <sp who="#souffleur">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="20" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="118" unit="chars"/>
+        </sp>
+        <sp who="#bötticher">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="110" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="666" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+  </text>
+</play>

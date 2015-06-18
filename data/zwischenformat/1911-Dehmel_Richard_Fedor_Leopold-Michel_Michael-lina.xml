@@ -1,0 +1,1069 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital">
+  <header>
+    <title>Michel Michael</title>
+    <subtitle>Komödie in fünf Akten</subtitle>
+    <genretitle>Komödie</genretitle>
+    <author>Dehmel, Richard Fedor Leopold</author>
+    <date type="print" when="1911">1911</date>
+    <date type="premiere" when="1911">1911</date>
+    <date type="written" when="1910">1909–1910</date>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:mbmn.0/data</source>
+  </header>
+  <personae>
+    <character>
+      <name>EULENSPIEGEL</name>
+      <alias xml:id="eulenspiegel">
+        <name>EULENSPIEGEL</name>
+      </alias>
+      <alias xml:id="stimme_eulenspiegels">
+        <name>STIMME EULENSPIEGELS</name>
+      </alias>
+      <alias xml:id="tyll_eulenspiegel">
+        <name>TYLL EULENSPIEGEL</name>
+      </alias>
+    </character>
+    <character>
+      <name>VIERSTIMMIGER GESANG MIT LAUTENSPIEL</name>
+      <alias xml:id="vierstimmiger_gesang_mit_lautenspiel">
+        <name>VIERSTIMMIGER GESANG MIT LAUTENSPIEL</name>
+      </alias>
+      <alias xml:id="gesang">
+        <name>GESANG</name>
+      </alias>
+    </character>
+    <character>
+      <name>MICHEL MICHAEL</name>
+      <alias xml:id="michel_michael">
+        <name>MICHEL MICHAEL</name>
+      </alias>
+      <alias xml:id="michel">
+        <name>MICHEL</name>
+      </alias>
+    </character>
+    <character>
+      <name>LISE</name>
+      <alias xml:id="lise">
+        <name>LISE</name>
+      </alias>
+      <alias xml:id="lise_lied">
+        <name>LISE LIED</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER ROTE KARL</name>
+      <alias xml:id="der_rote_karl">
+        <name>DER ROTE KARL</name>
+      </alias>
+      <alias xml:id="stimme_des_roten_karls">
+        <name>STIMME DES ROTEN KARLS</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER SCHWARZE KARL</name>
+      <alias xml:id="der_schwarze_karl">
+        <name>DER SCHWARZE KARL</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER KAISER ROTBART</name>
+      <alias xml:id="der_kaiser_rotbart">
+        <name>DER KAISER ROTBART</name>
+      </alias>
+      <alias xml:id="der_rotbart">
+        <name>DER ROTBART</name>
+      </alias>
+      <alias xml:id="stimme_des_rotbarts">
+        <name>STIMME DES ROTBARTS</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER GETREUE ECKART</name>
+      <alias xml:id="der_getreue_eckart">
+        <name>DER GETREUE ECKART</name>
+      </alias>
+      <alias xml:id="eckart">
+        <name>ECKART</name>
+      </alias>
+      <alias xml:id="stimme_eckarts">
+        <name>STIMME ECKARTS</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER LANDRAT</name>
+      <alias xml:id="der_landrat">
+        <name>DER LANDRAT</name>
+      </alias>
+    </character>
+    <character>
+      <name>CHORGESANG MIT MUSIK</name>
+      <alias xml:id="chorgesang_mit_musik">
+        <name>CHORGESANG MIT MUSIK</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER BERGRAT</name>
+      <alias xml:id="der_bergrat">
+        <name>DER BERGRAT</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER BÜRGERMEISTER</name>
+      <alias xml:id="der_bürgermeister">
+        <name>DER BÜRGERMEISTER</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE FRAU BÜRGERMEISTERIN</name>
+      <alias xml:id="die_frau_bürgermeisterin">
+        <name>DIE FRAU BÜRGERMEISTERIN</name>
+      </alias>
+      <alias xml:id="die_bürgermeisterin">
+        <name>DIE BÜRGERMEISTERIN</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER PASTOR</name>
+      <alias xml:id="der_pastor">
+        <name>DER PASTOR</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER KAPLAN</name>
+      <alias xml:id="der_kaplan">
+        <name>DER KAPLAN</name>
+      </alias>
+    </character>
+    <character>
+      <name>SPRECHGESANG</name>
+      <alias xml:id="sprechgesang">
+        <name>SPRECHGESANG</name>
+      </alias>
+    </character>
+    <character>
+      <name>DUMPFE STIMMEN IM HINTERGRUND</name>
+      <alias xml:id="dumpfe_stimmen_im_hintergrund">
+        <name>DUMPFE STIMMEN IM HINTERGRUND</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER OBERHEIZER</name>
+      <alias xml:id="der_oberheizer">
+        <name>DER OBERHEIZER</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE KOBOLDE</name>
+      <alias xml:id="die_kobolde">
+        <name>DIE KOBOLDE</name>
+      </alias>
+      <alias xml:id="kobolde">
+        <name>KOBOLDE</name>
+      </alias>
+      <alias xml:id="etliche_bengel_in_koboldtracht">
+        <name>ETLICHE BENGEL IN KOBOLDTRACHT</name>
+      </alias>
+    </character>
+    <character>
+      <name>FRAU VENUS</name>
+      <alias xml:id="frau_venus">
+        <name>FRAU VENUS</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE LANDRÄTE</name>
+      <alias xml:id="die_landräte">
+        <name>DIE LANDRÄTE</name>
+      </alias>
+      <alias xml:id="chor_der_landräte">
+        <name>CHOR DER LANDRÄTE</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE KAPLANE</name>
+      <alias xml:id="die_kaplane">
+        <name>DIE KAPLANE</name>
+      </alias>
+      <alias xml:id="chor_der_kaplane">
+        <name>CHOR DER KAPLANE</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE PASTOREN</name>
+      <alias xml:id="die_pastoren">
+        <name>DIE PASTOREN</name>
+      </alias>
+      <alias xml:id="chor_der_pastoren">
+        <name>CHOR DER PASTOREN</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE BÜRGERMEISTER</name>
+      <alias xml:id="die_bürgermeister">
+        <name>DIE BÜRGERMEISTER</name>
+      </alias>
+      <alias xml:id="chor_der_bürgermeister">
+        <name>CHOR DER BÜRGERMEISTER</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE HEIZER</name>
+      <alias xml:id="die_heizer">
+        <name>DIE HEIZER</name>
+      </alias>
+      <alias xml:id="chor_der_heizer">
+        <name>CHOR DER HEIZER</name>
+      </alias>
+      <alias xml:id="die_drei_heizer">
+        <name>DIE DREI HEIZER</name>
+      </alias>
+      <alias xml:id="alle_drei_heizer">
+        <name>ALLE DREI HEIZER</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE BERGLEUTE</name>
+      <alias xml:id="die_bergleute">
+        <name>DIE BERGLEUTE</name>
+      </alias>
+      <alias xml:id="chor_der_bergleute">
+        <name>CHOR DER BERGLEUTE</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN BERGMANN</name>
+      <alias xml:id="ein_bergmann">
+        <name>EIN BERGMANN</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE GANZE BANDE</name>
+      <alias xml:id="die_ganze_bande">
+        <name>DIE GANZE BANDE</name>
+      </alias>
+    </character>
+    <character>
+      <name>ERSTER KOBOLD</name>
+      <alias xml:id="erster_kobold">
+        <name>ERSTER KOBOLD</name>
+      </alias>
+      <alias xml:id="erster">
+        <name>ERSTER</name>
+      </alias>
+    </character>
+    <character>
+      <name>ZWEITER KOBOLD</name>
+      <alias xml:id="zweiter">
+        <name>ZWEITER</name>
+      </alias>
+    </character>
+    <character>
+      <name>DRITTER KOBOLD</name>
+      <alias xml:id="dritter">
+        <name>DRITTER</name>
+      </alias>
+    </character>
+    <character>
+      <name>EINE DAME</name>
+      <alias xml:id="eine_dame">
+        <name>EINE DAME</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE HERREN</name>
+      <alias xml:id="die_herren">
+        <name>DIE HERREN</name>
+      </alias>
+      <alias xml:id="chor_der_herren">
+        <name>CHOR DER HERREN</name>
+      </alias>
+      <alias xml:id="einige_herren">
+        <name>EINIGE HERREN</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE DAMEN</name>
+      <alias xml:id="die_damen">
+        <name>DIE DAMEN</name>
+      </alias>
+      <alias xml:id="chor_der_damen">
+        <name>CHOR DER DAMEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE POLIZISTEN</name>
+      <alias xml:id="die_polizisten">
+        <name>DIE POLIZISTEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>IMMER MEHR STIMMEN VON DRAUßEN HER</name>
+      <alias xml:id="immer_mehr_stimmen_von_draußen_her">
+        <name>IMMER MEHR STIMMEN VON DRAUßEN HER</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE BERGKNAPPEN</name>
+      <alias xml:id="die_bergknappen">
+        <name>DIE BERGKNAPPEN</name>
+      </alias>
+      <alias xml:id="einige_bergknappen">
+        <name>EINIGE BERGKNAPPEN</name>
+      </alias>
+      <alias xml:id="ein_zug_maskierter_bergknappen">
+        <name>EIN ZUG MASKIERTER BERGKNAPPEN</name>
+      </alias>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Personen</head>
+    </div>
+    <div>
+      <head>[Vorspiel]</head>
+      <div>
+        <head>[Vorspiel]</head>
+        <sp who="#eulenspiegel">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="350" unit="words"/>
+          <amount n="42" unit="lines"/>
+          <amount n="1999" unit="chars"/>
+        </sp>
+        <sp who="#vierstimmiger_gesang_mit_lautenspiel">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="10" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="52" unit="chars"/>
+        </sp>
+        <sp who="#gesang">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="29" unit="words"/>
+          <amount n="6" unit="lines"/>
+          <amount n="153" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>1. Akt</head>
+      <div>
+        <head>Erster Aufzug</head>
+        <sp who="#lise_lied">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="64" unit="words"/>
+          <amount n="16" unit="lines"/>
+          <amount n="357" unit="chars"/>
+        </sp>
+        <sp who="#michel_michael">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="28" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="140" unit="chars"/>
+        </sp>
+        <sp who="#lise">
+          <amount n="21" unit="speech_acts"/>
+          <amount n="287" unit="words"/>
+          <amount n="40" unit="lines"/>
+          <amount n="1496" unit="chars"/>
+        </sp>
+        <sp who="#michel">
+          <amount n="42" unit="speech_acts"/>
+          <amount n="1535" unit="words"/>
+          <amount n="186" unit="lines"/>
+          <amount n="8725" unit="chars"/>
+        </sp>
+        <sp who="#der_rote_karl">
+          <amount n="23" unit="speech_acts"/>
+          <amount n="449" unit="words"/>
+          <amount n="53" unit="lines"/>
+          <amount n="2532" unit="chars"/>
+        </sp>
+        <sp who="#der_schwarze_karl">
+          <amount n="28" unit="speech_acts"/>
+          <amount n="334" unit="words"/>
+          <amount n="46" unit="lines"/>
+          <amount n="1930" unit="chars"/>
+        </sp>
+        <sp who="#tyll_eulenspiegel">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="21" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="101" unit="chars"/>
+        </sp>
+        <sp who="#der_kaiser_rotbart">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="10" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="54" unit="chars"/>
+        </sp>
+        <sp who="#der_getreue_eckart">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="10" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="53" unit="chars"/>
+        </sp>
+        <sp who="#eulenspiegel">
+          <amount n="15" unit="speech_acts"/>
+          <amount n="406" unit="words"/>
+          <amount n="50" unit="lines"/>
+          <amount n="2398" unit="chars"/>
+        </sp>
+        <sp who="#der_rotbart">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="82" unit="words"/>
+          <amount n="10" unit="lines"/>
+          <amount n="485" unit="chars"/>
+        </sp>
+        <sp who="#eckart">
+          <amount n="8" unit="speech_acts"/>
+          <amount n="92" unit="words"/>
+          <amount n="11" unit="lines"/>
+          <amount n="518" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>2. Akt</head>
+      <div>
+        <head>Zweiter Aufzug</head>
+        <sp who="#der_landrat">
+          <amount n="25" unit="speech_acts"/>
+          <amount n="339" unit="words"/>
+          <amount n="52" unit="lines"/>
+          <amount n="2105" unit="chars"/>
+        </sp>
+        <sp who="#eulenspiegel">
+          <amount n="37" unit="speech_acts"/>
+          <amount n="535" unit="words"/>
+          <amount n="79" unit="lines"/>
+          <amount n="3208" unit="chars"/>
+        </sp>
+        <sp who="#chorgesang_mit_musik">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="10" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="53" unit="chars"/>
+        </sp>
+        <sp who="#der_bergrat">
+          <amount n="43" unit="speech_acts"/>
+          <amount n="562" unit="words"/>
+          <amount n="83" unit="lines"/>
+          <amount n="3216" unit="chars"/>
+        </sp>
+        <sp who="#der_bürgermeister">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="10" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="60" unit="chars"/>
+        </sp>
+        <sp who="#michel">
+          <amount n="45" unit="speech_acts"/>
+          <amount n="677" unit="words"/>
+          <amount n="87" unit="lines"/>
+          <amount n="3509" unit="chars"/>
+        </sp>
+        <sp who="#der_rotbart">
+          <amount n="14" unit="speech_acts"/>
+          <amount n="100" unit="words"/>
+          <amount n="14" unit="lines"/>
+          <amount n="544" unit="chars"/>
+        </sp>
+        <sp who="#eckart">
+          <amount n="10" unit="speech_acts"/>
+          <amount n="70" unit="words"/>
+          <amount n="10" unit="lines"/>
+          <amount n="377" unit="chars"/>
+        </sp>
+        <sp who="#die_frau_bürgermeisterin">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="3" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="19" unit="chars"/>
+        </sp>
+        <sp who="#die_bürgermeisterin">
+          <amount n="8" unit="speech_acts"/>
+          <amount n="46" unit="words"/>
+          <amount n="11" unit="lines"/>
+          <amount n="261" unit="chars"/>
+        </sp>
+        <sp who="#der_pastor">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="45" unit="words"/>
+          <amount n="6" unit="lines"/>
+          <amount n="262" unit="chars"/>
+        </sp>
+        <sp who="#der_kaplan">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="62" unit="words"/>
+          <amount n="8" unit="lines"/>
+          <amount n="413" unit="chars"/>
+        </sp>
+        <sp who="#der_landrat #eulenspiegel #der_bergrat #der_bürgermeister #michel #der_rotbart #eckart #die_frau_bürgermeisterin #der_pastor #der_kaplan #der_schwarze_karl #der_rote_karl">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="2" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="13" unit="chars"/>
+        </sp>
+        <sp who="#der_rotbart #eckart">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="14" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="52" unit="chars"/>
+        </sp>
+        <sp who="#der_schwarze_karl">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="64" unit="words"/>
+          <amount n="9" unit="lines"/>
+          <amount n="381" unit="chars"/>
+        </sp>
+        <sp who="#lise_lied">
+          <amount n="9" unit="speech_acts"/>
+          <amount n="230" unit="words"/>
+          <amount n="31" unit="lines"/>
+          <amount n="1300" unit="chars"/>
+        </sp>
+        <sp who="#sprechgesang">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="19" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="107" unit="chars"/>
+        </sp>
+        <sp who="#ein_zug_maskierter_bergknappen">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="18" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="100" unit="chars"/>
+        </sp>
+        <sp who="#der_rote_karl">
+          <amount n="8" unit="speech_acts"/>
+          <amount n="26" unit="words"/>
+          <amount n="8" unit="lines"/>
+          <amount n="159" unit="chars"/>
+        </sp>
+        <sp who="#dumpfe_stimmen_im_hintergrund">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="6" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="32" unit="chars"/>
+        </sp>
+        <sp who="#der_oberheizer">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="55" unit="words"/>
+          <amount n="12" unit="lines"/>
+          <amount n="357" unit="chars"/>
+        </sp>
+        <sp who="#alle_drei_heizer #der_oberheizer">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="7" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="43" unit="chars"/>
+        </sp>
+        <sp who="#die_heizer #die_bergknappen">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="18" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="109" unit="chars"/>
+        </sp>
+        <sp who="#etliche_bengel_in_koboldtracht">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="1" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="7" unit="chars"/>
+        </sp>
+        <sp who="#die_kobolde #erster_kobold #zweiter #dritter">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="3" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="15" unit="chars"/>
+        </sp>
+        <sp who="#kobolde">
+          <amount n="8" unit="speech_acts"/>
+          <amount n="17" unit="words"/>
+          <amount n="8" unit="lines"/>
+          <amount n="83" unit="chars"/>
+        </sp>
+        <sp who="#der_landrat #eulenspiegel #der_bergrat #der_bürgermeister #michel #der_rotbart #eckart #die_frau_bürgermeisterin #der_pastor #der_kaplan #der_schwarze_karl #der_rote_karl #der_schwarze_karl #lise_lied #ein_zug_maskierter_bergknappen #alle_drei_heizer #der_oberheizer #die_kobolde #erster_kobold #zweiter #dritter">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="2" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="13" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>3. Akt</head>
+      <div>
+        <head>Dritter Aufzug</head>
+        <sp who="#eulenspiegel">
+          <amount n="26" unit="speech_acts"/>
+          <amount n="820" unit="words"/>
+          <amount n="103" unit="lines"/>
+          <amount n="4841" unit="chars"/>
+        </sp>
+        <sp who="#frau_venus">
+          <amount n="36" unit="speech_acts"/>
+          <amount n="1122" unit="words"/>
+          <amount n="155" unit="lines"/>
+          <amount n="6570" unit="chars"/>
+        </sp>
+        <sp who="#eckart">
+          <amount n="14" unit="speech_acts"/>
+          <amount n="174" unit="words"/>
+          <amount n="22" unit="lines"/>
+          <amount n="958" unit="chars"/>
+        </sp>
+        <sp who="#der_rotbart">
+          <amount n="12" unit="speech_acts"/>
+          <amount n="124" unit="words"/>
+          <amount n="17" unit="lines"/>
+          <amount n="755" unit="chars"/>
+        </sp>
+        <sp who="#der_rotbart #eulenspiegel">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="2" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="21" unit="chars"/>
+        </sp>
+        <sp who="#chor_der_landräte #chor_der_bürgermeister">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="8" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="46" unit="chars"/>
+        </sp>
+        <sp who="#chor_der_kaplane #chor_der_pastoren">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="7" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="44" unit="chars"/>
+        </sp>
+        <sp who="#die_landräte #die_bürgermeister">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="8" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="50" unit="chars"/>
+        </sp>
+        <sp who="#die_kaplane #die_pastoren">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="9" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="51" unit="chars"/>
+        </sp>
+        <sp who="#die_landräte">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="10" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="61" unit="chars"/>
+        </sp>
+        <sp who="#michel">
+          <amount n="14" unit="speech_acts"/>
+          <amount n="44" unit="words"/>
+          <amount n="13" unit="lines"/>
+          <amount n="173" unit="chars"/>
+        </sp>
+        <sp who="#die_kaplane">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="3" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="23" unit="chars"/>
+        </sp>
+        <sp who="#die_pastoren #die_bürgermeister">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="20" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="116" unit="chars"/>
+        </sp>
+        <sp who="#die_pastoren">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="1" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="6" unit="chars"/>
+        </sp>
+        <sp who="#die_bürgermeister">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="3" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="14" unit="chars"/>
+        </sp>
+        <sp who="#der_rote_karl">
+          <amount n="12" unit="speech_acts"/>
+          <amount n="50" unit="words"/>
+          <amount n="13" unit="lines"/>
+          <amount n="318" unit="chars"/>
+        </sp>
+        <sp who="#chor_der_heizer #chor_der_bergleute">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="6" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="32" unit="chars"/>
+        </sp>
+        <sp who="#die_heizer #die_bergleute">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="52" unit="words"/>
+          <amount n="12" unit="lines"/>
+          <amount n="368" unit="chars"/>
+        </sp>
+        <sp who="#die_kaplane #die_landräte">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="13" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="107" unit="chars"/>
+        </sp>
+        <sp who="#der_kaplan">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="27" unit="words"/>
+          <amount n="6" unit="lines"/>
+          <amount n="129" unit="chars"/>
+        </sp>
+        <sp who="#der_landrat">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="16" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="94" unit="chars"/>
+        </sp>
+        <sp who="#die_heizer">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="11" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="59" unit="chars"/>
+        </sp>
+        <sp who="#der_bergrat">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="14" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="71" unit="chars"/>
+        </sp>
+        <sp who="#die_bürgermeisterin">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="11" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="63" unit="chars"/>
+        </sp>
+        <sp who="#die_bergleute">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="1" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="5" unit="chars"/>
+        </sp>
+        <sp who="#die_drei_heizer">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="1" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="6" unit="chars"/>
+        </sp>
+        <sp who="#der_oberheizer">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="8" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="59" unit="chars"/>
+        </sp>
+        <sp who="#ein_bergmann">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="9" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="60" unit="chars"/>
+        </sp>
+        <sp who="#die_ganze_bande">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="14" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="86" unit="chars"/>
+        </sp>
+        <sp who="#die_kobolde">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="28" unit="words"/>
+          <amount n="7" unit="lines"/>
+          <amount n="173" unit="chars"/>
+        </sp>
+        <sp who="#die_kobolde #eulenspiegel">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="3" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="12" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>4. Akt</head>
+      <div>
+        <head>Vierter Aufzug</head>
+        <sp who="#eulenspiegel">
+          <amount n="31" unit="speech_acts"/>
+          <amount n="566" unit="words"/>
+          <amount n="80" unit="lines"/>
+          <amount n="3344" unit="chars"/>
+        </sp>
+        <sp who="#der_bergrat">
+          <amount n="12" unit="speech_acts"/>
+          <amount n="90" unit="words"/>
+          <amount n="15" unit="lines"/>
+          <amount n="456" unit="chars"/>
+        </sp>
+        <sp who="#lise_lied">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="47" unit="words"/>
+          <amount n="8" unit="lines"/>
+          <amount n="268" unit="chars"/>
+        </sp>
+        <sp who="#lise">
+          <amount n="8" unit="speech_acts"/>
+          <amount n="98" unit="words"/>
+          <amount n="14" unit="lines"/>
+          <amount n="527" unit="chars"/>
+        </sp>
+        <sp who="#die_bürgermeisterin">
+          <amount n="14" unit="speech_acts"/>
+          <amount n="140" unit="words"/>
+          <amount n="22" unit="lines"/>
+          <amount n="684" unit="chars"/>
+        </sp>
+        <sp who="#der_bürgermeister">
+          <amount n="11" unit="speech_acts"/>
+          <amount n="92" unit="words"/>
+          <amount n="17" unit="lines"/>
+          <amount n="583" unit="chars"/>
+        </sp>
+        <sp who="#der_kaplan">
+          <amount n="13" unit="speech_acts"/>
+          <amount n="85" unit="words"/>
+          <amount n="16" unit="lines"/>
+          <amount n="389" unit="chars"/>
+        </sp>
+        <sp who="#michel">
+          <amount n="41" unit="speech_acts"/>
+          <amount n="691" unit="words"/>
+          <amount n="101" unit="lines"/>
+          <amount n="3883" unit="chars"/>
+        </sp>
+        <sp who="#der_rotbart #eckart">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="9" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="53" unit="chars"/>
+        </sp>
+        <sp who="#der_schwarze_karl">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="5" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="34" unit="chars"/>
+        </sp>
+        <sp who="#der_rotbart">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="53" unit="words"/>
+          <amount n="7" unit="lines"/>
+          <amount n="282" unit="chars"/>
+        </sp>
+        <sp who="#der_landrat">
+          <amount n="29" unit="speech_acts"/>
+          <amount n="307" unit="words"/>
+          <amount n="51" unit="lines"/>
+          <amount n="1732" unit="chars"/>
+        </sp>
+        <sp who="#der_kaplan #der_pastor">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="4" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="19" unit="chars"/>
+        </sp>
+        <sp who="#eckart">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="49" unit="words"/>
+          <amount n="8" unit="lines"/>
+          <amount n="284" unit="chars"/>
+        </sp>
+        <sp who="#erster_kobold #zweiter #dritter">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="5" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="31" unit="chars"/>
+        </sp>
+        <sp who="#der_pastor">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="30" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="172" unit="chars"/>
+        </sp>
+        <sp who="#erster_kobold">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="10" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="40" unit="chars"/>
+        </sp>
+        <sp who="#erster">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="15" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="75" unit="chars"/>
+        </sp>
+        <sp who="#zweiter #dritter">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="1" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="13" unit="chars"/>
+        </sp>
+        <sp who="#zweiter">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="9" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="49" unit="chars"/>
+        </sp>
+        <sp who="#dritter">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="8" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="44" unit="chars"/>
+        </sp>
+        <sp who="#die_kobolde">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="3" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="21" unit="chars"/>
+        </sp>
+        <sp who="#erster #zweiter">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="2" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="13" unit="chars"/>
+        </sp>
+        <sp who="#chor_der_herren">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="4" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="28" unit="chars"/>
+        </sp>
+        <sp who="#chor_der_damen #eine_dame">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="3" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="21" unit="chars"/>
+        </sp>
+        <sp who="#eine_dame">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="2" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="8" unit="chars"/>
+        </sp>
+        <sp who="#einige_herren">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="6" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="18" unit="chars"/>
+        </sp>
+        <sp who="#die_herren">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="1" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="3" unit="chars"/>
+        </sp>
+        <sp who="#die_damen #eine_dame">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="5" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="12" unit="chars"/>
+        </sp>
+        <sp who="#die_polizisten">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="27" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="153" unit="chars"/>
+        </sp>
+        <sp who="#stimme_des_roten_karls">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="2" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="12" unit="chars"/>
+        </sp>
+        <sp who="#immer_mehr_stimmen_von_draußen_her">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="6" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="32" unit="chars"/>
+        </sp>
+        <sp who="#der_rote_karl">
+          <amount n="9" unit="speech_acts"/>
+          <amount n="65" unit="words"/>
+          <amount n="15" unit="lines"/>
+          <amount n="368" unit="chars"/>
+        </sp>
+        <sp who="#die_bergknappen">
+          <amount n="13" unit="speech_acts"/>
+          <amount n="88" unit="words"/>
+          <amount n="20" unit="lines"/>
+          <amount n="535" unit="chars"/>
+        </sp>
+        <sp who="#einige_bergknappen">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="1" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="8" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>5. Akt</head>
+      <div>
+        <head>Fünfter Aufzug</head>
+        <sp who="#lise">
+          <amount n="59" unit="speech_acts"/>
+          <amount n="617" unit="words"/>
+          <amount n="99" unit="lines"/>
+          <amount n="3325" unit="chars"/>
+        </sp>
+        <sp who="#der_bergrat">
+          <amount n="28" unit="speech_acts"/>
+          <amount n="321" unit="words"/>
+          <amount n="44" unit="lines"/>
+          <amount n="1661" unit="chars"/>
+        </sp>
+        <sp who="#michel">
+          <amount n="46" unit="speech_acts"/>
+          <amount n="851" unit="words"/>
+          <amount n="122" unit="lines"/>
+          <amount n="4770" unit="chars"/>
+        </sp>
+        <sp who="#eulenspiegel">
+          <amount n="9" unit="speech_acts"/>
+          <amount n="163" unit="words"/>
+          <amount n="20" unit="lines"/>
+          <amount n="1037" unit="chars"/>
+        </sp>
+        <sp who="#der_rotbart">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="47" unit="words"/>
+          <amount n="5" unit="lines"/>
+          <amount n="284" unit="chars"/>
+        </sp>
+        <sp who="#eckart">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="89" unit="words"/>
+          <amount n="13" unit="lines"/>
+          <amount n="525" unit="chars"/>
+        </sp>
+        <sp who="#eulenspiegel #der_rotbart #eckart">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="6" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="29" unit="chars"/>
+        </sp>
+        <sp who="#stimme_eulenspiegels">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="9" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="68" unit="chars"/>
+        </sp>
+        <sp who="#stimme_eckarts">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="9" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="57" unit="chars"/>
+        </sp>
+        <sp who="#stimme_des_rotbarts">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="10" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="59" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+  </text>
+</play>

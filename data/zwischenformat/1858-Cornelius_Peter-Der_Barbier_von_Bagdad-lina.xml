@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital">
+  <header>
+    <title>Der Barbier von Bagdad</title>
+    <subtitle>Komische Oper in zwei Aufzügen</subtitle>
+    <genretitle>Oper</genretitle>
+    <author>Cornelius, Peter</author>
+    <date type="print"></date>
+    <date type="premiere">1858</date>
+    <date type="written"></date>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:m08h.0/data</source>
+  </header>
+  <personae>
+    <character>
+      <name>DIENER NUREDDINS</name>
+      <alias xml:id="diener_nureddins">
+        <name>DIENER NUREDDINS</name>
+      </alias>
+      <alias xml:id="chor_der_diener">
+        <name>CHOR DER DIENER</name>
+      </alias>
+      <alias xml:id="die_diener">
+        <name>DIE DIENER</name>
+      </alias>
+    </character>
+    <character>
+      <name>NUREDDIN</name>
+      <alias xml:id="nureddin">
+        <name>NUREDDIN</name>
+      </alias>
+    </character>
+    <character>
+      <name>CHOR</name>
+      <alias xml:id="chor">
+        <name>CHOR</name>
+      </alias>
+    </character>
+    <character>
+      <name>BOSTANA</name>
+      <alias xml:id="bostana">
+        <name>BOSTANA</name>
+      </alias>
+    </character>
+    <character>
+      <name>ABUL</name>
+      <alias xml:id="abul">
+        <name>ABUL</name>
+      </alias>
+    </character>
+    <character>
+      <name>MARGIANA</name>
+      <alias xml:id="margiana">
+        <name>MARGIANA</name>
+      </alias>
+    </character>
+    <character>
+      <name>KADI</name>
+      <alias xml:id="kadi">
+        <name>KADI</name>
+      </alias>
+    </character>
+    <character>
+      <name>MUEZZIN</name>
+      <alias xml:id="muezzin">
+        <name>MUEZZIN</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER KADI</name>
+      <alias xml:id="der_kadi">
+        <name>DER KADI</name>
+      </alias>
+    </character>
+    <character>
+      <name>DRITTER MUEZZIN</name>
+      <alias xml:id="dritter_muezzin">
+        <name>DRITTER MUEZZIN</name>
+      </alias>
+      <alias xml:id="stimme_des_sklaven">
+        <name>STIMME DES SKLAVEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>STIMME EINES SKLAVEN</name>
+      <alias xml:id="stimme_eines_sklaven">
+        <name>STIMME EINES SKLAVEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>STIMMEN</name>
+      <alias xml:id="stimmen">
+        <name>STIMMEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>FREUNDE DES KADI</name>
+      <alias xml:id="freunde_des_kadi">
+        <name>FREUNDE DES KADI</name>
+      </alias>
+    </character>
+    <character>
+      <name>KLAGEFRAUEN</name>
+      <alias xml:id="klagefrauen">
+        <name>KLAGEFRAUEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>BEWOHNER BAGDADS</name>
+      <alias xml:id="bewohner_bagdads">
+        <name>BEWOHNER BAGDADS</name>
+      </alias>
+    </character>
+    <character>
+      <name>VIER BEWAFFNETE</name>
+      <alias xml:id="vier_bewaffnete">
+        <name>VIER BEWAFFNETE</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER KALIF</name>
+      <alias xml:id="der_kalif">
+        <name>DER KALIF</name>
+      </alias>
+      <alias xml:id="kalif">
+        <name>KALIF</name>
+      </alias>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Personen</head>
+    </div>
+    <div>
+      <head>1. Akt</head>
+      <div>
+        <head>1. Auftritt</head>
+        <div>
+          <head>Erster Auftritt</head>
+          <sp who="#diener_nureddins">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="30" unit="words"/>
+            <amount n="11" unit="lines"/>
+            <amount n="181" unit="chars"/>
+          </sp>
+          <sp who="#nureddin">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="49" unit="words"/>
+            <amount n="10" unit="lines"/>
+            <amount n="324" unit="chars"/>
+          </sp>
+          <sp who="#chor_der_diener">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="94" unit="words"/>
+            <amount n="24" unit="lines"/>
+            <amount n="503" unit="chars"/>
+          </sp>
+          <sp who="#chor">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="54" unit="words"/>
+            <amount n="15" unit="lines"/>
+            <amount n="303" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Auftritt</head>
+        <div>
+          <head>Zweiter Auftritt</head>
+          <sp who="#nureddin">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="204" unit="words"/>
+            <amount n="37" unit="lines"/>
+            <amount n="1114" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3. Auftritt</head>
+        <div>
+          <head>Dritter Auftritt</head>
+          <sp who="#bostana">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="175" unit="words"/>
+            <amount n="25" unit="lines"/>
+            <amount n="914" unit="chars"/>
+          </sp>
+          <sp who="#nureddin">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="164" unit="words"/>
+            <amount n="23" unit="lines"/>
+            <amount n="869" unit="chars"/>
+          </sp>
+          <sp who="#bostana #nureddin">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="91" unit="words"/>
+            <amount n="21" unit="lines"/>
+            <amount n="500" unit="chars"/>
+          </sp>
+          <sp who="#nureddin #bostana">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="62" unit="words"/>
+            <amount n="17" unit="lines"/>
+            <amount n="347" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>4. Auftritt</head>
+        <div>
+          <head>Vierter Auftritt</head>
+          <sp who="#nureddin">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="91" unit="words"/>
+            <amount n="16" unit="lines"/>
+            <amount n="471" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>5. Auftritt</head>
+        <div>
+          <head>Fünfter Auftritt</head>
+          <sp who="#abul">
+            <amount n="10" unit="speech_acts"/>
+            <amount n="345" unit="words"/>
+            <amount n="90" unit="lines"/>
+            <amount n="2130" unit="chars"/>
+          </sp>
+          <sp who="#nureddin">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="162" unit="words"/>
+            <amount n="28" unit="lines"/>
+            <amount n="923" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>6. Auftritt</head>
+        <div>
+          <head>Sechster Auftritt</head>
+          <sp who="#chor_der_diener">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="131" unit="words"/>
+            <amount n="45" unit="lines"/>
+            <amount n="840" unit="chars"/>
+          </sp>
+          <sp who="#abul">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="109" unit="words"/>
+            <amount n="28" unit="lines"/>
+            <amount n="603" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>7. Auftritt</head>
+        <div>
+          <head>Siebenter Auftritt</head>
+          <sp who="#nureddin">
+            <amount n="16" unit="speech_acts"/>
+            <amount n="268" unit="words"/>
+            <amount n="42" unit="lines"/>
+            <amount n="1491" unit="chars"/>
+          </sp>
+          <sp who="#abul">
+            <amount n="15" unit="speech_acts"/>
+            <amount n="260" unit="words"/>
+            <amount n="37" unit="lines"/>
+            <amount n="1391" unit="chars"/>
+          </sp>
+          <sp who="#nureddin #abul">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="84" unit="words"/>
+            <amount n="14" unit="lines"/>
+            <amount n="464" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>8. Auftritt</head>
+        <div>
+          <head>Achter Auftritt</head>
+          <sp who="#abul">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="111" unit="words"/>
+            <amount n="22" unit="lines"/>
+            <amount n="616" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>9. Auftritt</head>
+        <div>
+          <head>Neunter Auftritt</head>
+          <sp who="#nureddin">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="110" unit="words"/>
+            <amount n="22" unit="lines"/>
+            <amount n="546" unit="chars"/>
+          </sp>
+          <sp who="#abul">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="109" unit="words"/>
+            <amount n="23" unit="lines"/>
+            <amount n="540" unit="chars"/>
+          </sp>
+          <sp who="#die_diener">
+            <amount n="1" unit="speech_acts"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>10. Auftritt</head>
+        <div>
+          <head>Zehnter Auftritt</head>
+          <sp who="#nureddin">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="124" unit="words"/>
+            <amount n="30" unit="lines"/>
+            <amount n="637" unit="chars"/>
+          </sp>
+          <sp who="#chor_der_diener">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="126" unit="words"/>
+            <amount n="32" unit="lines"/>
+            <amount n="688" unit="chars"/>
+          </sp>
+          <sp who="#abul">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="21" unit="words"/>
+            <amount n="7" unit="lines"/>
+            <amount n="132" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>2. Akt</head>
+      <div>
+        <head>1. Auftritt</head>
+        <div>
+          <head>Erster Auftritt</head>
+          <sp who="#margiana">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="171" unit="words"/>
+            <amount n="24" unit="lines"/>
+            <amount n="874" unit="chars"/>
+          </sp>
+          <sp who="#bostana">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="157" unit="words"/>
+            <amount n="22" unit="lines"/>
+            <amount n="799" unit="chars"/>
+          </sp>
+          <sp who="#kadi">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="162" unit="words"/>
+            <amount n="25" unit="lines"/>
+            <amount n="904" unit="chars"/>
+          </sp>
+          <sp who="#muezzin #dritter_muezzin">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="48" unit="words"/>
+            <amount n="275" unit="chars"/>
+          </sp>
+          <sp who="#der_kadi #margiana #bostana">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="15" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="80" unit="chars"/>
+          </sp>
+          <sp who="#der_kadi">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="9" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="40" unit="chars"/>
+          </sp>
+          <sp who="#dritter_muezzin">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="5" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="31" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Auftritt</head>
+        <div>
+          <head>Zweiter Auftritt</head>
+          <sp who="#nureddin">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="68" unit="words"/>
+            <amount n="10" unit="lines"/>
+            <amount n="349" unit="chars"/>
+          </sp>
+          <sp who="#margiana">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="72" unit="words"/>
+            <amount n="10" unit="lines"/>
+            <amount n="354" unit="chars"/>
+          </sp>
+          <sp who="#nureddin #margiana">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="64" unit="words"/>
+            <amount n="10" unit="lines"/>
+            <amount n="322" unit="chars"/>
+          </sp>
+          <sp who="#abul">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="21" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="111" unit="chars"/>
+          </sp>
+          <sp who="#bostana">
+            <amount n="1" unit="speech_acts"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3. Auftritt</head>
+        <div>
+          <head>Dritter Auftritt</head>
+          <sp who="#bostana">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="38" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="193" unit="chars"/>
+          </sp>
+          <sp who="#nureddin">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="14" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="77" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>4. Auftritt</head>
+        <div>
+          <head>Vierter Auftritt</head>
+          <sp who="#nureddin">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="44" unit="words"/>
+            <amount n="8" unit="lines"/>
+            <amount n="227" unit="chars"/>
+          </sp>
+          <sp who="#abul">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="47" unit="words"/>
+            <amount n="8" unit="lines"/>
+            <amount n="270" unit="chars"/>
+          </sp>
+          <sp who="#margiana">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="32" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="153" unit="chars"/>
+          </sp>
+          <sp who="#stimme_eines_sklaven">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="6" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="29" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>5. Auftritt</head>
+        <div>
+          <head>Fünfter Auftritt</head>
+          <sp who="#bostana">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="69" unit="words"/>
+            <amount n="9" unit="lines"/>
+            <amount n="376" unit="chars"/>
+          </sp>
+          <sp who="#stimme_des_sklaven">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="5" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="23" unit="chars"/>
+          </sp>
+          <sp who="#abul">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="17" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="92" unit="chars"/>
+          </sp>
+          <sp who="#margiana">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="15" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="80" unit="chars"/>
+          </sp>
+          <sp who="#nureddin">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="13" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="86" unit="chars"/>
+          </sp>
+          <sp who="#stimmen">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="7" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="39" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>6. Auftritt</head>
+        <div>
+          <head>Sechster Auftritt</head>
+          <sp who="#abul">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="14" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="82" unit="chars"/>
+          </sp>
+          <sp who="#bostana">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="33" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="174" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>7. Auftritt</head>
+        <div>
+          <head>Siebenter Auftritt</head>
+          <sp who="#abul">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="80" unit="words"/>
+            <amount n="13" unit="lines"/>
+            <amount n="458" unit="chars"/>
+          </sp>
+          <sp who="#kadi">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="48" unit="words"/>
+            <amount n="8" unit="lines"/>
+            <amount n="261" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>8. Auftritt</head>
+        <div>
+          <head>Achter Auftritt</head>
+          <sp who="#kadi">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="43" unit="words"/>
+            <amount n="8" unit="lines"/>
+            <amount n="245" unit="chars"/>
+          </sp>
+          <sp who="#abul #diener_nureddins">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="22" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="122" unit="chars"/>
+          </sp>
+          <sp who="#freunde_des_kadi">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="23" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="121" unit="chars"/>
+          </sp>
+          <sp who="#klagefrauen">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="33" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="165" unit="chars"/>
+          </sp>
+          <sp who="#bewohner_bagdads">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="21" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="118" unit="chars"/>
+          </sp>
+          <sp who="#abul">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="22" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="120" unit="chars"/>
+          </sp>
+          <sp who="#der_kadi #freunde_des_kadi">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="48" unit="words"/>
+            <amount n="9" unit="lines"/>
+            <amount n="270" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>9. Auftritt</head>
+        <div>
+          <head>Neunter Auftritt</head>
+          <sp who="#vier_bewaffnete">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="3" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="18" unit="chars"/>
+          </sp>
+          <sp who="#der_kalif">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="82" unit="words"/>
+            <amount n="470" unit="chars"/>
+          </sp>
+          <sp who="#kadi">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="64" unit="words"/>
+            <amount n="8" unit="lines"/>
+            <amount n="353" unit="chars"/>
+          </sp>
+          <sp who="#kalif">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="35" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="217" unit="chars"/>
+          </sp>
+          <sp who="#abul">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="132" unit="words"/>
+            <amount n="19" unit="lines"/>
+            <amount n="711" unit="chars"/>
+          </sp>
+          <sp who="#chor">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="2" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="14" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>10. Auftritt</head>
+        <div>
+          <head>Zehnter Auftritt</head>
+          <sp who="#kadi">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="112" unit="words"/>
+            <amount n="7" unit="lines"/>
+            <amount n="607" unit="chars"/>
+          </sp>
+          <sp who="#margiana">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="5" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="21" unit="chars"/>
+          </sp>
+          <sp who="#chor">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="69" unit="words"/>
+            <amount n="14" unit="lines"/>
+            <amount n="387" unit="chars"/>
+          </sp>
+          <sp who="#abul">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="186" unit="words"/>
+            <amount n="35" unit="lines"/>
+            <amount n="1074" unit="chars"/>
+          </sp>
+          <sp who="#kadi #margiana #abul #kalif #margiana #bostana #nureddin #chor">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="8" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="47" unit="chars"/>
+          </sp>
+          <sp who="#kalif">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="128" unit="words"/>
+            <amount n="17" unit="lines"/>
+            <amount n="689" unit="chars"/>
+          </sp>
+          <sp who="#margiana #bostana">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="38" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="236" unit="chars"/>
+          </sp>
+          <sp who="#bostana #margiana">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="13" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="67" unit="chars"/>
+          </sp>
+          <sp who="#nureddin #kadi #abul #kalif">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="9" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="52" unit="chars"/>
+          </sp>
+          <sp who="#nureddin">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="6" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="29" unit="chars"/>
+          </sp>
+          <sp who="#abul #nureddin">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="21" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="111" unit="chars"/>
+          </sp>
+          <sp who="#kadi #margiana #abul #kalif #margiana #bostana #nureddin #chor">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="1" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="13" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+  </text>
+</play>

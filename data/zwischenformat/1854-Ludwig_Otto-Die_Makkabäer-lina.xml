@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital">
+  <header>
+    <title>Die Makkabäer</title>
+  	<subtitle>Trauerspiel in fünf Akten</subtitle>
+  	<genretitle>Trauerspiel</genretitle>
+    <author>Ludwig, Otto</author>
+    <date when="1852" type="written" />
+  	<date when="1854" type="print" />
+  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:s6m2.0/data</source>
+  </header>
+  <personae>
+    <character>
+      <name>JOARIM</name>
+      <alias xml:id="joarim">
+        <name>JOARIM</name>
+      </alias>
+    </character>
+    <character>
+      <name>LEA</name>
+      <alias xml:id="lea">
+        <name>LEA</name>
+      </alias>
+    </character>
+    <character>
+      <name>BENJAMIN</name>
+      <alias xml:id="benjamin">
+        <name>BENJAMIN</name>
+      </alias>
+    </character>
+    <character>
+      <name>ELEAZAR</name>
+      <alias xml:id="eleazar">
+        <name>ELEAZAR</name>
+      </alias>
+    </character>
+    <character>
+      <name>JUDA</name>
+      <alias xml:id="juda">
+        <name>JUDA</name>
+      </alias>
+    </character>
+    <character>
+      <name>SIMEI</name>
+      <alias xml:id="simei">
+        <name>SIMEI</name>
+      </alias>
+    </character>
+    <character>
+      <name>MATTATHIAS</name>
+      <alias xml:id="mattathias">
+        <name>MATTATHIAS</name>
+      </alias>
+    </character>
+    <character>
+      <name>BOAS</name>
+      <alias xml:id="boas">
+        <name>BOAS</name>
+      </alias>
+    </character>
+    <character>
+      <name>AMRI</name>
+      <alias xml:id="amri">
+        <name>AMRI</name>
+      </alias>
+    </character>
+    <character>
+      <name>JOJAKIM</name>
+      <alias xml:id="jojakim">
+        <name>JOJAKIM</name>
+      </alias>
+    </character>
+    <character>
+      <name>NAEMI</name>
+      <alias xml:id="naemi">
+        <name>NAEMI</name>
+      </alias>
+    </character>
+    <character>
+      <name>JONATHAN</name>
+      <alias xml:id="jonathan">
+        <name>JONATHAN</name>
+      </alias>
+    </character>
+    <character>
+      <name>AARON</name>
+      <alias xml:id="aaron">
+        <name>AARON</name>
+      </alias>
+    </character>
+    <character>
+      <name>GORGIAS</name>
+      <alias xml:id="gorgias">
+        <name>GORGIAS</name>
+      </alias>
+    </character>
+    <character>
+      <name>NIKANOR</name>
+      <alias xml:id="nikanor">
+        <name>NIKANOR</name>
+      </alias>
+    </character>
+    <character>
+      <name>SIMON</name>
+      <alias xml:id="simon">
+        <name>SIMON</name>
+      </alias>
+    </character>
+    <character>
+      <name>JOHANNES</name>
+      <alias xml:id="johannes">
+        <name>JOHANNES</name>
+      </alias>
+    </character>
+    <character>
+      <name>VOLK</name>
+      <alias xml:id="volk">
+        <name>VOLK</name>
+      </alias>
+    	<alias xml:id="die_bewaffneten">
+    		<name>DIE BEWAFFNETEN</name>
+    	</alias>
+    	<alias xml:id="die_übrigen">
+    		<name>DIE ÜBRIGEN</name>
+    	</alias>
+    	<alias xml:id="die_herumliegenden">
+    		<name>DIE HERUMLIEGENDEN</name>
+    	</alias>
+    	<alias xml:id="die_meisten_aus_dem_volke">
+    		<name>DIE MEISTEN AUS DEM VOLKE</name>
+    	</alias>
+    </character>
+    <character>
+      <name>USIEL</name>
+      <alias xml:id="usiel">
+        <name>USIEL</name>
+      </alias>
+    </character>
+    <character>
+      <name>ÄMILIUS</name>
+      <alias xml:id="ämilius">
+        <name>ÄMILIUS</name>
+      </alias>
+    </character>
+    <character>
+      <name>NATHAN</name>
+      <alias xml:id="nathan">
+        <name>NATHAN</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE HAUPTLEUTE</name>
+      <alias xml:id="die_hauptleute">
+        <name>DIE HAUPTLEUTE</name>
+      </alias>
+    </character>
+    <character>
+      <name>ANTIOCHUS</name>
+      <alias xml:id="antiochus">
+        <name>ANTIOCHUS</name>
+      </alias>
+    </character>
+    <character>
+      <name>JOSUA</name>
+      <alias xml:id="josua">
+        <name>JOSUA</name>
+      </alias>
+    </character>
+    <character>
+      <name>ELIA</name>
+      <alias xml:id="elia">
+        <name>ELIA</name>
+      </alias>
+    </character>
+    <character>
+      <name>MISAEL</name>
+      <alias xml:id="misael">
+        <name>MISAEL</name>
+      </alias>
+    </character>
+    <character>
+      <name>RUBEN</name>
+      <alias xml:id="ruben">
+        <name>RUBEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>ISSASCHAR</name>
+      <alias xml:id="issaschar">
+        <name>ISSASCHAR</name>
+      </alias>
+    </character>
+    <character>
+      <name>VOLKSHAUFE</name>
+      <alias xml:id="volkshaufe">
+        <name>VOLKSHAUFE</name>
+      </alias>
+    	<alias xml:id="erster_volkshaufe">
+    		<name>ERSTER VOLKSHAUFE</name>
+    	</alias>
+    </character>
+  	<character>
+  		<name>Dritter Volkshaufe</name>
+  		<alias xml:id="viele_stimmen_aus_dem_dritten_volkshaufen">
+  			<name>VIELE STIMMEN AUS DEM DRITTEN VOLKSHAUFEN</name>
+  		</alias>
+  		<alias xml:id="der_übrige_dritte_volkshaufe">
+  			<name>DER ÜBRIGE DRITTE VOLKSHAUFE</name>
+  		</alias>
+  	</character>
+    <character>
+      <name>DIE JUNGFRAUEN</name>
+      <alias xml:id="die_jungfrauen">
+        <name>DIE JUNGFRAUEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>DAS WEIB</name>
+      <alias xml:id="das_weib">
+        <name>DAS WEIB</name>
+      </alias>
+    	<alias xml:id="weib">
+    		<name>WEIB</name>
+    	</alias>
+    </character>
+    <character>
+      <name>GREIS</name>
+      <alias xml:id="greis">
+        <name>GREIS</name>
+      </alias>
+    </character>
+    <character>
+      <name>GESCHREI IM LAGER</name>
+      <alias xml:id="geschrei_im_lager">
+        <name>GESCHREI IM LAGER</name>
+      </alias>
+    </character>
+  	<character>
+  		<name>Judas Gefolge</name>
+  		<alias xml:id="judas_gefolge">
+  			<name>Gefolge</name>
+  		</alias>
+  	</character>
+  </personae>
+  <text>
+    <div>
+      <head>Personen</head>
+    </div>
+    <div>
+      <head>1. Akt</head>
+      <div>
+        <head>Erster Akt.</head>
+        <sp who="#joarim">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="188" unit="words"/>
+          <amount n="26" unit="lines"/>
+          <amount n="982" unit="chars"/>
+        </sp>
+        <sp who="#lea">
+          <amount n="69" unit="speech_acts"/>
+          <amount n="1805" unit="words"/>
+          <amount n="264" unit="lines"/>
+          <amount n="9377" unit="chars"/>
+        </sp>
+        <sp who="#benjamin">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="81" unit="words"/>
+          <amount n="13" unit="lines"/>
+          <amount n="405" unit="chars"/>
+        </sp>
+        <sp who="#eleazar">
+          <amount n="31" unit="speech_acts"/>
+          <amount n="629" unit="words"/>
+          <amount n="92" unit="lines"/>
+          <amount n="3156" unit="chars"/>
+        </sp>
+        <sp who="#juda">
+          <amount n="23" unit="speech_acts"/>
+          <amount n="821" unit="words"/>
+          <amount n="117" unit="lines"/>
+          <amount n="4370" unit="chars"/>
+        </sp>
+        <sp who="#simei">
+          <amount n="13" unit="speech_acts"/>
+          <amount n="222" unit="words"/>
+          <amount n="36" unit="lines"/>
+          <amount n="1186" unit="chars"/>
+        </sp>
+        <sp who="#mattathias">
+          <amount n="26" unit="speech_acts"/>
+          <amount n="508" unit="words"/>
+          <amount n="77" unit="lines"/>
+          <amount n="2744" unit="chars"/>
+        </sp>
+        <sp who="#boas">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="73" unit="words"/>
+          <amount n="11" unit="lines"/>
+          <amount n="383" unit="chars"/>
+        </sp>
+        <sp who="#amri">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="16" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="83" unit="chars"/>
+        </sp>
+        <sp who="#jojakim">
+          <amount n="10" unit="speech_acts"/>
+          <amount n="176" unit="words"/>
+          <amount n="28" unit="lines"/>
+          <amount n="922" unit="chars"/>
+        </sp>
+        <sp who="#joarim #benjamin #juda">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="2" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="10" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>2. Akt</head>
+      <div>
+        <head>Zweiter Akt.</head>
+        <sp who="#lea">
+          <amount n="18" unit="speech_acts"/>
+          <amount n="392" unit="words"/>
+          <amount n="63" unit="lines"/>
+          <amount n="2080" unit="chars"/>
+        </sp>
+        <sp who="#juda">
+          <amount n="35" unit="speech_acts"/>
+          <amount n="613" unit="words"/>
+          <amount n="94" unit="lines"/>
+          <amount n="3173" unit="chars"/>
+        </sp>
+        <sp who="#naemi">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="52" unit="words"/>
+          <amount n="8" unit="lines"/>
+          <amount n="248" unit="chars"/>
+        </sp>
+        <sp who="#mattathias">
+          <amount n="17" unit="speech_acts"/>
+          <amount n="617" unit="words"/>
+          <amount n="85" unit="lines"/>
+          <amount n="3185" unit="chars"/>
+        </sp>
+        <sp who="#jonathan">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="9" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="43" unit="chars"/>
+        </sp>
+        <sp who="#eleazar">
+          <amount n="16" unit="speech_acts"/>
+          <amount n="271" unit="words"/>
+          <amount n="44" unit="lines"/>
+          <amount n="1375" unit="chars"/>
+        </sp>
+        <sp who="#jojakim">
+          <amount n="11" unit="speech_acts"/>
+          <amount n="143" unit="words"/>
+          <amount n="25" unit="lines"/>
+          <amount n="779" unit="chars"/>
+        </sp>
+        <sp who="#aaron">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="35" unit="words"/>
+          <amount n="9" unit="lines"/>
+          <amount n="192" unit="chars"/>
+        </sp>
+        <sp who="#simei">
+          <amount n="14" unit="speech_acts"/>
+          <amount n="85" unit="words"/>
+          <amount n="20" unit="lines"/>
+          <amount n="423" unit="chars"/>
+        </sp>
+        <sp who="#boas">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="49" unit="words"/>
+          <amount n="8" unit="lines"/>
+          <amount n="272" unit="chars"/>
+        </sp>
+        <sp who="#amri">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="124" unit="words"/>
+          <amount n="21" unit="lines"/>
+          <amount n="649" unit="chars"/>
+        </sp>
+        <sp who="#gorgias">
+          <amount n="18" unit="speech_acts"/>
+          <amount n="300" unit="words"/>
+          <amount n="54" unit="lines"/>
+          <amount n="1675" unit="chars"/>
+        </sp>
+        <sp who="#nikanor">
+          <amount n="17" unit="speech_acts"/>
+          <amount n="266" unit="words"/>
+          <amount n="42" unit="lines"/>
+          <amount n="1454" unit="chars"/>
+        </sp>
+        <sp who="#simon">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="76" unit="words"/>
+          <amount n="13" unit="lines"/>
+          <amount n="398" unit="chars"/>
+        </sp>
+        <sp who="#johannes">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="2" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="9" unit="chars"/>
+        </sp>
+        <sp who="#simei">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="2" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="11" unit="chars"/>
+        </sp>
+        <sp who="#volk">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="23" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="132" unit="chars"/>
+        </sp>
+        <sp who="#usiel">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="2" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="14" unit="chars"/>
+        </sp>
+        <sp who="#die_bewaffneten">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="5" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="27" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>3. Akt</head>
+      <div>
+        <head>Dritter Akt.</head>
+        <sp who="#jonathan">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="42" unit="words"/>
+          <amount n="7" unit="lines"/>
+          <amount n="225" unit="chars"/>
+        </sp>
+        <sp who="#simon">
+          <amount n="14" unit="speech_acts"/>
+          <amount n="227" unit="words"/>
+          <amount n="36" unit="lines"/>
+          <amount n="1190" unit="chars"/>
+        </sp>
+        <sp who="#juda">
+          <amount n="18" unit="speech_acts"/>
+          <amount n="1098" unit="words"/>
+          <amount n="148" unit="lines"/>
+          <amount n="5784" unit="chars"/>
+        </sp>
+        <sp who="#ämilius">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="195" unit="words"/>
+          <amount n="27" unit="lines"/>
+          <amount n="1079" unit="chars"/>
+        </sp>
+        <sp who="#jojakim">
+          <amount n="21" unit="speech_acts"/>
+          <amount n="478" unit="words"/>
+          <amount n="70" unit="lines"/>
+          <amount n="2559" unit="chars"/>
+        </sp>
+        <sp who="#nathan">
+          <amount n="9" unit="speech_acts"/>
+          <amount n="137" unit="words"/>
+          <amount n="24" unit="lines"/>
+          <amount n="765" unit="chars"/>
+        </sp>
+        <sp who="#usiel">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="54" unit="words"/>
+          <amount n="9" unit="lines"/>
+          <amount n="289" unit="chars"/>
+        </sp>
+        <sp who="#die_hauptleute">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="6" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="31" unit="chars"/>
+        </sp>
+        <sp who="#antiochus">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="386" unit="words"/>
+          <amount n="51" unit="lines"/>
+          <amount n="2045" unit="chars"/>
+        </sp>
+        <sp who="#eleazar">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="42" unit="words"/>
+          <amount n="7" unit="lines"/>
+          <amount n="220" unit="chars"/>
+        </sp>
+        <sp who="#gorgias">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="29" unit="words"/>
+          <amount n="5" unit="lines"/>
+          <amount n="167" unit="chars"/>
+        </sp>
+        <sp who="#nikanor">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="34" unit="words"/>
+          <amount n="5" unit="lines"/>
+          <amount n="180" unit="chars"/>
+        </sp>
+        <sp who="#josua">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="11" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="51" unit="chars"/>
+        </sp>
+        <sp who="#elia">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="3" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="22" unit="chars"/>
+        </sp>
+        <sp who="#misael">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="12" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="74" unit="chars"/>
+        </sp>
+        <sp who="#ruben">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="10" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="58" unit="chars"/>
+        </sp>
+        <sp who="#ruben #volkshaufe #misael #elia #josua">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="7" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="34" unit="chars"/>
+        </sp>
+        <sp who="#issaschar">
+          <amount n="8" unit="speech_acts"/>
+          <amount n="162" unit="words"/>
+          <amount n="25" unit="lines"/>
+          <amount n="882" unit="chars"/>
+        </sp>
+        <sp who="#volkshaufe">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="22" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="114" unit="chars"/>
+        </sp>
+        <sp who="#lea">
+          <amount n="44" unit="speech_acts"/>
+          <amount n="901" unit="words"/>
+          <amount n="141" unit="lines"/>
+          <amount n="4711" unit="chars"/>
+        </sp>
+        <sp who="#johannes">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="56" unit="words"/>
+          <amount n="10" unit="lines"/>
+          <amount n="289" unit="chars"/>
+        </sp>
+        <sp who="#amri">
+          <amount n="20" unit="speech_acts"/>
+          <amount n="366" unit="words"/>
+          <amount n="61" unit="lines"/>
+          <amount n="1930" unit="chars"/>
+        </sp>
+      	<sp who="#viele_stimmen_aus_dem_dritten_volkshaufen #der_übrige_dritte_volkshaufe">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="35" unit="words"/>
+          <amount n="7" unit="lines"/>
+          <amount n="183" unit="chars"/>
+        </sp>
+        <sp who="#viele_stimmen_aus_dem_dritten_volkshaufen">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="4" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="22" unit="chars"/>
+        </sp>
+        <sp who="#der_übrige_dritte_volkshaufe">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="5" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="28" unit="chars"/>
+        </sp>
+        <sp who="#erster_volkshaufe">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="34" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="183" unit="chars"/>
+        </sp>
+        <sp who="#boas">
+          <amount n="8" unit="speech_acts"/>
+          <amount n="366" unit="words"/>
+          <amount n="50" unit="lines"/>
+          <amount n="1880" unit="chars"/>
+        </sp>
+      	<sp who="#amri #der_übrige_dritte_volkshaufe #viele_stimmen_aus_dem_dritten_volkshaufen">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="27" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="152" unit="chars"/>
+        </sp>
+        <sp who="#die_meisten_aus_dem_volke">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="13" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="79" unit="chars"/>
+        </sp>
+        <sp who="#volk">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="43" unit="words"/>
+          <amount n="9" unit="lines"/>
+          <amount n="220" unit="chars"/>
+        </sp>
+        <sp who="#aaron">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="8" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="51" unit="chars"/>
+        </sp>
+        <sp who="#die_jungfrauen">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="2" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="11" unit="chars"/>
+        </sp>
+        <sp who="#naemi">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="19" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="92" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>4. Akt</head>
+      <div>
+        <head>Vierter Akt.</head>
+        <sp who="#aaron">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="79" unit="words"/>
+          <amount n="12" unit="lines"/>
+          <amount n="398" unit="chars"/>
+        </sp>
+        <sp who="#amri">
+          <amount n="13" unit="speech_acts"/>
+          <amount n="136" unit="words"/>
+          <amount n="28" unit="lines"/>
+          <amount n="737" unit="chars"/>
+        </sp>
+        <sp who="#benjamin">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="12" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="60" unit="chars"/>
+        </sp>
+        <sp who="#joarim">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="32" unit="words"/>
+          <amount n="6" unit="lines"/>
+          <amount n="151" unit="chars"/>
+        </sp>
+        <sp who="#johannes">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="35" unit="words"/>
+          <amount n="6" unit="lines"/>
+          <amount n="180" unit="chars"/>
+        </sp>
+        <sp who="#lea">
+          <amount n="24" unit="speech_acts"/>
+          <amount n="947" unit="words"/>
+          <amount n="130" unit="lines"/>
+          <amount n="4861" unit="chars"/>
+        </sp>
+        <sp who="#naemi">
+          <amount n="27" unit="speech_acts"/>
+          <amount n="354" unit="words"/>
+          <amount n="56" unit="lines"/>
+          <amount n="1824" unit="chars"/>
+        </sp>
+        <sp who="#juda">
+          <amount n="16" unit="speech_acts"/>
+          <amount n="697" unit="words"/>
+          <amount n="98" unit="lines"/>
+          <amount n="3703" unit="chars"/>
+        </sp>
+        <sp who="#usiel">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="5" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="24" unit="chars"/>
+        </sp>
+        <sp who="#simon">
+          <amount n="12" unit="speech_acts"/>
+          <amount n="197" unit="words"/>
+          <amount n="31" unit="lines"/>
+          <amount n="1065" unit="chars"/>
+        </sp>
+        <sp who="#jonathan">
+          <amount n="13" unit="speech_acts"/>
+          <amount n="255" unit="words"/>
+          <amount n="39" unit="lines"/>
+          <amount n="1392" unit="chars"/>
+        </sp>
+        <sp who="#das_weib">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="60" unit="words"/>
+          <amount n="8" unit="lines"/>
+          <amount n="321" unit="chars"/>
+        </sp>
+        <sp who="#greis">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="5" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="21" unit="chars"/>
+        </sp>
+        <sp who="#weib">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="46" unit="words"/>
+          <amount n="8" unit="lines"/>
+          <amount n="226" unit="chars"/>
+        </sp>
+        <sp who="#volk">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="44" unit="words"/>
+          <amount n="10" unit="lines"/>
+          <amount n="232" unit="chars"/>
+        </sp>
+        <sp who="#die_herumliegenden">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="2" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="9" unit="chars"/>
+        </sp>
+        <sp who="#die_übrigen">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="2" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="9" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>5. Akt</head>
+      <div>
+        <head>Fünfter Akt.</head>
+        <sp who="#nikanor">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="166" unit="words"/>
+          <amount n="27" unit="lines"/>
+          <amount n="929" unit="chars"/>
+        </sp>
+        <sp who="#antiochus">
+          <amount n="37" unit="speech_acts"/>
+          <amount n="429" unit="words"/>
+          <amount n="73" unit="lines"/>
+          <amount n="2278" unit="chars"/>
+        </sp>
+        <sp who="#gorgias">
+          <amount n="11" unit="speech_acts"/>
+          <amount n="449" unit="words"/>
+          <amount n="63" unit="lines"/>
+          <amount n="2451" unit="chars"/>
+        </sp>
+        <sp who="#eleazar">
+          <amount n="17" unit="speech_acts"/>
+          <amount n="505" unit="words"/>
+          <amount n="69" unit="lines"/>
+          <amount n="2658" unit="chars"/>
+        </sp>
+        <sp who="#lea">
+          <amount n="31" unit="speech_acts"/>
+          <amount n="1148" unit="words"/>
+          <amount n="159" unit="lines"/>
+          <amount n="5902" unit="chars"/>
+        </sp>
+        <sp who="#benjamin">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="39" unit="words"/>
+          <amount n="7" unit="lines"/>
+          <amount n="214" unit="chars"/>
+        </sp>
+        <sp who="#joarim">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="33" unit="words"/>
+          <amount n="6" unit="lines"/>
+          <amount n="169" unit="chars"/>
+        </sp>
+        <sp who="#johannes">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="4" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="22" unit="chars"/>
+        </sp>
+        <sp who="#judas_gefolge">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="5" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="26" unit="chars"/>
+        </sp>
+        <sp who="#geschrei_im_lager">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="4" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="27" unit="chars"/>
+        </sp>
+        <sp who="#juda">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="119" unit="words"/>
+          <amount n="18" unit="lines"/>
+          <amount n="611" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+  </text>
+	<documentation>
+		<change n="1" who="dariokampkaspar" type="adjustSpeaker">
+			<path>/play/personae[1]/character[18]</path>
+			<orig />
+			<comment>Ehem. character »Die Bewaffneten«, »Die Herumliegenden«, »Die Übrigen« als Alias hinzugefügt: Nach Bühnenanweisung handelt es sich jeweils um das Volk wobei Teile davon einmalig durch eine Bühnenanweisung sich anders äußern bzw. verhalten.</comment>
+		</change>
+		<change n="2" who="dariokampkaspar" type="expandCollective">
+			<path>/play/text[1]/div[3]/div[1]/sp[11]</path>
+			<orig>#die_brüder</orig>
+			<comment>Eleazar verabschiedet sich, weitere Brüder nicht auf der Bühne.</comment>
+		</change>
+	</documentation>
+</play>

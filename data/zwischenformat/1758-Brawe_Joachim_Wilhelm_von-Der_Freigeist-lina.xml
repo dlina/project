@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="http://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital">
+  <header>
+    <title>Der Freigeist</title>
+    <subtitle>ein Trauerspiel in Prosa und fünf Aufzügen</subtitle>
+    <genretitle>Trauerspiel</genretitle>
+    <author>Brawe, Joachim Wilhelm von</author>
+    <date type="print" when="1758">1758</date>
+    <date type="premiere"></date>
+    <date type="written"></date>
+    <source>http://www.textgridrep.de/browse.html?id=textgrid:kq6w.0</source>
+  </header>
+  <personae>
+    <character>
+      <name>HENLEY</name>
+      <alias xml:id="henley">
+        <name>HENLEY</name>
+      </alias>
+    </character>
+    <character>
+      <name>WIDSTON</name>
+      <alias xml:id="widston">
+        <name>WIDSTON</name>
+      </alias>
+    </character>
+    <character>
+      <name>KLERDON</name>
+      <alias xml:id="klerdon">
+        <name>KLERDON</name>
+      </alias>
+    </character>
+    <character>
+      <name>TRUWORTH</name>
+      <alias xml:id="truworth">
+        <name>TRUWORTH</name>
+      </alias>
+    </character>
+    <character>
+      <name>GRANVILLE</name>
+      <alias xml:id="granville">
+        <name>GRANVILLE</name>
+      </alias>
+    </character>
+    <character>
+      <name>AMALIA</name>
+      <alias xml:id="amalia">
+        <name>AMALIA</name>
+      </alias>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Personen</head>
+    </div>
+    <div>
+      <head>1. Akt</head>
+      <div>
+        <head>1</head>
+        <div>
+          <head>Erster Auftritt.</head>
+          <sp who="#henley">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="1062" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="6322" unit="chars"/>
+          </sp>
+          <sp who="#widston">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="73" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="419" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2</head>
+        <div>
+          <head>Zweyter Auftritt.</head>
+          <sp who="#klerdon">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="681" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="3916" unit="chars"/>
+          </sp>
+          <sp who="#henley">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="300" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="1697" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3</head>
+        <div>
+          <head>Dritter Auftritt.</head>
+          <sp who="#henley">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="730" unit="words"/>
+            <amount n="4267" unit="chars"/>
+          </sp>
+          <sp who="#widston">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="43" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="251" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>4</head>
+        <div>
+          <head>Vierter Auftritt.</head>
+          <sp who="#widston">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="193" unit="words"/>
+            <amount n="1101" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>5</head>
+        <div>
+          <head>Fünfter Auftritt.</head>
+          <sp who="#klerdon">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="478" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="2796" unit="chars"/>
+          </sp>
+          <sp who="#truworth">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="364" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="2001" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>2. Akt</head>
+      <div>
+        <head>1</head>
+        <div>
+          <head>Erster Auftritt.</head>
+          <sp who="#granville">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="392" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="2232" unit="chars"/>
+          </sp>
+          <sp who="#amalia">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="213" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="1208" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2</head>
+        <div>
+          <head>Zweyter Auftritt.</head>
+          <sp who="#granville">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="62" unit="words"/>
+            <amount n="365" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3</head>
+        <div>
+          <head>Dritter Auftritt.</head>
+          <sp who="#klerdon">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="287" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="1640" unit="chars"/>
+          </sp>
+          <sp who="#granville">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="779" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="4412" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>4</head>
+        <div>
+          <head>Vierter Auftritt.</head>
+          <sp who="#klerdon">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="153" unit="words"/>
+            <amount n="900" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>5</head>
+        <div>
+          <head>Fünfter Auftritt.</head>
+          <sp who="#henley">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="665" unit="words"/>
+            <amount n="3982" unit="chars"/>
+          </sp>
+          <sp who="#klerdon">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="300" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="1809" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>6</head>
+        <div>
+          <head>Sechster Auftritt.</head>
+          <sp who="#granville">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="1130" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="6716" unit="chars"/>
+          </sp>
+          <sp who="#klerdon">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="309" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="1726" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>7</head>
+        <div>
+          <head>Siebenter Auftritt.</head>
+          <sp who="#henley">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="76" unit="words"/>
+            <amount n="431" unit="chars"/>
+          </sp>
+          <sp who="#granville">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="108" unit="words"/>
+            <amount n="611" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>8</head>
+        <div>
+          <head>Achter Auftritt.</head>
+          <sp who="#henley">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="75" unit="words"/>
+            <amount n="448" unit="chars"/>
+          </sp>
+          <sp who="#klerdon">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="51" unit="words"/>
+            <amount n="305" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>3. Akt</head>
+      <div>
+        <head>1</head>
+        <div>
+          <head>Erster Auftritt.</head>
+          <sp who="#henley">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="200" unit="words"/>
+            <amount n="1096" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2</head>
+        <div>
+          <head>Zweyter Auftritt.</head>
+          <sp who="#henley">
+            <amount n="12" unit="speech_acts"/>
+            <amount n="917" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="5557" unit="chars"/>
+          </sp>
+          <sp who="#klerdon">
+            <amount n="12" unit="speech_acts"/>
+            <amount n="588" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="3479" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3</head>
+        <div>
+          <head>Dritter Auftritt.</head>
+          <sp who="#klerdon">
+            <amount n="12" unit="speech_acts"/>
+            <amount n="277" unit="words"/>
+            <amount n="8" unit="lines"/>
+            <amount n="1643" unit="chars"/>
+          </sp>
+          <sp who="#granville">
+            <amount n="12" unit="speech_acts"/>
+            <amount n="531" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="3141" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>4</head>
+        <div>
+          <head>Vierter Auftritt.</head>
+          <sp who="#klerdon">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="95" unit="words"/>
+            <amount n="544" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>5</head>
+        <div>
+          <head>Fünfter Auftritt.</head>
+          <sp who="#klerdon">
+            <amount n="10" unit="speech_acts"/>
+            <amount n="548" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="3216" unit="chars"/>
+          </sp>
+          <sp who="#henley">
+            <amount n="10" unit="speech_acts"/>
+            <amount n="539" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="3095" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>6</head>
+        <div>
+          <head>Sechster Auftritt.</head>
+          <sp who="#klerdon">
+            <amount n="12" unit="speech_acts"/>
+            <amount n="478" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="2679" unit="chars"/>
+          </sp>
+          <sp who="#granville">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="282" unit="words"/>
+            <amount n="1615" unit="chars"/>
+          </sp>
+          <sp who="#amalia">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="235" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="1319" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>7</head>
+        <div>
+          <head>Siebenter Auftritt.</head>
+          <sp who="#amalia">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="28" unit="words"/>
+            <amount n="157" unit="chars"/>
+          </sp>
+          <sp who="#granville">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="104" unit="words"/>
+            <amount n="621" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>4. Akt</head>
+      <div>
+        <head>1</head>
+        <div>
+          <head>Erster Auftritt.</head>
+          <sp who="#klerdon">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="319" unit="words"/>
+            <amount n="1788" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2</head>
+        <div>
+          <head>Zweyter Auftritt.</head>
+          <sp who="#henley">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="277" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="1669" unit="chars"/>
+          </sp>
+          <sp who="#klerdon">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="13" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="68" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3</head>
+        <div>
+          <head>Dritter Auftritt.</head>
+          <sp who="#henley">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="138" unit="words"/>
+            <amount n="837" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>4</head>
+        <div>
+          <head>Vierter Auftritt.</head>
+          <sp who="#widston">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="414" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="2352" unit="chars"/>
+          </sp>
+          <sp who="#henley">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="454" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="2641" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>5</head>
+        <div>
+          <head>Fünfter Auftritt.</head>
+          <sp who="#henley">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="258" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="1581" unit="chars"/>
+          </sp>
+          <sp who="#klerdon">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="741" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="4245" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>6</head>
+        <div>
+          <head>Sechster Auftritt.</head>
+          <sp who="#granville">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="1107" unit="words"/>
+            <amount n="6336" unit="chars"/>
+          </sp>
+          <sp who="#klerdon">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="438" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="2488" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>5. Akt</head>
+      <div>
+        <head>1</head>
+        <div>
+          <head>Erster Auftritt.</head>
+          <sp who="#klerdon">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="519" unit="words"/>
+            <amount n="2889" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2</head>
+        <div>
+          <head>Zweyter Auftritt.</head>
+          <sp who="#amalia">
+            <amount n="15" unit="speech_acts"/>
+            <amount n="1152" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="6433" unit="chars"/>
+          </sp>
+          <sp who="#klerdon">
+            <amount n="14" unit="speech_acts"/>
+            <amount n="670" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="3655" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3</head>
+        <div>
+          <head>Dritter Auftritt.</head>
+          <sp who="#klerdon">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="649" unit="words"/>
+            <amount n="3672" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>4</head>
+        <div>
+          <head>Vierter Auftritt.</head>
+          <sp who="#truworth">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="371" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="2083" unit="chars"/>
+          </sp>
+          <sp who="#klerdon">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="522" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="3035" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>5</head>
+        <div>
+          <head>Fünfter Auftritt.</head>
+          <sp who="#klerdon">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="266" unit="words"/>
+            <amount n="1450" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>6</head>
+        <div>
+          <head>Sechster und letzter Auftritt.</head>
+          <sp who="#klerdon">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="162" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="937" unit="chars"/>
+          </sp>
+          <sp who="#henley">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="521" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="2954" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+  </text>
+</play>

@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital">
+  <header>
+    <title>Jungfern Köchinnen</title>
+    <subtitle>Lokalposse in einem Akt</subtitle>
+    <genretitle></genretitle>
+    <author>Malß, Karl</author>
+    <date type="print" when="1836">1836</date>
+    <date type="premiere" when="1835">1835</date>
+    <date type="written"></date>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:s8br.0/data</source>
+  </header>
+  <personae>
+    <character>
+      <name>MADAME HAMMEL</name>
+      <alias xml:id="madame_hammel">
+        <name>MADAME HAMMEL</name>
+      </alias>
+    </character>
+    <character>
+      <name>KOHLENTRÄGER</name>
+      <alias xml:id="kohlenträger">
+        <name>KOHLENTRÄGER</name>
+      </alias>
+    </character>
+    <character>
+      <name>HERR HAMMEL</name>
+      <alias xml:id="herr_hammel">
+        <name>HERR HAMMEL</name>
+      </alias>
+      <alias xml:id="hammel">
+        <name>HAMMEL</name>
+      </alias>
+    </character>
+    <character>
+      <name>FRENZ</name>
+      <alias xml:id="frenz">
+        <name>FRENZ</name>
+      </alias>
+    </character>
+    <character>
+      <name>PETER</name>
+      <alias xml:id="peter">
+        <name>PETER</name>
+      </alias>
+    </character>
+    <character>
+      <name>FRAU HANNLAPPS</name>
+      <alias xml:id="frau_hannlapps">
+        <name>FRAU HANNLAPPS</name>
+      </alias>
+    </character>
+    <character>
+      <name>DORTHEE</name>
+      <alias xml:id="dorthee">
+        <name>DORTHEE</name>
+      </alias>
+    </character>
+    <character>
+      <name>LISSBETH</name>
+      <alias xml:id="lissbeth">
+        <name>LISSBETH</name>
+      </alias>
+    </character>
+    <character>
+      <name>SUSANN</name>
+      <alias xml:id="susann">
+        <name>SUSANN</name>
+      </alias>
+    </character>
+    <character>
+      <name>SCHWÄBIN</name>
+      <alias xml:id="schwäbin">
+        <name>SCHWÄBIN</name>
+      </alias>
+    </character>
+    <character>
+      <name>JOHANN</name>
+      <alias xml:id="johann">
+        <name>JOHANN</name>
+      </alias>
+    </character>
+    <character>
+      <name>SCHMIDT</name>
+      <alias xml:id="schmidt">
+        <name>SCHMIDT</name>
+      </alias>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Personen</head>
+    </div>
+    <div>
+      <head>1. Szene</head>
+      <div>
+        <head>Scene 1.</head>
+        <sp who="#madame_hammel">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="80" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="394" unit="chars"/>
+        </sp>
+        <sp who="#kohlenträger">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="75" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="359" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>2. Szene</head>
+      <div>
+        <head>Scene 2.</head>
+        <sp who="#madame_hammel">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="199" unit="words"/>
+          <amount n="1022" unit="chars"/>
+        </sp>
+        <sp who="#herr_hammel">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="1" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="6" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>3. Szene</head>
+      <div>
+        <head>Scene 3.</head>
+        <sp who="#hammel">
+          <amount n="11" unit="speech_acts"/>
+          <amount n="390" unit="words"/>
+          <amount n="5" unit="lines"/>
+          <amount n="1940" unit="chars"/>
+        </sp>
+        <sp who="#madame_hammel">
+          <amount n="10" unit="speech_acts"/>
+          <amount n="166" unit="words"/>
+          <amount n="6" unit="lines"/>
+          <amount n="798" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>4. Szene</head>
+      <div>
+        <head>Scene 4.</head>
+        <sp who="#frenz">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="17" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="83" unit="chars"/>
+        </sp>
+        <sp who="#madame_hammel">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="22" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="118" unit="chars"/>
+        </sp>
+        <sp who="#hammel">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="2" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="12" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>5. Szene</head>
+      <div>
+        <head>Scene 5.</head>
+        <sp who="#frenz">
+          <amount n="11" unit="speech_acts"/>
+          <amount n="132" unit="words"/>
+          <amount n="8" unit="lines"/>
+          <amount n="651" unit="chars"/>
+        </sp>
+        <sp who="#madame_hammel">
+          <amount n="11" unit="speech_acts"/>
+          <amount n="275" unit="words"/>
+          <amount n="5" unit="lines"/>
+          <amount n="1347" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>6. Szene</head>
+      <div>
+        <head>Scene 6.</head>
+        <sp who="#frenz">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="129" unit="words"/>
+          <amount n="673" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>7. Szene</head>
+      <div>
+        <head>Scene 7.</head>
+        <sp who="#peter">
+          <amount n="31" unit="speech_acts"/>
+          <amount n="741" unit="words"/>
+          <amount n="15" unit="lines"/>
+          <amount n="3768" unit="chars"/>
+        </sp>
+        <sp who="#frenz">
+          <amount n="30" unit="speech_acts"/>
+          <amount n="433" unit="words"/>
+          <amount n="23" unit="lines"/>
+          <amount n="2168" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>8. Szene</head>
+      <div>
+        <head>Scene 8.</head>
+        <sp who="#hammel">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="13" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="51" unit="chars"/>
+        </sp>
+        <sp who="#frenz">
+          <amount n="1" unit="speech_acts"/>
+        </sp>
+        <sp who="#peter">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="8" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="35" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>9. Szene</head>
+      <div>
+        <head>Scene 9.</head>
+        <sp who="#hammel">
+          <amount n="13" unit="speech_acts"/>
+          <amount n="285" unit="words"/>
+          <amount n="8" unit="lines"/>
+          <amount n="1408" unit="chars"/>
+        </sp>
+        <sp who="#frenz">
+          <amount n="9" unit="speech_acts"/>
+          <amount n="136" unit="words"/>
+          <amount n="8" unit="lines"/>
+          <amount n="657" unit="chars"/>
+        </sp>
+        <sp who="#madame_hammel">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="24" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="127" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>10. Szene</head>
+      <div>
+        <head>Scene 10.</head>
+        <sp who="#frenz">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="80" unit="words"/>
+          <amount n="401" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>11. Szene</head>
+      <div>
+        <head>Scene 11.</head>
+        <sp who="#frau_hannlapps">
+          <amount n="17" unit="speech_acts"/>
+          <amount n="304" unit="words"/>
+          <amount n="10" unit="lines"/>
+          <amount n="1555" unit="chars"/>
+        </sp>
+        <sp who="#frenz">
+          <amount n="17" unit="speech_acts"/>
+          <amount n="241" unit="words"/>
+          <amount n="11" unit="lines"/>
+          <amount n="1155" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>12. Szene</head>
+      <div>
+        <head>Scene 12.</head>
+        <sp who="#madame_hammel">
+          <amount n="11" unit="speech_acts"/>
+          <amount n="139" unit="words"/>
+          <amount n="7" unit="lines"/>
+          <amount n="661" unit="chars"/>
+        </sp>
+        <sp who="#frenz">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="36" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="180" unit="chars"/>
+        </sp>
+        <sp who="#frau_hannlapps">
+          <amount n="10" unit="speech_acts"/>
+          <amount n="236" unit="words"/>
+          <amount n="5" unit="lines"/>
+          <amount n="1233" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>13. Szene</head>
+      <div>
+        <head>Scene 13.</head>
+        <sp who="#frenz">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="73" unit="words"/>
+          <amount n="373" unit="chars"/>
+        </sp>
+        <sp who="#dorthee">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="4" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="26" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>14. Szene</head>
+      <div>
+        <head>Scene 14.</head>
+        <sp who="#dorthee">
+          <amount n="8" unit="speech_acts"/>
+          <amount n="184" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="860" unit="chars"/>
+        </sp>
+        <sp who="#frenz">
+          <amount n="9" unit="speech_acts"/>
+          <amount n="135" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="659" unit="chars"/>
+        </sp>
+        <sp who="#madame_hammel">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="19" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="92" unit="chars"/>
+        </sp>
+        <sp who="#herr_hammel">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="14" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="63" unit="chars"/>
+        </sp>
+        <sp who="#hammel">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="4" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="19" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>15. Szene</head>
+      <div>
+        <head>Scene 15.</head>
+        <sp who="#dorthee">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="100" unit="words"/>
+          <amount n="464" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>16. Szene</head>
+      <div>
+        <head>Scene 16.</head>
+        <sp who="#frenz">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="85" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="413" unit="chars"/>
+        </sp>
+        <sp who="#dorthee">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="71" unit="words"/>
+          <amount n="5" unit="lines"/>
+          <amount n="342" unit="chars"/>
+        </sp>
+        <sp who="#madame_hammel">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="21" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="92" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>17. Szene</head>
+      <div>
+        <head>Scene 17.</head>
+        <sp who="#madame_hammel">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="73" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="348" unit="chars"/>
+        </sp>
+        <sp who="#frenz">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="54" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="275" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>18. Szene</head>
+      <div>
+        <head>Scene 18.</head>
+        <sp who="#madame_hammel">
+          <amount n="14" unit="speech_acts"/>
+          <amount n="249" unit="words"/>
+          <amount n="8" unit="lines"/>
+          <amount n="1265" unit="chars"/>
+        </sp>
+        <sp who="#dorthee">
+          <amount n="13" unit="speech_acts"/>
+          <amount n="414" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="2037" unit="chars"/>
+        </sp>
+        <sp who="#frenz">
+          <amount n="1" unit="speech_acts"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>19. Szene</head>
+      <div>
+        <head>Scene 19.</head>
+        <sp who="#madame_hammel">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="31" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="153" unit="chars"/>
+        </sp>
+        <sp who="#frenz">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="72" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="358" unit="chars"/>
+        </sp>
+        <sp who="#dorthee">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="61" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="288" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>20. Szene</head>
+      <div>
+        <head>Scene 20.</head>
+        <sp who="#peter">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="28" unit="words"/>
+          <amount n="168" unit="chars"/>
+        </sp>
+        <sp who="#frenz">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="58" unit="words"/>
+          <amount n="269" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>21. Szene</head>
+      <div>
+        <head>Scene 21.</head>
+        <sp who="#lissbeth">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="79" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="402" unit="chars"/>
+        </sp>
+        <sp who="#frenz">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="45" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="281" unit="chars"/>
+        </sp>
+        <sp who="#dorthee">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="93" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="436" unit="chars"/>
+        </sp>
+        <sp who="#peter">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="28" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="132" unit="chars"/>
+        </sp>
+        <sp who="#susann">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="22" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="113" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>22. Szene</head>
+      <div>
+        <head>Scene 22.</head>
+        <sp who="#susann">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="73" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="376" unit="chars"/>
+        </sp>
+        <sp who="#frenz">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="43" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="199" unit="chars"/>
+        </sp>
+        <sp who="#dorthee">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="89" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="439" unit="chars"/>
+        </sp>
+        <sp who="#lissbeth">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="29" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="153" unit="chars"/>
+        </sp>
+        <sp who="#peter">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="15" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="79" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>23. Szene</head>
+      <div>
+        <head>Scene 23.</head>
+        <sp who="#schwäbin">
+          <amount n="14" unit="speech_acts"/>
+          <amount n="112" unit="words"/>
+          <amount n="11" unit="lines"/>
+          <amount n="576" unit="chars"/>
+        </sp>
+        <sp who="#frenz">
+          <amount n="13" unit="speech_acts"/>
+          <amount n="181" unit="words"/>
+          <amount n="11" unit="lines"/>
+          <amount n="842" unit="chars"/>
+        </sp>
+        <sp who="#lissbeth">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="63" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="308" unit="chars"/>
+        </sp>
+        <sp who="#peter">
+          <amount n="8" unit="speech_acts"/>
+          <amount n="89" unit="words"/>
+          <amount n="7" unit="lines"/>
+          <amount n="438" unit="chars"/>
+        </sp>
+        <sp who="#dorthee">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="34" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="185" unit="chars"/>
+        </sp>
+        <sp who="#susann">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="28" unit="words"/>
+          <amount n="130" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>24. Szene</head>
+      <div>
+        <head>Scene 24.</head>
+        <sp who="#johann">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="14" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="75" unit="chars"/>
+        </sp>
+        <sp who="#peter">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="14" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="69" unit="chars"/>
+        </sp>
+        <sp who="#frenz">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="36" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="174" unit="chars"/>
+        </sp>
+        <sp who="#schmidt">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="33" unit="words"/>
+          <amount n="161" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>25. Szene</head>
+      <div>
+        <head>Scene 25.</head>
+        <sp who="#dorthee">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="4" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="19" unit="chars"/>
+        </sp>
+        <sp who="#lissbeth">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="3" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="11" unit="chars"/>
+        </sp>
+        <sp who="#susann">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="14" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="62" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>26. Szene</head>
+      <div>
+        <head>Scene 26.</head>
+        <sp who="#frau_hannlapps">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="70" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="369" unit="chars"/>
+        </sp>
+        <sp who="#frenz">
+          <amount n="10" unit="speech_acts"/>
+          <amount n="228" unit="words"/>
+          <amount n="7" unit="lines"/>
+          <amount n="1173" unit="chars"/>
+        </sp>
+        <sp who="#dorthee">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="52" unit="words"/>
+          <amount n="6" unit="lines"/>
+          <amount n="263" unit="chars"/>
+        </sp>
+        <sp who="#lissbeth">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="21" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="107" unit="chars"/>
+        </sp>
+        <sp who="#peter">
+          <amount n="10" unit="speech_acts"/>
+          <amount n="837" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="4554" unit="chars"/>
+        </sp>
+        <sp who="#schwäbin">
+          <amount n="2" unit="speech_acts"/>
+        </sp>
+        <sp who="#johann">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="22" unit="words"/>
+          <amount n="123" unit="chars"/>
+        </sp>
+        <sp who="#frau_hannlapps #frenz #dorthee #lissbeth #peter #schwäbin #johann #susann">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="4" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="13" unit="chars"/>
+        </sp>
+        <sp who="#susann">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="11" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="58" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>27. Szene</head>
+      <div>
+        <head>Scene 27.</head>
+        <sp who="#peter">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="123" unit="words"/>
+          <amount n="5" unit="lines"/>
+          <amount n="633" unit="chars"/>
+        </sp>
+        <sp who="#frenz">
+          <amount n="9" unit="speech_acts"/>
+          <amount n="142" unit="words"/>
+          <amount n="6" unit="lines"/>
+          <amount n="701" unit="chars"/>
+        </sp>
+        <sp who="#frau_hannlapps">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="65" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="349" unit="chars"/>
+        </sp>
+        <sp who="#madame_hammel">
+          <amount n="13" unit="speech_acts"/>
+          <amount n="167" unit="words"/>
+          <amount n="11" unit="lines"/>
+          <amount n="850" unit="chars"/>
+        </sp>
+        <sp who="#peter #frenz #frau_hannlapps #madame_hammel #hammel #dorthee">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="22" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="136" unit="chars"/>
+        </sp>
+        <sp who="#hammel">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="86" unit="words"/>
+          <amount n="6" unit="lines"/>
+          <amount n="409" unit="chars"/>
+        </sp>
+        <sp who="#dorthee">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="23" unit="words"/>
+          <amount n="101" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>28. Szene</head>
+      <div>
+        <head>noName</head>
+        <div>
+          <head>Scene 28.</head>
+          <sp who="#frenz">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="101" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="513" unit="chars"/>
+          </sp>
+          <sp who="#dorthee">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="10" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="49" unit="chars"/>
+          </sp>
+        </div>
+        <div>
+          <head>Fußnoten</head>
+        </div>
+      </div>
+    </div>
+  </text>
+</play>

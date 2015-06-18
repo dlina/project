@@ -1,0 +1,1514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital">
+  <header>
+    <title>Monaldeschi</title>
+    <subtitle>Tragödie in fünf Akten</subtitle>
+    <genretitle>Tragödie</genretitle>
+    <author>Laube, Heinrich</author>
+    <date type="print">1845</date>
+    <date type="premiere">1841</date>
+    <date type="written"></date>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:rfcv.0/data</source>
+  </header>
+  <personae>
+    <character>
+      <name>SYLVA</name>
+      <alias xml:id="sylva">
+        <name>SYLVA</name>
+      </alias>
+    </character>
+    <character>
+      <name>MALSTRÖM</name>
+      <alias xml:id="malström">
+        <name>MALSTRÖM</name>
+      </alias>
+    </character>
+    <character>
+      <name>MONALDESCHI</name>
+      <alias xml:id="monaldeschi">
+        <name>MONALDESCHI</name>
+      </alias>
+    </character>
+    <character>
+      <name>BRAHE</name>
+      <alias xml:id="brahe">
+        <name>BRAHE</name>
+      </alias>
+    </character>
+    <character>
+      <name>SCHNURE</name>
+      <alias xml:id="schnure">
+        <name>SCHNURE</name>
+      </alias>
+      <alias xml:id="schnüre">
+        <name>SCHNÜRE</name>
+      </alias>
+      <alias xml:id="schnur">
+        <name>SCHNUR</name>
+      </alias>
+    </character>
+    <character>
+      <name>SANTINELLI</name>
+      <alias xml:id="santinelli">
+        <name>SANTINELLI</name>
+      </alias>
+    </character>
+    <character>
+      <name>CHRISTINE</name>
+      <alias xml:id="christine">
+        <name>CHRISTINE</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN DIENER</name>
+      <alias xml:id="ein_diener">
+        <name>EIN DIENER</name>
+      </alias>
+      <alias xml:id="diener">
+        <name>DIENER</name>
+      </alias>
+    </character>
+    <character>
+      <name>ROSENHANE</name>
+      <alias xml:id="rosenhane">
+        <name>ROSENHANE</name>
+      </alias>
+    </character>
+    <character>
+      <name>VIELE STIMMEN</name>
+      <alias xml:id="viele_stimmen">
+        <name>VIELE STIMMEN</name>
+      </alias>
+      <alias xml:id="einzelne_stimmen">
+        <name>EINZELNE STIMMEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>PRIOR</name>
+      <alias xml:id="prior">
+        <name>PRIOR</name>
+      </alias>
+      <alias xml:id="der_prior">
+        <name>DER PRIOR</name>
+      </alias>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Personen</head>
+    </div>
+    <div>
+      <head>Vorspiel</head>
+      <div>
+        <head>1. Szene</head>
+        <div>
+          <head>Erste Szene.</head>
+          <sp who="#sylva">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="228" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="1222" unit="chars"/>
+          </sp>
+          <sp who="#malström">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="95" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="544" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Szene</head>
+        <div>
+          <head>Zweite Szene.</head>
+          <sp who="#monaldeschi">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="512" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="2775" unit="chars"/>
+          </sp>
+          <sp who="#sylva">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="61" unit="words"/>
+            <amount n="7" unit="lines"/>
+            <amount n="326" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3. Szene</head>
+        <div>
+          <head>Dritte Szene.</head>
+          <sp who="#malström">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="44" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="248" unit="chars"/>
+          </sp>
+          <sp who="#monaldeschi">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="46" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="271" unit="chars"/>
+          </sp>
+          <sp who="#monaldeschi">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="12" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="73" unit="chars"/>
+          </sp>
+          <sp who="#sylva">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="25" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="135" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>4. Szene</head>
+        <div>
+          <head>Vierte Szene.</head>
+          <sp who="#brahe">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="175" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="1004" unit="chars"/>
+          </sp>
+          <sp who="#malström">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="81" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="452" unit="chars"/>
+          </sp>
+          <sp who="#sylva">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="14" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="73" unit="chars"/>
+          </sp>
+          <sp who="#schnure">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="57" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="311" unit="chars"/>
+          </sp>
+          <sp who="#monaldeschi">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="165" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="977" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>5. Szene</head>
+        <div>
+          <head>Fünfte Szene.</head>
+          <sp who="#schnure">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="44" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="254" unit="chars"/>
+          </sp>
+          <sp who="#brahe">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="50" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="304" unit="chars"/>
+          </sp>
+          <sp who="#sylva">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="9" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="47" unit="chars"/>
+          </sp>
+          <sp who="#malström">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="1" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="6" unit="chars"/>
+          </sp>
+          <sp who="#schnüre">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="16" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="79" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>6. Szene</head>
+        <div>
+          <head>Sechste Szene.</head>
+          <sp who="#santinelli">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="379" unit="words"/>
+            <amount n="2157" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>7. Szene</head>
+        <div>
+          <head>Siebente Szene.</head>
+          <sp who="#santinelli">
+            <amount n="19" unit="speech_acts"/>
+            <amount n="328" unit="words"/>
+            <amount n="15" unit="lines"/>
+            <amount n="1860" unit="chars"/>
+          </sp>
+          <sp who="#monaldeschi">
+            <amount n="18" unit="speech_acts"/>
+            <amount n="1125" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="6436" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>8. Szene</head>
+        <div>
+          <head>Achte Szene.</head>
+          <sp who="#santinelli">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="158" unit="words"/>
+            <amount n="867" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>9. Szene</head>
+        <div>
+          <head>Neunte Szene.</head>
+          <sp who="#brahe">
+            <amount n="15" unit="speech_acts"/>
+            <amount n="665" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="4069" unit="chars"/>
+          </sp>
+          <sp who="#christine">
+            <amount n="16" unit="speech_acts"/>
+            <amount n="587" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="3318" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>10. Szene</head>
+        <div>
+          <head>Zehnte Szene.</head>
+          <sp who="#christine">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="214" unit="words"/>
+            <amount n="1185" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>11. Szene</head>
+        <div>
+          <head>Elfte Szene.</head>
+          <sp who="#monaldeschi">
+            <amount n="34" unit="speech_acts"/>
+            <amount n="1070" unit="words"/>
+            <amount n="14" unit="lines"/>
+            <amount n="6005" unit="chars"/>
+          </sp>
+          <sp who="#christine">
+            <amount n="32" unit="speech_acts"/>
+            <amount n="422" unit="words"/>
+            <amount n="24" unit="lines"/>
+            <amount n="2319" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>12. Szene</head>
+        <div>
+          <head>Zwölfte Szene.</head>
+          <sp who="#christine">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="58" unit="words"/>
+            <amount n="330" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>1. Akt</head>
+      <div>
+        <head>1. Szene</head>
+        <div>
+          <head>Erste Szene.</head>
+          <sp who="#sylva">
+            <amount n="20" unit="speech_acts"/>
+            <amount n="444" unit="words"/>
+            <amount n="12" unit="lines"/>
+            <amount n="2440" unit="chars"/>
+          </sp>
+          <sp who="#brahe">
+            <amount n="19" unit="speech_acts"/>
+            <amount n="564" unit="words"/>
+            <amount n="11" unit="lines"/>
+            <amount n="3210" unit="chars"/>
+          </sp>
+          <sp who="#ein_diener">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="13" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="71" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Szene</head>
+        <div>
+          <head>Zweite Szene.</head>
+          <sp who="#monaldeschi">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="267" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="1480" unit="chars"/>
+          </sp>
+          <sp who="#brahe">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="143" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="760" unit="chars"/>
+          </sp>
+          <sp who="#sylva">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="2" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="12" unit="chars"/>
+          </sp>
+          <sp who="#ein_diener">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="5" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="25" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3. Szene</head>
+        <div>
+          <head>Dritte Szene.</head>
+          <sp who="#monaldeschi">
+            <amount n="11" unit="speech_acts"/>
+            <amount n="69" unit="words"/>
+            <amount n="11" unit="lines"/>
+            <amount n="357" unit="chars"/>
+          </sp>
+          <sp who="#sylva">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="90" unit="words"/>
+            <amount n="9" unit="lines"/>
+            <amount n="453" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>4. Szene</head>
+        <div>
+          <head>Vierte Szene.</head>
+          <sp who="#malström">
+            <amount n="14" unit="speech_acts"/>
+            <amount n="283" unit="words"/>
+            <amount n="9" unit="lines"/>
+            <amount n="1633" unit="chars"/>
+          </sp>
+          <sp who="#monaldeschi">
+            <amount n="14" unit="speech_acts"/>
+            <amount n="352" unit="words"/>
+            <amount n="8" unit="lines"/>
+            <amount n="1935" unit="chars"/>
+          </sp>
+          <sp who="#brahe">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="20" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="102" unit="chars"/>
+          </sp>
+          <sp who="#sylva">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="12" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="66" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>5. Szene</head>
+        <div>
+          <head>Fünfte Szene.</head>
+          <sp who="#brahe">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="54" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="331" unit="chars"/>
+          </sp>
+          <sp who="#sylva">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="10" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="52" unit="chars"/>
+          </sp>
+          <sp who="#malström">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="116" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="667" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>6. Szene</head>
+        <div>
+          <head>Sechste Szene.</head>
+          <sp who="#sylva">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="141" unit="words"/>
+            <amount n="695" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>7. Szene</head>
+        <div>
+          <head>Siebente Szene.</head>
+          <sp who="#christine">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="322" unit="words"/>
+            <amount n="1756" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>8. Szene</head>
+        <div>
+          <head>Achte Szene.</head>
+          <sp who="#diener">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="4" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="21" unit="chars"/>
+          </sp>
+          <sp who="#christine">
+            <amount n="20" unit="speech_acts"/>
+            <amount n="636" unit="words"/>
+            <amount n="15" unit="lines"/>
+            <amount n="3491" unit="chars"/>
+          </sp>
+          <sp who="#brahe">
+            <amount n="19" unit="speech_acts"/>
+            <amount n="388" unit="words"/>
+            <amount n="10" unit="lines"/>
+            <amount n="2140" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>9. Szene</head>
+        <div>
+          <head>Neunte Szene.</head>
+          <sp who="#christine">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="103" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="571" unit="chars"/>
+          </sp>
+          <sp who="#santinelli">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="8" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="35" unit="chars"/>
+          </sp>
+          <sp who="#brahe">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="19" unit="words"/>
+            <amount n="124" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>10. Szene</head>
+        <div>
+          <head>Zehnte Szene.</head>
+          <sp who="#schnure">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="149" unit="words"/>
+            <amount n="785" unit="chars"/>
+          </sp>
+          <sp who="#malström">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="28" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="158" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>11. Szene</head>
+        <div>
+          <head>Elfte Szene.</head>
+          <sp who="#schnure">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="64" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="365" unit="chars"/>
+          </sp>
+          <sp who="#monaldeschi">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="31" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="176" unit="chars"/>
+          </sp>
+          <sp who="#malström">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="4" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="18" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>12. Szene</head>
+        <div>
+          <head>Zwölfte Szene.</head>
+          <sp who="#santinelli">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="110" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="647" unit="chars"/>
+          </sp>
+          <sp who="#malström">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="61" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="340" unit="chars"/>
+          </sp>
+          <sp who="#monaldeschi">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="23" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="140" unit="chars"/>
+          </sp>
+          <sp who="#schnure">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="37" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="197" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>13. Szene</head>
+        <div>
+          <head>Dreizehnte Szene.</head>
+          <sp who="#monaldeschi">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="191" unit="words"/>
+            <amount n="1034" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>14. Szene</head>
+        <div>
+          <head>Vierzehnte Szene.</head>
+          <sp who="#christine">
+            <amount n="10" unit="speech_acts"/>
+            <amount n="629" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="3440" unit="chars"/>
+          </sp>
+          <sp who="#monaldeschi">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="589" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="3354" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>2. Akt</head>
+      <div>
+        <head>1. Szene</head>
+        <div>
+          <head>Erste Szene.</head>
+          <sp who="#brahe">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="253" unit="words"/>
+            <amount n="1439" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Szene</head>
+        <div>
+          <head>Zweite Szene.</head>
+          <sp who="#christine">
+            <amount n="18" unit="speech_acts"/>
+            <amount n="681" unit="words"/>
+            <amount n="9" unit="lines"/>
+            <amount n="3746" unit="chars"/>
+          </sp>
+          <sp who="#brahe">
+            <amount n="17" unit="speech_acts"/>
+            <amount n="432" unit="words"/>
+            <amount n="10" unit="lines"/>
+            <amount n="2453" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3. Szene</head>
+        <div>
+          <head>Dritte Szene.</head>
+          <sp who="#brahe">
+            <amount n="11" unit="speech_acts"/>
+            <amount n="245" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="1338" unit="chars"/>
+          </sp>
+          <sp who="#malström">
+            <amount n="10" unit="speech_acts"/>
+            <amount n="579" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="3454" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>4. Szene</head>
+        <div>
+          <head>Vierte Szene.</head>
+          <sp who="#schnure">
+            <amount n="13" unit="speech_acts"/>
+            <amount n="359" unit="words"/>
+            <amount n="7" unit="lines"/>
+            <amount n="2017" unit="chars"/>
+          </sp>
+          <sp who="#brahe">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="21" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="104" unit="chars"/>
+          </sp>
+          <sp who="#malström">
+            <amount n="10" unit="speech_acts"/>
+            <amount n="87" unit="words"/>
+            <amount n="8" unit="lines"/>
+            <amount n="494" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>5. Szene</head>
+        <div>
+          <head>Fünfte Szene.</head>
+          <sp who="#monaldeschi">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="61" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="366" unit="chars"/>
+          </sp>
+          <sp who="#schnure">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="11" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="76" unit="chars"/>
+          </sp>
+          <sp who="#malström">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="24" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="130" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>6. Szene</head>
+        <div>
+          <head>Sechste Szene.</head>
+          <sp who="#monaldeschi">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="52" unit="words"/>
+            <amount n="322" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>7. Szene</head>
+        <div>
+          <head>Siebente Szene.</head>
+          <sp who="#monaldeschi">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="75" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="446" unit="chars"/>
+          </sp>
+          <sp who="#santinelli">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="17" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="105" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>8. Szene</head>
+        <div>
+          <head>Achte Szene.</head>
+          <sp who="#christine">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="260" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="1519" unit="chars"/>
+          </sp>
+          <sp who="#brahe">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="88" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="485" unit="chars"/>
+          </sp>
+          <sp who="#malström">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="86" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="490" unit="chars"/>
+          </sp>
+          <sp who="#christine #brahe #malström #rosenhane #viele_stimmen">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="13" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="84" unit="chars"/>
+          </sp>
+          <sp who="#rosenhane">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="137" unit="words"/>
+            <amount n="756" unit="chars"/>
+          </sp>
+          <sp who="#viele_stimmen">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="8" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="46" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>9. Szene</head>
+        <div>
+          <head>Neunte Szene.</head>
+          <sp who="#monaldeschi">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="59" unit="words"/>
+            <amount n="351" unit="chars"/>
+          </sp>
+          <sp who="#viele_stimmen">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="39" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="203" unit="chars"/>
+          </sp>
+          <sp who="#rosenhane">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="8" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="42" unit="chars"/>
+          </sp>
+          <sp who="#christine">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="13" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="85" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>10. Szene</head>
+        <div>
+          <head>Zehnte Szene.</head>
+          <sp who="#santinelli">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="6" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="40" unit="chars"/>
+          </sp>
+          <sp who="#monaldeschi">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="55" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="308" unit="chars"/>
+          </sp>
+          <sp who="#christine">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="20" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="104" unit="chars"/>
+          </sp>
+          <sp who="#einzelne_stimmen">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="7" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="36" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>3. Akt</head>
+      <div>
+        <head>1. Szene</head>
+        <div>
+          <head>Erste Szene.</head>
+          <sp who="#sylva">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="53" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="306" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Szene</head>
+        <div>
+          <head>Zweite Szene.</head>
+          <sp who="#brahe">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="43" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="225" unit="chars"/>
+          </sp>
+          <sp who="#monaldeschi">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="14" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="77" unit="chars"/>
+          </sp>
+          <sp who="#sylva">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="73" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="386" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3. Szene</head>
+        <div>
+          <head>Dritte Szene.</head>
+          <sp who="#brahe">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="37" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="214" unit="chars"/>
+          </sp>
+          <sp who="#monaldeschi">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="9" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="45" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>4. Szene</head>
+        <div>
+          <head>Vierte Szene.</head>
+          <sp who="#monaldeschi">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="708" unit="words"/>
+            <amount n="80" unit="lines"/>
+            <amount n="3837" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>5. Szene</head>
+        <div>
+          <head>Fünfte Szene.</head>
+          <sp who="#monaldeschi">
+            <amount n="12" unit="speech_acts"/>
+            <amount n="316" unit="words"/>
+            <amount n="40" unit="lines"/>
+            <amount n="1690" unit="chars"/>
+          </sp>
+          <sp who="#sylva">
+            <amount n="11" unit="speech_acts"/>
+            <amount n="292" unit="words"/>
+            <amount n="25" unit="lines"/>
+            <amount n="1418" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>6. Szene</head>
+        <div>
+          <head>Sechste Szene.</head>
+          <sp who="#christine">
+            <amount n="14" unit="speech_acts"/>
+            <amount n="591" unit="words"/>
+            <amount n="7" unit="lines"/>
+            <amount n="3223" unit="chars"/>
+          </sp>
+          <sp who="#monaldeschi">
+            <amount n="13" unit="speech_acts"/>
+            <amount n="184" unit="words"/>
+            <amount n="9" unit="lines"/>
+            <amount n="1009" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>4. Akt</head>
+      <div>
+        <head>1. Szene</head>
+        <div>
+          <head>Erste Szene.</head>
+          <sp who="#christine">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="284" unit="words"/>
+            <amount n="37" unit="lines"/>
+            <amount n="1484" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Szene</head>
+        <div>
+          <head>Zweite Szene.</head>
+          <sp who="#santinelli">
+            <amount n="1" unit="speech_acts"/>
+          </sp>
+          <sp who="#christine">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="152" unit="words"/>
+            <amount n="20" unit="lines"/>
+            <amount n="848" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3. Szene</head>
+        <div>
+          <head>Dritte Szene.</head>
+          <sp who="#brahe">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="82" unit="words"/>
+            <amount n="12" unit="lines"/>
+            <amount n="415" unit="chars"/>
+          </sp>
+          <sp who="#christine">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="89" unit="words"/>
+            <amount n="11" unit="lines"/>
+            <amount n="456" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>4. Szene</head>
+        <div>
+          <head>Vierte Szene.</head>
+          <sp who="#sylva">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="17" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="87" unit="chars"/>
+          </sp>
+          <sp who="#christine">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="149" unit="words"/>
+            <amount n="23" unit="lines"/>
+            <amount n="809" unit="chars"/>
+          </sp>
+          <sp who="#brahe">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="125" unit="words"/>
+            <amount n="17" unit="lines"/>
+            <amount n="677" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>5. Szene</head>
+        <div>
+          <head>Fünfte Szene.</head>
+          <sp who="#christine">
+            <amount n="10" unit="speech_acts"/>
+            <amount n="275" unit="words"/>
+            <amount n="16" unit="lines"/>
+            <amount n="1512" unit="chars"/>
+          </sp>
+          <sp who="#schnure">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="238" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="1378" unit="chars"/>
+          </sp>
+          <sp who="#brahe">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="34" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="174" unit="chars"/>
+          </sp>
+          <sp who="#sylva">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="83" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="443" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>6. Szene</head>
+        <div>
+          <head>Sechste Szene.</head>
+          <sp who="#malström">
+            <amount n="12" unit="speech_acts"/>
+            <amount n="278" unit="words"/>
+            <amount n="23" unit="lines"/>
+            <amount n="1525" unit="chars"/>
+          </sp>
+          <sp who="#monaldeschi">
+            <amount n="11" unit="speech_acts"/>
+            <amount n="549" unit="words"/>
+            <amount n="65" unit="lines"/>
+            <amount n="3003" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>7. Szene</head>
+        <div>
+          <head>Siebente Szene.</head>
+          <sp who="#monaldeschi">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="713" unit="words"/>
+            <amount n="98" unit="lines"/>
+            <amount n="3755" unit="chars"/>
+          </sp>
+          <sp who="#sylva">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="31" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="170" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>5. Akt</head>
+      <div>
+        <head>1. Szene</head>
+        <div>
+          <head>Erste Szene.</head>
+          <sp who="#christine">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="275" unit="words"/>
+            <amount n="40" unit="lines"/>
+            <amount n="1439" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Szene</head>
+        <div>
+          <head>Zweite Szene.</head>
+          <sp who="#christine">
+            <amount n="14" unit="speech_acts"/>
+            <amount n="234" unit="words"/>
+            <amount n="39" unit="lines"/>
+            <amount n="1261" unit="chars"/>
+          </sp>
+          <sp who="#santinelli">
+            <amount n="13" unit="speech_acts"/>
+            <amount n="741" unit="words"/>
+            <amount n="110" unit="lines"/>
+            <amount n="4038" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3. Szene</head>
+        <div>
+          <head>Dritte Szene.</head>
+          <sp who="#christine">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="21" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="126" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>4. Szene</head>
+        <div>
+          <head>Vierte Szene.</head>
+          <sp who="#sylva">
+            <amount n="12" unit="speech_acts"/>
+            <amount n="124" unit="words"/>
+            <amount n="18" unit="lines"/>
+            <amount n="595" unit="chars"/>
+          </sp>
+          <sp who="#christine">
+            <amount n="11" unit="speech_acts"/>
+            <amount n="286" unit="words"/>
+            <amount n="40" unit="lines"/>
+            <amount n="1435" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>5. Szene</head>
+        <div>
+          <head>Fünfte Szene.</head>
+          <sp who="#christine">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="89" unit="words"/>
+            <amount n="15" unit="lines"/>
+            <amount n="541" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>6. Szene</head>
+        <div>
+          <head>Sechste Szene.</head>
+          <sp who="#christine">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="33" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="195" unit="chars"/>
+          </sp>
+          <sp who="#schnure">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="6" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="37" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>7. Szene</head>
+        <div>
+          <head>Siebente Szene.</head>
+          <sp who="#christine">
+            <amount n="20" unit="speech_acts"/>
+            <amount n="672" unit="words"/>
+            <amount n="109" unit="lines"/>
+            <amount n="3713" unit="chars"/>
+          </sp>
+          <sp who="#schnure">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="6" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="30" unit="chars"/>
+          </sp>
+          <sp who="#brahe">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="379" unit="words"/>
+            <amount n="61" unit="lines"/>
+            <amount n="2049" unit="chars"/>
+          </sp>
+          <sp who="#schnur">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="1" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="14" unit="chars"/>
+          </sp>
+          <sp who="#malström">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="421" unit="words"/>
+            <amount n="61" unit="lines"/>
+            <amount n="2345" unit="chars"/>
+          </sp>
+          <sp who="#brahe #malström">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="4" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="19" unit="chars"/>
+          </sp>
+          <sp who="#brahe #schnure">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="3" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="12" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>8. Szene</head>
+        <div>
+          <head>Achte Szene.</head>
+          <sp who="#malström">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="11" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="73" unit="chars"/>
+          </sp>
+          <sp who="#monaldeschi">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="53" unit="words"/>
+            <amount n="8" unit="lines"/>
+            <amount n="281" unit="chars"/>
+          </sp>
+          <sp who="#christine">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="23" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="141" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>9. Szene</head>
+        <div>
+          <head>Neunte Szene.</head>
+          <sp who="#christine">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="21" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="112" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>10. Szene</head>
+        <div>
+          <head>Zehnte Szene.</head>
+          <sp who="#prior">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="75" unit="words"/>
+            <amount n="10" unit="lines"/>
+            <amount n="377" unit="chars"/>
+          </sp>
+          <sp who="#christine">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="142" unit="words"/>
+            <amount n="20" unit="lines"/>
+            <amount n="775" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>11. Szene</head>
+        <div>
+          <head>Elfte Szene.</head>
+          <sp who="#christine">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="52" unit="words"/>
+            <amount n="8" unit="lines"/>
+            <amount n="270" unit="chars"/>
+          </sp>
+          <sp who="#santinelli">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="9" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="40" unit="chars"/>
+          </sp>
+          <sp who="#prior">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="19" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="99" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>12. Szene</head>
+        <div>
+          <head>Zwölfte Szene.</head>
+          <sp who="#monaldeschi">
+            <amount n="15" unit="speech_acts"/>
+            <amount n="710" unit="words"/>
+            <amount n="47" unit="lines"/>
+            <amount n="3993" unit="chars"/>
+          </sp>
+          <sp who="#santinelli">
+            <amount n="11" unit="speech_acts"/>
+            <amount n="99" unit="words"/>
+            <amount n="9" unit="lines"/>
+            <amount n="537" unit="chars"/>
+          </sp>
+          <sp who="#prior">
+            <amount n="10" unit="speech_acts"/>
+            <amount n="190" unit="words"/>
+            <amount n="7" unit="lines"/>
+            <amount n="1054" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>13. Szene</head>
+        <div>
+          <head>Dreizehnte Szene.</head>
+          <sp who="#christine">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="21" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="116" unit="chars"/>
+          </sp>
+          <sp who="#santinelli">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="7" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="30" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>14. Szene</head>
+        <div>
+          <head>Vierzehnte Szene.</head>
+          <sp who="#monaldeschi">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="429" unit="words"/>
+            <amount n="61" unit="lines"/>
+            <amount n="2300" unit="chars"/>
+          </sp>
+          <sp who="#christine">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="180" unit="words"/>
+            <amount n="29" unit="lines"/>
+            <amount n="992" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>15. Szene</head>
+        <div>
+          <head>Fünfzehnte Szene.</head>
+          <sp who="#monaldeschi">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="7" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="41" unit="chars"/>
+          </sp>
+          <sp who="#sylva">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="11" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="55" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>16. Szene</head>
+        <div>
+          <head>Sechszehnte Szene.</head>
+          <sp who="#santinelli">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="2" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="12" unit="chars"/>
+          </sp>
+          <sp who="#der_prior">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="5" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="27" unit="chars"/>
+          </sp>
+          <sp who="#monaldeschi">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="9" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="49" unit="chars"/>
+          </sp>
+          <sp who="#prior">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="6" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="33" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>17. Szene</head>
+        <div>
+          <head>Siebzehnte Szene.</head>
+          <sp who="#malström">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="29" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="138" unit="chars"/>
+          </sp>
+          <sp who="#sylva">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="49" unit="words"/>
+            <amount n="209" unit="chars"/>
+          </sp>
+          <sp who="#prior">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="4" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="23" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>18. Szene</head>
+        <div>
+          <head>Achtzehnte Szene.</head>
+          <sp who="#brahe">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="28" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="119" unit="chars"/>
+          </sp>
+          <sp who="#malström">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="13" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="75" unit="chars"/>
+          </sp>
+          <sp who="#prior">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="6" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="26" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>19. Szene</head>
+        <div>
+          <head>Neunzehnte Szene.</head>
+          <sp who="#christine">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="31" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="164" unit="chars"/>
+          </sp>
+          <sp who="#brahe">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="14" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="74" unit="chars"/>
+          </sp>
+          <sp who="#malström">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="7" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="32" unit="chars"/>
+          </sp>
+          <sp who="#prior">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="25" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="131" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+  </text>
+</play>

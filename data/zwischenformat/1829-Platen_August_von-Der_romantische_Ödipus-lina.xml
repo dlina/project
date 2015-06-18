@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="http://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital">
+  <header>
+    <title>Der romantische Ödipus</title>
+    <subtitle>Ein Lustspiel in 5 Akten</subtitle>
+    <genretitle>Lustspiel</genretitle>
+    <author>Platen, August von</author>
+    <date type="print" when="1829">1829</date>
+    <date type="premiere" when="1855">1855</date>
+    <date type="written" when="1828">1827–1828</date>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:t337.0/data</source>
+  </header>
+  <personae>
+    <character>
+      <name>PUBLICUM</name>
+      <alias xml:id="publicum">
+        <name>PUBLICUM</name>
+      </alias>
+    </character>
+    <character>
+      <name>CHOR</name>
+      <alias xml:id="chor">
+        <name>CHOR</name>
+      </alias>
+    </character>
+    <character>
+      <name>NIMMERMANN</name>
+      <alias xml:id="nimmermann">
+        <name>NIMMERMANN</name>
+      </alias>
+    </character>
+    <character>
+      <name>CHORFÜHRER</name>
+      <alias xml:id="chorführer">
+        <name>CHORFÜHRER</name>
+      </alias>
+    </character>
+    <character>
+      <name>JOKASTE</name>
+      <alias xml:id="jokaste">
+        <name>JOKASTE</name>
+      </alias>
+    </character>
+    <character>
+      <name>ERSTE HEBAMME</name>
+      <alias xml:id="erste_hebamme">
+        <name>ERSTE HEBAMME</name>
+      </alias>
+    </character>
+    <character>
+      <name>ZWEITE HEBAMME</name>
+      <alias xml:id="zweite_hebamme">
+        <name>ZWEITE HEBAMME</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIAGORAS</name>
+      <alias xml:id="diagoras">
+        <name>DIAGORAS</name>
+      </alias>
+    </character>
+    <character>
+      <name>ZELINDE</name>
+      <alias xml:id="zelinde">
+        <name>ZELINDE</name>
+      </alias>
+    </character>
+    <character>
+      <name>LAJUS</name>
+      <alias xml:id="lajus">
+        <name>LAJUS</name>
+      </alias>
+    </character>
+    <character>
+      <name>TIRESIAS</name>
+      <alias xml:id="tiresias">
+        <name>TIRESIAS</name>
+      </alias>
+    </character>
+    <character>
+      <name>MELCHIOR</name>
+      <alias xml:id="melchior">
+        <name>MELCHIOR</name>
+      </alias>
+    </character>
+    <character>
+      <name>POLYBUS</name>
+      <alias xml:id="polybus">
+        <name>POLYBUS</name>
+      </alias>
+    </character>
+    <character>
+      <name>OEDIPUS</name>
+      <alias xml:id="oedipus">
+        <name>OEDIPUS</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE PYTHIA</name>
+      <alias xml:id="die_pythia">
+        <name>DIE PYTHIA</name>
+      </alias>
+    </character>
+    <character>
+      <name>KINDESKIND</name>
+      <alias xml:id="kindeskind">
+        <name>KINDESKIND</name>
+      </alias>
+    </character>
+    <character>
+      <name>KIND</name>
+      <alias xml:id="kind">
+        <name>KIND</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE SPHINX</name>
+      <alias xml:id="die_sphinx">
+        <name>DIE SPHINX</name>
+      </alias>
+    </character>
+    <character>
+      <name>DISTICHON</name>
+      <alias xml:id="distichon">
+        <name>DISTICHON</name>
+      </alias>
+    </character>
+    <character>
+      <name>BALTHASAR</name>
+      <alias xml:id="balthasar">
+        <name>BALTHASAR</name>
+      </alias>
+    </character>
+    <character>
+      <name>GEIST DES LAJUS</name>
+      <alias xml:id="geist_des_lajus">
+        <name>GEIST DES LAJUS</name>
+      </alias>
+    </character>
+    <character>
+      <name>VERSTAND</name>
+      <alias xml:id="verstand">
+        <name>VERSTAND</name>
+      </alias>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Personen</head>
+    </div>
+    <div>
+      <head>1. Akt</head>
+      <div>
+        <head>Erster Akt.</head>
+        <sp who="#publicum">
+          <amount n="33" unit="speech_acts"/>
+          <amount n="505" unit="words"/>
+          <amount n="75" unit="lines"/>
+          <amount n="2875" unit="chars"/>
+        </sp>
+        <sp who="#chor">
+          <amount n="19" unit="speech_acts"/>
+          <amount n="517" unit="words"/>
+          <amount n="82" unit="lines"/>
+          <amount n="3190" unit="chars"/>
+        </sp>
+        <sp who="#nimmermann">
+          <amount n="18" unit="speech_acts"/>
+          <amount n="485" unit="words"/>
+          <amount n="69" unit="lines"/>
+          <amount n="2805" unit="chars"/>
+        </sp>
+        <sp who="#chorführer">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="690" unit="words"/>
+          <amount n="56" unit="lines"/>
+          <amount n="4055" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>2. Akt</head>
+      <div>
+        <head>Zweiter Akt.</head>
+        <sp who="#jokaste">
+          <amount n="20" unit="speech_acts"/>
+          <amount n="241" unit="words"/>
+          <amount n="31" unit="lines"/>
+          <amount n="1430" unit="chars"/>
+        </sp>
+        <sp who="#erste_hebamme">
+          <amount n="9" unit="speech_acts"/>
+          <amount n="95" unit="words"/>
+          <amount n="13" unit="lines"/>
+          <amount n="577" unit="chars"/>
+        </sp>
+        <sp who="#zweite_hebamme">
+          <amount n="9" unit="speech_acts"/>
+          <amount n="126" unit="words"/>
+          <amount n="15" unit="lines"/>
+          <amount n="731" unit="chars"/>
+        </sp>
+        <sp who="#diagoras">
+          <amount n="26" unit="speech_acts"/>
+          <amount n="859" unit="words"/>
+          <amount n="92" unit="lines"/>
+          <amount n="4751" unit="chars"/>
+        </sp>
+        <sp who="#zelinde">
+          <amount n="34" unit="speech_acts"/>
+          <amount n="665" unit="words"/>
+          <amount n="73" unit="lines"/>
+          <amount n="3737" unit="chars"/>
+        </sp>
+        <sp who="#lajus">
+          <amount n="14" unit="speech_acts"/>
+          <amount n="181" unit="words"/>
+          <amount n="23" unit="lines"/>
+          <amount n="1029" unit="chars"/>
+        </sp>
+        <sp who="#tiresias">
+          <amount n="11" unit="speech_acts"/>
+          <amount n="76" unit="words"/>
+          <amount n="14" unit="lines"/>
+          <amount n="389" unit="chars"/>
+        </sp>
+        <sp who="#melchior">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="231" unit="words"/>
+          <amount n="31" unit="lines"/>
+          <amount n="1227" unit="chars"/>
+        </sp>
+        <sp who="#polybus">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="340" unit="words"/>
+          <amount n="47" unit="lines"/>
+          <amount n="1950" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>3. Akt</head>
+      <div>
+        <head>Dritter Akt.</head>
+        <sp who="#lajus">
+          <amount n="9" unit="speech_acts"/>
+          <amount n="266" unit="words"/>
+          <amount n="28" unit="lines"/>
+          <amount n="1481" unit="chars"/>
+        </sp>
+        <sp who="#jokaste">
+          <amount n="16" unit="speech_acts"/>
+          <amount n="488" unit="words"/>
+          <amount n="47" unit="lines"/>
+          <amount n="2591" unit="chars"/>
+        </sp>
+        <sp who="#zelinde">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="185" unit="words"/>
+          <amount n="23" unit="lines"/>
+          <amount n="1016" unit="chars"/>
+        </sp>
+        <sp who="#oedipus">
+          <amount n="14" unit="speech_acts"/>
+          <amount n="381" unit="words"/>
+          <amount n="44" unit="lines"/>
+          <amount n="2154" unit="chars"/>
+        </sp>
+        <sp who="#die_pythia">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="268" unit="words"/>
+          <amount n="34" unit="lines"/>
+          <amount n="1404" unit="chars"/>
+        </sp>
+        <sp who="#melchior">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="98" unit="words"/>
+          <amount n="9" unit="lines"/>
+          <amount n="517" unit="chars"/>
+        </sp>
+        <sp who="#kindeskind">
+          <amount n="8" unit="speech_acts"/>
+          <amount n="187" unit="words"/>
+          <amount n="29" unit="lines"/>
+          <amount n="1102" unit="chars"/>
+        </sp>
+        <sp who="#kind">
+          <amount n="8" unit="speech_acts"/>
+          <amount n="229" unit="words"/>
+          <amount n="31" unit="lines"/>
+          <amount n="1240" unit="chars"/>
+        </sp>
+        <sp who="#tiresias">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="180" unit="words"/>
+          <amount n="16" unit="lines"/>
+          <amount n="978" unit="chars"/>
+        </sp>
+        <sp who="#die_sphinx">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="797" unit="words"/>
+          <amount n="82" unit="lines"/>
+          <amount n="4437" unit="chars"/>
+        </sp>
+        <sp who="#distichon">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="18" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="113" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>4. Akt</head>
+      <div>
+        <head>Vierter Akt.</head>
+        <sp who="#diagoras">
+          <amount n="17" unit="speech_acts"/>
+          <amount n="352" unit="words"/>
+          <amount n="39" unit="lines"/>
+          <amount n="1943" unit="chars"/>
+        </sp>
+        <sp who="#zelinde">
+          <amount n="13" unit="speech_acts"/>
+          <amount n="339" unit="words"/>
+          <amount n="35" unit="lines"/>
+          <amount n="1874" unit="chars"/>
+        </sp>
+        <sp who="#polybus">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="129" unit="words"/>
+          <amount n="13" unit="lines"/>
+          <amount n="700" unit="chars"/>
+        </sp>
+        <sp who="#oedipus">
+          <amount n="26" unit="speech_acts"/>
+          <amount n="846" unit="words"/>
+          <amount n="111" unit="lines"/>
+          <amount n="4632" unit="chars"/>
+        </sp>
+        <sp who="#tiresias">
+          <amount n="14" unit="speech_acts"/>
+          <amount n="916" unit="words"/>
+          <amount n="121" unit="lines"/>
+          <amount n="5174" unit="chars"/>
+        </sp>
+        <sp who="#balthasar">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="566" unit="words"/>
+          <amount n="78" unit="lines"/>
+          <amount n="3231" unit="chars"/>
+        </sp>
+        <sp who="#jokaste">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="285" unit="words"/>
+          <amount n="27" unit="lines"/>
+          <amount n="1582" unit="chars"/>
+        </sp>
+        <sp who="#geist_des_lajus">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="1" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="3" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>5. Akt</head>
+      <div>
+        <head>Fünfter Akt.</head>
+        <sp who="#chor">
+          <amount n="28" unit="speech_acts"/>
+          <amount n="542" unit="words"/>
+          <amount n="80" unit="lines"/>
+          <amount n="3187" unit="chars"/>
+        </sp>
+        <sp who="#publicum">
+          <amount n="33" unit="speech_acts"/>
+          <amount n="452" unit="words"/>
+          <amount n="68" unit="lines"/>
+          <amount n="2804" unit="chars"/>
+        </sp>
+        <sp who="#verstand">
+          <amount n="21" unit="speech_acts"/>
+          <amount n="861" unit="words"/>
+          <amount n="118" unit="lines"/>
+          <amount n="5152" unit="chars"/>
+        </sp>
+        <sp who="#nimmermann">
+          <amount n="39" unit="speech_acts"/>
+          <amount n="671" unit="words"/>
+          <amount n="94" unit="lines"/>
+          <amount n="4016" unit="chars"/>
+        </sp>
+        <sp who="#chorführer">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="684" unit="words"/>
+          <amount n="56" unit="lines"/>
+          <amount n="4069" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+  </text>
+</play>

@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital">
+  <header>
+    <title>Arabella</title>
+    <subtitle>Lyrische Komödie in drei Aufzügen</subtitle>
+    <genretitle>Komödie</genretitle>
+    <author>Hofmannsthal, Hugo von</author>
+    <date when="1928" type="print"/>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:qdmd.0/data</source>
+  </header>
+  <personae>
+    <character>
+      <name>KARTENAUFSCHLÄGERIN</name>
+      <alias xml:id="kartenaufschlägerin">
+        <name>KARTENAUFSCHLÄGERIN</name>
+      </alias>
+    </character>
+    <character>
+      <name>ADELAIDE</name>
+      <alias xml:id="adelaide">
+        <name>ADELAIDE</name>
+      </alias>
+    </character>
+    <character>
+      <name>ZDENKA</name>
+      <alias xml:id="zdenka">
+        <name>ZDENKA</name>
+      </alias>
+      <alias xml:id="zdenkas_stimme">
+        <name>ZDENKAS STIMME</name>
+      </alias>
+    </character>
+    <character>
+      <name>MATTEO</name>
+      <alias xml:id="matteo">
+        <name>MATTEO</name>
+      </alias>
+    </character>
+    <character>
+      <name>ARABELLA</name>
+      <alias xml:id="arabella">
+        <name>ARABELLA</name>
+      </alias>
+    </character>
+    <character>
+      <name>ELEMER</name>
+      <alias xml:id="elemer">
+        <name>ELEMER</name>
+      </alias>
+    </character>
+    <character>
+      <name>WALDNER</name>
+      <alias xml:id="waldner">
+        <name>WALDNER</name>
+      </alias>
+    </character>
+    <character>
+      <name>ZIMMERKELLNER</name>
+      <alias xml:id="zimmerkellner">
+        <name>ZIMMERKELLNER</name>
+      </alias>
+    </character>
+    <character>
+      <name>MANDRYKA</name>
+      <alias xml:id="mandryka">
+        <name>MANDRYKA</name>
+      </alias>
+    </character>
+    <character>
+      <name>WELKO</name>
+      <alias xml:id="welko">
+        <name>WELKO</name>
+      </alias>
+    </character>
+    <character>
+      <name>LAMORAL</name>
+      <alias xml:id="lamoral">
+        <name>LAMORAL</name>
+      </alias>
+    </character>
+    <character>
+      <name>DOMINIK</name>
+      <alias xml:id="dominik">
+        <name>DOMINIK</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE FIAKERMILLI</name>
+      <alias xml:id="die_fiakermilli">
+        <name>DIE FIAKERMILLI</name>
+      </alias>
+      <alias xml:id="milli">
+        <name>MILLI</name>
+      </alias>
+    </character>
+    <character>
+      <name>PICCOLO</name>
+      <alias xml:id="piccolo">
+        <name>PICCOLO</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE GÄSTE</name>
+      <alias xml:id="die_gäste">
+        <name>DIE GÄSTE</name>
+      </alias>
+    </character>
+    <character>
+      <name>EINER DER SPIELER</name>
+      <alias xml:id="einer_der_spieler">
+        <name>EINER DER SPIELER</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE DREI SPIELER</name>
+      <alias xml:id="die_drei_spieler">
+        <name>DIE DREI SPIELER</name>
+      </alias>
+      <alias xml:id="die_spieler">
+        <name>DIE SPIELER</name>
+      </alias>
+    </character>
+  	<character>
+  		<name>FIAKER</name>
+  		<alias xml:id="fiaker">
+  			<name>Fiaker</name>
+  		</alias>
+  	</character>
+  </personae>
+  <text>
+    <div>
+      <head>Personen</head>
+    </div>
+    <div>
+      <head>1. Akt</head>
+      <div>
+        <head>Erster Aufzug</head>
+        <sp who="#kartenaufschlägerin">
+          <amount n="18" unit="speech_acts"/>
+          <amount n="247" unit="words"/>
+          <amount n="31" unit="lines"/>
+          <amount n="1276" unit="chars"/>
+        </sp>
+        <sp who="#adelaide">
+          <amount n="34" unit="speech_acts"/>
+          <amount n="482" unit="words"/>
+          <amount n="72" unit="lines"/>
+          <amount n="2616" unit="chars"/>
+        </sp>
+        <sp who="#zdenka">
+          <amount n="55" unit="speech_acts"/>
+          <amount n="1044" unit="words"/>
+          <amount n="126" unit="lines"/>
+          <amount n="5131" unit="chars"/>
+        </sp>
+        <sp who="#matteo">
+          <amount n="16" unit="speech_acts"/>
+          <amount n="283" unit="words"/>
+          <amount n="35" unit="lines"/>
+          <amount n="1409" unit="chars"/>
+        </sp>
+        <sp who="#arabella">
+          <amount n="39" unit="speech_acts"/>
+          <amount n="1305" unit="words"/>
+          <amount n="145" unit="lines"/>
+          <amount n="6543" unit="chars"/>
+        </sp>
+        <sp who="#elemer">
+          <amount n="9" unit="speech_acts"/>
+          <amount n="247" unit="words"/>
+          <amount n="32" unit="lines"/>
+          <amount n="1326" unit="chars"/>
+        </sp>
+        <sp who="#waldner">
+          <amount n="39" unit="speech_acts"/>
+          <amount n="512" unit="words"/>
+          <amount n="79" unit="lines"/>
+          <amount n="2789" unit="chars"/>
+        </sp>
+        <sp who="#zimmerkellner">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="31" unit="words"/>
+          <amount n="7" unit="lines"/>
+          <amount n="189" unit="chars"/>
+        </sp>
+        <sp who="#mandryka">
+          <amount n="20" unit="speech_acts"/>
+          <amount n="716" unit="words"/>
+          <amount n="87" unit="lines"/>
+          <amount n="3788" unit="chars"/>
+        </sp>
+        <sp who="#welko">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="15" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="75" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>2. Akt</head>
+      <div>
+        <head>Zweiter Aufzug</head>
+        <sp who="#mandryka">
+          <amount n="40" unit="speech_acts"/>
+          <amount n="1445" unit="words"/>
+          <amount n="183" unit="lines"/>
+          <amount n="7609" unit="chars"/>
+        </sp>
+        <sp who="#waldner">
+          <amount n="15" unit="speech_acts"/>
+          <amount n="206" unit="words"/>
+          <amount n="28" unit="lines"/>
+          <amount n="1090" unit="chars"/>
+        </sp>
+        <sp who="#adelaide">
+          <amount n="20" unit="speech_acts"/>
+          <amount n="245" unit="words"/>
+          <amount n="35" unit="lines"/>
+          <amount n="1308" unit="chars"/>
+        </sp>
+        <sp who="#arabella">
+          <amount n="30" unit="speech_acts"/>
+          <amount n="594" unit="words"/>
+          <amount n="72" unit="lines"/>
+          <amount n="3063" unit="chars"/>
+        </sp>
+        <sp who="#elemer">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="68" unit="words"/>
+          <amount n="10" unit="lines"/>
+          <amount n="363" unit="chars"/>
+        </sp>
+        <sp who="#lamoral">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="53" unit="words"/>
+          <amount n="6" unit="lines"/>
+          <amount n="260" unit="chars"/>
+        </sp>
+        <sp who="#dominik">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="29" unit="words"/>
+          <amount n="5" unit="lines"/>
+          <amount n="163" unit="chars"/>
+        </sp>
+        <sp who="#die_fiakermilli">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="72" unit="words"/>
+          <amount n="12" unit="lines"/>
+          <amount n="375" unit="chars"/>
+        </sp>
+        <sp who="#waldner #elemer #dominik #lamoral #fiaker">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="7" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="37" unit="chars"/>
+        </sp>
+        <sp who="#matteo">
+          <amount n="14" unit="speech_acts"/>
+          <amount n="181" unit="words"/>
+          <amount n="24" unit="lines"/>
+          <amount n="865" unit="chars"/>
+        </sp>
+        <sp who="#zdenka">
+          <amount n="14" unit="speech_acts"/>
+          <amount n="190" unit="words"/>
+          <amount n="27" unit="lines"/>
+          <amount n="964" unit="chars"/>
+        </sp>
+        <sp who="#welko">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="8" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="44" unit="chars"/>
+        </sp>
+        <sp who="#milli">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="7" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="39" unit="chars"/>
+        </sp>
+        <sp who="#piccolo">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="13" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="54" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>3. Akt</head>
+      <div>
+        <head>Dritter Aufzug</head>
+        <sp who="#arabella">
+          <amount n="51" unit="speech_acts"/>
+          <amount n="989" unit="words"/>
+          <amount n="121" unit="lines"/>
+          <amount n="5041" unit="chars"/>
+        </sp>
+        <sp who="#matteo">
+          <amount n="22" unit="speech_acts"/>
+          <amount n="416" unit="words"/>
+          <amount n="51" unit="lines"/>
+          <amount n="2155" unit="chars"/>
+        </sp>
+        <sp who="#adelaide">
+          <amount n="10" unit="speech_acts"/>
+          <amount n="116" unit="words"/>
+          <amount n="19" unit="lines"/>
+          <amount n="679" unit="chars"/>
+        </sp>
+        <sp who="#mandryka">
+          <amount n="33" unit="speech_acts"/>
+          <amount n="775" unit="words"/>
+          <amount n="92" unit="lines"/>
+          <amount n="4095" unit="chars"/>
+        </sp>
+        <sp who="#welko">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="5" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="29" unit="chars"/>
+        </sp>
+        <sp who="#waldner">
+          <amount n="14" unit="speech_acts"/>
+          <amount n="213" unit="words"/>
+          <amount n="30" unit="lines"/>
+          <amount n="1203" unit="chars"/>
+        </sp>
+        <sp who="#die_gäste">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="25" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="146" unit="chars"/>
+        </sp>
+        <sp who="#einer_der_spieler">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="10" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="65" unit="chars"/>
+        </sp>
+        <sp who="#zdenkas_stimme">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="2" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="11" unit="chars"/>
+        </sp>
+        <sp who="#zdenka">
+          <amount n="12" unit="speech_acts"/>
+          <amount n="237" unit="words"/>
+          <amount n="29" unit="lines"/>
+          <amount n="1164" unit="chars"/>
+        </sp>
+        <sp who="#die_spieler">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="8" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="36" unit="chars"/>
+        </sp>
+        <sp who="#die_drei_spieler">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="2" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="9" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+  </text>
+  <documentation>
+    <change n="1" who="dariokampkaspar">
+      <path>/play/text[1]/div[3]/div[1]/sp[9]</path>
+      <orig>#die_grafen_und_fiaker</orig>
+      <corr>#waldner #elemer #dominik #lamoral #fiaker</corr>
+      <comment>vgl. originales Personenverzeichnis</comment>
+    </change>
+  </documentation>
+</play>

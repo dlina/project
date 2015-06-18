@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital">
+  <header>
+    <title>Judith und Holofernes</title>
+  	<subtitle>Travestie in einem Akt</subtitle>
+    <author>Nestroy, Johann</author>
+    <date when="1849" type="written" />
+  	<date when="1849" type="premiere" />
+  	<date when="1891" type="print" />
+  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:strh.0/data</source>
+  </header>
+  <personae>
+    <character>
+      <name>HOLOFERNES</name>
+      <alias xml:id="holofernes">
+        <name>HOLOFERNES</name>
+      </alias>
+    </character>
+    <character>
+      <name>IDUN</name>
+      <alias xml:id="idun">
+        <name>IDUN</name>
+      </alias>
+    </character>
+    <character>
+      <name>CHALKOL</name>
+      <alias xml:id="chalkol">
+        <name>CHALKOL</name>
+      </alias>
+    </character>
+    <character>
+      <name>ZEPHO</name>
+      <alias xml:id="zepho">
+        <name>ZEPHO</name>
+      </alias>
+    </character>
+    <character>
+      <name>OBERPRIESTER</name>
+      <alias xml:id="oberpriester">
+        <name>OBERPRIESTER</name>
+      </alias>
+    </character>
+    <character>
+      <name>HEROLD</name>
+      <alias xml:id="herold">
+        <name>HEROLD</name>
+      </alias>
+    </character>
+    <character>
+      <name>PRIESTER</name>
+      <alias xml:id="priester">
+        <name>PRIESTER</name>
+      </alias>
+    </character>
+    <character>
+      <name>ACHIOR</name>
+      <alias xml:id="achior">
+        <name>ACHIOR</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER GESANDTE</name>
+      <alias xml:id="der_gesandte">
+        <name>DER GESANDTE</name>
+      </alias>
+    </character>
+    <character>
+      <name>AMMON</name>
+      <alias xml:id="ammon">
+        <name>AMMON</name>
+      </alias>
+    </character>
+    <character>
+      <name>HOSEA</name>
+      <alias xml:id="hosea">
+        <name>HOSEA</name>
+      </alias>
+    </character>
+    <character>
+      <name>ASSAD</name>
+      <alias xml:id="assad">
+        <name>ASSAD</name>
+      </alias>
+    </character>
+    <character>
+      <name>JOJAKIM</name>
+      <alias xml:id="jojakim">
+        <name>JOJAKIM</name>
+      </alias>
+    </character>
+    <character>
+      <name>JOAB</name>
+      <alias xml:id="joab">
+        <name>JOAB</name>
+      </alias>
+    	<alias xml:id="joab_als_judith" type="alias">
+    		<name>JUDITH (JOAB)</name>
+    	</alias>
+    </character>
+    <character>
+      <name>SARA</name>
+      <alias xml:id="sara">
+        <name>SARA</name>
+      </alias>
+    </character>
+    <character>
+      <name>RACHEL</name>
+      <alias xml:id="rachel">
+        <name>RACHEL</name>
+      </alias>
+    </character>
+    <character>
+      <name>NAZAEL</name>
+      <alias xml:id="nazael">
+        <name>NAZAEL</name>
+      </alias>
+    </character>
+    <character>
+      <name>BEN</name>
+      <alias xml:id="ben">
+        <name>BEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>NABAL</name>
+      <alias xml:id="nabal">
+        <name>NABAL</name>
+      </alias>
+    </character>
+    <character>
+      <name>VOLK</name>
+      <alias xml:id="volk">
+        <name>VOLK</name>
+      </alias>
+    	<alias xml:id="mehrere_aus_dem_volke">
+    		<name>MEHRERE AUS DEM VOLKE</name>
+    	</alias>
+    	<alias xml:id="das_volk">
+    		<name>DAS VOLK</name>
+    	</alias>
+    	<alias xml:id="mehrere_aus_dem_volk">
+    		<name>MEHRERE AUS DEM VOLK</name>
+    	</alias>
+    </character>
+    <character>
+      <name>DANIEL</name>
+      <alias xml:id="daniel">
+        <name>DANIEL</name>
+      </alias>
+    </character>
+    <character>
+      <name>NATHAN</name>
+      <alias xml:id="nathan">
+        <name>NATHAN</name>
+      </alias>
+    </character>
+    <character>
+      <name>HEMAN</name>
+      <alias xml:id="heman">
+        <name>HEMAN</name>
+      </alias>
+    </character>
+    <character>
+      <name>MIRZA</name>
+      <alias xml:id="mirza">
+        <name>MIRZA</name>
+      </alias>
+    </character>
+    <character>
+      <name>STIMMEN</name>
+      <alias xml:id="stimmen">
+        <name>STIMMEN</name>
+      </alias>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Personen</head>
+      <div>
+        <head>noName</head>
+        <div>
+          <head>Die Handlung geht teils im Lager des Holofernes, teils in Bethulien vor.</head>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>1. Szene</head>
+      <div>
+        <head>Erste Szene</head>
+        <sp who="#oberpriester #idun #chalkol #zepho #priester">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="52" unit="words"/>
+          <amount n="10" unit="lines"/>
+          <amount n="322" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>2. Szene</head>
+      <div>
+        <head>Zweite Szene</head>
+        <sp who="#holofernes">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="110" unit="words"/>
+          <amount n="5" unit="lines"/>
+          <amount n="581" unit="chars"/>
+        </sp>
+        <sp who="#idun">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="15" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="80" unit="chars"/>
+        </sp>
+        <sp who="#chalkol">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="13" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="67" unit="chars"/>
+        </sp>
+        <sp who="#zepho">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="13" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="67" unit="chars"/>
+        </sp>
+        <sp who="#oberpriester">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="37" unit="words"/>
+          <amount n="6" unit="lines"/>
+          <amount n="188" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>3. Szene</head>
+      <div>
+        <head>Dritte Szene</head>
+        <sp who="#holofernes">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="60" unit="words"/>
+          <amount n="345" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>4. Szene</head>
+      <div>
+        <head>Vierte Szene</head>
+        <sp who="#herold">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="44" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="260" unit="chars"/>
+        </sp>
+        <sp who="#holofernes">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="55" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="317" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>5. Szene</head>
+      <div>
+        <head>Fünfte Szene</head>
+        <sp who="#holofernes">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="31" unit="words"/>
+          <amount n="165" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>6. Szene</head>
+      <div>
+        <head>Sechste Szene</head>
+        <sp who="#oberpriester">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="12" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="70" unit="chars"/>
+        </sp>
+        <sp who="#holofernes">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="39" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="219" unit="chars"/>
+        </sp>
+        <sp who="#priester">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="5" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="35" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>7. Szene</head>
+      <div>
+        <head>Siebente Szene</head>
+        <sp who="#holofernes">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="51" unit="words"/>
+          <amount n="294" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>8. Szene</head>
+      <div>
+        <head>Achte Szene</head>
+        <sp who="#achior">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="24" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="128" unit="chars"/>
+        </sp>
+        <sp who="#holofernes">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="63" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="336" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>9. Szene</head>
+      <div>
+        <head>Neunte Szene</head>
+        <sp who="#der_gesandte">
+          <amount n="11" unit="speech_acts"/>
+          <amount n="160" unit="words"/>
+          <amount n="7" unit="lines"/>
+          <amount n="912" unit="chars"/>
+        </sp>
+        <sp who="#holofernes">
+          <amount n="12" unit="speech_acts"/>
+          <amount n="246" unit="words"/>
+          <amount n="8" unit="lines"/>
+          <amount n="1319" unit="chars"/>
+        </sp>
+        <sp who="#idun">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="1" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="10" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>10. Szene</head>
+      <div>
+        <head>Zehnte Szene</head>
+        <sp who="#ammon">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="79" unit="words"/>
+          <amount n="5" unit="lines"/>
+          <amount n="455" unit="chars"/>
+        </sp>
+        <sp who="#hosea">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="57" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="330" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>11. Szene</head>
+      <div>
+        <head>Elfte Szene</head>
+        <sp who="#assad">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="99" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="576" unit="chars"/>
+        </sp>
+        <sp who="#hosea">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="41" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="230" unit="chars"/>
+        </sp>
+        <sp who="#ammon">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="30" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="145" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>12. Szene</head>
+      <div>
+        <head>Zwölfte Szene</head>
+        <sp who="#jojakim">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="54" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="283" unit="chars"/>
+        </sp>
+        <sp who="#ammon">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="10" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="56" unit="chars"/>
+        </sp>
+        <sp who="#hosea">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="18" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="89" unit="chars"/>
+        </sp>
+        <sp who="#assad">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="31" unit="words"/>
+          <amount n="196" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>13. Szene</head>
+      <div>
+        <head>Dreizehnte Szene</head>
+        <sp who="#jojakim">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="44" unit="words"/>
+          <amount n="239" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>14. Szene</head>
+      <div>
+        <head>Vierzehnte Szene</head>
+      </div>
+    </div>
+    <div>
+      <head>15. Szene</head>
+      <div>
+        <head>Fünfzehnte Szene</head>
+        <sp who="#jojakim">
+          <amount n="12" unit="speech_acts"/>
+          <amount n="240" unit="words"/>
+          <amount n="7" unit="lines"/>
+          <amount n="1378" unit="chars"/>
+        </sp>
+        <sp who="#joab">
+          <amount n="12" unit="speech_acts"/>
+          <amount n="848" unit="words"/>
+          <amount n="65" unit="lines"/>
+          <amount n="4642" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>16. Szene</head>
+      <div>
+        <head>Sechzehnte Szene</head>
+        <sp who="#sara">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="41" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="224" unit="chars"/>
+        </sp>
+        <sp who="#rachel">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="63" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="334" unit="chars"/>
+        </sp>
+        <sp who="#jojakim">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="2" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="9" unit="chars"/>
+        </sp>
+        <sp who="#nazael">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="13" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="57" unit="chars"/>
+        </sp>
+        <sp who="#ben">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="10" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="48" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>17. Szene</head>
+      <div>
+        <head>Siebzehnte Szene</head>
+        <sp who="#assad">
+          <amount n="11" unit="speech_acts"/>
+          <amount n="101" unit="words"/>
+          <amount n="10" unit="lines"/>
+          <amount n="563" unit="chars"/>
+        </sp>
+        <sp who="#rachel">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="23" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="110" unit="chars"/>
+        </sp>
+        <sp who="#hosea">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="78" unit="words"/>
+          <amount n="6" unit="lines"/>
+          <amount n="440" unit="chars"/>
+        </sp>
+        <sp who="#nabal">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="5" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="19" unit="chars"/>
+        </sp>
+        <sp who="#ammon">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="22" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="116" unit="chars"/>
+        </sp>
+        <sp who="#jojakim">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="46" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="244" unit="chars"/>
+        </sp>
+        <sp who="#volk">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="5" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="35" unit="chars"/>
+        </sp>
+        <sp who="#daniel">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="4" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="29" unit="chars"/>
+        </sp>
+        <sp who="#assad #hosea #jojakim #volk #ammon #nabal">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="6" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="32" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>18. Szene</head>
+      <div>
+        <head>Achtzehnte Szene</head>
+      	<sp who="#assad #hosea #jojakim #volk #ammon #nabal #rachel">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="6" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="34" unit="chars"/>
+        </sp>
+        <sp who="#ammon">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="27" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="150" unit="chars"/>
+        </sp>
+        <sp who="#nathan">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="26" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="151" unit="chars"/>
+        </sp>
+        <sp who="#rachel">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="4" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="21" unit="chars"/>
+        </sp>
+        <sp who="#hosea">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="12" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="61" unit="chars"/>
+        </sp>
+        <sp who="#daniel">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="4" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="29" unit="chars"/>
+        </sp>
+        <sp who="#mehrere_aus_dem_volke">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="11" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="71" unit="chars"/>
+        </sp>
+        <sp who="#jojakim">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="17" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="87" unit="chars"/>
+        </sp>
+        <sp who="#sara">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="11" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="57" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>19. Szene</head>
+      <div>
+        <head>Neunzehnte Szene</head>
+        <sp who="#heman">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="59" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="306" unit="chars"/>
+        </sp>
+        <sp who="#ammon #nabal #volk #jojakim #sara">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="3" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="18" unit="chars"/>
+        </sp>
+        <sp who="#ammon">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="18" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="91" unit="chars"/>
+        </sp>
+        <sp who="#nabal">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="7" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="29" unit="chars"/>
+        </sp>
+        <sp who="#daniel">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="4" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="29" unit="chars"/>
+        </sp>
+        <sp who="#das_volk">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="7" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="39" unit="chars"/>
+        </sp>
+        <sp who="#jojakim">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="20" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="117" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>20. Szene</head>
+      <div>
+        <head>Zwanzigste Szene</head>
+        <sp who="#hosea">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="103" unit="words"/>
+          <amount n="543" unit="chars"/>
+        </sp>
+        <sp who="#assad">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="41" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="225" unit="chars"/>
+        </sp>
+        <sp who="#mehrere_aus_dem_volk">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="4" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="27" unit="chars"/>
+        </sp>
+        <sp who="#mehrere_aus_dem_volk">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="7" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="33" unit="chars"/>
+        </sp>
+        <sp who="#jojakim">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="3" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="15" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>21. Szene</head>
+      <div>
+        <head>Einundzwanzigste Szene</head>
+        <sp who="#holofernes">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="90" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="537" unit="chars"/>
+        </sp>
+        <sp who="#idun">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="9" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="44" unit="chars"/>
+        </sp>
+        <sp who="#achior">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="11" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="47" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>22. Szene</head>
+      <div>
+        <head>Zweiundzwanzigste Szene</head>
+        <sp who="#idun">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="30" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="152" unit="chars"/>
+        </sp>
+        <sp who="#chalkol">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="28" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="142" unit="chars"/>
+        </sp>
+        <sp who="#holofernes">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="108" unit="words"/>
+          <amount n="6" unit="lines"/>
+          <amount n="616" unit="chars"/>
+        </sp>
+        <sp who="#zepho">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="13" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="64" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>23. Szene</head>
+      <div>
+        <head>Dreiundzwanzigste Szene</head>
+        <sp who="#achior">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="10" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="60" unit="chars"/>
+        </sp>
+        <sp who="#holofernes">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="48" unit="words"/>
+          <amount n="268" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>24. Szene</head>
+      <div>
+        <head>Vierundzwanzigste Szene</head>
+        <sp who="#joab_als_judith">
+          <amount n="12" unit="speech_acts"/>
+          <amount n="185" unit="words"/>
+          <amount n="19" unit="lines"/>
+          <amount n="946" unit="chars"/>
+        </sp>
+        <sp who="#holofernes">
+          <amount n="30" unit="speech_acts"/>
+          <amount n="491" unit="words"/>
+          <amount n="22" unit="lines"/>
+          <amount n="2695" unit="chars"/>
+        </sp>
+        <sp who="#joab_als_judith">
+          <amount n="20" unit="speech_acts"/>
+          <amount n="713" unit="words"/>
+          <amount n="106" unit="lines"/>
+          <amount n="3766" unit="chars"/>
+        </sp>
+        <sp who="#achior">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="61" unit="words"/>
+          <amount n="6" unit="lines"/>
+          <amount n="328" unit="chars"/>
+        </sp>
+        <sp who="#mirza">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="50" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="251" unit="chars"/>
+        </sp>
+        <sp who="#stimmen">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="8" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="40" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+  </text>
+</play>

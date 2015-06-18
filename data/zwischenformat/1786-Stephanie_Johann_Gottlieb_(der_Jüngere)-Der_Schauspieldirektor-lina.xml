@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital">
+  <header>
+    <title>Der Schauspieldirektor</title>
+    <subtitle>Ein Gelegenheitsstück in einem Aufzuge</subtitle>
+    <genretitle></genretitle>
+    <author>Stephanie, Johann Gottlieb (der Jüngere)</author>
+    <date type="print"></date>
+    <date type="premiere">1786</date>
+    <date type="written"></date>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:vrdc.0/data</source>
+  </header>
+  <personae>
+    <character>
+      <name>PUF</name>
+      <alias xml:id="puf">
+        <name>PUF</name>
+      </alias>
+    </character>
+    <character>
+      <name>FRANK</name>
+      <alias xml:id="frank">
+        <name>FRANK</name>
+      </alias>
+    </character>
+    <character>
+      <name>EILER</name>
+      <alias xml:id="eiler">
+        <name>EILER</name>
+      </alias>
+    </character>
+    <character>
+      <name>MADAME PFEIL</name>
+      <alias xml:id="madame_pfeil">
+        <name>MADAME PFEIL</name>
+      </alias>
+      <alias xml:id="mad_pfeil">
+        <name>MAD PFEIL</name>
+      </alias>
+    </character>
+    <character>
+      <name>MADAME KRONE</name>
+      <alias xml:id="madame_krone">
+        <name>MADAME KRONE</name>
+      </alias>
+    </character>
+    <character>
+      <name>HERZ</name>
+      <alias xml:id="herz">
+        <name>HERZ</name>
+      </alias>
+    </character>
+    <character>
+      <name>MADAME VOGELSANG</name>
+      <alias xml:id="madame_vogelsang">
+        <name>MADAME VOGELSANG</name>
+      </alias>
+    </character>
+    <character>
+      <name>MADAME HERZ</name>
+      <alias xml:id="madame_herz">
+        <name>MADAME HERZ</name>
+      </alias>
+    </character>
+    <character>
+      <name>MADEMOISELLE SILBERKLANG</name>
+      <alias xml:id="mademoiselle_silberklang">
+        <name>MADEMOISELLE SILBERKLANG</name>
+      </alias>
+    </character>
+    <character>
+      <name>MONSIEUR VOGELSANG</name>
+      <alias xml:id="monsieur_vogelsang">
+        <name>MONSIEUR VOGELSANG</name>
+      </alias>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Personen</head>
+    </div>
+    <div>
+      <head>1. Auftritt</head>
+      <div>
+        <head>Erster Auftritt.</head>
+        <sp who="#puf">
+          <amount n="15" unit="speech_acts"/>
+          <amount n="694" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="3906" unit="chars"/>
+        </sp>
+        <sp who="#frank">
+          <amount n="14" unit="speech_acts"/>
+          <amount n="194" unit="words"/>
+          <amount n="10" unit="lines"/>
+          <amount n="1031" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>2. Auftritt</head>
+      <div>
+        <head>Zweyter Auftritt.</head>
+        <sp who="#eiler">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="326" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="1837" unit="chars"/>
+        </sp>
+        <sp who="#frank">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="42" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="236" unit="chars"/>
+        </sp>
+        <sp who="#puf">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="20" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="139" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>3. Auftritt</head>
+      <div>
+        <head>Dritter Auftritt.</head>
+        <sp who="#madame_pfeil">
+          <amount n="48" unit="speech_acts"/>
+          <amount n="708" unit="words"/>
+          <amount n="39" unit="lines"/>
+          <amount n="3528" unit="chars"/>
+        </sp>
+        <sp who="#eiler">
+          <amount n="47" unit="speech_acts"/>
+          <amount n="884" unit="words"/>
+          <amount n="37" unit="lines"/>
+          <amount n="4239" unit="chars"/>
+        </sp>
+        <sp who="#puf">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="49" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="293" unit="chars"/>
+        </sp>
+        <sp who="#frank">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="46" unit="words"/>
+          <amount n="5" unit="lines"/>
+          <amount n="224" unit="chars"/>
+        </sp>
+        <sp who="#mad_pfeil">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="37" unit="words"/>
+          <amount n="189" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>4. Auftritt</head>
+      <div>
+        <head>Vierter Auftritt.</head>
+        <sp who="#madame_pfeil">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="4" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="26" unit="chars"/>
+        </sp>
+        <sp who="#eiler">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="26" unit="words"/>
+          <amount n="157" unit="chars"/>
+        </sp>
+        <sp who="#frank">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="90" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="547" unit="chars"/>
+        </sp>
+        <sp who="#madame_krone">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="196" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="1127" unit="chars"/>
+        </sp>
+        <sp who="#puf">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="57" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="334" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>5. Auftritt</head>
+      <div>
+        <head>Fünfter Auftritt.</head>
+        <sp who="#frank">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="75" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="407" unit="chars"/>
+        </sp>
+        <sp who="#herz">
+          <amount n="29" unit="speech_acts"/>
+          <amount n="602" unit="words"/>
+          <amount n="20" unit="lines"/>
+          <amount n="3112" unit="chars"/>
+        </sp>
+        <sp who="#madame_krone">
+          <amount n="30" unit="speech_acts"/>
+          <amount n="1060" unit="words"/>
+          <amount n="12" unit="lines"/>
+          <amount n="5751" unit="chars"/>
+        </sp>
+        <sp who="#puf">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="16" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="93" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>6. Auftritt</head>
+      <div>
+        <head>Sechster Auftritt.</head>
+        <sp who="#puf">
+          <amount n="37" unit="speech_acts"/>
+          <amount n="604" unit="words"/>
+          <amount n="25" unit="lines"/>
+          <amount n="2978" unit="chars"/>
+        </sp>
+        <sp who="#madame_vogelsang">
+          <amount n="37" unit="speech_acts"/>
+          <amount n="1027" unit="words"/>
+          <amount n="19" unit="lines"/>
+          <amount n="5265" unit="chars"/>
+        </sp>
+        <sp who="#frank">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="40" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="249" unit="chars"/>
+        </sp>
+        <sp who="#herz">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="11" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="51" unit="chars"/>
+        </sp>
+        <sp who="#madame_krone">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="12" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="73" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>7. Auftritt</head>
+      <div>
+        <head>Siebenter Auftritt.</head>
+        <sp who="#herz">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="76" unit="words"/>
+          <amount n="438" unit="chars"/>
+        </sp>
+        <sp who="#frank">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="37" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="208" unit="chars"/>
+        </sp>
+        <sp who="#madame_herz">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="85" unit="words"/>
+          <amount n="15" unit="lines"/>
+          <amount n="429" unit="chars"/>
+        </sp>
+        <sp who="#puf">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="2" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="12" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>8. Auftritt</head>
+      <div>
+        <head>Achter Auftritt.</head>
+        <sp who="#mademoiselle_silberklang">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="138" unit="words"/>
+          <amount n="13" unit="lines"/>
+          <amount n="736" unit="chars"/>
+        </sp>
+        <sp who="#frank">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="26" unit="words"/>
+          <amount n="157" unit="chars"/>
+        </sp>
+        <sp who="#puf">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="13" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="75" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>9. Auftritt</head>
+      <div>
+        <head>Neunter Auftritt.</head>
+        <sp who="#madame_vogelsang">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="12" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="63" unit="chars"/>
+        </sp>
+        <sp who="#frank">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="21" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="122" unit="chars"/>
+        </sp>
+        <sp who="#mademoiselle_silberklang">
+          <amount n="9" unit="speech_acts"/>
+          <amount n="118" unit="words"/>
+          <amount n="16" unit="lines"/>
+          <amount n="633" unit="chars"/>
+        </sp>
+        <sp who="#madame_herz">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="28" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="149" unit="chars"/>
+        </sp>
+        <sp who="#puf">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="6" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="34" unit="chars"/>
+        </sp>
+        <sp who="#monsieur_vogelsang">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="56" unit="words"/>
+          <amount n="10" unit="lines"/>
+          <amount n="299" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>10. Auftritt</head>
+      <div>
+        <head>Letzter Auftritt.</head>
+        <sp who="#madame_pfeil">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="40" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="200" unit="chars"/>
+        </sp>
+        <sp who="#eiler">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="10" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="48" unit="chars"/>
+        </sp>
+        <sp who="#frank">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="24" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="164" unit="chars"/>
+        </sp>
+        <sp who="#madame_krone #madame_vogelsang">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="3" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="12" unit="chars"/>
+        </sp>
+        <sp who="#madame_herz #mademoiselle_silberklang">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="3" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="12" unit="chars"/>
+        </sp>
+        <sp who="#madame_krone">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="9" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="55" unit="chars"/>
+        </sp>
+        <sp who="#madame_vogelsang">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="7" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="41" unit="chars"/>
+        </sp>
+        <sp who="#madame_herz">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="24" unit="words"/>
+          <amount n="5" unit="lines"/>
+          <amount n="124" unit="chars"/>
+        </sp>
+        <sp who="#mademoiselle_silberklang">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="30" unit="words"/>
+          <amount n="5" unit="lines"/>
+          <amount n="155" unit="chars"/>
+        </sp>
+        <sp who="#puf">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="89" unit="words"/>
+          <amount n="7" unit="lines"/>
+          <amount n="438" unit="chars"/>
+        </sp>
+        <sp who="#madame_pfeil #eiler #frank #madame_krone #madame_vogelsang #madame_herz #mademoiselle_silberklang #puf #monsieur_vogelsang">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="50" unit="words"/>
+          <amount n="8" unit="lines"/>
+          <amount n="268" unit="chars"/>
+        </sp>
+        <sp who="#monsieur_vogelsang">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="21" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="110" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+  </text>
+</play>

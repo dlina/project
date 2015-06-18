@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital">
+  <header>
+    <title>Proserpina</title>
+    <subtitle>Ein Monodrama</subtitle>
+    <genretitle></genretitle>
+    <author>Goethe, Johann Wolfgang von</author>
+    <date type="print" when="1778">1778</date>
+    <date type="premiere" when="1778">1778</date>
+    <date type="written"></date>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:11hb5.0/data</source>
+  </header>
+  <personae>
+    <character>
+      <name>PROSERPINA</name>
+      <alias xml:id="proserpina">
+        <name>PROSERPINA</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE PARZEN</name>
+      <alias xml:id="die_parzen">
+        <name>DIE PARZEN</name>
+      </alias>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>[Stücktext]</head>
+      <div>
+        <head>[Stücktext]</head>
+        <sp who="#proserpina">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="1243" unit="words"/>
+          <amount n="7093" unit="chars"/>
+        </sp>
+        <sp who="#die_parzen">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="55" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="306" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+  </text>
+</play>

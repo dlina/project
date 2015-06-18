@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital">
+  <header>
+    <title>Die Kalkbrenner</title>
+    <subtitle>Liederposse in einem Akt</subtitle>
+    <genretitle></genretitle>
+    <author>Holtei, Karl von</author>
+    <date type="print">1828</date>
+    <date type="premiere">1825</date>
+    <date type="written"></date>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:qfxj.0/data</source>
+  </header>
+  <personae>
+    <character>
+      <name>FRANZ</name>
+      <alias xml:id="franz">
+        <name>FRANZ</name>
+      </alias>
+    </character>
+    <character>
+      <name>KOTZELUCH</name>
+      <alias xml:id="kotzeluch">
+        <name>KOTZELUCH</name>
+      </alias>
+    </character>
+    <character>
+      <name>LOUISE</name>
+      <alias xml:id="louise">
+        <name>LOUISE</name>
+      </alias>
+    </character>
+    <character>
+      <name>BRIEFTRÄGER</name>
+      <alias xml:id="briefträger">
+        <name>BRIEFTRÄGER</name>
+      </alias>
+    </character>
+    <character>
+      <name>LORENZ</name>
+      <alias xml:id="lorenz">
+        <name>LORENZ</name>
+      </alias>
+    </character>
+    <character>
+      <name>FRITZ</name>
+      <alias xml:id="fritz">
+        <name>FRITZ</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE TRÄGER</name>
+      <alias xml:id="die_träger">
+        <name>DIE TRÄGER</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE MAGD</name>
+      <alias xml:id="die_magd">
+        <name>DIE MAGD</name>
+      </alias>
+      <alias xml:id="magd">
+        <name>MAGD</name>
+      </alias>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Personen</head>
+    </div>
+    <div>
+      <head>1. Auftritt</head>
+      <div>
+        <head>Erster Auftritt.</head>
+        <sp who="#franz">
+          <amount n="10" unit="speech_acts"/>
+          <amount n="293" unit="words"/>
+          <amount n="15" unit="lines"/>
+          <amount n="1621" unit="chars"/>
+        </sp>
+        <sp who="#kotzeluch">
+          <amount n="13" unit="speech_acts"/>
+          <amount n="657" unit="words"/>
+          <amount n="10" unit="lines"/>
+          <amount n="3797" unit="chars"/>
+        </sp>
+        <sp who="#louise">
+          <amount n="9" unit="speech_acts"/>
+          <amount n="417" unit="words"/>
+          <amount n="32" unit="lines"/>
+          <amount n="2361" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>2. Auftritt</head>
+      <div>
+        <head>Zweiter Auftritt.</head>
+        <sp who="#kotzeluch">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="182" unit="words"/>
+          <amount n="10" unit="lines"/>
+          <amount n="1014" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>3. Auftritt</head>
+      <div>
+        <head>Dritter Auftritt.</head>
+        <sp who="#kotzeluch">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="717" unit="words"/>
+          <amount n="19" unit="lines"/>
+          <amount n="3852" unit="chars"/>
+        </sp>
+        <sp who="#briefträger">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="30" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="158" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>4. Auftritt</head>
+      <div>
+        <head>Vierter Auftritt.</head>
+        <sp who="#lorenz">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="162" unit="words"/>
+          <amount n="20" unit="lines"/>
+          <amount n="836" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>5. Auftritt</head>
+      <div>
+        <head>Fünfter Auftritt.</head>
+        <sp who="#fritz">
+          <amount n="9" unit="speech_acts"/>
+          <amount n="235" unit="words"/>
+          <amount n="7" unit="lines"/>
+          <amount n="1240" unit="chars"/>
+        </sp>
+        <sp who="#lorenz">
+          <amount n="8" unit="speech_acts"/>
+          <amount n="618" unit="words"/>
+          <amount n="5" unit="lines"/>
+          <amount n="3314" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>6. Auftritt</head>
+      <div>
+        <head>Sechster Auftritt.</head>
+        <sp who="#kotzeluch">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="405" unit="words"/>
+          <amount n="19" unit="lines"/>
+          <amount n="2238" unit="chars"/>
+        </sp>
+        <sp who="#fritz">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="14" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="70" unit="chars"/>
+        </sp>
+        <sp who="#lorenz">
+          <amount n="22" unit="speech_acts"/>
+          <amount n="304" unit="words"/>
+          <amount n="18" unit="lines"/>
+          <amount n="1501" unit="chars"/>
+        </sp>
+        <sp who="#franz #louise">
+          <amount n="1" unit="speech_acts"/>
+        </sp>
+        <sp who="#franz">
+          <amount n="17" unit="speech_acts"/>
+          <amount n="347" unit="words"/>
+          <amount n="10" unit="lines"/>
+          <amount n="1979" unit="chars"/>
+        </sp>
+        <sp who="#louise">
+          <amount n="16" unit="speech_acts"/>
+          <amount n="271" unit="words"/>
+          <amount n="23" unit="lines"/>
+          <amount n="1467" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>7. Auftritt</head>
+      <div>
+        <head>Siebenter Auftritt.</head>
+        <sp who="#lorenz">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="100" unit="words"/>
+          <amount n="5" unit="lines"/>
+          <amount n="588" unit="chars"/>
+        </sp>
+        <sp who="#kotzeluch">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="297" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="1668" unit="chars"/>
+        </sp>
+        <sp who="#franz">
+          <amount n="12" unit="speech_acts"/>
+          <amount n="115" unit="words"/>
+          <amount n="13" unit="lines"/>
+          <amount n="663" unit="chars"/>
+        </sp>
+        <sp who="#louise">
+          <amount n="9" unit="speech_acts"/>
+          <amount n="92" unit="words"/>
+          <amount n="8" unit="lines"/>
+          <amount n="516" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>8. Auftritt</head>
+      <div>
+        <head>Achter Auftritt.</head>
+        <sp who="#fritz">
+          <amount n="8" unit="speech_acts"/>
+          <amount n="78" unit="words"/>
+          <amount n="7" unit="lines"/>
+          <amount n="394" unit="chars"/>
+        </sp>
+        <sp who="#lorenz">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="35" unit="words"/>
+          <amount n="7" unit="lines"/>
+          <amount n="144" unit="chars"/>
+        </sp>
+        <sp who="#fritz #lorenz">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="18" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="81" unit="chars"/>
+        </sp>
+        <sp who="#franz">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="14" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="73" unit="chars"/>
+        </sp>
+        <sp who="#louise">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="9" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="47" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>9. Auftritt</head>
+      <div>
+        <head>Neunter Auftritt.</head>
+        <sp who="#lorenz">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="32" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="174" unit="chars"/>
+        </sp>
+        <sp who="#kotzeluch">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="247" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="1365" unit="chars"/>
+        </sp>
+        <sp who="#franz">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="13" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="61" unit="chars"/>
+        </sp>
+        <sp who="#louise">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="4" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="20" unit="chars"/>
+        </sp>
+        <sp who="#fritz">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="4" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="21" unit="chars"/>
+        </sp>
+        <sp who="#die_träger">
+          <amount n="1" unit="speech_acts"/>
+        </sp>
+        <sp who="#die_magd">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="11" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="56" unit="chars"/>
+        </sp>
+        <sp who="#lorenz #kotzeluch #franz #louise #fritz #die_träger">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="3" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="12" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>10. Auftritt</head>
+      <div>
+        <head>Zehnter Auftritt.</head>
+        <sp who="#magd">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="54" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="303" unit="chars"/>
+        </sp>
+        <sp who="#lorenz #kotzeluch #franz #louise #fritz #die_träger">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="8" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="45" unit="chars"/>
+        </sp>
+        <sp who="#kotzeluch">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="39" unit="words"/>
+          <amount n="215" unit="chars"/>
+        </sp>
+        <sp who="#lorenz">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="38" unit="words"/>
+          <amount n="215" unit="chars"/>
+        </sp>
+        <sp who="#franz">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="40" unit="words"/>
+          <amount n="245" unit="chars"/>
+        </sp>
+        <sp who="#louise">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="20" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="84" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>11. Auftritt</head>
+      <div>
+        <head>Letzter Auftritt.</head>
+        <sp who="#kotzeluch">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="85" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="497" unit="chars"/>
+        </sp>
+        <sp who="#lorenz">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="175" unit="words"/>
+          <amount n="12" unit="lines"/>
+          <amount n="946" unit="chars"/>
+        </sp>
+        <sp who="#louise">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="25" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="141" unit="chars"/>
+        </sp>
+        <sp who="#franz">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="10" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="60" unit="chars"/>
+        </sp>
+        <sp who="#louise #franz">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="5" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="33" unit="chars"/>
+        </sp>
+        <sp who="#fritz">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="17" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="87" unit="chars"/>
+        </sp>
+        <sp who="#kotzeluch #lorenz #louise #franz #fritz">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="6" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="27" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+  </text>
+</play>

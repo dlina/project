@@ -1,0 +1,1504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital">
+  <header>
+    <title>Herzog Theodor von Gothland</title>
+    <subtitle>Eine Tragödie in fünf Akten</subtitle>
+    <genretitle>Tragödie</genretitle>
+    <author>Grabbe, Christian Dietrich</author>
+    <date type="print" when="1827">1827</date>
+    <date type="premiere" when="1892">1892</date>
+    <date type="written" when="1822">1818–1822</date>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:nmg5.0/data</source>
+  </header>
+  <personae>
+    <character>
+      <name>BIÖRN</name>
+      <alias xml:id="biörn">
+        <name>BIÖRN</name>
+      </alias>
+    </character>
+    <character>
+      <name>SOLDAT</name>
+      <alias xml:id="soldat">
+        <name>SOLDAT</name>
+      </alias>
+    </character>
+    <character>
+      <name>BERDOA</name>
+      <alias xml:id="berdoa">
+        <name>BERDOA</name>
+      </alias>
+    </character>
+    <character>
+      <name>VIELE STIMMEN</name>
+      <alias xml:id="viele_stimmen">
+        <name>VIELE STIMMEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>USBEK</name>
+      <alias xml:id="usbek">
+        <name>USBEK</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN FINNE</name>
+      <alias xml:id="ein_finne">
+        <name>EIN FINNE</name>
+      </alias>
+      <alias xml:id="der_finne">
+        <name>DER FINNE</name>
+      </alias>
+    </character>
+    <character>
+      <name>IRNAK</name>
+      <alias xml:id="irnak">
+        <name>IRNAK</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE FINNEN</name>
+      <alias xml:id="die_finnen">
+        <name>DIE FINNEN</name>
+      </alias>
+      <alias xml:id="alle_finnen">
+        <name>ALLE FINNEN</name>
+      </alias>
+      <alias xml:id="finnen">
+        <name>FINNEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>ROSSAN</name>
+      <alias xml:id="rossan">
+        <name>ROSSAN</name>
+      </alias>
+    </character>
+    <character>
+      <name>HOLM</name>
+      <alias xml:id="holm">
+        <name>HOLM</name>
+      </alias>
+    </character>
+    <character>
+      <name>ERIK</name>
+      <alias xml:id="erik">
+        <name>ERIK</name>
+      </alias>
+    </character>
+    <character>
+      <name>GOTHLAND</name>
+      <alias xml:id="gothland">
+        <name>GOTHLAND</name>
+      </alias>
+    </character>
+    <character>
+      <name>ROLF</name>
+      <alias xml:id="rolf">
+        <name>ROLF</name>
+      </alias>
+    </character>
+    <character>
+      <name>CÄCILIA</name>
+      <alias xml:id="cäcilia">
+        <name>CÄCILIA</name>
+      </alias>
+    </character>
+    <character>
+      <name>ARBOGA</name>
+      <alias xml:id="arboga">
+        <name>ARBOGA</name>
+      </alias>
+    </character>
+    <character>
+      <name>KANZLER</name>
+      <alias xml:id="kanzler">
+        <name>KANZLER</name>
+      </alias>
+      <alias xml:id="der_kanzler">
+        <name>DER KANZLER</name>
+      </alias>
+    </character>
+    <character>
+      <name>KÖNIG</name>
+      <alias xml:id="könig">
+        <name>KÖNIG</name>
+      </alias>
+      <alias xml:id="der_könig">
+        <name>DER KÖNIG</name>
+      </alias>
+    </character>
+    <character>
+      <name>SKIOLD</name>
+      <alias xml:id="skiold">
+        <name>SKIOLD</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE ÜBRIGEN SCHWEDISCHEN GROßEN</name>
+      <alias xml:id="die_übrigen_schwedischen_großen">
+        <name>DIE ÜBRIGEN SCHWEDISCHEN GROßEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER HAUPTMANN</name>
+      <alias xml:id="der_hauptmann">
+        <name>DER HAUPTMANN</name>
+      </alias>
+      <alias xml:id="hauptmann">
+        <name>HAUPTMANN</name>
+      </alias>
+    </character>
+    <character>
+      <name>GUSTAV</name>
+      <alias xml:id="gustav">
+        <name>GUSTAV</name>
+      </alias>
+    </character>
+    <character>
+      <name>VOLK AUF DER STRASSE</name>
+      <alias xml:id="volk_auf_der_strasse">
+        <name>VOLK AUF DER STRASSE</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER ALTE HERZOG VON GOTHLAND</name>
+      <alias xml:id="der_alte_herzog_von_gothland">
+        <name>DER ALTE HERZOG VON GOTHLAND</name>
+      </alias>
+      <alias xml:id="der_alte_gothland">
+        <name>DER ALTE GOTHLAND</name>
+      </alias>
+      <alias xml:id="die_stimme_des_alten_herzoges_von_gothland">
+        <name>DIE STIMME DES ALTEN HERZOGES VON GOTHLAND</name>
+      </alias>
+    </character>
+    <character>
+      <name>VERWUNDETE FINNEN</name>
+      <alias xml:id="das_jammergeschrei_verwundeter_finnen">
+        <name>DAS JAMMERGESCHREI VERWUNDETER FINNEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>FLÜCHTIGE</name>
+      <alias xml:id="flüchtige">
+        <name>FLÜCHTIGE</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN FINNISCHER HAUPTMANN</name>
+      <alias xml:id="ein_finnischer_hauptmann">
+        <name>EIN FINNISCHER HAUPTMANN</name>
+      </alias>
+    </character>
+    <character>
+      <name>EINZELNE STIMMEN</name>
+      <alias xml:id="einzelne_stimmen">
+        <name>EINZELNE STIMMEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>STIMMEN VON DEM MEERE HER</name>
+      <alias xml:id="stimmen_von_dem_meere_her">
+        <name>STIMMEN VON DEM MEERE HER</name>
+      </alias>
+    </character>
+    <character>
+      <name>EINER DER SCHIFFBRÜCHIGEN</name>
+      <alias xml:id="einer_der_schiffbrüchigen">
+        <name>EINER DER SCHIFFBRÜCHIGEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>HEROLD</name>
+      <alias xml:id="herold">
+        <name>HEROLD</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE ANWESENDEN KRIEGER</name>
+      <alias xml:id="die_anwesenden_krieger">
+        <name>DIE ANWESENDEN KRIEGER</name>
+      </alias>
+    </character>
+    <character>
+      <name>CHOR</name>
+      <alias xml:id="chor">
+        <name>CHOR</name>
+      </alias>
+    </character>
+    <character>
+      <name>EINE DIRNE</name>
+      <alias xml:id="eine_dirne">
+        <name>EINE DIRNE</name>
+      </alias>
+    </character>
+    <character>
+      <name>ANDRE</name>
+      <alias xml:id="andre">
+        <name>ANDRE</name>
+      </alias>
+    </character>
+    <character>
+      <name>MEHRERE STIMMEN</name>
+      <alias xml:id="mehrere_stimmen">
+        <name>MEHRERE STIMMEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>EINE STIMME</name>
+      <alias xml:id="eine_stimme">
+        <name>EINE STIMME</name>
+      </alias>
+    </character>
+    <character>
+      <name>EINE ANDRE STIMME</name>
+      <alias xml:id="eine_andre_stimme">
+        <name>EINE ANDRE STIMME</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE FINNISCHEN HAUPTLEUTE</name>
+      <alias xml:id="die_finnischen_hauptleute">
+        <name>DIE FINNISCHEN HAUPTLEUTE</name>
+      </alias>
+      <alias xml:id="die_finnenhauptleute">
+        <name>DIE FINNENHAUPTLEUTE</name>
+      </alias>
+      <alias xml:id="finnische_hauptleute">
+        <name>FINNISCHE HAUPTLEUTE</name>
+      </alias>
+      <alias xml:id="eintretende_hauptleute">
+        <name>EINTRETENDE HAUPTLEUTE</name>
+      </alias>
+    </character>
+    <character>
+      <name>UNTEROFFIZIER</name>
+      <alias xml:id="unteroffizier">
+        <name>UNTEROFFIZIER</name>
+      </alias>
+    </character>
+    <character>
+      <name>TOCKE</name>
+      <alias xml:id="tocke">
+        <name>TOCKE</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN SCHWEDISCHER HAUPTMANN</name>
+      <alias xml:id="ein_schwedischer_hauptmann">
+        <name>EIN SCHWEDISCHER HAUPTMANN</name>
+      </alias>
+      <alias xml:id="der_schwedische_hauptmann">
+        <name>DER SCHWEDISCHE HAUPTMANN</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN SCHWEDISCHER SOLDAT</name>
+      <alias xml:id="ein_schwedischer_soldat">
+        <name>EIN SCHWEDISCHER SOLDAT</name>
+      </alias>
+      <alias xml:id="der_soldat">
+        <name>DER SOLDAT</name>
+      </alias>
+    </character>
+    <character>
+      <name>EINER DER FINNISCHEN HAUPTLEUTE</name>
+      <alias xml:id="einer_der_finnischen_hauptleute">
+        <name>EINER DER FINNISCHEN HAUPTLEUTE</name>
+      </alias>
+    </character>
+    <character>
+      <name>ERSTER HAUPTMANN</name>
+      <alias xml:id="erster_hauptmann">
+        <name>ERSTER HAUPTMANN</name>
+      </alias>
+    </character>
+    <character>
+      <name>ZWEITER HAUPTMANN</name>
+      <alias xml:id="zweiter_hauptmann">
+        <name>ZWEITER HAUPTMANN</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE FLÜCHTIGEN</name>
+      <alias xml:id="die_flüchtigen">
+        <name>DIE FLÜCHTIGEN</name>
+      </alias>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Personen</head>
+    </div>
+    <div>
+      <head>1. Akt</head>
+      <div>
+        <head>1. Szene</head>
+        <div>
+          <head>Erste Szene</head>
+          <sp who="#biörn">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="180" unit="words"/>
+            <amount n="31" unit="lines"/>
+            <amount n="1027" unit="chars"/>
+          </sp>
+          <sp who="#soldat">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="31" unit="words"/>
+            <amount n="7" unit="lines"/>
+            <amount n="175" unit="chars"/>
+          </sp>
+          <sp who="#berdoa">
+            <amount n="40" unit="speech_acts"/>
+            <amount n="1323" unit="words"/>
+            <amount n="216" unit="lines"/>
+            <amount n="7140" unit="chars"/>
+          </sp>
+          <sp who="#viele_stimmen">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="3" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="15" unit="chars"/>
+          </sp>
+          <sp who="#usbek">
+            <amount n="14" unit="speech_acts"/>
+            <amount n="177" unit="words"/>
+            <amount n="33" unit="lines"/>
+            <amount n="1029" unit="chars"/>
+          </sp>
+          <sp who="#ein_finne">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="2" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="6" unit="chars"/>
+          </sp>
+          <sp who="#der_finne">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="59" unit="words"/>
+            <amount n="12" unit="lines"/>
+            <amount n="334" unit="chars"/>
+          </sp>
+          <sp who="#irnak">
+            <amount n="13" unit="speech_acts"/>
+            <amount n="254" unit="words"/>
+            <amount n="44" unit="lines"/>
+            <amount n="1393" unit="chars"/>
+          </sp>
+          <sp who="#die_finnen">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="7" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="49" unit="chars"/>
+          </sp>
+          <sp who="#rossan">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="87" unit="words"/>
+            <amount n="16" unit="lines"/>
+            <amount n="478" unit="chars"/>
+          </sp>
+          <sp who="#holm">
+            <amount n="17" unit="speech_acts"/>
+            <amount n="299" unit="words"/>
+            <amount n="52" unit="lines"/>
+            <amount n="1618" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Szene</head>
+        <div>
+          <head>Zweite Szene</head>
+          <sp who="#erik">
+            <amount n="11" unit="speech_acts"/>
+            <amount n="171" unit="words"/>
+            <amount n="29" unit="lines"/>
+            <amount n="964" unit="chars"/>
+          </sp>
+          <sp who="#gothland">
+            <amount n="40" unit="speech_acts"/>
+            <amount n="1930" unit="words"/>
+            <amount n="300" unit="lines"/>
+            <amount n="10323" unit="chars"/>
+          </sp>
+          <sp who="#rolf">
+            <amount n="32" unit="speech_acts"/>
+            <amount n="318" unit="words"/>
+            <amount n="68" unit="lines"/>
+            <amount n="1665" unit="chars"/>
+          </sp>
+          <sp who="#berdoa">
+            <amount n="39" unit="speech_acts"/>
+            <amount n="538" unit="words"/>
+            <amount n="100" unit="lines"/>
+            <amount n="2802" unit="chars"/>
+          </sp>
+          <sp who="#irnak">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="7" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="42" unit="chars"/>
+          </sp>
+          <sp who="#cäcilia">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="188" unit="words"/>
+            <amount n="27" unit="lines"/>
+            <amount n="976" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3. Szene</head>
+        <div>
+          <head>Dritte Szene</head>
+          <sp who="#rolf">
+            <amount n="30" unit="speech_acts"/>
+            <amount n="628" unit="words"/>
+            <amount n="110" unit="lines"/>
+            <amount n="3432" unit="chars"/>
+          </sp>
+          <sp who="#berdoa">
+            <amount n="40" unit="speech_acts"/>
+            <amount n="1014" unit="words"/>
+            <amount n="166" unit="lines"/>
+            <amount n="5346" unit="chars"/>
+          </sp>
+          <sp who="#irnak">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="32" unit="words"/>
+            <amount n="7" unit="lines"/>
+            <amount n="187" unit="chars"/>
+          </sp>
+          <sp who="#gothland">
+            <amount n="40" unit="speech_acts"/>
+            <amount n="775" unit="words"/>
+            <amount n="137" unit="lines"/>
+            <amount n="4182" unit="chars"/>
+          </sp>
+          <sp who="#erik">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="17" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="106" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>2. Akt</head>
+      <div>
+        <head>1. Szene</head>
+        <div>
+          <head>Erste Szene</head>
+          <sp who="#arboga">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="121" unit="words"/>
+            <amount n="20" unit="lines"/>
+            <amount n="592" unit="chars"/>
+          </sp>
+          <sp who="#kanzler">
+            <amount n="41" unit="speech_acts"/>
+            <amount n="494" unit="words"/>
+            <amount n="95" unit="lines"/>
+            <amount n="2636" unit="chars"/>
+          </sp>
+          <sp who="#gothland">
+            <amount n="68" unit="speech_acts"/>
+            <amount n="1625" unit="words"/>
+            <amount n="271" unit="lines"/>
+            <amount n="8610" unit="chars"/>
+          </sp>
+          <sp who="#der_kanzler">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="97" unit="words"/>
+            <amount n="14" unit="lines"/>
+            <amount n="517" unit="chars"/>
+          </sp>
+          <sp who="#könig">
+            <amount n="37" unit="speech_acts"/>
+            <amount n="315" unit="words"/>
+            <amount n="72" unit="lines"/>
+            <amount n="1680" unit="chars"/>
+          </sp>
+          <sp who="#holm #arboga #skiold">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="5" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="34" unit="chars"/>
+          </sp>
+          <sp who="#skiold">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="104" unit="words"/>
+            <amount n="16" unit="lines"/>
+            <amount n="542" unit="chars"/>
+          </sp>
+          <sp who="#holm">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="141" unit="words"/>
+            <amount n="23" unit="lines"/>
+            <amount n="748" unit="chars"/>
+          </sp>
+          <sp who="#berdoa">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="23" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="116" unit="chars"/>
+          </sp>
+          <sp who="#die_übrigen_schwedischen_großen">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="3" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="15" unit="chars"/>
+          </sp>
+          <sp who="#der_hauptmann">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="12" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="63" unit="chars"/>
+          </sp>
+          <sp who="#erik">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="20" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="90" unit="chars"/>
+          </sp>
+          <sp who="#hauptmann">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="11" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="57" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Szene</head>
+        <div>
+          <head>Zweite Szene</head>
+          <sp who="#gothland">
+            <amount n="10" unit="speech_acts"/>
+            <amount n="99" unit="words"/>
+            <amount n="17" unit="lines"/>
+            <amount n="500" unit="chars"/>
+          </sp>
+          <sp who="#kanzler">
+            <amount n="12" unit="speech_acts"/>
+            <amount n="221" unit="words"/>
+            <amount n="36" unit="lines"/>
+            <amount n="1216" unit="chars"/>
+          </sp>
+          <sp who="#berdoa">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="49" unit="words"/>
+            <amount n="8" unit="lines"/>
+            <amount n="283" unit="chars"/>
+          </sp>
+          <sp who="#gustav">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="27" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="140" unit="chars"/>
+          </sp>
+          <sp who="#skiold">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="17" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="90" unit="chars"/>
+          </sp>
+          <sp who="#könig">
+            <amount n="24" unit="speech_acts"/>
+            <amount n="661" unit="words"/>
+            <amount n="108" unit="lines"/>
+            <amount n="3569" unit="chars"/>
+          </sp>
+          <sp who="#biörn">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="26" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="150" unit="chars"/>
+          </sp>
+          <sp who="#volk_auf_der_strasse">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="9" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="52" unit="chars"/>
+          </sp>
+          <sp who="#arboga">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="7" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="49" unit="chars"/>
+          </sp>
+          <sp who="#holm">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="54" unit="words"/>
+            <amount n="9" unit="lines"/>
+            <amount n="288" unit="chars"/>
+          </sp>
+          <sp who="#die_stimme_des_alten_herzoges_von_gothland">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="7" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="38" unit="chars"/>
+          </sp>
+          <sp who="#der_alte_herzog_von_gothland">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="14" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="61" unit="chars"/>
+          </sp>
+          <sp who="#der_alte_gothland">
+            <amount n="21" unit="speech_acts"/>
+            <amount n="855" unit="words"/>
+            <amount n="132" unit="lines"/>
+            <amount n="4474" unit="chars"/>
+          </sp>
+          <sp who="#gothland #kanzler #berdoa #gustav #skiold #könig #biörn #arboga #holm">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="13" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="72" unit="chars"/>
+          </sp>
+          <sp who="#das_jammergeschrei_verwundeter_finnen">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="5" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="26" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>3. Akt</head>
+      <div>
+        <head>1. Szene</head>
+        <div>
+          <head>Erste Szene</head>
+          <sp who="#rolf">
+            <amount n="20" unit="speech_acts"/>
+            <amount n="593" unit="words"/>
+            <amount n="97" unit="lines"/>
+            <amount n="3309" unit="chars"/>
+          </sp>
+          <sp who="#gothland">
+            <amount n="120" unit="speech_acts"/>
+            <amount n="4917" unit="words"/>
+            <amount n="827" unit="lines"/>
+            <amount n="26061" unit="chars"/>
+          </sp>
+          <sp who="#berdoa">
+            <amount n="55" unit="speech_acts"/>
+            <amount n="1857" unit="words"/>
+            <amount n="300" unit="lines"/>
+            <amount n="9873" unit="chars"/>
+          </sp>
+          <sp who="#erik">
+            <amount n="15" unit="speech_acts"/>
+            <amount n="149" unit="words"/>
+            <amount n="29" unit="lines"/>
+            <amount n="784" unit="chars"/>
+          </sp>
+          <sp who="#irnak">
+            <amount n="18" unit="speech_acts"/>
+            <amount n="324" unit="words"/>
+            <amount n="60" unit="lines"/>
+            <amount n="1733" unit="chars"/>
+          </sp>
+          <sp who="#rossan">
+            <amount n="28" unit="speech_acts"/>
+            <amount n="346" unit="words"/>
+            <amount n="61" unit="lines"/>
+            <amount n="1765" unit="chars"/>
+          </sp>
+          <sp who="#finnen">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="17" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="93" unit="chars"/>
+          </sp>
+          <sp who="#usbek">
+            <amount n="13" unit="speech_acts"/>
+            <amount n="108" unit="words"/>
+            <amount n="24" unit="lines"/>
+            <amount n="567" unit="chars"/>
+          </sp>
+          <sp who="#flüchtige">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="4" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="20" unit="chars"/>
+          </sp>
+          <sp who="#ein_finne">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="22" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="102" unit="chars"/>
+          </sp>
+          <sp who="#der_alte_gothland">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="142" unit="words"/>
+            <amount n="23" unit="lines"/>
+            <amount n="743" unit="chars"/>
+          </sp>
+          <sp who="#die_finnen">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="24" unit="words"/>
+            <amount n="7" unit="lines"/>
+            <amount n="116" unit="chars"/>
+          </sp>
+          <sp who="#ein_finnischer_hauptmann">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="27" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="157" unit="chars"/>
+          </sp>
+          <sp who="#einzelne_stimmen">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="6" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="21" unit="chars"/>
+          </sp>
+          <sp who="#rossan #finnen">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="4" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="20" unit="chars"/>
+          </sp>
+          <sp who="#usbek #finnen">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="4" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="24" unit="chars"/>
+          </sp>
+          <sp who="#alle_finnen">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="5" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="29" unit="chars"/>
+          </sp>
+          <sp who="#der_finne">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="4" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="21" unit="chars"/>
+          </sp>
+          <sp who="#stimmen_von_dem_meere_her">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="95" unit="words"/>
+            <amount n="17" unit="lines"/>
+            <amount n="507" unit="chars"/>
+          </sp>
+          <sp who="#einer_der_schiffbrüchigen">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="8" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="42" unit="chars"/>
+          </sp>
+          <sp who="#herold">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="105" unit="words"/>
+            <amount n="14" unit="lines"/>
+            <amount n="523" unit="chars"/>
+          </sp>
+          <sp who="#arboga">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="132" unit="words"/>
+            <amount n="23" unit="lines"/>
+            <amount n="678" unit="chars"/>
+          </sp>
+          <sp who="#die_anwesenden_krieger">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="4" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="26" unit="chars"/>
+          </sp>
+          <sp who="#gustav">
+            <amount n="18" unit="speech_acts"/>
+            <amount n="636" unit="words"/>
+            <amount n="104" unit="lines"/>
+            <amount n="3232" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Szene</head>
+        <div>
+          <head>Zweite Szene</head>
+          <sp who="#holm">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="47" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="234" unit="chars"/>
+          </sp>
+          <sp who="#könig">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="107" unit="words"/>
+            <amount n="16" unit="lines"/>
+            <amount n="601" unit="chars"/>
+          </sp>
+          <sp who="#der_alte_gothland">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="30" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="145" unit="chars"/>
+          </sp>
+          <sp who="#holm #der_alte_gothland">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="7" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="34" unit="chars"/>
+          </sp>
+          <sp who="#arboga">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="22" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="120" unit="chars"/>
+          </sp>
+          <sp who="#gothland">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="408" unit="words"/>
+            <amount n="62" unit="lines"/>
+            <amount n="2080" unit="chars"/>
+          </sp>
+          <sp who="#berdoa">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="17" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="89" unit="chars"/>
+          </sp>
+          <sp who="#rossan">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="28" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="131" unit="chars"/>
+          </sp>
+          <sp who="#irnak">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="30" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="163" unit="chars"/>
+          </sp>
+          <sp who="#usbek">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="26" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="172" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>4. Akt</head>
+      <div>
+        <head>1. Szene</head>
+        <div>
+          <head>Erste Szene</head>
+          <sp who="#arboga">
+            <amount n="13" unit="speech_acts"/>
+            <amount n="123" unit="words"/>
+            <amount n="24" unit="lines"/>
+            <amount n="633" unit="chars"/>
+          </sp>
+          <sp who="#erik">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="223" unit="words"/>
+            <amount n="35" unit="lines"/>
+            <amount n="1141" unit="chars"/>
+          </sp>
+          <sp who="#gothland">
+            <amount n="92" unit="speech_acts"/>
+            <amount n="2945" unit="words"/>
+            <amount n="489" unit="lines"/>
+            <amount n="15635" unit="chars"/>
+          </sp>
+          <sp who="#berdoa">
+            <amount n="61" unit="speech_acts"/>
+            <amount n="1478" unit="words"/>
+            <amount n="254" unit="lines"/>
+            <amount n="7922" unit="chars"/>
+          </sp>
+          <sp who="#cäcilia">
+            <amount n="24" unit="speech_acts"/>
+            <amount n="701" unit="words"/>
+            <amount n="109" unit="lines"/>
+            <amount n="3600" unit="chars"/>
+          </sp>
+          <sp who="#skiold #erik">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="3" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="16" unit="chars"/>
+          </sp>
+          <sp who="#skiold">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="60" unit="words"/>
+            <amount n="12" unit="lines"/>
+            <amount n="333" unit="chars"/>
+          </sp>
+          <sp who="#irnak">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="104" unit="words"/>
+            <amount n="20" unit="lines"/>
+            <amount n="503" unit="chars"/>
+          </sp>
+          <sp who="#gustav">
+            <amount n="42" unit="speech_acts"/>
+            <amount n="374" unit="words"/>
+            <amount n="78" unit="lines"/>
+            <amount n="1900" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Szene</head>
+        <div>
+          <head>Zweite Szene</head>
+          <sp who="#berdoa">
+            <amount n="15" unit="speech_acts"/>
+            <amount n="239" unit="words"/>
+            <amount n="37" unit="lines"/>
+            <amount n="1236" unit="chars"/>
+          </sp>
+          <sp who="#irnak">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="33" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="162" unit="chars"/>
+          </sp>
+          <sp who="#chor">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="6" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="30" unit="chars"/>
+          </sp>
+          <sp who="#usbek">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="23" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="143" unit="chars"/>
+          </sp>
+          <sp who="#eine_dirne">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="9" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="46" unit="chars"/>
+          </sp>
+          <sp who="#gustav">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="116" unit="words"/>
+            <amount n="18" unit="lines"/>
+            <amount n="616" unit="chars"/>
+          </sp>
+          <sp who="#finnische_hauptleute">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="16" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="81" unit="chars"/>
+          </sp>
+          <sp who="#andre">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="14" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="65" unit="chars"/>
+          </sp>
+          <sp who="#eintretende_hauptleute">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="6" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="32" unit="chars"/>
+          </sp>
+          <sp who="#mehrere_stimmen">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="23" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="148" unit="chars"/>
+          </sp>
+          <sp who="#eine_stimme">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="24" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="137" unit="chars"/>
+          </sp>
+          <sp who="#die_finnischen_hauptleute #usbek #irnak #mehrere_stimmen #eine_stimme #eine_andre_stimme">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="71" unit="words"/>
+            <amount n="12" unit="lines"/>
+            <amount n="403" unit="chars"/>
+          </sp>
+          <sp who="#eine_andre_stimme">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="13" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="75" unit="chars"/>
+          </sp>
+          <sp who="#gothland">
+            <amount n="28" unit="speech_acts"/>
+            <amount n="464" unit="words"/>
+            <amount n="95" unit="lines"/>
+            <amount n="2478" unit="chars"/>
+          </sp>
+          <sp who="#ein_finne">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="4" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="18" unit="chars"/>
+          </sp>
+          <sp who="#die_finnischen_hauptleute">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="40" unit="words"/>
+            <amount n="9" unit="lines"/>
+            <amount n="218" unit="chars"/>
+          </sp>
+          <sp who="#die_finnenhauptleute">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="5" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="25" unit="chars"/>
+          </sp>
+          <sp who="#rossan">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="3" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="11" unit="chars"/>
+          </sp>
+          <sp who="#unteroffizier">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="34" unit="words"/>
+            <amount n="8" unit="lines"/>
+            <amount n="209" unit="chars"/>
+          </sp>
+          <sp who="#tocke">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="46" unit="words"/>
+            <amount n="9" unit="lines"/>
+            <amount n="221" unit="chars"/>
+          </sp>
+          <sp who="#ein_schwedischer_hauptmann">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="9" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="49" unit="chars"/>
+          </sp>
+          <sp who="#der_schwedische_hauptmann">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="12" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="61" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3. Szene</head>
+        <div>
+          <head>Dritte Szene</head>
+          <sp who="#skiold">
+            <amount n="11" unit="speech_acts"/>
+            <amount n="124" unit="words"/>
+            <amount n="29" unit="lines"/>
+            <amount n="670" unit="chars"/>
+          </sp>
+          <sp who="#cäcilia">
+            <amount n="11" unit="speech_acts"/>
+            <amount n="407" unit="words"/>
+            <amount n="70" unit="lines"/>
+            <amount n="2101" unit="chars"/>
+          </sp>
+          <sp who="#gothland">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="324" unit="words"/>
+            <amount n="57" unit="lines"/>
+            <amount n="1720" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>4. Szene</head>
+        <div>
+          <head>Vierte Szene</head>
+          <sp who="#cäcilia">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="368" unit="words"/>
+            <amount n="62" unit="lines"/>
+            <amount n="1916" unit="chars"/>
+          </sp>
+          <sp who="#skiold">
+            <amount n="30" unit="speech_acts"/>
+            <amount n="420" unit="words"/>
+            <amount n="81" unit="lines"/>
+            <amount n="2200" unit="chars"/>
+          </sp>
+          <sp who="#der_alte_herzog_von_gothland">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="3" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="14" unit="chars"/>
+          </sp>
+          <sp who="#der_alte_gothland">
+            <amount n="29" unit="speech_acts"/>
+            <amount n="459" unit="words"/>
+            <amount n="85" unit="lines"/>
+            <amount n="2346" unit="chars"/>
+          </sp>
+          <sp who="#gothland">
+            <amount n="13" unit="speech_acts"/>
+            <amount n="268" unit="words"/>
+            <amount n="42" unit="lines"/>
+            <amount n="1320" unit="chars"/>
+          </sp>
+          <sp who="#der_könig">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="6" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="33" unit="chars"/>
+          </sp>
+          <sp who="#holm">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="7" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="37" unit="chars"/>
+          </sp>
+          <sp who="#könig">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="46" unit="words"/>
+            <amount n="11" unit="lines"/>
+            <amount n="250" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>5. Akt</head>
+      <div>
+        <head>1. Szene</head>
+        <div>
+          <head>Erste Szene</head>
+          <sp who="#arboga">
+            <amount n="11" unit="speech_acts"/>
+            <amount n="67" unit="words"/>
+            <amount n="16" unit="lines"/>
+            <amount n="345" unit="chars"/>
+          </sp>
+          <sp who="#erik">
+            <amount n="14" unit="speech_acts"/>
+            <amount n="192" unit="words"/>
+            <amount n="42" unit="lines"/>
+            <amount n="1052" unit="chars"/>
+          </sp>
+          <sp who="#gothland">
+            <amount n="26" unit="speech_acts"/>
+            <amount n="508" unit="words"/>
+            <amount n="94" unit="lines"/>
+            <amount n="2625" unit="chars"/>
+          </sp>
+          <sp who="#rossan">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="31" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="131" unit="chars"/>
+          </sp>
+          <sp who="#gustav">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="115" unit="words"/>
+            <amount n="23" unit="lines"/>
+            <amount n="624" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Szene</head>
+        <div>
+          <head>Zweite Szene</head>
+          <sp who="#irnak">
+            <amount n="11" unit="speech_acts"/>
+            <amount n="156" unit="words"/>
+            <amount n="32" unit="lines"/>
+            <amount n="791" unit="chars"/>
+          </sp>
+          <sp who="#usbek">
+            <amount n="11" unit="speech_acts"/>
+            <amount n="110" unit="words"/>
+            <amount n="24" unit="lines"/>
+            <amount n="627" unit="chars"/>
+          </sp>
+          <sp who="#gustav">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="84" unit="words"/>
+            <amount n="16" unit="lines"/>
+            <amount n="477" unit="chars"/>
+          </sp>
+          <sp who="#rossan">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="28" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="154" unit="chars"/>
+          </sp>
+          <sp who="#berdoa">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="194" unit="words"/>
+            <amount n="39" unit="lines"/>
+            <amount n="1021" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3. Szene</head>
+        <div>
+          <head>Dritte Szene</head>
+          <sp who="#gothland">
+            <amount n="39" unit="speech_acts"/>
+            <amount n="659" unit="words"/>
+            <amount n="134" unit="lines"/>
+            <amount n="3526" unit="chars"/>
+          </sp>
+          <sp who="#erik">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="9" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="46" unit="chars"/>
+          </sp>
+          <sp who="#arboga">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="19" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="112" unit="chars"/>
+          </sp>
+          <sp who="#usbek">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="22" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="129" unit="chars"/>
+          </sp>
+          <sp who="#ein_schwedischer_soldat">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="25" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="164" unit="chars"/>
+          </sp>
+          <sp who="#der_soldat">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="8" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="40" unit="chars"/>
+          </sp>
+          <sp who="#soldat">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="9" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="54" unit="chars"/>
+          </sp>
+          <sp who="#berdoa">
+            <amount n="33" unit="speech_acts"/>
+            <amount n="831" unit="words"/>
+            <amount n="158" unit="lines"/>
+            <amount n="4671" unit="chars"/>
+          </sp>
+          <sp who="#irnak">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="29" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="159" unit="chars"/>
+          </sp>
+          <sp who="#die_finnischen_hauptleute">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="14" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="86" unit="chars"/>
+          </sp>
+          <sp who="#einer_der_finnischen_hauptleute">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="40" unit="words"/>
+            <amount n="7" unit="lines"/>
+            <amount n="205" unit="chars"/>
+          </sp>
+          <sp who="#irnak #finnische_hauptleute">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="6" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="26" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>4. Szene</head>
+        <div>
+          <head>Vierte Szene</head>
+          <sp who="#berdoa">
+            <amount n="10" unit="speech_acts"/>
+            <amount n="237" unit="words"/>
+            <amount n="46" unit="lines"/>
+            <amount n="1311" unit="chars"/>
+          </sp>
+          <sp who="#tocke">
+            <amount n="10" unit="speech_acts"/>
+            <amount n="159" unit="words"/>
+            <amount n="30" unit="lines"/>
+            <amount n="811" unit="chars"/>
+          </sp>
+          <sp who="#gothland">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="588" unit="words"/>
+            <amount n="109" unit="lines"/>
+            <amount n="3148" unit="chars"/>
+          </sp>
+          <sp who="#ein_finne">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="35" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="188" unit="chars"/>
+          </sp>
+          <sp who="#irnak">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="8" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="43" unit="chars"/>
+          </sp>
+          <sp who="#irnak #finnische_hauptleute">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="5" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="24" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>5. Szene</head>
+        <div>
+          <head>Fünfte Szene</head>
+          <sp who="#erster_hauptmann">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="52" unit="words"/>
+            <amount n="12" unit="lines"/>
+            <amount n="327" unit="chars"/>
+          </sp>
+          <sp who="#zweiter_hauptmann">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="278" unit="words"/>
+            <amount n="47" unit="lines"/>
+            <amount n="1563" unit="chars"/>
+          </sp>
+          <sp who="#berdoa">
+            <amount n="14" unit="speech_acts"/>
+            <amount n="249" unit="words"/>
+            <amount n="48" unit="lines"/>
+            <amount n="1289" unit="chars"/>
+          </sp>
+          <sp who="#gothland">
+            <amount n="10" unit="speech_acts"/>
+            <amount n="532" unit="words"/>
+            <amount n="86" unit="lines"/>
+            <amount n="2916" unit="chars"/>
+          </sp>
+          <sp who="#gustav">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="64" unit="words"/>
+            <amount n="9" unit="lines"/>
+            <amount n="288" unit="chars"/>
+          </sp>
+          <sp who="#arboga">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="182" unit="words"/>
+            <amount n="33" unit="lines"/>
+            <amount n="875" unit="chars"/>
+          </sp>
+          <sp who="#usbek">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="114" unit="words"/>
+            <amount n="24" unit="lines"/>
+            <amount n="637" unit="chars"/>
+          </sp>
+          <sp who="#der_hauptmann">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="105" unit="words"/>
+            <amount n="18" unit="lines"/>
+            <amount n="529" unit="chars"/>
+          </sp>
+          <sp who="#könig">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="196" unit="words"/>
+            <amount n="34" unit="lines"/>
+            <amount n="1148" unit="chars"/>
+          </sp>
+          <sp who="#holm">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="46" unit="words"/>
+            <amount n="9" unit="lines"/>
+            <amount n="228" unit="chars"/>
+          </sp>
+          <sp who="#der_alte_gothland">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="50" unit="words"/>
+            <amount n="9" unit="lines"/>
+            <amount n="278" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>6. Szene</head>
+        <div>
+          <head>Letzte Szene</head>
+          <sp who="#gothland">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="283" unit="words"/>
+            <amount n="49" unit="lines"/>
+            <amount n="1405" unit="chars"/>
+          </sp>
+          <sp who="#arboga">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="93" unit="words"/>
+            <amount n="20" unit="lines"/>
+            <amount n="519" unit="chars"/>
+          </sp>
+          <sp who="#die_flüchtigen">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="10" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="50" unit="chars"/>
+          </sp>
+          <sp who="#usbek">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="20" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="108" unit="chars"/>
+          </sp>
+          <sp who="#die_flüchtigen">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="14" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="76" unit="chars"/>
+          </sp>
+          <sp who="#viele_stimmen">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="10" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="54" unit="chars"/>
+          </sp>
+          <sp who="#könig">
+            <amount n="10" unit="speech_acts"/>
+            <amount n="196" unit="words"/>
+            <amount n="41" unit="lines"/>
+            <amount n="1016" unit="chars"/>
+          </sp>
+          <sp who="#holm">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="16" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="86" unit="chars"/>
+          </sp>
+          <sp who="#der_hauptmann">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="18" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="103" unit="chars"/>
+          </sp>
+          <sp who="#der_alte_gothland">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="418" unit="words"/>
+            <amount n="74" unit="lines"/>
+            <amount n="2206" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+  </text>
+</play>

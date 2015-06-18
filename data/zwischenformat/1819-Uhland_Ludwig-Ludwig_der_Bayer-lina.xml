@@ -1,0 +1,1009 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital">
+  <header>
+    <title>Ludwig der Bayer</title>
+    <subtitle>Schauspiel in fünf Aufzügen</subtitle>
+    <genretitle>Schauspiel</genretitle>
+    <author>Uhland, Ludwig</author>
+    <date type="print">1819</date>
+    <date type="premiere">1826</date>
+    <date type="written" when="1818">1817–1818</date>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:wp6p.0/data</source>
+  </header>
+  <personae>
+    <character>
+      <name>ADELRAM</name>
+      <alias xml:id="adelram">
+        <name>ADELRAM</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER SCHÖFFE</name>
+      <alias xml:id="der_schöffe">
+        <name>DER SCHÖFFE</name>
+      </alias>
+      <alias xml:id="schöffe">
+        <name>SCHÖFFE</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE BÜRGER</name>
+      <alias xml:id="die_bürger">
+        <name>DIE BÜRGER</name>
+      </alias>
+      <alias xml:id="die_ändern">
+        <name>DIE ÄNDERN</name>
+      </alias>
+    </character>
+    <character>
+      <name>LUDWIG</name>
+      <alias xml:id="ludwig">
+        <name>LUDWIG</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN BÜRGER</name>
+      <alias xml:id="ein_bürger">
+        <name>EIN BÜRGER</name>
+      </alias>
+    </character>
+    <character>
+      <name>MEHRERE RITTER</name>
+      <alias xml:id="mehrere_ritter">
+        <name>MEHRERE RITTER</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE ÜBRIGEN RITTER</name>
+      <alias xml:id="die_übrigen_ritter">
+        <name>DIE ÜBRIGEN RITTER</name>
+      </alias>
+      <alias xml:id="die_übrigen">
+        <name>DIE ÜBRIGEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER BURGGRAF</name>
+      <alias xml:id="der_burggraf">
+        <name>DER BURGGRAF</name>
+      </alias>
+      <alias xml:id="burggraf">
+        <name>BURGGRAF</name>
+      </alias>
+    </character>
+    <character>
+      <name>ALBERTUS</name>
+      <alias xml:id="albertus">
+        <name>ALBERTUS</name>
+      </alias>
+    </character>
+    <character>
+      <name>ERSTER EDELKNABE</name>
+      <alias xml:id="erster_edelknabe">
+        <name>ERSTER EDELKNABE</name>
+      </alias>
+      <alias xml:id="erster">
+        <name>ERSTER</name>
+      </alias>
+    </character>
+    <character>
+      <name>ZWEITER EDELKNABE</name>
+      <alias xml:id="zweiter_edelknabe">
+        <name>ZWEITER EDELKNABE</name>
+      </alias>
+      <alias xml:id="zweiter">
+        <name>ZWEITER</name>
+      </alias>
+    </character>
+    <character>
+      <name>FRIEDRICH</name>
+      <alias xml:id="friedrich">
+        <name>FRIEDRICH</name>
+      </alias>
+    </character>
+    <character>
+      <name>ISABELLA</name>
+      <alias xml:id="isabella">
+        <name>ISABELLA</name>
+      </alias>
+    </character>
+    <character>
+      <name>LEOPOLD</name>
+      <alias xml:id="leopold">
+        <name>LEOPOLD</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE FÜRSTEN AUF LUDWIGS SEITE</name>
+      <alias xml:id="die_fürsten_auf_ludwigs_seite">
+        <name>DIE FÜRSTEN AUF LUDWIGS SEITE</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE FÜRSTEN AUF FRIEDRICHS SEITE</name>
+      <alias xml:id="die_fürsten_auf_friedrichs_seite">
+        <name>DIE FÜRSTEN AUF FRIEDRICHS SEITE</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER LEGAT</name>
+      <alias xml:id="der_legat">
+        <name>DER LEGAT</name>
+      </alias>
+      <alias xml:id="legat">
+        <name>LEGAT</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE FÜRSTEN</name>
+      <alias xml:id="die_fürsten">
+        <name>DIE FÜRSTEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>THOMAS</name>
+      <alias xml:id="thomas">
+        <name>THOMAS</name>
+      </alias>
+    </character>
+    <character>
+      <name>STEFFEN</name>
+      <alias xml:id="steffen">
+        <name>STEFFEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>SCHWEPPERMANN</name>
+      <alias xml:id="schweppermann">
+        <name>SCHWEPPERMANN</name>
+      </alias>
+    </character>
+    <character>
+      <name>ALBRECHT</name>
+      <alias xml:id="albrecht">
+        <name>ALBRECHT</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIETRICH</name>
+      <alias xml:id="dietrich">
+        <name>DIETRICH</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE KNAPPEN</name>
+      <alias xml:id="die_knappen">
+        <name>DIE KNAPPEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN RITTER 3.3</name>
+      <alias xml:id="ritter_3.3">
+        <name>RITTER 3.3</name>
+      </alias>
+    	<alias xml:id="ein_ritter_3.3">
+    		<name>RITTER 3.3</name>
+    	</alias>
+    </character>
+    <character>
+      <name>EIN RITTER 3.4</name>
+      <alias xml:id="ein_ritter_3.4">
+        <name>EIN RITTER 3.4</name>
+      </alias>
+      <alias xml:id="ritter_3.4">
+        <name>RITTER 3.4</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN ANDRER RITTER 3.4</name>
+      <alias xml:id="ein_andrer_ritter_3.4">
+        <name>EIN ANDRER RITTER 3.4</name>
+      </alias>
+    </character>
+  	<character>
+  		<name>EIN RITTER 4.1</name>
+  		<alias xml:id="ritter_4.1">
+  			<name>RITTER 3.3</name>
+  		</alias>
+  		<alias xml:id="ein_ritter_4.1">
+  			<name>RITTER 3.3</name>
+  		</alias>
+  	</character>
+  	<character>
+  		<name>EIN ANDRER RITTER 4.1</name>
+  		<alias xml:id="ein_andrer_ritter_4.1">
+  			<name>EIN ANDRER RITTER 4.1</name>
+  		</alias>
+  	</character>
+    <character>
+      <name>DIE ÖSTERREICHER</name>
+      <alias xml:id="die_österreicher">
+        <name>DIE ÖSTERREICHER</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE BAYER</name>
+      <alias xml:id="die_bayer">
+        <name>DIE BAYER</name>
+      </alias>
+    </character>
+    <character>
+      <name>EINIGE</name>
+      <alias xml:id="einige">
+        <name>EINIGE</name>
+      </alias>
+    </character>
+    <character>
+      <name>ANDRE</name>
+      <alias xml:id="andre">
+        <name>ANDRE</name>
+      </alias>
+    </character>
+    <character>
+      <name>ERSTE PILGERIN</name>
+      <alias xml:id="erste_pilgerin">
+        <name>ERSTE PILGERIN</name>
+      </alias>
+      <alias xml:id="erste">
+        <name>ERSTE</name>
+      </alias>
+    </character>
+    <character>
+      <name>ZWEITE PILGERIN</name>
+      <alias xml:id="zweite_pilgerin">
+        <name>ZWEITE PILGERIN</name>
+      </alias>
+      <alias xml:id="zweite">
+        <name>ZWEITE</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE BEGLEITERIN</name>
+      <alias xml:id="die_begleiterin">
+        <name>DIE BEGLEITERIN</name>
+      </alias>
+    </character>
+    <character>
+      <name>BURGVOGT</name>
+      <alias xml:id="burgvogt">
+        <name>BURGVOGT</name>
+      </alias>
+      <alias xml:id="burg_vogt">
+        <name>BURG VOGT</name>
+      </alias>
+    </character>
+    <character>
+      <name>ERSTER WÄCHTER</name>
+      <alias xml:id="erster_wächter">
+        <name>ERSTER WÄCHTER</name>
+      </alias>
+      <alias xml:id="ein_wächter">
+        <name>EIN WÄCHTER</name>
+      </alias>
+    </character>
+    <character>
+      <name>ZWEITER WÄCHTER</name>
+      <alias xml:id="zweiter_wächter">
+        <name>ZWEITER WÄCHTER</name>
+      </alias>
+    </character>
+    <character>
+      <name>DRITTER WÄCHTER</name>
+      <alias xml:id="dritter_wächter">
+        <name>DRITTER WÄCHTER</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE WÄCHTER</name>
+      <alias xml:id="die_wächter">
+        <name>DIE WÄCHTER</name>
+      </alias>
+    </character>
+    <character>
+      <name>ERSTER BÜRGER</name>
+      <alias xml:id="erster_bürger">
+        <name>ERSTER BÜRGER</name>
+      </alias>
+    </character>
+    <character>
+      <name>ZWEITER BÜRGER</name>
+      <alias xml:id="zweiter_bürger">
+        <name>ZWEITER BÜRGER</name>
+      </alias>
+    </character>
+    <character>
+      <name>STEPHAN</name>
+      <alias xml:id="stephan">
+        <name>STEPHAN</name>
+      </alias>
+    </character>
+    <character>
+      <name>OTTO</name>
+      <alias xml:id="otto">
+        <name>OTTO</name>
+      </alias>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Personen</head>
+    </div>
+    <div>
+      <head>1. Akt</head>
+      <div>
+        <head>Erster Aufzug</head>
+        <sp who="#adelram">
+          <amount n="13" unit="speech_acts"/>
+          <amount n="309" unit="words"/>
+          <amount n="46" unit="lines"/>
+          <amount n="1751" unit="chars"/>
+        </sp>
+        <sp who="#der_schöffe">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="48" unit="words"/>
+          <amount n="6" unit="lines"/>
+          <amount n="244" unit="chars"/>
+        </sp>
+        <sp who="#schöffe">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="149" unit="words"/>
+          <amount n="22" unit="lines"/>
+          <amount n="822" unit="chars"/>
+        </sp>
+        <sp who="#die_bürger #ein_bürger">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="16" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="89" unit="chars"/>
+        </sp>
+        <sp who="#ludwig">
+          <amount n="15" unit="speech_acts"/>
+          <amount n="1224" unit="words"/>
+          <amount n="171" unit="lines"/>
+          <amount n="6714" unit="chars"/>
+        </sp>
+        <sp who="#ein_bürger">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="3" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="12" unit="chars"/>
+        </sp>
+        <sp who="#mehrere_ritter">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="2" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="11" unit="chars"/>
+        </sp>
+        <sp who="#die_übrigen">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="3" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="16" unit="chars"/>
+        </sp>
+        <sp who="#die_übrigen_ritter">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="5" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="19" unit="chars"/>
+        </sp>
+        <sp who="#der_burggraf">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="24" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="133" unit="chars"/>
+        </sp>
+        <sp who="#burggraf">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="470" unit="words"/>
+          <amount n="67" unit="lines"/>
+          <amount n="2616" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>2. Akt</head>
+      <div>
+        <head>1. Szene</head>
+        <div>
+          <head>Erste Szene</head>
+          <sp who="#albertus">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="491" unit="words"/>
+            <amount n="71" unit="lines"/>
+            <amount n="2712" unit="chars"/>
+          </sp>
+          <sp who="#erster_edelknabe">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="4" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="21" unit="chars"/>
+          </sp>
+          <sp who="#zweiter_edelknabe">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="28" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="173" unit="chars"/>
+          </sp>
+          <sp who="#erster">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="48" unit="words"/>
+            <amount n="8" unit="lines"/>
+            <amount n="275" unit="chars"/>
+          </sp>
+          <sp who="#zweiter">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="42" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="238" unit="chars"/>
+          </sp>
+          <sp who="#friedrich">
+            <amount n="12" unit="speech_acts"/>
+            <amount n="308" unit="words"/>
+            <amount n="49" unit="lines"/>
+            <amount n="1708" unit="chars"/>
+          </sp>
+          <sp who="#erster_edelknabe #zweiter_edelknabe">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="2" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="11" unit="chars"/>
+          </sp>
+          <sp who="#isabella">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="212" unit="words"/>
+            <amount n="30" unit="lines"/>
+            <amount n="1136" unit="chars"/>
+          </sp>
+          <sp who="#leopold">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="380" unit="words"/>
+            <amount n="55" unit="lines"/>
+            <amount n="2076" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Szene</head>
+        <div>
+          <head>Zweite Szene</head>
+          <sp who="#ludwig">
+            <amount n="11" unit="speech_acts"/>
+            <amount n="487" unit="words"/>
+            <amount n="66" unit="lines"/>
+            <amount n="2596" unit="chars"/>
+          </sp>
+          <sp who="#friedrich">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="233" unit="words"/>
+            <amount n="31" unit="lines"/>
+            <amount n="1253" unit="chars"/>
+          </sp>
+          <sp who="#die_fürsten_auf_ludwigs_seite">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="7" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="44" unit="chars"/>
+          </sp>
+          <sp who="#leopold">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="42" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="208" unit="chars"/>
+          </sp>
+          <sp who="#die_fürsten_auf_friedrichs_seite">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="7" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="41" unit="chars"/>
+          </sp>
+          <sp who="#der_legat">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="99" unit="words"/>
+            <amount n="15" unit="lines"/>
+            <amount n="605" unit="chars"/>
+          </sp>
+          <sp who="#die_fürsten">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="9" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="41" unit="chars"/>
+          </sp>
+          <sp who="#legat">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="8" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="39" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>3. Akt</head>
+      <div>
+        <head>1. Szene</head>
+        <div>
+          <head>Erste Szene</head>
+          <sp who="#thomas">
+            <amount n="17" unit="speech_acts"/>
+            <amount n="439" unit="words"/>
+            <amount n="66" unit="lines"/>
+            <amount n="2350" unit="chars"/>
+          </sp>
+          <sp who="#steffen">
+            <amount n="17" unit="speech_acts"/>
+            <amount n="193" unit="words"/>
+            <amount n="34" unit="lines"/>
+            <amount n="1041" unit="chars"/>
+          </sp>
+          <sp who="#ludwig">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="280" unit="words"/>
+            <amount n="40" unit="lines"/>
+            <amount n="1548" unit="chars"/>
+          </sp>
+          <sp who="#schweppermann">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="64" unit="words"/>
+            <amount n="10" unit="lines"/>
+            <amount n="370" unit="chars"/>
+          </sp>
+          <sp who="#burggraf">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="134" unit="words"/>
+            <amount n="20" unit="lines"/>
+            <amount n="749" unit="chars"/>
+          </sp>
+          <sp who="#albrecht">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="24" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="139" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Szene</head>
+        <div>
+          <head>Zweite Szene</head>
+          <sp who="#friedrich">
+            <amount n="16" unit="speech_acts"/>
+            <amount n="659" unit="words"/>
+            <amount n="94" unit="lines"/>
+            <amount n="3521" unit="chars"/>
+          </sp>
+          <sp who="#dietrich">
+            <amount n="10" unit="speech_acts"/>
+            <amount n="368" unit="words"/>
+            <amount n="52" unit="lines"/>
+            <amount n="1964" unit="chars"/>
+          </sp>
+          <sp who="#die_knappen">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="19" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="110" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3. Szene</head>
+        <div>
+          <head>Dritte Szene</head>
+          <sp who="#schweppermann">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="448" unit="words"/>
+            <amount n="60" unit="lines"/>
+            <amount n="2406" unit="chars"/>
+          </sp>
+          <sp who="#albrecht">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="4" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="21" unit="chars"/>
+          </sp>
+          <sp who="#ein_ritter_3.3">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="35" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="195" unit="chars"/>
+          </sp>
+          <sp who="#adelram">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="55" unit="words"/>
+            <amount n="8" unit="lines"/>
+            <amount n="296" unit="chars"/>
+          </sp>
+          <sp who="#ritter_3.3">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="14" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="74" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>4. Szene</head>
+        <div>
+          <head>Vierte Szene                                                                                                                     1</head>
+          <sp who="#friedrich">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="84" unit="words"/>
+            <amount n="14" unit="lines"/>
+            <amount n="503" unit="chars"/>
+          </sp>
+          <sp who="#albrecht">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="33" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="163" unit="chars"/>
+          </sp>
+          <sp who="#ein_ritter_4.1">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="19" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="124" unit="chars"/>
+          </sp>
+          <sp who="#ritter_4.1">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="22" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="104" unit="chars"/>
+          </sp>
+          <sp who="#ein_andrer_ritter_4.1">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="15" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="80" unit="chars"/>
+          </sp>
+          <sp who="#adelram">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="15" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="67" unit="chars"/>
+          </sp>
+          <sp who="#die_österreicher">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="5" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="26" unit="chars"/>
+          </sp>
+          <sp who="#die_bayer">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="9" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="47" unit="chars"/>
+          </sp>
+          <sp who="#der_burggraf">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="8" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="39" unit="chars"/>
+          </sp>
+          <sp who="#schweppermann">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="64" unit="words"/>
+            <amount n="10" unit="lines"/>
+            <amount n="354" unit="chars"/>
+          </sp>
+          <sp who="#thomas">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="24" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="138" unit="chars"/>
+          </sp>
+          <sp who="#ludwig">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="67" unit="words"/>
+            <amount n="12" unit="lines"/>
+            <amount n="403" unit="chars"/>
+          </sp>
+          <sp who="#einige">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="1" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="4" unit="chars"/>
+          </sp>
+          <sp who="#andre">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="2" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="10" unit="chars"/>
+          </sp>
+          <sp who="#burggraf">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="5" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="29" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>4. Akt</head>
+      <div>
+        <head>1. Szene</head>
+        <div>
+          <head>Erste Szene</head>
+          <sp who="#erste_pilgerin">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="93" unit="words"/>
+            <amount n="13" unit="lines"/>
+            <amount n="500" unit="chars"/>
+          </sp>
+          <sp who="#zweite_pilgerin">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="5" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="30" unit="chars"/>
+          </sp>
+          <sp who="#erste">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="53" unit="words"/>
+            <amount n="8" unit="lines"/>
+            <amount n="311" unit="chars"/>
+          </sp>
+          <sp who="#zweite">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="2" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="14" unit="chars"/>
+          </sp>
+          <sp who="#leopold">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="464" unit="words"/>
+            <amount n="64" unit="lines"/>
+            <amount n="2519" unit="chars"/>
+          </sp>
+          <sp who="#isabella">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="367" unit="words"/>
+            <amount n="52" unit="lines"/>
+            <amount n="1993" unit="chars"/>
+          </sp>
+          <sp who="#die_begleiterin">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="4" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="26" unit="chars"/>
+          </sp>
+          <sp who="#albertus">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="35" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="205" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Szene</head>
+        <div>
+          <head>Zweite Szene</head>
+          <sp who="#ludwig">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="391" unit="words"/>
+            <amount n="54" unit="lines"/>
+            <amount n="2065" unit="chars"/>
+          </sp>
+          <sp who="#burggraf">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="252" unit="words"/>
+            <amount n="35" unit="lines"/>
+            <amount n="1416" unit="chars"/>
+          </sp>
+          <sp who="#albrecht">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="353" unit="words"/>
+            <amount n="46" unit="lines"/>
+            <amount n="1829" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3. Szene</head>
+        <div>
+          <head>Dritte Szene</head>
+          <sp who="#burgvogt">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="122" unit="words"/>
+            <amount n="19" unit="lines"/>
+            <amount n="683" unit="chars"/>
+          </sp>
+          <sp who="#erster_wächter">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="13" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="66" unit="chars"/>
+          </sp>
+          <sp who="#zweiter_wächter">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="4" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="21" unit="chars"/>
+          </sp>
+          <sp who="#dritter_wächter">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="6" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="29" unit="chars"/>
+          </sp>
+          <sp who="#friedrich">
+            <amount n="13" unit="speech_acts"/>
+            <amount n="260" unit="words"/>
+            <amount n="41" unit="lines"/>
+            <amount n="1370" unit="chars"/>
+          </sp>
+          <sp who="#albertus">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="217" unit="words"/>
+            <amount n="31" unit="lines"/>
+            <amount n="1139" unit="chars"/>
+          </sp>
+          <sp who="#die_wächter #erster_wächter #zweiter_wächter #dritter_wächter">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="12" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="70" unit="chars"/>
+          </sp>
+          <sp who="#albrecht">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="64" unit="words"/>
+            <amount n="10" unit="lines"/>
+            <amount n="334" unit="chars"/>
+          </sp>
+          <sp who="#ein_wächter">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="7" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="49" unit="chars"/>
+          </sp>
+          <sp who="#burg_vogt">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="58" unit="words"/>
+            <amount n="8" unit="lines"/>
+            <amount n="311" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>4. Szene</head>
+        <div>
+          <head>Vierte Szene</head>
+          <sp who="#burggraf">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="21" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="116" unit="chars"/>
+          </sp>
+          <sp who="#ludwig">
+            <amount n="10" unit="speech_acts"/>
+            <amount n="577" unit="words"/>
+            <amount n="84" unit="lines"/>
+            <amount n="3087" unit="chars"/>
+          </sp>
+          <sp who="#friedrich">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="244" unit="words"/>
+            <amount n="36" unit="lines"/>
+            <amount n="1316" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>5. Akt</head>
+      <div>
+        <head>1. Szene</head>
+        <div>
+          <head>Erste Szene</head>
+          <sp who="#isabella">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="347" unit="words"/>
+            <amount n="49" unit="lines"/>
+            <amount n="1858" unit="chars"/>
+          </sp>
+          <sp who="#friedrich">
+            <amount n="18" unit="speech_acts"/>
+            <amount n="663" unit="words"/>
+            <amount n="96" unit="lines"/>
+            <amount n="3632" unit="chars"/>
+          </sp>
+          <sp who="#leopold">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="520" unit="words"/>
+            <amount n="71" unit="lines"/>
+            <amount n="2807" unit="chars"/>
+          </sp>
+          <sp who="#legat">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="240" unit="words"/>
+            <amount n="36" unit="lines"/>
+            <amount n="1429" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Szene</head>
+        <div>
+          <head>noName</head>
+          <div>
+            <head>Zweite Szene</head>
+            <sp who="#ludwig">
+              <amount n="10" unit="speech_acts"/>
+              <amount n="876" unit="words"/>
+              <amount n="121" unit="lines"/>
+              <amount n="4698" unit="chars"/>
+            </sp>
+            <sp who="#erster_bürger">
+              <amount n="1" unit="speech_acts"/>
+              <amount n="79" unit="words"/>
+              <amount n="12" unit="lines"/>
+              <amount n="445" unit="chars"/>
+            </sp>
+            <sp who="#zweiter_bürger">
+              <amount n="1" unit="speech_acts"/>
+              <amount n="15" unit="words"/>
+              <amount n="3" unit="lines"/>
+              <amount n="94" unit="chars"/>
+            </sp>
+            <sp who="#erster_bürger">
+              <amount n="3" unit="speech_acts"/>
+              <amount n="78" unit="words"/>
+              <amount n="12" unit="lines"/>
+              <amount n="416" unit="chars"/>
+            </sp>
+            <sp who="#zweiter_bürger">
+              <amount n="2" unit="speech_acts"/>
+              <amount n="19" unit="words"/>
+              <amount n="4" unit="lines"/>
+              <amount n="92" unit="chars"/>
+            </sp>
+            <sp who="#die_ändern">
+              <amount n="1" unit="speech_acts"/>
+              <amount n="7" unit="words"/>
+              <amount n="1" unit="lines"/>
+              <amount n="38" unit="chars"/>
+            </sp>
+            <sp who="#die_bürger #erster_bürger #zweiter_bürger">
+              <amount n="1" unit="speech_acts"/>
+              <amount n="3" unit="words"/>
+              <amount n="1" unit="lines"/>
+              <amount n="17" unit="chars"/>
+            </sp>
+            <sp who="#albrecht">
+              <amount n="2" unit="speech_acts"/>
+              <amount n="46" unit="words"/>
+              <amount n="6" unit="lines"/>
+              <amount n="233" unit="chars"/>
+            </sp>
+            <sp who="#stephan">
+              <amount n="1" unit="speech_acts"/>
+              <amount n="21" unit="words"/>
+              <amount n="3" unit="lines"/>
+              <amount n="108" unit="chars"/>
+            </sp>
+            <sp who="#otto">
+              <amount n="1" unit="speech_acts"/>
+              <amount n="9" unit="words"/>
+              <amount n="1" unit="lines"/>
+              <amount n="45" unit="chars"/>
+            </sp>
+            <sp who="#albrecht #stephan #otto">
+              <amount n="1" unit="speech_acts"/>
+              <amount n="3" unit="words"/>
+              <amount n="1" unit="lines"/>
+              <amount n="12" unit="chars"/>
+            </sp>
+            <sp who="#friedrich">
+              <amount n="6" unit="speech_acts"/>
+              <amount n="221" unit="words"/>
+              <amount n="34" unit="lines"/>
+              <amount n="1221" unit="chars"/>
+            </sp>
+          </div>
+        </div>
+      </div>
+    </div>
+  </text>
+</play>

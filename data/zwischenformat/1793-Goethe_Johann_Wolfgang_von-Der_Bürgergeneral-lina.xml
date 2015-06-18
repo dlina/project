@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital">
+  <header>
+    <title>Der Bürgergeneral</title>
+    <subtitle>Ein Lustspiel in einem Aufzuge</subtitle>
+    <genretitle>Lustspiel</genretitle>
+    <author>Goethe, Johann Wolfgang von</author>
+    <date type="print">1793</date>
+    <date type="premiere"></date>
+    <date type="written"></date>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:11f9k.0/data</source>
+  </header>
+  <personae>
+    <character>
+      <name>GÖRGE</name>
+      <alias xml:id="görge">
+        <name>GÖRGE</name>
+      </alias>
+    </character>
+    <character>
+      <name>RÖSE</name>
+      <alias xml:id="röse">
+        <name>RÖSE</name>
+      </alias>
+    </character>
+    <character>
+      <name>EDELMANN</name>
+      <alias xml:id="edelmann">
+        <name>EDELMANN</name>
+      </alias>
+    </character>
+    <character>
+      <name>MÄRTEN</name>
+      <alias xml:id="märten">
+        <name>MÄRTEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>SCHNAPS</name>
+      <alias xml:id="schnaps">
+        <name>SCHNAPS</name>
+      </alias>
+    </character>
+    <character>
+      <name>RICHTER</name>
+      <alias xml:id="richter">
+        <name>RICHTER</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN BAUER</name>
+      <alias xml:id="ein_bauer">
+        <name>EIN BAUER</name>
+      </alias>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Personen</head>
+    </div>
+    <div>
+      <head>1. Szene</head>
+      <div>
+        <head>Erster Auftritt</head>
+        <sp who="#görge">
+          <amount n="15" unit="speech_acts"/>
+          <amount n="138" unit="words"/>
+          <amount n="14" unit="lines"/>
+          <amount n="657" unit="chars"/>
+        </sp>
+        <sp who="#röse">
+          <amount n="15" unit="speech_acts"/>
+          <amount n="82" unit="words"/>
+          <amount n="15" unit="lines"/>
+          <amount n="411" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>2. Szene</head>
+      <div>
+        <head>Zweiter Auftritt</head>
+        <sp who="#edelmann">
+          <amount n="18" unit="speech_acts"/>
+          <amount n="109" unit="words"/>
+          <amount n="18" unit="lines"/>
+          <amount n="548" unit="chars"/>
+        </sp>
+        <sp who="#görge">
+          <amount n="23" unit="speech_acts"/>
+          <amount n="256" unit="words"/>
+          <amount n="20" unit="lines"/>
+          <amount n="1339" unit="chars"/>
+        </sp>
+        <sp who="#röse">
+          <amount n="22" unit="speech_acts"/>
+          <amount n="226" unit="words"/>
+          <amount n="20" unit="lines"/>
+          <amount n="1127" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>3. Szene</head>
+      <div>
+        <head>Dritter Auftritt</head>
+        <sp who="#märten">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="18" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="80" unit="chars"/>
+        </sp>
+        <sp who="#röse">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="16" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="92" unit="chars"/>
+        </sp>
+        <sp who="#görge">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="17" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="96" unit="chars"/>
+        </sp>
+        <sp who="#edelmann">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="24" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="122" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>4. Szene</head>
+      <div>
+        <head>Vierter Auftritt</head>
+        <sp who="#märten">
+          <amount n="22" unit="speech_acts"/>
+          <amount n="141" unit="words"/>
+          <amount n="22" unit="lines"/>
+          <amount n="672" unit="chars"/>
+        </sp>
+        <sp who="#röse">
+          <amount n="21" unit="speech_acts"/>
+          <amount n="177" unit="words"/>
+          <amount n="19" unit="lines"/>
+          <amount n="905" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>5. Szene</head>
+      <div>
+        <head>Fünfter Auftritt</head>
+        <sp who="#märten">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="95" unit="words"/>
+          <amount n="466" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>6. Szene</head>
+      <div>
+        <head>Sechster Auftritt</head>
+        <sp who="#schnaps">
+          <amount n="120" unit="speech_acts"/>
+          <amount n="797" unit="words"/>
+          <amount n="119" unit="lines"/>
+          <amount n="4014" unit="chars"/>
+        </sp>
+        <sp who="#märten">
+          <amount n="119" unit="speech_acts"/>
+          <amount n="518" unit="words"/>
+          <amount n="118" unit="lines"/>
+          <amount n="2652" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>7. Szene</head>
+      <div>
+        <head>Siebenter Auftritt</head>
+        <sp who="#görge">
+          <amount n="14" unit="speech_acts"/>
+          <amount n="228" unit="words"/>
+          <amount n="10" unit="lines"/>
+          <amount n="1153" unit="chars"/>
+        </sp>
+        <sp who="#märten">
+          <amount n="13" unit="speech_acts"/>
+          <amount n="57" unit="words"/>
+          <amount n="13" unit="lines"/>
+          <amount n="286" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>8. Szene</head>
+      <div>
+        <head>Achter Auftritt</head>
+        <sp who="#märten">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="148" unit="words"/>
+          <amount n="5" unit="lines"/>
+          <amount n="776" unit="chars"/>
+        </sp>
+        <sp who="#schnaps">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="71" unit="words"/>
+          <amount n="6" unit="lines"/>
+          <amount n="384" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>9. Szene</head>
+      <div>
+        <head>Neunter Auftritt</head>
+        <sp who="#schnaps">
+          <amount n="113" unit="speech_acts"/>
+          <amount n="1100" unit="words"/>
+          <amount n="105" unit="lines"/>
+          <amount n="5935" unit="chars"/>
+        </sp>
+        <sp who="#märten">
+          <amount n="112" unit="speech_acts"/>
+          <amount n="641" unit="words"/>
+          <amount n="109" unit="lines"/>
+          <amount n="3251" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>10. Szene</head>
+      <div>
+        <head>Zehnter Auftritt</head>
+        <sp who="#görge">
+          <amount n="20" unit="speech_acts"/>
+          <amount n="147" unit="words"/>
+          <amount n="18" unit="lines"/>
+          <amount n="836" unit="chars"/>
+        </sp>
+        <sp who="#märten">
+          <amount n="26" unit="speech_acts"/>
+          <amount n="114" unit="words"/>
+          <amount n="26" unit="lines"/>
+          <amount n="568" unit="chars"/>
+        </sp>
+        <sp who="#schnaps">
+          <amount n="32" unit="speech_acts"/>
+          <amount n="206" unit="words"/>
+          <amount n="32" unit="lines"/>
+          <amount n="1142" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>11. Szene</head>
+      <div>
+        <head>Elfter Auftritt</head>
+        <sp who="#röse">
+          <amount n="14" unit="speech_acts"/>
+          <amount n="125" unit="words"/>
+          <amount n="13" unit="lines"/>
+          <amount n="631" unit="chars"/>
+        </sp>
+        <sp who="#märten">
+          <amount n="15" unit="speech_acts"/>
+          <amount n="170" unit="words"/>
+          <amount n="14" unit="lines"/>
+          <amount n="874" unit="chars"/>
+        </sp>
+        <sp who="#görge">
+          <amount n="11" unit="speech_acts"/>
+          <amount n="71" unit="words"/>
+          <amount n="10" unit="lines"/>
+          <amount n="341" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>12. Szene</head>
+      <div>
+        <head>Zwölfter Auftritt</head>
+        <sp who="#richter">
+          <amount n="23" unit="speech_acts"/>
+          <amount n="380" unit="words"/>
+          <amount n="20" unit="lines"/>
+          <amount n="2105" unit="chars"/>
+        </sp>
+        <sp who="#görge">
+          <amount n="8" unit="speech_acts"/>
+          <amount n="38" unit="words"/>
+          <amount n="8" unit="lines"/>
+          <amount n="180" unit="chars"/>
+        </sp>
+        <sp who="#märten">
+          <amount n="8" unit="speech_acts"/>
+          <amount n="39" unit="words"/>
+          <amount n="8" unit="lines"/>
+          <amount n="202" unit="chars"/>
+        </sp>
+        <sp who="#röse">
+          <amount n="16" unit="speech_acts"/>
+          <amount n="203" unit="words"/>
+          <amount n="14" unit="lines"/>
+          <amount n="896" unit="chars"/>
+        </sp>
+        <sp who="#ein_bauer">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="21" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="99" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>13. Szene</head>
+      <div>
+        <head>Dreizehnter Auftritt</head>
+        <sp who="#edelmann">
+          <amount n="21" unit="speech_acts"/>
+          <amount n="130" unit="words"/>
+          <amount n="20" unit="lines"/>
+          <amount n="750" unit="chars"/>
+        </sp>
+        <sp who="#röse">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="89" unit="words"/>
+          <amount n="5" unit="lines"/>
+          <amount n="439" unit="chars"/>
+        </sp>
+        <sp who="#richter">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="46" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="264" unit="chars"/>
+        </sp>
+        <sp who="#märten">
+          <amount n="15" unit="speech_acts"/>
+          <amount n="109" unit="words"/>
+          <amount n="14" unit="lines"/>
+          <amount n="607" unit="chars"/>
+        </sp>
+        <sp who="#görge">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="14" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="90" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>14. Szene</head>
+      <div>
+        <head>Vierzehnter Auftritt</head>
+        <sp who="#edelmann">
+          <amount n="18" unit="speech_acts"/>
+          <amount n="331" unit="words"/>
+          <amount n="13" unit="lines"/>
+          <amount n="1950" unit="chars"/>
+        </sp>
+        <sp who="#richter">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="100" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="572" unit="chars"/>
+        </sp>
+        <sp who="#schnaps">
+          <amount n="14" unit="speech_acts"/>
+          <amount n="198" unit="words"/>
+          <amount n="10" unit="lines"/>
+          <amount n="1091" unit="chars"/>
+        </sp>
+        <sp who="#märten">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="18" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="87" unit="chars"/>
+        </sp>
+        <sp who="#röse">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="27" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="128" unit="chars"/>
+        </sp>
+        <sp who="#görge">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="15" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="84" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+  </text>
+</play>

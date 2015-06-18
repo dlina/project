@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital">
+  <header>
+    <title>Hanswurst von Salzburg mit dem hölzernen Gat</title>
+    <subtitle>Historisch Schauspiel in drei Aufzügen</subtitle>
+    <genretitle>Historisches Schauspiel</genretitle>
+    <author>Schink, Johann Friedrich</author>
+    <date type="print">1778</date>
+    <date type="premiere"></date>
+    <date type="written"></date>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:v186.0/data</source>
+  </header>
+  <personae>
+    <character>
+      <name>HANSWURST</name>
+      <alias xml:id="hanswurst">
+        <name>HANSWURST</name>
+      </alias>
+    </character>
+    <character>
+      <name>STOFFEL KNIPS</name>
+      <alias xml:id="stoffel_knips">
+        <name>STOFFEL KNIPS</name>
+      </alias>
+    </character>
+    <character>
+      <name>FRAU KNIPS</name>
+      <alias xml:id="frau_knips">
+        <name>FRAU KNIPS</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER ERSTE TÜRKE</name>
+      <alias xml:id="der_erste_türke">
+        <name>DER ERSTE TÜRKE</name>
+      </alias>
+      <alias xml:id="erster_türke">
+        <name>ERSTER TÜRKE</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER ZWEITE TÜRKE</name>
+      <alias xml:id="der_zweite_türke">
+        <name>DER ZWEITE TÜRKE</name>
+      </alias>
+    </character>
+    <character>
+      <name>ERSTER MATROSE</name>
+      <alias xml:id="erster_matrose">
+        <name>ERSTER MATROSE</name>
+      </alias>
+    </character>
+    <character>
+      <name>ZWEITER MATROSE</name>
+      <alias xml:id="zweiter_matrose">
+        <name>ZWEITER MATROSE</name>
+      </alias>
+    </character>
+    <character>
+      <name>DAS MÄDEL</name>
+      <alias xml:id="das_mädel">
+        <name>DAS MÄDEL</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER KNABE</name>
+      <alias xml:id="der_knabe">
+        <name>DER KNABE</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER MATROSE</name>
+      <alias xml:id="der_matrose">
+        <name>DER MATROSE</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER ARZT</name>
+      <alias xml:id="der_arzt">
+        <name>DER ARZT</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER SULTAN</name>
+      <alias xml:id="der_sultan">
+        <name>DER SULTAN</name>
+      </alias>
+      <alias xml:id="sultan">
+        <name>SULTAN</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER SKLAV</name>
+      <alias xml:id="der_sklav">
+        <name>DER SKLAV</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE DAME</name>
+      <alias xml:id="die_dame">
+        <name>DIE DAME</name>
+      </alias>
+      <alias xml:id="dame">
+        <name>DAME</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN ALT MÜTTERCHEN</name>
+      <alias xml:id="ein_alt_mütterchen">
+        <name>EIN ALT MÜTTERCHEN</name>
+      </alias>
+      <alias xml:id="alt_mütterchen">
+        <name>ALT MÜTTERCHEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER SCHWARZROK</name>
+      <alias xml:id="der_schwarzrok">
+        <name>DER SCHWARZROK</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER SOUFLEUR</name>
+      <alias xml:id="der_soufleur">
+        <name>DER SOUFLEUR</name>
+      </alias>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Prolog</head>
+    </div>
+    <div>
+      <head>1. Akt</head>
+      <div>
+        <head>1. Auftritt</head>
+        <div>
+          <head>Erster Auftritt.</head>
+          <sp who="#hanswurst">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="501" unit="words"/>
+            <amount n="68" unit="lines"/>
+            <amount n="2815" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Auftritt</head>
+        <div>
+          <head>Zweiter Auftritt.</head>
+          <sp who="#stoffel_knips">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="294" unit="words"/>
+            <amount n="42" unit="lines"/>
+            <amount n="1585" unit="chars"/>
+          </sp>
+          <sp who="#hanswurst">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="783" unit="words"/>
+            <amount n="117" unit="lines"/>
+            <amount n="4209" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3. Auftritt</head>
+        <div>
+          <head>Dritter Auftritt.</head>
+          <sp who="#frau_knips">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="119" unit="words"/>
+            <amount n="15" unit="lines"/>
+            <amount n="737" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>4. Auftritt</head>
+        <div>
+          <head>Vierter Auftritt.</head>
+          <sp who="#stoffel_knips">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="163" unit="words"/>
+            <amount n="23" unit="lines"/>
+            <amount n="847" unit="chars"/>
+          </sp>
+          <sp who="#frau_knips">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="158" unit="words"/>
+            <amount n="22" unit="lines"/>
+            <amount n="810" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>5. Auftritt</head>
+        <div>
+          <head>Fünfter Auftritt.</head>
+          <sp who="#hanswurst">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="115" unit="words"/>
+            <amount n="16" unit="lines"/>
+            <amount n="577" unit="chars"/>
+          </sp>
+          <sp who="#stoffel_knips">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="63" unit="words"/>
+            <amount n="9" unit="lines"/>
+            <amount n="321" unit="chars"/>
+          </sp>
+          <sp who="#frau_knips">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="30" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="139" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>6. Auftritt</head>
+        <div>
+          <head>Sechster Auftritt.</head>
+          <sp who="#hanswurst">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="192" unit="words"/>
+            <amount n="28" unit="lines"/>
+            <amount n="992" unit="chars"/>
+          </sp>
+          <sp who="#frau_knips">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="32" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="165" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>7. Auftritt</head>
+        <div>
+          <head>Siebenter Auftritt.</head>
+          <sp who="#stoffel_knips">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="61" unit="words"/>
+            <amount n="9" unit="lines"/>
+            <amount n="314" unit="chars"/>
+          </sp>
+          <sp who="#hanswurst">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="40" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="196" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>8. Auftritt</head>
+        <div>
+          <head>Achter Auftritt.</head>
+          <sp who="#stoffel_knips">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="39" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="192" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>9. Auftritt</head>
+        <div>
+          <head>Neunter Auftritt.</head>
+          <sp who="#hanswurst">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="119" unit="words"/>
+            <amount n="16" unit="lines"/>
+            <amount n="620" unit="chars"/>
+          </sp>
+          <sp who="#frau_knips">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="66" unit="words"/>
+            <amount n="10" unit="lines"/>
+            <amount n="381" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>10. Auftritt</head>
+        <div>
+          <head>Zehnter Auftritt.</head>
+          <sp who="#der_erste_türke">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="132" unit="words"/>
+            <amount n="18" unit="lines"/>
+            <amount n="748" unit="chars"/>
+          </sp>
+          <sp who="#der_zweite_türke">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="125" unit="words"/>
+            <amount n="17" unit="lines"/>
+            <amount n="809" unit="chars"/>
+          </sp>
+          <sp who="#erster_türke">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="85" unit="words"/>
+            <amount n="11" unit="lines"/>
+            <amount n="433" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>11. Auftritt</head>
+        <div>
+          <head>Eilfter Auftritt.</head>
+          <sp who="#erster_matrose">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="189" unit="words"/>
+            <amount n="33" unit="lines"/>
+            <amount n="995" unit="chars"/>
+          </sp>
+          <sp who="#zweiter_matrose">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="109" unit="words"/>
+            <amount n="16" unit="lines"/>
+            <amount n="573" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>12. Auftritt</head>
+        <div>
+          <head>Zwölfter Auftritt.</head>
+          <sp who="#hanswurst">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="269" unit="words"/>
+            <amount n="35" unit="lines"/>
+            <amount n="1762" unit="chars"/>
+          </sp>
+          <sp who="#frau_knips">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="62" unit="words"/>
+            <amount n="8" unit="lines"/>
+            <amount n="324" unit="chars"/>
+          </sp>
+          <sp who="#das_mädel">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="6" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="22" unit="chars"/>
+          </sp>
+          <sp who="#der_knabe">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="16" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="79" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>13. Auftritt</head>
+        <div>
+          <head>Dreizehnter Auftritt.</head>
+          <sp who="#hanswurst">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="44" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="214" unit="chars"/>
+          </sp>
+          <sp who="#das_mädel">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="15" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="78" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>14. Auftritt</head>
+        <div>
+          <head>Vierzehnter Auftritt.</head>
+          <sp who="#der_matrose">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="133" unit="words"/>
+            <amount n="19" unit="lines"/>
+            <amount n="704" unit="chars"/>
+          </sp>
+          <sp who="#das_mädel">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="39" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="194" unit="chars"/>
+          </sp>
+          <sp who="#hanswurst">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="57" unit="words"/>
+            <amount n="8" unit="lines"/>
+            <amount n="290" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>2. Akt</head>
+      <div>
+        <head>1. Auftritt</head>
+        <div>
+          <head>Erster Auftritt.</head>
+          <sp who="#hanswurst">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="266" unit="words"/>
+            <amount n="38" unit="lines"/>
+            <amount n="1451" unit="chars"/>
+          </sp>
+          <sp who="#der_arzt">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="175" unit="words"/>
+            <amount n="25" unit="lines"/>
+            <amount n="1005" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Auftritt</head>
+        <div>
+          <head>Zweiter Auftritt.</head>
+          <sp who="#hanswurst">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="64" unit="words"/>
+            <amount n="8" unit="lines"/>
+            <amount n="340" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3. Auftritt</head>
+        <div>
+          <head>Dritter Auftritt.</head>
+          <sp who="#der_sultan">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="143" unit="words"/>
+            <amount n="20" unit="lines"/>
+            <amount n="731" unit="chars"/>
+          </sp>
+          <sp who="#hanswurst">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="443" unit="words"/>
+            <amount n="65" unit="lines"/>
+            <amount n="2382" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>4. Auftritt</head>
+        <div>
+          <head>Vierter Auftritt.</head>
+          <sp who="#der_sultan">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="156" unit="words"/>
+            <amount n="22" unit="lines"/>
+            <amount n="879" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>5. Auftritt</head>
+        <div>
+          <head>Fünfter Auftritt.</head>
+          <sp who="#der_sultan">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="506" unit="words"/>
+            <amount n="55" unit="lines"/>
+            <amount n="3089" unit="chars"/>
+          </sp>
+          <sp who="#das_mädel">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="278" unit="words"/>
+            <amount n="30" unit="lines"/>
+            <amount n="1399" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>6. Auftritt</head>
+        <div>
+          <head>Sechster Auftritt.</head>
+          <sp who="#der_sklav">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="73" unit="words"/>
+            <amount n="8" unit="lines"/>
+            <amount n="367" unit="chars"/>
+          </sp>
+          <sp who="#das_mädel">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="60" unit="words"/>
+            <amount n="8" unit="lines"/>
+            <amount n="301" unit="chars"/>
+          </sp>
+          <sp who="#der_sultan">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="53" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="269" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>7. Auftritt</head>
+        <div>
+          <head>Siebenter Auftritt.</head>
+          <sp who="#frau_knips">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="368" unit="words"/>
+            <amount n="50" unit="lines"/>
+            <amount n="1932" unit="chars"/>
+          </sp>
+          <sp who="#der_sultan">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="818" unit="words"/>
+            <amount n="117" unit="lines"/>
+            <amount n="4542" unit="chars"/>
+          </sp>
+          <sp who="#das_mädel">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="558" unit="words"/>
+            <amount n="80" unit="lines"/>
+            <amount n="3418" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>8. Auftritt</head>
+        <div>
+          <head>Achter Auftritt.</head>
+          <sp who="#das_mädel">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="225" unit="words"/>
+            <amount n="31" unit="lines"/>
+            <amount n="1182" unit="chars"/>
+          </sp>
+          <sp who="#frau_knips">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="123" unit="words"/>
+            <amount n="18" unit="lines"/>
+            <amount n="668" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>9. Auftritt</head>
+        <div>
+          <head>Neunter Auftritt.</head>
+          <sp who="#hanswurst">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="337" unit="words"/>
+            <amount n="47" unit="lines"/>
+            <amount n="2168" unit="chars"/>
+          </sp>
+          <sp who="#frau_knips">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="105" unit="words"/>
+            <amount n="14" unit="lines"/>
+            <amount n="539" unit="chars"/>
+          </sp>
+          <sp who="#das_mädel">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="62" unit="words"/>
+            <amount n="8" unit="lines"/>
+            <amount n="329" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>10. Auftritt</head>
+        <div>
+          <head>Zehnter Auftritt.</head>
+          <sp who="#sultan">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="150" unit="words"/>
+            <amount n="16" unit="lines"/>
+            <amount n="742" unit="chars"/>
+          </sp>
+          <sp who="#hanswurst">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="30" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="169" unit="chars"/>
+          </sp>
+          <sp who="#frau_knips">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="23" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="102" unit="chars"/>
+          </sp>
+          <sp who="#das_mädel">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="20" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="100" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>11. Auftritt</head>
+        <div>
+          <head>Eilfter Auftritt.</head>
+          <sp who="#hanswurst">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="37" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="221" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>3. Akt</head>
+      <div>
+        <head>1. Auftritt</head>
+        <div>
+          <head>Erster Auftritt.</head>
+          <sp who="#hanswurst">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="1032" unit="words"/>
+            <amount n="119" unit="lines"/>
+            <amount n="5453" unit="chars"/>
+          </sp>
+          <sp who="#die_dame">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="12" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="71" unit="chars"/>
+          </sp>
+          <sp who="#dame">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="73" unit="words"/>
+            <amount n="10" unit="lines"/>
+            <amount n="384" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Auftritt</head>
+        <div>
+          <head>Zweiter Auftritt.</head>
+          <sp who="#die_dame">
+            <amount n="13" unit="speech_acts"/>
+            <amount n="2268" unit="words"/>
+            <amount n="310" unit="lines"/>
+            <amount n="11795" unit="chars"/>
+          </sp>
+          <sp who="#hanswurst">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="653" unit="words"/>
+            <amount n="91" unit="lines"/>
+            <amount n="3348" unit="chars"/>
+          </sp>
+          <sp who="#ein_alt_mütterchen">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="5" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="24" unit="chars"/>
+          </sp>
+          <sp who="#alt_mütterchen">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="157" unit="words"/>
+            <amount n="21" unit="lines"/>
+            <amount n="798" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3. Auftritt</head>
+        <div>
+          <head>Dritter Auftritt.</head>
+          <sp who="#alt_mütterchen">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="49" unit="words"/>
+            <amount n="7" unit="lines"/>
+            <amount n="268" unit="chars"/>
+          </sp>
+          <sp who="#hanswurst">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="119" unit="words"/>
+            <amount n="18" unit="lines"/>
+            <amount n="654" unit="chars"/>
+          </sp>
+          <sp who="#die_dame">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="20" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="108" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>4. Auftritt</head>
+        <div>
+          <head>Vierter Auftritt.</head>
+          <sp who="#die_dame">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="32" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="177" unit="chars"/>
+          </sp>
+          <sp who="#der_schwarzrok">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="310" unit="words"/>
+            <amount n="49" unit="lines"/>
+            <amount n="1705" unit="chars"/>
+          </sp>
+          <sp who="#hanswurst">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="101" unit="words"/>
+            <amount n="15" unit="lines"/>
+            <amount n="501" unit="chars"/>
+          </sp>
+          <sp who="#alt_mütterchen">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="20" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="104" unit="chars"/>
+          </sp>
+          <sp who="#der_soufleur">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="33" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="183" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>Epilog</head>
+    </div>
+  </text>
+  <documentation>
+    <change n="1" type="other" who="peertrilcke">
+      <path>/play/text[1]/div[2]/div[14]/div[1]</path>
+      <orig>#der_matrose</orig>
+      <corr>#der_matrose</corr>
+      <comment>So belassen; nicht zweifelsfrei zu identifizieren mit "Erster Matrose" oder "Zweiter Matrose"</comment>
+    </change>
+  </documentation>
+</play>

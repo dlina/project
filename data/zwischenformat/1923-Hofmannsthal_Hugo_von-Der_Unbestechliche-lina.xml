@@ -1,0 +1,1008 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital">
+  <header>
+    <title>Der Unbestechliche</title>
+    <subtitle>Lustspiel in fünf Akten</subtitle>
+    <genretitle>Lustspiel</genretitle>
+    <author>Hofmannsthal, Hugo von</author>
+    <date when="1923" type="premiere" />
+    <date when="1929" type="print" />
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:qd46.0/data</source>
+  </header>
+  <personae>
+    <character>
+      <name>DIE JUNGFER</name>
+      <alias xml:id="die_jungfer">
+        <name>DIE JUNGFER</name>
+      </alias>
+      <alias xml:id="jungfer">
+        <name>JUNGFER</name>
+      </alias>
+      <alias xml:id="milli">
+        <name>MILLI</name>
+      </alias>
+    </character>
+    <character>
+      <name>BESCHLIESSERIN</name>
+      <alias xml:id="beschliesserin">
+        <name>BESCHLIESSERIN</name>
+      </alias>
+    </character>
+    <character>
+      <name>GÄRTNER</name>
+      <alias xml:id="gärtner">
+        <name>GÄRTNER</name>
+      </alias>
+    </character>
+    <character>
+      <name>BARONIN</name>
+      <alias xml:id="baronin">
+        <name>BARONIN</name>
+      </alias>
+      <alias xml:id="stimme_der_baronin" type="voiceOf">
+        <name>STIMME DER BARONIN</name>
+      </alias>
+    </character>
+    <character>
+      <name>KUTSCHER</name>
+      <alias xml:id="kutscher">
+        <name>KUTSCHER</name>
+      </alias>
+    </character>
+    <character>
+      <name>GENERAL</name>
+      <alias xml:id="general">
+        <name>GENERAL</name>
+      </alias>
+    </character>
+    <character>
+      <name>JAROMIR</name>
+      <alias xml:id="jaromir">
+        <name>JAROMIR</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER KLEINE JAROMIR</name>
+      <alias xml:id="der_kleine_jaromir">
+        <name>DER KLEINE JAROMIR</name>
+      </alias>
+      <alias xml:id="stimme_des_kleinen_jaromir" type="voiceOf">
+        <name>STIMME DES KLEINEN JAROMIR</name>
+      </alias>
+    </character>
+    <character>
+      <name>ANNA</name>
+      <alias xml:id="anna">
+        <name>ANNA</name>
+      </alias>
+    </character>
+    <character>
+      <name>THEODOR</name>
+      <alias xml:id="theodor">
+        <name>THEODOR</name>
+      </alias>
+    </character>
+    <character>
+      <name>MARIE</name>
+      <alias xml:id="marie">
+        <name>MARIE</name>
+      </alias>
+    </character>
+    <character>
+      <name>MELANIE</name>
+      <alias xml:id="melanie">
+        <name>MELANIE</name>
+      </alias>
+    </character>
+    <character>
+      <name>HERMINE</name>
+      <alias xml:id="hermine">
+        <name>HERMINE</name>
+      </alias>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Personen</head>
+    </div>
+    <div>
+      <head>1. Akt</head>
+      <div>
+        <head>1. Szene</head>
+        <div>
+          <head>Erste Szene</head>
+          <sp who="#die_jungfer">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="7" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="42" unit="chars"/>
+          </sp>
+          <sp who="#beschliesserin">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="62" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="305" unit="chars"/>
+          </sp>
+          <sp who="#gärtner">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="21" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="117" unit="chars"/>
+          </sp>
+          <sp who="#jungfer">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="16" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="92" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Szene</head>
+        <div>
+          <head>Zweite Szene</head>
+          <sp who="#baronin">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="176" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="1006" unit="chars"/>
+          </sp>
+          <sp who="#jungfer">
+            <amount n="1" unit="speech_acts"/>
+          </sp>
+          <sp who="#beschliesserin">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="66" unit="words"/>
+            <amount n="392" unit="chars"/>
+          </sp>
+          <sp who="#gärtner">
+            <amount n="1" unit="speech_acts"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3. Szene</head>
+        <div>
+          <head>Dritte Szene</head>
+          <sp who="#baronin">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="88" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="457" unit="chars"/>
+          </sp>
+          <sp who="#kutscher">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="60" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="391" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>4. Szene</head>
+        <div>
+          <head>Vierte Szene</head>
+          <sp who="#general">
+            <amount n="11" unit="speech_acts"/>
+            <amount n="109" unit="words"/>
+            <amount n="10" unit="lines"/>
+            <amount n="562" unit="chars"/>
+          </sp>
+          <sp who="#baronin">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="310" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="1836" unit="chars"/>
+          </sp>
+          <sp who="#jaromir">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="3" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="16" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>5. Szene</head>
+        <div>
+          <head>Fünfte Szene</head>
+          <sp who="#jaromir">
+            <amount n="19" unit="speech_acts"/>
+            <amount n="615" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="3536" unit="chars"/>
+          </sp>
+          <sp who="#baronin">
+            <amount n="18" unit="speech_acts"/>
+            <amount n="430" unit="words"/>
+            <amount n="13" unit="lines"/>
+            <amount n="2490" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>6. Szene</head>
+        <div>
+          <head>Sechste Szene</head>
+          <sp who="#baronin">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="124" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="683" unit="chars"/>
+          </sp>
+          <sp who="#der_kleine_jaromir">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="69" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="359" unit="chars"/>
+          </sp>
+          <sp who="#anna">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="246" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="1373" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>7. Szene</head>
+        <div>
+          <head>Siebente Szene</head>
+          <sp who="#baronin">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="53" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="296" unit="chars"/>
+          </sp>
+          <sp who="#der_kleine_jaromir">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="28" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="149" unit="chars"/>
+          </sp>
+          <sp who="#general">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="120" unit="words"/>
+            <amount n="677" unit="chars"/>
+          </sp>
+          <sp who="#anna">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="21" unit="words"/>
+            <amount n="114" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>8. Szene</head>
+        <div>
+          <head>Achte Szene</head>
+          <sp who="#baronin">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="38" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="215" unit="chars"/>
+          </sp>
+          <sp who="#general">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="53" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="297" unit="chars"/>
+          </sp>
+          <sp who="#anna">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="23" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="116" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>9. Szene</head>
+        <div>
+          <head>Neunte Szene</head>
+          <sp who="#der_kleine_jaromir">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="135" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="734" unit="chars"/>
+          </sp>
+          <sp who="#baronin">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="15" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="74" unit="chars"/>
+          </sp>
+          <sp who="#anna">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="36" unit="words"/>
+            <amount n="174" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>10. Szene</head>
+        <div>
+          <head>Zehnte Szene</head>
+          <sp who="#general">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="69" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="342" unit="chars"/>
+          </sp>
+          <sp who="#baronin">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="32" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="185" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>11. Szene</head>
+        <div>
+          <head>Elfte Szene</head>
+          <sp who="#general">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="46" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="271" unit="chars"/>
+          </sp>
+          <sp who="#theodor">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="26" unit="words"/>
+            <amount n="145" unit="chars"/>
+          </sp>
+          <sp who="#baronin">
+            <amount n="1" unit="speech_acts"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>12. Szene</head>
+        <div>
+          <head>Zwölfte Szene</head>
+          <sp who="#baronin">
+            <amount n="33" unit="speech_acts"/>
+            <amount n="419" unit="words"/>
+            <amount n="22" unit="lines"/>
+            <amount n="2403" unit="chars"/>
+          </sp>
+          <sp who="#theodor">
+            <amount n="30" unit="speech_acts"/>
+            <amount n="1191" unit="words"/>
+            <amount n="8" unit="lines"/>
+            <amount n="7076" unit="chars"/>
+          </sp>
+          <sp who="#general">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="34" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="165" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>13. Szene</head>
+        <div>
+          <head>Dreizehnte Szene</head>
+          <sp who="#marie">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="53" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="281" unit="chars"/>
+          </sp>
+          <sp who="#baronin">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="48" unit="words"/>
+            <amount n="247" unit="chars"/>
+          </sp>
+          <sp who="#general">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="92" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="473" unit="chars"/>
+          </sp>
+          <sp who="#jungfer">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="8" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="31" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>14. Szene</head>
+        <div>
+          <head>Vierzehnte Szene</head>
+          <sp who="#baronin">
+            <amount n="11" unit="speech_acts"/>
+            <amount n="172" unit="words"/>
+            <amount n="9" unit="lines"/>
+            <amount n="932" unit="chars"/>
+          </sp>
+          <sp who="#theodor">
+            <amount n="10" unit="speech_acts"/>
+            <amount n="372" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="2268" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>15. Szene</head>
+        <div>
+          <head>Fünfzehnte Szene</head>
+          <sp who="#general">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="3" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="11" unit="chars"/>
+          </sp>
+          <sp who="#melanie">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="25" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="122" unit="chars"/>
+          </sp>
+          <sp who="#anna">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="60" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="337" unit="chars"/>
+          </sp>
+          <sp who="#der_kleine_jaromir">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="2" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="6" unit="chars"/>
+          </sp>
+          <sp who="#baronin">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="79" unit="words"/>
+            <amount n="471" unit="chars"/>
+          </sp>
+          <sp who="#theodor">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="39" unit="words"/>
+            <amount n="265" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>2. Akt</head>
+      <div>
+        <head>1. Szene</head>
+        <div>
+          <head>Erste Szene</head>
+          <sp who="#der_kleine_jaromir">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="86" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="446" unit="chars"/>
+          </sp>
+          <sp who="#anna">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="37" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="194" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Szene</head>
+        <div>
+          <head>Zweite Szene</head>
+          <sp who="#melanie">
+            <amount n="18" unit="speech_acts"/>
+            <amount n="497" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="2743" unit="chars"/>
+          </sp>
+          <sp who="#jaromir">
+            <amount n="18" unit="speech_acts"/>
+            <amount n="447" unit="words"/>
+            <amount n="12" unit="lines"/>
+            <amount n="2504" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3. Szene</head>
+        <div>
+          <head>Dritte Szene</head>
+          <sp who="#melanie">
+            <amount n="11" unit="speech_acts"/>
+            <amount n="296" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="1756" unit="chars"/>
+          </sp>
+          <sp who="#hermine">
+            <amount n="1" unit="speech_acts"/>
+          </sp>
+          <sp who="#jaromir">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="106" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="566" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>4. Szene</head>
+        <div>
+          <head>Vierte Szene</head>
+          <sp who="#melanie">
+            <amount n="10" unit="speech_acts"/>
+            <amount n="104" unit="words"/>
+            <amount n="8" unit="lines"/>
+            <amount n="564" unit="chars"/>
+          </sp>
+          <sp who="#theodor">
+            <amount n="10" unit="speech_acts"/>
+            <amount n="446" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="2618" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>5. Szene</head>
+        <div>
+          <head>Fünfte Szene</head>
+          <sp who="#general">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="12" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="117" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>6. Szene</head>
+        <div>
+          <head>Sechste Szene</head>
+          <sp who="#marie">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="72" unit="words"/>
+            <amount n="7" unit="lines"/>
+            <amount n="400" unit="chars"/>
+          </sp>
+          <sp who="#anna">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="117" unit="words"/>
+            <amount n="7" unit="lines"/>
+            <amount n="637" unit="chars"/>
+          </sp>
+          <sp who="#stimme_des_kleinen_jaromir">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="5" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="25" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>7. Szene</head>
+        <div>
+          <head>Siebente Szene</head>
+          <sp who="#hermine">
+            <amount n="17" unit="speech_acts"/>
+            <amount n="185" unit="words"/>
+            <amount n="12" unit="lines"/>
+            <amount n="1046" unit="chars"/>
+          </sp>
+          <sp who="#theodor">
+            <amount n="17" unit="speech_acts"/>
+            <amount n="422" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="2499" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>3. Akt</head>
+      <div>
+        <head>1. Szene</head>
+        <div>
+          <head>Erste Szene</head>
+          <sp who="#der_kleine_jaromir">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="71" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="391" unit="chars"/>
+          </sp>
+          <sp who="#anna">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="7" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="35" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Szene</head>
+        <div>
+          <head>Zweite Szene</head>
+          <sp who="#marie">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="82" unit="words"/>
+            <amount n="470" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3. Szene</head>
+        <div>
+          <head>Dritte Szene</head>
+          <sp who="#marie">
+            <amount n="14" unit="speech_acts"/>
+            <amount n="104" unit="words"/>
+            <amount n="9" unit="lines"/>
+            <amount n="548" unit="chars"/>
+          </sp>
+          <sp who="#theodor">
+            <amount n="14" unit="speech_acts"/>
+            <amount n="567" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="3293" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>4. Szene</head>
+        <div>
+          <head>Vierte Szene</head>
+          <sp who="#marie">
+            <amount n="12" unit="speech_acts"/>
+            <amount n="157" unit="words"/>
+            <amount n="9" unit="lines"/>
+            <amount n="852" unit="chars"/>
+          </sp>
+          <sp who="#jaromir">
+            <amount n="11" unit="speech_acts"/>
+            <amount n="186" unit="words"/>
+            <amount n="7" unit="lines"/>
+            <amount n="994" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>5. Szene</head>
+        <div>
+          <head>Fünfte Szene</head>
+          <sp who="#jaromir">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="106" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="603" unit="chars"/>
+          </sp>
+          <sp who="#theodor">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="151" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="804" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>6. Szene</head>
+        <div>
+          <head>Sechste Szene</head>
+          <sp who="#melanie">
+            <amount n="12" unit="speech_acts"/>
+            <amount n="180" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="967" unit="chars"/>
+          </sp>
+          <sp who="#theodor">
+            <amount n="12" unit="speech_acts"/>
+            <amount n="256" unit="words"/>
+            <amount n="8" unit="lines"/>
+            <amount n="1468" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>4. Akt</head>
+      <div>
+        <head>1. Szene</head>
+        <div>
+          <head>Erste Szene</head>
+          <sp who="#melanie">
+            <amount n="27" unit="speech_acts"/>
+            <amount n="385" unit="words"/>
+            <amount n="22" unit="lines"/>
+            <amount n="1989" unit="chars"/>
+          </sp>
+          <sp who="#theodor">
+            <amount n="26" unit="speech_acts"/>
+            <amount n="952" unit="words"/>
+            <amount n="11" unit="lines"/>
+            <amount n="5403" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Szene</head>
+        <div>
+          <head>Zweite Szene</head>
+          <sp who="#jaromir">
+            <amount n="17" unit="speech_acts"/>
+            <amount n="174" unit="words"/>
+            <amount n="14" unit="lines"/>
+            <amount n="993" unit="chars"/>
+          </sp>
+          <sp who="#melanie">
+            <amount n="16" unit="speech_acts"/>
+            <amount n="434" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="2351" unit="chars"/>
+          </sp>
+          <sp who="#theodor">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="1" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="9" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3. Szene</head>
+        <div>
+          <head>Dritte Szene</head>
+          <sp who="#theodor">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="34" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="206" unit="chars"/>
+          </sp>
+          <sp who="#melanie">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="321" unit="words"/>
+            <amount n="1795" unit="chars"/>
+          </sp>
+          <sp who="#jaromir">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="52" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="300" unit="chars"/>
+          </sp>
+          <sp who="#hermine">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="3" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="16" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>4. Szene</head>
+        <div>
+          <head>Vierte Szene</head>
+          <sp who="#theodor">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="673" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="3787" unit="chars"/>
+          </sp>
+          <sp who="#hermine">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="127" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="615" unit="chars"/>
+          </sp>
+          <sp who="#der_kleine_jaromir">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="3" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="16" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>5. Szene</head>
+        <div>
+          <head>Fünfte Szene</head>
+          <sp who="#der_kleine_jaromir">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="74" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="373" unit="chars"/>
+          </sp>
+          <sp who="#theodor">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="51" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="261" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>5. Akt</head>
+      <div>
+        <head>1. Szene</head>
+        <div>
+          <head>Erste Szene</head>
+          <sp who="#theodor">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="200" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="1144" unit="chars"/>
+          </sp>
+          <sp who="#gärtner">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="17" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="99" unit="chars"/>
+          </sp>
+          <sp who="#hermine">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="22" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="115" unit="chars"/>
+          </sp>
+          <sp who="#baronin">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="36" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="223" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Szene</head>
+        <div>
+          <head>Zweite Szene</head>
+          <sp who="#baronin">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="233" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="1317" unit="chars"/>
+          </sp>
+          <sp who="#general">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="75" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="416" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3. Szene</head>
+        <div>
+          <head>Dritte Szene</head>
+          <sp who="#anna">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="43" unit="words"/>
+            <amount n="222" unit="chars"/>
+          </sp>
+          <sp who="#milli">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="19" unit="words"/>
+            <amount n="106" unit="chars"/>
+          </sp>
+          <sp who="#baronin">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="2" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="10" unit="chars"/>
+          </sp>
+          <sp who="#general">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="7" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="35" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>4. Szene</head>
+        <div>
+          <head>Vierte Szene</head>
+          <sp who="#anna">
+            <amount n="28" unit="speech_acts"/>
+            <amount n="773" unit="words"/>
+            <amount n="14" unit="lines"/>
+            <amount n="3955" unit="chars"/>
+          </sp>
+          <sp who="#jaromir">
+            <amount n="31" unit="speech_acts"/>
+            <amount n="415" unit="words"/>
+            <amount n="25" unit="lines"/>
+            <amount n="2285" unit="chars"/>
+          </sp>
+          <sp who="#theodor">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="136" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="782" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>5. Szene</head>
+        <div>
+          <head>Fünfte Szene</head>
+          <sp who="#gärtner">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="4" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="27" unit="chars"/>
+          </sp>
+          <sp who="#theodor">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="24" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="122" unit="chars"/>
+          </sp>
+          <sp who="#baronin">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="49" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="271" unit="chars"/>
+          </sp>
+          <sp who="#melanie">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="16" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="85" unit="chars"/>
+          </sp>
+          <sp who="#anna">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="126" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="658" unit="chars"/>
+          </sp>
+          <sp who="#general">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="51" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="270" unit="chars"/>
+          </sp>
+          <sp who="#jaromir">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="180" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="921" unit="chars"/>
+          </sp>
+          <sp who="#marie">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="3" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="15" unit="chars"/>
+          </sp>
+          <sp who="#stimme_der_baronin">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="2" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="17" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>6. Szene</head>
+        <div>
+          <head>Sechste Szene</head>
+          <sp who="#anna">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="24" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="129" unit="chars"/>
+          </sp>
+          <sp who="#theodor">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="162" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="902" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+  </text>
+</play>

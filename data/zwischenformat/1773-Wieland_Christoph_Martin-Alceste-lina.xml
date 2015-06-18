@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital">
+  <header>
+    <title>Alceste</title>
+    <subtitle>Ein Singspiel in fünf Aufzügen</subtitle>
+    <genretitle>Singspiel</genretitle>
+    <author>Wieland, Christoph Martin</author>
+    <date type="print">1773</date>
+    <date type="premiere">1773</date>
+    <date type="written"></date>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:x8ks.0/data</source>
+  </header>
+  <personae>
+    <character>
+      <name>ALCESTE</name>
+      <alias xml:id="alceste">
+        <name>ALCESTE</name>
+      </alias>
+    </character>
+    <character>
+      <name>PARTHENIA</name>
+      <alias xml:id="parthenia">
+        <name>PARTHENIA</name>
+      </alias>
+    </character>
+    <character>
+      <name>ADMET</name>
+      <alias xml:id="admet">
+        <name>ADMET</name>
+      </alias>
+    </character>
+    <character>
+      <name>HERKULES</name>
+      <alias xml:id="herkules">
+        <name>HERKULES</name>
+      </alias>
+    </character>
+    <character>
+      <name>CHOR</name>
+      <alias xml:id="chor">
+        <name>CHOR</name>
+      </alias>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Personen</head>
+    </div>
+    <div>
+      <head>1. Akt</head>
+      <div>
+        <head>Erster Aufzug</head>
+        <sp who="#alceste">
+          <amount n="12" unit="speech_acts"/>
+          <amount n="572" unit="words"/>
+          <amount n="97" unit="lines"/>
+          <amount n="3086" unit="chars"/>
+        </sp>
+        <sp who="#parthenia">
+          <amount n="10" unit="speech_acts"/>
+          <amount n="376" unit="words"/>
+          <amount n="60" unit="lines"/>
+          <amount n="2112" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>2. Akt</head>
+      <div>
+        <head>Zweyter Aufzug</head>
+        <sp who="#admet">
+          <amount n="17" unit="speech_acts"/>
+          <amount n="618" unit="words"/>
+          <amount n="94" unit="lines"/>
+          <amount n="3254" unit="chars"/>
+        </sp>
+        <sp who="#parthenia">
+          <amount n="8" unit="speech_acts"/>
+          <amount n="144" unit="words"/>
+          <amount n="28" unit="lines"/>
+          <amount n="734" unit="chars"/>
+        </sp>
+        <sp who="#alceste">
+          <amount n="14" unit="speech_acts"/>
+          <amount n="617" unit="words"/>
+          <amount n="90" unit="lines"/>
+          <amount n="3269" unit="chars"/>
+        </sp>
+        <sp who="#admet #parthenia">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="6" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="26" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>3. Akt</head>
+      <div>
+        <head>Dritter Aufzug</head>
+        <sp who="#herkules">
+          <amount n="23" unit="speech_acts"/>
+          <amount n="704" unit="words"/>
+          <amount n="113" unit="lines"/>
+          <amount n="3793" unit="chars"/>
+        </sp>
+        <sp who="#parthenia">
+          <amount n="14" unit="speech_acts"/>
+          <amount n="290" unit="words"/>
+          <amount n="55" unit="lines"/>
+          <amount n="1547" unit="chars"/>
+        </sp>
+        <sp who="#admet">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="112" unit="words"/>
+          <amount n="16" unit="lines"/>
+          <amount n="581" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>4. Akt</head>
+      <div>
+        <head>Vierter Aufzug</head>
+        <sp who="#parthenia">
+          <amount n="8" unit="speech_acts"/>
+          <amount n="339" unit="words"/>
+          <amount n="55" unit="lines"/>
+          <amount n="1914" unit="chars"/>
+        </sp>
+        <sp who="#admet">
+          <amount n="8" unit="speech_acts"/>
+          <amount n="522" unit="words"/>
+          <amount n="74" unit="lines"/>
+          <amount n="2816" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>5. Akt</head>
+      <div>
+        <head>Fünfter Aufzug</head>
+        <sp who="#admet">
+          <amount n="20" unit="speech_acts"/>
+          <amount n="626" unit="words"/>
+          <amount n="98" unit="lines"/>
+          <amount n="3286" unit="chars"/>
+        </sp>
+        <sp who="#parthenia">
+          <amount n="11" unit="speech_acts"/>
+          <amount n="296" unit="words"/>
+          <amount n="48" unit="lines"/>
+          <amount n="1539" unit="chars"/>
+        </sp>
+        <sp who="#chor">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="12" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="61" unit="chars"/>
+        </sp>
+        <sp who="#admet #parthenia #herkules #alceste">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="27" unit="words"/>
+          <amount n="5" unit="lines"/>
+          <amount n="142" unit="chars"/>
+        </sp>
+        <sp who="#herkules">
+          <amount n="17" unit="speech_acts"/>
+          <amount n="592" unit="words"/>
+          <amount n="87" unit="lines"/>
+          <amount n="3193" unit="chars"/>
+        </sp>
+        <sp who="#alceste">
+          <amount n="8" unit="speech_acts"/>
+          <amount n="355" unit="words"/>
+          <amount n="60" unit="lines"/>
+          <amount n="1892" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+  </text>
+  <documentation>
+    <change n="1" type="expandCollective" who="peertrilcke">
+      <path>/play/text[1]/div[6]/div[1]</path>
+      <orig>#alle</orig>
+      <corr>#admet #parthenia #herkules #alceste</corr>
+      <comment>"CHOR" bereits vorher abgetreten</comment>
+    </change>
+  </documentation>
+</play>

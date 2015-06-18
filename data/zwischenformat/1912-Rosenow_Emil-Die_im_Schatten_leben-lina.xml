@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital">
+  <header>
+    <title>Die im Schatten leben</title>
+    <subtitle>Drama in vier Akten</subtitle>
+    <genretitle></genretitle>
+    <author>Rosenow, Emil</author>
+    <date type="print" when="1912">1912</date>
+    <date type="premiere"></date>
+    <date type="written" when="1899">1899</date>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:tgw9.0/data</source>
+  </header>
+  <personae>
+    <character>
+      <name>HANNCHEN</name>
+      <alias xml:id="hannchen">
+        <name>HANNCHEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>MUTTER LÜCKEL</name>
+      <alias xml:id="mutter_lückel">
+        <name>MUTTER LÜCKEL</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER ALTE SCHNIERMANN</name>
+      <alias xml:id="der_alte_schniermann">
+        <name>DER ALTE SCHNIERMANN</name>
+      </alias>
+    </character>
+    <character>
+      <name>PITTJUPP</name>
+      <alias xml:id="pittjupp">
+        <name>PITTJUPP</name>
+      </alias>
+    </character>
+    <character>
+      <name>JAN BIGGEN</name>
+      <alias xml:id="jan_biggen">
+        <name>JAN BIGGEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>TRINA</name>
+      <alias xml:id="trina">
+        <name>TRINA</name>
+      </alias>
+    </character>
+    <character>
+      <name>LIESA</name>
+      <alias xml:id="liesa">
+        <name>LIESA</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIAKONUS KÖRTING</name>
+      <alias xml:id="diakonus_körting">
+        <name>DIAKONUS KÖRTING</name>
+      </alias>
+      <alias xml:id="körting">
+        <name>KÖRTING</name>
+      </alias>
+    </character>
+    <character>
+      <name>LANGENSCHEIDT</name>
+      <alias xml:id="langenscheidt">
+        <name>LANGENSCHEIDT</name>
+      </alias>
+    </character>
+    <character>
+      <name>VONDERSCHEER</name>
+      <alias xml:id="vonderscheer">
+        <name>VONDERSCHEER</name>
+      </alias>
+    </character>
+    <character>
+      <name>WITTBRÄUKE</name>
+      <alias xml:id="wittbräuke">
+        <name>WITTBRÄUKE</name>
+      </alias>
+    </character>
+    <character>
+      <name>HINNÄCK</name>
+      <alias xml:id="hinnäck">
+        <name>HINNÄCK</name>
+      </alias>
+    </character>
+    <character>
+      <name>ANNGRET</name>
+      <alias xml:id="anngret">
+        <name>ANNGRET</name>
+      </alias>
+    </character>
+    <character>
+      <name>KLÖNNE</name>
+      <alias xml:id="klönne">
+        <name>KLÖNNE</name>
+      </alias>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Personen</head>
+    </div>
+    <div>
+      <head>1. Akt</head>
+      <div>
+        <head>Erster Akt</head>
+        <sp who="#hannchen">
+          <amount n="53" unit="speech_acts"/>
+          <amount n="611" unit="words"/>
+          <amount n="46" unit="lines"/>
+          <amount n="3469" unit="chars"/>
+        </sp>
+        <sp who="#mutter_lückel">
+          <amount n="38" unit="speech_acts"/>
+          <amount n="723" unit="words"/>
+          <amount n="25" unit="lines"/>
+          <amount n="3923" unit="chars"/>
+        </sp>
+        <sp who="#der_alte_schniermann">
+          <amount n="26" unit="speech_acts"/>
+          <amount n="597" unit="words"/>
+          <amount n="13" unit="lines"/>
+          <amount n="3222" unit="chars"/>
+        </sp>
+        <sp who="#pittjupp">
+          <amount n="10" unit="speech_acts"/>
+          <amount n="283" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="1575" unit="chars"/>
+        </sp>
+        <sp who="#hannchen #mutter_lückel #der_alte_schniermann #pittjupp #jan_biggen #trina #liesa #diakonus_körting #langenscheidt">
+          <amount n="10" unit="speech_acts"/>
+          <amount n="63" unit="words"/>
+          <amount n="9" unit="lines"/>
+          <amount n="371" unit="chars"/>
+        </sp>
+        <sp who="#jan_biggen">
+          <amount n="19" unit="speech_acts"/>
+          <amount n="399" unit="words"/>
+          <amount n="9" unit="lines"/>
+          <amount n="2144" unit="chars"/>
+        </sp>
+        <sp who="#trina">
+          <amount n="10" unit="speech_acts"/>
+          <amount n="281" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="1492" unit="chars"/>
+        </sp>
+        <sp who="#liesa">
+          <amount n="31" unit="speech_acts"/>
+          <amount n="441" unit="words"/>
+          <amount n="23" unit="lines"/>
+          <amount n="2534" unit="chars"/>
+        </sp>
+        <sp who="#der_alte_schniermann #pittjupp">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="3" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="19" unit="chars"/>
+        </sp>
+        <sp who="#diakonus_körting">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="40" unit="words"/>
+          <amount n="327" unit="chars"/>
+        </sp>
+        <sp who="#körting">
+          <amount n="53" unit="speech_acts"/>
+          <amount n="1490" unit="words"/>
+          <amount n="26" unit="lines"/>
+          <amount n="8472" unit="chars"/>
+        </sp>
+        <sp who="#langenscheidt">
+          <amount n="80" unit="speech_acts"/>
+          <amount n="1515" unit="words"/>
+          <amount n="54" unit="lines"/>
+          <amount n="8339" unit="chars"/>
+        </sp>
+        <sp who="#pittjupp #der_alte_schniermann">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="5" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="22" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>2. Akt</head>
+      <div>
+        <head>Zweiter Akt</head>
+        <sp who="#mutter_lückel">
+          <amount n="81" unit="speech_acts"/>
+          <amount n="1387" unit="words"/>
+          <amount n="52" unit="lines"/>
+          <amount n="7513" unit="chars"/>
+        </sp>
+        <sp who="#pittjupp">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="53" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="277" unit="chars"/>
+        </sp>
+        <sp who="#jan_biggen">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="173" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="960" unit="chars"/>
+        </sp>
+        <sp who="#hannchen #der_alte_schniermann">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="1" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="7" unit="chars"/>
+        </sp>
+        <sp who="#hannchen">
+          <amount n="29" unit="speech_acts"/>
+          <amount n="379" unit="words"/>
+          <amount n="24" unit="lines"/>
+          <amount n="2044" unit="chars"/>
+        </sp>
+        <sp who="#der_alte_schniermann">
+          <amount n="31" unit="speech_acts"/>
+          <amount n="1069" unit="words"/>
+          <amount n="38" unit="lines"/>
+          <amount n="5707" unit="chars"/>
+        </sp>
+        <sp who="#langenscheidt">
+          <amount n="60" unit="speech_acts"/>
+          <amount n="1244" unit="words"/>
+          <amount n="31" unit="lines"/>
+          <amount n="6709" unit="chars"/>
+        </sp>
+        <sp who="#körting">
+          <amount n="62" unit="speech_acts"/>
+          <amount n="843" unit="words"/>
+          <amount n="47" unit="lines"/>
+          <amount n="4997" unit="chars"/>
+        </sp>
+        <sp who="#liesa">
+          <amount n="31" unit="speech_acts"/>
+          <amount n="318" unit="words"/>
+          <amount n="28" unit="lines"/>
+          <amount n="1787" unit="chars"/>
+        </sp>
+        <sp who="#trina">
+          <amount n="24" unit="speech_acts"/>
+          <amount n="524" unit="words"/>
+          <amount n="16" unit="lines"/>
+          <amount n="2739" unit="chars"/>
+        </sp>
+        <sp who="#mutter_lückel #pittjupp #jan_biggen #hannchen #der_alte_schniermann #langenscheidt #körting #liesa #trina #vonderscheer #wittbräuke #hinnäck #anngret">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="1" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="4" unit="chars"/>
+        </sp>
+        <sp who="#vonderscheer">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="55" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="346" unit="chars"/>
+        </sp>
+        <sp who="#wittbräuke">
+          <amount n="10" unit="speech_acts"/>
+          <amount n="127" unit="words"/>
+          <amount n="8" unit="lines"/>
+          <amount n="719" unit="chars"/>
+        </sp>
+        <sp who="#mutter_lückel #pittjupp #hannchen #liesa #trina">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="41" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="254" unit="chars"/>
+        </sp>
+        <sp who="#hinnäck">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="18" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="104" unit="chars"/>
+        </sp>
+        <sp who="#anngret">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="12" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="70" unit="chars"/>
+        </sp>
+        <sp who="#hinnäck #anngret">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="2" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="21" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>3. Akt</head>
+      <div>
+        <head>Dritter Akt</head>
+        <sp who="#hannchen">
+          <amount n="55" unit="speech_acts"/>
+          <amount n="911" unit="words"/>
+          <amount n="42" unit="lines"/>
+          <amount n="5170" unit="chars"/>
+        </sp>
+        <sp who="#langenscheidt">
+          <amount n="27" unit="speech_acts"/>
+          <amount n="551" unit="words"/>
+          <amount n="16" unit="lines"/>
+          <amount n="2959" unit="chars"/>
+        </sp>
+        <sp who="#mutter_lückel">
+          <amount n="47" unit="speech_acts"/>
+          <amount n="977" unit="words"/>
+          <amount n="30" unit="lines"/>
+          <amount n="5299" unit="chars"/>
+        </sp>
+        <sp who="#der_alte_schniermann">
+          <amount n="27" unit="speech_acts"/>
+          <amount n="340" unit="words"/>
+          <amount n="21" unit="lines"/>
+          <amount n="1823" unit="chars"/>
+        </sp>
+        <sp who="#trina">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="195" unit="words"/>
+          <amount n="5" unit="lines"/>
+          <amount n="1058" unit="chars"/>
+        </sp>
+        <sp who="#körting">
+          <amount n="33" unit="speech_acts"/>
+          <amount n="447" unit="words"/>
+          <amount n="24" unit="lines"/>
+          <amount n="2547" unit="chars"/>
+        </sp>
+        <sp who="#liesa">
+          <amount n="9" unit="speech_acts"/>
+          <amount n="91" unit="words"/>
+          <amount n="7" unit="lines"/>
+          <amount n="513" unit="chars"/>
+        </sp>
+        <sp who="#wittbräuke">
+          <amount n="22" unit="speech_acts"/>
+          <amount n="393" unit="words"/>
+          <amount n="14" unit="lines"/>
+          <amount n="2192" unit="chars"/>
+        </sp>
+        <sp who="#klönne">
+          <amount n="63" unit="speech_acts"/>
+          <amount n="1287" unit="words"/>
+          <amount n="37" unit="lines"/>
+          <amount n="7581" unit="chars"/>
+        </sp>
+        <sp who="#vonderscheer">
+          <amount n="22" unit="speech_acts"/>
+          <amount n="360" unit="words"/>
+          <amount n="16" unit="lines"/>
+          <amount n="2105" unit="chars"/>
+        </sp>
+        <sp who="#hinnäck">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="15" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="78" unit="chars"/>
+        </sp>
+        <sp who="#pittjupp">
+          <amount n="20" unit="speech_acts"/>
+          <amount n="196" unit="words"/>
+          <amount n="16" unit="lines"/>
+          <amount n="1122" unit="chars"/>
+        </sp>
+        <sp who="#mutter_lückel">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="52" unit="words"/>
+          <amount n="305" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>4. Akt</head>
+      <div>
+        <head>Vierter Akt</head>
+        <sp who="#trina">
+          <amount n="43" unit="speech_acts"/>
+          <amount n="503" unit="words"/>
+          <amount n="35" unit="lines"/>
+          <amount n="2657" unit="chars"/>
+        </sp>
+        <sp who="#liesa">
+          <amount n="69" unit="speech_acts"/>
+          <amount n="1021" unit="words"/>
+          <amount n="53" unit="lines"/>
+          <amount n="5341" unit="chars"/>
+        </sp>
+        <sp who="#mutter_lückel">
+          <amount n="69" unit="speech_acts"/>
+          <amount n="1013" unit="words"/>
+          <amount n="55" unit="lines"/>
+          <amount n="5259" unit="chars"/>
+        </sp>
+        <sp who="#trina #liesa">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="2" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="12" unit="chars"/>
+        </sp>
+        <sp who="#der_alte_schniermann">
+          <amount n="26" unit="speech_acts"/>
+          <amount n="733" unit="words"/>
+          <amount n="13" unit="lines"/>
+          <amount n="3771" unit="chars"/>
+        </sp>
+        <sp who="#liesa #mutter_lückel">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="3" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="13" unit="chars"/>
+        </sp>
+        <sp who="#klönne">
+          <amount n="44" unit="speech_acts"/>
+          <amount n="1015" unit="words"/>
+          <amount n="22" unit="lines"/>
+          <amount n="6287" unit="chars"/>
+        </sp>
+        <sp who="#trina #liesa #mutter_lückel #der_alte_schniermann #klönne #körting">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="43" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="260" unit="chars"/>
+        </sp>
+        <sp who="#mutter_lückel #der_alte_schniermann #klönne">
+          <amount n="8" unit="speech_acts"/>
+          <amount n="58" unit="words"/>
+          <amount n="8" unit="lines"/>
+          <amount n="401" unit="chars"/>
+        </sp>
+        <sp who="#körting">
+          <amount n="34" unit="speech_acts"/>
+          <amount n="771" unit="words"/>
+          <amount n="18" unit="lines"/>
+          <amount n="4457" unit="chars"/>
+        </sp>
+        <sp who="#mutter_lückel #der_alte_schniermann">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="5" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="23" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+  </text>
+</play>
