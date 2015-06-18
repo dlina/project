@@ -1,0 +1,940 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+  <head>
+    <title>Puppenspiel</title>
+    <title>Simrock, Karl</title>
+    <title>Doctor Johannes Faust</title>
+    <author>Simrock, Karl</author>
+    <date when="1846"/>
+    <source>file:///C:/Users/Dario/bwSyncAndShare/Projekte/Dramenanalyse/in/deu/1846%20Doctor_Johannes_Faust.xml</source>
+  </head>
+  <personae>
+    <character>
+      <name>FAUST</name>
+      <alias xml:id="faust">
+        <name>FAUST</name>
+      </alias>
+    </character>
+    <character>
+      <name>STIMME ZUR LINKEN</name>
+      <alias xml:id="stimme_zur_linken">
+        <name>STIMME ZUR LINKEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>STIMME ZUR RECHTEN</name>
+      <alias xml:id="stimme_zur_rechten">
+        <name>STIMME ZUR RECHTEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>MEHRERE STIMMEN ZUR LINKEN</name>
+      <alias xml:id="mehrere_stimmen_zur_linken">
+        <name>MEHRERE STIMMEN ZUR LINKEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>WAGNER</name>
+      <alias xml:id="wagner">
+        <name>WAGNER</name>
+      </alias>
+    </character>
+    <character>
+      <name>CASPERLE</name>
+      <alias xml:id="casperle">
+        <name>CASPERLE</name>
+      </alias>
+    </character>
+    <character>
+      <name>ERSTER GEIST</name>
+      <alias xml:id="erster_geist">
+        <name>ERSTER GEIST</name>
+      </alias>
+    </character>
+    <character>
+      <name>VITZLIPUTZLI</name>
+      <alias xml:id="vitzliputzli">
+        <name>VITZLIPUTZLI</name>
+      </alias>
+    </character>
+    <character>
+      <name>ZWEITER GEIST</name>
+      <alias xml:id="zweiter_geist">
+        <name>ZWEITER GEIST</name>
+      </alias>
+    </character>
+    <character>
+      <name>POLÜMOR</name>
+      <alias xml:id="polümor">
+        <name>POLÜMOR</name>
+      </alias>
+    </character>
+    <character>
+      <name>DRITTER GEIST</name>
+      <alias xml:id="dritter_geist">
+        <name>DRITTER GEIST</name>
+      </alias>
+    </character>
+    <character>
+      <name>ASMODEUS</name>
+      <alias xml:id="asmodeus">
+        <name>ASMODEUS</name>
+      </alias>
+    </character>
+    <character>
+      <name>VIERTER GEIST</name>
+      <alias xml:id="vierter_geist">
+        <name>VIERTER GEIST</name>
+      </alias>
+    </character>
+    <character>
+      <name>ASTAROT</name>
+      <alias xml:id="astarot">
+        <name>ASTAROT</name>
+      </alias>
+    </character>
+    <character>
+      <name>FÜNFTER GEIST</name>
+      <alias xml:id="fünfter_geist">
+        <name>FÜNFTER GEIST</name>
+      </alias>
+    </character>
+    <character>
+      <name>AUERHAHN</name>
+      <alias xml:id="auerhahn">
+        <name>AUERHAHN</name>
+      </alias>
+    </character>
+    <character>
+      <name>SECHSTER GEIST</name>
+      <alias xml:id="sechster_geist">
+        <name>SECHSTER GEIST</name>
+      </alias>
+    </character>
+    <character>
+      <name>HARIBAX</name>
+      <alias xml:id="haribax">
+        <name>HARIBAX</name>
+      </alias>
+    </character>
+    <character>
+      <name>SIEBENTER GEIST</name>
+      <alias xml:id="siebenter_geist">
+        <name>SIEBENTER GEIST</name>
+      </alias>
+    </character>
+    <character>
+      <name>MEGÄRA</name>
+      <alias xml:id="megära">
+        <name>MEGÄRA</name>
+      </alias>
+    </character>
+    <character>
+      <name>ACHTER GEIST</name>
+      <alias xml:id="achter_geist">
+        <name>ACHTER GEIST</name>
+      </alias>
+    </character>
+    <character>
+      <name>MEPHISTOPHELES</name>
+      <alias xml:id="mephistopheles">
+        <name>MEPHISTOPHELES</name>
+      </alias>
+    </character>
+    <character>
+      <name>MEPHISTOPEHLES</name>
+      <alias xml:id="mephistopehles">
+        <name>MEPHISTOPEHLES</name>
+      </alias>
+    </character>
+    <character>
+      <name>SCHUTZGEIST</name>
+      <alias xml:id="schutzgeist">
+        <name>SCHUTZGEIST</name>
+      </alias>
+    </character>
+    <character>
+      <name>GEISTER</name>
+      <alias xml:id="geister">
+        <name>GEISTER</name>
+      </alias>
+    </character>
+    <character>
+      <name>TEUFELCHEN</name>
+      <alias xml:id="teufelchen">
+        <name>TEUFELCHEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>XERXES</name>
+      <alias xml:id="xerxes">
+        <name>XERXES</name>
+      </alias>
+    </character>
+    <character>
+      <name>DON CARLOS</name>
+      <alias xml:id="don_carlos">
+        <name>DON CARLOS</name>
+      </alias>
+    </character>
+    <character>
+      <name>HERZOG</name>
+      <alias xml:id="herzog">
+        <name>HERZOG</name>
+      </alias>
+    </character>
+    <character>
+      <name>HERZOGIN</name>
+      <alias xml:id="herzogin">
+        <name>HERZOGIN</name>
+      </alias>
+    </character>
+    <character>
+      <name>DAS FRAUENZIMMER</name>
+      <alias xml:id="das_frauenzimmer">
+        <name>DAS FRAUENZIMMER</name>
+      </alias>
+    </character>
+    <character>
+      <name>ALTES WEIB</name>
+      <alias xml:id="altes_weib">
+        <name>ALTES WEIB</name>
+      </alias>
+    </character>
+    <character>
+      <name>DUMPFE STIMME VON OBEN</name>
+      <alias xml:id="dumpfe_stimme_von_oben">
+        <name>DUMPFE STIMME VON OBEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>DUMPFE STIMME</name>
+      <alias xml:id="dumpfe_stimme">
+        <name>DUMPFE STIMME</name>
+      </alias>
+    </character>
+    <character>
+      <name>GRETL</name>
+      <alias xml:id="gretl">
+        <name>GRETL</name>
+      </alias>
+    </character>
+    <character>
+      <name>KASPER</name>
+      <alias xml:id="kasper">
+        <name>KASPER</name>
+      </alias>
+    </character>
+    <character>
+      <name>KASPAR</name>
+      <alias xml:id="kaspar">
+        <name>KASPAR</name>
+      </alias>
+    </character>
+    <character>
+      <name>TEUFEL</name>
+      <alias xml:id="teufel">
+        <name>TEUFEL</name>
+      </alias>
+    </character>
+    <character>
+      <name>MEFISTOFELES</name>
+      <alias xml:id="mefistofeles">
+        <name>MEFISTOFELES</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE GEISTER ALLE</name>
+      <alias xml:id="die_geister_alle">
+        <name>DIE GEISTER ALLE</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER ERSTE GEIST</name>
+      <alias xml:id="der_erste_geist">
+        <name>DER ERSTE GEIST</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER ZWEITE GEIST</name>
+      <alias xml:id="der_zweite_geist">
+        <name>DER ZWEITE GEIST</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER DRITTE GEIST</name>
+      <alias xml:id="der_dritte_geist">
+        <name>DER DRITTE GEIST</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER VIERTE GEIST</name>
+      <alias xml:id="der_vierte_geist">
+        <name>DER VIERTE GEIST</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER FÜNFTE GEIST</name>
+      <alias xml:id="der_fünfte_geist">
+        <name>DER FÜNFTE GEIST</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER SECHSTE GEIST</name>
+      <alias xml:id="der_sechste_geist">
+        <name>DER SECHSTE GEIST</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER SIEBENDE GEIST</name>
+      <alias xml:id="der_siebende_geist">
+        <name>DER SIEBENDE GEIST</name>
+      </alias>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Karl Simrock</head>
+    </div>
+    <div>
+      <head>[Widmung]</head>
+      <div>
+        <head>noName</head>
+      </div>
+    </div>
+    <div>
+      <head>Vorrede</head>
+      <div>
+        <head>Vorrede.</head>
+      </div>
+    </div>
+    <div>
+      <head>Faust</head>
+      <div>
+        <head>Personen</head>
+        <div>
+          <head>noName</head>
+        </div>
+      </div>
+      <div>
+        <head>1. Akt</head>
+        <div>
+          <head>1. Auftritt</head>
+          <div>
+            <head>Erster Auftritt.</head>
+            <sp who="#faust">
+              <amount n="5" unit="speech_acts"/>
+              <amount n="203" unit="words"/>
+              <amount n="31" unit="lines"/>
+              <amount n="1133" unit="chars"/>
+            </sp>
+            <sp who="#stimme_zur_linken">
+              <amount n="2" unit="speech_acts"/>
+              <amount n="37" unit="words"/>
+              <amount n="7" unit="lines"/>
+              <amount n="222" unit="chars"/>
+            </sp>
+            <sp who="#stimme_zur_rechten">
+              <amount n="3" unit="speech_acts"/>
+              <amount n="28" unit="words"/>
+              <amount n="6" unit="lines"/>
+              <amount n="168" unit="chars"/>
+            </sp>
+            <sp who="#mehrere_stimmen_zur_linken">
+              <amount n="1" unit="speech_acts"/>
+              <amount n="1" unit="words"/>
+              <amount n="1" unit="lines"/>
+              <amount n="9" unit="chars"/>
+            </sp>
+          </div>
+        </div>
+        <div>
+          <head>2. Auftritt</head>
+          <div>
+            <head>Zweiter Auftritt</head>
+            <sp who="#wagner">
+              <amount n="8" unit="speech_acts"/>
+              <amount n="173" unit="words"/>
+              <amount n="2" unit="lines"/>
+              <amount n="1042" unit="chars"/>
+            </sp>
+            <sp who="#faust">
+              <amount n="8" unit="speech_acts"/>
+              <amount n="256" unit="words"/>
+              <amount n="4" unit="lines"/>
+              <amount n="1455" unit="chars"/>
+            </sp>
+          </div>
+        </div>
+        <div>
+          <head>3. Auftritt</head>
+          <div>
+            <head>Dritter Auftritt</head>
+            <sp who="#casperle">
+              <amount n="1" unit="speech_acts"/>
+              <amount n="266" unit="words"/>
+              <amount n="1529" unit="chars"/>
+            </sp>
+          </div>
+        </div>
+        <div>
+          <head>4. Auftritt</head>
+          <div>
+            <head>Vierter Auftritt</head>
+            <sp who="#wagner">
+              <amount n="16" unit="speech_acts"/>
+              <amount n="420" unit="words"/>
+              <amount n="11" unit="lines"/>
+              <amount n="2269" unit="chars"/>
+            </sp>
+            <sp who="#casperle">
+              <amount n="16" unit="speech_acts"/>
+              <amount n="424" unit="words"/>
+              <amount n="9" unit="lines"/>
+              <amount n="2198" unit="chars"/>
+            </sp>
+          </div>
+        </div>
+      </div>
+      <div>
+        <head>2. Akt</head>
+        <div>
+          <head>1. Auftritt</head>
+          <div>
+            <head>Erster Auftritt</head>
+            <sp who="#faust">
+              <amount n="31" unit="speech_acts"/>
+              <amount n="828" unit="words"/>
+              <amount n="31" unit="lines"/>
+              <amount n="4558" unit="chars"/>
+            </sp>
+            <sp who="#erster_geist">
+              <amount n="1" unit="speech_acts"/>
+              <amount n="1" unit="words"/>
+              <amount n="1" unit="lines"/>
+              <amount n="13" unit="chars"/>
+            </sp>
+            <sp who="#vitzliputzli">
+              <amount n="1" unit="speech_acts"/>
+              <amount n="5" unit="words"/>
+              <amount n="1" unit="lines"/>
+              <amount n="25" unit="chars"/>
+            </sp>
+            <sp who="#zweiter_geist">
+              <amount n="1" unit="speech_acts"/>
+              <amount n="2" unit="words"/>
+              <amount n="1" unit="lines"/>
+              <amount n="8" unit="chars"/>
+            </sp>
+            <sp who="#polümor">
+              <amount n="1" unit="speech_acts"/>
+              <amount n="10" unit="words"/>
+              <amount n="1" unit="lines"/>
+              <amount n="39" unit="chars"/>
+            </sp>
+            <sp who="#dritter_geist">
+              <amount n="1" unit="speech_acts"/>
+              <amount n="1" unit="words"/>
+              <amount n="1" unit="lines"/>
+              <amount n="9" unit="chars"/>
+            </sp>
+            <sp who="#asmodeus">
+              <amount n="1" unit="speech_acts"/>
+              <amount n="9" unit="words"/>
+              <amount n="1" unit="lines"/>
+              <amount n="41" unit="chars"/>
+            </sp>
+            <sp who="#vierter_geist">
+              <amount n="1" unit="speech_acts"/>
+              <amount n="1" unit="words"/>
+              <amount n="1" unit="lines"/>
+              <amount n="8" unit="chars"/>
+            </sp>
+            <sp who="#astarot">
+              <amount n="1" unit="speech_acts"/>
+              <amount n="6" unit="words"/>
+              <amount n="1" unit="lines"/>
+              <amount n="26" unit="chars"/>
+            </sp>
+            <sp who="#fünfter_geist">
+              <amount n="1" unit="speech_acts"/>
+              <amount n="1" unit="words"/>
+              <amount n="1" unit="lines"/>
+              <amount n="9" unit="chars"/>
+            </sp>
+            <sp who="#auerhahn">
+              <amount n="1" unit="speech_acts"/>
+              <amount n="6" unit="words"/>
+              <amount n="1" unit="lines"/>
+              <amount n="27" unit="chars"/>
+            </sp>
+            <sp who="#sechster_geist">
+              <amount n="1" unit="speech_acts"/>
+              <amount n="1" unit="words"/>
+              <amount n="1" unit="lines"/>
+              <amount n="8" unit="chars"/>
+            </sp>
+            <sp who="#haribax">
+              <amount n="1" unit="speech_acts"/>
+              <amount n="3" unit="words"/>
+              <amount n="1" unit="lines"/>
+              <amount n="13" unit="chars"/>
+            </sp>
+            <sp who="#siebenter_geist">
+              <amount n="1" unit="speech_acts"/>
+              <amount n="2" unit="words"/>
+              <amount n="1" unit="lines"/>
+              <amount n="7" unit="chars"/>
+            </sp>
+            <sp who="#megära">
+              <amount n="1" unit="speech_acts"/>
+              <amount n="3" unit="words"/>
+              <amount n="1" unit="lines"/>
+              <amount n="13" unit="chars"/>
+            </sp>
+            <sp who="#achter_geist">
+              <amount n="1" unit="speech_acts"/>
+              <amount n="1" unit="words"/>
+              <amount n="1" unit="lines"/>
+              <amount n="15" unit="chars"/>
+            </sp>
+            <sp who="#mephistopheles">
+              <amount n="14" unit="speech_acts"/>
+              <amount n="224" unit="words"/>
+              <amount n="15" unit="lines"/>
+              <amount n="1217" unit="chars"/>
+            </sp>
+            <sp who="#mephistopehles">
+              <amount n="1" unit="speech_acts"/>
+              <amount n="39" unit="words"/>
+              <amount n="225" unit="chars"/>
+            </sp>
+            <sp who="#schutzgeist">
+              <amount n="1" unit="speech_acts"/>
+              <amount n="31" unit="words"/>
+              <amount n="4" unit="lines"/>
+              <amount n="187" unit="chars"/>
+            </sp>
+          </div>
+        </div>
+        <div>
+          <head>2. Auftritt</head>
+          <div>
+            <head>Zweiter Auftritt</head>
+            <sp who="#casperle">
+              <amount n="24" unit="speech_acts"/>
+              <amount n="919" unit="words"/>
+              <amount n="19" unit="lines"/>
+              <amount n="4953" unit="chars"/>
+            </sp>
+            <sp who="#geister">
+              <amount n="2" unit="speech_acts"/>
+              <amount n="8" unit="words"/>
+              <amount n="2" unit="lines"/>
+              <amount n="46" unit="chars"/>
+            </sp>
+            <sp who="#erster_geist">
+              <amount n="1" unit="speech_acts"/>
+              <amount n="1" unit="words"/>
+              <amount n="1" unit="lines"/>
+              <amount n="7" unit="chars"/>
+            </sp>
+            <sp who="#asmodeus">
+              <amount n="3" unit="speech_acts"/>
+              <amount n="21" unit="words"/>
+              <amount n="3" unit="lines"/>
+              <amount n="136" unit="chars"/>
+            </sp>
+            <sp who="#teufelchen">
+              <amount n="1" unit="speech_acts"/>
+              <amount n="1" unit="words"/>
+              <amount n="1" unit="lines"/>
+              <amount n="7" unit="chars"/>
+            </sp>
+            <sp who="#xerxes">
+              <amount n="1" unit="speech_acts"/>
+              <amount n="5" unit="words"/>
+              <amount n="1" unit="lines"/>
+              <amount n="34" unit="chars"/>
+            </sp>
+            <sp who="#auerhahn">
+              <amount n="14" unit="speech_acts"/>
+              <amount n="207" unit="words"/>
+              <amount n="11" unit="lines"/>
+              <amount n="1075" unit="chars"/>
+            </sp>
+          </div>
+        </div>
+      </div>
+      <div>
+        <head>3. Akt</head>
+        <div>
+          <head>1. Auftritt</head>
+          <div>
+            <head>Erster Auftritt</head>
+            <sp who="#don_carlos">
+              <amount n="21" unit="speech_acts"/>
+              <amount n="494" unit="words"/>
+              <amount n="51" unit="lines"/>
+              <amount n="2665" unit="chars"/>
+            </sp>
+            <sp who="#casperle">
+              <amount n="20" unit="speech_acts"/>
+              <amount n="450" unit="words"/>
+              <amount n="9" unit="lines"/>
+              <amount n="2312" unit="chars"/>
+            </sp>
+          </div>
+        </div>
+        <div>
+          <head>2. Auftritt</head>
+          <div>
+            <head>Zweiter Auftritt</head>
+            <sp who="#herzog">
+              <amount n="3" unit="speech_acts"/>
+              <amount n="79" unit="words"/>
+              <amount n="8" unit="lines"/>
+              <amount n="469" unit="chars"/>
+            </sp>
+            <sp who="#herzogin">
+              <amount n="5" unit="speech_acts"/>
+              <amount n="72" unit="words"/>
+              <amount n="8" unit="lines"/>
+              <amount n="392" unit="chars"/>
+            </sp>
+            <sp who="#don_carlos">
+              <amount n="5" unit="speech_acts"/>
+              <amount n="132" unit="words"/>
+              <amount n="21" unit="lines"/>
+              <amount n="725" unit="chars"/>
+            </sp>
+            <sp who="#casperle">
+              <amount n="1" unit="speech_acts"/>
+            </sp>
+          </div>
+        </div>
+        <div>
+          <head>3. Auftritt</head>
+          <div>
+            <head>Dritter Auftritt</head>
+            <sp who="#mephistopheles">
+              <amount n="14" unit="speech_acts"/>
+              <amount n="206" unit="words"/>
+              <amount n="12" unit="lines"/>
+              <amount n="1185" unit="chars"/>
+            </sp>
+            <sp who="#herzogin">
+              <amount n="22" unit="speech_acts"/>
+              <amount n="367" unit="words"/>
+              <amount n="41" unit="lines"/>
+              <amount n="1915" unit="chars"/>
+            </sp>
+            <sp who="#faust">
+              <amount n="30" unit="speech_acts"/>
+              <amount n="377" unit="words"/>
+              <amount n="36" unit="lines"/>
+              <amount n="2020" unit="chars"/>
+            </sp>
+            <sp who="#herzog">
+              <amount n="7" unit="speech_acts"/>
+              <amount n="81" unit="words"/>
+              <amount n="9" unit="lines"/>
+              <amount n="424" unit="chars"/>
+            </sp>
+            <sp who="#don_carlos">
+              <amount n="4" unit="speech_acts"/>
+              <amount n="98" unit="words"/>
+              <amount n="10" unit="lines"/>
+              <amount n="495" unit="chars"/>
+            </sp>
+          </div>
+        </div>
+        <div>
+          <head>4. Auftritt</head>
+          <div>
+            <head>Vierter Auftritt</head>
+            <sp who="#casperle">
+              <amount n="19" unit="speech_acts"/>
+              <amount n="418" unit="words"/>
+              <amount n="23" unit="lines"/>
+              <amount n="2271" unit="chars"/>
+            </sp>
+            <sp who="#auerhahn">
+              <amount n="19" unit="speech_acts"/>
+              <amount n="263" unit="words"/>
+              <amount n="16" unit="lines"/>
+              <amount n="1483" unit="chars"/>
+            </sp>
+            <sp who="#das_frauenzimmer">
+              <amount n="1" unit="speech_acts"/>
+              <amount n="2" unit="words"/>
+              <amount n="1" unit="lines"/>
+              <amount n="19" unit="chars"/>
+            </sp>
+            <sp who="#altes_weib">
+              <amount n="1" unit="speech_acts"/>
+              <amount n="2" unit="words"/>
+              <amount n="1" unit="lines"/>
+              <amount n="19" unit="chars"/>
+            </sp>
+          </div>
+        </div>
+      </div>
+      <div>
+        <head>4. Akt</head>
+        <div>
+          <head>1. Auftritt</head>
+          <div>
+            <head>Erster Auftritt</head>
+            <sp who="#faust">
+              <amount n="11" unit="speech_acts"/>
+              <amount n="336" unit="words"/>
+              <amount n="8" unit="lines"/>
+              <amount n="1791" unit="chars"/>
+            </sp>
+            <sp who="#mephistopheles">
+              <amount n="10" unit="speech_acts"/>
+              <amount n="145" unit="words"/>
+              <amount n="6" unit="lines"/>
+              <amount n="789" unit="chars"/>
+            </sp>
+          </div>
+        </div>
+        <div>
+          <head>2. Auftritt</head>
+          <div>
+            <head>Zweiter Auftritt</head>
+            <sp who="#mephistopheles">
+              <amount n="11" unit="speech_acts"/>
+              <amount n="297" unit="words"/>
+              <amount n="5" unit="lines"/>
+              <amount n="1553" unit="chars"/>
+            </sp>
+            <sp who="#faust">
+              <amount n="12" unit="speech_acts"/>
+              <amount n="199" unit="words"/>
+              <amount n="6" unit="lines"/>
+              <amount n="1111" unit="chars"/>
+            </sp>
+            <sp who="#dumpfe_stimme_von_oben">
+              <amount n="1" unit="speech_acts"/>
+              <amount n="6" unit="words"/>
+              <amount n="1" unit="lines"/>
+              <amount n="38" unit="chars"/>
+            </sp>
+          </div>
+        </div>
+        <div>
+          <head>3. Auftritt</head>
+          <div>
+            <head>Dritter Auftritt</head>
+            <sp who="#casperle">
+              <amount n="1" unit="speech_acts"/>
+              <amount n="177" unit="words"/>
+              <amount n="10" unit="lines"/>
+              <amount n="915" unit="chars"/>
+            </sp>
+          </div>
+        </div>
+        <div>
+          <head>4. Auftritt</head>
+          <div>
+            <head>Vierter Auftritt</head>
+            <sp who="#faust">
+              <amount n="3" unit="speech_acts"/>
+              <amount n="135" unit="words"/>
+              <amount n="5" unit="lines"/>
+              <amount n="788" unit="chars"/>
+            </sp>
+            <sp who="#dumpfe_stimme">
+              <amount n="2" unit="speech_acts"/>
+              <amount n="8" unit="words"/>
+              <amount n="3" unit="lines"/>
+              <amount n="60" unit="chars"/>
+            </sp>
+          </div>
+        </div>
+        <div>
+          <head>5. Auftritt</head>
+          <div>
+            <head>Fünfter Auftritt</head>
+            <sp who="#casperle">
+              <amount n="9" unit="speech_acts"/>
+              <amount n="683" unit="words"/>
+              <amount n="8" unit="lines"/>
+              <amount n="3659" unit="chars"/>
+            </sp>
+            <sp who="#faust">
+              <amount n="8" unit="speech_acts"/>
+              <amount n="81" unit="words"/>
+              <amount n="6" unit="lines"/>
+              <amount n="408" unit="chars"/>
+            </sp>
+          </div>
+        </div>
+        <div>
+          <head>6. Auftritt</head>
+          <div>
+            <head>Sechster Auftritt</head>
+            <sp who="#faust">
+              <amount n="5" unit="speech_acts"/>
+              <amount n="87" unit="words"/>
+              <amount n="3" unit="lines"/>
+              <amount n="515" unit="chars"/>
+            </sp>
+            <sp who="#dumpfe_stimme">
+              <amount n="1" unit="speech_acts"/>
+              <amount n="4" unit="words"/>
+              <amount n="1" unit="lines"/>
+              <amount n="29" unit="chars"/>
+            </sp>
+            <sp who="#mephistopheles">
+              <amount n="3" unit="speech_acts"/>
+              <amount n="50" unit="words"/>
+              <amount n="2" unit="lines"/>
+              <amount n="264" unit="chars"/>
+            </sp>
+          </div>
+        </div>
+        <div>
+          <head>7. Auftritt</head>
+          <div>
+            <head>Siebenter Auftritt</head>
+            <sp who="#casperle">
+              <amount n="1" unit="speech_acts"/>
+              <amount n="114" unit="words"/>
+              <amount n="5" unit="lines"/>
+              <amount n="581" unit="chars"/>
+            </sp>
+          </div>
+        </div>
+        <div>
+          <head>8. Auftritt</head>
+          <div>
+            <head>Achter Auftritt</head>
+            <sp who="#faust">
+              <amount n="2" unit="speech_acts"/>
+              <amount n="35" unit="words"/>
+              <amount n="1" unit="lines"/>
+              <amount n="214" unit="chars"/>
+            </sp>
+            <sp who="#dumpfe_stimme">
+              <amount n="1" unit="speech_acts"/>
+              <amount n="6" unit="words"/>
+              <amount n="1" unit="lines"/>
+              <amount n="40" unit="chars"/>
+            </sp>
+          </div>
+        </div>
+        <div>
+          <head>9. Auftritt</head>
+          <div>
+            <head>Neunter Auftritt</head>
+            <sp who="#casperle">
+              <amount n="3" unit="speech_acts"/>
+              <amount n="121" unit="words"/>
+              <amount n="7" unit="lines"/>
+              <amount n="628" unit="chars"/>
+            </sp>
+            <sp who="#gretl">
+              <amount n="2" unit="speech_acts"/>
+              <amount n="18" unit="words"/>
+              <amount n="2" unit="lines"/>
+              <amount n="100" unit="chars"/>
+            </sp>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>Anhang</head>
+      <div>
+        <head>Anhang.</head>
+        <sp who="#kasper">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="8" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="42" unit="chars"/>
+        </sp>
+        <sp who="#wagner">
+          <amount n="11" unit="speech_acts"/>
+          <amount n="70" unit="words"/>
+          <amount n="11" unit="lines"/>
+          <amount n="660" unit="chars"/>
+        </sp>
+        <sp who="#kaspar">
+          <amount n="22" unit="speech_acts"/>
+          <amount n="1215" unit="words"/>
+          <amount n="18" unit="lines"/>
+          <amount n="7699" unit="chars"/>
+        </sp>
+        <sp who="#teufel">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="577" unit="words"/>
+          <amount n="7" unit="lines"/>
+          <amount n="3247" unit="chars"/>
+        </sp>
+        <sp who="#mefistofeles">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="392" unit="words"/>
+          <amount n="39" unit="lines"/>
+          <amount n="2034" unit="chars"/>
+        </sp>
+        <sp who="#faust">
+          <amount n="22" unit="speech_acts"/>
+          <amount n="692" unit="words"/>
+          <amount n="18" unit="lines"/>
+          <amount n="3795" unit="chars"/>
+        </sp>
+        <sp who="#die_geister_alle">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="5" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="21" unit="chars"/>
+        </sp>
+        <sp who="#der_erste_geist">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="37" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="190" unit="chars"/>
+        </sp>
+        <sp who="#der_zweite_geist">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="25" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="135" unit="chars"/>
+        </sp>
+        <sp who="#der_dritte_geist">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="11" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="55" unit="chars"/>
+        </sp>
+        <sp who="#der_vierte_geist">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="12" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="64" unit="chars"/>
+        </sp>
+        <sp who="#der_fünfte_geist">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="35" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="190" unit="chars"/>
+        </sp>
+        <sp who="#der_sechste_geist">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="36" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="189" unit="chars"/>
+        </sp>
+        <sp who="#der_siebende_geist">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="27" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="142" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+  </text>
+</play>
