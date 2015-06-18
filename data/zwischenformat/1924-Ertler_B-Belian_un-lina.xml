@@ -1,0 +1,986 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital">
+  <header>
+    <title>Belian und Marpalye</title>
+    <subtitle>Ein Traumspiel</subtitle>
+    <genretitle></genretitle>
+    <author>Ertler, Bruno</author>
+    <date type="print" when="1924">1924</date>
+    <date type="premiere" when="1924">1924</date>
+    <date type="written" when="1923">1922–1923</date>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:mvqp.0/data</source>
+  </header>
+  <personae>
+    <character>
+      <name>DER FREMDE</name>
+      <alias xml:id="der_fremde">
+        <name>DER FREMDE</name>
+      </alias>
+      <alias xml:id="die_stimme_des_fremden">
+        <name>DIE STIMME DES FREMDEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER ALTE MANN</name>
+      <alias xml:id="der_alte">
+        <name>DER ALTE</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER ALTE GÄRTNER</name>
+      <alias xml:id="der_alte_gärtner">
+        <name>DER ALTE GÄRTNER</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER JUNGE GÄRTNER</name>
+      <alias xml:id="der_junge_gärtner">
+        <name>DER JUNGE GÄRTNER</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER ERSTE FREIER</name>
+      <alias xml:id="der_erste_freier">
+        <name>DER ERSTE FREIER</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER HERR</name>
+      <alias xml:id="der_herr">
+        <name>DER HERR</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER ZWEITE FREIER</name>
+      <alias xml:id="der_zweite_freier">
+        <name>DER ZWEITE FREIER</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER DRITTE FREIER</name>
+      <alias xml:id="der_dritte_freier">
+        <name>DER DRITTE FREIER</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER DICHTENDE FREIER</name>
+      <alias xml:id="der_dichtende_freier">
+        <name>DER DICHTENDE FREIER</name>
+      </alias>
+    </character>
+    <character>
+      <name>DAS FRÄULEIN</name>
+      <alias xml:id="das_fräulein">
+        <name>DAS FRÄULEIN</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER ERFAHRENE WÄCHTER</name>
+      <alias xml:id="der_erfahrene_wächter">
+        <name>DER ERFAHRENE WÄCHTER</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER SEHENDE WÄCHTER</name>
+      <alias xml:id="der_sehende_wächter">
+        <name>DER SEHENDE WÄCHTER</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER ERSTE GEBLENDETE</name>
+      <alias xml:id="der_erste_geblendete">
+        <name>DER ERSTE GEBLENDETE</name>
+      </alias>
+      <alias xml:id="stimme_des_ersten_geblendeten">
+        <name>STIMME DES ERSTEN GEBLENDETEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER ZWEITE GEBLENDETE</name>
+      <alias xml:id="der_zweite_geblendete">
+        <name>DER ZWEITE GEBLENDETE</name>
+      </alias>
+      <alias xml:id="stimme_des_zweiten_geblendeten">
+        <name>STIMME DES ZWEITEN GEBLENDETEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER KNECHT</name>
+      <alias xml:id="der_knecht">
+        <name>DER KNECHT</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE STUMME SKLAVIN</name>
+      <alias xml:id="die_stumme_sklavin">
+        <name>DIE STUMME SKLAVIN</name>
+      </alias>
+    </character>
+    <character>
+      <name>BELIAN</name>
+      <alias xml:id="belian">
+        <name>BELIAN</name>
+      </alias>
+    </character>
+    <character>
+      <name>MARPALYE</name>
+      <alias xml:id="marpalye">
+        <name>MARPALYE</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE KNECHTE</name>
+      <alias xml:id="die_knechte">
+        <name>DIE KNECHTE</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER DRITTE GEBLENDETE</name>
+      <alias xml:id="der_dritte_geblendete">
+        <name>DER DRITTE GEBLENDETE</name>
+      </alias>
+      <alias xml:id="stimme_des_dritten_geblendeten">
+        <name>STIMME DES DRITTEN GEBLENDETEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER NARR</name>
+      <alias xml:id="der_narr">
+        <name>DER NARR</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER WAFFENMEISTER</name>
+      <alias xml:id="der_waffenmeister">
+        <name>DER WAFFENMEISTER</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE JUNGEN BAULEUTE</name>
+      <alias xml:id="die_jungen_bauleute">
+        <name>DIE JUNGEN BAULEUTE</name>
+      </alias>
+      <alias xml:id="die_bauleute">
+        <name>DIE BAULEUTE</name>
+      </alias>
+    </character>
+    <character>
+      <name>EINER DER BAULEUTE</name>
+      <alias xml:id="einer_der_bauleute">
+        <name>EINER DER BAULEUTE</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN JUNGES MÄDCHEN</name>
+      <alias xml:id="ein_junges_mädchen">
+        <name>EIN JUNGES MÄDCHEN</name>
+      </alias>
+      <alias xml:id="das_mädchen">
+        <name>DAS MÄDCHEN</name>
+      </alias>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Personen</head>
+    </div>
+    <div>
+      <head>Vorspiel</head>
+      <div>
+        <head>1. Szene</head>
+        <div>
+          <head>1. Szene</head>
+          <sp who="#der_fremde">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="56" unit="words"/>
+            <amount n="7" unit="lines"/>
+            <amount n="297" unit="chars"/>
+          </sp>
+          <sp who="#der_alte">
+            <amount n="10" unit="speech_acts"/>
+            <amount n="266" unit="words"/>
+            <amount n="8" unit="lines"/>
+            <amount n="1462" unit="chars"/>
+          </sp>
+          <sp who="#der_alte_gärtner">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="172" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="981" unit="chars"/>
+          </sp>
+          <sp who="#der_junge_gärtner">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="35" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="188" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Szene</head>
+        <div>
+          <head>2. Szene</head>
+          <sp who="#der_alte_gärtner">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="565" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="3108" unit="chars"/>
+          </sp>
+          <sp who="#der_fremde">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="87" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="455" unit="chars"/>
+          </sp>
+          <sp who="#der_junge_gärtner">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="78" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="439" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3. Szene</head>
+        <div>
+          <head>3. Szene</head>
+          <sp who="#der_alte">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="119" unit="words"/>
+            <amount n="706" unit="chars"/>
+          </sp>
+          <sp who="#der_alte_gärtner">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="3" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="27" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>4. Szene</head>
+        <div>
+          <head>4. Szene</head>
+          <sp who="#der_fremde">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="21" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="116" unit="chars"/>
+          </sp>
+          <sp who="#der_alte_gärtner">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="32" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="184" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>5. Szene</head>
+        <div>
+          <head>5. Szene</head>
+          <sp who="#der_erste_freier">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="229" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="1337" unit="chars"/>
+          </sp>
+          <sp who="#der_herr">
+            <amount n="19" unit="speech_acts"/>
+            <amount n="129" unit="words"/>
+            <amount n="17" unit="lines"/>
+            <amount n="735" unit="chars"/>
+          </sp>
+          <sp who="#der_zweite_freier">
+            <amount n="11" unit="speech_acts"/>
+            <amount n="70" unit="words"/>
+            <amount n="10" unit="lines"/>
+            <amount n="385" unit="chars"/>
+          </sp>
+          <sp who="#der_alte_gärtner">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="15" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="89" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>6. Szene</head>
+        <div>
+          <head>6. Szene</head>
+          <sp who="#der_dritte_freier">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="208" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="1115" unit="chars"/>
+          </sp>
+          <sp who="#der_dichtende_freier">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="52" unit="words"/>
+            <amount n="8" unit="lines"/>
+            <amount n="300" unit="chars"/>
+          </sp>
+          <sp who="#das_fräulein">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="29" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="160" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>7. Szene</head>
+        <div>
+          <head>7. Szene</head>
+          <sp who="#der_dichtende_freier">
+            <amount n="14" unit="speech_acts"/>
+            <amount n="208" unit="words"/>
+            <amount n="10" unit="lines"/>
+            <amount n="1119" unit="chars"/>
+          </sp>
+          <sp who="#das_fräulein">
+            <amount n="13" unit="speech_acts"/>
+            <amount n="180" unit="words"/>
+            <amount n="10" unit="lines"/>
+            <amount n="979" unit="chars"/>
+          </sp>
+          <sp who="#der_fremde">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="10" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="53" unit="chars"/>
+          </sp>
+          <sp who="#der_junge_gärtner">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="3" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="22" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>8. Szene</head>
+        <div>
+          <head>8. Szene</head>
+          <sp who="#der_herr">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="12" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="67" unit="chars"/>
+          </sp>
+          <sp who="#der_erste_freier">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="18" unit="words"/>
+            <amount n="107" unit="chars"/>
+          </sp>
+          <sp who="#der_zweite_freier">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="7" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="41" unit="chars"/>
+          </sp>
+          <sp who="#der_dritte_freier">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="18" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="119" unit="chars"/>
+          </sp>
+          <sp who="#der_dichtende_freier">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="35" unit="words"/>
+            <amount n="174" unit="chars"/>
+          </sp>
+          <sp who="#das_fräulein">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="2" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="17" unit="chars"/>
+          </sp>
+          <sp who="#der_fremde">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="8" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="62" unit="chars"/>
+          </sp>
+          <sp who="#der_junge_gärtner">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="22" unit="words"/>
+            <amount n="132" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>1. Akt</head>
+      <div>
+        <head>1. Szene</head>
+        <div>
+          <head>1. Szene</head>
+          <sp who="#der_erfahrene_wächter">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="71" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="404" unit="chars"/>
+          </sp>
+          <sp who="#der_sehende_wächter">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="69" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="364" unit="chars"/>
+          </sp>
+          <sp who="#der_erste_geblendete">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="165" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="973" unit="chars"/>
+          </sp>
+          <sp who="#der_zweite_geblendete">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="205" unit="words"/>
+            <amount n="1244" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Szene</head>
+        <div>
+          <head>2. Szene</head>
+          <sp who="#der_knecht">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="58" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="335" unit="chars"/>
+          </sp>
+          <sp who="#der_erfahrene_wächter">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="60" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="323" unit="chars"/>
+          </sp>
+          <sp who="#der_sehende_wächter">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="73" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="446" unit="chars"/>
+          </sp>
+          <sp who="#die_stumme_sklavin">
+            <amount n="1" unit="speech_acts"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3. Szene</head>
+        <div>
+          <head>3. Szene</head>
+          <sp who="#belian">
+            <amount n="12" unit="speech_acts"/>
+            <amount n="436" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="2424" unit="chars"/>
+          </sp>
+          <sp who="#der_erfahrene_wächter">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="24" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="121" unit="chars"/>
+          </sp>
+          <sp who="#der_sehende_wächter">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="12" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="49" unit="chars"/>
+          </sp>
+          <sp who="#der_erste_geblendete #der_zweite_geblendete">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="1" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="11" unit="chars"/>
+          </sp>
+          <sp who="#der_dritte_freier">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="227" unit="words"/>
+            <amount n="7" unit="lines"/>
+            <amount n="1283" unit="chars"/>
+          </sp>
+          <sp who="#marpalye">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="4" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="21" unit="chars"/>
+          </sp>
+          <sp who="#die_stumme_sklavin">
+            <amount n="1" unit="speech_acts"/>
+          </sp>
+          <sp who="#belian #die_knechte #der_knecht">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="1" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="10" unit="chars"/>
+          </sp>
+          <sp who="#der_erste_geblendete">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="2" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="17" unit="chars"/>
+          </sp>
+          <sp who="#der_zweite_geblendete">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="4" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="30" unit="chars"/>
+          </sp>
+          <sp who="#der_dritte_geblendete">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="2" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="15" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>2. Akt</head>
+      <div>
+        <head>II.</head>
+        <sp who="#der_sehende_wächter">
+          <amount n="17" unit="speech_acts"/>
+          <amount n="219" unit="words"/>
+          <amount n="14" unit="lines"/>
+          <amount n="1269" unit="chars"/>
+        </sp>
+        <sp who="#der_erfahrene_wächter">
+          <amount n="16" unit="speech_acts"/>
+          <amount n="455" unit="words"/>
+          <amount n="11" unit="lines"/>
+          <amount n="2584" unit="chars"/>
+        </sp>
+        <sp who="#der_zweite_geblendete">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="12" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="91" unit="chars"/>
+        </sp>
+        <sp who="#der_erste_geblendete">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="5" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="33" unit="chars"/>
+        </sp>
+        <sp who="#der_dritte_geblendete">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="3" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="30" unit="chars"/>
+        </sp>
+        <sp who="#der_erste_geblendete #der_zweite_geblendete #der_dritte_geblendete">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="7" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="59" unit="chars"/>
+        </sp>
+        <sp who="#die_stimme_des_fremden">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="5" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="31" unit="chars"/>
+        </sp>
+        <sp who="#der_fremde">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="7" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="34" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>3. Akt</head>
+      <div>
+        <head>1. Szene</head>
+        <div>
+          <head>1. Szene</head>
+          <sp who="#der_narr">
+            <amount n="13" unit="speech_acts"/>
+            <amount n="492" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="2781" unit="chars"/>
+          </sp>
+          <sp who="#marpalye">
+            <amount n="12" unit="speech_acts"/>
+            <amount n="369" unit="words"/>
+            <amount n="8" unit="lines"/>
+            <amount n="1965" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Szene</head>
+        <div>
+          <head>2. Szene</head>
+          <sp who="#der_sehende_wächter">
+            <amount n="11" unit="speech_acts"/>
+            <amount n="166" unit="words"/>
+            <amount n="8" unit="lines"/>
+            <amount n="985" unit="chars"/>
+          </sp>
+          <sp who="#marpalye">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="63" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="413" unit="chars"/>
+          </sp>
+          <sp who="#der_narr">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="44" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="248" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>4. Akt</head>
+      <div>
+        <head>1. Szene</head>
+        <div>
+          <head>1. Szene</head>
+          <sp who="#der_fremde">
+            <amount n="15" unit="speech_acts"/>
+            <amount n="464" unit="words"/>
+            <amount n="11" unit="lines"/>
+            <amount n="2537" unit="chars"/>
+          </sp>
+          <sp who="#der_waffenmeister">
+            <amount n="14" unit="speech_acts"/>
+            <amount n="382" unit="words"/>
+            <amount n="9" unit="lines"/>
+            <amount n="2089" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Szene</head>
+        <div>
+          <head>2. Szene</head>
+          <sp who="#der_fremde">
+            <amount n="11" unit="speech_acts"/>
+            <amount n="118" unit="words"/>
+            <amount n="9" unit="lines"/>
+            <amount n="634" unit="chars"/>
+          </sp>
+          <sp who="#der_sehende_wächter">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="118" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="677" unit="chars"/>
+          </sp>
+          <sp who="#der_waffenmeister">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="4" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="22" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3. Szene</head>
+        <div>
+          <head>3. Szene</head>
+          <sp who="#der_waffenmeister">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="14" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="80" unit="chars"/>
+          </sp>
+          <sp who="#der_fremde">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="27" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="162" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>5. Akt</head>
+      <div>
+        <head>1. Szene</head>
+        <div>
+          <head>1. Szene</head>
+          <sp who="#der_erfahrene_wächter">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="56" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="315" unit="chars"/>
+          </sp>
+          <sp who="#belian">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="195" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="1136" unit="chars"/>
+          </sp>
+          <sp who="#der_narr">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="25" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="133" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Szene</head>
+        <div>
+          <head>2. Szene</head>
+          <sp who="#marpalye">
+            <amount n="11" unit="speech_acts"/>
+            <amount n="75" unit="words"/>
+            <amount n="10" unit="lines"/>
+            <amount n="406" unit="chars"/>
+          </sp>
+          <sp who="#belian">
+            <amount n="12" unit="speech_acts"/>
+            <amount n="368" unit="words"/>
+            <amount n="7" unit="lines"/>
+            <amount n="2025" unit="chars"/>
+          </sp>
+          <sp who="#der_sehende_wächter">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="2" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="11" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3. Szene</head>
+        <div>
+          <head>3. Szene</head>
+          <sp who="#belian">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="221" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="1196" unit="chars"/>
+          </sp>
+          <sp who="#der_fremde">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="132" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="689" unit="chars"/>
+          </sp>
+          <sp who="#der_sehende_wächter">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="14" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="84" unit="chars"/>
+          </sp>
+          <sp who="#marpalye">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="10" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="63" unit="chars"/>
+          </sp>
+          <sp who="#der_narr">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="55" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="292" unit="chars"/>
+          </sp>
+          <sp who="#der_waffenmeister">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="14" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="84" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>6. Akt</head>
+      <div>
+        <head>VI.</head>
+        <sp who="#der_sehende_wächter">
+          <amount n="11" unit="speech_acts"/>
+          <amount n="200" unit="words"/>
+          <amount n="9" unit="lines"/>
+          <amount n="1169" unit="chars"/>
+        </sp>
+        <sp who="#der_erfahrene_wächter">
+          <amount n="11" unit="speech_acts"/>
+          <amount n="218" unit="words"/>
+          <amount n="7" unit="lines"/>
+          <amount n="1188" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>7. Akt</head>
+      <div>
+        <head>1. Szene</head>
+        <div>
+          <head>1. Szene</head>
+          <sp who="#der_waffenmeister">
+            <amount n="11" unit="speech_acts"/>
+            <amount n="95" unit="words"/>
+            <amount n="10" unit="lines"/>
+            <amount n="578" unit="chars"/>
+          </sp>
+          <sp who="#der_fremde">
+            <amount n="11" unit="speech_acts"/>
+            <amount n="221" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="1236" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Szene</head>
+        <div>
+          <head>2. Szene</head>
+          <sp who="#der_fremde">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="242" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="1435" unit="chars"/>
+          </sp>
+          <sp who="#marpalye">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="118" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="714" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>8. Akt</head>
+      <div>
+        <head>1. Szene</head>
+        <div>
+          <head>1. Szene</head>
+          <sp who="#belian">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="58" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="346" unit="chars"/>
+          </sp>
+          <sp who="#der_erfahrene_wächter">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="20" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="112" unit="chars"/>
+          </sp>
+          <sp who="#stimme_des_ersten_geblendeten #stimme_des_zweiten_geblendeten #stimme_des_dritten_geblendeten">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="3" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="30" unit="chars"/>
+          </sp>
+          <sp who="#stimme_des_ersten_geblendeten #stimme_des_zweiten_geblendeten #stimme_des_dritten_geblendeten">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="7" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="72" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Szene</head>
+        <div>
+          <head>2. Szene</head>
+          <sp who="#marpalye #der_narr">
+            <amount n="1" unit="speech_acts"/>
+          </sp>
+          <sp who="#belian">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="77" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="444" unit="chars"/>
+          </sp>
+          <sp who="#marpalye">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="5" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="33" unit="chars"/>
+          </sp>
+          <sp who="#der_narr">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="13" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="88" unit="chars"/>
+          </sp>
+          <sp who="#der_waffenmeister">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="121" unit="words"/>
+            <amount n="693" unit="chars"/>
+          </sp>
+          <sp who="#der_fremde">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="130" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="751" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>9. Akt</head>
+      <div>
+        <head>IX.</head>
+        <sp who="#der_fremde">
+          <amount n="8" unit="speech_acts"/>
+          <amount n="142" unit="words"/>
+          <amount n="5" unit="lines"/>
+          <amount n="818" unit="chars"/>
+        </sp>
+        <sp who="#marpalye">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="7" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="40" unit="chars"/>
+        </sp>
+        <sp who="#die_jungen_bauleute #einer_der_bauleute">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="2" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="23" unit="chars"/>
+        </sp>
+        <sp who="#die_bauleute #einer_der_bauleute">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="21" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="114" unit="chars"/>
+        </sp>
+        <sp who="#einer_der_bauleute">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="61" unit="words"/>
+          <amount n="334" unit="chars"/>
+        </sp>
+        <sp who="#ein_junges_mädchen">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="22" unit="words"/>
+          <amount n="113" unit="chars"/>
+        </sp>
+        <sp who="#das_mädchen">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="4" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="20" unit="chars"/>
+        </sp>
+        <sp who="#der_alte_gärtner">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="28" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="167" unit="chars"/>
+        </sp>
+        <sp who="#der_junge_gärtner">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="53" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="285" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+  </text>
+</play>

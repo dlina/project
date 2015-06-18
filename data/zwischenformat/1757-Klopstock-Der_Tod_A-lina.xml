@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital">
+  <header>
+    <title>Der Tod Adams</title>
+    <subtitle>Ein Trauerspiel</subtitle>
+    <genretitle>Trauerspiel</genretitle>
+    <author>Klopstock, Friedrich Gottlieb</author>
+    <date type="print" when="1757">1757</date>
+    <date type="premiere"></date>
+    <date type="written" when="1756">1753, umgearbeitet 1756</date>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:r1zm.0/data</source>
+  </header>
+  <personae>
+    <character>
+      <name>SELIMA</name>
+      <alias xml:id="selima">
+        <name>SELIMA</name>
+      </alias>
+    </character>
+    <character>
+      <name>SETH</name>
+      <alias xml:id="seth">
+        <name>SETH</name>
+      </alias>
+      <alias xml:id="seht">
+        <name>SEHT</name>
+      </alias>
+      <alias xml:id="seh">
+        <name>SEH</name>
+      </alias>
+    </character>
+    <character>
+      <name>ADAM</name>
+      <alias xml:id="adam">
+        <name>ADAM</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER TODESENGEL</name>
+      <alias xml:id="der_todesengel">
+        <name>DER TODESENGEL</name>
+      </alias>
+    </character>
+    <character>
+      <name>KAIN</name>
+      <alias xml:id="kain">
+        <name>KAIN</name>
+      </alias>
+    </character>
+    <character>
+      <name>EVA</name>
+      <alias xml:id="eva">
+        <name>EVA</name>
+      </alias>
+    </character>
+    <character>
+      <name>HEMAN</name>
+      <alias xml:id="heman">
+        <name>HEMAN</name>
+      </alias>
+    </character>
+    <character>
+      <name>ERSTE MUTTER</name>
+      <alias xml:id="eine_mutter">
+        <name>EINE MUTTER</name>
+      </alias>
+    </character>
+    <character>
+      <name>ZWEITE MUTTER</name>
+      <alias xml:id="noch_eine">
+        <name>NOCH EINE</name>
+      </alias>
+    </character>
+    <character>
+      <name>DRITTE MUTTER</name>
+      <alias xml:id="die_dritte">
+        <name>DIE DRITTE</name>
+      </alias>
+    </character>
+    <character>
+      <name>SUNIM</name>
+      <alias xml:id="sunim">
+        <name>SUNIM</name>
+      </alias>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Personen</head>
+    </div>
+    <div>
+      <head>Vorbericht</head>
+    </div>
+    <div>
+      <head>1. Akt</head>
+      <div>
+        <head>1. Auftritt</head>
+        <div>
+          <head>Erster Auftritt.</head>
+          <sp who="#selima">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="233" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="1282" unit="chars"/>
+          </sp>
+          <sp who="#seth">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="199" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="1065" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Auftritt</head>
+        <div>
+          <head>Zweiter Auftritt.</head>
+          <sp who="#adam">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="54" unit="words"/>
+            <amount n="310" unit="chars"/>
+          </sp>
+          <sp who="#selima">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="5" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="23" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3. Auftritt</head>
+        <div>
+          <head>Dritter Auftritt</head>
+          <sp who="#adam">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="582" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="3185" unit="chars"/>
+          </sp>
+          <sp who="#seth">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="74" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="403" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>4. Auftritt</head>
+        <div>
+          <head>Vierter Auftritt</head>
+        </div>
+      </div>
+      <div>
+        <head>5. Auftritt</head>
+        <div>
+          <head>Fünfter Auftritt.</head>
+          <sp who="#adam">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="71" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="387" unit="chars"/>
+          </sp>
+          <sp who="#seth">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="79" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="444" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>6. Auftritt</head>
+        <div>
+          <head>Sechster Auftritt.</head>
+          <sp who="#adam">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="94" unit="words"/>
+            <amount n="531" unit="chars"/>
+          </sp>
+          <sp who="#selima">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="112" unit="words"/>
+            <amount n="610" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>7. Auftritt</head>
+        <div>
+          <head>Siebenter Auftritt</head>
+          <sp who="#adam">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="253" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="1405" unit="chars"/>
+          </sp>
+          <sp who="#seth">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="58" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="297" unit="chars"/>
+          </sp>
+          <sp who="#der_todesengel">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="80" unit="words"/>
+            <amount n="517" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>8. Auftritt</head>
+        <div>
+          <head>Achter Auftritt.</head>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>2. Akt</head>
+      <div>
+        <head>1. Auftritt</head>
+        <div>
+          <head>Erster Auftritt.</head>
+          <sp who="#adam">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="512" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="2757" unit="chars"/>
+          </sp>
+          <sp who="#seth">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="155" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="821" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Auftritt</head>
+        <div>
+          <head>Zweiter Auftritt</head>
+          <sp who="#selima">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="167" unit="words"/>
+            <amount n="873" unit="chars"/>
+          </sp>
+          <sp who="#adam">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="89" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="482" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3. Auftritt</head>
+        <div>
+          <head>Dritter Auftritt</head>
+          <sp who="#selima">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="113" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="594" unit="chars"/>
+          </sp>
+          <sp who="#adam">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="89" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="494" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>4. Auftritt</head>
+        <div>
+          <head>Vierter Auftritt.</head>
+          <sp who="#kain">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="28" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="167" unit="chars"/>
+          </sp>
+          <sp who="#adam">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="17" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="114" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>5. Auftritt</head>
+        <div>
+          <head>Fünfter Auftritt.</head>
+          <sp who="#adam">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="184" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="990" unit="chars"/>
+          </sp>
+          <sp who="#kain">
+            <amount n="12" unit="speech_acts"/>
+            <amount n="363" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="1903" unit="chars"/>
+          </sp>
+          <sp who="#seth">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="49" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="272" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>6. Auftritt</head>
+        <div>
+          <head>Sechster Auftritt.</head>
+          <sp who="#adam">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="47" unit="words"/>
+            <amount n="238" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>7. Auftritt</head>
+        <div>
+          <head>Siebenter Auftritt.</head>
+        </div>
+      </div>
+      <div>
+        <head>8. Auftritt</head>
+        <div>
+          <head>Achter Auftritt.</head>
+          <sp who="#seth">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="284" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="1473" unit="chars"/>
+          </sp>
+          <sp who="#adam">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="404" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="2244" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>3. Akt</head>
+      <div>
+        <head>1. Auftritt</head>
+        <div>
+          <head>Erster Auftritt.</head>
+          <sp who="#selima">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="15" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="87" unit="chars"/>
+          </sp>
+          <sp who="#eva">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="46" unit="words"/>
+            <amount n="234" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Auftritt</head>
+        <div>
+          <head>Zweiter Auftritt.</head>
+          <sp who="#seht">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="15" unit="words"/>
+            <amount n="104" unit="chars"/>
+          </sp>
+          <sp who="#eva">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="291" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="1488" unit="chars"/>
+          </sp>
+          <sp who="#seth">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="66" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="351" unit="chars"/>
+          </sp>
+          <sp who="#seh">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="10" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="61" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3. Auftritt</head>
+        <div>
+          <head>Dritter Auftritt</head>
+          <sp who="#eva">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="179" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="970" unit="chars"/>
+          </sp>
+          <sp who="#seth">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="109" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="543" unit="chars"/>
+          </sp>
+          <sp who="#adam">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="119" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="638" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>4. Auftritt</head>
+        <div>
+          <head>Vierter Auftritt</head>
+          <sp who="#selima">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="9" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="51" unit="chars"/>
+          </sp>
+          <sp who="#heman">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="15" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="92" unit="chars"/>
+          </sp>
+          <sp who="#eine_mutter">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="2" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="12" unit="chars"/>
+          </sp>
+          <sp who="#noch_eine">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="3" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="13" unit="chars"/>
+          </sp>
+          <sp who="#die_dritte">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="4" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="20" unit="chars"/>
+          </sp>
+          <sp who="#adam">
+            <amount n="14" unit="speech_acts"/>
+            <amount n="672" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="3607" unit="chars"/>
+          </sp>
+          <sp who="#seth">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="233" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="1202" unit="chars"/>
+          </sp>
+          <sp who="#seh">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="3" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="12" unit="chars"/>
+          </sp>
+          <sp who="#sunim">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="4" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="16" unit="chars"/>
+          </sp>
+          <sp who="#eva">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="28" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="149" unit="chars"/>
+          </sp>
+          <sp who="#selima #heman #eine_mutter #noch_eine #die_dritte #seth #sunim #eva">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="10" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="47" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+  </text>
+  <documentation>
+    <change n="1" type="expandCollective" who="peertrilcke">
+      <path>/play/text[1]/div[6]/div[4]/div[1]</path>
+      <orig>#alle</orig>
+      <corr>#selima #heman #eine_mutter #noch_eine #die_dritte #seth #sunim #eva</corr>
+      <comment>"alle" sprechen zu Adam, der also nicht Teil des Kollektivs</comment>
+    </change>
+  </documentation>
+</play>

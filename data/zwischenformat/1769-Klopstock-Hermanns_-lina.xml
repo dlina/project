@@ -1,0 +1,1301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital">
+  <header>
+    <title>Hermanns Schlacht</title>
+    <subtitle>Ein Bardiet für die Schaubühne</subtitle>
+    <genretitle></genretitle>
+    <author>Klopstock, Friedrich Gottlieb</author>
+    <date type="print" when="1769">1769</date>
+    <date type="premiere"></date>
+    <date type="written" when="1767">1766–1767</date>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:r1hd.0/data</source>
+  </header>
+  <personae>
+    <character>
+      <name>HORST</name>
+      <alias xml:id="horst">
+        <name>HORST</name>
+      </alias>
+    </character>
+    <character>
+      <name>SIEGMAR</name>
+      <alias xml:id="siegmar">
+        <name>SIEGMAR</name>
+      </alias>
+    </character>
+    <character>
+      <name>EINE ENTFERNTE STIMME</name>
+      <alias xml:id="eine_entfernte_stimme">
+        <name>EINE ENTFERNTE STIMME</name>
+      </alias>
+    </character>
+    <character>
+      <name>ZWEI BARDEN</name>
+      <alias xml:id="zwei_barden">
+        <name>ZWEI BARDEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>BRENNO</name>
+      <alias xml:id="brenno">
+        <name>BRENNO</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN DRUIDE</name>
+      <alias xml:id="ein_druide">
+        <name>EIN DRUIDE</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN BARDE</name>
+      <alias xml:id="ein_barde">
+        <name>EIN BARDE</name>
+      </alias>
+      <alias xml:id="der_barde">
+        <name>DER BARDE</name>
+      </alias>
+      <alias xml:id="einer">
+        <name>EINER</name>
+      </alias>
+    </character>
+    <character>
+      <name>WERDOMAR</name>
+      <alias xml:id="werdomar">
+        <name>WERDOMAR</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN CHOR</name>
+      <alias xml:id="ein_chor">
+        <name>EIN CHOR</name>
+      </alias>
+    </character>
+    <character>
+      <name>ZWEITES CHOR</name>
+      <alias xml:id="zweites_chor">
+        <name>ZWEITES CHOR</name>
+      </alias>
+    </character>
+    <character>
+      <name>DRITTES CHOR</name>
+      <alias xml:id="drittes_chor">
+        <name>DRITTER CHOR</name>
+      </alias>
+    </character>
+    <character>
+      <name>VIERTES CHOR</name>
+      <alias xml:id="viertes_chor">
+        <name>VIERTES CHOR</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER HAUPTMANN</name>
+      <alias xml:id="der_hauptmann">
+        <name>DER HAUPTMANN</name>
+      </alias>
+      <alias xml:id="ein_hauptmann">
+        <name>EIN HAUPTMANN</name>
+      </alias>
+    </character>
+    <character>
+      <name>ZWEI ANDRE BARDEN</name>
+      <alias xml:id="zwei_andre">
+        <name>ZWEI ANDRE</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER ÄLTSTE OPFERKNABE</name>
+      <alias xml:id="der_aeltste">
+        <name>DER AELTSTE</name>
+      </alias>
+      <alias xml:id="der_aelteste">
+        <name>DER AELTESTE</name>
+      </alias>
+      <alias xml:id="der_knabe">
+        <name>DER KNABE</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE BARDEN</name>
+      <alias xml:id="die_barden">
+        <name>DIE BARDEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN ANDERER BARDE</name>
+      <alias xml:id="ein_anderer_barde">
+        <name>EIN ANDERER BARDE</name>
+      </alias>
+    </character>
+    <character>
+      <name>SEGEST</name>
+      <alias xml:id="segest">
+        <name>SEGEST</name>
+      </alias>
+    </character>
+    <character>
+      <name>KEDMON</name>
+      <alias xml:id="kedmon">
+        <name>KEDMON</name>
+      </alias>
+    </character>
+    <character>
+      <name>THUSNELDA</name>
+      <alias xml:id="thusnelda">
+        <name>THUSNELDA</name>
+      </alias>
+    </character>
+    <character>
+      <name>SIEGMUND</name>
+      <alias xml:id="siegmund">
+        <name>SIEGMUND</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN OPFERKNABE</name>
+      <alias xml:id="ein_opferknabe">
+        <name>EIN OPFERKNABE</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN ANDRER OPFERKNABE</name>
+      <alias xml:id="ein_andrer_opferknabe">
+        <name>EIN ANDRER</name>
+      </alias>
+      <alias xml:id="der_zweite">
+        <name>DER ZWEITE</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER DRUIDE</name>
+      <alias xml:id="der_druide">
+        <name>DER DRUIDE</name>
+      </alias>
+    </character>
+    <character>
+      <name>EINIGE DRUIDEN</name>
+      <alias xml:id="einige_druiden">
+        <name>EINIGE DRUIDEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER ZWEITE DRUIDE</name>
+      <alias xml:id="der_zweite_druide">
+        <name>DER ZWEITE DRUIDE</name>
+      </alias>
+    </character>
+    <character>
+      <name>SEIN FÜHRER</name>
+      <alias xml:id="sein_führer">
+        <name>SEIN FÜHRER</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER GEFANGNE</name>
+      <alias xml:id="der_gefangne">
+        <name>DER GEFANGNE</name>
+      </alias>
+    </character>
+    <character>
+      <name>FLAVIUS</name>
+      <alias xml:id="flavius">
+        <name>FLAVIUS</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN ANDRER HAUPTMANN</name>
+      <alias xml:id="ein_andrer_hauptmann">
+        <name>EIN ANDRER HAUPTMANN</name>
+      </alias>
+    </character>
+    <character>
+      <name>HERMANN</name>
+      <alias xml:id="hermann">
+        <name>HERMANN</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN KRIEGSGEFÄHRTE</name>
+      <alias xml:id="ein_kriegsgefährte">
+        <name>EIN KRIEGSGEFÄHRTE</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN ANDRER KRIEGSGEFÄHRTE</name>
+      <alias xml:id="ein_andrer">
+        <name>EIN ANDRER KRIEGSGEFÄHRTE</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER CHERUSKER</name>
+      <alias xml:id="der_cherusker">
+        <name>DER CHERUSKER</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER BRUCTERER</name>
+      <alias xml:id="der_bructerer">
+        <name>DER BRUCTERER</name>
+      </alias>
+    </character>
+    <character>
+      <name>VALERIUS</name>
+      <alias xml:id="valerius">
+        <name>VALERIUS</name>
+      </alias>
+    </character>
+    <character>
+      <name>LICINIUS</name>
+      <alias xml:id="licinius">
+        <name>LICINIUS</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN CHOR JUNGFRAUEN</name>
+      <alias xml:id="ein_chor_jungfrauen">
+        <name>EIN CHOR JUNGFRAUEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>DAS ANDRE CHOR DER JUNGFRAUEN</name>
+      <alias xml:id="das_andre_chor_der_jungfrauen">
+        <name>DAS ANDRE CHOR DER JUNGFRAUEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>EINE DER JUNGFRAUEN</name>
+      <alias xml:id="eine_der_jungfrauen">
+        <name>EINE DER JUNGFRAUEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>EINE ANDRE JUNGFRAU</name>
+      <alias xml:id="eine_andre">
+        <name>EINE ANDRE</name>
+      </alias>
+    </character>
+    <character>
+      <name>ZWEI STIMMEN</name>
+      <alias xml:id="zwei_stimmen">
+        <name>ZWEI STIMMEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER MARSE</name>
+      <alias xml:id="der_marse">
+        <name>DER MARSE</name>
+      </alias>
+    </character>
+    <character>
+      <name>BERCENNIS</name>
+      <alias xml:id="bercennis">
+        <name>BERCENNIS</name>
+      </alias>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Personen</head>
+    </div>
+    <div>
+      <head>1. Szene</head>
+      <div>
+        <head>Erste Scene</head>
+        <sp who="#horst">
+          <amount n="24" unit="speech_acts"/>
+          <amount n="493" unit="words"/>
+          <amount n="13" unit="lines"/>
+          <amount n="2727" unit="chars"/>
+        </sp>
+        <sp who="#siegmar">
+          <amount n="24" unit="speech_acts"/>
+          <amount n="864" unit="words"/>
+          <amount n="12" unit="lines"/>
+          <amount n="4637" unit="chars"/>
+        </sp>
+        <sp who="#eine_entfernte_stimme">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="9" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="60" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>2. Szene</head>
+      <div>
+        <head>Zweite Scene</head>
+        <sp who="#siegmar">
+          <amount n="36" unit="speech_acts"/>
+          <amount n="785" unit="words"/>
+          <amount n="21" unit="lines"/>
+          <amount n="4332" unit="chars"/>
+        </sp>
+        <sp who="#der_aeltste">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="30" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="194" unit="chars"/>
+        </sp>
+        <sp who="#zwei_barden">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="115" unit="words"/>
+          <amount n="17" unit="lines"/>
+          <amount n="625" unit="chars"/>
+        </sp>
+        <sp who="#brenno">
+          <amount n="29" unit="speech_acts"/>
+          <amount n="689" unit="words"/>
+          <amount n="51" unit="lines"/>
+          <amount n="3849" unit="chars"/>
+        </sp>
+        <sp who="#ein_druide">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="14" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="71" unit="chars"/>
+        </sp>
+        <sp who="#ein_barde">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="17" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="82" unit="chars"/>
+        </sp>
+        <sp who="#der_barde">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="28" unit="words"/>
+          <amount n="160" unit="chars"/>
+        </sp>
+        <sp who="#werdomar">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="66" unit="words"/>
+          <amount n="356" unit="chars"/>
+        </sp>
+        <sp who="#ein_chor #zweites_chor">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="136" unit="words"/>
+          <amount n="20" unit="lines"/>
+          <amount n="763" unit="chars"/>
+        </sp>
+        <sp who="#ein_chor #zweites_chor #drittes_chor">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="82" unit="words"/>
+          <amount n="16" unit="lines"/>
+          <amount n="460" unit="chars"/>
+        </sp>
+        <sp who="#zwei_barden #zwei_andre #ein_barde #ein_chor #zweites_chor #drittes_chor">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="153" unit="words"/>
+          <amount n="20" unit="lines"/>
+          <amount n="820" unit="chars"/>
+        </sp>
+        <sp who="#der_hauptmann">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="165" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="889" unit="chars"/>
+        </sp>
+        <sp who="#zwei_andre">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="19" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="111" unit="chars"/>
+        </sp>
+        <sp who="#ein_chor">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="33" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="180" unit="chars"/>
+        </sp>
+        <sp who="#ein_hauptmann">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="124" unit="words"/>
+          <amount n="682" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>3. Szene</head>
+      <div>
+        <head>Dritte Scene</head>
+        <sp who="#horst">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="80" unit="words"/>
+          <amount n="5" unit="lines"/>
+          <amount n="439" unit="chars"/>
+        </sp>
+        <sp who="#der_hauptmann">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="7" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="38" unit="chars"/>
+        </sp>
+        <sp who="#siegmar">
+          <amount n="15" unit="speech_acts"/>
+          <amount n="268" unit="words"/>
+          <amount n="8" unit="lines"/>
+          <amount n="1500" unit="chars"/>
+        </sp>
+        <sp who="#brenno">
+          <amount n="11" unit="speech_acts"/>
+          <amount n="346" unit="words"/>
+          <amount n="8" unit="lines"/>
+          <amount n="1925" unit="chars"/>
+        </sp>
+        <sp who="#der_aeltste">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="9" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="48" unit="chars"/>
+        </sp>
+        <sp who="#ein_barde">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="61" unit="words"/>
+          <amount n="5" unit="lines"/>
+          <amount n="312" unit="chars"/>
+        </sp>
+        <sp who="#die_barden">
+          <amount n="1" unit="speech_acts"/>
+        </sp>
+        <sp who="#ein_chor #zweites_chor">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="217" unit="words"/>
+          <amount n="32" unit="lines"/>
+          <amount n="1176" unit="chars"/>
+        </sp>
+        <sp who="#ein_chor">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="132" unit="words"/>
+          <amount n="16" unit="lines"/>
+          <amount n="719" unit="chars"/>
+        </sp>
+        <sp who="#zweites_chor">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="28" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="145" unit="chars"/>
+        </sp>
+        <sp who="#ein_chor #zweites_chor">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="30" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="158" unit="chars"/>
+        </sp>
+        <sp who="#zwei_barden">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="38" unit="words"/>
+          <amount n="5" unit="lines"/>
+          <amount n="209" unit="chars"/>
+        </sp>
+        <sp who="#einer">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="25" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="148" unit="chars"/>
+        </sp>
+        <sp who="#ein_barde #die_barden #ein_chor #zweites_chor #drittes_chor #zwei_barden #einer #ein_anderer_barde">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="126" unit="words"/>
+          <amount n="20" unit="lines"/>
+          <amount n="731" unit="chars"/>
+        </sp>
+        <sp who="#ein_chor #zweites_chor">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="171" unit="words"/>
+          <amount n="28" unit="lines"/>
+          <amount n="998" unit="chars"/>
+        </sp>
+        <sp who="#ein_chor #zweites_chor #drittes_chor">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="331" unit="words"/>
+          <amount n="48" unit="lines"/>
+          <amount n="1861" unit="chars"/>
+        </sp>
+        <sp who="#ein_anderer_barde">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="7" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="34" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>4. Szene</head>
+      <div>
+        <head>Vierte Scene.</head>
+        <sp who="#segest">
+          <amount n="17" unit="speech_acts"/>
+          <amount n="285" unit="words"/>
+          <amount n="11" unit="lines"/>
+          <amount n="1528" unit="chars"/>
+        </sp>
+        <sp who="#brenno">
+          <amount n="19" unit="speech_acts"/>
+          <amount n="517" unit="words"/>
+          <amount n="9" unit="lines"/>
+          <amount n="2836" unit="chars"/>
+        </sp>
+        <sp who="#kedmon">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="12" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="68" unit="chars"/>
+        </sp>
+        <sp who="#ein_barde">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="4" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="20" unit="chars"/>
+        </sp>
+        <sp who="#zwei_barden">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="41" unit="words"/>
+          <amount n="8" unit="lines"/>
+          <amount n="233" unit="chars"/>
+        </sp>
+        <sp who="#ein_chor">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="77" unit="words"/>
+          <amount n="12" unit="lines"/>
+          <amount n="400" unit="chars"/>
+        </sp>
+        <sp who="#ein_chor #zweites_chor">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="22" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="112" unit="chars"/>
+        </sp>
+        <sp who="#drittes_chor #viertes_chor">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="17" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="101" unit="chars"/>
+        </sp>
+        <sp who="#ein_barde #zwei_barden #ein_chor #zweites_chor #drittes_chor #viertes_chor">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="77" unit="words"/>
+          <amount n="12" unit="lines"/>
+          <amount n="435" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>5. Szene</head>
+      <div>
+        <head>Fünfte Scene.</head>
+        <sp who="#thusnelda">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="119" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="682" unit="chars"/>
+        </sp>
+        <sp who="#brenno">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="157" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="906" unit="chars"/>
+        </sp>
+        <sp who="#ein_barde">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="10" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="70" unit="chars"/>
+        </sp>
+        <sp who="#werdomar">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="36" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="196" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>6. Szene</head>
+      <div>
+        <head>Sechste Scene</head>
+        <sp who="#siegmund">
+          <amount n="12" unit="speech_acts"/>
+          <amount n="316" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="1733" unit="chars"/>
+        </sp>
+        <sp who="#thusnelda">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="33" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="182" unit="chars"/>
+        </sp>
+        <sp who="#brenno">
+          <amount n="25" unit="speech_acts"/>
+          <amount n="660" unit="words"/>
+          <amount n="15" unit="lines"/>
+          <amount n="3708" unit="chars"/>
+        </sp>
+        <sp who="#kedmon">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="266" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="1575" unit="chars"/>
+        </sp>
+        <sp who="#werdomar">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="192" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="1038" unit="chars"/>
+        </sp>
+        <sp who="#ein_chor">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="49" unit="words"/>
+          <amount n="8" unit="lines"/>
+          <amount n="270" unit="chars"/>
+        </sp>
+        <sp who="#zweites_chor">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="28" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="143" unit="chars"/>
+        </sp>
+        <sp who="#ein_chor #zweites_chor">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="66" unit="words"/>
+          <amount n="12" unit="lines"/>
+          <amount n="374" unit="chars"/>
+        </sp>
+        <sp who="#zwei_barden">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="20" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="120" unit="chars"/>
+        </sp>
+        <sp who="#ein_chor #zweites_chor #drittes_chor">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="75" unit="words"/>
+          <amount n="12" unit="lines"/>
+          <amount n="404" unit="chars"/>
+        </sp>
+        <sp who="#ein_chor #zweites_chor #drittes_chor #zwei_barden">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="202" unit="words"/>
+          <amount n="32" unit="lines"/>
+          <amount n="1279" unit="chars"/>
+        </sp>
+        <sp who="#zweites_chor">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="25" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="128" unit="chars"/>
+        </sp>
+        <sp who="#drittes_chor">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="24" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="129" unit="chars"/>
+        </sp>
+        <sp who="#ein_opferknabe">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="13" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="63" unit="chars"/>
+        </sp>
+        <sp who="#ein_andrer_opferknabe">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="5" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="24" unit="chars"/>
+        </sp>
+        <sp who="#der_aeltste">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="118" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="654" unit="chars"/>
+        </sp>
+        <sp who="#der_zweite">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="15" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="81" unit="chars"/>
+        </sp>
+        <sp who="#der_knabe">
+          <amount n="8" unit="speech_acts"/>
+          <amount n="175" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="985" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>7. Szene</head>
+      <div>
+        <head>Siebente Scene.</head>
+        <sp who="#horst">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="119" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="642" unit="chars"/>
+        </sp>
+        <sp who="#brenno">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="177" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="968" unit="chars"/>
+        </sp>
+        <sp who="#siegmar">
+          <amount n="18" unit="speech_acts"/>
+          <amount n="720" unit="words"/>
+          <amount n="5" unit="lines"/>
+          <amount n="3966" unit="chars"/>
+        </sp>
+        <sp who="#ein_hauptmann">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="50" unit="words"/>
+          <amount n="280" unit="chars"/>
+        </sp>
+        <sp who="#der_hauptmann">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="43" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="224" unit="chars"/>
+        </sp>
+        <sp who="#werdomar">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="42" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="259" unit="chars"/>
+        </sp>
+        <sp who="#ein_chor">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="79" unit="words"/>
+          <amount n="12" unit="lines"/>
+          <amount n="425" unit="chars"/>
+        </sp>
+        <sp who="#ein_chor #zweites_chor #drittes_chor">
+          <amount n="10" unit="speech_acts"/>
+          <amount n="166" unit="words"/>
+          <amount n="29" unit="lines"/>
+          <amount n="963" unit="chars"/>
+        </sp>
+        <sp who="#ein_chor #zweites_chor">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="53" unit="words"/>
+          <amount n="8" unit="lines"/>
+          <amount n="296" unit="chars"/>
+        </sp>
+        <sp who="#ein_chor #zweites_chor #drittes_chor">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="111" unit="words"/>
+          <amount n="16" unit="lines"/>
+          <amount n="577" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>8. Szene</head>
+      <div>
+        <head>Achte Scene</head>
+        <sp who="#die_barden">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="22" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="130" unit="chars"/>
+        </sp>
+        <sp who="#ein_opferknabe #ein_andrer_opferknabe">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="12" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="79" unit="chars"/>
+        </sp>
+        <sp who="#ein_opferknabe">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="11" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="60" unit="chars"/>
+        </sp>
+        <sp who="#werdomar">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="41" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="206" unit="chars"/>
+        </sp>
+        <sp who="#der_knabe">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="204" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="1152" unit="chars"/>
+        </sp>
+        <sp who="#siegmar">
+          <amount n="9" unit="speech_acts"/>
+          <amount n="367" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="2041" unit="chars"/>
+        </sp>
+        <sp who="#brenno">
+          <amount n="8" unit="speech_acts"/>
+          <amount n="196" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="1089" unit="chars"/>
+        </sp>
+        <sp who="#ein_barde">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="26" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="151" unit="chars"/>
+        </sp>
+        <sp who="#ein_druide">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="33" unit="words"/>
+          <amount n="162" unit="chars"/>
+        </sp>
+        <sp who="#der_druide">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="32" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="189" unit="chars"/>
+        </sp>
+        <sp who="#einige_druiden #die_barden">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="4" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="23" unit="chars"/>
+        </sp>
+        <sp who="#der_zweite_druide">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="6" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="29" unit="chars"/>
+        </sp>
+        <sp who="#kedmon">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="13" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="70" unit="chars"/>
+        </sp>
+        <sp who="#ein_hauptmann">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="81" unit="words"/>
+          <amount n="490" unit="chars"/>
+        </sp>
+        <sp who="#horst">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="87" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="497" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>9. Szene</head>
+      <div>
+        <head>Neunte Scene</head>
+        <sp who="#ein_barde">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="19" unit="words"/>
+          <amount n="107" unit="chars"/>
+        </sp>
+        <sp who="#brenno">
+          <amount n="16" unit="speech_acts"/>
+          <amount n="252" unit="words"/>
+          <amount n="10" unit="lines"/>
+          <amount n="1363" unit="chars"/>
+        </sp>
+        <sp who="#der_barde">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="30" unit="words"/>
+          <amount n="168" unit="chars"/>
+        </sp>
+        <sp who="#sein_führer">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="22" unit="words"/>
+          <amount n="122" unit="chars"/>
+        </sp>
+        <sp who="#der_gefangne">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="52" unit="words"/>
+          <amount n="5" unit="lines"/>
+          <amount n="283" unit="chars"/>
+        </sp>
+        <sp who="#flavius">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="111" unit="words"/>
+          <amount n="5" unit="lines"/>
+          <amount n="619" unit="chars"/>
+        </sp>
+        <sp who="#werdomar">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="87" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="515" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>10. Szene</head>
+      <div>
+        <head>Zehnte Scene</head>
+        <sp who="#thusnelda">
+          <amount n="8" unit="speech_acts"/>
+          <amount n="343" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="1948" unit="chars"/>
+        </sp>
+        <sp who="#brenno">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="67" unit="words"/>
+          <amount n="6" unit="lines"/>
+          <amount n="371" unit="chars"/>
+        </sp>
+        <sp who="#ein_hauptmann">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="52" unit="words"/>
+          <amount n="314" unit="chars"/>
+        </sp>
+        <sp who="#ein_andrer_hauptmann">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="29" unit="words"/>
+          <amount n="174" unit="chars"/>
+        </sp>
+        <sp who="#der_hauptmann">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="19" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="115" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>11. Szene</head>
+      <div>
+        <head>Eilfte Scene.</head>
+        <sp who="#hermann">
+          <amount n="65" unit="speech_acts"/>
+          <amount n="2824" unit="words"/>
+          <amount n="44" unit="lines"/>
+          <amount n="15807" unit="chars"/>
+        </sp>
+        <sp who="#thusnelda">
+          <amount n="30" unit="speech_acts"/>
+          <amount n="1125" unit="words"/>
+          <amount n="81" unit="lines"/>
+          <amount n="6279" unit="chars"/>
+        </sp>
+        <sp who="#ein_kriegsgefährte">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="3" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="12" unit="chars"/>
+        </sp>
+        <sp who="#ein_andrer">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="3" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="12" unit="chars"/>
+        </sp>
+        <sp who="#horst">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="10" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="52" unit="chars"/>
+        </sp>
+        <sp who="#ein_chor #zweites_chor #drittes_chor #viertes_chor #ein_barde">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="110" unit="words"/>
+          <amount n="21" unit="lines"/>
+          <amount n="678" unit="chars"/>
+        </sp>
+        <sp who="#drittes_chor #viertes_chor">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="39" unit="words"/>
+          <amount n="8" unit="lines"/>
+          <amount n="238" unit="chars"/>
+        </sp>
+        <sp who="#brenno">
+          <amount n="24" unit="speech_acts"/>
+          <amount n="613" unit="words"/>
+          <amount n="12" unit="lines"/>
+          <amount n="3406" unit="chars"/>
+        </sp>
+        <sp who="#der_cherusker">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="119" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="640" unit="chars"/>
+        </sp>
+        <sp who="#der_bructerer">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="79" unit="words"/>
+          <amount n="440" unit="chars"/>
+        </sp>
+        <sp who="#valerius">
+          <amount n="16" unit="speech_acts"/>
+          <amount n="262" unit="words"/>
+          <amount n="12" unit="lines"/>
+          <amount n="1429" unit="chars"/>
+        </sp>
+        <sp who="#licinius">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="23" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="141" unit="chars"/>
+        </sp>
+        <sp who="#flavius">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="68" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="330" unit="chars"/>
+        </sp>
+        <sp who="#kedmon">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="8" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="40" unit="chars"/>
+        </sp>
+        <sp who="#ein_chor_jungfrauen">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="71" unit="words"/>
+          <amount n="12" unit="lines"/>
+          <amount n="399" unit="chars"/>
+        </sp>
+        <sp who="#das_andre_chor_der_jungfrauen">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="26" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="150" unit="chars"/>
+        </sp>
+        <sp who="#ein_chor_jungfrauen #das_andre_chor_der_jungfrauen">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="78" unit="words"/>
+          <amount n="12" unit="lines"/>
+          <amount n="457" unit="chars"/>
+        </sp>
+        <sp who="#eine_der_jungfrauen">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="15" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="80" unit="chars"/>
+        </sp>
+        <sp who="#eine_andre">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="16" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="85" unit="chars"/>
+        </sp>
+        <sp who="#ein_barde">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="3" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="20" unit="chars"/>
+        </sp>
+        <sp who="#ein_hauptmann">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="3" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="17" unit="chars"/>
+        </sp>
+        <sp who="#der_hauptmann">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="57" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="296" unit="chars"/>
+        </sp>
+        <sp who="#siegmund">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="19" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="97" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>12. Szene</head>
+      <div>
+        <head>Zwölfte Scene</head>
+        <sp who="#der_knabe">
+          <amount n="12" unit="speech_acts"/>
+          <amount n="351" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="1905" unit="chars"/>
+        </sp>
+        <sp who="#hermann">
+          <amount n="15" unit="speech_acts"/>
+          <amount n="319" unit="words"/>
+          <amount n="13" unit="lines"/>
+          <amount n="1722" unit="chars"/>
+        </sp>
+        <sp who="#brenno">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="61" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="329" unit="chars"/>
+        </sp>
+        <sp who="#siegmund">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="20" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="97" unit="chars"/>
+        </sp>
+        <sp who="#thusnelda">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="94" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="548" unit="chars"/>
+        </sp>
+        <sp who="#werdomar">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="44" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="223" unit="chars"/>
+        </sp>
+        <sp who="#ein_opferknabe #ein_andrer_opferknabe">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="4" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="30" unit="chars"/>
+        </sp>
+        <sp who="#ein_opferknabe #ein_andrer_opferknabe">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="1" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="3" unit="chars"/>
+        </sp>
+        <sp who="#ein_opferknabe">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="87" unit="words"/>
+          <amount n="473" unit="chars"/>
+        </sp>
+        <sp who="#der_aelteste">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="207" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="1166" unit="chars"/>
+        </sp>
+        <sp who="#ein_chor #zweites_chor">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="74" unit="words"/>
+          <amount n="12" unit="lines"/>
+          <amount n="417" unit="chars"/>
+        </sp>
+        <sp who="#zwei_stimmen">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="26" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="125" unit="chars"/>
+        </sp>
+        <sp who="#ein_barde">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="30" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="169" unit="chars"/>
+        </sp>
+        <sp who="#ein_chor #zweites_chor #drittes_chor">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="58" unit="words"/>
+          <amount n="8" unit="lines"/>
+          <amount n="323" unit="chars"/>
+        </sp>
+        <sp who="#ein_chor #zweites_chor #drittes_chor #ein_barde">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="22" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="130" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>13. Szene</head>
+      <div>
+        <head>Dreizehnte Scene.</head>
+        <sp who="#der_marse">
+          <amount n="13" unit="speech_acts"/>
+          <amount n="346" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="1912" unit="chars"/>
+        </sp>
+        <sp who="#der_cherusker">
+          <amount n="8" unit="speech_acts"/>
+          <amount n="260" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="1354" unit="chars"/>
+        </sp>
+        <sp who="#brenno">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="53" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="286" unit="chars"/>
+        </sp>
+        <sp who="#hermann">
+          <amount n="9" unit="speech_acts"/>
+          <amount n="214" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="1222" unit="chars"/>
+        </sp>
+        <sp who="#thusnelda">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="52" unit="words"/>
+          <amount n="296" unit="chars"/>
+        </sp>
+        <sp who="#horst">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="33" unit="words"/>
+          <amount n="175" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>14. Szene</head>
+      <div>
+        <head>Vierzehnte Scene.</head>
+        <sp who="#bercennis">
+          <amount n="13" unit="speech_acts"/>
+          <amount n="322" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="1841" unit="chars"/>
+        </sp>
+        <sp who="#hermann">
+          <amount n="19" unit="speech_acts"/>
+          <amount n="531" unit="words"/>
+          <amount n="18" unit="lines"/>
+          <amount n="2958" unit="chars"/>
+        </sp>
+        <sp who="#brenno">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="10" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="65" unit="chars"/>
+        </sp>
+        <sp who="#werdomar">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="190" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="1062" unit="chars"/>
+        </sp>
+        <sp who="#horst">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="38" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="211" unit="chars"/>
+        </sp>
+        <sp who="#der_knabe">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="39" unit="words"/>
+          <amount n="217" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+  </text>
+  <documentation>
+    <change n="1" type="other" who="peertrilcke">
+      <path></path>
+      <orig></orig>
+      <corr></corr>
+      <comment>Die Chöre wurden durchgezählt, insgesamt gibt der Text - unspezifiziert - maximal vier verschiedene Chöre pro Szene an (entsprechend wurden vier Chöre angesetzt). In den Szenen wurde jeweils der erste auftretende Chor als "ein_chor" angesetzt, alle weiteren dann entsprechend der Zählung. </comment>
+    </change>
+    <change n="2" type="other" who="peertrilcke">
+      <path></path>
+      <orig></orig>
+      <corr></corr>
+      <comment>Auf eine Differenzierung von "ein_barde", "zwei_barden" etc. wurde verzichtet. Ausgegangen wurde davon, dass es sich hier um funktionale Figuren handelt, die jeweils in gleichen Kontexten agieren und somit keiner DIfferenzierung nach Szenen bedürfen.</comment>
+    </change>
+  </documentation>
+</play>

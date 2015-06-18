@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="http://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital">
+  <header>
+    <title>Der gehörnte Siegfried</title>
+    <subtitle>Vorspiel in einem Akt</subtitle>
+    <genretitle></genretitle>
+    <author>Hebbel, Friedrich</author>
+    <date type="print" when="1862">1862</date>
+    <date type="premiere" when="1861">1861</date>
+    <date type="written"></date>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:pkng.0/data</source>
+  </header>
+  <personae>
+    <character>
+      <name>HAGEN</name>
+      <alias xml:id="hagen">
+        <name>HAGEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>GUNTHER</name>
+      <alias xml:id="gunther">
+        <name>GUNTHER</name>
+      </alias>
+    </character>
+    <character>
+      <name>GISELHER</name>
+      <alias xml:id="giselher">
+        <name>GISELHER</name>
+      </alias>
+    </character>
+    <character>
+      <name>GERENOT</name>
+      <alias xml:id="gerenot">
+        <name>GERENOT</name>
+      </alias>
+    </character>
+    <character>
+      <name>VOLKER</name>
+      <alias xml:id="volker">
+        <name>VOLKER</name>
+      </alias>
+    </character>
+    <character>
+      <name>SIEGFRIED</name>
+      <alias xml:id="siegfried">
+        <name>SIEGFRIED</name>
+      </alias>
+    </character>
+    <character>
+      <name>DANKWART</name>
+      <alias xml:id="dankwart">
+        <name>DANKWART</name>
+      </alias>
+    </character>
+    <character>
+      <name>UTE</name>
+      <alias xml:id="ute">
+        <name>UTE</name>
+      </alias>
+    </character>
+    <character>
+      <name>KRIEMHILD</name>
+      <alias xml:id="kriemhild">
+        <name>KRIEMHILD</name>
+      </alias>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Personen</head>
+    </div>
+    <div>
+      <head>1. Szene</head>
+      <div>
+        <head>Erste Szene</head>
+        <sp who="#hagen">
+          <amount n="17" unit="speech_acts"/>
+          <amount n="429" unit="words"/>
+          <amount n="56" unit="lines"/>
+          <amount n="2192" unit="chars"/>
+        </sp>
+        <sp who="#gunther">
+          <amount n="13" unit="speech_acts"/>
+          <amount n="121" unit="words"/>
+          <amount n="20" unit="lines"/>
+          <amount n="594" unit="chars"/>
+        </sp>
+        <sp who="#giselher">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="36" unit="words"/>
+          <amount n="6" unit="lines"/>
+          <amount n="191" unit="chars"/>
+        </sp>
+        <sp who="#gerenot">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="7" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="35" unit="chars"/>
+        </sp>
+        <sp who="#volker">
+          <amount n="9" unit="speech_acts"/>
+          <amount n="443" unit="words"/>
+          <amount n="60" unit="lines"/>
+          <amount n="2367" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>2. Szene</head>
+      <div>
+        <head>Zweite Szene</head>
+        <sp who="#siegfried">
+          <amount n="8" unit="speech_acts"/>
+          <amount n="627" unit="words"/>
+          <amount n="76" unit="lines"/>
+          <amount n="3159" unit="chars"/>
+        </sp>
+        <sp who="#gunther">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="50" unit="words"/>
+          <amount n="6" unit="lines"/>
+          <amount n="247" unit="chars"/>
+        </sp>
+        <sp who="#dankwart">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="37" unit="words"/>
+          <amount n="5" unit="lines"/>
+          <amount n="188" unit="chars"/>
+        </sp>
+        <sp who="#hagen">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="12" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="71" unit="chars"/>
+        </sp>
+        <sp who="#volker">
+          <amount n="1" unit="speech_acts"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>3. Szene</head>
+      <div>
+        <head>Dritte Szene</head>
+        <sp who="#ute">
+          <amount n="30" unit="speech_acts"/>
+          <amount n="920" unit="words"/>
+          <amount n="120" unit="lines"/>
+          <amount n="4583" unit="chars"/>
+        </sp>
+        <sp who="#kriemhild">
+          <amount n="29" unit="speech_acts"/>
+          <amount n="431" unit="words"/>
+          <amount n="64" unit="lines"/>
+          <amount n="2161" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>4. Szene</head>
+      <div>
+        <head>Vierte Szene</head>
+        <sp who="#gunther">
+          <amount n="18" unit="speech_acts"/>
+          <amount n="282" unit="words"/>
+          <amount n="44" unit="lines"/>
+          <amount n="1496" unit="chars"/>
+        </sp>
+        <sp who="#siegfried">
+          <amount n="26" unit="speech_acts"/>
+          <amount n="1565" unit="words"/>
+          <amount n="209" unit="lines"/>
+          <amount n="8136" unit="chars"/>
+        </sp>
+        <sp who="#giselher">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="43" unit="words"/>
+          <amount n="6" unit="lines"/>
+          <amount n="241" unit="chars"/>
+        </sp>
+        <sp who="#hagen">
+          <amount n="9" unit="speech_acts"/>
+          <amount n="48" unit="words"/>
+          <amount n="11" unit="lines"/>
+          <amount n="247" unit="chars"/>
+        </sp>
+        <sp who="#volker">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="32" unit="words"/>
+          <amount n="6" unit="lines"/>
+          <amount n="150" unit="chars"/>
+        </sp>
+        <sp who="#gerenot">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="4" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="17" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+  </text>
+</play>

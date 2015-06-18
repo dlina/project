@@ -1,0 +1,1440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital">
+  <header>
+    <title>Jerusalem</title>
+    <subtitle>Ein Pilgerabenteuer</subtitle>
+    <genretitle></genretitle>
+    <author>Arnim, Ludwig Achim von</author>
+    <date type="print">1811</date>
+    <date type="premiere"></date>
+    <date type="written" />
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:k59h.0/data</source>
+  </header>
+  <personae>
+    <character>
+      <name>SCHRIFTGELEHRTER</name>
+      <alias xml:id="schriftgelehrter">
+        <name>SCHRIFTGELEHRTER</name>
+      </alias>
+    </character>
+    <character>
+      <name>JESUS</name>
+      <alias xml:id="jesus">
+        <name>JESUS</name>
+      </alias>
+    </character>
+    <character>
+      <name>EINER DER SCHÄCHER</name>
+      <alias xml:id="einer_der_schächer">
+        <name>EINER DER SCHÄCHER</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER ANDERE SCHÄCHER</name>
+      <alias xml:id="der_andere_schächer">
+        <name>DER ANDERE SCHÄCHER</name>
+      </alias>
+    </character>
+    <character>
+      <name>AHASVERUS</name>
+      <alias xml:id="ahasverus">
+        <name>AHASVERUS</name>
+      </alias>
+    </character>
+    <character>
+      <name>CELINDE</name>
+      <alias xml:id="celinde">
+        <name>CELINDE</name>
+      </alias>
+      <alias xml:id="gelinde">
+        <name>GELINDE</name>
+      </alias>
+    </character>
+    <character>
+      <name>CARDENIO</name>
+      <alias xml:id="cardenio">
+        <name>CARDENIO</name>
+      </alias>
+    </character>
+    <character>
+      <name>KAPITÄN</name>
+      <alias xml:id="kapitän">
+        <name>KAPITÄN</name>
+      </alias>
+    </character>
+    <character>
+      <name>LICHTERZIEHER</name>
+      <alias xml:id="lichterzieher">
+        <name>LICHTERZIEHER</name>
+      </alias>
+    </character>
+    <character>
+      <name>KLEINER BUBE</name>
+      <alias xml:id="kleiner_bube">
+        <name>KLEINER BUBE</name>
+      </alias>
+      <alias xml:id="keiner_bube">
+        <name>KEINER BUBE</name>
+      </alias>
+    </character>
+    <character>
+      <name>REICHER PILGER</name>
+      <alias xml:id="reicher_pilger">
+        <name>REICHER PILGER</name>
+      </alias>
+    </character>
+    <character>
+      <name>MATROSE</name>
+      <alias xml:id="matrose">
+        <name>MATROSE</name>
+      </alias>
+    </character>
+    <character>
+      <name>SCHIFFSLEUTE</name>
+      <alias xml:id="schiffsleute">
+        <name>SCHIFFSLEUTE</name>
+      </alias>
+    </character>
+    <character>
+      <name>MATROSEN</name>
+      <alias xml:id="matrosen">
+        <name>MATROSEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>BROMLY</name>
+      <alias xml:id="bromly">
+        <name>BROMLY</name>
+      </alias>
+    </character>
+    <character>
+      <name>LYSANDER</name>
+      <alias xml:id="lysander">
+        <name>LYSANDER</name>
+      </alias>
+    </character>
+    <character>
+      <name>SIDNEY</name>
+      <alias xml:id="sidney">
+        <name>SIDNEY</name>
+      </alias>
+      <alias xml:id="sydney">
+        <name>SYDNEY</name>
+      </alias>
+    </character>
+    <character>
+      <name>OLYMPIE</name>
+      <alias xml:id="olympie">
+        <name>OLYMPIE</name>
+      </alias>
+    </character>
+    <character>
+      <name>DEUTSCHE SOLDATEN</name>
+      <alias xml:id="deutsche_soldaten">
+        <name>DEUTSCHE SOLDATEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE ENGLISCHEN MATROSEN</name>
+      <alias xml:id="die_englischen_matrosen">
+        <name>DIE ENGLISCHEN MATROSEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE GESTALT</name>
+      <alias xml:id="die_gestalt">
+        <name>DIE GESTALT</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER STORCH</name>
+      <alias xml:id="der_storch">
+        <name>DER STORCH</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE PILGER</name>
+      <alias xml:id="die_pilger">
+        <name>DIE PILGER</name>
+      </alias>
+    </character>
+    <character>
+      <name>KÜMMELTÜRKE</name>
+      <alias xml:id="kümmeltürke">
+        <name>KÜMMELTÜRKE</name>
+      </alias>
+    </character>
+    <character>
+      <name>WAISENHÄUSER</name>
+      <alias xml:id="waisenhäuser">
+        <name>WAISENHÄUSER</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER ALTE</name>
+      <alias xml:id="der_alte">
+        <name>DER ALTE</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIENEMANN</name>
+      <alias xml:id="dienemann">
+        <name>DIENEMANN</name>
+      </alias>
+    </character>
+    <character>
+      <name>JUNGFRAU</name>
+      <alias xml:id="jungfrau">
+        <name>JUNGFRAU</name>
+      </alias>
+    </character>
+    <character>
+      <name>ENGLÄNDER</name>
+      <alias xml:id="engländer">
+        <name>ENGLÄNDER</name>
+      </alias>
+      <alias xml:id="die_engländer">
+        <name>DIE ENGLÄNDER</name>
+      </alias>
+    </character>
+    <character>
+      <name>EINER DER ENGLÄNDER</name>
+      <alias xml:id="einer">
+        <name>EINER</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN JÄGER</name>
+      <alias xml:id="ein_jäger">
+        <name>EIN JÄGER</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN REITER</name>
+      <alias xml:id="ein_reiter">
+        <name>EIN REITER</name>
+      </alias>
+    </character>
+    <character>
+      <name>VIELE DER ENGLÄNDER</name>
+      <alias xml:id="viele_engländer">
+        <name>VIELE</name>
+      </alias>
+    </character>
+    <character>
+      <name>ANDRER DER ENGLÄNDER</name>
+      <alias xml:id="andrer">
+        <name>ANDRER</name>
+      </alias>
+    </character>
+    <character>
+      <name>SCHILDWACHE</name>
+      <alias xml:id="schildwache">
+        <name>SCHILDWACHE</name>
+      </alias>
+    </character>
+    <character>
+      <name>SOLDATEN</name>
+      <alias xml:id="soldaten">
+        <name>SOLDATEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>ARZT</name>
+      <alias xml:id="arzt">
+        <name>ARZT</name>
+      </alias>
+    </character>
+    <character>
+      <name>VIREN</name>
+      <alias xml:id="viren">
+        <name>VIREN</name>
+      </alias>
+    </character>
+    <character>
+      <name>BUBE</name>
+      <alias xml:id="bube">
+        <name>BUBE</name>
+      </alias>
+      <alias xml:id="der_bube">
+        <name>DER BUBE</name>
+      </alias>
+    </character>
+    <character>
+      <name>LORD</name>
+      <alias xml:id="lord">
+        <name>LORD</name>
+      </alias>
+    </character>
+    <character>
+      <name>REICHE PILGER</name>
+      <alias xml:id="reiche_pilger">
+        <name>REICHE PILGER</name>
+      </alias>
+    </character>
+    <character>
+      <name>MAHOMEDANER</name>
+      <alias xml:id="mahomedaner">
+        <name>MAHOMEDANER</name>
+      </alias>
+    </character>
+    <character>
+      <name>CHRISTEN</name>
+      <alias xml:id="christen">
+        <name>CHRISTEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>MOHR</name>
+      <alias xml:id="mohr">
+        <name>MOHR</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER EINSIEDLER</name>
+      <alias xml:id="der_einsiedler">
+        <name>DER EINSIEDLER</name>
+      </alias>
+    </character>
+    <character>
+      <name>MÖNCH</name>
+      <alias xml:id="mönch">
+        <name>MÖNCH</name>
+      </alias>
+    </character>
+    <character>
+      <name>SCHÄFERMÄDCHEN</name>
+      <alias xml:id="schäfermädchen">
+        <name>SCHÄFERMÄDCHEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>SCHÄFERKNABE</name>
+      <alias xml:id="schäferknabe">
+        <name>SCHÄFERKNABE</name>
+      </alias>
+    </character>
+    <character>
+      <name>BASSA</name>
+      <alias xml:id="bassa">
+        <name>BASSA</name>
+      </alias>
+    </character>
+    <character>
+      <name>FAVORITE</name>
+      <alias xml:id="favorite">
+        <name>FAVORITE</name>
+      </alias>
+    </character>
+    <character>
+      <name>FATME</name>
+      <alias xml:id="fatme">
+        <name>FATME</name>
+      </alias>
+    </character>
+    <character>
+      <name>ACHMET</name>
+      <alias xml:id="achmet">
+        <name>ACHMET</name>
+      </alias>
+    </character>
+    <character>
+      <name>ROXANE</name>
+      <alias xml:id="roxane">
+        <name>ROXANE</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE ÄBTISSIN</name>
+      <alias xml:id="die_äbtissin">
+        <name>DIE ÄBTISSIN</name>
+      </alias>
+      <alias xml:id="äbtissin">
+        <name>ÄBTISSIN</name>
+      </alias>
+    </character>
+    <character>
+      <name>NONNE</name>
+      <alias xml:id="nonne">
+        <name>NONNE</name>
+      </alias>
+    </character>
+    <character>
+      <name>ANDRE NONNE</name>
+      <alias xml:id="andre_nonne">
+        <name>ANDRE NONNE</name>
+      </alias>
+    </character>
+    <character>
+      <name>EINE DRITTE NONNE</name>
+      <alias xml:id="eine_dritte_nonne">
+        <name>EINE DRITTE NONNE</name>
+      </alias>
+      <alias xml:id="dritte_nonne">
+        <name>DRITTE NONNE</name>
+      </alias>
+    </character>
+    <character>
+      <name>PFÖRTNERIN</name>
+      <alias xml:id="pförtnerin">
+        <name>PFÖRTNERIN</name>
+      </alias>
+    </character>
+    <character>
+      <name>ERSTER ALTER</name>
+      <alias xml:id="erster_alter">
+        <name>ERSTER ALTER</name>
+      </alias>
+    </character>
+    <character>
+      <name>ZWEITER ALTER</name>
+      <alias xml:id="zweiter_alter">
+        <name>ZWEITER ALTER</name>
+      </alias>
+    </character>
+    <character>
+      <name>DRITTER ALTER</name>
+      <alias xml:id="dritter_alter">
+        <name>DRITTER ALTER</name>
+      </alias>
+    </character>
+    <character>
+      <name>RABBI</name>
+      <alias xml:id="rabbi">
+        <name>RABBI</name>
+      </alias>
+    </character>
+    <character>
+      <name>JUDE</name>
+      <alias xml:id="jude">
+        <name>JUDE</name>
+      </alias>
+    </character>
+    <character>
+      <name>JUDEN</name>
+      <alias xml:id="juden">
+        <name>JUDEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>REISENDER</name>
+      <alias xml:id="reisender">
+        <name>REISENDER</name>
+      </alias>
+      <alias xml:id="der_reisende">
+        <name>DER REISENDE</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER SCHMID</name>
+      <alias xml:id="der_schmid">
+        <name>DER SCHMID</name>
+      </alias>
+      <alias xml:id="schmid">
+        <name>SCHMID</name>
+      </alias>
+    </character>
+    <character>
+      <name>STIGMA</name>
+      <alias xml:id="stigma">
+        <name>STIGMA</name>
+      </alias>
+    </character>
+    <character>
+      <name>GUARDIAN</name>
+      <alias xml:id="guardian">
+        <name>GUARDIAN</name>
+      </alias>
+    </character>
+    <character>
+      <name>HIRTINNEN</name>
+      <alias xml:id="hirtinnen">
+        <name>HIRTINNEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>HIRTEN</name>
+      <alias xml:id="hirten">
+        <name>HIRTEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>CHOR DER NONNEN</name>
+      <alias xml:id="chor_der_nonnen">
+        <name>CHOR DER NONNEN</name>
+      </alias>
+      <alias xml:id="chorgesang">
+        <name>CHORGESANG</name>
+      </alias>
+      <alias xml:id="chor">
+        <name>CHOR</name>
+      </alias>
+      <alias xml:id="gegenchor">
+        <name>GEGENCHOR</name>
+      </alias>
+    </character>
+    <character>
+      <name>GRIECHEN</name>
+      <alias xml:id="griechen">
+        <name>GRIECHEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>ARMENIANER</name>
+      <alias xml:id="armenianer">
+        <name>ARMENIANER</name>
+      </alias>
+    </character>
+    <character>
+      <name>STIMME AUS DEM HEILGEN GRABE</name>
+      <alias xml:id="stimme_aus_dem_heilgen_grabe">
+        <name>STIMME AUS DEM HEILGEN GRABE</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER DICHTER</name>
+      <alias xml:id="der_dichter">
+        <name>DER DICHTER</name>
+      </alias>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Jerusalem</head>
+    </div>
+    <div>
+      <head>Die ernste Erscheinung</head>
+      <div>
+        <head>Die ernste Erscheinung.</head>
+        <sp who="#schriftgelehrter">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="53" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="295" unit="chars"/>
+        </sp>
+        <sp who="#jesus">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="29" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="160" unit="chars"/>
+        </sp>
+        <sp who="#einer_der_schächer">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="9" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="45" unit="chars"/>
+        </sp>
+        <sp who="#der_andere_schächer">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="25" unit="words"/>
+          <amount n="132" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>Die Pilger auf dem Meere</head>
+      <div>
+        <head>Die Pilger auf dem Meere.</head>
+        <sp who="#ahasverus">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="305" unit="words"/>
+          <amount n="42" unit="lines"/>
+          <amount n="1603" unit="chars"/>
+        </sp>
+        <sp who="#celinde">
+          <amount n="11" unit="speech_acts"/>
+          <amount n="402" unit="words"/>
+          <amount n="12" unit="lines"/>
+          <amount n="2153" unit="chars"/>
+        </sp>
+        <sp who="#cardenio">
+          <amount n="14" unit="speech_acts"/>
+          <amount n="650" unit="words"/>
+          <amount n="39" unit="lines"/>
+          <amount n="3535" unit="chars"/>
+        </sp>
+        <sp who="#gelinde">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="31" unit="words"/>
+          <amount n="6" unit="lines"/>
+          <amount n="187" unit="chars"/>
+        </sp>
+        <sp who="#kapitän">
+          <amount n="33" unit="speech_acts"/>
+          <amount n="812" unit="words"/>
+          <amount n="17" unit="lines"/>
+          <amount n="4353" unit="chars"/>
+        </sp>
+        <sp who="#lichterzieher">
+          <amount n="9" unit="speech_acts"/>
+          <amount n="200" unit="words"/>
+          <amount n="6" unit="lines"/>
+          <amount n="1092" unit="chars"/>
+        </sp>
+        <sp who="#kleiner_bube">
+          <amount n="10" unit="speech_acts"/>
+          <amount n="248" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="1271" unit="chars"/>
+        </sp>
+        <sp who="#reicher_pilger">
+          <amount n="30" unit="speech_acts"/>
+          <amount n="750" unit="words"/>
+          <amount n="15" unit="lines"/>
+          <amount n="4101" unit="chars"/>
+        </sp>
+        <sp who="#keiner_bube">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="19" unit="words"/>
+          <amount n="104" unit="chars"/>
+        </sp>
+        <sp who="#matrose">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="63" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="325" unit="chars"/>
+        </sp>
+        <sp who="#schiffsleute">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="58" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="312" unit="chars"/>
+        </sp>
+        <sp who="#matrosen #matrose">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="27" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="148" unit="chars"/>
+        </sp>
+        <sp who="#bromly">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="174" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="974" unit="chars"/>
+        </sp>
+        <sp who="#lysander">
+          <amount n="11" unit="speech_acts"/>
+          <amount n="186" unit="words"/>
+          <amount n="7" unit="lines"/>
+          <amount n="968" unit="chars"/>
+        </sp>
+        <sp who="#sidney">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="76" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="396" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>Die Taufe auf dem Meere</head>
+      <div>
+        <head>Die Taufe auf dem Meere.</head>
+        <sp who="#sidney">
+          <amount n="8" unit="speech_acts"/>
+          <amount n="322" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="1741" unit="chars"/>
+        </sp>
+        <sp who="#lysander">
+          <amount n="9" unit="speech_acts"/>
+          <amount n="359" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="2036" unit="chars"/>
+        </sp>
+        <sp who="#olympie">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="91" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="538" unit="chars"/>
+        </sp>
+        <sp who="#deutsche_soldaten">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="22" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="127" unit="chars"/>
+        </sp>
+        <sp who="#die_englischen_matrosen">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="61" unit="words"/>
+          <amount n="12" unit="lines"/>
+          <amount n="350" unit="chars"/>
+        </sp>
+        <sp who="#bromly">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="53" unit="words"/>
+          <amount n="301" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>Das todte Sündenkind</head>
+      <div>
+        <head>Das todte Sündenkind.</head>
+        <sp who="#cardenio">
+          <amount n="21" unit="speech_acts"/>
+          <amount n="1032" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="5498" unit="chars"/>
+        </sp>
+        <sp who="#celinde">
+          <amount n="22" unit="speech_acts"/>
+          <amount n="714" unit="words"/>
+          <amount n="51" unit="lines"/>
+          <amount n="3660" unit="chars"/>
+        </sp>
+        <sp who="#gelinde">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="27" unit="words"/>
+          <amount n="140" unit="chars"/>
+        </sp>
+        <sp who="#die_gestalt">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="174" unit="words"/>
+          <amount n="53" unit="lines"/>
+          <amount n="894" unit="chars"/>
+        </sp>
+        <sp who="#der_storch">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="34" unit="words"/>
+          <amount n="6" unit="lines"/>
+          <amount n="171" unit="chars"/>
+        </sp>
+        <sp who="#die_pilger">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="28" unit="words"/>
+          <amount n="8" unit="lines"/>
+          <amount n="151" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>Die Reisenden und die Jungfrau mit dem Storche</head>
+      <div>
+        <head>noName</head>
+        <div>
+          <head>Die Reisenden und die Jungfrau mit dem Storche.</head>
+          <sp who="#kümmeltürke">
+            <amount n="13" unit="speech_acts"/>
+            <amount n="346" unit="words"/>
+            <amount n="7" unit="lines"/>
+            <amount n="1963" unit="chars"/>
+          </sp>
+          <sp who="#waisenhäuser">
+            <amount n="16" unit="speech_acts"/>
+            <amount n="340" unit="words"/>
+            <amount n="11" unit="lines"/>
+            <amount n="1885" unit="chars"/>
+          </sp>
+          <sp who="#der_alte">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="98" unit="words"/>
+            <amount n="18" unit="lines"/>
+            <amount n="528" unit="chars"/>
+          </sp>
+          <sp who="#dienemann">
+            <amount n="14" unit="speech_acts"/>
+            <amount n="289" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="1595" unit="chars"/>
+          </sp>
+          <sp who="#jungfrau">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="242" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="1292" unit="chars"/>
+          </sp>
+          <sp who="#sidney">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="155" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="861" unit="chars"/>
+          </sp>
+          <sp who="#reicher_pilger">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="134" unit="words"/>
+            <amount n="739" unit="chars"/>
+          </sp>
+          <sp who="#lichterzieher">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="44" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="232" unit="chars"/>
+          </sp>
+          <sp who="#kümmeltürke #waisenhäuser #der_alte #dienemann #jungfrau #sidney #reicher_pilger #lichterzieher">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="3" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="18" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>Die Belagerung</head>
+      <div>
+        <head>Die Belagerung.</head>
+        <sp who="#engländer #einer #andrer #viele_engländer">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="303" unit="words"/>
+          <amount n="73" unit="lines"/>
+          <amount n="1587" unit="chars"/>
+        </sp>
+        <sp who="#olympie">
+          <amount n="21" unit="speech_acts"/>
+          <amount n="2102" unit="words"/>
+          <amount n="45" unit="lines"/>
+          <amount n="11376" unit="chars"/>
+        </sp>
+        <sp who="#die_engländer">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="95" unit="words"/>
+          <amount n="24" unit="lines"/>
+          <amount n="522" unit="chars"/>
+        </sp>
+        <sp who="#einer">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="73" unit="words"/>
+          <amount n="12" unit="lines"/>
+          <amount n="353" unit="chars"/>
+        </sp>
+        <sp who="#ein_jäger">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="59" unit="words"/>
+          <amount n="16" unit="lines"/>
+          <amount n="324" unit="chars"/>
+        </sp>
+        <sp who="#ein_reiter">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="34" unit="words"/>
+          <amount n="8" unit="lines"/>
+          <amount n="191" unit="chars"/>
+        </sp>
+        <sp who="#viele_engländer">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="11" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="54" unit="chars"/>
+        </sp>
+        <sp who="#andrer">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="10" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="46" unit="chars"/>
+        </sp>
+        <sp who="#schildwache">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="57" unit="words"/>
+          <amount n="14" unit="lines"/>
+          <amount n="306" unit="chars"/>
+        </sp>
+        <sp who="#lysander">
+          <amount n="17" unit="speech_acts"/>
+          <amount n="542" unit="words"/>
+          <amount n="36" unit="lines"/>
+          <amount n="2864" unit="chars"/>
+        </sp>
+        <sp who="#soldaten">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="25" unit="words"/>
+          <amount n="128" unit="chars"/>
+        </sp>
+        <sp who="#sydney">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="28" unit="words"/>
+          <amount n="158" unit="chars"/>
+        </sp>
+        <sp who="#sidney">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="167" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="915" unit="chars"/>
+        </sp>
+        <sp who="#arzt">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="60" unit="words"/>
+          <amount n="305" unit="chars"/>
+        </sp>
+        <sp who="#bromly">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="28" unit="words"/>
+          <amount n="156" unit="chars"/>
+        </sp>
+        <sp who="#viren">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="11" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="64" unit="chars"/>
+        </sp>
+        <sp who="#olympie #lysander #sidney #arzt #bromly #viren">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="47" unit="words"/>
+          <amount n="8" unit="lines"/>
+          <amount n="227" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>Die Versuchungen in der Wüste</head>
+      <div>
+        <head>Die Versuchungen in der Wüste.</head>
+        <sp who="#bube">
+          <amount n="10" unit="speech_acts"/>
+          <amount n="241" unit="words"/>
+          <amount n="13" unit="lines"/>
+          <amount n="1285" unit="chars"/>
+        </sp>
+        <sp who="#ahasverus">
+          <amount n="16" unit="speech_acts"/>
+          <amount n="592" unit="words"/>
+          <amount n="7" unit="lines"/>
+          <amount n="3265" unit="chars"/>
+        </sp>
+        <sp who="#lord">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="90" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="496" unit="chars"/>
+        </sp>
+        <sp who="#kümmeltürke">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="33" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="183" unit="chars"/>
+        </sp>
+        <sp who="#reicher_pilger">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="35" unit="words"/>
+          <amount n="195" unit="chars"/>
+        </sp>
+        <sp who="#waisenhäuser">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="41" unit="words"/>
+          <amount n="219" unit="chars"/>
+        </sp>
+        <sp who="#reiche_pilger">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="17" unit="words"/>
+          <amount n="102" unit="chars"/>
+        </sp>
+        <sp who="#cardenio">
+          <amount n="14" unit="speech_acts"/>
+          <amount n="1277" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="6785" unit="chars"/>
+        </sp>
+        <sp who="#celinde">
+          <amount n="13" unit="speech_acts"/>
+          <amount n="359" unit="words"/>
+          <amount n="6" unit="lines"/>
+          <amount n="1877" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>Die Aussicht nach Jerusalem</head>
+      <div>
+        <head>Die Aussicht nach Jerusalem.</head>
+        <sp who="#mahomedaner">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="75" unit="words"/>
+          <amount n="6" unit="lines"/>
+          <amount n="426" unit="chars"/>
+        </sp>
+        <sp who="#christen">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="53" unit="words"/>
+          <amount n="6" unit="lines"/>
+          <amount n="289" unit="chars"/>
+        </sp>
+        <sp who="#mohr">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="148" unit="words"/>
+          <amount n="25" unit="lines"/>
+          <amount n="754" unit="chars"/>
+        </sp>
+        <sp who="#der_einsiedler">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="355" unit="words"/>
+          <amount n="30" unit="lines"/>
+          <amount n="1808" unit="chars"/>
+        </sp>
+        <sp who="#celinde">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="137" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="755" unit="chars"/>
+        </sp>
+        <sp who="#cardenio">
+          <amount n="17" unit="speech_acts"/>
+          <amount n="498" unit="words"/>
+          <amount n="31" unit="lines"/>
+          <amount n="2738" unit="chars"/>
+        </sp>
+        <sp who="#bube">
+          <amount n="13" unit="speech_acts"/>
+          <amount n="280" unit="words"/>
+          <amount n="13" unit="lines"/>
+          <amount n="1491" unit="chars"/>
+        </sp>
+        <sp who="#ahasverus">
+          <amount n="13" unit="speech_acts"/>
+          <amount n="637" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="3534" unit="chars"/>
+        </sp>
+        <sp who="#mönch">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="15" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="76" unit="chars"/>
+        </sp>
+        <sp who="#der_bube">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="32" unit="words"/>
+          <amount n="8" unit="lines"/>
+          <amount n="176" unit="chars"/>
+        </sp>
+        <sp who="#olympie">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="50" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="275" unit="chars"/>
+        </sp>
+        <sp who="#lysander">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="47" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="240" unit="chars"/>
+        </sp>
+        <sp who="#waisenhäuser">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="116" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="632" unit="chars"/>
+        </sp>
+        <sp who="#lord">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="276" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="1540" unit="chars"/>
+        </sp>
+        <sp who="#lichterzieher">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="9" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="64" unit="chars"/>
+        </sp>
+        <sp who="#schäfermädchen">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="129" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="648" unit="chars"/>
+        </sp>
+        <sp who="#schäferknabe">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="98" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="466" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>Der Harem des Pascha von Jerusalem</head>
+      <div>
+        <head>Der Harem des Pascha von Jerusalem.</head>
+        <sp who="#bassa">
+          <amount n="14" unit="speech_acts"/>
+          <amount n="442" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="2372" unit="chars"/>
+        </sp>
+        <sp who="#favorite">
+          <amount n="15" unit="speech_acts"/>
+          <amount n="602" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="3264" unit="chars"/>
+        </sp>
+        <sp who="#fatme">
+          <amount n="13" unit="speech_acts"/>
+          <amount n="246" unit="words"/>
+          <amount n="8" unit="lines"/>
+          <amount n="1300" unit="chars"/>
+        </sp>
+        <sp who="#achmet">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="24" unit="words"/>
+          <amount n="131" unit="chars"/>
+        </sp>
+        <sp who="#roxane">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="84" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="441" unit="chars"/>
+        </sp>
+        <sp who="#favorite #roxane #olympie">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="27" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="147" unit="chars"/>
+        </sp>
+        <sp who="#sidney">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="197" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="1059" unit="chars"/>
+        </sp>
+        <sp who="#viren">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="14" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="85" unit="chars"/>
+        </sp>
+        <sp who="#olympie">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="36" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="217" unit="chars"/>
+        </sp>
+        <sp who="#favorite #fatme #roxane #olympie">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="4" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="24" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>Das Nonnenkloster in Jerusalem</head>
+      <div>
+        <head>Das Nonnenkloster in Jerusalem.</head>
+        <sp who="#die_äbtissin">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="18" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="97" unit="chars"/>
+        </sp>
+        <sp who="#olympie">
+          <amount n="9" unit="speech_acts"/>
+          <amount n="322" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="1763" unit="chars"/>
+        </sp>
+        <sp who="#äbtissin">
+          <amount n="10" unit="speech_acts"/>
+          <amount n="342" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="1894" unit="chars"/>
+        </sp>
+        <sp who="#nonne">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="76" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="386" unit="chars"/>
+        </sp>
+        <sp who="#andre_nonne">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="176" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="896" unit="chars"/>
+        </sp>
+        <sp who="#eine_dritte_nonne">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="20" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="96" unit="chars"/>
+        </sp>
+        <sp who="#dritte_nonne">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="18" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="88" unit="chars"/>
+        </sp>
+        <sp who="#pförtnerin">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="8" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="50" unit="chars"/>
+        </sp>
+        <sp who="#sidney">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="109" unit="words"/>
+          <amount n="603" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>Die drei Alten in Jerusalem</head>
+      <div>
+        <head>Die drei Alten in Jerusalem.</head>
+        <sp who="#erster_alter">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="55" unit="words"/>
+          <amount n="5" unit="lines"/>
+          <amount n="309" unit="chars"/>
+        </sp>
+        <sp who="#zweiter_alter">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="17" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="102" unit="chars"/>
+        </sp>
+        <sp who="#dritter_alter">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="43" unit="words"/>
+          <amount n="6" unit="lines"/>
+          <amount n="247" unit="chars"/>
+        </sp>
+        <sp who="#rabbi">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="29" unit="words"/>
+          <amount n="149" unit="chars"/>
+        </sp>
+        <sp who="#jude">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="20" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="97" unit="chars"/>
+        </sp>
+        <sp who="#ahasverus">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="97" unit="words"/>
+          <amount n="8" unit="lines"/>
+          <amount n="560" unit="chars"/>
+        </sp>
+        <sp who="#juden #jude">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="7" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="44" unit="chars"/>
+        </sp>
+        <sp who="#cardenio">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="12" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="57" unit="chars"/>
+        </sp>
+        <sp who="#celinde">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="11" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="57" unit="chars"/>
+        </sp>
+        <sp who="#erster_alter #zweiter_alter #dritter_alter">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="29" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="154" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>Die Nacht in der Herberge zu Jerusalem</head>
+      <div>
+        <head>Die Nacht in der Herberge zu Jerusalem.</head>
+        <sp who="#sidney">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="128" unit="words"/>
+          <amount n="727" unit="chars"/>
+        </sp>
+        <sp who="#bromly">
+          <amount n="24" unit="speech_acts"/>
+          <amount n="467" unit="words"/>
+          <amount n="10" unit="lines"/>
+          <amount n="2525" unit="chars"/>
+        </sp>
+        <sp who="#viren">
+          <amount n="10" unit="speech_acts"/>
+          <amount n="217" unit="words"/>
+          <amount n="6" unit="lines"/>
+          <amount n="1177" unit="chars"/>
+        </sp>
+        <sp who="#reisender">
+          <amount n="22" unit="speech_acts"/>
+          <amount n="790" unit="words"/>
+          <amount n="9" unit="lines"/>
+          <amount n="4331" unit="chars"/>
+        </sp>
+        <sp who="#der_reisende">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="35" unit="words"/>
+          <amount n="203" unit="chars"/>
+        </sp>
+        <sp who="#cardenio #celinde">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="58" unit="words"/>
+          <amount n="12" unit="lines"/>
+          <amount n="311" unit="chars"/>
+        </sp>
+        <sp who="#celinde">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="24" unit="words"/>
+          <amount n="5" unit="lines"/>
+          <amount n="148" unit="chars"/>
+        </sp>
+        <sp who="#der_schmid">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="15" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="89" unit="chars"/>
+        </sp>
+        <sp who="#schmid">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="499" unit="words"/>
+          <amount n="56" unit="lines"/>
+          <amount n="2614" unit="chars"/>
+        </sp>
+        <sp who="#stigma">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="48" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="274" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>Der Ritterschlag am heiligen Grabe</head>
+      <div>
+        <head>Der Ritterschlag am heiligen Grabe.</head>
+        <sp who="#bromly">
+          <amount n="11" unit="speech_acts"/>
+          <amount n="440" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="2503" unit="chars"/>
+        </sp>
+        <sp who="#viren">
+          <amount n="12" unit="speech_acts"/>
+          <amount n="401" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="2262" unit="chars"/>
+        </sp>
+        <sp who="#der_reisende">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="210" unit="words"/>
+          <amount n="20" unit="lines"/>
+          <amount n="1116" unit="chars"/>
+        </sp>
+        <sp who="#reisender">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="101" unit="words"/>
+          <amount n="10" unit="lines"/>
+          <amount n="551" unit="chars"/>
+        </sp>
+        <sp who="#sidney">
+          <amount n="20" unit="speech_acts"/>
+          <amount n="1237" unit="words"/>
+          <amount n="8" unit="lines"/>
+          <amount n="6670" unit="chars"/>
+        </sp>
+        <sp who="#guardian">
+          <amount n="12" unit="speech_acts"/>
+          <amount n="730" unit="words"/>
+          <amount n="17" unit="lines"/>
+          <amount n="4104" unit="chars"/>
+        </sp>
+        <sp who="#äbtissin">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="78" unit="words"/>
+          <amount n="436" unit="chars"/>
+        </sp>
+        <sp who="#olympie">
+          <amount n="9" unit="speech_acts"/>
+          <amount n="282" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="1586" unit="chars"/>
+        </sp>
+        <sp who="#hirtinnen">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="30" unit="words"/>
+          <amount n="6" unit="lines"/>
+          <amount n="166" unit="chars"/>
+        </sp>
+        <sp who="#hirten">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="31" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="140" unit="chars"/>
+        </sp>
+        <sp who="#bube">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="66" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="376" unit="chars"/>
+        </sp>
+        <sp who="#hirtinnen #hirten #bube">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="150" unit="words"/>
+          <amount n="26" unit="lines"/>
+          <amount n="794" unit="chars"/>
+        </sp>
+        <sp who="#cardenio">
+          <amount n="9" unit="speech_acts"/>
+          <amount n="334" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="1788" unit="chars"/>
+        </sp>
+        <sp who="#celinde">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="219" unit="words"/>
+          <amount n="28" unit="lines"/>
+          <amount n="1152" unit="chars"/>
+        </sp>
+        <sp who="#chor_der_nonnen">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="221" unit="words"/>
+          <amount n="32" unit="lines"/>
+          <amount n="1167" unit="chars"/>
+        </sp>
+        <sp who="#griechen">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="61" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="364" unit="chars"/>
+        </sp>
+        <sp who="#armenianer">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="65" unit="words"/>
+          <amount n="345" unit="chars"/>
+        </sp>
+        <sp who="#die_engländer">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="73" unit="words"/>
+          <amount n="18" unit="lines"/>
+          <amount n="425" unit="chars"/>
+        </sp>
+        <sp who="#chorgesang">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="159" unit="words"/>
+          <amount n="28" unit="lines"/>
+          <amount n="817" unit="chars"/>
+        </sp>
+        <sp who="#chor">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="12" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="64" unit="chars"/>
+        </sp>
+        <sp who="#gegenchor">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="11" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="57" unit="chars"/>
+        </sp>
+        <sp who="#stimme_aus_dem_heilgen_grabe">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="206" unit="words"/>
+          <amount n="40" unit="lines"/>
+          <amount n="1154" unit="chars"/>
+        </sp>
+        <sp who="#der_dichter">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="21" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="124" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+  </text>
+</play>

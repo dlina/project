@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="http://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital">
+  <header>
+    <title>Die Fahnenweihe</title>
+    <subtitle>Eine Komödie in drei Akten</subtitle>
+    <genretitle>Komödie</genretitle>
+    <author>Ruederer, Josef</author>
+    <date type="print" when="1895">1895</date>
+    <date type="premiere">1896</date>
+    <date type="written" when="1894">1894</date>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:tn4k.0/data</source>
+  </header>
+  <personae>
+    <character>
+      <name>FRÄULEIN SCHAITZACH</name>
+      <alias xml:id="fräulein_schaitzach">
+        <name>FRÄULEIN SCHAITZACH</name>
+      </alias>
+    </character>
+    <character>
+      <name>HERR VON BECK</name>
+      <alias xml:id="herr_von_beck">
+        <name>HERR VON BECK</name>
+      </alias>
+      <alias xml:id="beck">
+        <name>BECK</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE DREI CHORISTINNEN</name>
+      <alias xml:id="die_drei_choristinnen">
+        <name>DIE DREI CHORISTINNEN</name>
+      </alias>
+      <alias xml:id="die_choristinnen">
+        <name>DIE CHORISTINNEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>LORENZ</name>
+      <alias xml:id="lorenz">
+        <name>LORENZ</name>
+      </alias>
+    </character>
+    <character>
+      <name>PFARRER</name>
+      <alias xml:id="pfarrer">
+        <name>PFARRER</name>
+      </alias>
+    </character>
+    <character>
+      <name>POSTHALTER</name>
+      <alias xml:id="posthalter">
+        <name>POSTHALTER</name>
+      </alias>
+    </character>
+    <character>
+      <name>SEEHANSELE</name>
+      <alias xml:id="seehansele">
+        <name>SEEHANSELE</name>
+      </alias>
+    </character>
+    <character>
+      <name>BURGL</name>
+      <alias xml:id="burgl">
+        <name>BURGL</name>
+      </alias>
+    </character>
+    <character>
+      <name>SEPPL</name>
+      <alias xml:id="seppl">
+        <name>SEPPL</name>
+      </alias>
+    </character>
+    <character>
+      <name>KEDERBAUER</name>
+      <alias xml:id="kederbauer">
+        <name>KEDERBAUER</name>
+      </alias>
+    </character>
+    <character>
+      <name>MOHRENWIRT</name>
+      <alias xml:id="mohrenwirt">
+        <name>MOHRENWIRT</name>
+      </alias>
+    </character>
+    <character>
+      <name>MUTZENBAUER</name>
+      <alias xml:id="mutzenbauer">
+        <name>MUTZENBAUER</name>
+      </alias>
+    </character>
+    <character>
+      <name>ROSL</name>
+      <alias xml:id="rosl">
+        <name>ROSL</name>
+      </alias>
+    </character>
+    <character>
+      <name>WEHRMÜLLERIN</name>
+      <alias xml:id="wehrmüllerin">
+        <name>WEHRMÜLLERIN</name>
+      </alias>
+    </character>
+    <character>
+      <name>FRAU WANNINGER</name>
+      <alias xml:id="frau_wanninger">
+        <name>FRAU WANNINGER</name>
+      </alias>
+    </character>
+    <character>
+      <name>FRAU SPECHT</name>
+      <alias xml:id="frau_specht">
+        <name>FRAU SPECHT</name>
+      </alias>
+    </character>
+    <character>
+      <name>POSTHALTERIN</name>
+      <alias xml:id="posthalterin">
+        <name>POSTHALTERIN</name>
+      </alias>
+    </character>
+    <character>
+      <name>WALLY</name>
+      <alias xml:id="wally">
+        <name>WALLY</name>
+      </alias>
+    </character>
+    <character>
+      <name>RETTINGER</name>
+      <alias xml:id="rettinger">
+        <name>RETTINGER</name>
+      </alias>
+    </character>
+    <character>
+      <name>GÖTZENSPERGER</name>
+      <alias xml:id="götzensperger">
+        <name>GÖTZENSPERGER</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE ZUHÖRER</name>
+      <alias xml:id="die_zuhörer">
+        <name>DIE ZUHÖRER</name>
+      </alias>
+    </character>
+    <character>
+      <name>AMTSRICHTER</name>
+      <alias xml:id="amtsrichter">
+        <name>AMTSRICHTER</name>
+      </alias>
+    </character>
+    <character>
+      <name>HULDA</name>
+      <alias xml:id="hulda">
+        <name>HULDA</name>
+      </alias>
+    </character>
+    <character>
+      <name>FLORA</name>
+      <alias xml:id="flora">
+        <name>FLORA</name>
+      </alias>
+    </character>
+    <character>
+      <name>HIES</name>
+      <alias xml:id="hies">
+        <name>HIES</name>
+      </alias>
+    </character>
+    <character>
+      <name>KNACKBERGER</name>
+      <alias xml:id="knackberger">
+        <name>KNACKBERGER</name>
+      </alias>
+    </character>
+    <character>
+      <name>BERNHUBER</name>
+      <alias xml:id="bernhuber">
+        <name>BERNHUBER</name>
+      </alias>
+    </character>
+    <character>
+      <name>MINNA</name>
+      <alias xml:id="minna">
+        <name>MINNA</name>
+      </alias>
+    </character>
+    <character>
+      <name>FOITENLEITNER</name>
+      <alias xml:id="foitenleitner">
+        <name>FOITENLEITNER</name>
+      </alias>
+    </character>
+    <character>
+      <name>NUSSER</name>
+      <alias xml:id="nusser">
+        <name>NUSSER</name>
+      </alias>
+    </character>
+    <character>
+      <name>GENDARM</name>
+      <alias xml:id="gendarm">
+        <name>GENDARM</name>
+      </alias>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Personen</head>
+    </div>
+    <div>
+      <head>1. Akt</head>
+      <div>
+        <head>Erster Akt</head>
+        <sp who="#pfarrer">
+          <amount n="35" unit="speech_acts"/>
+          <amount n="521" unit="words"/>
+          <amount n="25" unit="lines"/>
+          <amount n="3003" unit="chars"/>
+        </sp>
+        <sp who="#posthalter">
+          <amount n="76" unit="speech_acts"/>
+          <amount n="790" unit="words"/>
+          <amount n="65" unit="lines"/>
+          <amount n="4305" unit="chars"/>
+        </sp>
+        <sp who="#seehansele">
+          <amount n="60" unit="speech_acts"/>
+          <amount n="881" unit="words"/>
+          <amount n="54" unit="lines"/>
+          <amount n="4601" unit="chars"/>
+        </sp>
+        <sp who="#burgl">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="59" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="289" unit="chars"/>
+        </sp>
+        <sp who="#lorenz">
+          <amount n="63" unit="speech_acts"/>
+          <amount n="1068" unit="words"/>
+          <amount n="49" unit="lines"/>
+          <amount n="5515" unit="chars"/>
+        </sp>
+        <sp who="#seppl">
+          <amount n="15" unit="speech_acts"/>
+          <amount n="172" unit="words"/>
+          <amount n="14" unit="lines"/>
+          <amount n="834" unit="chars"/>
+        </sp>
+        <sp who="#kederbauer">
+          <amount n="33" unit="speech_acts"/>
+          <amount n="329" unit="words"/>
+          <amount n="27" unit="lines"/>
+          <amount n="1733" unit="chars"/>
+        </sp>
+        <sp who="#mohrenwirt">
+          <amount n="21" unit="speech_acts"/>
+          <amount n="265" unit="words"/>
+          <amount n="17" unit="lines"/>
+          <amount n="1466" unit="chars"/>
+        </sp>
+        <sp who="#mutzenbauer">
+          <amount n="9" unit="speech_acts"/>
+          <amount n="62" unit="words"/>
+          <amount n="8" unit="lines"/>
+          <amount n="354" unit="chars"/>
+        </sp>
+        <sp who="#rosl">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="86" unit="words"/>
+          <amount n="5" unit="lines"/>
+          <amount n="484" unit="chars"/>
+        </sp>
+        <sp who="#wehrmüllerin">
+          <amount n="14" unit="speech_acts"/>
+          <amount n="211" unit="words"/>
+          <amount n="9" unit="lines"/>
+          <amount n="1066" unit="chars"/>
+        </sp>
+        <sp who="#frau_wanninger">
+          <amount n="58" unit="speech_acts"/>
+          <amount n="546" unit="words"/>
+          <amount n="48" unit="lines"/>
+          <amount n="2874" unit="chars"/>
+        </sp>
+        <sp who="#frau_specht">
+          <amount n="33" unit="speech_acts"/>
+          <amount n="259" unit="words"/>
+          <amount n="30" unit="lines"/>
+          <amount n="1419" unit="chars"/>
+        </sp>
+        <sp who="#posthalterin">
+          <amount n="53" unit="speech_acts"/>
+          <amount n="744" unit="words"/>
+          <amount n="42" unit="lines"/>
+          <amount n="3977" unit="chars"/>
+        </sp>
+        <sp who="#fräulein_schaitzach">
+          <amount n="8" unit="speech_acts"/>
+          <amount n="57" unit="words"/>
+          <amount n="8" unit="lines"/>
+          <amount n="277" unit="chars"/>
+        </sp>
+        <sp who="#wally">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="13" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="78" unit="chars"/>
+        </sp>
+        <sp who="#frau_wanninger #frau_specht">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="6" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="27" unit="chars"/>
+        </sp>
+        <sp who="#rettinger">
+          <amount n="34" unit="speech_acts"/>
+          <amount n="222" unit="words"/>
+          <amount n="33" unit="lines"/>
+          <amount n="1244" unit="chars"/>
+        </sp>
+        <sp who="#herr_von_beck">
+          <amount n="13" unit="speech_acts"/>
+          <amount n="114" unit="words"/>
+          <amount n="11" unit="lines"/>
+          <amount n="649" unit="chars"/>
+        </sp>
+        <sp who="#posthalter #rettinger">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="3" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="17" unit="chars"/>
+        </sp>
+        <sp who="#pfarrer #posthalter #seehansele #burgl #lorenz #seppl #kederbauer #mohrenwirt #mutzenbauer #rosl #wehrmüllerin #frau_wanninger #frau_specht #posthalterin #fräulein_schaitzach #wally #rettinger #herr_von_beck #götzensperger #die_zuhörer #amtsrichter #hulda #flora #hies">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="20" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="132" unit="chars"/>
+        </sp>
+        <sp who="#götzensperger">
+          <amount n="17" unit="speech_acts"/>
+          <amount n="259" unit="words"/>
+          <amount n="11" unit="lines"/>
+          <amount n="1471" unit="chars"/>
+        </sp>
+        <sp who="#die_zuhörer">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="3" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="20" unit="chars"/>
+        </sp>
+        <sp who="#amtsrichter">
+          <amount n="12" unit="speech_acts"/>
+          <amount n="55" unit="words"/>
+          <amount n="12" unit="lines"/>
+          <amount n="311" unit="chars"/>
+        </sp>
+        <sp who="#hulda">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="50" unit="words"/>
+          <amount n="5" unit="lines"/>
+          <amount n="261" unit="chars"/>
+        </sp>
+        <sp who="#flora">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="9" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="44" unit="chars"/>
+        </sp>
+        <sp who="#hies">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="41" unit="words"/>
+          <amount n="231" unit="chars"/>
+        </sp>
+        <sp who="#amtsrichter #pfarrer">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="4" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="14" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>2. Akt</head>
+      <div>
+        <head>Zweiter Akt</head>
+        <sp who="#knackberger">
+          <amount n="32" unit="speech_acts"/>
+          <amount n="247" unit="words"/>
+          <amount n="32" unit="lines"/>
+          <amount n="1331" unit="chars"/>
+        </sp>
+        <sp who="#bernhuber">
+          <amount n="36" unit="speech_acts"/>
+          <amount n="376" unit="words"/>
+          <amount n="31" unit="lines"/>
+          <amount n="2082" unit="chars"/>
+        </sp>
+        <sp who="#mohrenwirt">
+          <amount n="48" unit="speech_acts"/>
+          <amount n="541" unit="words"/>
+          <amount n="37" unit="lines"/>
+          <amount n="2931" unit="chars"/>
+        </sp>
+        <sp who="#hulda">
+          <amount n="18" unit="speech_acts"/>
+          <amount n="171" unit="words"/>
+          <amount n="18" unit="lines"/>
+          <amount n="986" unit="chars"/>
+        </sp>
+        <sp who="#flora">
+          <amount n="11" unit="speech_acts"/>
+          <amount n="79" unit="words"/>
+          <amount n="12" unit="lines"/>
+          <amount n="447" unit="chars"/>
+        </sp>
+        <sp who="#minna">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="40" unit="words"/>
+          <amount n="6" unit="lines"/>
+          <amount n="224" unit="chars"/>
+        </sp>
+        <sp who="#frau_specht">
+          <amount n="32" unit="speech_acts"/>
+          <amount n="398" unit="words"/>
+          <amount n="25" unit="lines"/>
+          <amount n="2205" unit="chars"/>
+        </sp>
+        <sp who="#frau_wanninger">
+          <amount n="22" unit="speech_acts"/>
+          <amount n="225" unit="words"/>
+          <amount n="16" unit="lines"/>
+          <amount n="1185" unit="chars"/>
+        </sp>
+        <sp who="#foitenleitner #nusser">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="18" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="97" unit="chars"/>
+        </sp>
+        <sp who="#foitenleitner">
+          <amount n="69" unit="speech_acts"/>
+          <amount n="508" unit="words"/>
+          <amount n="63" unit="lines"/>
+          <amount n="2727" unit="chars"/>
+        </sp>
+        <sp who="#rosl">
+          <amount n="1" unit="speech_acts"/>
+        </sp>
+        <sp who="#nusser">
+          <amount n="83" unit="speech_acts"/>
+          <amount n="650" unit="words"/>
+          <amount n="77" unit="lines"/>
+          <amount n="3641" unit="chars"/>
+        </sp>
+        <sp who="#knackberger #bernhuber #mohrenwirt #hulda #flora #minna #frau_specht #frau_wanninger #foitenleitner #nusser #rosl #wally #rettinger #götzensperger #die_drei_choristinnen #herr_von_beck #amtsrichter #pfarrer #posthalter #posthalterin #lorenz #hies #kederbauer #mutzenbauer">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="11" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="61" unit="chars"/>
+        </sp>
+        <sp who="#frau_specht #frau_wanninger">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="5" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="19" unit="chars"/>
+        </sp>
+        <sp who="#wally">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="15" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="74" unit="chars"/>
+        </sp>
+        <sp who="#rettinger">
+          <amount n="68" unit="speech_acts"/>
+          <amount n="648" unit="words"/>
+          <amount n="53" unit="lines"/>
+          <amount n="3520" unit="chars"/>
+        </sp>
+        <sp who="#götzensperger">
+          <amount n="11" unit="speech_acts"/>
+          <amount n="151" unit="words"/>
+          <amount n="8" unit="lines"/>
+          <amount n="824" unit="chars"/>
+        </sp>
+        <sp who="#die_drei_choristinnen">
+          <amount n="1" unit="speech_acts"/>
+        </sp>
+        <sp who="#herr_von_beck">
+          <amount n="9" unit="speech_acts"/>
+          <amount n="47" unit="words"/>
+          <amount n="9" unit="lines"/>
+          <amount n="280" unit="chars"/>
+        </sp>
+        <sp who="#die_choristinnen">
+          <amount n="1" unit="speech_acts"/>
+        </sp>
+        <sp who="#flora #minna">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="4" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="20" unit="chars"/>
+        </sp>
+        <sp who="#pfarrer #amtsrichter">
+          <amount n="1" unit="speech_acts"/>
+        </sp>
+        <sp who="#flora #minna #hulda">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="8" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="57" unit="chars"/>
+        </sp>
+        <sp who="#amtsrichter">
+          <amount n="28" unit="speech_acts"/>
+          <amount n="330" unit="words"/>
+          <amount n="21" unit="lines"/>
+          <amount n="1943" unit="chars"/>
+        </sp>
+        <sp who="#pfarrer">
+          <amount n="44" unit="speech_acts"/>
+          <amount n="766" unit="words"/>
+          <amount n="32" unit="lines"/>
+          <amount n="4403" unit="chars"/>
+        </sp>
+        <sp who="#posthalter">
+          <amount n="87" unit="speech_acts"/>
+          <amount n="1097" unit="words"/>
+          <amount n="69" unit="lines"/>
+          <amount n="5838" unit="chars"/>
+        </sp>
+        <sp who="#posthalterin">
+          <amount n="45" unit="speech_acts"/>
+          <amount n="447" unit="words"/>
+          <amount n="38" unit="lines"/>
+          <amount n="2290" unit="chars"/>
+        </sp>
+        <sp who="#rettinger #posthalterin">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="2" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="9" unit="chars"/>
+        </sp>
+        <sp who="#posthalter #posthalterin">
+          <amount n="1" unit="speech_acts"/>
+        </sp>
+        <sp who="#lorenz #hies">
+          <amount n="1" unit="speech_acts"/>
+        </sp>
+        <sp who="#lorenz">
+          <amount n="12" unit="speech_acts"/>
+          <amount n="90" unit="words"/>
+          <amount n="11" unit="lines"/>
+          <amount n="462" unit="chars"/>
+        </sp>
+        <sp who="#kederbauer #mutzenbauer">
+          <amount n="1" unit="speech_acts"/>
+        </sp>
+        <sp who="#kederbauer">
+          <amount n="26" unit="speech_acts"/>
+          <amount n="291" unit="words"/>
+          <amount n="21" unit="lines"/>
+          <amount n="1637" unit="chars"/>
+        </sp>
+        <sp who="#mutzenbauer">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="6" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="34" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>3. Akt</head>
+      <div>
+        <head>Dritter Akt</head>
+        <sp who="#götzensperger">
+          <amount n="82" unit="speech_acts"/>
+          <amount n="683" unit="words"/>
+          <amount n="69" unit="lines"/>
+          <amount n="3648" unit="chars"/>
+        </sp>
+        <sp who="#hulda">
+          <amount n="28" unit="speech_acts"/>
+          <amount n="266" unit="words"/>
+          <amount n="25" unit="lines"/>
+          <amount n="1390" unit="chars"/>
+        </sp>
+        <sp who="#die_choristinnen">
+          <amount n="2" unit="speech_acts"/>
+        </sp>
+        <sp who="#herr_von_beck">
+          <amount n="64" unit="speech_acts"/>
+          <amount n="570" unit="words"/>
+          <amount n="53" unit="lines"/>
+          <amount n="3298" unit="chars"/>
+        </sp>
+        <sp who="#flora">
+          <amount n="25" unit="speech_acts"/>
+          <amount n="157" unit="words"/>
+          <amount n="25" unit="lines"/>
+          <amount n="826" unit="chars"/>
+        </sp>
+        <sp who="#minna">
+          <amount n="18" unit="speech_acts"/>
+          <amount n="86" unit="words"/>
+          <amount n="18" unit="lines"/>
+          <amount n="467" unit="chars"/>
+        </sp>
+        <sp who="#seppl">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="8" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="43" unit="chars"/>
+        </sp>
+        <sp who="#götzensperger #beck">
+          <amount n="1" unit="speech_acts"/>
+        </sp>
+        <sp who="#wally">
+          <amount n="25" unit="speech_acts"/>
+          <amount n="121" unit="words"/>
+          <amount n="20" unit="lines"/>
+          <amount n="627" unit="chars"/>
+        </sp>
+        <sp who="#rettinger">
+          <amount n="100" unit="speech_acts"/>
+          <amount n="1209" unit="words"/>
+          <amount n="72" unit="lines"/>
+          <amount n="6622" unit="chars"/>
+        </sp>
+        <sp who="#frau_wanninger">
+          <amount n="19" unit="speech_acts"/>
+          <amount n="263" unit="words"/>
+          <amount n="13" unit="lines"/>
+          <amount n="1430" unit="chars"/>
+        </sp>
+        <sp who="#frau_specht">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="104" unit="words"/>
+          <amount n="5" unit="lines"/>
+          <amount n="579" unit="chars"/>
+        </sp>
+        <sp who="#posthalterin">
+          <amount n="78" unit="speech_acts"/>
+          <amount n="548" unit="words"/>
+          <amount n="72" unit="lines"/>
+          <amount n="2819" unit="chars"/>
+        </sp>
+        <sp who="#posthalter">
+          <amount n="186" unit="speech_acts"/>
+          <amount n="2283" unit="words"/>
+          <amount n="150" unit="lines"/>
+          <amount n="12152" unit="chars"/>
+        </sp>
+        <sp who="#götzensperger #herr_von_beck">
+          <amount n="2" unit="speech_acts"/>
+        </sp>
+        <sp who="#lorenz">
+          <amount n="11" unit="speech_acts"/>
+          <amount n="91" unit="words"/>
+          <amount n="9" unit="lines"/>
+          <amount n="510" unit="chars"/>
+        </sp>
+        <sp who="#rosl">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="20" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="114" unit="chars"/>
+        </sp>
+        <sp who="#hulda #flora">
+          <amount n="2" unit="speech_acts"/>
+        </sp>
+        <sp who="#foitenleitner #nusser">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="11" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="82" unit="chars"/>
+        </sp>
+        <sp who="#foitenleitner">
+          <amount n="23" unit="speech_acts"/>
+          <amount n="193" unit="words"/>
+          <amount n="21" unit="lines"/>
+          <amount n="1076" unit="chars"/>
+        </sp>
+        <sp who="#nusser">
+          <amount n="23" unit="speech_acts"/>
+          <amount n="151" unit="words"/>
+          <amount n="20" unit="lines"/>
+          <amount n="906" unit="chars"/>
+        </sp>
+        <sp who="#götzensperger #hulda #die_choristinnen #herr_von_beck #flora #minna #seppl #wally #rettinger #frau_wanninger #frau_specht #posthalterin #posthalter #lorenz #rosl #foitenleitner #nusser #mutzenbauer #seehansele #kederbauer #amtsrichter #pfarrer #gendarm #fräulein_schaitzach">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="9" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="40" unit="chars"/>
+        </sp>
+        <sp who="#mutzenbauer">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="52" unit="words"/>
+          <amount n="5" unit="lines"/>
+          <amount n="266" unit="chars"/>
+        </sp>
+        <sp who="#seehansele">
+          <amount n="13" unit="speech_acts"/>
+          <amount n="94" unit="words"/>
+          <amount n="11" unit="lines"/>
+          <amount n="477" unit="chars"/>
+        </sp>
+        <sp who="#kederbauer">
+          <amount n="10" unit="speech_acts"/>
+          <amount n="74" unit="words"/>
+          <amount n="10" unit="lines"/>
+          <amount n="413" unit="chars"/>
+        </sp>
+        <sp who="#amtsrichter">
+          <amount n="27" unit="speech_acts"/>
+          <amount n="135" unit="words"/>
+          <amount n="27" unit="lines"/>
+          <amount n="780" unit="chars"/>
+        </sp>
+        <sp who="#pfarrer">
+          <amount n="30" unit="speech_acts"/>
+          <amount n="185" unit="words"/>
+          <amount n="29" unit="lines"/>
+          <amount n="1047" unit="chars"/>
+        </sp>
+        <sp who="#gendarm">
+          <amount n="1" unit="speech_acts"/>
+        </sp>
+        <sp who="#frau_specht #fräulein_schaitzach">
+          <amount n="1" unit="speech_acts"/>
+        </sp>
+      </div>
+    </div>
+  </text>
+</play>

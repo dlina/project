@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital">
+  <header>
+    <title>Der Besuch um Mitternacht</title>
+	<author>Leisewitz, Johann Anton</author>
+    <date type="print" when="1774">1774</date>
+    <date type="premiere"></date>
+    <date type="written"></date>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:rfx8.0/data</source>
+  </header>
+  <personae>
+    <character>
+      <name>DER FÜRST</name>
+      <alias xml:id="der_fürst">
+        <name>DER FÜRST</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER KAMMERHERR</name>
+      <alias xml:id="der_kammerherr">
+        <name>DER KAMMERHERR</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER GEIST</name>
+      <alias xml:id="der_geist">
+        <name>DER GEIST</name>
+      </alias>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Johann Anton Leisewitz</head>
+      <sp who="#der_fürst">
+        <amount n="6" unit="speech_acts"/>
+        <amount n="141" unit="words"/>
+        <amount n="3" unit="lines"/>
+        <amount n="844" unit="chars"/>
+      </sp>
+      <sp who="#der_kammerherr">
+        <amount n="4" unit="speech_acts"/>
+        <amount n="69" unit="words"/>
+        <amount n="2" unit="lines"/>
+        <amount n="376" unit="chars"/>
+      </sp>
+      <sp who="#der_geist">
+        <amount n="3" unit="speech_acts"/>
+        <amount n="222" unit="words"/>
+        <amount n="1250" unit="chars"/>
+      </sp>
+    </div>
+  </text>
+</play>

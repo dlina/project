@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital">
+  <header>
+    <title>Trauerspiel in Sizilien</title>
+  	<subtitle>Tragikomödie in einem Akt</subtitle>
+  	<genretitle>Tragikomödie</genretitle>
+    <author>Hebbel, Friedrich</author>
+    <date when="1846" type="written" />
+  	<date when="1847" type="print" />
+  	<date when="1907" type="premiere" />
+  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:pmp3.0/data</source>
+  </header>
+  <personae>
+    <character>
+      <name>AMBROSIO</name>
+      <alias xml:id="ambrosio">
+        <name>AMBROSIO</name>
+      </alias>
+    </character>
+    <character>
+      <name>BARTOLINO</name>
+      <alias xml:id="bartolino">
+        <name>BARTOLINO</name>
+      </alias>
+    </character>
+    <character>
+      <name>ANGIOLINA</name>
+      <alias xml:id="angiolina">
+        <name>ANGIOLINA</name>
+      </alias>
+    </character>
+    <character>
+      <name>EINE STIMME VON DRAUSSEN</name>
+      <alias xml:id="eine_stimme_von_draussen">
+        <name>EINE STIMME VON DRAUSSEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>SEBASTIANO</name>
+      <alias xml:id="sebastiano">
+        <name>SEBASTIANO</name>
+      </alias>
+    </character>
+    <character>
+      <name>HERR GREGORIO</name>
+      <alias xml:id="herr_gregorio">
+        <name>HERR GREGORIO</name>
+      </alias>
+    </character>
+    <character>
+      <name>ANSELMO</name>
+      <alias xml:id="anselmo">
+        <name>ANSELMO</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN SOLDAT</name>
+      <alias xml:id="ein_soldat">
+        <name>EIN SOLDAT</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN BAUER</name>
+      <alias xml:id="ein_bauer">
+        <name>EIN BAUER</name>
+      </alias>
+    	<alias xml:id="der_bauer">
+    		<name>DER BAUER</name>
+    	</alias>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Personen</head>
+    </div>
+    <div>
+      <head>1. Szene</head>
+      <div>
+        <head>Erste Szene</head>
+        <sp who="#ambrosio">
+          <amount n="28" unit="speech_acts"/>
+          <amount n="1376" unit="words"/>
+          <amount n="185" unit="lines"/>
+          <amount n="7141" unit="chars"/>
+        </sp>
+        <sp who="#bartolino">
+          <amount n="27" unit="speech_acts"/>
+          <amount n="437" unit="words"/>
+          <amount n="65" unit="lines"/>
+          <amount n="2248" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>2. Szene</head>
+      <div>
+        <head>Zweite Szene</head>
+        <sp who="#angiolina">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="338" unit="words"/>
+          <amount n="41" unit="lines"/>
+          <amount n="1691" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>3. Szene</head>
+      <div>
+        <head>Dritte Szene</head>
+        <sp who="#ambrosio">
+          <amount n="36" unit="speech_acts"/>
+          <amount n="635" unit="words"/>
+          <amount n="99" unit="lines"/>
+          <amount n="3214" unit="chars"/>
+        </sp>
+        <sp who="#bartolino">
+          <amount n="21" unit="speech_acts"/>
+          <amount n="250" unit="words"/>
+          <amount n="42" unit="lines"/>
+          <amount n="1264" unit="chars"/>
+        </sp>
+        <sp who="#angiolina">
+          <amount n="19" unit="speech_acts"/>
+          <amount n="845" unit="words"/>
+          <amount n="110" unit="lines"/>
+          <amount n="4265" unit="chars"/>
+        </sp>
+        <sp who="#eine_stimme_von_draussen">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="2" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="5" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>4. Szene</head>
+      <div>
+        <head>Vierte Szene</head>
+        <sp who="#sebastiano">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="188" unit="words"/>
+          <amount n="26" unit="lines"/>
+          <amount n="971" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>5. Szene</head>
+      <div>
+        <head>Fünfte Szene</head>
+        <sp who="#ambrosio">
+          <amount n="10" unit="speech_acts"/>
+          <amount n="121" unit="words"/>
+          <amount n="21" unit="lines"/>
+          <amount n="597" unit="chars"/>
+        </sp>
+        <sp who="#sebastiano">
+          <amount n="9" unit="speech_acts"/>
+          <amount n="146" unit="words"/>
+          <amount n="22" unit="lines"/>
+          <amount n="658" unit="chars"/>
+        </sp>
+        <sp who="#bartolino">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="18" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="97" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>6. Szene</head>
+      <div>
+        <head>Sechste Szene</head>
+        <sp who="#herr_gregorio">
+          <amount n="28" unit="speech_acts"/>
+          <amount n="897" unit="words"/>
+          <amount n="122" unit="lines"/>
+          <amount n="4492" unit="chars"/>
+        </sp>
+        <sp who="#anselmo">
+          <amount n="27" unit="speech_acts"/>
+          <amount n="364" unit="words"/>
+          <amount n="62" unit="lines"/>
+          <amount n="1922" unit="chars"/>
+        </sp>
+        <sp who="#ambrosio">
+          <amount n="15" unit="speech_acts"/>
+          <amount n="133" unit="words"/>
+          <amount n="29" unit="lines"/>
+          <amount n="691" unit="chars"/>
+        </sp>
+        <sp who="#bartolino">
+          <amount n="11" unit="speech_acts"/>
+          <amount n="122" unit="words"/>
+          <amount n="22" unit="lines"/>
+          <amount n="597" unit="chars"/>
+        </sp>
+        <sp who="#sebastiano">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="83" unit="words"/>
+          <amount n="12" unit="lines"/>
+          <amount n="421" unit="chars"/>
+        </sp>
+        <sp who="#ein_soldat">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="7" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="26" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>7. Szene</head>
+      <div>
+        <head>Siebente Szene</head>
+        <sp who="#ein_bauer">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="3" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="20" unit="chars"/>
+        </sp>
+        <sp who="#herr_gregorio">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="40" unit="words"/>
+          <amount n="9" unit="lines"/>
+          <amount n="175" unit="chars"/>
+        </sp>
+        <sp who="#der_bauer">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="175" unit="words"/>
+          <amount n="24" unit="lines"/>
+          <amount n="871" unit="chars"/>
+        </sp>
+        <sp who="#ambrosio">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="132" unit="words"/>
+          <amount n="18" unit="lines"/>
+          <amount n="661" unit="chars"/>
+        </sp>
+        <sp who="#bartolino">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="10" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="45" unit="chars"/>
+        </sp>
+        <sp who="#sebastiano">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="82" unit="words"/>
+          <amount n="13" unit="lines"/>
+          <amount n="394" unit="chars"/>
+        </sp>
+        <sp who="#anselmo">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="88" unit="words"/>
+          <amount n="13" unit="lines"/>
+          <amount n="454" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+  </text>
+</play>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="http://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital">
+  <header>
+    <title>Der vornehme Räuberhauptmann</title>
+    <subtitle>Ein Bühnenspass in drei Aufzügen</subtitle>
+    <genretitle></genretitle>
+    <author>Scheerbart, Paul</author>
+    <date type="print" when="1904">1904</date>
+    <date type="premiere"></date>
+    <date type="written"></date>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:tv5k.0/data</source>
+  </header>
+  <personae>
+    <character>
+      <name>KNOBLAUCH</name>
+      <alias xml:id="knoblauch">
+        <name>KNOBLAUCH</name>
+      </alias>
+    </character>
+    <character>
+      <name>LORD</name>
+      <alias xml:id="lord">
+        <name>LORD</name>
+      </alias>
+    </character>
+    <character>
+      <name>KNUSSEL</name>
+      <alias xml:id="knussel">
+        <name>KNUSSEL</name>
+      </alias>
+    </character>
+    <character>
+      <name>MERRIBÛR</name>
+      <alias xml:id="merribûr">
+        <name>MERRIBÛR</name>
+      </alias>
+    </character>
+    <character>
+      <name>KLATSCH</name>
+      <alias xml:id="klatsch">
+        <name>KLATSCH</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN STRASSENKEHRER</name>
+      <alias xml:id="ein_strassenkehrer">
+        <name>EIN STRASSENKEHRER</name>
+      </alias>
+    </character>
+    <character>
+      <name>ZWEITER STRASSENKEHRER</name>
+      <alias xml:id="zweiter_strassenkehrer">
+        <name>ZWEITER STRASSENKEHRER</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN DICHTER</name>
+      <alias xml:id="ein_dichter">
+        <name>EIN DICHTER</name>
+      </alias>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Personen</head>
+    </div>
+    <div>
+      <head>1. Akt</head>
+      <div>
+        <head>Erster Aufzug</head>
+        <sp who="#knoblauch">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="288" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="1689" unit="chars"/>
+        </sp>
+        <sp who="#lord">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="9" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="44" unit="chars"/>
+        </sp>
+        <sp who="#knussel">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="17" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="103" unit="chars"/>
+        </sp>
+        <sp who="#merribûr">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="4" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="30" unit="chars"/>
+        </sp>
+        <sp who="#klatsch">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="4" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="24" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>2. Akt</head>
+      <div>
+        <head>Zweiter Aufzug</head>
+        <sp who="#knoblauch">
+          <amount n="16" unit="speech_acts"/>
+          <amount n="367" unit="words"/>
+          <amount n="24" unit="lines"/>
+          <amount n="2394" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>3. Akt</head>
+      <div>
+        <head>Dritter Aufzug</head>
+        <sp who="#knoblauch">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="205" unit="words"/>
+          <amount n="1262" unit="chars"/>
+        </sp>
+        <sp who="#ein_strassenkehrer">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="20" unit="words"/>
+          <amount n="115" unit="chars"/>
+        </sp>
+        <sp who="#zweiter_strassenkehrer">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="15" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="81" unit="chars"/>
+        </sp>
+        <sp who="#ein_dichter">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="4" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="24" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+  </text>
+</play>

@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital">
+  <header>
+    <title>Zum grossen Wurstel</title>
+    <subtitle>Burleske in einem Akt</subtitle>
+    <genretitle>Burleske</genretitle>
+    <author>Schnitzler, Arthur</author>
+    <date type="print" when="1906">1906</date>
+    <date type="premiere" when="1906">1906</date>
+    <date type="written" when="1904">1902–1904</date>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:v3t6.0/data</source>
+  </header>
+  <personae>
+    <character>
+      <name>DER WOHLWOLLENDE</name>
+      <alias xml:id="der_wohlwollende">
+        <name>DER WOHLWOLLENDE</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER BISSIGE</name>
+      <alias xml:id="der_bissige">
+        <name>DER BISSIGE</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER NAIVE</name>
+      <alias xml:id="der_naive">
+        <name>DER NAIVE</name>
+      </alias>
+    </character>
+    <character>
+      <name>KELLNER</name>
+      <alias xml:id="kellner">
+        <name>KELLNER</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIREKTOR</name>
+      <alias xml:id="direktor">
+        <name>DIREKTOR</name>
+      </alias>
+      <alias xml:id="der_direktor">
+        <name>DER DIREKTOR</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER KLAVIERSPIELER</name>
+      <alias xml:id="der_klavierspieler">
+        <name>DER KLAVIERSPIELER</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER DICHTER</name>
+      <alias xml:id="der_dichter">
+        <name>DER DICHTER</name>
+      </alias>
+    </character>
+    <character>
+      <name>HELD</name>
+      <alias xml:id="held">
+        <name>HELD</name>
+      </alias>
+    </character>
+    <character>
+      <name>LIESL</name>
+      <alias xml:id="liesl">
+        <name>LIESL</name>
+      </alias>
+    </character>
+    <character>
+      <name>HERZOG</name>
+      <alias xml:id="herzog">
+        <name>HERZOG</name>
+      </alias>
+    </character>
+    <character>
+      <name>HERZOGIN</name>
+      <alias xml:id="herzogin">
+        <name>HERZOGIN</name>
+      </alias>
+      <alias xml:id="die_herzogin_von_lawin">
+        <name>DIE HERZOGIN VON LAWIN</name>
+      </alias>
+    </character>
+    <character>
+      <name>ZWEITER BÜRGER</name>
+      <alias xml:id="zweiter_bürger">
+        <name>ZWEITER BÜRGER</name>
+      </alias>
+      <alias xml:id="zweiter">
+        <name>ZWEITER</name>
+      </alias>
+    </character>
+    <character>
+      <name>ERSTES MÄDEL</name>
+      <alias xml:id="erstes_mädel">
+        <name>ERSTES MÄDEL</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER RÄSONEUR</name>
+      <alias xml:id="der_räsoneur">
+        <name>DER RÄSONEUR</name>
+      </alias>
+      <alias xml:id="räsoneur">
+        <name>RÄSONEUR</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER DIENER</name>
+      <alias xml:id="der_diener">
+        <name>DER DIENER</name>
+      </alias>
+    </character>
+    <character>
+      <name>HEITERER</name>
+      <alias xml:id="heiterer">
+        <name>HEITERER</name>
+      </alias>
+    </character>
+    <character>
+      <name>ERNSTER</name>
+      <alias xml:id="ernster">
+        <name>ERNSTER</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE FRAU</name>
+      <alias xml:id="die_frau">
+        <name>DIE FRAU</name>
+      </alias>
+    </character>
+    <character>
+      <name>ERSTER BÜRGER</name>
+      <alias xml:id="erster_bürger">
+        <name>ERSTER BÜRGER</name>
+      </alias>
+    </character>
+    <character>
+      <name>ZWEITES MÄDEL</name>
+      <alias xml:id="zweites_mädel">
+        <name>ZWEITES MÄDEL</name>
+      </alias>
+    </character>
+    <character>
+      <name>DICHTER</name>
+      <alias xml:id="dichter">
+        <name>DICHTER</name>
+      </alias>
+    </character>
+    <character>
+      <name>KANZELIST</name>
+      <alias xml:id="kanzelist">
+        <name>KANZELIST</name>
+      </alias>
+    </character>
+    <character>
+      <name>BRÄUTIGAM</name>
+      <alias xml:id="bräutigam">
+        <name>BRÄUTIGAM</name>
+      </alias>
+    </character>
+    <character>
+      <name>TOD</name>
+      <alias xml:id="tod">
+        <name>TOD</name>
+      </alias>
+    </character>
+    <character>
+      <name>ERSTER SKANDALMACHER</name>
+      <alias xml:id="erster_skandalmacher">
+        <name>ERSTER SKANDALMACHER</name>
+      </alias>
+    </character>
+    <character>
+      <name>ZWEITER SKANDALMACHER</name>
+      <alias xml:id="zweiter_skandalmacher">
+        <name>ZWEITER SKANDALMACHER</name>
+      </alias>
+      <alias xml:id="andere">
+        <name>ANDERE</name>
+      </alias>
+    </character>
+    <character>
+      <name>VIELE</name>
+      <alias xml:id="viele">
+        <name>VIELE</name>
+      </alias>
+      <alias xml:id="einige">
+        <name>EINIGE</name>
+      </alias>
+    </character>
+    <character>
+      <name>MEISTER</name>
+      <alias xml:id="meister">
+        <name>MEISTER</name>
+      </alias>
+    </character>
+    <character>
+      <name>GRAF</name>
+      <alias xml:id="graf">
+        <name>GRAF</name>
+      </alias>
+      <alias xml:id="der_graf">
+        <name>DER GRAF</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER HERR IM PARKETT</name>
+      <alias xml:id="der_herr_im_parkett">
+        <name>DER HERR IM PARKETT</name>
+      </alias>
+      <alias xml:id="der_herr">
+        <name>DER HERR</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE MARIONETTEN</name>
+      <alias xml:id="die_marionetten">
+        <name>DIE MARIONETTEN</name>
+      </alias>
+      <alias xml:id="marionetten">
+        <name>MARIONETTEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER UNBEKANNTE</name>
+      <alias xml:id="der_unbekannte">
+        <name>DER UNBEKANNTE</name>
+      </alias>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Personen</head>
+    </div>
+    <div>
+      <head>[Stücktext]</head>
+      <div>
+        <head>[Stücktext]</head>
+        <sp who="#der_wohlwollende">
+          <amount n="17" unit="speech_acts"/>
+          <amount n="112" unit="words"/>
+          <amount n="16" unit="lines"/>
+          <amount n="606" unit="chars"/>
+        </sp>
+        <sp who="#der_bissige">
+          <amount n="24" unit="speech_acts"/>
+          <amount n="179" unit="words"/>
+          <amount n="21" unit="lines"/>
+          <amount n="1025" unit="chars"/>
+        </sp>
+        <sp who="#der_naive">
+          <amount n="17" unit="speech_acts"/>
+          <amount n="162" unit="words"/>
+          <amount n="16" unit="lines"/>
+          <amount n="904" unit="chars"/>
+        </sp>
+        <sp who="#kellner">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="3" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="24" unit="chars"/>
+        </sp>
+        <sp who="#direktor">
+          <amount n="24" unit="speech_acts"/>
+          <amount n="611" unit="words"/>
+          <amount n="17" unit="lines"/>
+          <amount n="3583" unit="chars"/>
+        </sp>
+        <sp who="#der_klavierspieler">
+          <amount n="1" unit="speech_acts"/>
+        </sp>
+        <sp who="#der_dichter">
+          <amount n="30" unit="speech_acts"/>
+          <amount n="317" unit="words"/>
+          <amount n="35" unit="lines"/>
+          <amount n="1716" unit="chars"/>
+        </sp>
+        <sp who="#held">
+          <amount n="59" unit="speech_acts"/>
+          <amount n="926" unit="words"/>
+          <amount n="145" unit="lines"/>
+          <amount n="4812" unit="chars"/>
+        </sp>
+        <sp who="#liesl">
+          <amount n="25" unit="speech_acts"/>
+          <amount n="189" unit="words"/>
+          <amount n="32" unit="lines"/>
+          <amount n="928" unit="chars"/>
+        </sp>
+        <sp who="#herzog">
+          <amount n="9" unit="speech_acts"/>
+          <amount n="205" unit="words"/>
+          <amount n="33" unit="lines"/>
+          <amount n="1077" unit="chars"/>
+        </sp>
+        <sp who="#herzogin">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="200" unit="words"/>
+          <amount n="28" unit="lines"/>
+          <amount n="1016" unit="chars"/>
+        </sp>
+        <sp who="#zweiter_bürger">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="34" unit="words"/>
+          <amount n="5" unit="lines"/>
+          <amount n="179" unit="chars"/>
+        </sp>
+        <sp who="#erstes_mädel">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="9" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="50" unit="chars"/>
+        </sp>
+        <sp who="#zweiter">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="9" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="55" unit="chars"/>
+        </sp>
+        <sp who="#der_naive #herzog #herzogin #held #heiterer #ernster #liesl #kanzelist #bräutigam #der_räsoneur #tod #zweiter_bürger #erster_bürger #erstes_mädel #zweites_mädel">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="15" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="91" unit="chars"/>
+        </sp>
+        <sp who="#der_räsoneur">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="13" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="66" unit="chars"/>
+        </sp>
+        <sp who="#räsoneur">
+          <amount n="8" unit="speech_acts"/>
+          <amount n="150" unit="words"/>
+          <amount n="22" unit="lines"/>
+          <amount n="823" unit="chars"/>
+        </sp>
+        <sp who="#der_diener">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="38" unit="words"/>
+          <amount n="6" unit="lines"/>
+          <amount n="200" unit="chars"/>
+        </sp>
+        <sp who="#heiterer">
+          <amount n="9" unit="speech_acts"/>
+          <amount n="64" unit="words"/>
+          <amount n="12" unit="lines"/>
+          <amount n="326" unit="chars"/>
+        </sp>
+        <sp who="#ernster">
+          <amount n="15" unit="speech_acts"/>
+          <amount n="85" unit="words"/>
+          <amount n="17" unit="lines"/>
+          <amount n="407" unit="chars"/>
+        </sp>
+        <sp who="#ernster #heiterer">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="6" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="38" unit="chars"/>
+        </sp>
+        <sp who="#die_frau">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="7" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="42" unit="chars"/>
+        </sp>
+        <sp who="#erster_bürger">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="10" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="61" unit="chars"/>
+        </sp>
+        <sp who="#die_herzogin_von_lawin">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="21" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="130" unit="chars"/>
+        </sp>
+        <sp who="#zweites_mädel">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="6" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="33" unit="chars"/>
+        </sp>
+        <sp who="#erstes_mädel #zweites_mädel">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="6" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="33" unit="chars"/>
+        </sp>
+        <sp who="#dichter">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="47" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="254" unit="chars"/>
+        </sp>
+        <sp who="#erstes_mädel #zweites_mädel">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="1" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="7" unit="chars"/>
+        </sp>
+        <sp who="#kanzelist">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="39" unit="words"/>
+          <amount n="5" unit="lines"/>
+          <amount n="208" unit="chars"/>
+        </sp>
+        <sp who="#bräutigam">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="22" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="122" unit="chars"/>
+        </sp>
+        <sp who="#tod">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="70" unit="words"/>
+          <amount n="13" unit="lines"/>
+          <amount n="394" unit="chars"/>
+        </sp>
+        <sp who="#erster_skandalmacher">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="3" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="14" unit="chars"/>
+        </sp>
+        <sp who="#andere">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="5" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="31" unit="chars"/>
+        </sp>
+        <sp who="#zweiter_skandalmacher">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="13" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="63" unit="chars"/>
+        </sp>
+        <sp who="#einige">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="13" unit="words"/>
+          <amount n="6" unit="lines"/>
+          <amount n="86" unit="chars"/>
+        </sp>
+        <sp who="#viele">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="4" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="22" unit="chars"/>
+        </sp>
+        <sp who="#meister">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="42" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="208" unit="chars"/>
+        </sp>
+        <sp who="#graf">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="13" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="64" unit="chars"/>
+        </sp>
+        <sp who="#der_herr_im_parkett">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="14" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="94" unit="chars"/>
+        </sp>
+        <sp who="#der_direktor">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="2" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="10" unit="chars"/>
+        </sp>
+        <sp who="#der_herr">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="50" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="279" unit="chars"/>
+        </sp>
+        <sp who="#der_graf">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="35" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="180" unit="chars"/>
+        </sp>
+        <sp who="#marionetten">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="24" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="127" unit="chars"/>
+        </sp>
+        <sp who="#die_marionetten">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="32" unit="words"/>
+          <amount n="6" unit="lines"/>
+          <amount n="175" unit="chars"/>
+        </sp>
+        <sp who="#der_unbekannte">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="149" unit="words"/>
+          <amount n="20" unit="lines"/>
+          <amount n="830" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+  </text>
+</play>

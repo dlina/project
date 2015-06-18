@@ -1,0 +1,1319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital">
+  <header>
+    <title>Gracchus der Volkstribun</title>
+    <subtitle>Trauerspiel in fünf Aufzügen</subtitle>
+    <genretitle>Trauerspiel</genretitle>
+    <author>Wilbrandt, Adolf von</author>
+    <date when="1872" type="print" />
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:x8mw.0/data</source>
+  </header>
+  <personae>
+    <character>
+      <name>CARBO</name>
+      <alias xml:id="carbo">
+        <name>CARBO</name>
+      </alias>
+    </character>
+    <character>
+      <name>KLEON</name>
+      <alias xml:id="kleon">
+        <name>KLEON</name>
+      </alias>
+    </character>
+    <character>
+      <name>AGRICOLA</name>
+      <alias xml:id="agricola">
+        <name>AGRICOLA</name>
+      </alias>
+    </character>
+    <character>
+      <name>EUPORUS</name>
+      <alias xml:id="euporus">
+        <name>EUPORUS</name>
+      </alias>
+    </character>
+    <character>
+      <name>LÄTORIUS</name>
+      <alias xml:id="lätorius">
+        <name>LÄTORIUS</name>
+      </alias>
+    </character>
+    <character>
+      <name>VOLK</name>
+      <alias xml:id="volk">
+        <name>VOLK</name>
+      </alias>
+    </character>
+    <character>
+      <name>CORNELIA</name>
+      <alias xml:id="cornelia">
+        <name>CORNELIA</name>
+      </alias>
+    </character>
+    <character>
+      <name>LICINNIA</name>
+      <alias xml:id="licinnia">
+        <name>LICINNIA</name>
+      </alias>
+    </character>
+    <character>
+      <name>POMPONIUS</name>
+      <alias xml:id="pomponius">
+        <name>POMPONIUS</name>
+      </alias>
+    </character>
+    <character>
+      <name>VOLKSHAUFE</name>
+      <alias xml:id="volkshaufe">
+        <name>VOLKSHAUFE</name>
+      </alias>
+    </character>
+    <character>
+      <name>METELLUS</name>
+      <alias xml:id="metellus">
+        <name>METELLUS</name>
+      </alias>
+    </character>
+    <character>
+      <name>OPIMIUS</name>
+      <alias xml:id="opimius">
+        <name>OPIMIUS</name>
+      </alias>
+    </character>
+    <character>
+      <name>DRUSUS</name>
+      <alias xml:id="drusus">
+        <name>DRUSUS</name>
+      </alias>
+    </character>
+    <character>
+      <name>LICTOR</name>
+      <alias xml:id="lictor">
+        <name>LICTOR</name>
+      </alias>
+    </character>
+    <character>
+      <name>GRACCHUS</name>
+      <alias xml:id="gracchus">
+        <name>GRACCHUS</name>
+      </alias>
+    </character>
+    <character>
+      <name>AULUS</name>
+      <alias xml:id="aulus">
+        <name>AULUS</name>
+      </alias>
+    </character>
+    <character>
+      <name>RUFUS</name>
+      <alias xml:id="rufus">
+        <name>RUFUS</name>
+      </alias>
+    </character>
+    <character>
+      <name>SKLAVIN</name>
+      <alias xml:id="sklavin">
+        <name>SKLAVIN</name>
+      </alias>
+    </character>
+    <character>
+      <name>SCIPIO</name>
+      <alias xml:id="scipio">
+        <name>SCIPIO</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE SENATOREN</name>
+      <alias xml:id="die_senatoren">
+        <name>DIE SENATOREN</name>
+      </alias>
+      <alias xml:id="senatoren">
+        <name>SENATOREN</name>
+      </alias>
+    </character>
+    <character>
+      <name>STIMME</name>
+      <alias xml:id="stimme">
+        <name>STIMME</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER SCLAVE</name>
+      <alias xml:id="der_sclave">
+        <name>DER SCLAVE</name>
+      </alias>
+      <alias xml:id="stimme_eines_sclaven" type="voiceOf">
+        <name>STIMME EINES SCLAVEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>BÜRGER</name>
+      <alias xml:id="bürger">
+        <name>BÜRGER</name>
+      </alias>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Personen</head>
+    </div>
+    <div>
+      <head>1. Akt</head>
+      <div>
+        <head>1. Auftritt</head>
+        <div>
+          <head>Erster Auftritt.</head>
+          <sp who="#carbo">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="80" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="449" unit="chars"/>
+          </sp>
+          <sp who="#kleon">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="126" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="676" unit="chars"/>
+          </sp>
+          <sp who="#agricola">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="123" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="673" unit="chars"/>
+          </sp>
+          <sp who="#euporus">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="156" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="798" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Auftritt</head>
+        <div>
+          <head>Zweiter Auftritt.</head>
+          <sp who="#lätorius">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="96" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="531" unit="chars"/>
+          </sp>
+          <sp who="#volk">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="8" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="43" unit="chars"/>
+          </sp>
+          <sp who="#cornelia">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="187" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="1033" unit="chars"/>
+          </sp>
+          <sp who="#licinnia">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="34" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="165" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3. Auftritt</head>
+        <div>
+          <head>Dritter Auftritt.</head>
+          <sp who="#cornelia">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="24" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="123" unit="chars"/>
+          </sp>
+          <sp who="#pomponius">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="288" unit="words"/>
+            <amount n="1613" unit="chars"/>
+          </sp>
+          <sp who="#licinnia">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="131" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="649" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>4. Auftritt</head>
+        <div>
+          <head>Vierter Auftritt.</head>
+          <sp who="#kleon">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="176" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="1001" unit="chars"/>
+          </sp>
+          <sp who="#lätorius">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="94" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="527" unit="chars"/>
+          </sp>
+          <sp who="#agricola">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="78" unit="words"/>
+            <amount n="432" unit="chars"/>
+          </sp>
+          <sp who="#carbo">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="14" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="72" unit="chars"/>
+          </sp>
+          <sp who="#volkshaufe">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="4" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="24" unit="chars"/>
+          </sp>
+          <sp who="#metellus">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="178" unit="words"/>
+            <amount n="908" unit="chars"/>
+          </sp>
+          <sp who="#opimius">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="212" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="1222" unit="chars"/>
+          </sp>
+          <sp who="#volk">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="15" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="80" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>5. Auftritt</head>
+        <div>
+          <head>Fünfter Auftritt.</head>
+          <sp who="#metellus">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="133" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="786" unit="chars"/>
+          </sp>
+          <sp who="#opimius">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="121" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="680" unit="chars"/>
+          </sp>
+          <sp who="#drusus">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="145" unit="words"/>
+            <amount n="759" unit="chars"/>
+          </sp>
+          <sp who="#volk">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="6" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="28" unit="chars"/>
+          </sp>
+          <sp who="#agricola">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="5" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="29" unit="chars"/>
+          </sp>
+          <sp who="#lictor">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="7" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="42" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>6. Auftritt</head>
+        <div>
+          <head>Sechster Auftritt.</head>
+          <sp who="#opimius">
+            <amount n="10" unit="speech_acts"/>
+            <amount n="247" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="1312" unit="chars"/>
+          </sp>
+          <sp who="#pomponius">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="43" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="210" unit="chars"/>
+          </sp>
+          <sp who="#gracchus">
+            <amount n="17" unit="speech_acts"/>
+            <amount n="1069" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="5949" unit="chars"/>
+          </sp>
+          <sp who="#agricola">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="46" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="247" unit="chars"/>
+          </sp>
+          <sp who="#carbo">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="44" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="217" unit="chars"/>
+          </sp>
+          <sp who="#volk">
+            <amount n="16" unit="speech_acts"/>
+            <amount n="111" unit="words"/>
+            <amount n="15" unit="lines"/>
+            <amount n="595" unit="chars"/>
+          </sp>
+          <sp who="#metellus">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="42" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="228" unit="chars"/>
+          </sp>
+          <sp who="#senatoren #volk">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="9" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="57" unit="chars"/>
+          </sp>
+          <sp who="#lätorius">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="95" unit="words"/>
+            <amount n="8" unit="lines"/>
+            <amount n="520" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>2. Akt</head>
+      <div>
+        <head>1. Auftritt</head>
+        <div>
+          <head>Erster Auftritt.</head>
+          <sp who="#euporus">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="23" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="140" unit="chars"/>
+          </sp>
+          <sp who="#metellus">
+            <amount n="10" unit="speech_acts"/>
+            <amount n="333" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="1909" unit="chars"/>
+          </sp>
+          <sp who="#aulus">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="5" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="30" unit="chars"/>
+          </sp>
+          <sp who="#rufus">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="2" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="14" unit="chars"/>
+          </sp>
+          <sp who="#opimius">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="44" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="253" unit="chars"/>
+          </sp>
+          <sp who="#drusus">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="38" unit="words"/>
+            <amount n="209" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Auftritt</head>
+        <div>
+          <head>Zweiter Auftritt.</head>
+          <sp who="#opimius">
+            <amount n="16" unit="speech_acts"/>
+            <amount n="463" unit="words"/>
+            <amount n="8" unit="lines"/>
+            <amount n="2523" unit="chars"/>
+          </sp>
+          <sp who="#drusus">
+            <amount n="16" unit="speech_acts"/>
+            <amount n="245" unit="words"/>
+            <amount n="12" unit="lines"/>
+            <amount n="1370" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3. Auftritt</head>
+        <div>
+          <head>Dritter Auftritt.</head>
+          <sp who="#gracchus">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="277" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="1570" unit="chars"/>
+          </sp>
+          <sp who="#metellus">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="103" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="552" unit="chars"/>
+          </sp>
+          <sp who="#aulus">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="5" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="40" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>4. Auftritt</head>
+        <div>
+          <head>Vierter Auftritt.</head>
+          <sp who="#gracchus">
+            <amount n="13" unit="speech_acts"/>
+            <amount n="162" unit="words"/>
+            <amount n="8" unit="lines"/>
+            <amount n="846" unit="chars"/>
+          </sp>
+          <sp who="#lätorius">
+            <amount n="11" unit="speech_acts"/>
+            <amount n="606" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="3325" unit="chars"/>
+          </sp>
+          <sp who="#euporus">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="41" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="209" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>5. Auftritt</head>
+        <div>
+          <head>Fünfter Auftritt.</head>
+          <sp who="#gracchus">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="321" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="1762" unit="chars"/>
+          </sp>
+          <sp who="#kleon">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="119" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="667" unit="chars"/>
+          </sp>
+          <sp who="#sklavin">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="56" unit="words"/>
+            <amount n="307" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>6. Auftritt</head>
+        <div>
+          <head>Sechster Auftritt.</head>
+          <sp who="#lätorius">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="140" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="758" unit="chars"/>
+          </sp>
+          <sp who="#kleon">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="122" unit="words"/>
+            <amount n="683" unit="chars"/>
+          </sp>
+          <sp who="#volk">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="76" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="397" unit="chars"/>
+          </sp>
+          <sp who="#gracchus">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="279" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="1532" unit="chars"/>
+          </sp>
+          <sp who="#euporus">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="26" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="132" unit="chars"/>
+          </sp>
+          <sp who="#licinnia">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="11" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="50" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>7. Auftritt</head>
+        <div>
+          <head>Siebenter Auftritt.</head>
+          <sp who="#gracchus">
+            <amount n="18" unit="speech_acts"/>
+            <amount n="663" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="3528" unit="chars"/>
+          </sp>
+          <sp who="#licinnia">
+            <amount n="10" unit="speech_acts"/>
+            <amount n="407" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="2155" unit="chars"/>
+          </sp>
+          <sp who="#cornelia">
+            <amount n="10" unit="speech_acts"/>
+            <amount n="724" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="3975" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>3. Akt</head>
+      <div>
+        <head>1. Auftritt</head>
+        <div>
+          <head>Erster Auftritt.</head>
+          <sp who="#euporus">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="100" unit="words"/>
+            <amount n="516" unit="chars"/>
+          </sp>
+          <sp who="#carbo">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="151" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="827" unit="chars"/>
+          </sp>
+          <sp who="#agricola">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="263" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="1452" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Auftritt</head>
+        <div>
+          <head>Zweiter Auftritt.</head>
+          <sp who="#carbo">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="125" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="675" unit="chars"/>
+          </sp>
+          <sp who="#agricola">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="179" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="971" unit="chars"/>
+          </sp>
+          <sp who="#volk">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="40" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="227" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3. Auftritt</head>
+        <div>
+          <head>Dritter Auftritt.</head>
+          <sp who="#scipio">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="219" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="1225" unit="chars"/>
+          </sp>
+          <sp who="#carbo">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="3" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="25" unit="chars"/>
+          </sp>
+          <sp who="#agricola">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="30" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="147" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>4. Auftritt</head>
+        <div>
+          <head>Vierter Auftritt.</head>
+          <sp who="#carbo">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="86" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="465" unit="chars"/>
+          </sp>
+          <sp who="#agricola">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="90" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="490" unit="chars"/>
+          </sp>
+          <sp who="#volk">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="17" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="81" unit="chars"/>
+          </sp>
+          <sp who="#opimius">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="106" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="584" unit="chars"/>
+          </sp>
+          <sp who="#drusus">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="175" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="973" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>5. Auftritt</head>
+        <div>
+          <head>Fünfter Auftritt.</head>
+          <sp who="#volk">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="9" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="49" unit="chars"/>
+          </sp>
+          <sp who="#agricola">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="42" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="233" unit="chars"/>
+          </sp>
+          <sp who="#gracchus">
+            <amount n="11" unit="speech_acts"/>
+            <amount n="463" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="2533" unit="chars"/>
+          </sp>
+          <sp who="#lätorius">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="66" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="373" unit="chars"/>
+          </sp>
+          <sp who="#pomponius">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="211" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="1164" unit="chars"/>
+          </sp>
+          <sp who="#euporus">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="21" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="115" unit="chars"/>
+          </sp>
+          <sp who="#lictor">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="6" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="28" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>6. Auftritt</head>
+        <div>
+          <head>Sechster Auftritt.</head>
+          <sp who="#gracchus">
+            <amount n="15" unit="speech_acts"/>
+            <amount n="963" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="5405" unit="chars"/>
+          </sp>
+          <sp who="#scipio">
+            <amount n="17" unit="speech_acts"/>
+            <amount n="607" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="3263" unit="chars"/>
+          </sp>
+          <sp who="#lictor">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="5" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="27" unit="chars"/>
+          </sp>
+          <sp who="#metellus">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="171" unit="words"/>
+            <amount n="8" unit="lines"/>
+            <amount n="946" unit="chars"/>
+          </sp>
+          <sp who="#opimius">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="134" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="721" unit="chars"/>
+          </sp>
+          <sp who="#senatoren #volk">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="5" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="32" unit="chars"/>
+          </sp>
+          <sp who="#volk">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="36" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="176" unit="chars"/>
+          </sp>
+          <sp who="#drusus">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="101" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="565" unit="chars"/>
+          </sp>
+          <sp who="#lätorius">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="33" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="187" unit="chars"/>
+          </sp>
+          <sp who="#pomponius">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="12" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="65" unit="chars"/>
+          </sp>
+          <sp who="#die_senatoren">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="4" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="23" unit="chars"/>
+          </sp>
+          <sp who="#senatoren">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="26" unit="words"/>
+            <amount n="151" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>4. Akt</head>
+      <div>
+        <head>1. Auftritt</head>
+        <div>
+          <head>Erster Auftritt.</head>
+          <sp who="#licinnia">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="119" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="629" unit="chars"/>
+          </sp>
+          <sp who="#euporus">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="9" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="58" unit="chars"/>
+          </sp>
+          <sp who="#pomponius">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="286" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="1627" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Auftritt</head>
+        <div>
+          <head>Zweiter Auftritt.</head>
+          <sp who="#gracchus">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="218" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="1164" unit="chars"/>
+          </sp>
+          <sp who="#agricola">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="9" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="52" unit="chars"/>
+          </sp>
+          <sp who="#volk">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="14" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="76" unit="chars"/>
+          </sp>
+          <sp who="#licinnia">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="51" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="296" unit="chars"/>
+          </sp>
+          <sp who="#cornelia">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="160" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="828" unit="chars"/>
+          </sp>
+          <sp who="#euporus">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="6" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="27" unit="chars"/>
+          </sp>
+          <sp who="#pomponius">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="58" unit="words"/>
+            <amount n="291" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3. Auftritt</head>
+        <div>
+          <head>Dritter Auftritt.</head>
+          <sp who="#lätorius">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="61" unit="words"/>
+            <amount n="7" unit="lines"/>
+            <amount n="272" unit="chars"/>
+          </sp>
+          <sp who="#pomponius">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="374" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="1992" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>4. Auftritt</head>
+        <div>
+          <head>Vierter Auftritt.</head>
+          <sp who="#lätorius">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="201" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="1113" unit="chars"/>
+          </sp>
+          <sp who="#opimius">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="3" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="19" unit="chars"/>
+          </sp>
+          <sp who="#scipio">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="182" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="1038" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>5. Auftritt</head>
+        <div>
+          <head>Fünfter Auftritt.</head>
+          <sp who="#scipio">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="280" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="1499" unit="chars"/>
+          </sp>
+          <sp who="#cornelia">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="331" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="1775" unit="chars"/>
+          </sp>
+          <sp who="#euporus">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="20" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="105" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>6. Auftritt</head>
+        <div>
+          <head>Sechster Auftritt.</head>
+          <sp who="#metellus">
+            <amount n="10" unit="speech_acts"/>
+            <amount n="271" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="1368" unit="chars"/>
+          </sp>
+          <sp who="#aulus">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="54" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="292" unit="chars"/>
+          </sp>
+          <sp who="#rufus">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="23" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="134" unit="chars"/>
+          </sp>
+          <sp who="#stimme">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="2" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="11" unit="chars"/>
+          </sp>
+          <sp who="#lätorius">
+            <amount n="1" unit="speech_acts"/>
+          </sp>
+          <sp who="#stimme_eines_sclaven">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="7" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="43" unit="chars"/>
+          </sp>
+          <sp who="#der_sclave">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="86" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="468" unit="chars"/>
+          </sp>
+          <sp who="#opimius">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="39" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="217" unit="chars"/>
+          </sp>
+          <sp who="#drusus">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="141" unit="words"/>
+            <amount n="867" unit="chars"/>
+          </sp>
+          <sp who="#volk">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="10" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="44" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>7. Auftritt</head>
+        <div>
+          <head>Siebenter Auftritt.</head>
+          <sp who="#pomponius">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="17" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="81" unit="chars"/>
+          </sp>
+          <sp who="#gracchus">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="55" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="250" unit="chars"/>
+          </sp>
+          <sp who="#drusus">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="73" unit="words"/>
+            <amount n="389" unit="chars"/>
+          </sp>
+          <sp who="#cornelia">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="3" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="18" unit="chars"/>
+          </sp>
+          <sp who="#opimius">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="104" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="570" unit="chars"/>
+          </sp>
+          <sp who="#metellus">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="96" unit="words"/>
+            <amount n="542" unit="chars"/>
+          </sp>
+          <sp who="#licinnia">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="14" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="69" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>5. Akt</head>
+      <div>
+        <head>1. Auftritt</head>
+        <div>
+          <head>Erster Auftritt.</head>
+          <sp who="#agricola">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="105" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="586" unit="chars"/>
+          </sp>
+          <sp who="#euporus">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="248" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="1423" unit="chars"/>
+          </sp>
+          <sp who="#pomponius">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="40" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="218" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Auftritt</head>
+        <div>
+          <head>Zweiter Auftritt.</head>
+          <sp who="#gracchus">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="204" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="1098" unit="chars"/>
+          </sp>
+          <sp who="#pomponius">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="166" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="956" unit="chars"/>
+          </sp>
+          <sp who="#euporus">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="92" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="479" unit="chars"/>
+          </sp>
+          <sp who="#lictor">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="4" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="20" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3. Auftritt</head>
+        <div>
+          <head>Dritter Auftritt.</head>
+          <sp who="#lictor">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="123" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="694" unit="chars"/>
+          </sp>
+          <sp who="#pomponius">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="55" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="274" unit="chars"/>
+          </sp>
+          <sp who="#gracchus">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="4" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="21" unit="chars"/>
+          </sp>
+          <sp who="#agricola">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="57" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="332" unit="chars"/>
+          </sp>
+          <sp who="#bürger">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="19" unit="words"/>
+            <amount n="119" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>4. Auftritt</head>
+        <div>
+          <head>Vierter Auftritt.</head>
+          <sp who="#gracchus">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="395" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="2075" unit="chars"/>
+          </sp>
+          <sp who="#licinnia">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="126" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="654" unit="chars"/>
+          </sp>
+          <sp who="#cornelia">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="120" unit="words"/>
+            <amount n="656" unit="chars"/>
+          </sp>
+          <sp who="#bürger">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="32" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="195" unit="chars"/>
+          </sp>
+          <sp who="#carbo">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="149" unit="words"/>
+            <amount n="857" unit="chars"/>
+          </sp>
+          <sp who="#pomponius">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="15" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="77" unit="chars"/>
+          </sp>
+          <sp who="#agricola">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="3" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="21" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>5. Auftritt</head>
+        <div>
+          <head>Fünfter Auftritt.</head>
+          <sp who="#gracchus">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="300" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="1662" unit="chars"/>
+          </sp>
+          <sp who="#lätorius">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="270" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="1503" unit="chars"/>
+          </sp>
+          <sp who="#cornelia">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="73" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="424" unit="chars"/>
+          </sp>
+          <sp who="#pomponius">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="114" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="619" unit="chars"/>
+          </sp>
+          <sp who="#carbo">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="52" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="284" unit="chars"/>
+          </sp>
+          <sp who="#bürger">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="38" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="214" unit="chars"/>
+          </sp>
+          <sp who="#licinnia">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="136" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="682" unit="chars"/>
+          </sp>
+          <sp who="#lictor">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="37" unit="words"/>
+            <amount n="229" unit="chars"/>
+          </sp>
+          <sp who="#euporus">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="24" unit="words"/>
+            <amount n="119" unit="chars"/>
+          </sp>
+          <sp who="#agricola">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="26" unit="words"/>
+            <amount n="150" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>6. Auftritt</head>
+        <div>
+          <head>Sechster Auftritt.</head>
+          <sp who="#euporus">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="16" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="96" unit="chars"/>
+          </sp>
+          <sp who="#gracchus">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="88" unit="words"/>
+            <amount n="442" unit="chars"/>
+          </sp>
+          <sp who="#licinnia">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="19" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="79" unit="chars"/>
+          </sp>
+          <sp who="#cornelia">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="123" unit="words"/>
+            <amount n="638" unit="chars"/>
+          </sp>
+          <sp who="#metellus">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="13" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="80" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+  </text>
+</play>

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital">
+  <header>
+    <title>Der Witzling</title>
+    <subtitle>Ein deutsches Nachspiel in einem Aufzuge</subtitle>
+    <genretitle></genretitle>
+    <author>Gottsched, Luise Adelgunde Victorie</author>
+    <date type="print" when="1745">1745</date>
+    <date type="premiere"></date>
+    <date type="written"></date>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:nm27.0/data</source>
+  </header>
+  <personae>
+    <character>
+      <name>HERR REINHART</name>
+      <alias xml:id="herr_reinhart">
+        <name>HERR REINHART</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER JUNGE REINHART</name>
+      <alias xml:id="der_junge_reinhart">
+        <name>DER JUNGE REINHART</name>
+      </alias>
+    </character>
+    <character>
+      <name>JUNGFER LOTTCHEN</name>
+      <alias xml:id="jungfer_lottchen">
+        <name>JUNGFER LOTTCHEN</name>
+      </alias>
+      <alias xml:id="jungfer_hottchen">
+        <name>JUNGFER HOTTCHEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>HERR VIELWITZ</name>
+      <alias xml:id="herr_vielwitz">
+        <name>HERR VIELWITZ</name>
+      </alias>
+    </character>
+    <character>
+      <name>PAUL</name>
+      <alias xml:id="paul">
+        <name>PAUL</name>
+      </alias>
+    </character>
+    <character>
+      <name>HERR SINNREICH</name>
+      <alias xml:id="herr_sinnreich">
+        <name>HERR SINNREICH</name>
+      </alias>
+    </character>
+    <character>
+      <name>HERR JAMBUS</name>
+      <alias xml:id="herr_jambus">
+        <name>HERR JAMBUS</name>
+      </alias>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Personen</head>
+    </div>
+    <div>
+      <head>1. Auftritt</head>
+      <div>
+        <head>Erster Auftritt</head>
+        <sp who="#herr_reinhart">
+          <amount n="32" unit="speech_acts"/>
+          <amount n="758" unit="words"/>
+          <amount n="17" unit="lines"/>
+          <amount n="4097" unit="chars"/>
+        </sp>
+        <sp who="#jungfer_lottchen">
+          <amount n="30" unit="speech_acts"/>
+          <amount n="754" unit="words"/>
+          <amount n="13" unit="lines"/>
+          <amount n="4210" unit="chars"/>
+        </sp>
+        <sp who="#jungfer_hottchen">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="11" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="58" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>2. Auftritt</head>
+      <div>
+        <head>Zweyter Auftritt</head>
+        <sp who="#jungfer_lottchen">
+          <amount n="15" unit="speech_acts"/>
+          <amount n="207" unit="words"/>
+          <amount n="13" unit="lines"/>
+          <amount n="1076" unit="chars"/>
+        </sp>
+        <sp who="#der_junge_reinhart">
+          <amount n="14" unit="speech_acts"/>
+          <amount n="474" unit="words"/>
+          <amount n="5" unit="lines"/>
+          <amount n="2622" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>3. Auftritt</head>
+      <div>
+        <head>Dritter Auftritt.</head>
+        <sp who="#herr_vielwitz">
+          <amount n="14" unit="speech_acts"/>
+          <amount n="383" unit="words"/>
+          <amount n="5" unit="lines"/>
+          <amount n="2218" unit="chars"/>
+        </sp>
+        <sp who="#jungfer_lottchen">
+          <amount n="13" unit="speech_acts"/>
+          <amount n="233" unit="words"/>
+          <amount n="5" unit="lines"/>
+          <amount n="1362" unit="chars"/>
+        </sp>
+        <sp who="#herr_reinhart">
+          <amount n="9" unit="speech_acts"/>
+          <amount n="135" unit="words"/>
+          <amount n="7" unit="lines"/>
+          <amount n="744" unit="chars"/>
+        </sp>
+        <sp who="#paul">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="3" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="17" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>5. Auftritt</head>
+      <div>
+        <head>Fünfter Auftritt.</head>
+        <sp who="#herr_reinhart">
+          <amount n="12" unit="speech_acts"/>
+          <amount n="251" unit="words"/>
+          <amount n="6" unit="lines"/>
+          <amount n="1553" unit="chars"/>
+        </sp>
+        <sp who="#herr_sinnreich">
+          <amount n="21" unit="speech_acts"/>
+          <amount n="457" unit="words"/>
+          <amount n="9" unit="lines"/>
+          <amount n="2817" unit="chars"/>
+        </sp>
+        <sp who="#herr_jambus">
+          <amount n="11" unit="speech_acts"/>
+          <amount n="159" unit="words"/>
+          <amount n="8" unit="lines"/>
+          <amount n="931" unit="chars"/>
+        </sp>
+        <sp who="#herr_vielwitz">
+          <amount n="19" unit="speech_acts"/>
+          <amount n="342" unit="words"/>
+          <amount n="11" unit="lines"/>
+          <amount n="1882" unit="chars"/>
+        </sp>
+        <sp who="#jungfer_lottchen">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="130" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="748" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>6. Auftritt</head>
+      <div>
+        <head>Sechster Auftritt.</head>
+        <sp who="#herr_jambus">
+          <amount n="31" unit="speech_acts"/>
+          <amount n="565" unit="words"/>
+          <amount n="18" unit="lines"/>
+          <amount n="3458" unit="chars"/>
+        </sp>
+        <sp who="#herr_sinnreich">
+          <amount n="28" unit="speech_acts"/>
+          <amount n="481" unit="words"/>
+          <amount n="19" unit="lines"/>
+          <amount n="2932" unit="chars"/>
+        </sp>
+        <sp who="#herr_vielwitz">
+          <amount n="36" unit="speech_acts"/>
+          <amount n="691" unit="words"/>
+          <amount n="17" unit="lines"/>
+          <amount n="3949" unit="chars"/>
+        </sp>
+        <sp who="#herr_reinhart">
+          <amount n="35" unit="speech_acts"/>
+          <amount n="882" unit="words"/>
+          <amount n="18" unit="lines"/>
+          <amount n="5388" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>7. Auftritt</head>
+      <div>
+        <head>Siebenter Auftritt.</head>
+        <sp who="#jungfer_lottchen">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="79" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="455" unit="chars"/>
+        </sp>
+        <sp who="#herr_vielwitz">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="25" unit="words"/>
+          <amount n="141" unit="chars"/>
+        </sp>
+        <sp who="#herr_jambus">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="87" unit="words"/>
+          <amount n="478" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>8. Auftritt</head>
+      <div>
+        <head>Achter Auftritt.</head>
+        <sp who="#jungfer_lottchen">
+          <amount n="12" unit="speech_acts"/>
+          <amount n="504" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="2759" unit="chars"/>
+        </sp>
+        <sp who="#herr_sinnreich">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="65" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="329" unit="chars"/>
+        </sp>
+        <sp who="#herr_reinhart">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="86" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="442" unit="chars"/>
+        </sp>
+        <sp who="#herr_vielwitz">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="132" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="737" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>9. Szene</head>
+      <div>
+        <head>Neunter Auftritt.</head>
+        <sp who="#herr_vielwitz">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="103" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="575" unit="chars"/>
+        </sp>
+        <sp who="#herr_reinhart">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="66" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="337" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+  </text>
+</play>

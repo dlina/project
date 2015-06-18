@@ -1,0 +1,1132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital">
+  <header>
+    <title>Staatsräson</title>
+    <subtitle>Ein Denkmal für Sacco und Vanzetti</subtitle>
+    <genretitle></genretitle>
+    <author>Mühsam, Erich</author>
+    <date type="print" when="1928">1928</date>
+    <date type="premiere" when="1929">1929</date>
+    <date type="written"></date>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:sjpt.0/data</source>
+  </header>
+  <personae>
+    <character>
+      <name>KATZMANN</name>
+      <alias xml:id="katzmann">
+        <name>KATZMANN</name>
+      </alias>
+    </character>
+    <character>
+      <name>STENOTYPISTIN</name>
+      <alias xml:id="stenotypistin">
+        <name>STENOTYPISTIN</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN POLIZEIKOMMISSAR</name>
+      <alias xml:id="ein_polizeikommissar">
+        <name>EIN POLIZEIKOMMISSAR</name>
+      </alias>
+      <alias xml:id="polizeikommissar">
+        <name>POLIZEIKOMMISSAR</name>
+      </alias>
+    </character>
+    <character>
+      <name>KOMMISSAR</name>
+      <alias xml:id="kommissar">
+        <name>KOMMISSAR</name>
+      </alias>
+    </character>
+    <character>
+      <name>THAYER</name>
+      <alias xml:id="thayer">
+        <name>THAYER</name>
+      </alias>
+    </character>
+    <character>
+      <name>SACCO</name>
+      <alias xml:id="sacco">
+        <name>SACCO</name>
+      </alias>
+    </character>
+    <character>
+      <name>ROSA</name>
+      <alias xml:id="rosa">
+        <name>ROSA</name>
+      </alias>
+    </character>
+    <character>
+      <name>VANZETTI</name>
+      <alias xml:id="vanzetti">
+        <name>VANZETTI</name>
+      </alias>
+    </character>
+    <character>
+      <name>FRAU JOHNSON</name>
+      <alias xml:id="frau_johnson">
+        <name>FRAU JOHNSON</name>
+      </alias>
+    </character>
+    <character>
+      <name>SIMON JOHNSON</name>
+      <alias xml:id="johnson">
+        <name>JOHNSON</name>
+      </alias>
+    </character>
+    <character>
+      <name>LEVANGIE</name>
+      <alias xml:id="levangie">
+        <name>LEVANGIE</name>
+      </alias>
+    </character>
+    <character>
+      <name>THOMPSON</name>
+      <alias xml:id="thompson">
+        <name>THOMPSON</name>
+      </alias>
+    </character>
+    <character>
+      <name>MOORE</name>
+      <alias xml:id="moore">
+        <name>MOORE</name>
+      </alias>
+    </character>
+    <character>
+      <name>MCANARNEY</name>
+      <alias xml:id="mcanarney">
+        <name>MCANARNEY</name>
+      </alias>
+    </character>
+    <character>
+      <name>JULIA CAMPBELL</name>
+      <alias xml:id="die_campbell">
+        <name>DIE CAMPBELL</name>
+      </alias>
+      <alias xml:id="campbell">
+        <name>CAMPBELL</name>
+      </alias>
+    </character>
+    <character>
+      <name>LOLA ANDREWS</name>
+      <alias xml:id="die_andrews">
+        <name>DIE ANDREWS</name>
+      </alias>
+      <alias xml:id="andrews">
+        <name>ANDREWS</name>
+      </alias>
+    </character>
+    <character>
+      <name>SIBLEY</name>
+      <alias xml:id="sibley">
+        <name>SIBLEY</name>
+      </alias>
+    </character>
+    <character>
+      <name>BEFFEL</name>
+      <alias xml:id="beffel">
+        <name>BEFFEL</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN JOURNALIST</name>
+      <alias xml:id="ein_journalist">
+        <name>EIN JOURNALIST</name>
+      </alias>
+      <alias xml:id="journalist">
+        <name>JOURNALIST</name>
+      </alias>
+    </character>
+    <character>
+      <name>FRAU BERNKOPF</name>
+      <alias xml:id="frau_bernkopf">
+        <name>FRAU BERNKOPF</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN ARBEITER (5)</name>
+      <alias xml:id="ein_arbeiter_5">
+        <name>EIN ARBEITER (5)</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN POLIZIST</name>
+      <alias xml:id="ein_polizist">
+        <name>EIN POLIZIST</name>
+      </alias>
+    </character>
+    <character>
+      <name>VORSITZENDER</name>
+      <alias xml:id="vorsitzender">
+        <name>VORSITZENDER</name>
+      </alias>
+    </character>
+    <character>
+      <name>MUSMANNO</name>
+      <alias xml:id="musmanno">
+        <name>MUSMANNO</name>
+      </alias>
+    </character>
+    <character>
+      <name>STRÄFLING</name>
+      <alias xml:id="sträfling">
+        <name>STRÄFLING</name>
+      </alias>
+    </character>
+    <character>
+      <name>MADEIROS</name>
+      <alias xml:id="madeiros">
+        <name>MADEIROS</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN ARBEITER (9)</name>
+      <alias xml:id="ein_arbeiter_9">
+        <name>EIN ARBEITER (9)</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN ANDERER ARBEITER (9)</name>
+      <alias xml:id="ein_anderer_arbeiter">
+        <name>EIN ANDERER (9)</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN DRITTER ARBEITER</name>
+      <alias xml:id="ein_dritter_arbeiter">
+        <name>EIN DRITTER</name>
+      </alias>
+    </character>
+    <character>
+      <name>EINE FRAU</name>
+      <alias xml:id="eine_frau">
+        <name>EINE FRAU</name>
+      </alias>
+    </character>
+    <character>
+      <name>SEKRETÄR</name>
+      <alias xml:id="sekretär">
+        <name>SEKRETÄR</name>
+      </alias>
+    </character>
+    <character>
+      <name>FULLER</name>
+      <alias xml:id="fuller">
+        <name>FULLER</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN LAKAI</name>
+      <alias xml:id="ein_lakai">
+        <name>EIN LAKAI</name>
+      </alias>
+      <alias xml:id="lakai">
+        <name>LAKAI</name>
+      </alias>
+    </character>
+    <character>
+      <name>LUIGIA</name>
+      <alias xml:id="luigia">
+        <name>LUIGIA</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN ARBEITER (12)</name>
+      <alias xml:id="ein_arbeiter_12">
+        <name>EIN ARBEITER (12)</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN ITALIENISCHER ARBEITER</name>
+      <alias xml:id="ein_italienischer_arbeiter">
+        <name>EIN ITALIENISCHER ARBEITER</name>
+      </alias>
+      <alias xml:id="italienischer_arbeiter">
+        <name>ITALIENISCHER ARBEITER</name>
+      </alias>
+    </character>
+    <character>
+      <name>AMERIKANISCHER ARBEITER</name>
+      <alias xml:id="amerikanischer_arbeiter">
+        <name>AMERIKANISCHER ARBEITER</name>
+      </alias>
+    </character>
+    <character>
+      <name>ARBEITER</name>
+      <alias xml:id="arbeiter">
+        <name>ARBEITER</name>
+      </alias>
+      <alias xml:id="stimmen_aus_den_arbeitern">
+        <name>STIMMEN AUS DEN ARBEITERN</name>
+      </alias>
+    </character>
+    <character>
+      <name>AUFSEHER</name>
+      <alias xml:id="aufseher">
+        <name>AUFSEHER</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIREKTOR</name>
+      <alias xml:id="direktor">
+        <name>DIREKTOR</name>
+      </alias>
+    </character>
+    <character>
+      <name>VIELE</name>
+      <alias xml:id="viele">
+        <name>VIELE</name>
+      </alias>
+      <alias xml:id="stimmen">
+        <name>STIMMEN</name>
+      </alias>
+      <alias xml:id="rufe">
+        <name>RUFE</name>
+      </alias>
+      <alias xml:id="gesang">
+        <name>GESANG</name>
+      </alias>
+    </character>
+    <character>
+      <name>FRAU</name>
+      <alias xml:id="frau">
+        <name>FRAU</name>
+      </alias>
+    </character>
+    <character>
+      <name>EINE STIMME</name>
+      <alias xml:id="eine_stimme">
+        <name>EINE STIMME</name>
+      </alias>
+      <alias xml:id="stimme">
+        <name>STIMME</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN RICHTER</name>
+      <alias xml:id="ein_richter">
+        <name>EIN RICHTER</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN BEAMTER</name>
+      <alias xml:id="ein_beamter">
+        <name>EIN BEAMTER</name>
+      </alias>
+    </character>
+    <character>
+      <name>HENDRY</name>
+      <alias xml:id="hendry">
+        <name>HENDRY</name>
+      </alias>
+    </character>
+    <character>
+      <name>GEISTLICHER</name>
+      <alias xml:id="geistlicher">
+        <name>GEISTLICHER</name>
+      </alias>
+    </character>
+    <character>
+      <name>SHERIFF</name>
+      <alias xml:id="sheriff">
+        <name>SHERIFF</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN ARZT</name>
+      <alias xml:id="ein_arzt">
+        <name>EIN ARZT</name>
+      </alias>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Erich Mühsam</head>
+    </div>
+    <div>
+      <head>1. Akt</head>
+      <div>
+        <head>1. Bild</head>
+        <sp who="#katzmann">
+          <amount n="26" unit="speech_acts"/>
+          <amount n="1097" unit="words"/>
+          <amount n="10" unit="lines"/>
+          <amount n="6765" unit="chars"/>
+        </sp>
+        <sp who="#stenotypistin">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="29" unit="words"/>
+          <amount n="6" unit="lines"/>
+          <amount n="156" unit="chars"/>
+        </sp>
+        <sp who="#ein_polizeikommissar">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="22" unit="words"/>
+          <amount n="144" unit="chars"/>
+        </sp>
+        <sp who="#kommissar">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="91" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="583" unit="chars"/>
+        </sp>
+        <sp who="#polizeikommissar">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="10" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="48" unit="chars"/>
+        </sp>
+        <sp who="#thayer">
+          <amount n="15" unit="speech_acts"/>
+          <amount n="368" unit="words"/>
+          <amount n="8" unit="lines"/>
+          <amount n="2299" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>2. Akt</head>
+      <div>
+        <head>2. Bild</head>
+        <sp who="#sacco">
+          <amount n="33" unit="speech_acts"/>
+          <amount n="782" unit="words"/>
+          <amount n="16" unit="lines"/>
+          <amount n="4520" unit="chars"/>
+        </sp>
+        <sp who="#rosa">
+          <amount n="11" unit="speech_acts"/>
+          <amount n="114" unit="words"/>
+          <amount n="10" unit="lines"/>
+          <amount n="591" unit="chars"/>
+        </sp>
+        <sp who="#vanzetti">
+          <amount n="27" unit="speech_acts"/>
+          <amount n="817" unit="words"/>
+          <amount n="12" unit="lines"/>
+          <amount n="4794" unit="chars"/>
+        </sp>
+        <sp who="#frau_johnson">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="11" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="60" unit="chars"/>
+        </sp>
+        <sp who="#johnson">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="180" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="1097" unit="chars"/>
+        </sp>
+        <sp who="#kommissar">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="24" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="121" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>3. Akt</head>
+      <div>
+        <head>3. Bild</head>
+        <sp who="#katzmann">
+          <amount n="34" unit="speech_acts"/>
+          <amount n="947" unit="words"/>
+          <amount n="13" unit="lines"/>
+          <amount n="5870" unit="chars"/>
+        </sp>
+        <sp who="#thayer">
+          <amount n="23" unit="speech_acts"/>
+          <amount n="350" unit="words"/>
+          <amount n="16" unit="lines"/>
+          <amount n="2120" unit="chars"/>
+        </sp>
+        <sp who="#kommissar">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="109" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="711" unit="chars"/>
+        </sp>
+        <sp who="#levangie">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="36" unit="words"/>
+          <amount n="6" unit="lines"/>
+          <amount n="165" unit="chars"/>
+        </sp>
+        <sp who="#vanzetti">
+          <amount n="14" unit="speech_acts"/>
+          <amount n="382" unit="words"/>
+          <amount n="5" unit="lines"/>
+          <amount n="2266" unit="chars"/>
+        </sp>
+        <sp who="#sacco">
+          <amount n="10" unit="speech_acts"/>
+          <amount n="272" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="1645" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>4. Akt</head>
+      <div>
+        <head>4. Bild</head>
+        <sp who="#thompson">
+          <amount n="17" unit="speech_acts"/>
+          <amount n="386" unit="words"/>
+          <amount n="6" unit="lines"/>
+          <amount n="2461" unit="chars"/>
+        </sp>
+        <sp who="#sacco">
+          <amount n="21" unit="speech_acts"/>
+          <amount n="322" unit="words"/>
+          <amount n="15" unit="lines"/>
+          <amount n="1867" unit="chars"/>
+        </sp>
+        <sp who="#rosa">
+          <amount n="9" unit="speech_acts"/>
+          <amount n="123" unit="words"/>
+          <amount n="6" unit="lines"/>
+          <amount n="683" unit="chars"/>
+        </sp>
+        <sp who="#kommissar">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="11" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="82" unit="chars"/>
+        </sp>
+        <sp who="#vanzetti">
+          <amount n="9" unit="speech_acts"/>
+          <amount n="135" unit="words"/>
+          <amount n="6" unit="lines"/>
+          <amount n="752" unit="chars"/>
+        </sp>
+        <sp who="#katzmann">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="99" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="646" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>5. Akt</head>
+      <div>
+        <head>5. Bild</head>
+        <sp who="#moore">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="125" unit="words"/>
+          <amount n="810" unit="chars"/>
+        </sp>
+        <sp who="#mcanarney">
+          <amount n="10" unit="speech_acts"/>
+          <amount n="388" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="2280" unit="chars"/>
+        </sp>
+        <sp who="#thompson">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="379" unit="words"/>
+          <amount n="2277" unit="chars"/>
+        </sp>
+        <sp who="#levangie">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="45" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="235" unit="chars"/>
+        </sp>
+        <sp who="#die_campbell">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="20" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="100" unit="chars"/>
+        </sp>
+        <sp who="#die_andrews">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="13" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="66" unit="chars"/>
+        </sp>
+        <sp who="#campbell">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="218" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="1185" unit="chars"/>
+        </sp>
+        <sp who="#andrews">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="59" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="302" unit="chars"/>
+        </sp>
+        <sp who="#polizeikommissar">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="20" unit="words"/>
+          <amount n="136" unit="chars"/>
+        </sp>
+        <sp who="#rosa">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="50" unit="words"/>
+          <amount n="286" unit="chars"/>
+        </sp>
+        <sp who="#sibley">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="79" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="501" unit="chars"/>
+        </sp>
+        <sp who="#beffel">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="101" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="671" unit="chars"/>
+        </sp>
+        <sp who="#ein_journalist">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="71" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="447" unit="chars"/>
+        </sp>
+        <sp who="#frau_bernkopf">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="60" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="356" unit="chars"/>
+        </sp>
+        <sp who="#ein_arbeiter_5">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="8" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="36" unit="chars"/>
+        </sp>
+        <sp who="#ein_polizist">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="2" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="7" unit="chars"/>
+        </sp>
+        <sp who="#katzmann">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="249" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="1514" unit="chars"/>
+        </sp>
+        <sp who="#thayer">
+          <amount n="9" unit="speech_acts"/>
+          <amount n="311" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="1855" unit="chars"/>
+        </sp>
+        <sp who="#sacco">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="59" unit="words"/>
+          <amount n="351" unit="chars"/>
+        </sp>
+        <sp who="#vanzetti">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="39" unit="words"/>
+          <amount n="249" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>6. Akt</head>
+      <div>
+        <head>6. Bild</head>
+        <sp who="#vorsitzender">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="729" unit="words"/>
+          <amount n="4755" unit="chars"/>
+        </sp>
+        <sp who="#rosa">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="564" unit="words"/>
+          <amount n="3410" unit="chars"/>
+        </sp>
+        <sp who="#musmanno">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="48" unit="words"/>
+          <amount n="289" unit="chars"/>
+        </sp>
+        <sp who="#thompson">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="929" unit="words"/>
+          <amount n="5927" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>7. Akt</head>
+      <div>
+        <head>7. Bild</head>
+        <sp who="#vanzetti">
+          <amount n="27" unit="speech_acts"/>
+          <amount n="751" unit="words"/>
+          <amount n="23" unit="lines"/>
+          <amount n="4170" unit="chars"/>
+        </sp>
+        <sp who="#sacco">
+          <amount n="27" unit="speech_acts"/>
+          <amount n="402" unit="words"/>
+          <amount n="21" unit="lines"/>
+          <amount n="2319" unit="chars"/>
+        </sp>
+        <sp who="#sträfling">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="18" unit="words"/>
+          <amount n="101" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>8. Akt</head>
+      <div>
+        <head>8. Bild</head>
+        <sp who="#thompson">
+          <amount n="12" unit="speech_acts"/>
+          <amount n="760" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="4823" unit="chars"/>
+        </sp>
+        <sp who="#thayer">
+          <amount n="12" unit="speech_acts"/>
+          <amount n="232" unit="words"/>
+          <amount n="8" unit="lines"/>
+          <amount n="1413" unit="chars"/>
+        </sp>
+        <sp who="#madeiros">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="363" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="2027" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>9. Akt</head>
+      <div>
+        <head>9. Bild</head>
+        <sp who="#thayer">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="121" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="876" unit="chars"/>
+        </sp>
+        <sp who="#rosa">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="23" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="118" unit="chars"/>
+        </sp>
+        <sp who="#thompson">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="10" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="63" unit="chars"/>
+        </sp>
+        <sp who="#sacco">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="221" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="1263" unit="chars"/>
+        </sp>
+        <sp who="#vanzetti">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="522" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="3034" unit="chars"/>
+        </sp>
+        <sp who="#ein_arbeiter_9">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="30" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="147" unit="chars"/>
+        </sp>
+        <sp who="#ein_anderer_arbeiter">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="8" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="48" unit="chars"/>
+        </sp>
+        <sp who="#ein_dritter_arbeiter">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="6" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="38" unit="chars"/>
+        </sp>
+        <sp who="#polizeikommissar">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="6" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="36" unit="chars"/>
+        </sp>
+        <sp who="#eine_frau">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="17" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="81" unit="chars"/>
+        </sp>
+        <sp who="#stimmen_aus_den_arbeitern">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="6" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="42" unit="chars"/>
+        </sp>
+        <sp who="#kommissar">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="10" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="46" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>10. Akt</head>
+      <div>
+        <head>10. Bild</head>
+        <sp who="#sekretär">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="104" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="715" unit="chars"/>
+        </sp>
+        <sp who="#fuller">
+          <amount n="22" unit="speech_acts"/>
+          <amount n="720" unit="words"/>
+          <amount n="8" unit="lines"/>
+          <amount n="4284" unit="chars"/>
+        </sp>
+        <sp who="#ein_lakai">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="9" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="65" unit="chars"/>
+        </sp>
+        <sp who="#lakai">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="21" unit="words"/>
+          <amount n="124" unit="chars"/>
+        </sp>
+        <sp who="#rosa">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="146" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="850" unit="chars"/>
+        </sp>
+        <sp who="#luigia">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="48" unit="words"/>
+          <amount n="5" unit="lines"/>
+          <amount n="259" unit="chars"/>
+        </sp>
+        <sp who="#ein_italienischer_arbeiter">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="7" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="44" unit="chars"/>
+        </sp>
+        <sp who="#musmanno">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="277" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="1801" unit="chars"/>
+        </sp>
+        <sp who="#italienischer_arbeiter">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="43" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="281" unit="chars"/>
+        </sp>
+        <sp who="#amerikanischer_arbeiter">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="67" unit="words"/>
+          <amount n="455" unit="chars"/>
+        </sp>
+        <sp who="#thompson">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="217" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="1392" unit="chars"/>
+        </sp>
+        <sp who="#arbeiter">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="10" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="51" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>11. Akt</head>
+      <div>
+        <head>11. Bild</head>
+        <sp who="#sacco">
+          <amount n="25" unit="speech_acts"/>
+          <amount n="515" unit="words"/>
+          <amount n="16" unit="lines"/>
+          <amount n="2900" unit="chars"/>
+        </sp>
+        <sp who="#vanzetti">
+          <amount n="27" unit="speech_acts"/>
+          <amount n="1331" unit="words"/>
+          <amount n="7" unit="lines"/>
+          <amount n="7938" unit="chars"/>
+        </sp>
+        <sp who="#aufseher">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="28" unit="words"/>
+          <amount n="142" unit="chars"/>
+        </sp>
+        <sp who="#madeiros">
+          <amount n="12" unit="speech_acts"/>
+          <amount n="154" unit="words"/>
+          <amount n="8" unit="lines"/>
+          <amount n="887" unit="chars"/>
+        </sp>
+        <sp who="#direktor">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="11" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="69" unit="chars"/>
+        </sp>
+        <sp who="#fuller">
+          <amount n="17" unit="speech_acts"/>
+          <amount n="400" unit="words"/>
+          <amount n="10" unit="lines"/>
+          <amount n="2413" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>12. Akt</head>
+      <div>
+        <head>12. Bild</head>
+        <sp who="#rufe">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="133" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="885" unit="chars"/>
+        </sp>
+        <sp who="#ein_arbeiter_12">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="5" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="40" unit="chars"/>
+        </sp>
+        <sp who="#viele">
+          <amount n="13" unit="speech_acts"/>
+          <amount n="195" unit="words"/>
+          <amount n="11" unit="lines"/>
+          <amount n="1336" unit="chars"/>
+        </sp>
+        <sp who="#stimmen">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="41" unit="words"/>
+          <amount n="6" unit="lines"/>
+          <amount n="275" unit="chars"/>
+        </sp>
+        <sp who="#eine_frau">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="39" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="215" unit="chars"/>
+        </sp>
+        <sp who="#rosa">
+          <amount n="8" unit="speech_acts"/>
+          <amount n="206" unit="words"/>
+          <amount n="7" unit="lines"/>
+          <amount n="1297" unit="chars"/>
+        </sp>
+        <sp who="#luigia">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="56" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="344" unit="chars"/>
+        </sp>
+        <sp who="#frau">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="11" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="62" unit="chars"/>
+        </sp>
+        <sp who="#eine_stimme">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="16" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="110" unit="chars"/>
+        </sp>
+        <sp who="#stimme">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="8" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="47" unit="chars"/>
+        </sp>
+        <sp who="#musmanno">
+          <amount n="12" unit="speech_acts"/>
+          <amount n="484" unit="words"/>
+          <amount n="9" unit="lines"/>
+          <amount n="3145" unit="chars"/>
+        </sp>
+        <sp who="#gesang">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="7" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="32" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>13. Akt</head>
+      <div>
+        <head>13. Bild</head>
+        <sp who="#fuller">
+          <amount n="17" unit="speech_acts"/>
+          <amount n="1343" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="8577" unit="chars"/>
+        </sp>
+        <sp who="#thayer">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="152" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="951" unit="chars"/>
+        </sp>
+        <sp who="#katzmann">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="154" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="977" unit="chars"/>
+        </sp>
+        <sp who="#ein_richter">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="6" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="39" unit="chars"/>
+        </sp>
+        <sp who="#ein_beamter">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="6" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="32" unit="chars"/>
+        </sp>
+        <sp who="#sekretär">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="11" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="65" unit="chars"/>
+        </sp>
+        <sp who="#rosa">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="109" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="606" unit="chars"/>
+        </sp>
+        <sp who="#luigia">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="60" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="346" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>14. Akt</head>
+      <div>
+        <head>14. Bild</head>
+        <sp who="#vanzetti">
+          <amount n="37" unit="speech_acts"/>
+          <amount n="863" unit="words"/>
+          <amount n="35" unit="lines"/>
+          <amount n="4884" unit="chars"/>
+        </sp>
+        <sp who="#sacco">
+          <amount n="36" unit="speech_acts"/>
+          <amount n="950" unit="words"/>
+          <amount n="23" unit="lines"/>
+          <amount n="5309" unit="chars"/>
+        </sp>
+        <sp who="#thompson">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="141" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="808" unit="chars"/>
+        </sp>
+        <sp who="#musmanno">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="120" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="654" unit="chars"/>
+        </sp>
+        <sp who="#aufseher">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="40" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="224" unit="chars"/>
+        </sp>
+        <sp who="#rosa">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="58" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="333" unit="chars"/>
+        </sp>
+        <sp who="#luigia">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="17" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="87" unit="chars"/>
+        </sp>
+        <sp who="#hendry">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="139" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="874" unit="chars"/>
+        </sp>
+        <sp who="#journalist">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="1" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="3" unit="chars"/>
+        </sp>
+        <sp who="#geistlicher">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="63" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="340" unit="chars"/>
+        </sp>
+        <sp who="#madeiros">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="5" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="27" unit="chars"/>
+        </sp>
+        <sp who="#sheriff">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="18" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="117" unit="chars"/>
+        </sp>
+        <sp who="#ein_arzt">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="27" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="144" unit="chars"/>
+        </sp>
+        <sp who="#stimmen">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="10" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="58" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>15. Akt</head>
+      <div>
+        <head>15. Bild</head>
+      </div>
+    </div>
+  </text>
+</play>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="http://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital">
+  <header>
+    <title>Voltaire am Abend seiner Apotheose</title>
+    <subtitle></subtitle>
+    <genretitle></genretitle>
+    <author>Wagner, Heinrich Leopold</author>
+    <date type="print" when="1778">1778</date>
+    <date type="premiere"></date>
+    <date type="written"></date>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:wznq.0/data</source>
+  </header>
+  <personae>
+    <character>
+      <name>VOLTAIRE</name>
+      <alias xml:id="voltaire">
+        <name>VOLTAIRE</name>
+      </alias>
+    </character>
+    <character>
+      <name>AMME</name>
+      <alias xml:id="amme">
+        <name>AMME</name>
+      </alias>
+    </character>
+    <character>
+      <name>GESPENST</name>
+      <alias xml:id="gespenst">
+        <name>GESPENST</name>
+      </alias>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>[Stücktext]</head>
+      <div>
+        <head>[Stücktext]</head>
+        <sp who="#voltaire">
+          <amount n="29" unit="speech_acts"/>
+          <amount n="2419" unit="words"/>
+          <amount n="15" unit="lines"/>
+          <amount n="13422" unit="chars"/>
+        </sp>
+        <sp who="#amme">
+          <amount n="17" unit="speech_acts"/>
+          <amount n="2167" unit="words"/>
+          <amount n="5" unit="lines"/>
+          <amount n="11808" unit="chars"/>
+        </sp>
+        <sp who="#gespenst">
+          <amount n="11" unit="speech_acts"/>
+          <amount n="100" unit="words"/>
+          <amount n="10" unit="lines"/>
+          <amount n="552" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+  </text>
+</play>

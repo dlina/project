@@ -1,0 +1,1655 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital">
+  <header>
+    <title>Agnes Bernauer</title>
+  	<subtitle>Ein deutsches Trauerspiel in fünf Aufzügen</subtitle>
+  	<genretitle>Trauerspiel</genretitle>
+    <author>Hebbel, Friedrich</author>
+  	<date when="1852" type="premiere" />
+  	<date when="1855" type="print" />
+  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:pksn.0/data</source>
+  </header>
+  <personae>
+    <character>
+      <name>THEOBALD</name>
+      <alias xml:id="theobald">
+        <name>THEOBALD</name>
+      </alias>
+    </character>
+    <character>
+      <name>AGNES</name>
+      <alias xml:id="agnes">
+        <name>AGNES</name>
+      </alias>
+    </character>
+    <character>
+      <name>KNIPPELDOLLINGER</name>
+      <alias xml:id="knippeldollinger">
+        <name>KNIPPELDOLLINGER</name>
+      </alias>
+    </character>
+    <character>
+      <name>BARBARA</name>
+      <alias xml:id="barbara">
+        <name>BARBARA</name>
+      </alias>
+    </character>
+    <character>
+      <name>CASPAR BERNAUER</name>
+      <alias xml:id="caspar_bernauer">
+        <name>CASPAR BERNAUER</name>
+      </alias>
+    </character>
+    <character>
+      <name>ALBRECHT</name>
+      <alias xml:id="albrecht">
+        <name>ALBRECHT</name>
+      </alias>
+    </character>
+    <character>
+      <name>BÜRGERMEISTER</name>
+      <alias xml:id="bürgermeister">
+        <name>BÜRGERMEISTER</name>
+      </alias>
+    	<alias xml:id="bürgermeister_nördlinger">
+    		<name>BÜRGERMEISTER NÖRDLINGER</name>
+    	</alias>
+    </character>
+    <character>
+      <name>NOTHHAFFT VON WERNBERG</name>
+      <alias xml:id="nothhafft_von_wernberg">
+        <name>NOTHHAFFT VON WERNBERG</name>
+      </alias>
+    </character>
+    <character>
+      <name>FRAUENHOVEN</name>
+      <alias xml:id="frauenhoven">
+        <name>FRAUENHOVEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>TÖRRING</name>
+      <alias xml:id="törring">
+        <name>TÖRRING</name>
+      </alias>
+    </character>
+    <character>
+      <name>MARTHA</name>
+      <alias xml:id="martha">
+        <name>MARTHA</name>
+      </alias>
+    </character>
+    <character>
+      <name>ERNST</name>
+      <alias xml:id="ernst">
+        <name>ERNST</name>
+      </alias>
+    </character>
+    <character>
+      <name>STACHUS</name>
+      <alias xml:id="stachus">
+        <name>STACHUS</name>
+      </alias>
+    </character>
+    <character>
+      <name>PREISING</name>
+      <alias xml:id="preising">
+        <name>PREISING</name>
+      </alias>
+    	<alias xml:id="der_kanzler_preising">
+    		<name>DER KANZLER PREISING</name>
+    	</alias>
+    </character>
+    <character>
+      <name>KASTELLAN</name>
+      <alias xml:id="kastellan">
+        <name>KASTELLAN</name>
+      </alias>
+    </character>
+    <character>
+      <name>MARSCHALL</name>
+      <alias xml:id="marschall">
+        <name>MARSCHALL</name>
+      </alias>
+    </character>
+    <character>
+      <name>PIENZENAU</name>
+      <alias xml:id="pienzenau">
+        <name>PIENZENAU</name>
+      </alias>
+    	<alias xml:id="wolfram_von_pienzenau">
+    		<name>WOLFRAM VON PIENZENAU</name>
+    	</alias>
+    </character>
+    <character>
+      <name>HANS VON LÄUBELFING</name>
+      <alias xml:id="hans_von_läubelfing">
+        <name>HANS VON LÄUBELFING</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER KASTELLAN</name>
+      <alias xml:id="der_kastellan">
+        <name>DER KASTELLAN</name>
+      </alias>
+    </character>
+    <character>
+      <name>PAPPENHEIM</name>
+      <alias xml:id="pappenheim">
+        <name>PAPPENHEIM</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE KNECHTE</name>
+      <alias xml:id="die_knechte">
+        <name>DIE KNECHTE</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE REISIGEN</name>
+      <alias xml:id="die_reisigen">
+        <name>DIE REISIGEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>EMERAN NUSPERGER ZU KALMPERG</name>
+      <alias xml:id="emeran_nusperger_zu_kalmperg">
+        <name>EMERAN NUSPERGER ZU KALMPERG</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN HÄSCHER</name>
+      <alias xml:id="ein_häscher">
+        <name>EIN HÄSCHER</name>
+      </alias>
+    </character>
+    <character>
+      <name>IGNAZ VON SEYBOLTSTORFF</name>
+      <alias xml:id="ignaz_von_seyboltstorff">
+        <name>IGNAZ VON SEYBOLTSTORFF</name>
+      </alias>
+    </character>
+    <character>
+      <name>OTTO VON BERN</name>
+      <alias xml:id="otto_von_bern">
+        <name>OTTO VON BERN</name>
+      </alias>
+    </character>
+    <character>
+      <name>EINIGE</name>
+      <alias xml:id="einige">
+        <name>EINIGE</name>
+      </alias>
+    </character>
+    <character>
+      <name>ANDERE</name>
+      <alias xml:id="andere">
+        <name>ANDERE</name>
+      </alias>
+    </character>
+    <character>
+      <name>ROLF VON FRAUENHOVEN</name>
+      <alias xml:id="rolf_von_frauenhoven">
+        <name>ROLF VON FRAUENHOVEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>STIMMEN</name>
+      <alias xml:id="stimmen">
+        <name>STIMMEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>ANDERE STIMMEN</name>
+      <alias xml:id="andere_stimmen">
+        <name>ANDERE STIMMEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER HEROLD</name>
+      <alias xml:id="der_herold">
+        <name>DER HEROLD</name>
+      </alias>
+    </character>
+    <character>
+      <name>NOTHHAFFT</name>
+      <alias xml:id="nothhafft">
+        <name>NOTHHAFFT</name>
+      </alias>
+    </character>
+    <character>
+      <name>VIELE STIMMEN</name>
+      <alias xml:id="viele_stimmen">
+        <name>VIELE STIMMEN</name>
+      </alias>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Personen</head>
+    </div>
+    <div>
+      <head>1. Akt</head>
+      <div>
+        <head>1. Szene</head>
+        <div>
+          <head>Erste Szene</head>
+          <sp who="#theobald">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="98" unit="words"/>
+            <amount n="500" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Szene</head>
+        <div>
+          <head>Zweite Szene</head>
+          <sp who="#agnes">
+            <amount n="16" unit="speech_acts"/>
+            <amount n="185" unit="words"/>
+            <amount n="13" unit="lines"/>
+            <amount n="930" unit="chars"/>
+          </sp>
+          <sp who="#theobald">
+            <amount n="16" unit="speech_acts"/>
+            <amount n="283" unit="words"/>
+            <amount n="17" unit="lines"/>
+            <amount n="1432" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3. Szene</head>
+        <div>
+          <head>Dritte Szene</head>
+          <sp who="#knippeldollinger">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="187" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="1034" unit="chars"/>
+          </sp>
+          <sp who="#agnes">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="24" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="128" unit="chars"/>
+          </sp>
+          <sp who="#theobald">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="53" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="273" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>4. Szene</head>
+        <div>
+          <head>Vierte Szene</head>
+          <sp who="#theobald">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="39" unit="words"/>
+            <amount n="211" unit="chars"/>
+          </sp>
+          <sp who="#agnes">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="2" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="10" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>5. Szene</head>
+        <div>
+          <head>Fünfte Szene</head>
+          <sp who="#barbara">
+            <amount n="21" unit="speech_acts"/>
+            <amount n="450" unit="words"/>
+            <amount n="13" unit="lines"/>
+            <amount n="2334" unit="chars"/>
+          </sp>
+          <sp who="#agnes">
+            <amount n="20" unit="speech_acts"/>
+            <amount n="152" unit="words"/>
+            <amount n="19" unit="lines"/>
+            <amount n="783" unit="chars"/>
+          </sp>
+          <sp who="#theobald">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="11" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="61" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>6. Szene</head>
+        <div>
+          <head>Sechste Szene</head>
+          <sp who="#theobald">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="26" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="122" unit="chars"/>
+          </sp>
+          <sp who="#agnes">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="12" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="62" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>7. Szene</head>
+        <div>
+          <head>Siebente Szene</head>
+          <sp who="#caspar_bernauer">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="136" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="746" unit="chars"/>
+          </sp>
+          <sp who="#agnes">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="46" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="228" unit="chars"/>
+          </sp>
+          <sp who="#theobald">
+            <amount n="3" unit="speech_acts"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>8. Szene</head>
+        <div>
+          <head>Achte Szene</head>
+          <sp who="#caspar_bernauer">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="43" unit="words"/>
+            <amount n="246" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>9. Szene</head>
+        <div>
+          <head>Neunte Szene</head>
+          <sp who="#knippeldollinger">
+            <amount n="11" unit="speech_acts"/>
+            <amount n="184" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="1023" unit="chars"/>
+          </sp>
+          <sp who="#caspar_bernauer">
+            <amount n="11" unit="speech_acts"/>
+            <amount n="237" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="1369" unit="chars"/>
+          </sp>
+          <sp who="#theobald">
+            <amount n="2" unit="speech_acts"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>10. Szene</head>
+        <div>
+          <head>Zehnte Szene</head>
+          <sp who="#knippeldollinger">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="26" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="133" unit="chars"/>
+          </sp>
+          <sp who="#caspar_bernauer">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="36" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="187" unit="chars"/>
+          </sp>
+          <sp who="#agnes">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="2" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="16" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>11. Szene</head>
+        <div>
+          <head>Eilfte Szene</head>
+          <sp who="#caspar_bernauer">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="38" unit="words"/>
+            <amount n="209" unit="chars"/>
+          </sp>
+          <sp who="#theobald">
+            <amount n="1" unit="speech_acts"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>12. Szene</head>
+        <div>
+          <head>Zwölfte Szene</head>
+          <sp who="#caspar_bernauer">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="130" unit="words"/>
+            <amount n="697" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>13. Szene</head>
+        <div>
+          <head>Dreizehnte Szene</head>
+          <sp who="#albrecht">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="133" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="688" unit="chars"/>
+          </sp>
+          <sp who="#bürgermeister">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="69" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="447" unit="chars"/>
+          </sp>
+          <sp who="#nothhafft_von_wernberg">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="9" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="48" unit="chars"/>
+          </sp>
+          <sp who="#frauenhoven">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="6" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="27" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>14. Szene</head>
+        <div>
+          <head>Vierzehnte Szene</head>
+          <sp who="#albrecht">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="187" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="1022" unit="chars"/>
+          </sp>
+          <sp who="#frauenhoven">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="96" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="549" unit="chars"/>
+          </sp>
+          <sp who="#nothhafft_von_wernberg">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="181" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="1038" unit="chars"/>
+          </sp>
+          <sp who="#törring">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="33" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="180" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>15. Szene</head>
+        <div>
+          <head>Funfzehnte Szene</head>
+          <sp who="#bürgermeister">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="196" unit="words"/>
+            <amount n="1136" unit="chars"/>
+          </sp>
+          <sp who="#nothhafft_von_wernberg">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="21" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="105" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>16. Szene</head>
+        <div>
+          <head>Sechszehnte Szene</head>
+          <sp who="#frauenhoven">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="32" unit="words"/>
+            <amount n="168" unit="chars"/>
+          </sp>
+          <sp who="#bürgermeister">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="18" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="96" unit="chars"/>
+          </sp>
+          <sp who="#törring">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="1" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="7" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>17. Szene</head>
+        <div>
+          <head>Siebzehnte Szene</head>
+          <sp who="#bürgermeister">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="14" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="87" unit="chars"/>
+          </sp>
+          <sp who="#albrecht">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="196" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="1091" unit="chars"/>
+          </sp>
+          <sp who="#frauenhoven">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="84" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="418" unit="chars"/>
+          </sp>
+          <sp who="#nothhafft_von_wernberg">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="2" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="11" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>18. Szene</head>
+        <div>
+          <head>Achtzehnte Szene</head>
+          <sp who="#agnes">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="141" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="731" unit="chars"/>
+          </sp>
+          <sp who="#albrecht">
+            <amount n="20" unit="speech_acts"/>
+            <amount n="336" unit="words"/>
+            <amount n="14" unit="lines"/>
+            <amount n="1776" unit="chars"/>
+          </sp>
+          <sp who="#nothhafft #frauenhoven">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="5" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="26" unit="chars"/>
+          </sp>
+          <sp who="#törring">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="98" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="540" unit="chars"/>
+          </sp>
+          <sp who="#caspar_bernauer">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="159" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="890" unit="chars"/>
+          </sp>
+          <sp who="#barbara">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="58" unit="words"/>
+            <amount n="288" unit="chars"/>
+          </sp>
+          <sp who="#martha">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="24" unit="words"/>
+            <amount n="121" unit="chars"/>
+          </sp>
+          <sp who="#nothhafft_von_wernberg">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="33" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="193" unit="chars"/>
+          </sp>
+          <sp who="#bürgermeister_nördlinger">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="40" unit="words"/>
+            <amount n="217" unit="chars"/>
+          </sp>
+          <sp who="#knippeldollinger">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="9" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="54" unit="chars"/>
+          </sp>
+          <sp who="#frauenhoven">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="50" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="306" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>2. Akt</head>
+      <div>
+        <head>1. Szene</head>
+        <div>
+          <head>Erste Szene</head>
+          <sp who="#nothhafft_von_wernberg">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="68" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="380" unit="chars"/>
+          </sp>
+          <sp who="#törring">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="226" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="1235" unit="chars"/>
+          </sp>
+          <sp who="#frauenhoven">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="190" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="1018" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Szene</head>
+        <div>
+          <head>Zweite Szene</head>
+          <sp who="#albrecht">
+            <amount n="12" unit="speech_acts"/>
+            <amount n="533" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="2878" unit="chars"/>
+          </sp>
+          <sp who="#nothhafft_von_wernberg">
+            <amount n="11" unit="speech_acts"/>
+            <amount n="179" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="966" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3. Szene</head>
+        <div>
+          <head>Dritte Szene</head>
+          <sp who="#agnes">
+            <amount n="10" unit="speech_acts"/>
+            <amount n="41" unit="words"/>
+            <amount n="10" unit="lines"/>
+            <amount n="217" unit="chars"/>
+          </sp>
+          <sp who="#caspar_bernauer">
+            <amount n="10" unit="speech_acts"/>
+            <amount n="332" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="1818" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>4. Szene</head>
+        <div>
+          <head>Vierte Szene</head>
+          <sp who="#theobald">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="167" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="844" unit="chars"/>
+          </sp>
+          <sp who="#caspar_bernauer">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="4" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="19" unit="chars"/>
+          </sp>
+          <sp who="#agnes">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="5" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="25" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>5. Szene</head>
+        <div>
+          <head>Fünfte Szene</head>
+          <sp who="#caspar_bernauer">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="72" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="381" unit="chars"/>
+          </sp>
+          <sp who="#agnes">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="58" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="269" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>6. Szene</head>
+        <div>
+          <head>Sechste Szene</head>
+          <sp who="#törring">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="269" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="1455" unit="chars"/>
+          </sp>
+          <sp who="#agnes">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="27" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="143" unit="chars"/>
+          </sp>
+          <sp who="#caspar_bernauer">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="20" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="110" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>7. Szene</head>
+        <div>
+          <head>Siebente Szene</head>
+          <sp who="#caspar_bernauer">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="66" unit="words"/>
+            <amount n="9" unit="lines"/>
+            <amount n="348" unit="chars"/>
+          </sp>
+          <sp who="#törring">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="275" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="1492" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>8. Szene</head>
+        <div>
+          <head>Achte Szene</head>
+          <sp who="#agnes">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="59" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="317" unit="chars"/>
+          </sp>
+          <sp who="#törring">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="46" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="218" unit="chars"/>
+          </sp>
+          <sp who="#caspar_bernauer">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="351" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="1890" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>9. Szene</head>
+        <div>
+          <head>Neunte Szene</head>
+          <sp who="#albrecht">
+            <amount n="17" unit="speech_acts"/>
+            <amount n="479" unit="words"/>
+            <amount n="11" unit="lines"/>
+            <amount n="2499" unit="chars"/>
+          </sp>
+          <sp who="#agnes">
+            <amount n="14" unit="speech_acts"/>
+            <amount n="277" unit="words"/>
+            <amount n="10" unit="lines"/>
+            <amount n="1416" unit="chars"/>
+          </sp>
+          <sp who="#törring">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="158" unit="words"/>
+            <amount n="841" unit="chars"/>
+          </sp>
+          <sp who="#caspar_bernauer">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="24" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="117" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>10. Szene</head>
+        <div>
+          <head>Zehnte Szene</head>
+          <sp who="#frauenhoven #nothhafft_von_wernberg">
+            <amount n="1" unit="speech_acts"/>
+          </sp>
+          <sp who="#albrecht">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="140" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="746" unit="chars"/>
+          </sp>
+          <sp who="#frauenhoven">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="35" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="209" unit="chars"/>
+          </sp>
+          <sp who="#nothhafft_von_wernberg">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="14" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="75" unit="chars"/>
+          </sp>
+          <sp who="#agnes">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="101" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="523" unit="chars"/>
+          </sp>
+          <sp who="#caspar_bernauer">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="34" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="183" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>3. Akt</head>
+      <div>
+        <head>1. Szene</head>
+        <div>
+          <head>Erste Szene</head>
+          <sp who="#ernst">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="275" unit="words"/>
+            <amount n="1577" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Szene</head>
+        <div>
+          <head>Zweite Szene</head>
+          <sp who="#stachus">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="19" unit="words"/>
+            <amount n="102" unit="chars"/>
+          </sp>
+          <sp who="#ernst">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="10" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="45" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3. Szene</head>
+        <div>
+          <head>Dritte Szene</head>
+          <sp who="#ernst">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="20" unit="words"/>
+            <amount n="106" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>4. Szene</head>
+        <div>
+          <head>Vierte Szene</head>
+          <sp who="#stachus">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="9" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="46" unit="chars"/>
+          </sp>
+          <sp who="#ernst">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="134" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="723" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>5. Szene</head>
+        <div>
+          <head>Fünfte Szene</head>
+          <sp who="#ernst">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="93" unit="words"/>
+            <amount n="514" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>6. Szene</head>
+        <div>
+          <head>Sechste Szene</head>
+          <sp who="#der_kanzler_preising">
+            <amount n="1" unit="speech_acts"/>
+          </sp>
+          <sp who="#ernst">
+            <amount n="27" unit="speech_acts"/>
+            <amount n="1363" unit="words"/>
+            <amount n="8" unit="lines"/>
+            <amount n="7510" unit="chars"/>
+          </sp>
+          <sp who="#preising">
+            <amount n="26" unit="speech_acts"/>
+            <amount n="349" unit="words"/>
+            <amount n="21" unit="lines"/>
+            <amount n="1870" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>7. Szene</head>
+        <div>
+          <head>Siebente Szene</head>
+          <sp who="#albrecht">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="49" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="281" unit="chars"/>
+          </sp>
+          <sp who="#kastellan">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="163" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="968" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>8. Szene</head>
+        <div>
+          <head>Achte Szene</head>
+          <sp who="#albrecht">
+            <amount n="17" unit="speech_acts"/>
+            <amount n="886" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="4814" unit="chars"/>
+          </sp>
+          <sp who="#agnes">
+            <amount n="16" unit="speech_acts"/>
+            <amount n="153" unit="words"/>
+            <amount n="11" unit="lines"/>
+            <amount n="813" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>9. Szene</head>
+        <div>
+          <head>Neunte Szene</head>
+          <sp who="#albrecht">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="183" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="923" unit="chars"/>
+          </sp>
+          <sp who="#agnes">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="38" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="197" unit="chars"/>
+          </sp>
+          <sp who="#kastellan">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="7" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="49" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>10. Szene</head>
+        <div>
+          <head>Zehnte Szene</head>
+          <sp who="#albrecht">
+            <amount n="17" unit="speech_acts"/>
+            <amount n="539" unit="words"/>
+            <amount n="10" unit="lines"/>
+            <amount n="2945" unit="chars"/>
+          </sp>
+          <sp who="#preising">
+            <amount n="17" unit="speech_acts"/>
+            <amount n="525" unit="words"/>
+            <amount n="10" unit="lines"/>
+            <amount n="3038" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>11. Szene</head>
+        <div>
+          <head>Eilfte Szene</head>
+          <sp who="#albrecht">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="53" unit="words"/>
+            <amount n="306" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>12. Szene</head>
+        <div>
+          <head>Zwölfte Szene</head>
+          <sp who="#agnes">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="131" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="699" unit="chars"/>
+          </sp>
+          <sp who="#albrecht">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="240" unit="words"/>
+            <amount n="1317" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>13. Szene</head>
+        <div>
+          <head>Dreizehnte Szene</head>
+          <sp who="#ernst">
+            <amount n="15" unit="speech_acts"/>
+            <amount n="308" unit="words"/>
+            <amount n="7" unit="lines"/>
+            <amount n="1750" unit="chars"/>
+          </sp>
+          <sp who="#preising">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="111" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="616" unit="chars"/>
+          </sp>
+          <sp who="#marschall">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="61" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="361" unit="chars"/>
+          </sp>
+          <sp who="#pienzenau">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="8" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="38" unit="chars"/>
+          </sp>
+          <sp who="#albrecht">
+            <amount n="13" unit="speech_acts"/>
+            <amount n="194" unit="words"/>
+            <amount n="7" unit="lines"/>
+            <amount n="1127" unit="chars"/>
+          </sp>
+          <sp who="#preising #ignaz_von_seyboltstorff">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="5" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="30" unit="chars"/>
+          </sp>
+          <sp who="#hans_von_läubelfing">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="19" unit="words"/>
+            <amount n="112" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>4. Akt</head>
+      <div>
+        <head>1. Szene</head>
+        <div>
+          <head>Erste Szene</head>
+          <sp who="#preising">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="85" unit="words"/>
+            <amount n="477" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Szene</head>
+        <div>
+          <head>Zweite Szene</head>
+          <sp who="#stachus">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="233" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="1278" unit="chars"/>
+          </sp>
+          <sp who="#preising">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="50" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="259" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3. Szene</head>
+        <div>
+          <head>Dritte Szene</head>
+          <sp who="#preising">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="422" unit="words"/>
+            <amount n="2402" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>4. Szene</head>
+        <div>
+          <head>Vierte Szene</head>
+          <sp who="#ernst">
+            <amount n="19" unit="speech_acts"/>
+            <amount n="1053" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="5747" unit="chars"/>
+          </sp>
+          <sp who="#preising">
+            <amount n="18" unit="speech_acts"/>
+            <amount n="265" unit="words"/>
+            <amount n="12" unit="lines"/>
+            <amount n="1443" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>5. Szene</head>
+        <div>
+          <head>Fünfte Szene</head>
+          <sp who="#nothhafft_von_wernberg">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="25" unit="words"/>
+            <amount n="152" unit="chars"/>
+          </sp>
+          <sp who="#kastellan">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="43" unit="words"/>
+            <amount n="227" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>6. Szene</head>
+        <div>
+          <head>Sechste Szene</head>
+          <sp who="#frauenhoven">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="29" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="175" unit="chars"/>
+          </sp>
+          <sp who="#törring">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="193" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="1134" unit="chars"/>
+          </sp>
+          <sp who="#nothhafft_von_wernberg">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="30" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="167" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>7. Szene</head>
+        <div>
+          <head>Siebente Szene</head>
+          <sp who="#agnes">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="690" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="3716" unit="chars"/>
+          </sp>
+          <sp who="#albrecht">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="105" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="545" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>8. Szene</head>
+        <div>
+          <head>Achte Szene</head>
+          <sp who="#törring">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="42" unit="words"/>
+            <amount n="7" unit="lines"/>
+            <amount n="227" unit="chars"/>
+          </sp>
+          <sp who="#albrecht">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="330" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="1656" unit="chars"/>
+          </sp>
+          <sp who="#agnes">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="32" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="168" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>9. Szene</head>
+        <div>
+          <head>Neunte Szene</head>
+          <sp who="#agnes">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="345" unit="words"/>
+            <amount n="1800" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>10. Szene</head>
+        <div>
+          <head>Zehnte Szene</head>
+          <sp who="#törring">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="15" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="80" unit="chars"/>
+          </sp>
+          <sp who="#agnes">
+            <amount n="16" unit="speech_acts"/>
+            <amount n="209" unit="words"/>
+            <amount n="12" unit="lines"/>
+            <amount n="1032" unit="chars"/>
+          </sp>
+          <sp who="#theobald">
+            <amount n="13" unit="speech_acts"/>
+            <amount n="468" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="2464" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>11. Szene</head>
+        <div>
+          <head>Eilfte Szene</head>
+          <sp who="#der_kastellan">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="62" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="324" unit="chars"/>
+          </sp>
+          <sp who="#agnes">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="23" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="117" unit="chars"/>
+          </sp>
+          <sp who="#theobald">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="20" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="93" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>12. Szene</head>
+        <div>
+          <head>Zwölfte Szene</head>
+          <sp who="#pappenheim">
+            <amount n="14" unit="speech_acts"/>
+            <amount n="162" unit="words"/>
+            <amount n="12" unit="lines"/>
+            <amount n="840" unit="chars"/>
+          </sp>
+          <sp who="#törring">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="34" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="152" unit="chars"/>
+          </sp>
+          <sp who="#theobald">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="57" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="307" unit="chars"/>
+          </sp>
+          <sp who="#agnes">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="45" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="258" unit="chars"/>
+          </sp>
+          <sp who="#die_knechte">
+            <amount n="1" unit="speech_acts"/>
+          </sp>
+          <sp who="#die_reisigen">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="3" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="12" unit="chars"/>
+          </sp>
+          <sp who="#preising">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="31" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="158" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>5. Akt</head>
+      <div>
+        <head>1. Szene</head>
+        <div>
+          <head>Erste Szene</head>
+          <sp who="#agnes">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="71" unit="words"/>
+            <amount n="425" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Szene</head>
+        <div>
+          <head>Zweite Szene</head>
+          <sp who="#preising">
+            <amount n="15" unit="speech_acts"/>
+            <amount n="598" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="3266" unit="chars"/>
+          </sp>
+          <sp who="#agnes">
+            <amount n="14" unit="speech_acts"/>
+            <amount n="774" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="4068" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3. Szene</head>
+        <div>
+          <head>Dritte Szene</head>
+          <sp who="#agnes">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="286" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="1520" unit="chars"/>
+          </sp>
+          <sp who="#emeran_nusperger_zu_kalmperg">
+            <amount n="3" unit="speech_acts"/>
+          </sp>
+          <sp who="#preising">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="63" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="323" unit="chars"/>
+          </sp>
+          <sp who="#ein_häscher">
+            <amount n="1" unit="speech_acts"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>4. Szene</head>
+        <div>
+          <head>Vierte Szene</head>
+          <sp who="#ernst">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="97" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="565" unit="chars"/>
+          </sp>
+          <sp who="#wolfram_von_pienzenau">
+            <amount n="1" unit="speech_acts"/>
+          </sp>
+          <sp who="#ignaz_von_seyboltstorff">
+            <amount n="1" unit="speech_acts"/>
+          </sp>
+          <sp who="#otto_von_bern">
+            <amount n="1" unit="speech_acts"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>5. Szene</head>
+        <div>
+          <head>Fünfte Szene</head>
+          <sp who="#ernst">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="81" unit="words"/>
+            <amount n="444" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>6. Szene</head>
+        <div>
+          <head>Sechste Szene</head>
+          <sp who="#preising">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="168" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="895" unit="chars"/>
+          </sp>
+          <sp who="#ernst">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="330" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="1743" unit="chars"/>
+          </sp>
+          <sp who="#pappenheim">
+            <amount n="1" unit="speech_acts"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>7. Szene</head>
+        <div>
+          <head>Siebente Szene</head>
+          <sp who="#einige">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="6" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="21" unit="chars"/>
+          </sp>
+          <sp who="#andere">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="5" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="35" unit="chars"/>
+          </sp>
+          <sp who="#einige #andere">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="7" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="45" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>8. Szene</head>
+        <div>
+          <head>Achte Szene</head>
+          <sp who="#albrecht">
+            <amount n="13" unit="speech_acts"/>
+            <amount n="277" unit="words"/>
+            <amount n="7" unit="lines"/>
+            <amount n="1478" unit="chars"/>
+          </sp>
+          <sp who="#pappenheim">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="3" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="15" unit="chars"/>
+          </sp>
+          <sp who="#theobald">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="119" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="630" unit="chars"/>
+          </sp>
+          <sp who="#nothhafft_von_wernberg">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="59" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="301" unit="chars"/>
+          </sp>
+          <sp who="#rolf_von_frauenhoven">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="30" unit="words"/>
+            <amount n="158" unit="chars"/>
+          </sp>
+          <sp who="#frauenhoven">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="35" unit="words"/>
+            <amount n="177" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>9. Szene</head>
+        <div>
+          <head>Neunte Szene</head>
+          <sp who="#ernst">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="378" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="2086" unit="chars"/>
+          </sp>
+          <sp who="#albrecht">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="348" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="1841" unit="chars"/>
+          </sp>
+          <sp who="#stimmen">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="6" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="35" unit="chars"/>
+          </sp>
+          <sp who="#andere_stimmen">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="2" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="11" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>10. Szene</head>
+        <div>
+          <head>Zehnte Szene</head>
+          <sp who="#der_herold">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="272" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="1654" unit="chars"/>
+          </sp>
+          <sp who="#pappenheim #nothhafft #frauenhoven">
+            <amount n="1" unit="speech_acts"/>
+          </sp>
+          <sp who="#albrecht">
+            <amount n="14" unit="speech_acts"/>
+            <amount n="227" unit="words"/>
+            <amount n="10" unit="lines"/>
+            <amount n="1151" unit="chars"/>
+          </sp>
+          <sp who="#nothhafft">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="10" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="58" unit="chars"/>
+          </sp>
+          <sp who="#preising">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="5" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="24" unit="chars"/>
+          </sp>
+          <sp who="#ernst">
+            <amount n="14" unit="speech_acts"/>
+            <amount n="770" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="4245" unit="chars"/>
+          </sp>
+          <sp who="#stimmen">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="7" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="41" unit="chars"/>
+          </sp>
+          <sp who="#viele_stimmen">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="13" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="69" unit="chars"/>
+          </sp>
+          <sp who="#frauenhoven">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="29" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="150" unit="chars"/>
+          </sp>
+          <sp who="#nothhafft_von_wernberg">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="15" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="80" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+  </text>
+	<documentation>
+		<change n="1" who="dariokampkaspar" type="expandCollective">
+			<path>/play/text[1]/div[6]/div[10]/div[1]/sp[2]</path>
+			<orig>#alle_ritter</orig>
+			<corr>#pappenheim #nothhafft #frauenhoven</corr>
+			<comment>Auflösuing unsicher; diese drei sind auf der Bühne und im Verzeichnis als Ritter genannt; ob weitere uaf der Bühne sind und Herzog Ernst und Kanzler Pienzenau dazu gezählt werden sollen, ist unklar.</comment>
+		</change>
+	</documentation>
+</play>

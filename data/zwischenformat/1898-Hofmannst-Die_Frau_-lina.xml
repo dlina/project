@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital">
+  <header>
+    <title>Die Frau im Fenster</title>
+    <subtitle></subtitle>
+    <genretitle></genretitle>
+    <author>Hofmannsthal, Hugo von</author>
+  	<date when="1897" type="written" />
+    <date when="1898" type="print" />
+  	<date when="1898" type="premiere" />
+  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:qdmw.0/data</source>
+  </header>
+  <personae>
+    <character>
+      <name>DER DICHTER (PROLOG)</name>
+      <alias xml:id="der_dichter">
+        <name>DER DICHTER</name>
+      </alias>
+    </character>
+    <character>
+      <name>MADONNA DIANORA</name>
+      <alias xml:id="madonna_dianora">
+        <name>MADONNA DIANORA</name>
+      </alias>
+    	<alias xml:id="dianora">
+    		<name>DIANORA</name>
+    	</alias>
+    </character>
+    <character>
+      <name>AMME</name>
+      <alias xml:id="amme">
+        <name>AMME</name>
+      </alias>
+    </character>
+    <character>
+      <name>BRACCIO</name>
+      <alias xml:id="braccio">
+        <name>BRACCIO</name>
+      </alias>
+    	<alias xml:id="messer_braccio">
+    		<name>MESSER BRACCIO</name>
+    	</alias>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Hugo von Hofmannsthal</head>
+    </div>
+    <div>
+      <head>[Motto]</head>
+      <div>
+        <head>noName</head>
+      </div>
+    </div>
+    <div>
+      <head>Prolog</head>
+      <div>
+        <head>Prolog</head>
+        <sp who="#der_dichter">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="3507" unit="words"/>
+          <amount n="469" unit="lines"/>
+          <amount n="18744" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>Personen</head>
+      <div>
+        <head>noName</head>
+      </div>
+    </div>
+    <div>
+      <head>[Stücktext]</head>
+      <div>
+        <head>[Stücktext]</head>
+        <sp who="#madonna_dianora">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="1112" unit="words"/>
+          <amount n="145" unit="lines"/>
+          <amount n="5835" unit="chars"/>
+        </sp>
+        <sp who="#dianora">
+          <amount n="47" unit="speech_acts"/>
+          <amount n="1920" unit="words"/>
+          <amount n="239" unit="lines"/>
+          <amount n="10021" unit="chars"/>
+        </sp>
+        <sp who="#amme">
+          <amount n="34" unit="speech_acts"/>
+          <amount n="762" unit="words"/>
+          <amount n="33" unit="lines"/>
+          <amount n="4115" unit="chars"/>
+        </sp>
+        <sp who="#braccio">
+          <amount n="8" unit="speech_acts"/>
+          <amount n="59" unit="words"/>
+          <amount n="10" unit="lines"/>
+          <amount n="334" unit="chars"/>
+        </sp>
+        <sp who="#messer_braccio">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="32" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="150" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+  </text>
+</play>

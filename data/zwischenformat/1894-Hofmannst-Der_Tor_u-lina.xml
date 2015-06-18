@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="http://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital">
+  <header>
+    <title>Der Tor und der Tod</title>
+    <subtitle></subtitle>
+    <genretitle></genretitle>
+    <author>Hofmannsthal, Hugo von</author>
+    <date type="print" when="1894">1894</date>
+    <date type="premiere" when="1898">1898</date>
+    <date type="written" when="1893">März/April 1893</date>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:qd27.0/data</source>
+  </header>
+  <personae>
+    <character>
+      <name>CLAUDIO</name>
+      <alias xml:id="claudio">
+        <name>CLAUDIO</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIENER</name>
+      <alias xml:id="diener">
+        <name>DIENER</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER TOD</name>
+      <alias xml:id="der_tod">
+        <name>DER TOD</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE MUTTER</name>
+      <alias xml:id="die_mutter">
+        <name>DIE MUTTER</name>
+      </alias>
+    </character>
+    <character>
+      <name>DAS JUNGE MÄDCHEN</name>
+      <alias xml:id="das_junge_mädchen">
+        <name>DAS JUNGE MÄDCHEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER MANN</name>
+      <alias xml:id="der_mann">
+        <name>DER MANN</name>
+      </alias>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Personen</head>
+    </div>
+    <div>
+      <head>[Stücktext]</head>
+      <div>
+        <head>[Stücktext]</head>
+        <sp who="#claudio">
+          <amount n="16" unit="speech_acts"/>
+          <amount n="2377" unit="words"/>
+          <amount n="338" unit="lines"/>
+          <amount n="13219" unit="chars"/>
+        </sp>
+        <sp who="#diener">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="176" unit="words"/>
+          <amount n="27" unit="lines"/>
+          <amount n="1018" unit="chars"/>
+        </sp>
+        <sp who="#der_tod">
+          <amount n="8" unit="speech_acts"/>
+          <amount n="301" unit="words"/>
+          <amount n="48" unit="lines"/>
+          <amount n="1776" unit="chars"/>
+        </sp>
+        <sp who="#die_mutter">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="222" unit="words"/>
+          <amount n="31" unit="lines"/>
+          <amount n="1213" unit="chars"/>
+        </sp>
+        <sp who="#das_junge_mädchen">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="342" unit="words"/>
+          <amount n="44" unit="lines"/>
+          <amount n="1767" unit="chars"/>
+        </sp>
+        <sp who="#der_mann">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="485" unit="words"/>
+          <amount n="67" unit="lines"/>
+          <amount n="2634" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+  </text>
+</play>

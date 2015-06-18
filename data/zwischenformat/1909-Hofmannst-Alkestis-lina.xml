@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital">
+  <header>
+    <title>Alkestis</title>
+    <subtitle>Ein Trauerspiel nach Euripides</subtitle>
+    <genretitle>Trauerspiel</genretitle>
+    <author>Hofmannsthal, Hugo von</author>
+    <date type="print" when="1909">1909</date>
+    <date type="premiere" when="1916">1916</date>
+    <date type="written" when="1894">1893–1894</date>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:qdk1.0/data</source>
+  </header>
+  <personae>
+    <character>
+      <name>STIMME</name>
+      <alias xml:id="stimme">
+        <name>STIMME</name>
+      </alias>
+    </character>
+    <character>
+      <name>APOLLON</name>
+      <alias xml:id="apollon">
+        <name>APOLLON</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER TOD</name>
+      <alias xml:id="der_tod">
+        <name>DER TOD</name>
+      </alias>
+    </character>
+    <character>
+      <name>ERSTER MANN</name>
+      <alias xml:id="erster_mann">
+        <name>ERSTER MANN</name>
+      </alias>
+    </character>
+    <character>
+      <name>ZWEITER MANN</name>
+      <alias xml:id="zweiter_mann">
+        <name>ZWEITER MANN</name>
+      </alias>
+    </character>
+    <character>
+      <name>DRITTER MANN</name>
+      <alias xml:id="dritter_mann">
+        <name>DRITTER MANN</name>
+      </alias>
+    </character>
+    <character>
+      <name>ERSTE FRAU</name>
+      <alias xml:id="erste_frau">
+        <name>ERSTE FRAU</name>
+      </alias>
+    </character>
+    <character>
+      <name>ZWEITE FRAU</name>
+      <alias xml:id="zweite_frau">
+        <name>ZWEITE FRAU</name>
+      </alias>
+    </character>
+    <character>
+      <name>DRITTE FRAU</name>
+      <alias xml:id="dritte_frau">
+        <name>DRITTE FRAU</name>
+      </alias>
+    </character>
+    <character>
+      <name>SKLAVIN</name>
+      <alias xml:id="sklavin">
+        <name>SKLAVIN</name>
+      </alias>
+    </character>
+    <character>
+      <name>JUNGE FRAU</name>
+      <alias xml:id="junge_frau">
+        <name>JUNGE FRAU</name>
+      </alias>
+    </character>
+    <character>
+      <name>ALTER MANN</name>
+      <alias xml:id="alter_mann">
+        <name>ALTER MANN</name>
+      </alias>
+      <alias xml:id="der_alte_mann">
+        <name>DER ALTE MANN</name>
+      </alias>
+    </character>
+    <character>
+      <name>MEHRERE</name>
+      <alias xml:id="mehrere">
+        <name>MEHRERE</name>
+      </alias>
+    </character>
+    <character>
+      <name>ANDERE</name>
+      <alias xml:id="andere">
+        <name>ANDERE</name>
+      </alias>
+    </character>
+    <character>
+      <name>ALKESTIS</name>
+      <alias xml:id="alkestis">
+        <name>ALKESTIS</name>
+      </alias>
+    </character>
+    <character>
+      <name>ADMET</name>
+      <alias xml:id="admet">
+        <name>ADMET</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER KLEINE EUMELOS</name>
+      <alias xml:id="der_kleine_eumelos">
+        <name>DER KLEINE EUMELOS</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN EDLER</name>
+      <alias xml:id="ein_edler">
+        <name>EIN EDLER</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE ÄLTEREN FRAUEN</name>
+      <alias xml:id="die_älteren_frauen">
+        <name>DIE ÄLTEREN FRAUEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE JÜNGEREN FRAUEN</name>
+      <alias xml:id="die_jüngeren_frauen">
+        <name>DIE JÜNGEREN FRAUEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>GESANG DER SKLAVINNEN</name>
+      <alias xml:id="gesang_der_sklavinnen">
+        <name>GESANG DER SKLAVINNEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>EINER ODER MEHRERE</name>
+      <alias xml:id="einer_oder_mehrere">
+        <name>EINER ODER MEHRERE</name>
+      </alias>
+    </character>
+    <character>
+      <name>HERAKLES</name>
+      <alias xml:id="herakles">
+        <name>HERAKLES</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN JÜNGLING</name>
+      <alias xml:id="ein_jüngling">
+        <name>EIN JÜNGLING</name>
+      </alias>
+      <alias xml:id="der_jüngling">
+        <name>DER JÜNGLING</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN ÄLTERER</name>
+      <alias xml:id="ein_älterer">
+        <name>EIN ÄLTERER</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN SEHR ALTER MANN</name>
+      <alias xml:id="ein_sehr_alter_mann">
+        <name>EIN SEHR ALTER MANN</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN JUNGER MANN</name>
+      <alias xml:id="ein_junger_mann">
+        <name>EIN JUNGER MANN</name>
+      </alias>
+    </character>
+    <character>
+      <name>IRGENDEINER</name>
+      <alias xml:id="irgendeiner">
+        <name>IRGENDEINER</name>
+      </alias>
+    </character>
+    <character>
+      <name>STIMMEN</name>
+      <alias xml:id="stimmen">
+        <name>STIMMEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER KÖNIG</name>
+      <alias xml:id="der_könig">
+        <name>DER KÖNIG</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER SKLAVE</name>
+      <alias xml:id="der_sklave">
+        <name>DER SKLAVE</name>
+      </alias>
+    </character>
+    <character>
+      <name>PHERES</name>
+      <alias xml:id="pheres">
+        <name>PHERES</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER ALTE SKLAVE</name>
+      <alias xml:id="der_alte_sklave">
+        <name>DER ALTE SKLAVE</name>
+      </alias>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Personen</head>
+    </div>
+    <div>
+      <head>Prolog</head>
+      <div>
+        <head>Prolog</head>
+        <sp who="#stimme">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="106" unit="words"/>
+          <amount n="17" unit="lines"/>
+          <amount n="565" unit="chars"/>
+        </sp>
+        <sp who="#apollon">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="387" unit="words"/>
+          <amount n="54" unit="lines"/>
+          <amount n="2062" unit="chars"/>
+        </sp>
+        <sp who="#der_tod">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="130" unit="words"/>
+          <amount n="19" unit="lines"/>
+          <amount n="682" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>[Stücktext]</head>
+      <div>
+        <head>[Stücktext]</head>
+        <sp who="#erster_mann">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="53" unit="words"/>
+          <amount n="11" unit="lines"/>
+          <amount n="277" unit="chars"/>
+        </sp>
+        <sp who="#zweiter_mann">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="32" unit="words"/>
+          <amount n="6" unit="lines"/>
+          <amount n="182" unit="chars"/>
+        </sp>
+        <sp who="#dritter_mann">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="11" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="61" unit="chars"/>
+        </sp>
+        <sp who="#erste_frau">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="88" unit="words"/>
+          <amount n="12" unit="lines"/>
+          <amount n="437" unit="chars"/>
+        </sp>
+        <sp who="#zweite_frau">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="74" unit="words"/>
+          <amount n="12" unit="lines"/>
+          <amount n="378" unit="chars"/>
+        </sp>
+        <sp who="#dritte_frau">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="3" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="15" unit="chars"/>
+        </sp>
+        <sp who="#sklavin">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="499" unit="words"/>
+          <amount n="66" unit="lines"/>
+          <amount n="2519" unit="chars"/>
+        </sp>
+        <sp who="#junge_frau">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="10" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="57" unit="chars"/>
+        </sp>
+        <sp who="#alter_mann">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="13" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="64" unit="chars"/>
+        </sp>
+        <sp who="#mehrere">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="5" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="30" unit="chars"/>
+        </sp>
+        <sp who="#andere">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="9" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="42" unit="chars"/>
+        </sp>
+        <sp who="#alkestis">
+          <amount n="12" unit="speech_acts"/>
+          <amount n="631" unit="words"/>
+          <amount n="81" unit="lines"/>
+          <amount n="3164" unit="chars"/>
+        </sp>
+        <sp who="#admet">
+          <amount n="54" unit="speech_acts"/>
+          <amount n="2195" unit="words"/>
+          <amount n="294" unit="lines"/>
+          <amount n="11154" unit="chars"/>
+        </sp>
+        <sp who="#erster_mann #zweiter_mann #dritter_mann #erste_frau #zweite_frau #dritte_frau #junge_frau #alter_mann">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="1" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="4" unit="chars"/>
+        </sp>
+        <sp who="#der_kleine_eumelos">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="62" unit="words"/>
+          <amount n="8" unit="lines"/>
+          <amount n="317" unit="chars"/>
+        </sp>
+        <sp who="#ein_edler">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="14" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="80" unit="chars"/>
+        </sp>
+        <sp who="#die_älteren_frauen">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="64" unit="words"/>
+          <amount n="8" unit="lines"/>
+          <amount n="324" unit="chars"/>
+        </sp>
+        <sp who="#die_jüngeren_frauen">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="53" unit="words"/>
+          <amount n="7" unit="lines"/>
+          <amount n="312" unit="chars"/>
+        </sp>
+        <sp who="#gesang_der_sklavinnen #sklavin">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="47" unit="words"/>
+          <amount n="8" unit="lines"/>
+          <amount n="251" unit="chars"/>
+        </sp>
+        <sp who="#einer_oder_mehrere">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="15" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="74" unit="chars"/>
+        </sp>
+        <sp who="#herakles">
+          <amount n="49" unit="speech_acts"/>
+          <amount n="1397" unit="words"/>
+          <amount n="197" unit="lines"/>
+          <amount n="7257" unit="chars"/>
+        </sp>
+        <sp who="#ein_jüngling">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="90" unit="words"/>
+          <amount n="11" unit="lines"/>
+          <amount n="450" unit="chars"/>
+        </sp>
+        <sp who="#ein_älterer">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="20" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="113" unit="chars"/>
+        </sp>
+        <sp who="#ein_sehr_alter_mann">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="21" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="115" unit="chars"/>
+        </sp>
+        <sp who="#ein_junger_mann">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="41" unit="words"/>
+          <amount n="5" unit="lines"/>
+          <amount n="196" unit="chars"/>
+        </sp>
+        <sp who="#der_jüngling">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="64" unit="words"/>
+          <amount n="8" unit="lines"/>
+          <amount n="307" unit="chars"/>
+        </sp>
+        <sp who="#der_alte_mann">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="24" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="122" unit="chars"/>
+        </sp>
+        <sp who="#irgendeiner">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="50" unit="words"/>
+          <amount n="7" unit="lines"/>
+          <amount n="275" unit="chars"/>
+        </sp>
+        <sp who="#stimmen">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="4" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="16" unit="chars"/>
+        </sp>
+        <sp who="#der_könig">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="245" unit="words"/>
+          <amount n="32" unit="lines"/>
+          <amount n="1287" unit="chars"/>
+        </sp>
+        <sp who="#der_sklave">
+          <amount n="14" unit="speech_acts"/>
+          <amount n="158" unit="words"/>
+          <amount n="26" unit="lines"/>
+          <amount n="853" unit="chars"/>
+        </sp>
+        <sp who="#pheres">
+          <amount n="9" unit="speech_acts"/>
+          <amount n="259" unit="words"/>
+          <amount n="37" unit="lines"/>
+          <amount n="1338" unit="chars"/>
+        </sp>
+        <sp who="#der_alte_sklave">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="200" unit="words"/>
+          <amount n="27" unit="lines"/>
+          <amount n="1071" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+  </text>
+  <documentation>
+    <change n="1" type="expandCollective" who="peertrilcke">
+      <path>/play/text[1]/div[3]/div[1]</path>
+      <orig>#die_männer_und_frauen</orig>
+      <corr>#erster_mann #zweiter_mann #dritter_mann #erste_frau #zweite_frau #dritte_frau #junge_frau #alter_mann</corr>
+      <comment></comment>
+    </change>
+  </documentation>
+</play>

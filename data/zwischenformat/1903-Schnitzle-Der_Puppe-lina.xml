@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital">
+  <header>
+    <title>Der Puppenspieler</title>
+    <subtitle>Studie in einem Aufzug</subtitle>
+    <genretitle></genretitle>
+    <author>Schnitzler, Arthur</author>
+  	<date when="1906" type="print" />
+  	<date when="1903" type="premiere" />
+  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:v3rz.0/data</source>
+  </header>
+  <personae>
+    <character>
+      <name>EDUARD</name>
+      <alias xml:id="eduard">
+        <name>EDUARD</name>
+      </alias>
+    </character>
+    <character>
+      <name>GEORG</name>
+      <alias xml:id="georg">
+        <name>GEORG</name>
+      </alias>
+    </character>
+    <character>
+      <name>ANNA</name>
+      <alias xml:id="anna">
+        <name>ANNA</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER KLEINE</name>
+      <alias xml:id="der_kleine">
+        <name>DER KLEINE</name>
+      </alias>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Arthur Schnitzler</head>
+    </div>
+    <div>
+      <head>I. Der Puppenspieler</head>
+    </div>
+    <div>
+      <head>Personen</head>
+      <div>
+        <head>noName</head>
+      </div>
+    </div>
+    <div>
+      <head>[Stücktext]</head>
+      <div>
+        <head>[Stücktext]</head>
+        <sp who="#eduard">
+          <amount n="94" unit="speech_acts"/>
+          <amount n="1951" unit="words"/>
+          <amount n="58" unit="lines"/>
+          <amount n="10478" unit="chars"/>
+        </sp>
+        <sp who="#georg">
+          <amount n="108" unit="speech_acts"/>
+          <amount n="2579" unit="words"/>
+          <amount n="67" unit="lines"/>
+          <amount n="14113" unit="chars"/>
+        </sp>
+        <sp who="#anna">
+          <amount n="34" unit="speech_acts"/>
+          <amount n="510" unit="words"/>
+          <amount n="19" unit="lines"/>
+          <amount n="2734" unit="chars"/>
+        </sp>
+        <sp who="#der_kleine">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="12" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="73" unit="chars"/>
+        </sp>
+        <sp who="#eduard #anna">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="1" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="6" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+  </text>
+</play>

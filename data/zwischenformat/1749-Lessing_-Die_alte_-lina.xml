@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="http://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital">
+  <header>
+    <title>Die alte Jungfer</title>
+    <subtitle>Ein Lustspiel in drei Aufzügen</subtitle>
+    <genretitle>Lustspiel</genretitle>
+    <author>Lessing, Gotthold Ephraim</author>
+    <date type="print" when="1749">1749</date>
+    <date type="premiere"></date>
+    <date type="written" when="1748">1748</date>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:rjdc.0/data</source>
+  </header>
+  <personae>
+    <character>
+      <name>HERR ORONTE</name>
+      <alias xml:id="herr_oronte">
+        <name>HERR ORONTE</name>
+      </alias>
+    </character>
+    <character>
+      <name>JUNGFER OHLDIN</name>
+      <alias xml:id="jungfer_ohldin">
+        <name>JUNGFER OHLDIN</name>
+      </alias>
+    </character>
+    <character>
+      <name>FRAU ORONTE</name>
+      <alias xml:id="frau_oronte">
+        <name>FRAU ORONTE</name>
+      </alias>
+    </character>
+    <character>
+      <name>LISETTE</name>
+      <alias xml:id="lisette">
+        <name>LISETTE</name>
+      </alias>
+    </character>
+    <character>
+      <name>LELIO</name>
+      <alias xml:id="lelio">
+        <name>LELIO</name>
+      </alias>
+    </character>
+    <character>
+      <name>PETER</name>
+      <alias xml:id="peter">
+        <name>PETER</name>
+      </alias>
+    </character>
+    <character>
+      <name>CLITANDER</name>
+      <alias xml:id="clitander">
+        <name>CLITANDER</name>
+      </alias>
+    </character>
+    <character>
+      <name>HERR KRÄUSEL</name>
+      <alias xml:id="herr_kräusel">
+        <name>HERR KRÄUSEL</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER SCHNEIDER</name>
+      <alias xml:id="der_schneider">
+        <name>DER SCHNEIDER</name>
+      </alias>
+    </character>
+    <character>
+      <name>HERR REHFUSS</name>
+      <alias xml:id="herr_rehfuss">
+        <name>HERR REHFUSS</name>
+      </alias>
+    </character>
+    <character>
+      <name>VON SCHLAG</name>
+      <alias xml:id="von_schlag">
+        <name>VON SCHLAG</name>
+      </alias>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Personen</head>
+    </div>
+    <div>
+      <head>1. Akt</head>
+      <div>
+        <head>1. Auftritt</head>
+        <div>
+          <head>Erster Auftritt</head>
+          <sp who="#herr_oronte">
+            <amount n="25" unit="speech_acts"/>
+            <amount n="722" unit="words"/>
+            <amount n="8" unit="lines"/>
+            <amount n="3875" unit="chars"/>
+          </sp>
+          <sp who="#jungfer_ohldin">
+            <amount n="15" unit="speech_acts"/>
+            <amount n="222" unit="words"/>
+            <amount n="12" unit="lines"/>
+            <amount n="1085" unit="chars"/>
+          </sp>
+          <sp who="#frau_oronte">
+            <amount n="15" unit="speech_acts"/>
+            <amount n="232" unit="words"/>
+            <amount n="10" unit="lines"/>
+            <amount n="1259" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Auftritt</head>
+        <div>
+          <head>Zweiter Auftritt</head>
+          <sp who="#jungfer_ohldin">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="60" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="286" unit="chars"/>
+          </sp>
+          <sp who="#frau_oronte">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="87" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="449" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3. Auftritt</head>
+        <div>
+          <head>Dritter Auftritt</head>
+          <sp who="#jungfer_ohldin">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="152" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="815" unit="chars"/>
+          </sp>
+          <sp who="#lisette">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="174" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="892" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>4. Auftritt</head>
+        <div>
+          <head>Vierter Auftritt</head>
+          <sp who="#lisette">
+            <amount n="12" unit="speech_acts"/>
+            <amount n="193" unit="words"/>
+            <amount n="8" unit="lines"/>
+            <amount n="1036" unit="chars"/>
+          </sp>
+          <sp who="#lelio">
+            <amount n="11" unit="speech_acts"/>
+            <amount n="187" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="1001" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>5. Auftritt</head>
+        <div>
+          <head>Fünfter Auftritt</head>
+          <sp who="#peter">
+            <amount n="25" unit="speech_acts"/>
+            <amount n="748" unit="words"/>
+            <amount n="16" unit="lines"/>
+            <amount n="3820" unit="chars"/>
+          </sp>
+          <sp who="#lisette">
+            <amount n="17" unit="speech_acts"/>
+            <amount n="317" unit="words"/>
+            <amount n="10" unit="lines"/>
+            <amount n="1628" unit="chars"/>
+          </sp>
+          <sp who="#lelio">
+            <amount n="10" unit="speech_acts"/>
+            <amount n="87" unit="words"/>
+            <amount n="9" unit="lines"/>
+            <amount n="439" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>2. Akt</head>
+      <div>
+        <head>1. Auftritt</head>
+        <div>
+          <head>Erster Auftritt</head>
+          <sp who="#lisette">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="83" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="475" unit="chars"/>
+          </sp>
+          <sp who="#lelio">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="23" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="119" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Auftritt</head>
+        <div>
+          <head>Zweiter Auftritt</head>
+          <sp who="#clitander">
+            <amount n="13" unit="speech_acts"/>
+            <amount n="380" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="2088" unit="chars"/>
+          </sp>
+          <sp who="#lelio">
+            <amount n="10" unit="speech_acts"/>
+            <amount n="148" unit="words"/>
+            <amount n="7" unit="lines"/>
+            <amount n="806" unit="chars"/>
+          </sp>
+          <sp who="#lisette">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="111" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="579" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3. Auftritt</head>
+        <div>
+          <head>Dritter Auftritt</head>
+          <sp who="#clitander">
+            <amount n="20" unit="speech_acts"/>
+            <amount n="753" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="4073" unit="chars"/>
+          </sp>
+          <sp who="#jungfer_ohldin">
+            <amount n="19" unit="speech_acts"/>
+            <amount n="414" unit="words"/>
+            <amount n="8" unit="lines"/>
+            <amount n="2249" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>4. Auftritt</head>
+        <div>
+          <head>Vierter Auftritt</head>
+          <sp who="#jungfer_ohldin">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="120" unit="words"/>
+            <amount n="605" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>5. Auftritt</head>
+        <div>
+          <head>Fünfter Auftritt</head>
+          <sp who="#lisette">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="52" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="308" unit="chars"/>
+          </sp>
+          <sp who="#jungfer_ohldin">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="20" unit="words"/>
+            <amount n="142" unit="chars"/>
+          </sp>
+          <sp who="#herr_kräusel">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="64" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="362" unit="chars"/>
+          </sp>
+          <sp who="#der_schneider">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="89" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="494" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>6. Auftritt</head>
+        <div>
+          <head>Sechster Auftritt</head>
+          <sp who="#jungfer_ohldin">
+            <amount n="18" unit="speech_acts"/>
+            <amount n="223" unit="words"/>
+            <amount n="14" unit="lines"/>
+            <amount n="1168" unit="chars"/>
+          </sp>
+          <sp who="#lisette">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="67" unit="words"/>
+            <amount n="7" unit="lines"/>
+            <amount n="349" unit="chars"/>
+          </sp>
+          <sp who="#herr_kräusel">
+            <amount n="21" unit="speech_acts"/>
+            <amount n="557" unit="words"/>
+            <amount n="9" unit="lines"/>
+            <amount n="3198" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>7. Auftritt</head>
+        <div>
+          <head>Siebenter Auftritt</head>
+          <sp who="#jungfer_ohldin">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="62" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="325" unit="chars"/>
+          </sp>
+          <sp who="#lisette">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="82" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="423" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>3. Akt</head>
+      <div>
+        <head>1. Auftritt</head>
+        <div>
+          <head>Erster Auftritt</head>
+          <sp who="#peter">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="157" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="860" unit="chars"/>
+          </sp>
+          <sp who="#lisette">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="131" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="707" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Auftritt</head>
+        <div>
+          <head>Zweiter Auftritt</head>
+          <sp who="#lisette">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="70" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="371" unit="chars"/>
+          </sp>
+          <sp who="#herr_kräusel">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="26" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="146" unit="chars"/>
+          </sp>
+          <sp who="#peter">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="88" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="483" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3. Auftritt</head>
+        <div>
+          <head>Dritter Auftritt</head>
+          <sp who="#herr_kräusel">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="96" unit="words"/>
+            <amount n="15" unit="lines"/>
+            <amount n="688" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>4. Auftritt</head>
+        <div>
+          <head>Vierter Auftritt</head>
+          <sp who="#herr_kräusel">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="287" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="1582" unit="chars"/>
+          </sp>
+          <sp who="#jungfer_ohldin">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="58" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="293" unit="chars"/>
+          </sp>
+          <sp who="#lelio">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="40" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="241" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>5. Auftritt</head>
+        <div>
+          <head>Fünfter Auftritt</head>
+          <sp who="#lisette">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="131" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="770" unit="chars"/>
+          </sp>
+          <sp who="#jungfer_ohldin">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="19" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="94" unit="chars"/>
+          </sp>
+          <sp who="#herr_kräusel">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="40" unit="words"/>
+            <amount n="194" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>6. Auftritt</head>
+        <div>
+          <head>Sechster Auftritt</head>
+          <sp who="#peter">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="194" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="978" unit="chars"/>
+          </sp>
+          <sp who="#lelio">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="56" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="331" unit="chars"/>
+          </sp>
+          <sp who="#lisette">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="147" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="730" unit="chars"/>
+          </sp>
+          <sp who="#jungfer_ohldin">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="25" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="112" unit="chars"/>
+          </sp>
+          <sp who="#herr_kräusel">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="25" unit="words"/>
+            <amount n="135" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>7. Auftritt</head>
+        <div>
+          <head>Siebender Auftritt</head>
+          <sp who="#herr_rehfuss">
+            <amount n="16" unit="speech_acts"/>
+            <amount n="226" unit="words"/>
+            <amount n="13" unit="lines"/>
+            <amount n="1203" unit="chars"/>
+          </sp>
+          <sp who="#lisette">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="66" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="351" unit="chars"/>
+          </sp>
+          <sp who="#peter">
+            <amount n="15" unit="speech_acts"/>
+            <amount n="241" unit="words"/>
+            <amount n="10" unit="lines"/>
+            <amount n="1261" unit="chars"/>
+          </sp>
+          <sp who="#jungfer_ohldin">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="81" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="421" unit="chars"/>
+          </sp>
+          <sp who="#lelio">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="44" unit="words"/>
+            <amount n="224" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>8. Auftritt</head>
+        <div>
+          <head>Achter Auftritt</head>
+          <sp who="#peter">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="349" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="2034" unit="chars"/>
+          </sp>
+          <sp who="#jungfer_ohldin">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="32" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="148" unit="chars"/>
+          </sp>
+          <sp who="#lisette">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="9" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="54" unit="chars"/>
+          </sp>
+          <sp who="#herr_kräusel">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="55" unit="words"/>
+            <amount n="293" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>9. Auftritt</head>
+        <div>
+          <head>Neunter Auftritt</head>
+          <sp who="#lelio">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="5" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="42" unit="chars"/>
+          </sp>
+          <sp who="#lisette">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="3" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="15" unit="chars"/>
+          </sp>
+          <sp who="#jungfer_ohldin">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="73" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="384" unit="chars"/>
+          </sp>
+          <sp who="#von_schlag">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="80" unit="words"/>
+            <amount n="7" unit="lines"/>
+            <amount n="466" unit="chars"/>
+          </sp>
+          <sp who="#peter">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="89" unit="words"/>
+            <amount n="7" unit="lines"/>
+            <amount n="486" unit="chars"/>
+          </sp>
+          <sp who="#herr_oronte">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="17" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="90" unit="chars"/>
+          </sp>
+          <sp who="#herr_kräusel">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="37" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="172" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>10. Auftritt</head>
+        <div>
+          <head>Zehnter Auftritt</head>
+          <sp who="#lelio">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="123" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="663" unit="chars"/>
+          </sp>
+          <sp who="#von_schlag">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="170" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="917" unit="chars"/>
+          </sp>
+          <sp who="#herr_oronte">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="14" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="73" unit="chars"/>
+          </sp>
+          <sp who="#frau_oronte">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="48" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="292" unit="chars"/>
+          </sp>
+          <sp who="#jungfer_ohldin">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="126" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="685" unit="chars"/>
+          </sp>
+          <sp who="#lisette">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="7" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="27" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>11. Auftritt</head>
+        <div>
+          <head>Elfter Auftritt</head>
+          <sp who="#clitander">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="100" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="539" unit="chars"/>
+          </sp>
+          <sp who="#von_schlag">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="15" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="80" unit="chars"/>
+          </sp>
+          <sp who="#jungfer_ohldin">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="13" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="67" unit="chars"/>
+          </sp>
+          <sp who="#herr_oronte">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="40" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="218" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+  </text>
+</play>

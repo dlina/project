@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital">
+  <header>
+    <title>Der Moloch</title>
+    <subtitle>Musikalische Tragödie in drei Aufzügen</subtitle>
+    <genretitle>Tragödie</genretitle>
+    <author>Gerhäuser, Emil</author>
+    <date type="print"></date>
+    <date type="premiere" when="1906">1906</date>
+    <date type="written"></date>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:ndmr.0/data</source>
+  </header>
+  <personae>
+    <character>
+      <name>FRAUEN</name>
+      <alias xml:id="frauen">
+        <name>FRAUEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>ALLE</name>
+      <alias xml:id="alle">
+        <name>ALLE</name>
+      </alias>
+    </character>
+    <character>
+      <name>HIRAM</name>
+      <alias xml:id="hiram">
+        <name>HIRAM</name>
+      </alias>
+      <alias xml:id="hirams_stimme">
+        <name>HIRAMS STIMME</name>
+      </alias>
+    </character>
+    <character>
+      <name>VOLK</name>
+      <alias xml:id="volk">
+        <name>VOLK</name>
+      </alias>
+    </character>
+    <character>
+      <name>WOLF</name>
+      <alias xml:id="wolf">
+        <name>WOLF</name>
+      </alias>
+    </character>
+    <character>
+      <name>TEUT</name>
+      <alias xml:id="teut">
+        <name>TEUT</name>
+      </alias>
+      <alias xml:id="teuts_stimme">
+        <name>TEUTS STIMME</name>
+      </alias>
+    </character>
+    <character>
+      <name>THEODA</name>
+      <alias xml:id="theoda">
+        <name>THEODA</name>
+      </alias>
+    </character>
+    <character>
+      <name>VELLEDA</name>
+      <alias xml:id="velleda">
+        <name>VELLEDA</name>
+      </alias>
+    </character>
+    <character>
+      <name>MÄNNER</name>
+      <alias xml:id="männer">
+        <name>MÄNNER</name>
+      </alias>
+      <alias xml:id="einzelne_männer">
+        <name>EINZELNE MÄNNER</name>
+      </alias>
+    </character>
+    <character>
+      <name>KRIEGER</name>
+      <alias xml:id="krieger">
+        <name>KRIEGER</name>
+      </alias>
+    </character>
+    <character>
+      <name>KÖNIG</name>
+      <alias xml:id="könig">
+        <name>KÖNIG</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN JUNGER KRIEGER</name>
+      <alias xml:id="ein_junger_krieger">
+        <name>EIN JUNGER KRIEGER</name>
+      </alias>
+    </character>
+    <character>
+      <name>MOLOCHPRIESTER</name>
+      <alias xml:id="molochpriester">
+        <name>MOLOCHPRIESTER</name>
+      </alias>
+      <alias xml:id="priester">
+        <name>PRIESTER</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN KRIEGER</name>
+      <alias xml:id="ein_krieger">
+        <name>EIN KRIEGER</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN ANDERER KRIEGER</name>
+      <alias xml:id="ein_anderer">
+        <name>EIN ANDERER</name>
+      </alias>
+    </character>
+    <character>
+      <name>EINE STIMME</name>
+      <alias xml:id="eine_stimme">
+        <name>EINE STIMME</name>
+      </alias>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Personen</head>
+    </div>
+    <div>
+      <head>1. Akt</head>
+      <div>
+        <head>1. Szene</head>
+        <div>
+          <head>Erste Szene.</head>
+          <sp who="#männer #frauen">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="31" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="168" unit="chars"/>
+          </sp>
+          <sp who="#männer #frauen">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="11" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="70" unit="chars"/>
+          </sp>
+          <sp who="#männer #frauen">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="13" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="75" unit="chars"/>
+          </sp>
+          <sp who="#frauen">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="1" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="5" unit="chars"/>
+          </sp>
+          <sp who="#männer #frauen">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="33" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="187" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Szene</head>
+        <div>
+          <head>Zweite Szene.</head>
+          <sp who="#hiram">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="275" unit="words"/>
+            <amount n="42" unit="lines"/>
+            <amount n="1433" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3. Szene</head>
+        <div>
+          <head>Dritte Szene.</head>
+          <sp who="#volk">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="30" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="70" unit="chars"/>
+          </sp>
+          <sp who="#hiram">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="98" unit="words"/>
+            <amount n="15" unit="lines"/>
+            <amount n="516" unit="chars"/>
+          </sp>
+          <sp who="#wolf">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="32" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="163" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>4. Szene</head>
+        <div>
+          <head>Vierte Szene.</head>
+          <sp who="#teut">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="195" unit="words"/>
+            <amount n="30" unit="lines"/>
+            <amount n="1037" unit="chars"/>
+          </sp>
+          <sp who="#wolf">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="120" unit="words"/>
+            <amount n="17" unit="lines"/>
+            <amount n="575" unit="chars"/>
+          </sp>
+          <sp who="#hiram">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="116" unit="words"/>
+            <amount n="20" unit="lines"/>
+            <amount n="607" unit="chars"/>
+          </sp>
+          <sp who="#volk">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="19" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="94" unit="chars"/>
+          </sp>
+          <sp who="#teut #wolf #hiram #volk">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="10" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="57" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>5. Szene</head>
+        <div>
+          <head>Fünfte Szene.</head>
+          <sp who="#theoda">
+            <amount n="16" unit="speech_acts"/>
+            <amount n="321" unit="words"/>
+            <amount n="53" unit="lines"/>
+            <amount n="1676" unit="chars"/>
+          </sp>
+          <sp who="#teut">
+            <amount n="14" unit="speech_acts"/>
+            <amount n="166" unit="words"/>
+            <amount n="31" unit="lines"/>
+            <amount n="879" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>6. Szene</head>
+        <div>
+          <head>Sechste Szene.</head>
+          <sp who="#hiram">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="255" unit="words"/>
+            <amount n="38" unit="lines"/>
+            <amount n="1348" unit="chars"/>
+          </sp>
+          <sp who="#volk">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="3" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="12" unit="chars"/>
+          </sp>
+          <sp who="#teut">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="112" unit="words"/>
+            <amount n="20" unit="lines"/>
+            <amount n="613" unit="chars"/>
+          </sp>
+          <sp who="#frauen">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="6" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="38" unit="chars"/>
+          </sp>
+          <sp who="#velleda">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="185" unit="words"/>
+            <amount n="26" unit="lines"/>
+            <amount n="911" unit="chars"/>
+          </sp>
+          <sp who="#männer">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="6" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="31" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>2. Akt</head>
+      <div>
+        <head>1. Szene</head>
+        <div>
+          <head>Erste Szene.</head>
+          <sp who="#wolf">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="147" unit="words"/>
+            <amount n="26" unit="lines"/>
+            <amount n="803" unit="chars"/>
+          </sp>
+          <sp who="#theoda">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="128" unit="words"/>
+            <amount n="20" unit="lines"/>
+            <amount n="626" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Szene</head>
+        <div>
+          <head>Zweite Szene.</head>
+          <sp who="#hiram">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="159" unit="words"/>
+            <amount n="26" unit="lines"/>
+            <amount n="839" unit="chars"/>
+          </sp>
+          <sp who="#teut #volk">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="33" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="159" unit="chars"/>
+          </sp>
+          <sp who="#einzelne_männer">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="2" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="9" unit="chars"/>
+          </sp>
+          <sp who="#frauen">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="3" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="15" unit="chars"/>
+          </sp>
+          <sp who="#teut">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="37" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="192" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3. Szene</head>
+        <div>
+          <head>Dritte Szene.</head>
+          <sp who="#krieger #ein_junger_krieger #ein_krieger #ein_anderer">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="4" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="15" unit="chars"/>
+          </sp>
+          <sp who="#volk">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="63" unit="words"/>
+            <amount n="10" unit="lines"/>
+            <amount n="321" unit="chars"/>
+          </sp>
+          <sp who="#teut">
+            <amount n="21" unit="speech_acts"/>
+            <amount n="298" unit="words"/>
+            <amount n="52" unit="lines"/>
+            <amount n="1489" unit="chars"/>
+          </sp>
+          <sp who="#hiram">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="165" unit="words"/>
+            <amount n="26" unit="lines"/>
+            <amount n="858" unit="chars"/>
+          </sp>
+          <sp who="#könig">
+            <amount n="21" unit="speech_acts"/>
+            <amount n="509" unit="words"/>
+            <amount n="80" unit="lines"/>
+            <amount n="2512" unit="chars"/>
+          </sp>
+          <sp who="#theoda">
+            <amount n="12" unit="speech_acts"/>
+            <amount n="156" unit="words"/>
+            <amount n="30" unit="lines"/>
+            <amount n="780" unit="chars"/>
+          </sp>
+          <sp who="#hiram #volk">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="13" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="77" unit="chars"/>
+          </sp>
+          <sp who="#wolf">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="27" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="158" unit="chars"/>
+          </sp>
+          <sp who="#krieger #ein_junger_krieger #ein_krieger #ein_anderer #volk #teut #hiram #könig #theoda #wolf">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="5" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="16" unit="chars"/>
+          </sp>
+          <sp who="#wolf #theoda">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="7" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="31" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>4. Szene</head>
+        <div>
+          <head>Vierte Szene.</head>
+          <sp who="#hiram">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="127" unit="words"/>
+            <amount n="19" unit="lines"/>
+            <amount n="627" unit="chars"/>
+          </sp>
+          <sp who="#volk">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="10" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="50" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>5. Szene</head>
+        <div>
+          <head>Fünfte Szene.</head>
+          <sp who="#teut">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="118" unit="words"/>
+            <amount n="21" unit="lines"/>
+            <amount n="597" unit="chars"/>
+          </sp>
+          <sp who="#hiram">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="65" unit="words"/>
+            <amount n="11" unit="lines"/>
+            <amount n="285" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>3. Akt</head>
+      <div>
+        <head>1. Szene</head>
+        <div>
+          <head>Erste Szene.</head>
+          <sp who="#volk">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="28" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="168" unit="chars"/>
+          </sp>
+          <sp who="#frauen">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="64" unit="words"/>
+            <amount n="9" unit="lines"/>
+            <amount n="396" unit="chars"/>
+          </sp>
+          <sp who="#volk #frauen">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="28" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="160" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Szene</head>
+        <div>
+          <head>Zweite Szene.</head>
+          <sp who="#hiram">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="208" unit="words"/>
+            <amount n="32" unit="lines"/>
+            <amount n="1092" unit="chars"/>
+          </sp>
+          <sp who="#ein_junger_krieger">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="7" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="32" unit="chars"/>
+          </sp>
+          <sp who="#teut">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="37" unit="words"/>
+            <amount n="7" unit="lines"/>
+            <amount n="201" unit="chars"/>
+          </sp>
+          <sp who="#volk">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="2" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="15" unit="chars"/>
+          </sp>
+          <sp who="#molochpriester">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="3" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="21" unit="chars"/>
+          </sp>
+          <sp who="#frauen">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="3" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="17" unit="chars"/>
+          </sp>
+          <sp who="#krieger #ein_junger_krieger #ein_krieger #ein_anderer">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="5" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="20" unit="chars"/>
+          </sp>
+          <sp who="#männer">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="4" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="33" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3. Szene</head>
+        <div>
+          <head>Dritte Szene.</head>
+          <sp who="#wolf">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="99" unit="words"/>
+            <amount n="16" unit="lines"/>
+            <amount n="517" unit="chars"/>
+          </sp>
+          <sp who="#ein_krieger">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="11" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="59" unit="chars"/>
+          </sp>
+          <sp who="#ein_anderer">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="9" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="37" unit="chars"/>
+          </sp>
+          <sp who="#krieger #ein_junger_krieger #ein_krieger #ein_anderer">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="4" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="23" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>4. Szene</head>
+        <div>
+          <head>Vierte Szene.</head>
+          <sp who="#teut">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="83" unit="words"/>
+            <amount n="12" unit="lines"/>
+            <amount n="433" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>5. Szene</head>
+        <div>
+          <head>Fünfte Szene.</head>
+          <sp who="#eine_stimme">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="5" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="26" unit="chars"/>
+          </sp>
+          <sp who="#teut">
+            <amount n="19" unit="speech_acts"/>
+            <amount n="486" unit="words"/>
+            <amount n="80" unit="lines"/>
+            <amount n="2353" unit="chars"/>
+          </sp>
+          <sp who="#theoda">
+            <amount n="18" unit="speech_acts"/>
+            <amount n="305" unit="words"/>
+            <amount n="45" unit="lines"/>
+            <amount n="1477" unit="chars"/>
+          </sp>
+          <sp who="#teuts_stimme">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="1" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="7" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>6. Szene</head>
+        <div>
+          <head>Sechste Szene.</head>
+          <sp who="#teut">
+            <amount n="17" unit="speech_acts"/>
+            <amount n="161" unit="words"/>
+            <amount n="28" unit="lines"/>
+            <amount n="834" unit="chars"/>
+          </sp>
+          <sp who="#hirams_stimme">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="2" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="9" unit="chars"/>
+          </sp>
+          <sp who="#hiram">
+            <amount n="15" unit="speech_acts"/>
+            <amount n="184" unit="words"/>
+            <amount n="31" unit="lines"/>
+            <amount n="935" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>7. Szene</head>
+        <div>
+          <head>Siebente Szene.</head>
+          <sp who="#wolf">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="74" unit="words"/>
+            <amount n="11" unit="lines"/>
+            <amount n="369" unit="chars"/>
+          </sp>
+          <sp who="#molochpriester">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="37" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="194" unit="chars"/>
+          </sp>
+          <sp who="#frauen">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="29" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="156" unit="chars"/>
+          </sp>
+          <sp who="#krieger #ein_junger_krieger #ein_krieger #ein_anderer">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="12" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="70" unit="chars"/>
+          </sp>
+          <sp who="#wolf #molochpriester #frauen #krieger #ein_junger_krieger #ein_krieger #ein_anderer #molochpriester #volk #teut #theoda #könig">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="52" unit="words"/>
+            <amount n="10" unit="lines"/>
+            <amount n="255" unit="chars"/>
+          </sp>
+          <sp who="#molochpriester #volk">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="36" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="207" unit="chars"/>
+          </sp>
+          <sp who="#teut">
+            <amount n="13" unit="speech_acts"/>
+            <amount n="135" unit="words"/>
+            <amount n="21" unit="lines"/>
+            <amount n="648" unit="chars"/>
+          </sp>
+          <sp who="#volk #molochpriester">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="18" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="104" unit="chars"/>
+          </sp>
+          <sp who="#volk #priester">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="26" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="146" unit="chars"/>
+          </sp>
+          <sp who="#theoda">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="31" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="158" unit="chars"/>
+          </sp>
+          <sp who="#könig">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="60" unit="words"/>
+            <amount n="10" unit="lines"/>
+            <amount n="307" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+  </text>
+</play>

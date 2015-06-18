@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital">
+  <header>
+    <title>Prinzessin Pumphia</title>
+    <subtitle>Eine neue Tragœdie</subtitle>
+    <genretitle>Tragödie</genretitle>
+    <author>Kurz, Joseph von:</author>
+    <date type="print" when="1767">1767</date>
+    <date type="premiere"></date>
+    <date type="written"></date>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:rdgt.0/data</source>
+  </header>
+  <personae>
+    <character>
+      <name>CYRUS</name>
+      <alias xml:id="cyrus">
+        <name>CYRUS</name>
+      </alias>
+    </character>
+    <character>
+      <name>SIGELVAX</name>
+      <alias xml:id="sigelvax">
+        <name>SIGELVAX</name>
+      </alias>
+    </character>
+    <character>
+      <name>KULICAN</name>
+      <alias xml:id="kulican">
+        <name>KULICAN</name>
+      </alias>
+    </character>
+    <character>
+      <name>MORTONG</name>
+      <alias xml:id="mortong">
+        <name>MORTONG</name>
+      </alias>
+    </character>
+    <character>
+      <name>PUMPHIA</name>
+      <alias xml:id="pumphia">
+        <name>PUMPHIA</name>
+      </alias>
+    </character>
+    <character>
+      <name>PINXI</name>
+      <alias xml:id="pinxi">
+        <name>PINXI</name>
+      </alias>
+    </character>
+    <character>
+      <name>KNAB</name>
+      <alias xml:id="knab">
+        <name>KNAB</name>
+      </alias>
+    </character>
+    <character>
+      <name>DAS VOLK</name>
+      <alias xml:id="das_volk">
+        <name>DAS VOLK</name>
+      </alias>
+    </character>
+    <character>
+      <name>FAUSTIBUS</name>
+      <alias xml:id="faustibus">
+        <name>FAUSTIBUS</name>
+      </alias>
+    </character>
+    <character>
+      <name>MIKETEY</name>
+      <alias xml:id="miketey">
+        <name>MIKETEY</name>
+      </alias>
+    </character>
+    <character>
+      <name>SOFFOCLES</name>
+      <alias xml:id="soffocles">
+        <name>SOFFOCLES</name>
+      </alias>
+    </character>
+    <character>
+      <name>ARLECKIN</name>
+      <alias xml:id="arleckin">
+        <name>ARLECKIN</name>
+      </alias>
+    </character>
+    <character>
+      <name>COLOMBINA</name>
+      <alias xml:id="colombina">
+        <name>COLOMBINA</name>
+      </alias>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Personen</head>
+    </div>
+    <div>
+      <head>1. Akt</head>
+      <div>
+        <head>1. Auftritt</head>
+        <div>
+          <head>Erster Auftritt.</head>
+          <sp who="#cyrus">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="9" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="48" unit="chars"/>
+          </sp>
+          <sp who="#sigelvax">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="9" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="57" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Auftritt</head>
+        <div>
+          <head>Anderter Auftritt.</head>
+          <sp who="#kulican">
+            <amount n="10" unit="speech_acts"/>
+            <amount n="307" unit="words"/>
+            <amount n="36" unit="lines"/>
+            <amount n="1633" unit="chars"/>
+          </sp>
+          <sp who="#mortong">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="116" unit="words"/>
+            <amount n="13" unit="lines"/>
+            <amount n="602" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3. Auftritt</head>
+        <div>
+          <head>Dritter Auftritt.</head>
+          <sp who="#pumphia">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="391" unit="words"/>
+            <amount n="43" unit="lines"/>
+            <amount n="2135" unit="chars"/>
+          </sp>
+          <sp who="#kulican">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="146" unit="words"/>
+            <amount n="18" unit="lines"/>
+            <amount n="820" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>4. Auftritt</head>
+        <div>
+          <head>Vierter Auftritt.</head>
+          <sp who="#pinxi">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="85" unit="words"/>
+            <amount n="8" unit="lines"/>
+            <amount n="429" unit="chars"/>
+          </sp>
+          <sp who="#kulican">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="178" unit="words"/>
+            <amount n="23" unit="lines"/>
+            <amount n="945" unit="chars"/>
+          </sp>
+          <sp who="#pumphia">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="144" unit="words"/>
+            <amount n="15" unit="lines"/>
+            <amount n="747" unit="chars"/>
+          </sp>
+          <sp who="#knab">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="135" unit="words"/>
+            <amount n="15" unit="lines"/>
+            <amount n="722" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>5. Auftritt</head>
+        <div>
+          <head>Fünfter Auftritt.</head>
+          <sp who="#kulican">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="125" unit="words"/>
+            <amount n="16" unit="lines"/>
+            <amount n="668" unit="chars"/>
+          </sp>
+          <sp who="#mortong">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="81" unit="words"/>
+            <amount n="10" unit="lines"/>
+            <amount n="462" unit="chars"/>
+          </sp>
+          <sp who="#pumphia">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="50" unit="words"/>
+            <amount n="8" unit="lines"/>
+            <amount n="275" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>6. Auftritt</head>
+        <div>
+          <head>Sechster Auftritt.</head>
+          <sp who="#das_volk">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="8" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="46" unit="chars"/>
+          </sp>
+          <sp who="#mortong">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="28" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="155" unit="chars"/>
+          </sp>
+          <sp who="#pumphia">
+            <amount n="14" unit="speech_acts"/>
+            <amount n="506" unit="words"/>
+            <amount n="68" unit="lines"/>
+            <amount n="2745" unit="chars"/>
+          </sp>
+          <sp who="#kulican">
+            <amount n="20" unit="speech_acts"/>
+            <amount n="389" unit="words"/>
+            <amount n="52" unit="lines"/>
+            <amount n="2188" unit="chars"/>
+          </sp>
+          <sp who="#sigelvax">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="447" unit="words"/>
+            <amount n="51" unit="lines"/>
+            <amount n="2369" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>2. Akt</head>
+      <div>
+        <head>1. Auftritt</head>
+        <div>
+          <head>Erster Auftritt.</head>
+          <sp who="#faustibus">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="352" unit="words"/>
+            <amount n="38" unit="lines"/>
+            <amount n="1894" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>2. Auftritt</head>
+        <div>
+          <head>Zweyter Auftritt.</head>
+          <sp who="#cyrus">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="365" unit="words"/>
+            <amount n="41" unit="lines"/>
+            <amount n="1949" unit="chars"/>
+          </sp>
+          <sp who="#faustibus">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="155" unit="words"/>
+            <amount n="17" unit="lines"/>
+            <amount n="850" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>3. Auftritt</head>
+        <div>
+          <head>Dritter Auftritt.</head>
+          <sp who="#sigelvax">
+            <amount n="9" unit="speech_acts"/>
+            <amount n="181" unit="words"/>
+            <amount n="22" unit="lines"/>
+            <amount n="964" unit="chars"/>
+          </sp>
+          <sp who="#cyrus">
+            <amount n="11" unit="speech_acts"/>
+            <amount n="262" unit="words"/>
+            <amount n="34" unit="lines"/>
+            <amount n="1449" unit="chars"/>
+          </sp>
+          <sp who="#faustibus">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="175" unit="words"/>
+            <amount n="19" unit="lines"/>
+            <amount n="938" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>4. Auftritt</head>
+        <div>
+          <head>Vierter Auftritt.</head>
+          <sp who="#mortong">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="85" unit="words"/>
+            <amount n="11" unit="lines"/>
+            <amount n="425" unit="chars"/>
+          </sp>
+          <sp who="#kulican">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="33" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="167" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>5. Auftritt</head>
+        <div>
+          <head>Fünfter Auftritt.</head>
+          <sp who="#kulican">
+            <amount n="7" unit="speech_acts"/>
+            <amount n="162" unit="words"/>
+            <amount n="20" unit="lines"/>
+            <amount n="905" unit="chars"/>
+          </sp>
+          <sp who="#faustibus">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="47" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="224" unit="chars"/>
+          </sp>
+          <sp who="#mortong">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="70" unit="words"/>
+            <amount n="9" unit="lines"/>
+            <amount n="365" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>6. Auftritt</head>
+        <div>
+          <head>Sechster Auftritt.</head>
+          <sp who="#pumphia">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="65" unit="words"/>
+            <amount n="11" unit="lines"/>
+            <amount n="358" unit="chars"/>
+          </sp>
+          <sp who="#kulican">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="76" unit="words"/>
+            <amount n="9" unit="lines"/>
+            <amount n="402" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>7. Auftritt</head>
+        <div>
+          <head>Siebender Auftritt.</head>
+          <sp who="#faustibus">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="36" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="191" unit="chars"/>
+          </sp>
+          <sp who="#cyrus">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="20" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="111" unit="chars"/>
+          </sp>
+          <sp who="#cyrus #faustibus">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="4" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="25" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>8. Auftritt</head>
+        <div>
+          <head>Achter Auftritt.</head>
+          <sp who="#mortong">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="28" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="140" unit="chars"/>
+          </sp>
+          <sp who="#kulican">
+            <amount n="13" unit="speech_acts"/>
+            <amount n="264" unit="words"/>
+            <amount n="34" unit="lines"/>
+            <amount n="1494" unit="chars"/>
+          </sp>
+          <sp who="#cyrus #faustibus">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="13" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="74" unit="chars"/>
+          </sp>
+          <sp who="#faustibus">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="15" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="77" unit="chars"/>
+          </sp>
+          <sp who="#cyrus">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="46" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="237" unit="chars"/>
+          </sp>
+          <sp who="#pumphia">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="179" unit="words"/>
+            <amount n="20" unit="lines"/>
+            <amount n="961" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>9. Auftritt</head>
+        <div>
+          <head>Neunter Auftritt.</head>
+          <sp who="#pinxi">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="31" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="162" unit="chars"/>
+          </sp>
+          <sp who="#kulican">
+            <amount n="17" unit="speech_acts"/>
+            <amount n="406" unit="words"/>
+            <amount n="60" unit="lines"/>
+            <amount n="2176" unit="chars"/>
+          </sp>
+          <sp who="#sigelvax">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="16" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="74" unit="chars"/>
+          </sp>
+          <sp who="#pumphia">
+            <amount n="23" unit="speech_acts"/>
+            <amount n="707" unit="words"/>
+            <amount n="83" unit="lines"/>
+            <amount n="3790" unit="chars"/>
+          </sp>
+          <sp who="#miketey">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="33" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="153" unit="chars"/>
+          </sp>
+          <sp who="#faustibus">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="97" unit="words"/>
+            <amount n="15" unit="lines"/>
+            <amount n="529" unit="chars"/>
+          </sp>
+          <sp who="#cyrus">
+            <amount n="17" unit="speech_acts"/>
+            <amount n="240" unit="words"/>
+            <amount n="31" unit="lines"/>
+            <amount n="1265" unit="chars"/>
+          </sp>
+          <sp who="#faustibus #pumphia">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="4" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="28" unit="chars"/>
+          </sp>
+          <sp who="#kulican #pumphia #cyrus #faustibus">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="9" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="40" unit="chars"/>
+          </sp>
+          <sp who="#mortong">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="44" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="214" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>10. Auftritt</head>
+        <div>
+          <head>Zehender Auftritt.</head>
+          <sp who="#soffocles">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="156" unit="words"/>
+            <amount n="16" unit="lines"/>
+            <amount n="776" unit="chars"/>
+          </sp>
+          <sp who="#kulican">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="73" unit="words"/>
+            <amount n="10" unit="lines"/>
+            <amount n="414" unit="chars"/>
+          </sp>
+          <sp who="#mortong">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="30" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="153" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>11. Auftritt</head>
+        <div>
+          <head>Eilfter Auftritt.</head>
+          <sp who="#pumphia">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="261" unit="words"/>
+            <amount n="28" unit="lines"/>
+            <amount n="1402" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>12. Auftritt</head>
+        <div>
+          <head>Zwölfter Auftritt.</head>
+          <sp who="#cyrus">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="39" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="206" unit="chars"/>
+          </sp>
+          <sp who="#faustibus">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="47" unit="words"/>
+            <amount n="6" unit="lines"/>
+            <amount n="232" unit="chars"/>
+          </sp>
+          <sp who="#miketey">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="4" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="24" unit="chars"/>
+          </sp>
+          <sp who="#kulican">
+            <amount n="5" unit="speech_acts"/>
+            <amount n="123" unit="words"/>
+            <amount n="15" unit="lines"/>
+            <amount n="662" unit="chars"/>
+          </sp>
+          <sp who="#mortong">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="12" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="54" unit="chars"/>
+          </sp>
+          <sp who="#pumphia">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="95" unit="words"/>
+            <amount n="11" unit="lines"/>
+            <amount n="509" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+    <div>
+      <head>Pantomime</head>
+      <div>
+        <head>1. Auftritt</head>
+        <div>
+          <head>Erster Auftritt.</head>
+        </div>
+      </div>
+      <div>
+        <head>2. Auftritt</head>
+        <div>
+          <head>Anderter Auftritt.</head>
+        </div>
+      </div>
+      <div>
+        <head>3. Auftritt</head>
+        <div>
+          <head>Dritter Auftritt.</head>
+        </div>
+      </div>
+      <div>
+        <head>4. Auftritt</head>
+        <div>
+          <head>Vierter Auftritt.</head>
+        </div>
+      </div>
+      <div>
+        <head>5. Auftritt</head>
+        <div>
+          <head>Fünfter Auftritt.</head>
+        </div>
+      </div>
+      <div>
+        <head>6. Auftritt</head>
+        <div>
+          <head>Sechster Auftritt.</head>
+        </div>
+      </div>
+      <div>
+        <head>7. Auftritt</head>
+        <div>
+          <head>Siebender Auftritt</head>
+        </div>
+      </div>
+      <div>
+        <head>8. Auftritt</head>
+        <div>
+          <head>Achter Auftritt.</head>
+        </div>
+      </div>
+      <div>
+        <head>9. Auftritt</head>
+        <div>
+          <head>Neunter Auftritt.</head>
+        </div>
+      </div>
+      <div>
+        <head>10. Auftritt</head>
+        <div>
+          <head>Zehender Auftritt.</head>
+        </div>
+      </div>
+      <div>
+        <head>11. Auftritt</head>
+        <div>
+          <head>Eilfter Auftritt.</head>
+        </div>
+      </div>
+      <div>
+        <head>12. Auftritt</head>
+        <div>
+          <head>Zwölfter Auftritt.</head>
+        </div>
+      </div>
+      <div>
+        <head>13. Auftritt</head>
+        <div>
+          <head>Dreyzehender Auftritt.</head>
+          <sp who="#arleckin">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="22" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="121" unit="chars"/>
+          </sp>
+          <sp who="#colombina">
+            <amount n="3" unit="speech_acts"/>
+            <amount n="654" unit="words"/>
+            <amount n="47" unit="lines"/>
+            <amount n="3815" unit="chars"/>
+          </sp>
+          <sp who="#arleckin #colombina">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="6" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="28" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+  </text>
+  <documentation>
+    <change n="1" type="expandCollective" who="peertrilcke">
+      <path>/play/text[1]/div[3]/div[9]/div[1]</path>
+      <orig>#dalle</orig>
+      <corr>#kulican #pumphia #cyrus #faustibus</corr>
+      <comment>im Text als Quartett markiert</comment>
+    </change>
+  </documentation>
+</play>

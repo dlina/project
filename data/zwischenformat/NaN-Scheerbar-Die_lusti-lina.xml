@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital">
+  <header>
+    <title>Die lustigen Räuber</title>
+  	<subtitle>Ein Schauspiel in fünf Akten</subtitle>
+    <genretitle>Schauspiel</genretitle>
+    <author>Scheerbart, Paul</author>
+  	<date when="1904"></date>
+  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:tvc9.0/data</source>
+  </header>
+  <personae>
+    <character>
+      <name>HANNIBAL</name>
+      <alias xml:id="hannibal">
+        <name>HANNIBAL</name>
+      </alias>
+    </character>
+    <character>
+      <name>KATHARINA</name>
+      <alias xml:id="katharina">
+        <name>KATHARINA</name>
+      </alias>
+    </character>
+    <character>
+      <name>META</name>
+      <alias xml:id="meta">
+        <name>META</name>
+      </alias>
+    </character>
+    <character>
+      <name>MAX</name>
+      <alias xml:id="max">
+        <name>MAX</name>
+      </alias>
+    </character>
+    <character>
+      <name>THEOPHIL</name>
+      <alias xml:id="theophil">
+        <name>THEOPHIL</name>
+      </alias>
+    	<alias xml:id="theophil_knipski">
+    		<name>THEOPHIL KNIPSKI</name>
+    	</alias>
+    	<alias xml:id="knipski">
+    		<name>KNIPSKI</name>
+    	</alias>
+    </character>
+    <character>
+      <name>STRICK</name>
+      <alias xml:id="strick">
+        <name>STRICK</name>
+      </alias>
+    </character>
+    <character>
+      <name>SCHLAMMBERGER</name>
+      <alias xml:id="schlammberger">
+        <name>SCHLAMMBERGER</name>
+      </alias>
+    </character>
+    <character>
+      <name>REITZER</name>
+      <alias xml:id="reitzer">
+        <name>REITZER</name>
+      </alias>
+    </character>
+    <character>
+      <name>FINKENSTEIN</name>
+      <alias xml:id="finkenstein">
+        <name>FINKENSTEIN</name>
+      </alias>
+    </character>
+    <character>
+      <name>OBERKELLNER</name>
+      <alias xml:id="oberkellner">
+        <name>OBERKELLNER</name>
+      </alias>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Personen</head>
+    </div>
+    <div>
+      <head>1. Akt</head>
+      <div>
+        <head>Erster Akt</head>
+        <sp who="#hannibal">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="158" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="999" unit="chars"/>
+        </sp>
+        <sp who="#katharina">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="63" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="393" unit="chars"/>
+        </sp>
+        <sp who="#meta">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="38" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="222" unit="chars"/>
+        </sp>
+        <sp who="#max">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="64" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="357" unit="chars"/>
+        </sp>
+        <sp who="#theophil">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="27" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="169" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>2. Akt</head>
+      <div>
+        <head>Zweiter Akt</head>
+        <sp who="#strick">
+          <amount n="10" unit="speech_acts"/>
+          <amount n="241" unit="words"/>
+          <amount n="9" unit="lines"/>
+          <amount n="1445" unit="chars"/>
+        </sp>
+        <sp who="#meta">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="63" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="373" unit="chars"/>
+        </sp>
+        <sp who="#katharina">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="43" unit="words"/>
+          <amount n="6" unit="lines"/>
+          <amount n="234" unit="chars"/>
+        </sp>
+        <sp who="#hannibal">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="67" unit="words"/>
+          <amount n="6" unit="lines"/>
+          <amount n="383" unit="chars"/>
+        </sp>
+        <sp who="#max">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="5" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="28" unit="chars"/>
+        </sp>
+        <sp who="#schlammberger">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="32" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="184" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>3. Akt</head>
+      <div>
+        <head>Dritter Akt</head>
+        <sp who="#meta">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="13" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="73" unit="chars"/>
+        </sp>
+        <sp who="#strick">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="59" unit="words"/>
+          <amount n="368" unit="chars"/>
+        </sp>
+        <sp who="#katharina">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="47" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="290" unit="chars"/>
+        </sp>
+        <sp who="#hannibal">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="46" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="275" unit="chars"/>
+        </sp>
+        <sp who="#theophil_knipski">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="58" unit="words"/>
+          <amount n="367" unit="chars"/>
+        </sp>
+        <sp who="#knipski">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="24" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="146" unit="chars"/>
+        </sp>
+        <sp who="#schlammberger">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="25" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="133" unit="chars"/>
+        </sp>
+        <sp who="#reitzer">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="9" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="49" unit="chars"/>
+        </sp>
+        <sp who="#max">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="86" unit="words"/>
+          <amount n="486" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>4. Akt</head>
+      <div>
+        <head>Vierter Akt</head>
+        <sp who="#hannibal">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="4" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="24" unit="chars"/>
+        </sp>
+        <sp who="#max #theophil #schlammberger #reitzer">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="1" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="6" unit="chars"/>
+        </sp>
+        <sp who="#katharina">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="40" unit="words"/>
+          <amount n="5" unit="lines"/>
+          <amount n="197" unit="chars"/>
+        </sp>
+        <sp who="#meta">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="53" unit="words"/>
+          <amount n="5" unit="lines"/>
+          <amount n="300" unit="chars"/>
+        </sp>
+        <sp who="#theophil_knipski">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="185" unit="words"/>
+          <amount n="1203" unit="chars"/>
+        </sp>
+        <sp who="#schlammberger">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="8" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="47" unit="chars"/>
+        </sp>
+        <sp who="#finkenstein">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="73" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="410" unit="chars"/>
+        </sp>
+        <sp who="#strick">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="124" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="666" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>5. Akt</head>
+      <div>
+        <head>Fünfter Akt</head>
+        <sp who="#hannibal">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="11" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="71" unit="chars"/>
+        </sp>
+        <sp who="#max">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="21" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="131" unit="chars"/>
+        </sp>
+        <sp who="#theophil_knipski">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="64" unit="words"/>
+          <amount n="6" unit="lines"/>
+          <amount n="338" unit="chars"/>
+        </sp>
+        <sp who="#reitzer">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="10" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="56" unit="chars"/>
+        </sp>
+        <sp who="#schlammberger">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="13" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="74" unit="chars"/>
+        </sp>
+        <sp who="#strick">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="69" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="376" unit="chars"/>
+        </sp>
+        <sp who="#meta">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="7" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="34" unit="chars"/>
+        </sp>
+        <sp who="#katharina">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="13" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="68" unit="chars"/>
+        </sp>
+        <sp who="#finkenstein">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="10" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="51" unit="chars"/>
+        </sp>
+      	<sp who="#max #theophil #schlammberger #reitzer #hannibal">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="2" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="15" unit="chars"/>
+        </sp>
+      	<sp who="#max #theophil #schlammberger #reitzer #hannibal #katharina #meta #max">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="2" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="17" unit="chars"/>
+        </sp>
+        <sp who="#oberkellner">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="20" unit="words"/>
+          <amount n="122" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+  </text>
+	<documentation>
+		<change n="1" type="expandCollective" who="dariokampkaspar">
+			<path>/play/text[1]/div[5]/div[1]/sp[2]</path>
+			<orig>#die_anderen_vier_räuber</orig>
+			<corr>#max #theophil #schlammberger #reitzer</corr>
+			<comment>Vgl. Stücketext bzw. Personenverzeichnis der Vorlage</comment>
+		</change>
+		<change n="2" type="expandCollective" who="dariokampkaspar">
+			<path>/play/text[1]/div[6]/div[1]/sp[10]/@who</path>
+			<orig>#die_fünf_beraubten_räuber</orig>
+			<corr>#max #theophil #schlammberger #reitzer #hannibal</corr>
+			<comment>vgl. Personenverzeichnis der Vorlage</comment>
+		</change>
+	</documentation>
+</play>

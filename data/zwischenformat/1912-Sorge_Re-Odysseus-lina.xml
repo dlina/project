@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital">
+  <header>
+    <title>Odysseus</title>
+    <subtitle>Dramatische Phantasie</subtitle>
+    <genretitle></genretitle>
+    <author>Sorge, Reinhard Johannes</author>
+    <date when="1912" type="print" />
+  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:vpvx.0/data</source>
+  </header>
+  <personae>
+    <character>
+      <name>ERSTER FREIER</name>
+      <alias xml:id="erster_freier">
+        <name>ERSTER FREIER</name>
+      </alias>
+    	<alias xml:id="erster_gegensprecher">
+    		<name>ERSTER GEGENSPRECHER</name>
+    	</alias>
+    </character>
+    <character>
+      <name>CHOR</name>
+      <alias xml:id="chor">
+        <name>CHOR</name>
+      </alias>
+    </character>
+    <character>
+      <name>ZWEITER FREIER</name>
+      <alias xml:id="zweiter_freier">
+        <name>ZWEITER FREIER</name>
+      </alias>
+    	<alias xml:id="zweiter_gegensprecher">
+    		<name>ZWEITER GEGENSPRECHER</name>
+    	</alias>
+    </character>
+    <character>
+      <name>DRITTER FREIER</name>
+      <alias xml:id="dritter_freier">
+        <name>DRITTER FREIER</name>
+      </alias>
+    	<alias xml:id="chorsprecher">
+    		<name>CHORSPRECHER</name>
+    	</alias>
+    	<alias xml:id="der_chorsprecher">
+    		<name>DER CHORSPRECHER</name>
+    	</alias>
+    </character>
+    <character>
+      <name>SÄNGER</name>
+      <alias xml:id="sänger">
+        <name>SÄNGER</name>
+      </alias>
+    	<alias xml:id="der_sänger">
+    		<name>DER SÄNGER</name>
+    	</alias>
+    </character>
+    <character>
+      <name>TELEMACHOS</name>
+      <alias xml:id="telemachos">
+        <name>TELEMACHOS</name>
+      </alias>
+    </character>
+    <character>
+      <name>SEHER</name>
+      <alias xml:id="seher">
+        <name>SEHER</name>
+      </alias>
+    </character>
+    <character>
+      <name>OBERER CHOR</name>
+      <alias xml:id="oberer_chor">
+        <name>OBERER CHOR</name>
+      </alias>
+    </character>
+    <character>
+      <name>UNTERER CHOR</name>
+      <alias xml:id="unterer_chor">
+        <name>UNTERER CHOR</name>
+      </alias>
+    </character>
+    <character>
+      <name>DRITTER CHORSPRECHER</name>
+      <alias xml:id="dritter_chorsprecher">
+        <name>DRITTER CHORSPRECHER</name>
+      </alias>
+    </character>
+    <character>
+      <name>ODYSSEUS</name>
+      <alias xml:id="odysseus">
+        <name>ODYSSEUS</name>
+      </alias>
+    </character>
+    <character>
+      <name>EINE STIMME</name>
+      <alias xml:id="eine_stimme">
+        <name>EINE STIMME</name>
+      </alias>
+    </character>
+    <character>
+      <name>EINE ANDERE</name>
+      <alias xml:id="eine_andere">
+        <name>EINE ANDERE</name>
+      </alias>
+    </character>
+    <character>
+      <name>PENELOPEIA</name>
+      <alias xml:id="penelopeia">
+        <name>PENELOPEIA</name>
+      </alias>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Reinhard Johannes Sorge</head>
+    </div>
+    <div>
+      <head>[Widmung]</head>
+      <div>
+        <head>noName</head>
+      </div>
+    </div>
+    <div>
+      <head>Personen</head>
+      <div>
+        <head>noName</head>
+      </div>
+    </div>
+    <div>
+      <head>[Stücktext]</head>
+      <div>
+        <head>[Stücktext]</head>
+        <sp who="#erster_freier">
+          <amount n="29" unit="speech_acts"/>
+          <amount n="651" unit="words"/>
+          <amount n="19" unit="lines"/>
+          <amount n="3814" unit="chars"/>
+        </sp>
+        <sp who="#chor">
+          <amount n="36" unit="speech_acts"/>
+          <amount n="187" unit="words"/>
+          <amount n="52" unit="lines"/>
+          <amount n="1131" unit="chars"/>
+        </sp>
+        <sp who="#zweiter_freier">
+          <amount n="22" unit="speech_acts"/>
+          <amount n="335" unit="words"/>
+          <amount n="16" unit="lines"/>
+          <amount n="1951" unit="chars"/>
+        </sp>
+        <sp who="#dritter_freier">
+          <amount n="26" unit="speech_acts"/>
+          <amount n="216" unit="words"/>
+          <amount n="22" unit="lines"/>
+          <amount n="1209" unit="chars"/>
+        </sp>
+        <sp who="#sänger">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="217" unit="words"/>
+          <amount n="33" unit="lines"/>
+          <amount n="1261" unit="chars"/>
+        </sp>
+        <sp who="#telemachos">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="300" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="1655" unit="chars"/>
+        </sp>
+        <sp who="#seher">
+          <amount n="12" unit="speech_acts"/>
+          <amount n="870" unit="words"/>
+          <amount n="19" unit="lines"/>
+          <amount n="5360" unit="chars"/>
+        </sp>
+        <sp who="#chorsprecher">
+          <amount n="22" unit="speech_acts"/>
+          <amount n="778" unit="words"/>
+          <amount n="15" unit="lines"/>
+          <amount n="4515" unit="chars"/>
+        </sp>
+        <sp who="#oberer_chor">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="5" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="30" unit="chars"/>
+        </sp>
+        <sp who="#unterer_chor">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="5" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="33" unit="chars"/>
+        </sp>
+        <sp who="#dritter_chorsprecher">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="75" unit="words"/>
+          <amount n="442" unit="chars"/>
+        </sp>
+        <sp who="#erster_gegensprecher">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="64" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="383" unit="chars"/>
+        </sp>
+        <sp who="#zweiter_gegensprecher">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="142" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="853" unit="chars"/>
+        </sp>
+        <sp who="#odysseus">
+          <amount n="13" unit="speech_acts"/>
+          <amount n="629" unit="words"/>
+          <amount n="22" unit="lines"/>
+          <amount n="3790" unit="chars"/>
+        </sp>
+        <sp who="#erster_gegensprecher #zweiter_gegensprecher">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="4" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="31" unit="chars"/>
+        </sp>
+        <sp who="#der_chorsprecher">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="2" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="12" unit="chars"/>
+        </sp>
+        <sp who="#erster_gegensprecher #zweiter_gegensprecher">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="5" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="40" unit="chars"/>
+        </sp>
+        <sp who="#eine_stimme">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="4" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="28" unit="chars"/>
+        </sp>
+        <sp who="#eine_andere">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="2" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="12" unit="chars"/>
+        </sp>
+        <sp who="#penelopeia">
+          <amount n="8" unit="speech_acts"/>
+          <amount n="253" unit="words"/>
+          <amount n="5" unit="lines"/>
+          <amount n="1461" unit="chars"/>
+        </sp>
+        <sp who="#erster_gegensprecher #zweiter_gegensprecher">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="3" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="26" unit="chars"/>
+        </sp>
+        <sp who="#erster_freier #zweiter_freier #dritter_freier">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="1" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="9" unit="chars"/>
+        </sp>
+        <sp who="#der_sänger">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="1" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="9" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+  </text>
+	<documentation>
+		<change n="1" who="dariokampkaspar">
+			<path />
+			<orig>character »CHORSPRECHER«</orig>
+			<corr>Alias von »Dritter Freier«</corr>
+			<comment>Zuordnung nach Personenliste der Vorlage</comment>
+		</change>
+		<change n="2" who="dariokampkaspar">
+			<path />
+			<orig>character »[erster|zweiter] gegensprecher«</orig>
+			<corr>Alias zu »[erster|zweiter] freier«</corr>
+			<comment>Zuordnung nach Personenliste der Vorlage</comment>
+		</change>
+	</documentation>
+</play>

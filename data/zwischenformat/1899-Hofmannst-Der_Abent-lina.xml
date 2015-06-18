@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital">
+  <header>
+    <title>Der Abenteurer und die Sängerin oder Die Geschenke des Lebens</title>
+    <subtitle>In einem Aufzug (mit einer Verwandlung)</subtitle>
+    <genretitle></genretitle>
+    <author>Hofmannsthal, Hugo von</author>
+    <date when="1898" type="written" />
+  	<date when="1899" type="print" />
+  	<date when="1899" type="premiere" />
+  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:qdks.0/data</source>
+  </header>
+  <personae>
+    <character>
+      <name>BARON</name>
+      <alias xml:id="baron">
+        <name>BARON</name>
+      </alias>
+    </character>
+    <character>
+      <name>VENIER</name>
+      <alias xml:id="venier">
+        <name>VENIER</name>
+      </alias>
+    </character>
+    <character>
+      <name>LE DUC</name>
+      <alias xml:id="le_duc">
+        <name>LE DUC</name>
+      </alias>
+    </character>
+    <character>
+      <name>SASSI</name>
+      <alias xml:id="sassi">
+        <name>SASSI</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE MUTTER</name>
+      <alias xml:id="die_mutter">
+        <name>DIE MUTTER</name>
+      </alias>
+    	<alias xml:id="mutter">
+    		<name>MUTTER</name>
+    	</alias>
+    </character>
+    <character>
+      <name>DIE CORTICELLI</name>
+      <alias xml:id="die_corticelli">
+        <name>DIE CORTICELLI</name>
+      </alias>
+    </character>
+    <character>
+      <name>SALAINO</name>
+      <alias xml:id="salaino">
+        <name>SALAINO</name>
+      </alias>
+    </character>
+    <character>
+      <name>MARFISA</name>
+      <alias xml:id="marfisa">
+        <name>MARFISA</name>
+      </alias>
+    </character>
+    <character>
+      <name>REDEGONDA</name>
+      <alias xml:id="redegonda">
+        <name>REDEGONDA</name>
+      </alias>
+    </character>
+    <character>
+      <name>ACHILLES</name>
+      <alias xml:id="achilles">
+        <name>ACHILLES</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER ABBATE</name>
+      <alias xml:id="der_abbate">
+        <name>DER ABBATE</name>
+      </alias>
+    	<alias xml:id="abbate">
+    		<name>ABBATE</name>
+    	</alias>
+    </character>
+    <character>
+      <name>JUWELIER</name>
+      <alias xml:id="juwelier">
+        <name>JUWELIER</name>
+      </alias>
+    </character>
+    <character>
+      <name>LORENZO</name>
+      <alias xml:id="lorenzo">
+        <name>LORENZO</name>
+      </alias>
+    </character>
+    <character>
+      <name>VITTORIA</name>
+      <alias xml:id="vittoria">
+        <name>VITTORIA</name>
+      </alias>
+    </character>
+    <character>
+      <name>CESARINO</name>
+      <alias xml:id="cesarino">
+        <name>CESARINO</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER GRAF</name>
+      <alias xml:id="der_graf">
+        <name>DER GRAF</name>
+      </alias>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Personen</head>
+    </div>
+    <div>
+      <head>[1. Szene]</head>
+      <div>
+        <head>I</head>
+        <sp who="#baron">
+          <amount n="160" unit="speech_acts"/>
+          <amount n="4199" unit="words"/>
+          <amount n="530" unit="lines"/>
+          <amount n="22670" unit="chars"/>
+        </sp>
+        <sp who="#venier">
+          <amount n="48" unit="speech_acts"/>
+          <amount n="892" unit="words"/>
+          <amount n="65" unit="lines"/>
+          <amount n="4968" unit="chars"/>
+        </sp>
+        <sp who="#le_duc">
+          <amount n="24" unit="speech_acts"/>
+          <amount n="265" unit="words"/>
+          <amount n="36" unit="lines"/>
+          <amount n="1504" unit="chars"/>
+        </sp>
+        <sp who="#sassi">
+          <amount n="12" unit="speech_acts"/>
+          <amount n="106" unit="words"/>
+          <amount n="23" unit="lines"/>
+          <amount n="643" unit="chars"/>
+        </sp>
+        <sp who="#die_mutter">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="48" unit="words"/>
+          <amount n="7" unit="lines"/>
+          <amount n="241" unit="chars"/>
+        </sp>
+        <sp who="#die_corticelli">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="55" unit="words"/>
+          <amount n="7" unit="lines"/>
+          <amount n="271" unit="chars"/>
+        </sp>
+        <sp who="#salaino">
+          <amount n="13" unit="speech_acts"/>
+          <amount n="185" unit="words"/>
+          <amount n="32" unit="lines"/>
+          <amount n="985" unit="chars"/>
+        </sp>
+        <sp who="#marfisa">
+          <amount n="22" unit="speech_acts"/>
+          <amount n="234" unit="words"/>
+          <amount n="38" unit="lines"/>
+          <amount n="1135" unit="chars"/>
+        </sp>
+        <sp who="#mutter">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="74" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="429" unit="chars"/>
+        </sp>
+        <sp who="#redegonda">
+          <amount n="31" unit="speech_acts"/>
+          <amount n="506" unit="words"/>
+          <amount n="75" unit="lines"/>
+          <amount n="2577" unit="chars"/>
+        </sp>
+        <sp who="#achilles">
+          <amount n="13" unit="speech_acts"/>
+          <amount n="81" unit="words"/>
+          <amount n="18" unit="lines"/>
+          <amount n="433" unit="chars"/>
+        </sp>
+        <sp who="#der_abbate">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="2" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="13" unit="chars"/>
+        </sp>
+        <sp who="#abbate">
+          <amount n="10" unit="speech_acts"/>
+          <amount n="127" unit="words"/>
+          <amount n="22" unit="lines"/>
+          <amount n="683" unit="chars"/>
+        </sp>
+        <sp who="#juwelier">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="72" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="394" unit="chars"/>
+        </sp>
+        <sp who="#lorenzo">
+          <amount n="11" unit="speech_acts"/>
+          <amount n="178" unit="words"/>
+          <amount n="32" unit="lines"/>
+          <amount n="934" unit="chars"/>
+        </sp>
+        <sp who="#vittoria">
+          <amount n="32" unit="speech_acts"/>
+          <amount n="1199" unit="words"/>
+          <amount n="179" unit="lines"/>
+          <amount n="6350" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>[2. Szene]</head>
+      <div>
+        <head>II</head>
+        <sp who="#lorenzo">
+          <amount n="55" unit="speech_acts"/>
+          <amount n="1417" unit="words"/>
+          <amount n="154" unit="lines"/>
+          <amount n="7354" unit="chars"/>
+        </sp>
+        <sp who="#cesarino">
+          <amount n="39" unit="speech_acts"/>
+          <amount n="942" unit="words"/>
+          <amount n="134" unit="lines"/>
+          <amount n="4775" unit="chars"/>
+        </sp>
+        <sp who="#vittoria">
+          <amount n="102" unit="speech_acts"/>
+          <amount n="3229" unit="words"/>
+          <amount n="429" unit="lines"/>
+          <amount n="16566" unit="chars"/>
+        </sp>
+        <sp who="#marfisa">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="58" unit="words"/>
+          <amount n="9" unit="lines"/>
+          <amount n="278" unit="chars"/>
+        </sp>
+        <sp who="#der_abbate">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="27" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="129" unit="chars"/>
+        </sp>
+        <sp who="#abbate">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="4" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="21" unit="chars"/>
+        </sp>
+        <sp who="#redegonda">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="38" unit="words"/>
+          <amount n="6" unit="lines"/>
+          <amount n="189" unit="chars"/>
+        </sp>
+        <sp who="#der_graf">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="73" unit="words"/>
+          <amount n="11" unit="lines"/>
+          <amount n="351" unit="chars"/>
+        </sp>
+        <sp who="#baron">
+          <amount n="43" unit="speech_acts"/>
+          <amount n="850" unit="words"/>
+          <amount n="133" unit="lines"/>
+          <amount n="4510" unit="chars"/>
+        </sp>
+        <sp who="#salaino">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="1" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="8" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+  </text>
+</play>

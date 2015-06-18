@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital">
+  <header>
+    <title>Almansor</title>
+    <subtitle>Eine Tragödie</subtitle>
+    <genretitle>Tragödie</genretitle>
+    <author>Heine, Heinrich</author>
+    <date type="print" when="1821">1821</date>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:psxj.0/data</source>
+  </header>
+  <personae>
+    <character>
+      <name>ALMANSOR</name>
+      <alias xml:id="almansor">
+        <name>ALMANSOR</name>
+      </alias>
+    </character>
+    <character>
+      <name>ERSTER MAURE</name>
+      <alias xml:id="erster_maure">
+        <name>ERSTER MAURE</name>
+      </alias>
+    </character>
+    <character>
+      <name>ZWEITER MAURE</name>
+      <alias xml:id="zweiter_maure">
+        <name>ZWEITER MAURE</name>
+      </alias>
+    </character>
+    <character>
+      <name>DRITTER MAURE</name>
+      <alias xml:id="dritter_maure">
+        <name>DRITTER MAURE</name>
+      </alias>
+    </character>
+    <character>
+      <name>HASSAN</name>
+      <alias xml:id="hassan">
+        <name>HASSAN</name>
+      </alias>
+    </character>
+    <character>
+      <name>DON ENRIQUE</name>
+      <alias xml:id="don_enrique">
+        <name>DON ENRIQUE</name>
+      </alias>
+    </character>
+    <character>
+      <name>ZULEIMA</name>
+      <alias xml:id="zuleima">
+        <name>ZULEIMA</name>
+      </alias>
+      <alias xml:id="zuleimas_stimme">
+        <name>ZULEIMAS STIMME</name>
+      </alias>
+    </character>
+    <character>
+      <name>ALY</name>
+      <alias xml:id="aly">
+        <name>ALY</name>
+      </alias>
+      <alias xml:id="alys_stimme">
+        <name>ALYS STIMME</name>
+      </alias>
+    </character>
+    <character>
+      <name>PEDRILLO</name>
+      <alias xml:id="pedrillo">
+        <name>PEDRILLO</name>
+      </alias>
+    </character>
+    <character>
+      <name>EINE ANDRE STIMME</name>
+      <alias xml:id="eine_andre_stimme">
+        <name>EINE ANDRE STIMME</name>
+      </alias>
+    </character>
+    <character>
+      <name>EINE DRITTE STIMME</name>
+      <alias xml:id="eine_dritte_stimme">
+        <name>EINE DRITTE STIMME</name>
+      </alias>
+    </character>
+    <character>
+      <name>ERSTER RITTER 3</name>
+      <alias xml:id="erster_ritter_3">
+        <name>ERSTER RITTER_3</name>
+      </alias>
+    </character>
+    <character>
+      <name>SEINE DAME</name>
+      <alias xml:id="seine_dame">
+        <name>SEINE DAME</name>
+      </alias>
+    </character>
+    <character>
+      <name>EINE ANDRE DAME</name>
+      <alias xml:id="eine_andre_dame">
+        <name>EINE ANDRE DAME</name>
+      </alias>
+      <alias xml:id="die_dame">
+        <name>DIE DAME</name>
+      </alias>
+    </character>
+    <character>
+      <name>IHR RITTER</name>
+      <alias xml:id="ihr_ritter">
+        <name>IHR RITTER</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER ERSTE</name>
+      <alias xml:id="der_erste">
+        <name>DER ERSTE</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER ZWEITE</name>
+      <alias xml:id="der_zweite">
+        <name>DER ZWEITE</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER EINE RITTER</name>
+      <alias xml:id="der_eine_ritter">
+        <name>DER EINE RITTER</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER ANDRE RITTER</name>
+      <alias xml:id="der_andre_ritter">
+        <name>DER ANDRE RITTER</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN JUNGER FIEDLER</name>
+      <alias xml:id="ein_junger_fiedler">
+        <name>EIN JUNGER FIEDLER</name>
+      </alias>
+      <alias xml:id="der_junge_fiedler">
+        <name>DER JUNGE FIEDLER</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER ALTE</name>
+      <alias xml:id="der_alte">
+        <name>DER ALTE</name>
+      </alias>
+    </character>
+    <character>
+      <name>DON DIEGO</name>
+      <alias xml:id="don_diego">
+        <name>DON DIEGO</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE GESTALT</name>
+      <alias xml:id="die_gestalt">
+        <name>DIE GESTALT</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER CHOR</name>
+      <alias xml:id="der_chor">
+        <name>DER CHOR</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN RITTER 6</name>
+      <alias xml:id="ein_ritter_6">
+        <name>EIN RITTER 6</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN TEIL DER GÄSTE</name>
+      <alias xml:id="ein_teil_der_gäste">
+        <name>EIN TEIL DER GÄSTE</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER ABT</name>
+      <alias xml:id="der_abt">
+        <name>DER ABT</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN ANDERER RITTER 6</name>
+      <alias xml:id="ein_anderer_ritter_6">
+        <name>EIN ANDERER RITTER 6</name>
+      </alias>
+      <alias xml:id="zweiter_ritter_6">
+        <name>ZWEITER RITTER 6</name>
+      </alias>
+    </character>
+    <character>
+      <name>ALLE</name>
+      <alias xml:id="alle">
+        <name>ALLE</name>
+      </alias>
+    </character>
+    <character>
+      <name>DRITTER RITTER</name>
+      <alias xml:id="dritter_ritter">
+        <name>DRITTER RITTER</name>
+      </alias>
+    </character> 
+    <character>
+      <name>VIERTER RITTER</name>
+      <alias xml:id="vierter_ritter">
+        <name>VIERTER RITTER</name>
+      </alias>
+    </character>
+    <character>
+      <name>FÜNFTER RITTER</name>
+      <alias xml:id="fünfter_ritter">
+        <name>FÜNFTER RITTER</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER HARFENSPIELER</name>
+      <alias xml:id="der_harfenspieler">
+        <name>DER HARFENSPIELER</name>
+      </alias>
+    </character>
+    <character>
+      <name>EINIGE RITTER</name>
+      <alias xml:id="einige_ritter">
+        <name>EINIGE RITTER</name>
+      </alias>
+    </character>
+    <character>
+      <name>ANDRE RITTER</name>
+      <alias xml:id="andre_ritter">
+        <name>ANDRE RITTER</name>
+      </alias>
+    </character>
+    <character>
+      <name>ALLE RITTER</name>
+      <alias xml:id="alle_ritter">
+        <name>ALLE RITTER</name>
+      </alias>
+    </character>
+    <character>
+      <name>MEHRERE RITTER</name>
+      <alias xml:id="mehrere_ritter">
+        <name>MEHRERE RITTER</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN RITTER 8</name>
+      <alias xml:id="ein_ritter_8">
+        <name>EIN RITTER 8</name>
+      </alias>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>[Motto]</head>
+    </div>
+    <div>
+      <head>Das Innere eines alten, verödeten Maurenschlosses</head>
+      <div>
+        <head>Das Innere eines alten, verödeten Maurenschlosses</head>
+        <sp who="#almansor">
+          <amount n="24" unit="speech_acts"/>
+          <amount n="1771" unit="words"/>
+          <amount n="239" unit="lines"/>
+          <amount n="9850" unit="chars"/>
+        </sp>
+        <sp who="#erster_maure">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="54" unit="words"/>
+          <amount n="8" unit="lines"/>
+          <amount n="308" unit="chars"/>
+        </sp>
+        <sp who="#zweiter_maure">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="9" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="45" unit="chars"/>
+        </sp>
+        <sp who="#dritter_maure">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="9" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="43" unit="chars"/>
+        </sp>
+        <sp who="#hassan">
+          <amount n="21" unit="speech_acts"/>
+          <amount n="882" unit="words"/>
+          <amount n="123" unit="lines"/>
+          <amount n="5070" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>Alys Schloß</head>
+      <div>
+        <head>Alys Schloß</head>
+        <sp who="#don_enrique">
+          <amount n="12" unit="speech_acts"/>
+          <amount n="228" unit="words"/>
+          <amount n="33" unit="lines"/>
+          <amount n="1168" unit="chars"/>
+        </sp>
+        <sp who="#zuleima">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="9" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="36" unit="chars"/>
+        </sp>
+        <sp who="#aly">
+          <amount n="10" unit="speech_acts"/>
+          <amount n="661" unit="words"/>
+          <amount n="94" unit="lines"/>
+          <amount n="3663" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>Nacht. Alys Schloß von außen</head>
+      <div>
+        <head>Nacht. Alys Schloß von außen</head>
+        <sp who="#almansor">
+          <amount n="11" unit="speech_acts"/>
+          <amount n="1515" unit="words"/>
+          <amount n="208" unit="lines"/>
+          <amount n="8471" unit="chars"/>
+        </sp>
+        <sp who="#pedrillo">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="170" unit="words"/>
+          <amount n="23" unit="lines"/>
+          <amount n="916" unit="chars"/>
+        </sp>
+        <sp who="#alys_stimme">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="8" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="43" unit="chars"/>
+        </sp>
+        <sp who="#eine_andre_stimme">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="26" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="135" unit="chars"/>
+        </sp>
+        <sp who="#eine_dritte_stimme">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="16" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="78" unit="chars"/>
+        </sp>
+        <sp who="#erster_ritter_3">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="7" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="39" unit="chars"/>
+        </sp>
+        <sp who="#seine_dame">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="7" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="44" unit="chars"/>
+        </sp>
+        <sp who="#eine_andre_dame">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="14" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="79" unit="chars"/>
+        </sp>
+        <sp who="#ihr_ritter">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="14" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="82" unit="chars"/>
+        </sp>
+        <sp who="#die_dame">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="8" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="40" unit="chars"/>
+        </sp>
+        <sp who="#der_erste">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="37" unit="words"/>
+          <amount n="5" unit="lines"/>
+          <amount n="207" unit="chars"/>
+        </sp>
+        <sp who="#der_zweite">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="40" unit="words"/>
+          <amount n="5" unit="lines"/>
+          <amount n="231" unit="chars"/>
+        </sp>
+        <sp who="#der_eine_ritter">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="13" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="79" unit="chars"/>
+        </sp>
+        <sp who="#der_andre_ritter">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="17" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="88" unit="chars"/>
+        </sp>
+        <sp who="#ein_junger_fiedler">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="6" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="37" unit="chars"/>
+        </sp>
+        <sp who="#der_alte">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="43" unit="words"/>
+          <amount n="5" unit="lines"/>
+          <amount n="220" unit="chars"/>
+        </sp>
+        <sp who="#der_junge_fiedler">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="89" unit="words"/>
+          <amount n="11" unit="lines"/>
+          <amount n="471" unit="chars"/>
+        </sp>
+        <sp who="#don_enrique">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="107" unit="words"/>
+          <amount n="13" unit="lines"/>
+          <amount n="564" unit="chars"/>
+        </sp>
+        <sp who="#don_diego">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="468" unit="words"/>
+          <amount n="62" unit="lines"/>
+          <amount n="2555" unit="chars"/>
+        </sp>
+        <sp who="#zuleimas_stimme">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="47" unit="words"/>
+          <amount n="6" unit="lines"/>
+          <amount n="255" unit="chars"/>
+        </sp>
+        <sp who="#zuleima">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="183" unit="words"/>
+          <amount n="25" unit="lines"/>
+          <amount n="982" unit="chars"/>
+        </sp>
+        <sp who="#die_gestalt">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="95" unit="words"/>
+          <amount n="13" unit="lines"/>
+          <amount n="537" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>Garten vor Alys Schloß</head>
+      <div>
+        <head>Garten vor Alys Schloß</head>
+        <sp who="#zuleima">
+          <amount n="12" unit="speech_acts"/>
+          <amount n="780" unit="words"/>
+          <amount n="108" unit="lines"/>
+          <amount n="4430" unit="chars"/>
+        </sp>
+        <sp who="#almansor">
+          <amount n="11" unit="speech_acts"/>
+          <amount n="1326" unit="words"/>
+          <amount n="176" unit="lines"/>
+          <amount n="7384" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>Waldgegend</head>
+      <div>
+        <head>Waldgegend</head>
+        <sp who="#der_chor">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="546" unit="words"/>
+          <amount n="81" unit="lines"/>
+          <amount n="3243" unit="chars"/>
+        </sp>
+        <sp who="#almansor">
+          <amount n="10" unit="speech_acts"/>
+          <amount n="1329" unit="words"/>
+          <amount n="173" unit="lines"/>
+          <amount n="7143" unit="chars"/>
+        </sp>
+        <sp who="#hassan">
+          <amount n="9" unit="speech_acts"/>
+          <amount n="325" unit="words"/>
+          <amount n="44" unit="lines"/>
+          <amount n="1816" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>Saal in Alys Schloß</head>
+      <div>
+        <head>Saal in Alys Schloß</head>
+        <sp who="#ein_ritter_6">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="14" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="73" unit="chars"/>
+        </sp>
+        <sp who="#ein_teil_der_gäste">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="11" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="69" unit="chars"/>
+        </sp>
+        <sp who="#der_abt">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="63" unit="words"/>
+          <amount n="9" unit="lines"/>
+          <amount n="357" unit="chars"/>
+        </sp>
+        <sp who="#ein_anderer_ritter_6">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="16" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="86" unit="chars"/>
+        </sp>
+        <sp who="#alle">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="13" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="59" unit="chars"/>
+        </sp>
+        <sp who="#don_enrique">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="26" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="144" unit="chars"/>
+        </sp>
+        <sp who="#zweiter_ritter_6">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="5" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="26" unit="chars"/>
+        </sp>
+        <sp who="#zuleima">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="9" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="43" unit="chars"/>
+        </sp>
+        <sp who="#dritter_ritter">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="13" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="78" unit="chars"/>
+        </sp>
+        <sp who="#vierter_ritter">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="88" unit="words"/>
+          <amount n="14" unit="lines"/>
+          <amount n="480" unit="chars"/>
+        </sp>
+        <sp who="#dritter_ritter">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="6" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="26" unit="chars"/>
+        </sp>
+        <sp who="#aly">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="57" unit="words"/>
+          <amount n="10" unit="lines"/>
+          <amount n="330" unit="chars"/>
+        </sp>
+        <sp who="#pedrillo">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="56" unit="words"/>
+          <amount n="9" unit="lines"/>
+          <amount n="321" unit="chars"/>
+        </sp>
+        <sp who="#fünfter_ritter">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="57" unit="words"/>
+          <amount n="7" unit="lines"/>
+          <amount n="276" unit="chars"/>
+        </sp>
+        <sp who="#die_dame">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="16" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="92" unit="chars"/>
+        </sp>
+        <sp who="#der_harfenspieler">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="311" unit="words"/>
+          <amount n="47" unit="lines"/>
+          <amount n="1715" unit="chars"/>
+        </sp>
+        <sp who="#einige_ritter">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="5" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="25" unit="chars"/>
+        </sp>
+        <sp who="#andre_ritter">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="34" unit="words"/>
+          <amount n="5" unit="lines"/>
+          <amount n="169" unit="chars"/>
+        </sp>
+        <sp who="#alle_ritter #ein_ritter_6 #ein_anderer_ritter_6 #dritter_ritter #vierter_ritter #fünfter_ritter">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="12" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="42" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>Waldgegend [1]</head>
+      <div>
+        <head>Waldgegend</head>
+        <sp who="#pedrillo">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="217" unit="words"/>
+          <amount n="28" unit="lines"/>
+          <amount n="1126" unit="chars"/>
+        </sp>
+        <sp who="#hassan">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="154" unit="words"/>
+          <amount n="20" unit="lines"/>
+          <amount n="779" unit="chars"/>
+        </sp>
+        <sp who="#aly">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="88" unit="words"/>
+          <amount n="13" unit="lines"/>
+          <amount n="498" unit="chars"/>
+        </sp>
+        <sp who="#don_enrique">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="18" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="90" unit="chars"/>
+        </sp>
+        <sp who="#don_diego">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="144" unit="words"/>
+          <amount n="21" unit="lines"/>
+          <amount n="830" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>Felsengegend</head>
+      <div>
+        <head>Felsengegend</head>
+        <sp who="#almansor">
+          <amount n="8" unit="speech_acts"/>
+          <amount n="582" unit="words"/>
+          <amount n="81" unit="lines"/>
+          <amount n="3226" unit="chars"/>
+        </sp>
+        <sp who="#zuleima">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="273" unit="words"/>
+          <amount n="38" unit="lines"/>
+          <amount n="1502" unit="chars"/>
+        </sp>
+        <sp who="#mehrere_ritter #ein_ritter_8">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="1" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="12" unit="chars"/>
+        </sp>
+        <sp who="#aly">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="51" unit="words"/>
+          <amount n="8" unit="lines"/>
+          <amount n="309" unit="chars"/>
+        </sp>
+        <sp who="#ein_ritter_8">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="13" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="72" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+  </text>
+</play>

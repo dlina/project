@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital">
+  <header>
+    <title>Kater Lampe</title>
+    <subtitle>Komödie in vier Akten</subtitle>
+    <genretitle>Komödie</genretitle>
+    <author>Rosenow, Emil</author>
+    <date type="print" when="1906">1906</date>
+    <date type="premiere" when="1902">1902</date>
+    <date type="written" when="1900">1900</date>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:tgw6.0/data</source>
+  </header>
+  <personae>
+    <character>
+      <name>FRAU ERMISCHER</name>
+      <alias xml:id="frau_ermischer">
+        <name>FRAU ERMISCHER</name>
+      </alias>
+    </character>
+    <character>
+      <name>MAARI</name>
+      <alias xml:id="maari">
+        <name>MAARI</name>
+      </alias>
+    </character>
+    <character>
+      <name>ERMISCHER</name>
+      <alias xml:id="ermischer">
+        <name>ERMISCHER</name>
+      </alias>
+    </character>
+    <character>
+      <name>ULBRICH</name>
+      <alias xml:id="ulbrich">
+        <name>ULBRICH</name>
+      </alias>
+    </character>
+    <character>
+      <name>SEIFERT</name>
+      <alias xml:id="seifert">
+        <name>SEIFERT</name>
+      </alias>
+    </character>
+    <character>
+      <name>WEIGEL</name>
+      <alias xml:id="weigel">
+        <name>WEIGEL</name>
+      </alias>
+      <alias xml:id="gendarm_weigel">
+        <name>GENDARM WEIGEL</name>
+      </alias>
+    </character>
+    <character>
+      <name>NEUBERT</name>
+      <alias xml:id="neubert">
+        <name>NEUBERT</name>
+      </alias>
+    </character>
+    <character>
+      <name>FRAU NEUBERT</name>
+      <alias xml:id="frau_neubert">
+        <name>FRAU NEUBERT</name>
+      </alias>
+    </character>
+    <character>
+      <name>NEUMERKEL</name>
+      <alias xml:id="neumerkel">
+        <name>NEUMERKEL</name>
+      </alias>
+    </character>
+    <character>
+      <name>FRÄNZEL</name>
+      <alias xml:id="fränzel">
+        <name>FRÄNZEL</name>
+      </alias>
+    </character>
+    <character>
+      <name>FRAU SCHÖNHERR</name>
+      <alias xml:id="frau_schönherr">
+        <name>FRAU SCHÖNHERR</name>
+      </alias>
+    </character>
+    <character>
+      <name>HEINERLE</name>
+      <alias xml:id="heinerle">
+        <name>HEINERLE</name>
+      </alias>
+    </character>
+    <character>
+      <name>GERTRUD</name>
+      <alias xml:id="gertrud">
+        <name>GERTRUD</name>
+      </alias>
+    </character>
+    <character>
+      <name>LIESEL</name>
+      <alias xml:id="liesel">
+        <name>LIESEL</name>
+      </alias>
+    </character>
+    <character>
+      <name>MEISTER SCHÖNHERR</name>
+      <alias xml:id="meister_schönherr">
+        <name>MEISTER SCHÖNHERR</name>
+      </alias>
+      <alias xml:id="schönherr">
+        <name>SCHÖNHERR</name>
+      </alias>
+    </character>
+    <character>
+      <name>FRAU ULBRICH</name>
+      <alias xml:id="frau_ulbrich">
+        <name>FRAU ULBRICH</name>
+      </alias>
+    </character>
+    <character>
+      <name>FRAU SEIFERT</name>
+      <alias xml:id="frau_seifert">
+        <name>FRAU SEIFERT</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE WALDARBEITER</name>
+      <alias xml:id="die_waldarbeiter">
+        <name>DIE WALDARBEITER</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE LEUTE</name>
+      <alias xml:id="die_leute">
+        <name>DIE LEUTE</name>
+      </alias>
+      <alias xml:id="zurufe">
+        <name>ZURUFE</name>
+      </alias>
+    </character>
+    <character>
+      <name>EIN BAUER</name>
+      <alias xml:id="ein_bauer">
+        <name>EIN BAUER</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE SCHNITZLER</name>
+      <alias xml:id="die_schnitzler">
+        <name>DIE SCHNITZLER</name>
+      </alias>
+    </character>
+    <character>
+      <name>VIELE STIMMEN</name>
+      <alias xml:id="viele_stimmen">
+        <name>VIELE STIMMEN</name>
+      </alias>
+      <alias xml:id="stimmen">
+        <name>STIMMEN</name>
+      </alias>
+    </character>
+    <character>
+      <name>DIE BAUERN</name>
+      <alias xml:id="die_bauern">
+        <name>DIE BAUERN</name>
+      </alias>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Emil Rosenow</head>
+    </div>
+    <div>
+      <head>Personen</head>
+      <div>
+        <head>noName</head>
+      </div>
+    </div>
+    <div>
+      <head>1. Akt</head>
+      <div>
+        <head>Erster Akt</head>
+        <sp who="#frau_ermischer">
+          <amount n="71" unit="speech_acts"/>
+          <amount n="1241" unit="words"/>
+          <amount n="43" unit="lines"/>
+          <amount n="6753" unit="chars"/>
+        </sp>
+        <sp who="#maari">
+          <amount n="16" unit="speech_acts"/>
+          <amount n="125" unit="words"/>
+          <amount n="11" unit="lines"/>
+          <amount n="698" unit="chars"/>
+        </sp>
+        <sp who="#frau_ermischer #frau_neubert">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="5" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="22" unit="chars"/>
+        </sp>
+        <sp who="#ermischer">
+          <amount n="104" unit="speech_acts"/>
+          <amount n="1379" unit="words"/>
+          <amount n="80" unit="lines"/>
+          <amount n="8115" unit="chars"/>
+        </sp>
+        <sp who="#frau_ermischer #maari">
+          <amount n="1" unit="speech_acts"/>
+        </sp>
+        <sp who="#ulbrich">
+          <amount n="19" unit="speech_acts"/>
+          <amount n="476" unit="words"/>
+          <amount n="6" unit="lines"/>
+          <amount n="2755" unit="chars"/>
+        </sp>
+        <sp who="#frau_ermischer #ermischer">
+          <amount n="6" unit="speech_acts"/>
+          <amount n="14" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="93" unit="chars"/>
+        </sp>
+        <sp who="#frau_ermischer #ermischer">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="7" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="40" unit="chars"/>
+        </sp>
+        <sp who="#seifert">
+          <amount n="28" unit="speech_acts"/>
+          <amount n="356" unit="words"/>
+          <amount n="13" unit="lines"/>
+          <amount n="2206" unit="chars"/>
+        </sp>
+        <sp who="#weigel">
+          <amount n="26" unit="speech_acts"/>
+          <amount n="571" unit="words"/>
+          <amount n="11" unit="lines"/>
+          <amount n="3304" unit="chars"/>
+        </sp>
+        <sp who="#neubert">
+          <amount n="33" unit="speech_acts"/>
+          <amount n="448" unit="words"/>
+          <amount n="21" unit="lines"/>
+          <amount n="2601" unit="chars"/>
+        </sp>
+        <sp who="#frau_neubert">
+          <amount n="16" unit="speech_acts"/>
+          <amount n="341" unit="words"/>
+          <amount n="8" unit="lines"/>
+          <amount n="1909" unit="chars"/>
+        </sp>
+        <sp who="#frau_ermischer #frau_neubert">
+          <amount n="1" unit="speech_acts"/>
+        </sp>
+        <sp who="#neubert #frau_neubert">
+          <amount n="2" unit="speech_acts"/>
+        </sp>
+        <sp who="#neumerkel">
+          <amount n="13" unit="speech_acts"/>
+          <amount n="292" unit="words"/>
+          <amount n="6" unit="lines"/>
+          <amount n="1719" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>2. Akt</head>
+      <div>
+        <head>Zweiter Akt</head>
+        <sp who="#gertrud #heinerle #fränzel #liesel">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="102" unit="words"/>
+          <amount n="16" unit="lines"/>
+          <amount n="496" unit="chars"/>
+        </sp>
+        <sp who="#fränzel">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="6" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="33" unit="chars"/>
+        </sp>
+        <sp who="#frau_schönherr">
+          <amount n="39" unit="speech_acts"/>
+          <amount n="603" unit="words"/>
+          <amount n="18" unit="lines"/>
+          <amount n="3271" unit="chars"/>
+        </sp>
+        <sp who="#heinerle">
+          <amount n="5" unit="speech_acts"/>
+          <amount n="88" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="446" unit="chars"/>
+        </sp>
+        <sp who="#gertrud">
+          <amount n="9" unit="speech_acts"/>
+          <amount n="67" unit="words"/>
+          <amount n="8" unit="lines"/>
+          <amount n="382" unit="chars"/>
+        </sp>
+        <sp who="#neumerkel">
+          <amount n="34" unit="speech_acts"/>
+          <amount n="539" unit="words"/>
+          <amount n="20" unit="lines"/>
+          <amount n="3062" unit="chars"/>
+        </sp>
+        <sp who="#frau_schönherr #frau_neubert #frau_ulbrich">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="3" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="13" unit="chars"/>
+        </sp>
+        <sp who="#ulbrich">
+          <amount n="14" unit="speech_acts"/>
+          <amount n="220" unit="words"/>
+          <amount n="9" unit="lines"/>
+          <amount n="1247" unit="chars"/>
+        </sp>
+        <sp who="#frau_seifert #seifert #frau_ulbrich #ulbrich #weigel #ermischer #neubert #frau_schönherr #schönherr">
+          <amount n="1" unit="speech_acts"/>
+        </sp>
+        <sp who="#meister_schönherr">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="19" unit="words"/>
+          <amount n="123" unit="chars"/>
+        </sp>
+        <sp who="#schönherr">
+          <amount n="40" unit="speech_acts"/>
+          <amount n="624" unit="words"/>
+          <amount n="26" unit="lines"/>
+          <amount n="3533" unit="chars"/>
+        </sp>
+        <sp who="#schönherr #ulbrich">
+          <amount n="1" unit="speech_acts"/>
+        </sp>
+        <sp who="#schönherr #frau_schönherr">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="18" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="89" unit="chars"/>
+        </sp>
+        <sp who="#neubert">
+          <amount n="18" unit="speech_acts"/>
+          <amount n="245" unit="words"/>
+          <amount n="12" unit="lines"/>
+          <amount n="1446" unit="chars"/>
+        </sp>
+        <sp who="#frau_neubert">
+          <amount n="8" unit="speech_acts"/>
+          <amount n="341" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="1934" unit="chars"/>
+        </sp>
+        <sp who="#schönherr #frau_schönherr #neumerkel">
+          <amount n="1" unit="speech_acts"/>
+        </sp>
+        <sp who="#frau_ulbrich">
+          <amount n="8" unit="speech_acts"/>
+          <amount n="116" unit="words"/>
+          <amount n="5" unit="lines"/>
+          <amount n="649" unit="chars"/>
+        </sp>
+        <sp who="#ermischer">
+          <amount n="19" unit="speech_acts"/>
+          <amount n="282" unit="words"/>
+          <amount n="14" unit="lines"/>
+          <amount n="1720" unit="chars"/>
+        </sp>
+        <sp who="#gendarm_weigel">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="3" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="16" unit="chars"/>
+        </sp>
+        <sp who="#weigel">
+          <amount n="18" unit="speech_acts"/>
+          <amount n="350" unit="words"/>
+          <amount n="12" unit="lines"/>
+          <amount n="1984" unit="chars"/>
+        </sp>
+        <sp who="#schönherr #frau_schönherr #neumerkel #gertrud #heinerle #fränzel #liesel">
+          <amount n="1" unit="speech_acts"/>
+        </sp>
+        <sp who="#seifert">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="34" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="217" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>3. Akt</head>
+      <div>
+        <head>Dritter Akt</head>
+        <sp who="#frau_seifert">
+          <amount n="125" unit="speech_acts"/>
+          <amount n="1859" unit="words"/>
+          <amount n="81" unit="lines"/>
+          <amount n="10033" unit="chars"/>
+        </sp>
+        <sp who="#ermischer">
+          <amount n="12" unit="speech_acts"/>
+          <amount n="203" unit="words"/>
+          <amount n="9" unit="lines"/>
+          <amount n="1162" unit="chars"/>
+        </sp>
+        <sp who="#seifert">
+          <amount n="79" unit="speech_acts"/>
+          <amount n="1062" unit="words"/>
+          <amount n="58" unit="lines"/>
+          <amount n="5953" unit="chars"/>
+        </sp>
+        <sp who="#frau_seifert #seifert">
+          <amount n="8" unit="speech_acts"/>
+          <amount n="70" unit="words"/>
+          <amount n="7" unit="lines"/>
+          <amount n="387" unit="chars"/>
+        </sp>
+        <sp who="#frau_schönherr">
+          <amount n="13" unit="speech_acts"/>
+          <amount n="249" unit="words"/>
+          <amount n="7" unit="lines"/>
+          <amount n="1337" unit="chars"/>
+        </sp>
+        <sp who="#neubert">
+          <amount n="14" unit="speech_acts"/>
+          <amount n="398" unit="words"/>
+          <amount n="6" unit="lines"/>
+          <amount n="2259" unit="chars"/>
+        </sp>
+        <sp who="#weigel">
+          <amount n="66" unit="speech_acts"/>
+          <amount n="1038" unit="words"/>
+          <amount n="42" unit="lines"/>
+          <amount n="6007" unit="chars"/>
+        </sp>
+        <sp who="#ulbrich">
+          <amount n="24" unit="speech_acts"/>
+          <amount n="368" unit="words"/>
+          <amount n="18" unit="lines"/>
+          <amount n="1887" unit="chars"/>
+        </sp>
+        <sp who="#frau_ulbrich">
+          <amount n="3" unit="speech_acts"/>
+          <amount n="27" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="176" unit="chars"/>
+        </sp>
+        <sp who="#frau_ulbrich #ulbrich">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="13" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="56" unit="chars"/>
+        </sp>
+        <sp who="#frau_ulbrich #ulbrich #weigel">
+          <amount n="2" unit="speech_acts"/>
+          <amount n="35" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="216" unit="chars"/>
+        </sp>
+        <sp who="#neumerkel">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="101" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="613" unit="chars"/>
+        </sp>
+        <sp who="#frau_seifert #seifert #frau_ulbrich #ulbrich #weigel #ermischer #neubert #frau_schönherr">
+          <amount n="1" unit="speech_acts"/>
+        </sp>
+        <sp who="#frau_seifert #seifert #frau_ulbrich #ulbrich #weigel #ermischer #neubert #frau_schönherr">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="2" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="13" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>4. Akt</head>
+      <div>
+        <head>noName</head>
+        <div>
+          <head>Vierter Akt</head>
+          <sp who="#schönherr">
+            <amount n="29" unit="speech_acts"/>
+            <amount n="476" unit="words"/>
+            <amount n="17" unit="lines"/>
+            <amount n="2736" unit="chars"/>
+          </sp>
+          <sp who="#frau_ulbrich">
+            <amount n="6" unit="speech_acts"/>
+            <amount n="81" unit="words"/>
+            <amount n="4" unit="lines"/>
+            <amount n="418" unit="chars"/>
+          </sp>
+          <sp who="#frau_ulbrich #die_waldarbeiter">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="14" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="68" unit="chars"/>
+          </sp>
+          <sp who="#ulbrich">
+            <amount n="24" unit="speech_acts"/>
+            <amount n="255" unit="words"/>
+            <amount n="18" unit="lines"/>
+            <amount n="1466" unit="chars"/>
+          </sp>
+          <sp who="#schönherr #ermischer #die_waldarbeiter #seifert #neubert">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="8" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="39" unit="chars"/>
+          </sp>
+          <sp who="#ermischer">
+            <amount n="40" unit="speech_acts"/>
+            <amount n="468" unit="words"/>
+            <amount n="27" unit="lines"/>
+            <amount n="2826" unit="chars"/>
+          </sp>
+          <sp who="#die_leute">
+            <amount n="2" unit="speech_acts"/>
+            <amount n="6" unit="words"/>
+            <amount n="2" unit="lines"/>
+            <amount n="28" unit="chars"/>
+          </sp>
+          <sp who="#seifert">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="103" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="547" unit="chars"/>
+          </sp>
+          <sp who="#ein_bauer">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="16" unit="words"/>
+            <amount n="114" unit="chars"/>
+          </sp>
+          <sp who="#neubert">
+            <amount n="30" unit="speech_acts"/>
+            <amount n="592" unit="words"/>
+            <amount n="13" unit="lines"/>
+            <amount n="3552" unit="chars"/>
+          </sp>
+          <sp who="#die_schnitzler">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="17" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="87" unit="chars"/>
+          </sp>
+          <sp who="#zurufe">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="4" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="29" unit="chars"/>
+          </sp>
+          <sp who="#weigel">
+            <amount n="33" unit="speech_acts"/>
+            <amount n="582" unit="words"/>
+            <amount n="16" unit="lines"/>
+            <amount n="3529" unit="chars"/>
+          </sp>
+          <sp who="#viele_stimmen">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="4" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="27" unit="chars"/>
+          </sp>
+          <sp who="#neumerkel">
+            <amount n="16" unit="speech_acts"/>
+            <amount n="239" unit="words"/>
+            <amount n="10" unit="lines"/>
+            <amount n="1330" unit="chars"/>
+          </sp>
+          <sp who="#die_waldarbeiter #die_bauern #ein_bauer">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="18" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="97" unit="chars"/>
+          </sp>
+          <sp who="#ermischer">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="23" unit="words"/>
+            <amount n="122" unit="chars"/>
+          </sp>
+          <sp who="#die_bauern #ein_bauer">
+            <amount n="4" unit="speech_acts"/>
+            <amount n="67" unit="words"/>
+            <amount n="3" unit="lines"/>
+            <amount n="362" unit="chars"/>
+          </sp>
+          <sp who="#die_waldarbeiter #die_schnitzler">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="18" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="83" unit="chars"/>
+          </sp>
+          <sp who="#frau_seifert #seifert">
+            <amount n="1" unit="speech_acts"/>
+          </sp>
+          <sp who="#stimmen">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="21" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="97" unit="chars"/>
+          </sp>
+          <sp who="#frau_seifert">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="12" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="62" unit="chars"/>
+          </sp>
+          <sp who="#frau_seifert">
+            <amount n="8" unit="speech_acts"/>
+            <amount n="151" unit="words"/>
+            <amount n="5" unit="lines"/>
+            <amount n="857" unit="chars"/>
+          </sp>
+          <sp who="#frau_seifert #seifert #frau_ulbrich #ulbrich #weigel #ermischer #neubert #frau_schönherr #schönherr #die_waldarbeiter #die_schnitzler #die_bauern #ein_bauer #neumerkel">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="1" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="5" unit="chars"/>
+          </sp>
+          <sp who="#frau_ulbrich #ulbrich">
+            <amount n="1" unit="speech_acts"/>
+            <amount n="13" unit="words"/>
+            <amount n="1" unit="lines"/>
+            <amount n="91" unit="chars"/>
+          </sp>
+        </div>
+      </div>
+    </div>
+  </text>
+</play>

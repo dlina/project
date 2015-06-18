@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="http://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital">
+  <header>
+    <title>Das dumme Luder</title>
+    <subtitle>Ein Jupiter-Drama</subtitle>
+    <genretitle></genretitle>
+    <author>Scheerbart, Paul</author>
+    <date type="print" when="1904">1904</date>
+    <date type="premiere"></date>
+    <date type="written"></date>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:tvgp.0/data</source>
+  </header>
+  <personae>
+    <character>
+      <name>MOSSINO</name>
+      <alias xml:id="mossino">
+        <name>MOSSINO</name>
+      </alias>
+    </character>
+    <character>
+      <name>MARIKANNO</name>
+      <alias xml:id="marikanno">
+        <name>MARIKANNO</name>
+      </alias>
+    </character>
+    <character>
+      <name>PASSECK</name>
+      <alias xml:id="passeck">
+        <name>PASSECK</name>
+      </alias>
+    </character>
+    <character>
+      <name>KEFINSKA</name>
+      <alias xml:id="kefinska">
+        <name>KEFINSKA</name>
+      </alias>
+    </character>
+    <character>
+      <name>LISSAMÁTSCH</name>
+      <alias xml:id="lissamátsch">
+        <name>LISSAMÁTSCH</name>
+      </alias>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Personen</head>
+    </div>
+    <div>
+      <head>[Stücktext]</head>
+      <div>
+        <head>[Stücktext]</head>
+        <sp who="#mossino">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="103" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="592" unit="chars"/>
+        </sp>
+        <sp who="#marikanno">
+          <amount n="10" unit="speech_acts"/>
+          <amount n="73" unit="words"/>
+          <amount n="10" unit="lines"/>
+          <amount n="384" unit="chars"/>
+        </sp>
+        <sp who="#passeck">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="54" unit="words"/>
+          <amount n="6" unit="lines"/>
+          <amount n="328" unit="chars"/>
+        </sp>
+        <sp who="#kefinska">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="122" unit="words"/>
+          <amount n="4" unit="lines"/>
+          <amount n="637" unit="chars"/>
+        </sp>
+        <sp who="#lissamátsch">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="49" unit="words"/>
+          <amount n="310" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+  </text>
+</play>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital">
+  <header>
+    <title>Der tapfere Cassian</title>
+    <subtitle>Puppenspiel in einem Akt</subtitle>
+    <genretitle></genretitle>
+    <author>Schnitzler, Arthur</author>
+  	<date when="1902" type="written" />
+  	<date when="1906" type="print" />
+  	<date when="1904" type="premiere"></date>
+  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:v3qp.0/data</source>
+  </header>
+  <personae>
+    <character>
+      <name>MARTIN</name>
+      <alias xml:id="martin">
+        <name>MARTIN</name>
+      </alias>
+    </character>
+    <character>
+      <name>SOPHIE</name>
+      <alias xml:id="sophie">
+        <name>SOPHIE</name>
+      </alias>
+    </character>
+    <character>
+      <name>CASSIAN</name>
+      <alias xml:id="cassian">
+        <name>CASSIAN</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER DIENER</name>
+      <alias xml:id="der_diener">
+        <name>DER DIENER</name>
+      </alias>
+    	<alias xml:id="diener">
+    		<name>DIENER</name>
+    	</alias>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>II. Der tapfere Cassian</head>
+    </div>
+    <div>
+      <head>Personen</head>
+    </div>
+    <div>
+      <head>[Stücktext]</head>
+      <div>
+        <head>[Stücktext]</head>
+        <sp who="#martin">
+          <amount n="127" unit="speech_acts"/>
+          <amount n="1922" unit="words"/>
+          <amount n="95" unit="lines"/>
+          <amount n="10564" unit="chars"/>
+        </sp>
+        <sp who="#sophie">
+          <amount n="72" unit="speech_acts"/>
+          <amount n="937" unit="words"/>
+          <amount n="58" unit="lines"/>
+          <amount n="5167" unit="chars"/>
+        </sp>
+        <sp who="#cassian">
+          <amount n="82" unit="speech_acts"/>
+          <amount n="1600" unit="words"/>
+          <amount n="56" unit="lines"/>
+          <amount n="8945" unit="chars"/>
+        </sp>
+        <sp who="#der_diener">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="6" unit="words"/>
+          <amount n="1" unit="lines"/>
+          <amount n="28" unit="chars"/>
+        </sp>
+        <sp who="#diener">
+          <amount n="4" unit="speech_acts"/>
+          <amount n="37" unit="words"/>
+          <amount n="3" unit="lines"/>
+          <amount n="242" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+  </text>
+</play>
