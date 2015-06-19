@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+  <head>
+    <title>Dramen</title>
+    <title>Leisewitz, Johann Anton</title>
+    <title>Der Besuch um Mitternacht</title>
+    <author>Leisewitz, Johann Anton</author>
+    <source>file:///C:/Users/Dario/bwSyncAndShare/Projekte/Dramenanalyse/in/deu/1774%20Der_Besuch_um_Mitternacht.xml</source>
+  </head>
+  <personae>
+    <character>
+      <name>DER FÜRST</name>
+      <alias xml:id="der_fürst">
+        <name>DER FÜRST</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER KAMMERHERR</name>
+      <alias xml:id="der_kammerherr">
+        <name>DER KAMMERHERR</name>
+      </alias>
+    </character>
+    <character>
+      <name>DER GEIST</name>
+      <alias xml:id="der_geist">
+        <name>DER GEIST</name>
+      </alias>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Johann Anton Leisewitz</head>
+      <sp who="#der_fürst">
+        <amount n="6" unit="speech_acts"/>
+        <amount n="141" unit="words"/>
+        <amount n="3" unit="lines"/>
+        <amount n="844" unit="chars"/>
+      </sp>
+      <sp who="#der_kammerherr">
+        <amount n="4" unit="speech_acts"/>
+        <amount n="69" unit="words"/>
+        <amount n="2" unit="lines"/>
+        <amount n="376" unit="chars"/>
+      </sp>
+      <sp who="#der_geist">
+        <amount n="3" unit="speech_acts"/>
+        <amount n="222" unit="words"/>
+        <amount n="1250" unit="chars"/>
+      </sp>
+    </div>
+  </text>
+</play>

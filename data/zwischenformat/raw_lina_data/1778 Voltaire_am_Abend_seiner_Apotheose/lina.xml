@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+  <head>
+    <title>Dramen</title>
+    <title>Wagner, Heinrich Leopold</title>
+    <title>Voltaire am Abend seiner Apotheose</title>
+    <author>Wagner, Heinrich Leopold</author>
+    <source>file:///C:/Users/Dario/bwSyncAndShare/Projekte/Dramenanalyse/in/deu/1778%20Voltaire_am_Abend_seiner_Apotheose.xml</source>
+  </head>
+  <personae>
+    <character>
+      <name>VOLTAIRE</name>
+      <alias xml:id="voltaire">
+        <name>VOLTAIRE</name>
+      </alias>
+    </character>
+    <character>
+      <name>AMME</name>
+      <alias xml:id="amme">
+        <name>AMME</name>
+      </alias>
+    </character>
+    <character>
+      <name>GESPENST</name>
+      <alias xml:id="gespenst">
+        <name>GESPENST</name>
+      </alias>
+    </character>
+  </personae>
+  <text>
+    <div>
+      <head>Heinrich Leopold Wagner</head>
+    </div>
+    <div>
+      <head>[Vorrede]</head>
+      <div>
+        <head>[Vorrede]</head>
+      </div>
+    </div>
+    <div>
+      <head>[Stücktext]</head>
+      <div>
+        <head>[Stücktext]</head>
+        <sp who="#voltaire">
+          <amount n="29" unit="speech_acts"/>
+          <amount n="2419" unit="words"/>
+          <amount n="15" unit="lines"/>
+          <amount n="13422" unit="chars"/>
+        </sp>
+        <sp who="#amme">
+          <amount n="17" unit="speech_acts"/>
+          <amount n="2167" unit="words"/>
+          <amount n="5" unit="lines"/>
+          <amount n="11808" unit="chars"/>
+        </sp>
+        <sp who="#gespenst">
+          <amount n="11" unit="speech_acts"/>
+          <amount n="100" unit="words"/>
+          <amount n="10" unit="lines"/>
+          <amount n="552" unit="chars"/>
+        </sp>
+      </div>
+    </div>
+    <div>
+      <head>Nachschrift</head>
+      <div>
+        <head>Nachschrift</head>
+      </div>
+    </div>
+  </text>
+</play>
