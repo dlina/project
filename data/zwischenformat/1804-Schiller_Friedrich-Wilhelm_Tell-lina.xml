@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
 <play xmlns="http://lina.digital">
   <header>
     <title>Wilhelm Tell</title>
     <subtitle>Schauspiel</subtitle>
     <genretitle>Schauspiel</genretitle>
     <author>Schiller, Friedrich</author>
-    <date type="print">1804</date>
-    <date type="premiere">1804</date>
-    <date type="written">1802–1804</date>
+    <date type="print" when="1804"/>
+    <date type="premiere" when="1804"/>
+    <date type="written" when="1804">1802–1804</lina:date>
     <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:tz0c.0/data</source>
   </header>
   <personae>

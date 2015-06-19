@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
 <play xmlns="http://lina.digital">
   <header>
     <title>Das Loch oder Das Wiedergefundene Paradies</title>
     <subtitle>Ein Schattenspiel</subtitle>
     <genretitle>Schattenspiel</genretitle>
     <author>Arnim, Ludwig Achim von</author>
-    <date type="print">1813</date>
-    <date type="premiere">1811</date>
-    <date type="written">wahrscheinlich im Winter 1811</date>
+    <date type="print" when="1813"/>
+    <date type="premiere" when="1811"/>
+    <date type="written" when="1811">wahrscheinlich im Winter 1811</lina:date>
     <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:k7f7.0/data</source>
   </header>
   <personae>
@@ -657,7 +656,7 @@
       <path>/play/text[1]/div[4]/div[5]/div[1]</path>
       <orig>#matrosen </orig>
       <corr>#matrosen #matrose</corr>
-      <comment></comment>
+      <comment/>
     </change>
   </documentation>
 </play>

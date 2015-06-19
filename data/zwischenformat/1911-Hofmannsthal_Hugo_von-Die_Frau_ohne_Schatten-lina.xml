@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
 <play xmlns="http://lina.digital">
   <header>
     <title>Die Frau ohne Schatten</title>
@@ -603,13 +602,13 @@
       <path>/play/text[1]/div[4]/div[1]</path>
       <orig>#die_ungeborenen</orig>
       <corr>#die_ungeborenen #einzelne #andere #einige</corr>
-      <comment></comment>
+      <comment/>
     </change>
     <change n="2" type="expandCollectivePartially" who="peertrilcke">
       <path>/play/text[1]/div[4]/div[1]</path>
       <orig>#die_stimmen_der_ungeborenen</orig>
       <corr>#die_stimmen_der_ungeborenen #einzelne #andere #einige</corr>
-      <comment></comment>
+      <comment/>
     </change>
   </documentation>
 </play>

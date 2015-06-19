@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
 <play xmlns="http://lina.digital">
   <header>
     <title>Die Indianer in England</title>
     <subtitle>Lustspiel in drei Aufzügen</subtitle>
     <genretitle>Lustspiel</genretitle>
     <author>Kotzebue, August von</author>
-    <date type="print">1790</date>
-    <date type="premiere">1789</date>
-    <date type="written">im November 1788</date>
+    <date type="print" when="1790"/>
+    <date type="premiere" when="1789"/>
+    <date type="written" when="1788">im November 1788</lina:date>
     <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:r2mn.0/data</source>
   </header>
   <personae>

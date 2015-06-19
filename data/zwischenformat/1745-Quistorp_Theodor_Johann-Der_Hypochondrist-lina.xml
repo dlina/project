@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
 <play xmlns="http://lina.digital">
   <header>
     <title>Der Hypochondrist</title>
@@ -8,8 +7,8 @@
     <genretitle>Lustspiel</genretitle>
     <author>Quistorp, Theodor Johann</author>
     <date type="print" when="1745">1745</date>
-    <date type="premiere"></date>
-    <date type="written"></date>
+    <date type="premiere"/>
+    <date type="written"/>
     <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:t907.0/data</source>
   </header>
   <personae>
@@ -794,7 +793,7 @@
 <documentation>
   <change n="1" type="other" who="peertrilcke">
     <path>/play/personae[1]</path>
-    <orig></orig>
+    <orig/>
     <corr>#</corr>
     <comment>zwei Dr. angelegt: DR. MUSKAT und DR. KREBSSTEIN</comment>
   </change>
@@ -802,25 +801,25 @@
     <path>/play/text[1]/div[3]/div[1]/div[1]</path>
     <orig>dr</orig>
     <corr>dr_muskat</corr>
-    <comment></comment>
+    <comment/>
   </change>
   <change n="3" type="other" who="peertrilcke">
     <path>/play/text[1]/div[4]/div[6]/div[1]</path>
     <orig>dr</orig>
     <corr>dr_krebsstein</corr>
-    <comment></comment>
+    <comment/>
   </change>
   <change n="4" type="other" who="peertrilcke">
     <path>/play/text[1]/div[5]/div[4]/div[1]</path>
     <orig>dr</orig>
     <corr>dr_muskat</corr>
-    <comment></comment>
+    <comment/>
   </change>
   <change n="5" type="other" who="peertrilcke">
     <path>/play/text[1]/div[5]/div[5]/div[1]</path>
     <orig>dr</orig>
     <corr>dr_muskat</corr>
-    <comment></comment>
+    <comment/>
   </change>
 </documentation>
 </play>

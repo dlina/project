@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
 <play xmlns="http://lina.digital">
   <header>
     <title>Amphitryon</title>
     <subtitle>Ein Lustspiel nach Molière</subtitle>
     <genretitle>Lustspiel</genretitle>
     <author>Kleist, Heinrich von</author>
-    <date type="print">1807</date>
-    <date type="premiere">1899</date>
-    <date type="written">wohl 1806</date>
+    <date type="print" when="1807"/>
+    <date type="premiere" when="1899"/>
+    <date type="written" when="1806">wohl 1806</lina:date>
     <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:r0jz.0/data</source>
   </header>
   <personae>
@@ -657,13 +656,13 @@
     <path>/play/text[1]/div[4]/div[10]/div[1]</path>
     <orig>#das_volk</orig>
     <corr>#das_volk #einer_aus_dem_volk</corr>
-    <comment></comment>
+    <comment/>
   </change>
   <change n="2" type="expandCollectivePartially" who="peertrilcke">
       <path>/play/text[1]/div[4]/div[10]/div[1]</path>
       <orig>#volk</orig>
       <corr>#volk #einer_aus_dem_volk</corr>
-      <comment></comment>
+      <comment/>
   </change>
   </documentation>
 </play>

@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
 <play xmlns="http://lina.digital">
   <header>
     <title>Medusa</title>
     <subtitle>Aus den Papieren eines Mönches</subtitle>
-    <genretitle></genretitle>
+    <genretitle/>
     <author>Lautensack, Heinrich</author>
-  	<date when="1904" type="print" />
+  	<date when="1904" type="print"/>
   	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:rfmj.0/data</source>
   </header>
   <personae>
@@ -91,7 +90,7 @@
     <div>
       <head>Vorspiel</head>
     	<sp who="#mädchen">
-    		<amount n="3" unit="speech_acts" />
+    		<amount n="3" unit="speech_acts"/>
     		<amount n="61" unit="lines"/>
     	</sp>
     	<sp who="#einer">
@@ -184,8 +183,8 @@
   </text>
 	<documentation>
 	  <change n="1" who="dariokampkaspar">
-	  <path></path>
-	    <orig></orig>
+	  <path/>
+	    <orig/>
 			<comment>Figuren aus dem Vorspiel eingefügt.</comment>
 	    </change>
 	</documentation>

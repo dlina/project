@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
 <play xmlns="http://lina.digital">
   <header>
     <title>Fritz Schwigerling oder Der Liebestrank</title>
     <subtitle>Schwank in drei Aufzügen</subtitle>
     <genretitle>Schwank</genretitle>
     <author>Wedekind, Frank</author>
-    <date when="1899" type="print" />
-    <date when="1900" type="premiere" />
+    <date when="1899" type="print"/>
+    <date when="1900" type="premiere"/>
   	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:x3bs.0/data</source>
   </header>
   <personae>
@@ -692,7 +691,7 @@
             <amount n="12" unit="chars"/>
           </sp>
           <sp who="#mitja #kolja">
-            <amount n="3" unit="speech_acts" />
+            <amount n="3" unit="speech_acts"/>
             <amount n="8" unit="words"/>
           </sp>
         </div>
@@ -884,8 +883,8 @@
   </text>
   <documentation>
     <change n="1" who="dariokampkaspar">
-      <path />
-      <orig />
+      <path/>
+      <orig/>
       <corr>character »Mitja« hinzugefügt, amounts in III,8 gezählt.</corr>
       <comment>In der Vorlage waren die Äußerungen von MItja nicht getaggt.</comment>
     </change>

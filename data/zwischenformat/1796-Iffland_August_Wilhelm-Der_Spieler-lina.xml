@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
 <play xmlns="http://lina.digital">
   <header>
     <title>Der Spieler</title>
     <subtitle>Ein Schauspiel in fünf Aufzügen</subtitle>
     <genretitle>Schauspiel</genretitle>
     <author>Iffland, August Wilhelm</author>
-    <date type="print">1796</date>
-    <date type="premiere">1796</date>
-    <date type="written"></date>
+    <date type="print" when="1796"/>
+    <date type="premiere" when="1796"/>
+    <date type="written"/>
     <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:qkn4.0/data</source>
   </header>
   <personae>
@@ -1701,7 +1700,7 @@
       <path>/play/text[1]/div[6]/div[18]/div[1]</path>
       <orig>#bediente</orig>
       <corr>#bediente #bedienter</corr>
-      <comment></comment>
+      <comment/>
     </change>
   </documentation>
 </play>

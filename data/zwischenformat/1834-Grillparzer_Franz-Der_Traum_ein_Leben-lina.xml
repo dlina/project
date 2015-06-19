@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
 <play xmlns="http://lina.digital">
   <header>
     <title>Der Traum ein Leben</title>
     <subtitle>Dramatisches Märchen in vier Aufzügen</subtitle>
-    <genretitle></genretitle>
+    <genretitle/>
     <author>Grillparzer, Franz</author>
-    <date type="print">1840</date>
-    <date type="premiere">1834</date>
-    <date type="written">zwischen 1817 und 1830</date>
+    <date type="print" when="1840"/>
+    <date type="premiere" when="1834"/>
+    <date type="written" when="1830">zwischen 1817 und 1830</lina:date>
     <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:nns8.0/data</source>
   </header>
   <personae>

@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
 <play xmlns="http://lina.digital">
   <header>
     <title>Penthesilea</title>
     <subtitle>Ein Lustspiel nach Molière</subtitle>
     <genretitle>Lustspiel</genretitle>
     <author>Kleist, Heinrich von</author>
-    <date type="print">1808</date>
-    <date type="premiere">1876</date>
+    <date type="print" when="1808"/>
+    <date type="premiere" when="1876"/>
     <date type="written" when="1807">1806/07</date>
     <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:r0n2.0/data</source>
   </header>

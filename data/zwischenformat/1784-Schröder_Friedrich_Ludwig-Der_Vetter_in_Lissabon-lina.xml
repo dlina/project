@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
 <play xmlns="http://lina.digital">
   <header>
     <title>Der Vetter in Lissabon</title>
     <subtitle>Ein bürgerliches Familiengemälde in drei Aufzügen</subtitle>
     <genretitle>Bürgerliches Familiengemälde</genretitle>
     <author>Schröder, Friedrich Ludwig</author>
-    <date type="print">1786</date>
-    <date type="premiere">1784</date>
-    <date type="written"></date>
+    <date type="print" when="1786"/>
+    <date type="premiere" when="1784"/>
+    <date type="written"/>
     <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:vhgn.0/data</source>
   </header>
   <personae>
@@ -1180,9 +1179,9 @@
   </text>
   <documentation>
     <change n="1" type="other" who="peertrilcke">
-      <path></path>
-      <orig></orig>
-      <corr></corr>
+      <path/>
+      <orig/>
+      <corr/>
       <comment>fehlerhaftes TEI, speaker-tag in TextGrid-xml /teiCorpus/TEI[1]/text[1]/body[1]/div[4]/div[24]/div[2]/div[1]/sp[26]</comment>
     </change>
   </documentation>
