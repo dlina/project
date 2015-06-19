@@ -1,4 +1,4 @@
-Visualizations of the data from this folder is accesible via https://dlina.github.io/[ID FROM THIS LIST]
+Visualizations of the data from this folder is accessible via https://dlina.github.io/[ID FROM THIS LIST]
 
 [1   Goethe, Johann Wolfgang von: Iphigenie auf Tauris (1787)](https://dlina.github.io/1/)
 
