@@ -10,7 +10,7 @@ start =
       element author { 
         attribute key { text }?,
         text
-      },
+      }+,
       element date {
       	attribute when { xsd:int }?,
       	attribute type { "print" | "premiere" | "written" }?,
