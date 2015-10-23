@@ -1,0 +1,138 @@
+xquery version "3.0";
+import module namespace functx="http://www.functx.com" at "/db/system/repo/functx-1.0/functx/functx.xql";
+
+declare namespace tei = "http://www.tei-c.org/ns/1.0"; 
+declare namespace gndo="http://d-nb.info/standards/elementset/gnd#"; 
+declare namespace rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"; 
+declare namespace geo="http://www.opengis.net/ont/geosparql#";  
+declare namespace lina = "http://lina.digital"; 
+declare namespace foaf="http://xmlns.com/foaf/0.1/";
+declare namespace xhtml="http://www.w3.org/1999/xhtml";
+
+declare option exist:serialize  "method=xhtml media-type=application/vnd.google-earth.kml+xml highlight-matches=none";
+
+declare function local:nan($i) { if (string($i) = 'NaN') then 0 else $i};
+(: 
+	Generates a KML file containing coordinates of place of birth/death.
+	Use the get parameters to switch between datasets and birth/beath:
+	http://eXistdb/lina.kml?dataset=wiki&type=0 gives the date of birth and the place
+	http://eXistdb/lina.kml?dataset=wiki&type=1 gives the date of death and the place
+
+	asuming your LINA files (or TEI files provding a @key with PND identifiers) are in the following collection
+:)
+
+let $coll := '/db/data/lina-xml/'
+let $gndURL := 'http://d-nb.info/gnd/'
+let $pnds :=
+    (
+    for $i in distinct-values(collection($coll)//lina:author/@key)
+    let $pnd := doc($gndURL|| substring-after($i, 'pnd:') ||'/about/lds')
+        return $pnd)
+
+let $switch := request:get-parameter('dataset', '')
+let $deathborn := if (request:get-parameter('type', '0') = '0') then 'birth' else 'death'
+
+(: create a nodeset for each item :)
+let $input :=
+<root>{
+    for $i at $pos in (1 to count($pnds))
+    let $wiki:= replace($pnds[$pos]//foaf:page/string(@*), 'http:', 'https:')
+    let $wiki:= if ((string($wiki) = '') or ($pos = 124)) then (httpclient:get(xs:anyURI('http://d-nb.info/gnd/'||$pnds[$pos]//gndo:gndIdentifier), false(), ())//xhtml:a[contains(@href, 'wikipedia')])[last()]/@href  else $wiki
+
+    let $wikiUrl:= replace( (httpclient:get( xs:anyURI($wiki), false(), ())//li[@id="t-wikibase"]/string(a/@href))[last()] , '//', 'https://')
+
+    let $wikidata := httpclient:get(xs:anyURI($wikiUrl), false(), <headers/>)
+
+
+    let $missingBirth := if (string($wikiUrl) != '') then (httpclient:get(xs:anyURI($wikiUrl), false(), <headers/>)//div[@id="P19"]//div[@class="wikibase-snakview-value-container"])[1] else ()
+    let $birthplace:= 'https://www.wikidata.org' || $missingBirth//a/string(@href)
+    let $wikidataBirthPlace :=  if (string($wikiUrl) != '') then httpclient:get(xs:anyURI($birthplace), false(), <headers/>) else ()
+
+    let $missingDeath :=  if (string($wikiUrl) != '') then (httpclient:get(xs:anyURI($wikiUrl), false(), <headers/>)//div[@id="P20"]//div[@class="wikibase-snakview-value-container"])[1] else ()
+    let $deathplace:= 'https://www.wikidata.org' || $missingDeath//a/string(@href)
+    let $wikidataDeathPlace :=  if (string($wikiUrl) != '') then httpclient:get(xs:anyURI($deathplace), false(), <headers/>) else()
+    
+    return
+    <item pnd="{$pnds[$pos]//gndo:gndIdentifier}" n="{$pos}">
+        {
+            ($pnds[$pos]//gndo:preferredNameForThePerson/string())[1],
+            if($pnds[$pos]//gndo:placeOfBirth//string()) then <birth type="gnd:placeOfBirth" name="{replace($pnds[$pos]//gndo:placeOfBirth//string(), '&#xA;|&#x9;', '')}" date="{$pnds[$pos]//gndo:dateOfBirth/string()}"></birth> else(),
+            if($pnds[$pos]//gndo:placeOfBirthAsLiteral//string()) then <birth type="gnd:placeOfBirthAsLiteral" name="{replace($pnds[$pos]//gndo:placeOfBirthAsLiteral//string(), '&#xA;|&#x9;', '')}" date="{$pnds[$pos]//gndo:dateOfBirth/string()}"></birth> else (),
+            
+            <birth type="wikidata" name="{$wikidataBirthPlace//span[@class = 'wikibase-title-label']/string()}" 
+            date="{($wikidata//div[@id="P569"]//div[@class="wikibase-snakview-value wikibase-snakview-variation-valuesnak"]/text())[1]}">
+            <geo> {
+                let $wikiUrl:= replace(doc(replace($pnds[$pos]//foaf:page/string(@*), 'http:', 'https:'))//li[@id="t-wikibase"]/string(a/@href), '//', 'https://')
+
+                let $coordinates := ($wikidataBirthPlace//div[@id="P625"]//div[@class="wikibase-snakview-value wikibase-snakview-variation-valuesnak"])[1]
+                let $n := tokenize($coordinates, ', ')[1]
+                let $e := tokenize($coordinates, ', ')[2]
+
+                return
+                    (attribute source {$birthplace},
+                    (
+                        local:nan( number(substring-before($n, 'Â°'))) )  +
+                        local:nan( number(substring-after(substring-before($n, "'"), 'Â°')) ) div 60 +
+                        local:nan( number(substring-after(substring-before($n, '"N'), "'")) ) div 3600
+                        ||
+                        ', ' || 
+                        local:nan( number(substring-before($e, 'Â°'))  +
+                        local:nan( number(substring-after(substring-before($e, "'"), 'Â°')) ) div 60 +
+                        local:nan( number(substring-after(substring-before($e, '"E'), "'")) ) div 3600
+                     )
+                      )  }
+            </geo>
+            </birth>,
+            
+            if($pnds[$pos]//gndo:placeOfDeath//string()) then <death type="gnd:placeOfDeath" name="{replace($pnds[$pos]//gndo:placeOfDeath//string(), '&#xA;|&#x9;', '') }" date="{$pnds[$pos]//gndo:dateOfDeath/string()}"></death> else(),
+            if($pnds[$pos]//gndo:placeOfDeathAsLiteral//string()) then <death type="gnd:placeOfDeathAsLiteral" name="{replace($pnds[$pos]//gndo:placeOfDeathAsLiteral//string(), '&#xA;|&#x9;', '')}" date="{$pnds[$pos]//gndo:dateOfDeath/string()}"></death> else (),
+            
+            <death type="wikidata" name="{$wikidataDeathPlace//span[@class = 'wikibase-title-label']/string()}"  
+            date="{($wikidata//div[@id="P570"]//div[@class="wikibase-snakview-value wikibase-snakview-variation-valuesnak"]/text())[1]}">
+            <geo> {
+                
+                let $coordinates := ($wikidataDeathPlace//div[@id="P625"]//div[@class="wikibase-snakview-value wikibase-snakview-variation-valuesnak"])[1]
+                let $n := tokenize($coordinates, ', ')[1]
+                let $e := tokenize($coordinates, ', ')[2]
+
+                return
+                    (attribute source {$birthplace},
+                    (
+                        local:nan( number(substring-before($n, 'Â°'))) )  +
+                        local:nan( number(substring-after(substring-before($n, "'"), 'Â°')) ) div 60 +
+                        local:nan( number(substring-after(substring-before($n, '"N'), "'")) ) div 3600
+                        ||
+                        ', ' || 
+                        local:nan( number(substring-before($e, 'Â°'))  +
+                        local:nan( number(substring-after(substring-before($e, "'"), 'Â°')) ) div 60 +
+                        local:nan( number(substring-after(substring-before($e, '"E'), "'")) ) div 3600
+                     )
+                      )  }
+            </geo>
+            </death>
+        }
+    </item>
+    }
+</root>
+
+return 
+
+if ($switch='') then 'No dataset specified.' else
+<kml>
+    {
+    for $item in $input//item
+    let $coordinates := tokenize($item/*[local-name() = $deathborn][starts-with(@type, $switch)][1]/geo/string(), ', ')
+    return
+        <Placemark>
+        <address>{$item/*[local-name() = $deathborn][starts-with(@type, $switch)][1]/string(@name)}</address>
+        <description>{$item/text()}; {$item//*[local-name() = $deathborn][starts-with(@type, $switch)][1]/string(@date)}</description>
+        <name>{$item/text()}</name>
+        <Point>
+            <coordinates>{$coordinates[2]}, {$coordinates[1]}</coordinates>
+        </Point>
+        <TimeStamp>
+            <when>{functx:get-matches($item//*[local-name() = $deathborn][starts-with(@type, $switch)][1]/string(@date), '\d{4}')}</when>
+        </TimeStamp>
+    </Placemark>
+        }
+</kml>
