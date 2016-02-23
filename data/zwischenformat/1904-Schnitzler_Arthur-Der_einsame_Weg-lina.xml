@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?><play xmlns="http://lina.digital">
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital" id="17">
   <header>
     <title>Der einsame Weg</title>
     <subtitle>Schauspiel in fünf Akten</subtitle>
     <genretitle>Schauspiel</genretitle>
     <author key="pnd:118609807">Schnitzler, Arthur</author>
     <date when="1903" type="written"/>
-  	<date when="1904" type="premiere"/>
-  	<date when="1904" type="print"/>
-  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:v3sh.0/data</source>
+    <date when="1904" type="premiere"/>
+    <date when="1904" type="print"/>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:v3sh.0/data</source>
   </header>
   <personae>
     <character>
@@ -53,12 +55,12 @@
         <name>DIENER bei Fichtner</name>
       </alias>
     </character>
-  	<character>
-  		<name>DIENER BEI SALA</name>
-  		<alias xml:id="diener_sala">
-  			<name>Diener bei Sala</name>
-  		</alias>
-  	</character>
+    <character>
+      <name>DIENER BEI SALA</name>
+      <alias xml:id="diener_sala">
+        <name>Diener bei Sala</name>
+      </alias>
+    </character>
     <character>
       <name>JULIAN</name>
       <alias xml:id="julian">
@@ -70,9 +72,9 @@
       <alias xml:id="irene_herms">
         <name>IRENE HERMS</name>
       </alias>
-    	<alias xml:id="irene">
-    		<name>IRENE</name>
-    	</alias>
+      <alias xml:id="irene">
+        <name>IRENE</name>
+      </alias>
     </character>
     <character>
       <name>STUBENMÄDCHEN</name>
@@ -916,12 +918,12 @@
       </div>
     </div>
   </text>
-	<documentation>
-		<change n="1" type="adjustSpeaker" who="dariokampkaspar">
-			<path>[passim]</path>
-			<orig>»Der Diener«, »Diener«</orig>
-			<corr>#diener_sala bzw. #diener_fichtner</corr>
-			<comment>Aufteilung gemäß Ort der Handlung (vgl. auch Personenverzeichnis der Vorlage)</comment>
-		</change>
-	</documentation>
+  <documentation>
+    <change n="1" type="adjustSpeaker" who="dariokampkaspar">
+      <path>[passim]</path>
+      <orig>»Der Diener«, »Diener«</orig>
+      <corr>#diener_sala bzw. #diener_fichtner</corr>
+      <comment>Aufteilung gemäß Ort der Handlung (vgl. auch Personenverzeichnis der Vorlage)</comment>
+    </change>
+  </documentation>
 </play>

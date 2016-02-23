@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?><play xmlns="http://lina.digital">
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital" id="231">
   <header>
     <title>Rübezahl</title>
     <subtitle>Schauspiel in fünf Aufzügen</subtitle>
     <genretitle>Schauspiel</genretitle>
     <author key="pnd:118606816">Scheerbart, Paul</author>
-  	<date when="1904" type="print"/>
-  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:tvgd.0/data</source>
+    <date when="1904" type="print"/>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:tvgd.0/data</source>
   </header>
   <personae>
     <character>
@@ -80,9 +82,9 @@
       <alias xml:id="der_junge_schornsteinfeger">
         <name>DER JUNGE SCHORNSTEINFEGER</name>
       </alias>
-    	<alias xml:id="der_kleine_schornsteinfeger">
-    		<name>DER KLEINE SCHORNSTEINFEGER</name>
-    	</alias>
+      <alias xml:id="der_kleine_schornsteinfeger">
+        <name>DER KLEINE SCHORNSTEINFEGER</name>
+      </alias>
     </character>
     <character>
       <name>DER ALTE SCHORNSTEINFEGER</name>
@@ -1580,12 +1582,12 @@
       </div>
     </div>
   </text>
-	<documentation>
-		<change n="1" who="dariokampkaspar" type="expandCollectivePartially">
-			<path/>
-			<orig>#die_feen</orig>
-			<corr>#erste_fee #die_andern_feen</corr>
-			<comment>Einmal getrennt in I,5</comment>
-		</change>
-	</documentation>
+  <documentation>
+    <change n="1" who="dariokampkaspar" type="expandCollectivePartially">
+      <path/>
+      <orig>#die_feen</orig>
+      <corr>#erste_fee #die_andern_feen</corr>
+      <comment>Einmal getrennt in I,5</comment>
+    </change>
+  </documentation>
 </play>

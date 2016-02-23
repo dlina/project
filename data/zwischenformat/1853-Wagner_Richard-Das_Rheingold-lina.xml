@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?><play xmlns="http://lina.digital">
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital" id="317">
   <header>
     <title>Das Rheingold</title>
     <author key="pnd:118594117">Wagner, Richard</author>
     <date when="1853" type="print"/>
-  	<date when="1876" type="premiere"/>
-  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:wzph.0/data</source>
+    <date when="1876" type="premiere"/>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:wzph.0/data</source>
   </header>
   <personae>
     <character>
@@ -19,18 +21,18 @@
       <alias xml:id="wellgunde">
         <name>WELLGUNDE</name>
       </alias>
-    	<alias xml:id="wellgundes_stimme" type="voiceOf">
-    		<name>WELLGUNDES STIMME</name>
-    	</alias>
+      <alias xml:id="wellgundes_stimme" type="voiceOf">
+        <name>WELLGUNDES STIMME</name>
+      </alias>
     </character>
     <character>
       <name>FLOSSHILDE</name>
       <alias xml:id="flosshilde">
         <name>FLOSSHILDE</name>
       </alias>
-    	<alias xml:id="flosshildes_stimme_von_oben" type="voiceOf">
-    		<name>FLOSSHILDES STIMME VON OBEN</name>
-    	</alias>
+      <alias xml:id="flosshildes_stimme_von_oben" type="voiceOf">
+        <name>FLOSSHILDES STIMME VON OBEN</name>
+      </alias>
     </character>
     <character>
       <name>ALBERICH</name>
@@ -167,13 +169,13 @@
           <amount n="1" unit="lines"/>
           <amount n="11" unit="chars"/>
         </sp>
-      	<sp who="#woglinde #wellgunde #flosshilde">
+        <sp who="#woglinde #wellgunde #flosshilde">
           <amount n="4" unit="speech_acts"/>
           <amount n="152" unit="words"/>
           <amount n="49" unit="lines"/>
           <amount n="913" unit="chars"/>
         </sp>
-      	<sp who="#woglinde #wellgunde #flosshilde">
+        <sp who="#woglinde #wellgunde #flosshilde">
           <amount n="3" unit="speech_acts"/>
           <amount n="69" unit="words"/>
           <amount n="17" unit="lines"/>
@@ -329,13 +331,13 @@
           <amount n="28" unit="lines"/>
           <amount n="521" unit="chars"/>
         </sp>
-      	<sp who="#woglinde #wellgunde #flosshilde">
+        <sp who="#woglinde #wellgunde #flosshilde">
           <amount n="1" unit="speech_acts"/>
           <amount n="34" unit="words"/>
           <amount n="9" unit="lines"/>
           <amount n="174" unit="chars"/>
         </sp>
-      	<sp who="#woglinde #wellgunde #flosshilde">
+        <sp who="#woglinde #wellgunde #flosshilde">
           <amount n="1" unit="speech_acts"/>
           <amount n="30" unit="words"/>
           <amount n="8" unit="lines"/>

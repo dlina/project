@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?><play xmlns="http://lina.digital">
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital" id="34">
   <header>
     <title>Es lebe Europa!</title>
-  	<subtitle>Eine Kapitalisten-Tragödie in fünf Akten</subtitle>
-  	<genretitle>Tragödie</genretitle>
+    <subtitle>Eine Kapitalisten-Tragödie in fünf Akten</subtitle>
+    <genretitle>Tragödie</genretitle>
     <author key="pnd:118606816">Scheerbart, Paul</author>
-  	<date when="1904" type="print"/>
-  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:tvdq.0/data</source>
+    <date when="1904" type="print"/>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:tvdq.0/data</source>
   </header>
   <personae>
     <character>
@@ -214,12 +216,12 @@
       </div>
     </div>
   </text>
-	<documentation>
-		<change n="1" type="adjustSpeaker" who="dariokampkaspar">
-			<path>/play/personae[1]/character[5]/name[1]</path>
-			<orig>DR</orig>
-			<corr>DR. Langenbeck</corr>
-			<comment>Vgl. Personenverzeichnis der Vorlage</comment>
-		</change>
-	</documentation>
+  <documentation>
+    <change n="1" type="adjustSpeaker" who="dariokampkaspar">
+      <path>/play/personae[1]/character[5]/name[1]</path>
+      <orig>DR</orig>
+      <corr>DR. Langenbeck</corr>
+      <comment>Vgl. Personenverzeichnis der Vorlage</comment>
+    </change>
+  </documentation>
 </play>

@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?><play xmlns="http://lina.digital">
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital" id="441">
   <header>
     <title>Judith und Holofernes</title>
-  	<subtitle>Travestie in einem Akt</subtitle>
+    <subtitle>Travestie in einem Akt</subtitle>
     <author key="pnd:118587080">Nestroy, Johann</author>
     <date when="1849" type="written"/>
-  	<date when="1849" type="premiere"/>
-  	<date when="1891" type="print"/>
-  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:strh.0/data</source>
+    <date when="1849" type="premiere"/>
+    <date when="1891" type="print"/>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:strh.0/data</source>
   </header>
   <personae>
     <character>
@@ -93,9 +95,9 @@
       <alias xml:id="joab">
         <name>JOAB</name>
       </alias>
-    	<alias xml:id="joab_als_judith" type="alias">
-    		<name>JUDITH (JOAB)</name>
-    	</alias>
+      <alias xml:id="joab_als_judith" type="alias">
+        <name>JUDITH (JOAB)</name>
+      </alias>
     </character>
     <character>
       <name>SARA</name>
@@ -132,15 +134,15 @@
       <alias xml:id="volk">
         <name>VOLK</name>
       </alias>
-    	<alias xml:id="mehrere_aus_dem_volke">
-    		<name>MEHRERE AUS DEM VOLKE</name>
-    	</alias>
-    	<alias xml:id="das_volk">
-    		<name>DAS VOLK</name>
-    	</alias>
-    	<alias xml:id="mehrere_aus_dem_volk">
-    		<name>MEHRERE AUS DEM VOLK</name>
-    	</alias>
+      <alias xml:id="mehrere_aus_dem_volke">
+        <name>MEHRERE AUS DEM VOLKE</name>
+      </alias>
+      <alias xml:id="das_volk">
+        <name>DAS VOLK</name>
+      </alias>
+      <alias xml:id="mehrere_aus_dem_volk">
+        <name>MEHRERE AUS DEM VOLK</name>
+      </alias>
     </character>
     <character>
       <name>DANIEL</name>
@@ -554,7 +556,7 @@
       <head>18. Szene</head>
       <div>
         <head>Achtzehnte Szene</head>
-      	<sp who="#assad #hosea #jojakim #volk #ammon #nabal #rachel">
+        <sp who="#assad #hosea #jojakim #volk #ammon #nabal #rachel">
           <amount n="2" unit="speech_acts"/>
           <amount n="6" unit="words"/>
           <amount n="2" unit="lines"/>

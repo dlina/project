@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?><play xmlns="http://lina.digital">
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital" id="376">
   <header>
     <title>Der Herrgottschnitzer von Ammergau</title>
-  	<subtitle>Volksschauspiel in 5 Aufzügen</subtitle>
+    <subtitle>Volksschauspiel in 5 Aufzügen</subtitle>
     <genretitle/>
     <author key="pnd:118537490">Ganghofer, Ludwig</author>
-  	<date when="1880" type="print"/>
-  	<date when="1880" type="premiere"/>
-  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:n3cn.0/data</source>
+    <date when="1880" type="print"/>
+    <date when="1880" type="premiere"/>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:n3cn.0/data</source>
   </header>
   <personae>
     <character>
@@ -93,9 +95,9 @@
       <alias xml:id="der_hochzeitlader">
         <name>DER HOCHZEITLADER</name>
       </alias>
-    	<alias xml:id="hochzeitlader">
-    		<name>HOCHZEITLADER</name>
-    	</alias>
+      <alias xml:id="hochzeitlader">
+        <name>HOCHZEITLADER</name>
+      </alias>
     </character>
     <character>
       <name>REGERL</name>
@@ -1569,11 +1571,11 @@
       </div>
     </div>
   </text>
-	<documentation>
-		<change n="1" who="dariokampkaspar" type="expandCollective">
-			<path>/play/text[1]/div[4]/div[8]/div[1]/sp[4]; /play/text[1]/div[5]/div[1]/div[1]/sp[5]</path>
-			<orig/>
-			<comment>Tatsächlich sprechende Personen außer dem angesprochenen bzw. vorher Sprechenden.</comment>
-		</change>
-	</documentation>
+  <documentation>
+    <change n="1" who="dariokampkaspar" type="expandCollective">
+      <path>/play/text[1]/div[4]/div[8]/div[1]/sp[4]; /play/text[1]/div[5]/div[1]/div[1]/sp[5]</path>
+      <orig/>
+      <comment>Tatsächlich sprechende Personen außer dem angesprochenen bzw. vorher Sprechenden.</comment>
+    </change>
+  </documentation>
 </play>

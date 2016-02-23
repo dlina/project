@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?><play xmlns="http://lina.digital">
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital" id="415">
   <header>
     <title>Tannhäuser und Der Sängerkrieg auf Wartburg</title>
-  	<subtitle>Grosse romantische Oper in drei Akten</subtitle>
+    <subtitle>Grosse romantische Oper in drei Akten</subtitle>
     <genretitle>Oper</genretitle>
     <author key="pnd:118594117">Wagner, Richard</author>
-  	<date when="1845" type="premiere"/>
-  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:wzpp.0/data</source>
+    <date when="1845" type="premiere"/>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:wzpp.0/data</source>
   </header>
   <personae>
     <character>
@@ -44,18 +46,18 @@
       <alias xml:id="der_landgraf">
         <name>DER LANDGRAF</name>
       </alias>
-    	<alias xml:id="landgraf">
-    		<name>LANDGRAF</name>
-    	</alias>
+      <alias xml:id="landgraf">
+        <name>LANDGRAF</name>
+      </alias>
     </character>
     <character>
       <name>WALTHER</name>
       <alias xml:id="walther">
         <name>WALTHER</name>
       </alias>
-    	<alias xml:id="walther_von_der_vogelweide">
-    		<name>WALTHER VON DER VOGELWEIDE</name>
-    	</alias>
+      <alias xml:id="walther_von_der_vogelweide">
+        <name>WALTHER VON DER VOGELWEIDE</name>
+      </alias>
     </character>
     <character>
       <name>BITEROLF</name>
@@ -86,9 +88,9 @@
       <alias xml:id="chor_der_ritter">
         <name>CHOR DER RITTER</name>
       </alias>
-    	<alias xml:id="die_ritter">
-    		<name>DIE RITTER</name>
-    	</alias>
+      <alias xml:id="die_ritter">
+        <name>DIE RITTER</name>
+      </alias>
     </character>
     <character>
       <name>VIER EDELKNABEN</name>
@@ -101,9 +103,9 @@
       <alias xml:id="chor_der_frauen">
         <name>CHOR DER EDELFRAUEN</name>
       </alias>
-    	<alias xml:id="die_edelfrauen">
-    		<name>DIE EDELFRAUEN</name>
-    	</alias>
+      <alias xml:id="die_edelfrauen">
+        <name>DIE EDELFRAUEN</name>
+      </alias>
     </character>
     <character>
       <name>MÄNNERGESANG</name>
@@ -116,9 +118,9 @@
       <alias xml:id="die_jüngeren_pilger">
         <name>DIE JÜNGEREN PILGER</name>
       </alias>
-    	<alias xml:id="gesang_der_jüngeren_pilger">
-    		<name>GESANG DER JÜNGEREN PILGER</name>
-    	</alias>
+      <alias xml:id="gesang_der_jüngeren_pilger">
+        <name>GESANG DER JÜNGEREN PILGER</name>
+      </alias>
     </character>
   </personae>
   <text>
@@ -245,7 +247,7 @@
             <amount n="1" unit="lines"/>
             <amount n="10" unit="chars"/>
           </sp>
-        	<sp who="#tannhäuser #wolfram #walther #biterolf">
+          <sp who="#tannhäuser #wolfram #walther #biterolf">
             <amount n="1" unit="speech_acts"/>
             <amount n="8" unit="words"/>
             <amount n="1" unit="lines"/>
@@ -257,19 +259,19 @@
             <amount n="20" unit="lines"/>
             <amount n="726" unit="chars"/>
           </sp>
-        	<sp who="#der_landgraf #tannhäuser #wolfram #walther #biterolf">
+          <sp who="#der_landgraf #tannhäuser #wolfram #walther #biterolf">
             <amount n="1" unit="speech_acts"/>
             <amount n="23" unit="words"/>
             <amount n="4" unit="lines"/>
             <amount n="134" unit="chars"/>
           </sp>
-        	<sp who="#tannhäuser #wolfram #walther #biterolf">
+          <sp who="#tannhäuser #wolfram #walther #biterolf">
             <amount n="2" unit="speech_acts"/>
             <amount n="26" unit="words"/>
             <amount n="5" unit="lines"/>
             <amount n="149" unit="chars"/>
           </sp>
-        	<sp who="#landgraf #tannhäuser #wolfram #walther #biterolf">
+          <sp who="#landgraf #tannhäuser #wolfram #walther #biterolf">
             <amount n="1" unit="speech_acts"/>
             <amount n="45" unit="words"/>
             <amount n="8" unit="lines"/>
@@ -410,7 +412,7 @@
             <amount n="32" unit="lines"/>
             <amount n="1077" unit="chars"/>
           </sp>
-        	<sp who="#wolfram #walther #biterolf #landgraf #die_ritter #vier_edelknaben">
+          <sp who="#wolfram #walther #biterolf #landgraf #die_ritter #vier_edelknaben">
             <amount n="2" unit="speech_acts"/>
             <amount n="14" unit="words"/>
             <amount n="3" unit="lines"/>

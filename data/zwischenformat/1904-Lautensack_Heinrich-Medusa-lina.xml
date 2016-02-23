@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?><play xmlns="http://lina.digital">
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital" id="263">
   <header>
     <title>Medusa</title>
     <subtitle>Aus den Papieren eines Mönches</subtitle>
     <genretitle/>
     <author key="pnd:118570226">Lautensack, Heinrich</author>
-  	<date when="1904" type="print"/>
-  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:rfmj.0/data</source>
+    <date when="1904" type="print"/>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:rfmj.0/data</source>
   </header>
   <personae>
     <character>
@@ -14,33 +16,33 @@
       <alias xml:id="helene_kreiner">
         <name>HELENE KREINER</name>
       </alias>
-    	<alias xml:id="helene">
-    		<name>HELENE</name>
-    	</alias>
+      <alias xml:id="helene">
+        <name>HELENE</name>
+      </alias>
     </character>
     <character>
       <name>JOSEPH KREINER</name>
       <alias xml:id="joseph_kreiner">
         <name>JOSEPH KREINER</name>
       </alias>
-    	<alias xml:id="joseph">
-    		<name>JOSEPH</name>
-    	</alias>
-    	<alias xml:id="josephs_stimme" type="voiceOf">
-    		<name>JOSEPHS STIMME</name>
-    	</alias>
+      <alias xml:id="joseph">
+        <name>JOSEPH</name>
+      </alias>
+      <alias xml:id="josephs_stimme" type="voiceOf">
+        <name>JOSEPHS STIMME</name>
+      </alias>
     </character>
     <character>
       <name>HEINRICH HÖRMANN</name>
       <alias xml:id="heinrich_hörmann">
         <name>HEINRICH HÖRMANN</name>
       </alias>
-    	<alias xml:id="heinrich">
-    		<name>HEINRICH</name>
-    	</alias>
-    	<alias xml:id="heinrichs_stimme" type="voiceOf">
-    		<name>HEINRICHS STIMME</name>
-    	</alias>
+      <alias xml:id="heinrich">
+        <name>HEINRICH</name>
+      </alias>
+      <alias xml:id="heinrichs_stimme" type="voiceOf">
+        <name>HEINRICHS STIMME</name>
+      </alias>
     </character>
     <character>
       <name>DIE ZEITUNGSFRAU</name>
@@ -59,9 +61,9 @@
       <alias xml:id="herr_kreiner">
         <name>HERR KREINER</name>
       </alias>
-    	<alias xml:id="herr_kreiners_stimme">
-    		<name>HERR KREINERS STIMME</name>
-    	</alias>
+      <alias xml:id="herr_kreiners_stimme">
+        <name>HERR KREINERS STIMME</name>
+      </alias>
     </character>
     <character>
       <name>BABETTE</name>
@@ -69,18 +71,18 @@
         <name>BABETTE</name>
       </alias>
     </character>
-  	<character>
-  		<name>Häßliches Mädchen (Vorspiel)</name>
-  		<alias xml:id="mädchen">
-  			<name>Häßliches Mädchen</name>
-  		</alias>
-  	</character>
-  	<character>
-  		<name>Einer (Vorspiel)</name>
-  		<alias xml:id="einer">
-  			<name>Einer (Vorspiel)</name>
-  		</alias>
-  	</character>
+    <character>
+      <name>Häßliches Mädchen (Vorspiel)</name>
+      <alias xml:id="mädchen">
+        <name>Häßliches Mädchen</name>
+      </alias>
+    </character>
+    <character>
+      <name>Einer (Vorspiel)</name>
+      <alias xml:id="einer">
+        <name>Einer (Vorspiel)</name>
+      </alias>
+    </character>
   </personae>
   <text>
     <div>
@@ -88,13 +90,13 @@
     </div>
     <div>
       <head>Vorspiel</head>
-    	<sp who="#mädchen">
-    		<amount n="3" unit="speech_acts"/>
-    		<amount n="61" unit="lines"/>
-    	</sp>
-    	<sp who="#einer">
-    		<amount n="0" unit="speech_acts"/>
-    	</sp>
+      <sp who="#mädchen">
+        <amount n="3" unit="speech_acts"/>
+        <amount n="61" unit="lines"/>
+      </sp>
+      <sp who="#einer">
+        <amount n="0" unit="speech_acts"/>
+      </sp>
     </div>
     <div>
       <head>Personen</head>
@@ -180,11 +182,11 @@
       </div>
     </div>
   </text>
-	<documentation>
-	  <change n="1" who="dariokampkaspar">
-	  <path/>
-	    <orig/>
-			<comment>Figuren aus dem Vorspiel eingefügt.</comment>
-	    </change>
-	</documentation>
+  <documentation>
+    <change n="1" who="dariokampkaspar">
+      <path/>
+      <orig/>
+      <comment>Figuren aus dem Vorspiel eingefügt.</comment>
+    </change>
+  </documentation>
 </play>

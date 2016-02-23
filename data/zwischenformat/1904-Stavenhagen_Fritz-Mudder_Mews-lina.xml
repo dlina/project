@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?><play xmlns="http://lina.digital">
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital" id="168">
   <header>
     <title>Mudder Mews</title>
     <subtitle>Niederdeutsches Drama in 5 Akten</subtitle>
     <genretitle/>
     <author key="pnd:118752901">Stavenhagen, Fritz</author>
     <date when="1903" type="written"/>
-  	<date when="1904" type="print"/>
-  	<date when="1905" type="premiere"/>
-  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:vrcn.0/data</source>
+    <date when="1904" type="print"/>
+    <date when="1905" type="premiere"/>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:vrcn.0/data</source>
   </header>
   <personae>
     <character>
@@ -28,9 +30,9 @@
       <alias xml:id="willem">
         <name>WILLEM</name>
       </alias>
-    	<alias xml:id="willem_wütend">
-    		<name>WILLEM wütend</name>
-    	</alias>
+      <alias xml:id="willem_wütend">
+        <name>WILLEM wütend</name>
+      </alias>
     </character>
     <character>
       <name>MUDDER</name>

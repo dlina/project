@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?><play xmlns="http://lina.digital">
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital" id="138">
   <header>
     <title>Lachende Gespenster</title>
     <subtitle>Ein Schauspiel zwischen schwarzen Wänden in einem Aufzuge</subtitle>
     <genretitle>Schauspiel</genretitle>
     <author key="pnd:118606816">Scheerbart, Paul</author>
-  	<date when="1904" type="print"/>
-  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:tv6h.0/data</source>
+    <date when="1904" type="print"/>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:tv6h.0/data</source>
   </header>
   <personae>
     <character>
@@ -32,27 +34,27 @@
       <alias xml:id="erstes_gespenst">
         <name>ERSTES GESPENST</name>
       </alias>
-    	<alias xml:id="das_erste_gespenst">
-    		<name>DAS ERSTE GESPENST</name>
-    	</alias>
+      <alias xml:id="das_erste_gespenst">
+        <name>DAS ERSTE GESPENST</name>
+      </alias>
     </character>
     <character>
       <name>ZWEITES GESPENST</name>
       <alias xml:id="zweites_gespenst">
         <name>ZWEITES GESPENST</name>
       </alias>
-    	<alias xml:id="das_zweite_gespenst">
-    		<name>DAS ZWEITE GESPENST</name>
-    	</alias>
+      <alias xml:id="das_zweite_gespenst">
+        <name>DAS ZWEITE GESPENST</name>
+      </alias>
     </character>
     <character>
       <name>DRITTES GESPENST</name>
       <alias xml:id="drittes_gespenst">
         <name>DRITTES GESPENST</name>
       </alias>
-    	<alias xml:id="das_dritte_gespenst">
-    		<name>DAS DRITTE GESPENST</name>
-    	</alias>
+      <alias xml:id="das_dritte_gespenst">
+        <name>DAS DRITTE GESPENST</name>
+      </alias>
     </character>
   </personae>
   <text>
@@ -105,7 +107,7 @@
           <amount n="1" unit="lines"/>
           <amount n="13" unit="chars"/>
         </sp>
-      	<sp who="#erstes_gespenst #zweites_gespenst #drittes_gespenst">
+        <sp who="#erstes_gespenst #zweites_gespenst #drittes_gespenst">
           <amount n="3" unit="speech_acts"/>
           <amount n="37" unit="words"/>
           <amount n="2" unit="lines"/>
@@ -129,7 +131,7 @@
           <amount n="2" unit="lines"/>
           <amount n="211" unit="chars"/>
         </sp>
-      	<sp who="#erstes_gespenst #zweites_gespenst #drittes_gespenst">
+        <sp who="#erstes_gespenst #zweites_gespenst #drittes_gespenst">
           <amount n="1" unit="speech_acts"/>
           <amount n="5" unit="words"/>
           <amount n="1" unit="lines"/>

@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?><play xmlns="http://lina.digital">
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital" id="40">
   <header>
     <title>Frühlings Erwachen</title>
-  	<subtitle>Eine Kindertragödie</subtitle>
-  	<genretitle>Tragödie</genretitle>
+    <subtitle>Eine Kindertragödie</subtitle>
+    <genretitle>Tragödie</genretitle>
     <author key="pnd:118629867">Wedekind, Frank</author>
-  	<date when="1890" type="written"/>
-  	<date when="1891" type="print"/>
-  	<date when="1906" type="premiere"/>
-  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:x34j.0/data</source>
+    <date when="1890" type="written"/>
+    <date when="1891" type="print"/>
+    <date when="1906" type="premiere"/>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:x34j.0/data</source>
   </header>
   <personae>
     <character>
@@ -40,9 +42,9 @@
       <alias xml:id="moritz">
         <name>MORITZ</name>
       </alias>
-    	<alias xml:id="moritz_stiefel">
-    		<name>MORITZ STIEFEL</name>
-    	</alias>
+      <alias xml:id="moritz_stiefel">
+        <name>MORITZ STIEFEL</name>
+      </alias>
     </character>
     <character>
       <name>GEORG</name>
@@ -85,18 +87,18 @@
       <alias xml:id="hänschen_rilow">
         <name>HÄNSCHEN RILOW</name>
       </alias>
-    	<alias xml:id="hänschen">
-    		<name>HÄNSCHEN</name>
-    	</alias>
+      <alias xml:id="hänschen">
+        <name>HÄNSCHEN</name>
+      </alias>
     </character>
     <character>
       <name>KNOCHENBRUCH</name>
       <alias xml:id="knochenbruch">
         <name>KNOCHENBRUCH</name>
       </alias>
-    	<alias xml:id="professor_knochenbruch">
-    		<name>PROFESSOR KNOCHENBRUCH</name>
-    	</alias>
+      <alias xml:id="professor_knochenbruch">
+        <name>PROFESSOR KNOCHENBRUCH</name>
+      </alias>
     </character>
     <character>
       <name>HUNGERGURT</name>
@@ -121,9 +123,9 @@
       <alias xml:id="sonnenstich">
         <name>SONNENSTICH</name>
       </alias>
-    	<alias xml:id="rektor_sonnenstich">
-    		<name>REKTOR SONNENSTICH</name>
-    	</alias>
+      <alias xml:id="rektor_sonnenstich">
+        <name>REKTOR SONNENSTICH</name>
+      </alias>
     </character>
     <character>
       <name>KNÜPPELDICK</name>
@@ -233,12 +235,12 @@
         <name>DER VERMUMMTE HERR</name>
       </alias>
     </character>
-  	<character>
-  		<name>Dr. VON BRAUSEPULVER</name>
-  		<alias xml:id="dr_brausepulver">
-  			<name>Dr. von Brausepulver</name>
-  		</alias>
-  	</character>
+    <character>
+      <name>Dr. VON BRAUSEPULVER</name>
+      <alias xml:id="dr_brausepulver">
+        <name>Dr. von Brausepulver</name>
+      </alias>
+    </character>
   </personae>
   <text>
     <div>
@@ -714,7 +716,7 @@
             <amount n="1" unit="lines"/>
             <amount n="25" unit="chars"/>
           </sp>
-        	<sp who="#gaston #melchior #reinhold #diethelm">
+          <sp who="#gaston #melchior #reinhold #diethelm">
             <amount n="1" unit="speech_acts"/>
             <amount n="5" unit="words"/>
             <amount n="1" unit="lines"/>
@@ -813,18 +815,18 @@
       </div>
     </div>
   </text>
-	<documentation>
-		<change n="1" who="dariokampkaspar" type="adjustSpeaker">
-			<path>/play/personae[1]/character[32]/name[1]</path>
-			<orig>DR</orig>
-			<corr>DR Prokrustes</corr>
-			<comment>Vgl. Text der Vorlage</comment>
-		</change>
-		<change n="2" who="dariokampkaspar">
-			<path>/play/text[1]/div[4]/div[5]/div[1]/sp[1]/@who</path>
-			<orig>DR</orig>
-			<corr>DR Brausepulver</corr>
-			<comment>Vgl. Text der Vorlage</comment>
-		</change>
-	</documentation>
+  <documentation>
+    <change n="1" who="dariokampkaspar" type="adjustSpeaker">
+      <path>/play/personae[1]/character[32]/name[1]</path>
+      <orig>DR</orig>
+      <corr>DR Prokrustes</corr>
+      <comment>Vgl. Text der Vorlage</comment>
+    </change>
+    <change n="2" who="dariokampkaspar">
+      <path>/play/text[1]/div[4]/div[5]/div[1]/sp[1]/@who</path>
+      <orig>DR</orig>
+      <corr>DR Brausepulver</corr>
+      <comment>Vgl. Text der Vorlage</comment>
+    </change>
+  </documentation>
 </play>

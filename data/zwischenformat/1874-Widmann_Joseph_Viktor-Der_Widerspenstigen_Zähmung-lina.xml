@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?><play xmlns="http://lina.digital">
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital" id="333">
   <header>
     <title>Der Widerspenstigen Zähmung</title>
-  	<subtitle>Komische Oper in vier Akten</subtitle>
+    <subtitle>Komische Oper in vier Akten</subtitle>
     <genretitle>Oper</genretitle>
     <author key="pnd:118696025">Widmann, Joseph Viktor</author>
     <date when="1874" type="premiere"/>
-  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:nkbv.0/data</source>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:nkbv.0/data</source>
   </header>
   <personae>
     <character>
@@ -80,9 +82,9 @@
       <alias xml:id="diener">
         <name>DIENER</name>
       </alias>
-    	<alias xml:id="chor_der_diener">
-    		<name>CHOR DER DIENER</name>
-    	</alias>
+      <alias xml:id="chor_der_diener">
+        <name>CHOR DER DIENER</name>
+      </alias>
     </character>
     <character>
       <name>SCHNEIDER</name>

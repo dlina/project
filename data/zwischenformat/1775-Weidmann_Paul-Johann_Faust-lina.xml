@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?><play xmlns="http://lina.digital">
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital" id="14">
   <header>
     <title>Johann Faust</title>
     <subtitle>Ein Allegorisches Drama von fünf Aufzügen</subtitle>
@@ -965,7 +967,7 @@
       <orig>#alle</orig>
       <corr>#mephistopheles #theodor #elisabeth</corr>
       <comment>"Faust" ist nicht Teil von alle</comment>
-    </change>    
+    </change>
     <change n="2" type="expandCollective" who="peertrilcke">
       <path>/play/text[1]/div[6]/div[3]/div[1]</path>
       <orig>#beide</orig>
@@ -973,6 +975,4 @@
       <comment>mit "Beide" sind Fausts Eltern, also "Elisabeth" und "Theodor" gemeint</comment>
     </change>
   </documentation>
-  
-  
 </play>

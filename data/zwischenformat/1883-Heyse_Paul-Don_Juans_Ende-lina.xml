@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?><play xmlns="http://lina.digital">
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital" id="266">
   <header>
     <title>Don Juan's Ende</title>
-  	<subtitle>Trauerspiel in fünf Akten</subtitle>
-  	<genretitle>Trauerspiel</genretitle>
+    <subtitle>Trauerspiel in fünf Akten</subtitle>
+    <genretitle>Trauerspiel</genretitle>
     <author key="pnd:118550772">Heyse, Paul</author>
     <date when="1883" type="print"/>
-  	<date when="1884" type="premiere"/>
-  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:q41n.0/data</source>
+    <date when="1884" type="premiere"/>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:q41n.0/data</source>
   </header>
   <personae>
     <character>
@@ -15,9 +17,9 @@
       <alias xml:id="don_juan">
         <name>DON JUAN</name>
       </alias>
-    	<alias xml:id="don">
-    		<name>DON</name>
-    	</alias>
+      <alias xml:id="don">
+        <name>DON</name>
+      </alias>
     </character>
     <character>
       <name>LEPORELLO</name>
@@ -30,12 +32,12 @@
       <alias xml:id="der_alte">
         <name>DER ALTE</name>
       </alias>
-    	<alias xml:id="der_fischer">
-    		<name>DER FISCHER</name>
-    	</alias>
-    	<alias xml:id="der_alte_fischer">
-    		<name>DER ALTE FISCHER</name>
-    	</alias>
+      <alias xml:id="der_fischer">
+        <name>DER FISCHER</name>
+      </alias>
+      <alias xml:id="der_alte_fischer">
+        <name>DER ALTE FISCHER</name>
+      </alias>
     </character>
     <character>
       <name>GHITA</name>
@@ -48,9 +50,9 @@
       <alias xml:id="der_mönch">
         <name>DER MÖNCH</name>
       </alias>
-    	<alias xml:id="der_karthäuser">
-    		<name>DER KARTHÄUSER</name>
-    	</alias>
+      <alias xml:id="der_karthäuser">
+        <name>DER KARTHÄUSER</name>
+      </alias>
     </character>
     <character>
       <name>ERSTER STROLCH</name>
@@ -75,9 +77,9 @@
       <alias xml:id="wirth">
         <name>WIRTH</name>
       </alias>
-    	<alias xml:id="der_wirth">
-    		<name>DER WIRTH</name>
-    	</alias>
+      <alias xml:id="der_wirth">
+        <name>DER WIRTH</name>
+      </alias>
     </character>
     <character>
       <name>BIONDETTA</name>
@@ -102,9 +104,9 @@
       <alias xml:id="ein_diener">
         <name>EIN DIENER</name>
       </alias>
-    	<alias xml:id="diener">
-    		<name>DIENER</name>
-    	</alias>
+      <alias xml:id="diener">
+        <name>DIENER</name>
+      </alias>
     </character>
     <character>
       <name>STIMMEN</name>

@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?><play xmlns="http://lina.digital">
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital" id="19">
   <header>
     <title>Das Urbild des Tartüffe</title>
-  	<subtitle>Lustspiel in fünf Aufzügen</subtitle>
-  	<genretitle>Lustspiel</genretitle>
+    <subtitle>Lustspiel in fünf Aufzügen</subtitle>
+    <genretitle>Lustspiel</genretitle>
     <author key="pnd:118543830">Gutzkow, Karl</author>
     <date when="1846" type="premiere"/>
-  	<date when="1847" type="print"/>
-  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:p5c7.0/data</source>
+    <date when="1847" type="print"/>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:p5c7.0/data</source>
   </header>
   <personae>
     <character>
@@ -949,7 +951,7 @@
         <head>3. Szene</head>
         <div>
           <head>Dritter Auftritt</head>
-        	<sp who="#lionne #dubois #chapelle #delarive #lefêvre">
+          <sp who="#lionne #dubois #chapelle #delarive #lefêvre">
             <amount n="2" unit="speech_acts"/>
             <amount n="7" unit="words"/>
             <amount n="2" unit="lines"/>

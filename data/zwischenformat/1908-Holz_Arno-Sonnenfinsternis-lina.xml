@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?><play xmlns="http://lina.digital">
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital" id="174">
   <header>
     <title>Sonnenfinsternis</title>
     <subtitle>Tragödie</subtitle>
-  	<genretitle>Tragödie</genretitle>
+    <genretitle>Tragödie</genretitle>
     <author key="pnd:118553216">Holz, Arno</author>
-  	<date when="1908" type="print"/>
-  	<date when="1913" type="premiere"/>
-  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:qhpn.0/data</source>
+    <date when="1908" type="print"/>
+    <date when="1913" type="premiere"/>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:qhpn.0/data</source>
   </header>
   <personae>
     <character>
@@ -15,12 +17,12 @@
       <alias xml:id="la_bella_cenci">
         <name>LA BELLA CENCI</name>
       </alias>
-    	<alias xml:id="la">
-    		<name>LA</name>
-    	</alias>
-    	<alias xml:id="beatrice">
-    		<name>BEATRICE</name>
-    	</alias>
+      <alias xml:id="la">
+        <name>LA</name>
+      </alias>
+      <alias xml:id="beatrice">
+        <name>BEATRICE</name>
+      </alias>
     </character>
     <character>
       <name>URL</name>

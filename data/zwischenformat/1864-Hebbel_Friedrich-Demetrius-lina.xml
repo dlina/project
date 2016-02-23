@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?><play xmlns="http://lina.digital">
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital" id="253">
   <header>
     <title>Demetrius</title>
     <author key="pnd:118547445">Hebbel, Friedrich</author>
-  	<date when="1863" type="written"/>
-  	<date when="1864" type="print"/>
-  	<date when="1869" type="premiere"/>
-  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:pmfw.0/data</source>
+    <date when="1863" type="written"/>
+    <date when="1864" type="print"/>
+    <date when="1869" type="premiere"/>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:pmfw.0/data</source>
   </header>
   <personae>
     <character>
@@ -56,9 +58,9 @@
       <alias xml:id="legat">
         <name>LEGAT</name>
       </alias>
-    	<alias xml:id="kardinal">
-    		<name>KARDINAL</name>
-    	</alias>
+      <alias xml:id="kardinal">
+        <name>KARDINAL</name>
+      </alias>
     </character>
     <character>
       <name>STIMMEN (Vorspiel)</name>
@@ -113,9 +115,9 @@
       <alias xml:id="laienschwester">
         <name>LAIENSCHWESTER</name>
       </alias>
-    	<alias xml:id="klosterschwester">
-    		<name>KLOSTERSCHWESTER</name>
-    	</alias>
+      <alias xml:id="klosterschwester">
+        <name>KLOSTERSCHWESTER</name>
+      </alias>
     </character>
     <character>
       <name>OTREPIEP</name>
@@ -180,12 +182,12 @@
         <name>GESCHREI</name>
       </alias>
     </character>
-  	<character>
-  		<name>STIMMEN</name>
-  		<alias xml:id="stimmen">
-  			<name>Stimmen</name>
-  		</alias>
-  	</character>
+    <character>
+      <name>STIMMEN</name>
+      <alias xml:id="stimmen">
+        <name>Stimmen</name>
+      </alias>
+    </character>
   </personae>
   <text>
     <div>
@@ -2001,11 +2003,11 @@
       </div>
     </div>
   </text>
-	<documentation>
-		<change n="1" who="dariokampkaspar">
-			<path>/play/personae[1]/character[17]/alias[2]</path>
-			<orig>eigenständiger character</orig>
-			<comment>In I,5 tritt die »Laienschwester« mit einer Zeile auf (Besucher ankündigen); in I,6 die »Klosterschwester«, die ebenfalls in einem Wort einen Besucher ankündigt. Sonst keine weiteren Auftritte dieser Figuren.</comment>
-		</change>
-	</documentation>
+  <documentation>
+    <change n="1" who="dariokampkaspar">
+      <path>/play/personae[1]/character[17]/alias[2]</path>
+      <orig>eigenständiger character</orig>
+      <comment>In I,5 tritt die »Laienschwester« mit einer Zeile auf (Besucher ankündigen); in I,6 die »Klosterschwester«, die ebenfalls in einem Wort einen Besucher ankündigt. Sonst keine weiteren Auftritte dieser Figuren.</comment>
+    </change>
+  </documentation>
 </play>

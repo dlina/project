@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?><play xmlns="http://lina.digital">
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital" id="56">
   <header>
     <title>Moral</title>
     <subtitle>Komödie in drei Akten</subtitle>
-  	<genretitle>Komödie</genretitle>
+    <genretitle>Komödie</genretitle>
     <author key="pnd:118622072">Thoma, Ludwig</author>
-  	<date when="1908" type="premiere"/>
-  	<date when="1909" type="print"/>
-  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:wcj0.0/data</source>
+    <date when="1908" type="premiere"/>
+    <date when="1909" type="print"/>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:wcj0.0/data</source>
   </header>
   <personae>
     <character>
@@ -15,9 +17,9 @@
       <alias xml:id="bolland">
         <name>BOLLAND</name>
       </alias>
-    	<alias xml:id="holland">
-    		<name>HOLLAND</name>
-    	</alias>
+      <alias xml:id="holland">
+        <name>HOLLAND</name>
+      </alias>
     </character>
     <character>
       <name>BEERMANN</name>
@@ -78,9 +80,9 @@
       <alias xml:id="ströbel">
         <name>STRÖBEL</name>
       </alias>
-    	<alias xml:id="assessor">
-    		<name>ASSESSOR</name>
-    	</alias>
+      <alias xml:id="assessor">
+        <name>ASSESSOR</name>
+      </alias>
     </character>
     <character>
       <name>REISACHER</name>
@@ -782,12 +784,12 @@
       </div>
     </div>
   </text>
-	<documentation>
-		<change n="1" who="dariokampkaspar" type="adjustSpeaker">
-			<path/>
-			<orig>character »assessor«</orig>
-			<corr>Alias zu »Ströbel«</corr>
-			<comment>Zuweisung nach Personenliste der Vorlage</comment>
-		</change>
-	</documentation>
+  <documentation>
+    <change n="1" who="dariokampkaspar" type="adjustSpeaker">
+      <path/>
+      <orig>character »assessor«</orig>
+      <corr>Alias zu »Ströbel«</corr>
+      <comment>Zuweisung nach Personenliste der Vorlage</comment>
+    </change>
+  </documentation>
 </play>

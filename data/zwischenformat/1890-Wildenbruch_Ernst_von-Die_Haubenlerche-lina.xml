@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?><play xmlns="http://lina.digital">
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital" id="240">
   <header>
     <title>Die Haubenlerche</title>
-  	<subtitle>Schauspiel in vier Akten</subtitle>
+    <subtitle>Schauspiel in vier Akten</subtitle>
     <genretitle>Schauspiel</genretitle>
     <author key="pnd:118771760">Wildenbruch, Ernst von</author>
     <date when="1890" type="premiere"/>
-  	<date when="1891" type="print"/>
-  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:x8np.0/data</source>
+    <date when="1891" type="print"/>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:x8np.0/data</source>
   </header>
   <personae>
     <character>
@@ -21,9 +23,9 @@
       <alias xml:id="lene">
         <name>LENE</name>
       </alias>
-    	<alias xml:id="lenes_stimme" type="voiceOf">
-    		<name>LENES STIMME</name>
-    	</alias>
+      <alias xml:id="lenes_stimme" type="voiceOf">
+        <name>LENES STIMME</name>
+      </alias>
     </character>
     <character>
       <name>JULIANE</name>
@@ -36,9 +38,9 @@
       <alias xml:id="august">
         <name>AUGUST</name>
       </alias>
-    	<alias xml:id="augusts_stimme" type="voiceOf">
-    		<name>AUGUSTS STIMME</name>
-    	</alias>
+      <alias xml:id="augusts_stimme" type="voiceOf">
+        <name>AUGUSTS STIMME</name>
+      </alias>
     </character>
     <character>
       <name>FRAU SCHMALENBACH</name>
@@ -51,18 +53,18 @@
       <alias xml:id="ilefeld">
         <name>ILEFELD</name>
       </alias>
-    	<alias xml:id="ilefelds_stimme" type="voiceOf">
-    		<name>ILEFELDS STIMME</name>
-    	</alias>
+      <alias xml:id="ilefelds_stimme" type="voiceOf">
+        <name>ILEFELDS STIMME</name>
+      </alias>
     </character>
     <character>
       <name>ALE</name>
       <alias xml:id="ale">
         <name>ALE</name>
       </alias>
-    	<alias xml:id="al">
-    		<name>AL</name>
-    	</alias>
+      <alias xml:id="al">
+        <name>AL</name>
+      </alias>
     </character>
   </personae>
   <text>
@@ -845,11 +847,11 @@
       </div>
     </div>
   </text>
-	<documentation>
-		<change n="1" who="dariokampkaspar">
-			<path/>
-			<orig/>
-			<comment>In III,4 sp von »#onkel« und entsprechenden character gelöscht (falsch getaggt, es handelt sich um eine Aussage Hermanns.</comment>
-		</change>
-	</documentation>
+  <documentation>
+    <change n="1" who="dariokampkaspar">
+      <path/>
+      <orig/>
+      <comment>In III,4 sp von »#onkel« und entsprechenden character gelöscht (falsch getaggt, es handelt sich um eine Aussage Hermanns.</comment>
+    </change>
+  </documentation>
 </play>

@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?><play xmlns="http://lina.digital">
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital" id="89">
   <header>
     <title>Anatol</title>
     <subtitle/>
     <genretitle/>
     <author key="pnd:118609807">Schnitzler, Arthur</author>
     <date when="1891" type="written"/>
-  	<date when="1893" type="print"/>
-  	<date when="1910" type="premiere"/>
-  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:v3vp.0/data</source>
+    <date when="1893" type="print"/>
+    <date when="1910" type="premiere"/>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:v3vp.0/data</source>
   </header>
   <personae>
     <character>
@@ -46,9 +48,9 @@
       <alias xml:id="emilie">
         <name>EMILIE</name>
       </alias>
-    	<alias xml:id="emllie">
-    		<name>EMLLIE</name>
-    	</alias>
+      <alias xml:id="emllie">
+        <name>EMLLIE</name>
+      </alias>
     </character>
     <character>
       <name>ANNIE</name>
@@ -79,9 +81,9 @@
       <alias xml:id="ilona">
         <name>ILONA</name>
       </alias>
-    	<alias xml:id="ilonas_stimme" type="voiceOf">
-    		<name>ILONAS STIMME</name>
-    	</alias>
+      <alias xml:id="ilonas_stimme" type="voiceOf">
+        <name>ILONAS STIMME</name>
+      </alias>
     </character>
   </personae>
   <text>

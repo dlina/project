@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?><play xmlns="http://lina.digital">
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital" id="296">
   <header>
     <title>Trauerspiel in Sizilien</title>
-  	<subtitle>Tragikomödie in einem Akt</subtitle>
-  	<genretitle>Tragikomödie</genretitle>
+    <subtitle>Tragikomödie in einem Akt</subtitle>
+    <genretitle>Tragikomödie</genretitle>
     <author key="pnd:118547445">Hebbel, Friedrich</author>
     <date when="1846" type="written"/>
-  	<date when="1847" type="print"/>
-  	<date when="1907" type="premiere"/>
-  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:pmp3.0/data</source>
+    <date when="1847" type="print"/>
+    <date when="1907" type="premiere"/>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:pmp3.0/data</source>
   </header>
   <personae>
     <character>
@@ -64,9 +66,9 @@
       <alias xml:id="ein_bauer">
         <name>EIN BAUER</name>
       </alias>
-    	<alias xml:id="der_bauer">
-    		<name>DER BAUER</name>
-    	</alias>
+      <alias xml:id="der_bauer">
+        <name>DER BAUER</name>
+      </alias>
     </character>
   </personae>
   <text>

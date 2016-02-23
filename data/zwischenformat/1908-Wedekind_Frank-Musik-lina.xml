@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?><play xmlns="http://lina.digital">
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital" id="146">
   <header>
     <title>Musik</title>
     <subtitle>Sittengemälde in vier Bildern</subtitle>
     <genretitle/>
     <author key="pnd:118629867">Wedekind, Frank</author>
     <date when="1906" type="written"/>
-  	<date when="1908" type="print"/>
-  	<date when="1908" type="premiere"/>
-  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:x37n.0/data</source>
+    <date when="1908" type="print"/>
+    <date when="1908" type="premiere"/>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:x37n.0/data</source>
   </header>
   <personae>
     <character>
@@ -496,12 +498,12 @@
       </div>
     </div>
   </text>
-	<documentation>
-		<change n="1" type="adjustSpeaker" who="dariokampkaspar">
-			<path>/play/personae[1]/character[9]/name[1]</path>
-			<orig>DR</orig>
-			<corr>DR Schwarzkopf</corr>
-			<comment>Vgl. Personenliste des 4. Bildes</comment>
-		</change>
-	</documentation>
+  <documentation>
+    <change n="1" type="adjustSpeaker" who="dariokampkaspar">
+      <path>/play/personae[1]/character[9]/name[1]</path>
+      <orig>DR</orig>
+      <corr>DR Schwarzkopf</corr>
+      <comment>Vgl. Personenliste des 4. Bildes</comment>
+    </change>
+  </documentation>
 </play>

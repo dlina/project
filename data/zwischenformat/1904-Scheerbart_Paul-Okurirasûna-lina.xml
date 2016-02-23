@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?><play xmlns="http://lina.digital">
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital" id="112">
   <header>
     <title>Okurirasûna</title>
-  	<subtitle>Grosse Weltkomödie in fünf Akten</subtitle>
-  	<genretitle>Komödie</genretitle>
+    <subtitle>Grosse Weltkomödie in fünf Akten</subtitle>
+    <genretitle>Komödie</genretitle>
     <author key="pnd:118606816">Scheerbart, Paul</author>
-  	<date when="1904" type="print"/>
-  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:tvb0.0/data</source>
+    <date when="1904" type="print"/>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:tvb0.0/data</source>
   </header>
   <personae>
     <character>
@@ -316,12 +318,12 @@
       </div>
     </div>
   </text>
-	<documentation>
-		<change n="1" type="expandCollective" who="dariokampkaspar">
-			<path>/play/text[1]/div[3]/div[1]/sp[4]</path>
-			<orig>#alle_andern_räte</orig>
-			<corr>#[erster...sechster]_rat</corr>
-			<comment>Alle außer Graf Abgrund</comment>
-		</change>
-	</documentation>
+  <documentation>
+    <change n="1" type="expandCollective" who="dariokampkaspar">
+      <path>/play/text[1]/div[3]/div[1]/sp[4]</path>
+      <orig>#alle_andern_räte</orig>
+      <corr>#[erster...sechster]_rat</corr>
+      <comment>Alle außer Graf Abgrund</comment>
+    </change>
+  </documentation>
 </play>

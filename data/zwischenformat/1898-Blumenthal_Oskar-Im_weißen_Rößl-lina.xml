@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?><play xmlns="http://lina.digital">
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital" id="165">
   <header>
     <title>Im weißen Rößl</title>
     <subtitle>Lustspiel in drei Aufzügen</subtitle>
     <genretitle>Lustspiel</genretitle>
     <author key="pnd:118659111">Blumenthal, Oskar</author>
     <author key="pnd:116015675">Kadelburg, Gustav</author>
-  	<date when="1898" type="print"/>
-  	<date when="1898" type="premiere"/>
-  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:knb2.0/data</source>
+    <date when="1898" type="print"/>
+    <date when="1898" type="premiere"/>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:knb2.0/data</source>
   </header>
   <personae>
     <character>
@@ -124,12 +126,12 @@
       <alias xml:id="reisender">
         <name>REISENDER</name>
       </alias>
-    	<alias xml:id="reuender">
-    		<name>REUENDER</name>
-    	</alias>
-    	<alias xml:id="reitender">
-    		<name>REITENDER</name>
-    	</alias>
+      <alias xml:id="reuender">
+        <name>REUENDER</name>
+      </alias>
+      <alias xml:id="reitender">
+        <name>REITENDER</name>
+      </alias>
     </character>
     <character>
       <name>HOCHTOURIST</name>
@@ -142,12 +144,12 @@
       <alias xml:id="dr">
         <name>DR</name>
       </alias>
-    	<alias xml:id="bernbach">
-    		<name>BERNBACH</name>
-    	</alias>
-    	<alias xml:id="bernbacher">
-    		<name>BERNBACHER</name>
-    	</alias>
+      <alias xml:id="bernbach">
+        <name>BERNBACH</name>
+      </alias>
+      <alias xml:id="bernbacher">
+        <name>BERNBACHER</name>
+      </alias>
     </character>
     <character>
       <name>EMMY</name>
@@ -160,9 +162,9 @@
       <alias xml:id="melanie_schmidt">
         <name>MELANIE SCHMIDT</name>
       </alias>
-    	<alias xml:id="melanie">
-    		<name>MELANIE</name>
-    	</alias>
+      <alias xml:id="melanie">
+        <name>MELANIE</name>
+      </alias>
     </character>
     <character>
       <name>RÄTIN SCHMIDT</name>
@@ -229,25 +231,25 @@
       <alias xml:id="klärchen">
         <name>KLÄRCHEN</name>
       </alias>
-    	<alias xml:id="klärehen">
-    		<name>KLÄREHEN</name>
-    	</alias>
-    	<alias xml:id="märchen">
-    		<name>MÄRCHEN</name>
-    	</alias>
+      <alias xml:id="klärehen">
+        <name>KLÄREHEN</name>
+      </alias>
+      <alias xml:id="märchen">
+        <name>MÄRCHEN</name>
+      </alias>
     </character>
-  	<character>
-  		<name>Joseph</name>
-  		<alias xml:id="joseph">
-  			<name>Joseph</name>
-  		</alias>
-  	</character>
-  	<character>
-  		<name>Martin</name>
-  		<alias xml:id="martin">
-  			<name>Martin</name>
-  		</alias>
-  	</character>
+    <character>
+      <name>Joseph</name>
+      <alias xml:id="joseph">
+        <name>Joseph</name>
+      </alias>
+    </character>
+    <character>
+      <name>Martin</name>
+      <alias xml:id="martin">
+        <name>Martin</name>
+      </alias>
+    </character>
   </personae>
   <text>
     <div>
@@ -1448,24 +1450,24 @@
       </div>
     </div>
   </text>
-	<documentation>
-		<change n="1" who="dariokampkaspar" type="adjustSpeaker">
-			<path/>
-			<orig>character »reuender«, character »reitender«</orig>
-			<corr>Alias zu »reisender«</corr>
-			<comment>OCR-Fehler: jew. einmalig auf in einem Dialog des Reisenden</comment>
-		</change>
-		<change n="2" who="dariokampkaspar">
-			<path>/play/personae[1]/character[21]/name[1]</path>
-			<orig>DR</orig>
-			<corr>DR Bernbach</corr>
-			<comment>Name ist durch falsche Zuordnung als Bühnenanweisung kodiert, vgl. Original</comment>
-		</change>
-		<change n="3" who="dariokampkaspar">
-			<path/>
-			<orig>character »Bernbacher«</orig>
-			<corr>Alias zu »DR [Bernbach]«</corr>
-			<comment>Name erscheint ausschließlich in II,4; keine solche Person im Verzeichnis der Vorlage.</comment>
-		</change>
-	</documentation>
+  <documentation>
+    <change n="1" who="dariokampkaspar" type="adjustSpeaker">
+      <path/>
+      <orig>character »reuender«, character »reitender«</orig>
+      <corr>Alias zu »reisender«</corr>
+      <comment>OCR-Fehler: jew. einmalig auf in einem Dialog des Reisenden</comment>
+    </change>
+    <change n="2" who="dariokampkaspar">
+      <path>/play/personae[1]/character[21]/name[1]</path>
+      <orig>DR</orig>
+      <corr>DR Bernbach</corr>
+      <comment>Name ist durch falsche Zuordnung als Bühnenanweisung kodiert, vgl. Original</comment>
+    </change>
+    <change n="3" who="dariokampkaspar">
+      <path/>
+      <orig>character »Bernbacher«</orig>
+      <corr>Alias zu »DR [Bernbach]«</corr>
+      <comment>Name erscheint ausschließlich in II,4; keine solche Person im Verzeichnis der Vorlage.</comment>
+    </change>
+  </documentation>
 </play>

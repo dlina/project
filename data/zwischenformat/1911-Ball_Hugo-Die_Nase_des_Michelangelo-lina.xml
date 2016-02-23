@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?><play xmlns="http://lina.digital">
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital" id="75">
   <header>
     <title>Die Nase des Michelangelo</title>
     <subtitle>Tragikomödie</subtitle>
-  	<genretitle>Tragikomödie</genretitle>
+    <genretitle>Tragikomödie</genretitle>
     <author key="pnd:118506234">Ball, Hugo</author>
     <date when="1911" type="print"/>
     <date when="1908" type="written"/>
-  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:12675.0/data</source>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:12675.0/data</source>
   </header>
   <personae>
     <character>
@@ -63,18 +65,18 @@
       <alias xml:id="kardinal_aus_dem_gefolge">
         <name>KARDINAL AUS DEM GEFOLGE</name>
       </alias>
-    	<alias xml:id="kardinal">
-    		<name>KARDINAL</name>
-    	</alias>
+      <alias xml:id="kardinal">
+        <name>KARDINAL</name>
+      </alias>
     </character>
     <character>
       <name>STIMMEN AUS DEM VOLK</name>
       <alias xml:id="stimmen_aus_dem_volk">
         <name>STIMMEN AUS DEM VOLK</name>
       </alias>
-    	<alias xml:id="stimmen">
-    		<name>STIMMEN</name>
-    	</alias>
+      <alias xml:id="stimmen">
+        <name>STIMMEN</name>
+      </alias>
     </character>
   </personae>
   <text>
@@ -232,18 +234,18 @@
       </div>
     </div>
   </text>
-	<documentation>
-		<change n="1" who="dariokampkaspar" type="adjustSpeaker">
-			<path/>
-			<orig>character »stimmen«</orig>
-			<corr>Alias zu »stimmen aus dem volk«</corr>
-			<comment>nur durch drei Zeilen Michelangelos getrennt.</comment>
-		</change>
-		<change n="2" who="dariokampkaspar" type="adjustSpeaker">
-			<path/>
-			<orig>character »kardinal«</orig>
-			<corr>Alias zu »kardinal aus dem gefolge«</corr>
-			<comment>Jeweils nur ein Sprechakt; erscheinen in gleicher Szene. Es wäre aber denkbar, daß es sich um getrennte Figuren handeln soll, hier wäre statt der Kurzform jedoch eher »ein anderer kardinal« zu erwarten gewesen.</comment>
-		</change>
-	</documentation>
+  <documentation>
+    <change n="1" who="dariokampkaspar" type="adjustSpeaker">
+      <path/>
+      <orig>character »stimmen«</orig>
+      <corr>Alias zu »stimmen aus dem volk«</corr>
+      <comment>nur durch drei Zeilen Michelangelos getrennt.</comment>
+    </change>
+    <change n="2" who="dariokampkaspar" type="adjustSpeaker">
+      <path/>
+      <orig>character »kardinal«</orig>
+      <corr>Alias zu »kardinal aus dem gefolge«</corr>
+      <comment>Jeweils nur ein Sprechakt; erscheinen in gleicher Szene. Es wäre aber denkbar, daß es sich um getrennte Figuren handeln soll, hier wäre statt der Kurzform jedoch eher »ein anderer kardinal« zu erwarten gewesen.</comment>
+    </change>
+  </documentation>
 </play>

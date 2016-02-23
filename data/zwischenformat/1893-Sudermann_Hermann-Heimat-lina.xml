@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?><play xmlns="http://lina.digital">
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital" id="100">
   <header>
     <title>Heimat</title>
-  	<subtitle>Schauspiel in vier Akten</subtitle>
+    <subtitle>Schauspiel in vier Akten</subtitle>
     <genretitle>Schauspiel</genretitle>
     <author key="pnd:118619853">Sudermann, Hermann</author>
-  	<date when="1893" type="print"/>
-  	<date when="1893" type="premiere"/>
-  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:w407.0/data</source>
+    <date when="1893" type="print"/>
+    <date when="1893" type="premiere"/>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:w407.0/data</source>
   </header>
   <personae>
     <character>
@@ -1412,11 +1414,11 @@
       </div>
     </div>
   </text>
-	<documentation>
-		<change n="1" who="dariokampkaspar">
-			<path>/play/text[1]/div[6]/div[13]/div[1]/sp[7]</path>
-			<orig>Element sp</orig>
-			<comment>sp (und zugehöriger, fehlerhafter character) gelöscht, da in Vorlage falsch kodierte Bühnenanweisung</comment>
-		</change>
-	</documentation>
+  <documentation>
+    <change n="1" who="dariokampkaspar">
+      <path>/play/text[1]/div[6]/div[13]/div[1]/sp[7]</path>
+      <orig>Element sp</orig>
+      <comment>sp (und zugehöriger, fehlerhafter character) gelöscht, da in Vorlage falsch kodierte Bühnenanweisung</comment>
+    </change>
+  </documentation>
 </play>

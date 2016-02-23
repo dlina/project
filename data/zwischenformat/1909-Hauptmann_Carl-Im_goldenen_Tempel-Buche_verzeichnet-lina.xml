@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?><play xmlns="http://lina.digital">
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital" id="288">
   <header>
     <title>Im goldenen Tempel-Buche verzeichnet</title>
     <subtitle>Panspiele</subtitle>
     <genretitle/>
     <author key="pnd:118546910">Hauptmann, Carl</author>
     <date when="1909" type="print"/>
-  	<date when="1910" type="premiere"/>
-  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:pkj1.0/data</source>
+    <date when="1910" type="premiere"/>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:pkj1.0/data</source>
   </header>
   <personae>
     <character>
@@ -21,9 +23,9 @@
       <alias xml:id="die_mutter">
         <name>DIE MUTTER</name>
       </alias>
-    	<alias xml:id="tozi">
-    		<name>TOZI</name>
-    	</alias>
+      <alias xml:id="tozi">
+        <name>TOZI</name>
+      </alias>
     </character>
     <character>
       <name>GIWAU</name>
@@ -42,18 +44,18 @@
       <alias xml:id="hotoke">
         <name>HOTOKE</name>
       </alias>
-    	<alias xml:id="stimme">
-    		<name>STIMME</name>
-    	</alias>
+      <alias xml:id="stimme">
+        <name>STIMME</name>
+      </alias>
     </character>
     <character>
       <name>EIN DIENER</name>
       <alias xml:id="ein_diener">
         <name>EIN DIENER</name>
       </alias>
-    	<alias xml:id="der_diener">
-    		<name>DER DIENER</name>
-    	</alias>
+      <alias xml:id="der_diener">
+        <name>DER DIENER</name>
+      </alias>
     </character>
     <character>
       <name>DIE KAMMERFRAU</name>
@@ -214,12 +216,12 @@
       </div>
     </div>
   </text>
-	<documentation>
-		<change n="1" who="dariokampkaspar" type="adjustSpeaker">
-			<path/>
-			<orig>character »stimme«</orig>
-			<corr>Alias von »Hotoke«</corr>
-			<comment>Vgl. im Original /tei:teiCorpus/tei:TEI[1]/tei:text[1]/tei:body[1]/tei:div[2]/tei:div[2]/tei:div[1]/tei:sp[12]/tei:stage[1]</comment>
-		</change>
-	</documentation>
+  <documentation>
+    <change n="1" who="dariokampkaspar" type="adjustSpeaker">
+      <path/>
+      <orig>character »stimme«</orig>
+      <corr>Alias von »Hotoke«</corr>
+      <comment>Vgl. im Original /tei:teiCorpus/tei:TEI[1]/tei:text[1]/tei:body[1]/tei:div[2]/tei:div[2]/tei:div[1]/tei:sp[12]/tei:stage[1]</comment>
+    </change>
+  </documentation>
 </play>

@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?><play xmlns="http://lina.digital">
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital" id="77">
   <header>
     <title>Perdu! oder Dichter, Verleger und Blaustrümpfe</title>
-  	<subtitle>Lustspiel in einem Akte</subtitle>
-  	<genretitle>Lustspiel</genretitle>
+    <subtitle>Lustspiel in einem Akte</subtitle>
+    <genretitle>Lustspiel</genretitle>
     <author key="pnd:118527533">Droste-Hülshoff, Annette von</author>
     <date when="1840" type="written"/>
-  	<date when="1886" type="print"/>
-  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:mjbp.0/data</source>
+    <date when="1886" type="print"/>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:mjbp.0/data</source>
   </header>
   <personae>
     <character>
@@ -39,45 +41,45 @@
       <alias xml:id="claudine_briesen">
         <name>CLAUDINE BRIESEN</name>
       </alias>
-    	<alias xml:id="claudine">
-    		<name>CLAUDINE</name>
-    	</alias>
+      <alias xml:id="claudine">
+        <name>CLAUDINE</name>
+      </alias>
     </character>
     <character>
       <name>FRAU VON AUSTEN</name>
       <alias xml:id="frau_von_austen">
         <name>FRAU VON AUSTEN</name>
       </alias>
-    	<alias xml:id="austen_stimme" type="voiceOf">
-    		<name>EINE STIMME</name>
-    	</alias>
+      <alias xml:id="austen_stimme" type="voiceOf">
+        <name>EINE STIMME</name>
+      </alias>
     </character>
     <character>
       <name>SONDERRATH</name>
       <alias xml:id="sonderrath">
         <name>SONDERRATH</name>
       </alias>
-    	<alias xml:id="sonderrath_stimme">
-    		<name>Stimme</name>
-    	</alias>
+      <alias xml:id="sonderrath_stimme">
+        <name>Stimme</name>
+      </alias>
     </character>
     <character>
       <name>SEYBOLD</name>
       <alias xml:id="seybold">
         <name>SEYBOLD</name>
       </alias>
-    	<alias xml:id="seybold_stimme">
-    		<name>Stimme</name>
-    	</alias>
+      <alias xml:id="seybold_stimme">
+        <name>Stimme</name>
+      </alias>
     </character>
     <character>
       <name>EIN DIENER</name>
       <alias xml:id="ein_diener">
         <name>EIN DIENER</name>
       </alias>
-    	<alias xml:id="diener">
-    		<name>DIENER</name>
-    	</alias>
+      <alias xml:id="diener">
+        <name>DIENER</name>
+      </alias>
     </character>
     <character>
       <name>FRAU VON THIELEN</name>

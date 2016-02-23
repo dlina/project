@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?><play xmlns="http://lina.digital">
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital" id="418">
   <header>
     <title>Odysseus</title>
     <subtitle>Dramatische Phantasie</subtitle>
     <genretitle/>
     <author key="pnd:118798065">Sorge, Reinhard Johannes</author>
     <date when="1912" type="print"/>
-  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:vpvx.0/data</source>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:vpvx.0/data</source>
   </header>
   <personae>
     <character>
@@ -14,9 +16,9 @@
       <alias xml:id="erster_freier">
         <name>ERSTER FREIER</name>
       </alias>
-    	<alias xml:id="erster_gegensprecher">
-    		<name>ERSTER GEGENSPRECHER</name>
-    	</alias>
+      <alias xml:id="erster_gegensprecher">
+        <name>ERSTER GEGENSPRECHER</name>
+      </alias>
     </character>
     <character>
       <name>CHOR</name>
@@ -29,30 +31,30 @@
       <alias xml:id="zweiter_freier">
         <name>ZWEITER FREIER</name>
       </alias>
-    	<alias xml:id="zweiter_gegensprecher">
-    		<name>ZWEITER GEGENSPRECHER</name>
-    	</alias>
+      <alias xml:id="zweiter_gegensprecher">
+        <name>ZWEITER GEGENSPRECHER</name>
+      </alias>
     </character>
     <character>
       <name>DRITTER FREIER</name>
       <alias xml:id="dritter_freier">
         <name>DRITTER FREIER</name>
       </alias>
-    	<alias xml:id="chorsprecher">
-    		<name>CHORSPRECHER</name>
-    	</alias>
-    	<alias xml:id="der_chorsprecher">
-    		<name>DER CHORSPRECHER</name>
-    	</alias>
+      <alias xml:id="chorsprecher">
+        <name>CHORSPRECHER</name>
+      </alias>
+      <alias xml:id="der_chorsprecher">
+        <name>DER CHORSPRECHER</name>
+      </alias>
     </character>
     <character>
       <name>SÄNGER</name>
       <alias xml:id="sänger">
         <name>SÄNGER</name>
       </alias>
-    	<alias xml:id="der_sänger">
-    		<name>DER SÄNGER</name>
-    	</alias>
+      <alias xml:id="der_sänger">
+        <name>DER SÄNGER</name>
+      </alias>
     </character>
     <character>
       <name>TELEMACHOS</name>
@@ -269,18 +271,18 @@
       </div>
     </div>
   </text>
-	<documentation>
-		<change n="1" who="dariokampkaspar">
-			<path/>
-			<orig>character »CHORSPRECHER«</orig>
-			<corr>Alias von »Dritter Freier«</corr>
-			<comment>Zuordnung nach Personenliste der Vorlage</comment>
-		</change>
-		<change n="2" who="dariokampkaspar">
-			<path/>
-			<orig>character »[erster|zweiter] gegensprecher«</orig>
-			<corr>Alias zu »[erster|zweiter] freier«</corr>
-			<comment>Zuordnung nach Personenliste der Vorlage</comment>
-		</change>
-	</documentation>
+  <documentation>
+    <change n="1" who="dariokampkaspar">
+      <path/>
+      <orig>character »CHORSPRECHER«</orig>
+      <corr>Alias von »Dritter Freier«</corr>
+      <comment>Zuordnung nach Personenliste der Vorlage</comment>
+    </change>
+    <change n="2" who="dariokampkaspar">
+      <path/>
+      <orig>character »[erster|zweiter] gegensprecher«</orig>
+      <corr>Alias zu »[erster|zweiter] freier«</corr>
+      <comment>Zuordnung nach Personenliste der Vorlage</comment>
+    </change>
+  </documentation>
 </play>

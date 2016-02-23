@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?><play xmlns="http://lina.digital">
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital" id="23">
   <header>
     <title>Hidalla oder Sein und Haben</title>
     <subtitle>Schauspiel in fünf Akten</subtitle>
     <genretitle>Schauspiel</genretitle>
     <author key="pnd:118629867">Wedekind, Frank</author>
-  	<date when="1903" type="written"/>
-  	<date when="1904" type="print"/>
-  	<date when="1905" type="premiere"/>
-  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:x390.0/data</source>
+    <date when="1903" type="written"/>
+    <date when="1904" type="print"/>
+    <date when="1905" type="premiere"/>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:x390.0/data</source>
   </header>
   <personae>
     <character>
@@ -34,9 +36,9 @@
       <alias xml:id="berta_launhart">
         <name>BERTA LAUNHART</name>
       </alias>
-    	<alias xml:id="berta">
-    		<name>BERTA</name>
-    	</alias>
+      <alias xml:id="berta">
+        <name>BERTA</name>
+      </alias>
     </character>
     <character>
       <name>FANNY</name>
@@ -386,18 +388,18 @@
       </div>
     </div>
   </text>
-	<documentation>
-		<change n="1" type="adjustSpeaker" who="dariokampkaspar">
-			<path>/play/personae[1]/character[9]/name[1]</path>
-			<orig>MRS</orig>
-			<corr>MRS Grant</corr>
-			<comment>Nach Personenverzeichnis der Vorlage</comment>
-		</change>
-		<change n="2" type="adjustSpeaker" who="dariokampkaspar">
-			<path>/play/personae[1]/character[12]/name[1]</path>
-			<orig>DR</orig>
-			<corr>Dr Mittenbach</corr>
-			<comment>Nach Personenverzeichnis der Vorlage</comment>
-		</change>
-	</documentation>
+  <documentation>
+    <change n="1" type="adjustSpeaker" who="dariokampkaspar">
+      <path>/play/personae[1]/character[9]/name[1]</path>
+      <orig>MRS</orig>
+      <corr>MRS Grant</corr>
+      <comment>Nach Personenverzeichnis der Vorlage</comment>
+    </change>
+    <change n="2" type="adjustSpeaker" who="dariokampkaspar">
+      <path>/play/personae[1]/character[12]/name[1]</path>
+      <orig>DR</orig>
+      <corr>Dr Mittenbach</corr>
+      <comment>Nach Personenverzeichnis der Vorlage</comment>
+    </change>
+  </documentation>
 </play>

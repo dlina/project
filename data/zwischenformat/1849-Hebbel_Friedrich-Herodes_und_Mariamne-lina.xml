@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?><play xmlns="http://lina.digital">
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital" id="101">
   <header>
     <title>Herodes und Mariamne</title>
-  	<subtitle>Eine Tragödie in fünf Akten</subtitle>
-  	<genretitle>Tragödie</genretitle>
+    <subtitle>Eine Tragödie in fünf Akten</subtitle>
+    <genretitle>Tragödie</genretitle>
     <author key="pnd:118547445">Hebbel, Friedrich</author>
-  	<date when="1850" type="print"/>
-  	<date when="1849" type="premiere"/>
-  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:pmgg.0/data</source>
+    <date when="1850" type="print"/>
+    <date when="1849" type="premiere"/>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:pmgg.0/data</source>
   </header>
   <personae>
     <character>
@@ -51,18 +53,18 @@
       <alias xml:id="ein_diener">
         <name>EIN DIENER</name>
       </alias>
-    	<alias xml:id="der_diener">
-    		<name>DER DIENER</name>
-    	</alias>
+      <alias xml:id="der_diener">
+        <name>DER DIENER</name>
+      </alias>
     </character>
     <character>
       <name>MARIAMNE</name>
       <alias xml:id="mariamne">
         <name>MARIAMNE</name>
       </alias>
-    	<alias xml:id="marianne">
-    		<name>MARIANNE</name>
-    	</alias>
+      <alias xml:id="marianne">
+        <name>MARIANNE</name>
+      </alias>
     </character>
     <character>
       <name>JOSEPH</name>
@@ -99,9 +101,9 @@
       <alias xml:id="ein_bote">
         <name>EIN BOTE</name>
       </alias>
-    	<alias xml:id="bote">
-    		<name>BOTE</name>
-    	</alias>
+      <alias xml:id="bote">
+        <name>BOTE</name>
+      </alias>
     </character>
     <character>
       <name>MOSES</name>

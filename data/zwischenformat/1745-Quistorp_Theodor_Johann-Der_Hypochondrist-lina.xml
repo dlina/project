@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?><play xmlns="http://lina.digital">
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital" id="192">
   <header>
     <title>Der Hypochondrist</title>
     <subtitle>Ein deutsches Lustspiel</subtitle>
@@ -789,36 +791,36 @@
       </div>
     </div>
   </text>
-<documentation>
-  <change n="1" type="other" who="peertrilcke">
-    <path>/play/personae[1]</path>
-    <orig/>
-    <corr>#</corr>
-    <comment>zwei Dr. angelegt: DR. MUSKAT und DR. KREBSSTEIN</comment>
-  </change>
-  <change n="2" type="other" who="peertrilcke">
-    <path>/play/text[1]/div[3]/div[1]/div[1]</path>
-    <orig>dr</orig>
-    <corr>dr_muskat</corr>
-    <comment/>
-  </change>
-  <change n="3" type="other" who="peertrilcke">
-    <path>/play/text[1]/div[4]/div[6]/div[1]</path>
-    <orig>dr</orig>
-    <corr>dr_krebsstein</corr>
-    <comment/>
-  </change>
-  <change n="4" type="other" who="peertrilcke">
-    <path>/play/text[1]/div[5]/div[4]/div[1]</path>
-    <orig>dr</orig>
-    <corr>dr_muskat</corr>
-    <comment/>
-  </change>
-  <change n="5" type="other" who="peertrilcke">
-    <path>/play/text[1]/div[5]/div[5]/div[1]</path>
-    <orig>dr</orig>
-    <corr>dr_muskat</corr>
-    <comment/>
-  </change>
-</documentation>
+  <documentation>
+    <change n="1" type="other" who="peertrilcke">
+      <path>/play/personae[1]</path>
+      <orig/>
+      <corr>#</corr>
+      <comment>zwei Dr. angelegt: DR. MUSKAT und DR. KREBSSTEIN</comment>
+    </change>
+    <change n="2" type="other" who="peertrilcke">
+      <path>/play/text[1]/div[3]/div[1]/div[1]</path>
+      <orig>dr</orig>
+      <corr>dr_muskat</corr>
+      <comment/>
+    </change>
+    <change n="3" type="other" who="peertrilcke">
+      <path>/play/text[1]/div[4]/div[6]/div[1]</path>
+      <orig>dr</orig>
+      <corr>dr_krebsstein</corr>
+      <comment/>
+    </change>
+    <change n="4" type="other" who="peertrilcke">
+      <path>/play/text[1]/div[5]/div[4]/div[1]</path>
+      <orig>dr</orig>
+      <corr>dr_muskat</corr>
+      <comment/>
+    </change>
+    <change n="5" type="other" who="peertrilcke">
+      <path>/play/text[1]/div[5]/div[5]/div[1]</path>
+      <orig>dr</orig>
+      <corr>dr_muskat</corr>
+      <comment/>
+    </change>
+  </documentation>
 </play>

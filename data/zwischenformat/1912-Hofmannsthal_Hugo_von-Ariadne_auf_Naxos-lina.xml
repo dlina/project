@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?><play xmlns="http://lina.digital">
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital" id="267">
   <header>
     <title>Ariadne auf Naxos</title>
     <subtitle>Oper in einem Aufzuge nebst einem Vorspiel</subtitle>
@@ -81,12 +83,12 @@
       <alias xml:id="tenor">
         <name>TENOR</name>
       </alias>
-    	<alias xml:id="bacchus">
-    		<name>BACCHUS</name>
-    	</alias>
-    	<alias xml:id="der_tenor">
-    		<name>DER TENOR</name>
-    	</alias>
+      <alias xml:id="bacchus">
+        <name>BACCHUS</name>
+      </alias>
+      <alias xml:id="der_tenor">
+        <name>DER TENOR</name>
+      </alias>
     </character>
     <character>
       <name>NAJADE</name>

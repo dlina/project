@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?><play xmlns="http://lina.digital">
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital" id="37">
   <header>
     <title>Die Medaille</title>
     <subtitle>Komödie in einem Akt</subtitle>
     <genretitle>Komödie</genretitle>
     <author key="pnd:118622072">Thoma, Ludwig</author>
-  	<date when="1901" type="print"/>
-  	<date when="1901" type="premiere"/>
-  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:wc9p.0/data</source>
+    <date when="1901" type="print"/>
+    <date when="1901" type="premiere"/>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:wc9p.0/data</source>
   </header>
   <personae>
     <character>
@@ -57,18 +59,18 @@
       <alias xml:id="häberlein">
         <name>HÄBERLEIN</name>
       </alias>
-    	<alias xml:id="haberlein">
-    		<name>HABERLEIN</name>
-    	</alias>
+      <alias xml:id="haberlein">
+        <name>HABERLEIN</name>
+      </alias>
     </character>
     <character>
       <name>GRUBHOFER</name>
       <alias xml:id="grubhofer">
         <name>GRUBHOFER</name>
       </alias>
-    	<alias xml:id="grubhoper">
-    		<name>GRUBHOPER</name>
-    	</alias>
+      <alias xml:id="grubhoper">
+        <name>GRUBHOPER</name>
+      </alias>
     </character>
     <character>
       <name>MERKL</name>
@@ -81,9 +83,9 @@
       <alias xml:id="neusigl">
         <name>NEUSIGL</name>
       </alias>
-    	<alias xml:id="peter_neusigl">
-    		<name>PETER NEUSIGL</name>
-    	</alias>
+      <alias xml:id="peter_neusigl">
+        <name>PETER NEUSIGL</name>
+      </alias>
     </character>
     <character>
       <name>FRAU NEUSIGL</name>

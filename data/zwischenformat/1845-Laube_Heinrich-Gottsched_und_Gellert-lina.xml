@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?><play xmlns="http://lina.digital">
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital" id="63">
   <header>
     <title>Gottsched und Gellert</title>
-  	<subtitle>Charakterlustspiel in fünf Akten</subtitle>
-  	<genretitle>Lustspiel</genretitle>
+    <subtitle>Charakterlustspiel in fünf Akten</subtitle>
+    <genretitle>Lustspiel</genretitle>
     <author key="pnd:118570080">Laube, Heinrich</author>
     <date when="1845" type="written"/>
-  	<date when="1845" type="premiere"/>
-  	<date when="1846" type="print"/>
-  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:rfct.0/data</source>
+    <date when="1845" type="premiere"/>
+    <date when="1846" type="print"/>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:rfct.0/data</source>
   </header>
   <personae>
     <character>
@@ -34,9 +36,9 @@
       <alias xml:id="graf_bolza">
         <name>GRAF BOLZA</name>
       </alias>
-    	<alias xml:id="bolza">
-    		<name>BOLZA</name>
-    	</alias>
+      <alias xml:id="bolza">
+        <name>BOLZA</name>
+      </alias>
     </character>
     <character>
       <name>GOTTFRIED</name>
@@ -85,9 +87,9 @@
       <alias xml:id="prinz_heinrich">
         <name>PRINZ HEINRICH</name>
       </alias>
-    	<alias xml:id="prinz">
-    		<name>PRINZ</name>
-    	</alias>
+      <alias xml:id="prinz">
+        <name>PRINZ</name>
+      </alias>
     </character>
     <character>
       <name>ZASTROW</name>

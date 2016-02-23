@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?><play xmlns="http://lina.digital">
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital" id="154">
   <header>
     <title>Alfonso und Estrella</title>
-  	<subtitle>Romantische Oper in drei Akten</subtitle>
+    <subtitle>Romantische Oper in drei Akten</subtitle>
     <genretitle>Oper</genretitle>
     <author key="pnd:116849436">Schober, Franz von</author>
     <date when="1854" type="premiere"/>
-  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:v401.0/data</source>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:v401.0/data</source>
   </header>
   <personae>
     <character>
@@ -14,9 +16,9 @@
       <alias xml:id="chor">
         <name>CHOR</name>
       </alias>
-    	<alias xml:id="allgemeiner_chor">
-    		<name>ALLGEMEINER CHOR</name>
-    	</alias>
+      <alias xml:id="allgemeiner_chor">
+        <name>ALLGEMEINER CHOR</name>
+      </alias>
     </character>
     <character>
       <name>EDWIGA</name>
@@ -83,18 +85,18 @@
       <alias xml:id="krieger">
         <name>KRIEGER</name>
       </alias>
-    	<alias xml:id="chor_der_krieger">
-    		<name>Chor der Krieger</name>
-    	</alias>
+      <alias xml:id="chor_der_krieger">
+        <name>Chor der Krieger</name>
+      </alias>
     </character>
     <character>
       <name>VOLK</name>
       <alias xml:id="volk">
         <name>VOLK</name>
       </alias>
-    	<alias xml:id="chor_des_volkes">
-    		<name>Chor des Volkes</name>
-    	</alias>
+      <alias xml:id="chor_des_volkes">
+        <name>Chor des Volkes</name>
+      </alias>
     </character>
     <character>
       <name>ADOLFO</name>
@@ -137,19 +139,19 @@
       <alias xml:id="chor_der_jäger">
         <name>CHOR DER JÄGER</name>
       </alias>
-    	<alias xml:id="jägerchor">
-    		<name>JÄGERCHOR</name>
-    	</alias>
+      <alias xml:id="jägerchor">
+        <name>JÄGERCHOR</name>
+      </alias>
     </character>
-  	<character>
-  		<name>HOFSTAAT</name>
-  		<alias xml:id="hofstaat">
-  			<name>Hofstaat</name>
-  		</alias>
-  		<alias xml:id="chor_des_hofstaates">
-  			<name>Chor des hofstaates</name>
-  		</alias>
-  	</character>
+    <character>
+      <name>HOFSTAAT</name>
+      <alias xml:id="hofstaat">
+        <name>Hofstaat</name>
+      </alias>
+      <alias xml:id="chor_des_hofstaates">
+        <name>Chor des hofstaates</name>
+      </alias>
+    </character>
   </personae>
   <text>
     <div>

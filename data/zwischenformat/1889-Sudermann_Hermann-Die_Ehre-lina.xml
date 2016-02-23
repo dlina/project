@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?><play xmlns="http://lina.digital">
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital" id="107">
   <header>
     <title>Die Ehre</title>
     <subtitle/>
     <genretitle/>
     <author key="pnd:118619853">Sudermann, Hermann</author>
-  	<date when="1889" type="print"/>
-  	<date when="1889" type="premiere"/>
-  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:w40n.0/data</source>
+    <date when="1889" type="print"/>
+    <date when="1889" type="premiere"/>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:w40n.0/data</source>
   </header>
   <personae>
     <character>
@@ -57,9 +59,9 @@
       <alias xml:id="alma">
         <name>ALMA</name>
       </alias>
-    	<alias xml:id="almas_stimme" type="voiceOf">
-    		<name>ALMAS STIMME</name>
-    	</alias>
+      <alias xml:id="almas_stimme" type="voiceOf">
+        <name>ALMAS STIMME</name>
+      </alias>
     </character>
     <character>
       <name>TRAST</name>
@@ -1510,22 +1512,22 @@
       </div>
     </div>
   </text>
-	<documentation>
-		<change n="1" who="dariokampkaspar" type="expandCollective">
-			<path>/play/text[1]/div[3]/div[7]/div[1]/sp[1]</path>
-			<orig>#alle</orig>
-			<comment>Lt. Text: Alle außer Robert und offenkundig nicht der angesprochene Wilhelm.</comment>
-		</change>
-		<change n="2" who="dariokampkaspar">
-			<path>/play/text[1]/div[3]/div[8]/div[1]/sp[7]</path>
-			<orig>sp</orig>
-			<comment>sp gelöscht: Formatierung läßt darauf schließen, daß der Sprechakt Heineckes weitergeht und nur durch eine Bühnenanweisung unterbrochen wird, die fälschlich als eigener Sprechakt kodiert wurde.</comment>
-		</change>
-		<change n="3" who="dariokampkaspar">
-			<path>/play/text[1]/div[5]/div[8]/div[1]/sp[5]/@who</path>
-			<orig>#beide</orig>
-			<corr>#michalski #frau_heinecke</corr>
-			<comment>auch »#frau_heinecke #auguste« denkbar.</comment>
-		</change>
-	</documentation>
+  <documentation>
+    <change n="1" who="dariokampkaspar" type="expandCollective">
+      <path>/play/text[1]/div[3]/div[7]/div[1]/sp[1]</path>
+      <orig>#alle</orig>
+      <comment>Lt. Text: Alle außer Robert und offenkundig nicht der angesprochene Wilhelm.</comment>
+    </change>
+    <change n="2" who="dariokampkaspar">
+      <path>/play/text[1]/div[3]/div[8]/div[1]/sp[7]</path>
+      <orig>sp</orig>
+      <comment>sp gelöscht: Formatierung läßt darauf schließen, daß der Sprechakt Heineckes weitergeht und nur durch eine Bühnenanweisung unterbrochen wird, die fälschlich als eigener Sprechakt kodiert wurde.</comment>
+    </change>
+    <change n="3" who="dariokampkaspar">
+      <path>/play/text[1]/div[5]/div[8]/div[1]/sp[5]/@who</path>
+      <orig>#beide</orig>
+      <corr>#michalski #frau_heinecke</corr>
+      <comment>auch »#frau_heinecke #auguste« denkbar.</comment>
+    </change>
+  </documentation>
 </play>

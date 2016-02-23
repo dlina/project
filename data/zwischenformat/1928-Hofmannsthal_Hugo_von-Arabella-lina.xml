@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?><play xmlns="http://lina.digital">
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital" id="210">
   <header>
     <title>Arabella</title>
     <subtitle>Lyrische Komödie in drei Aufzügen</subtitle>
@@ -120,12 +122,12 @@
         <name>DIE SPIELER</name>
       </alias>
     </character>
-  	<character>
-  		<name>FIAKER</name>
-  		<alias xml:id="fiaker">
-  			<name>Fiaker</name>
-  		</alias>
-  	</character>
+    <character>
+      <name>FIAKER</name>
+      <alias xml:id="fiaker">
+        <name>Fiaker</name>
+      </alias>
+    </character>
   </personae>
   <text>
     <div>

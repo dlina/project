@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?><play xmlns="http://lina.digital">
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital" id="97">
   <header>
     <title>Die Wurzeln der Wohlhabenheit</title>
-  	<subtitle>Ein schildbürgerliches Schauspiel in fünf Akten</subtitle>
+    <subtitle>Ein schildbürgerliches Schauspiel in fünf Akten</subtitle>
     <genretitle>Schauspiel</genretitle>
     <author key="pnd:118606816">Scheerbart, Paul</author>
-  	<date when="1904" type="print"/>
-  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:tvcm.0/data</source>
+    <date when="1904" type="print"/>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:tvcm.0/data</source>
   </header>
   <personae>
     <character>
@@ -62,9 +64,9 @@
       <alias xml:id="kaiser">
         <name>KAISER</name>
       </alias>
-    	<alias xml:id="der_kaiser">
-    		<name>DER KAISER</name>
-    	</alias>
+      <alias xml:id="der_kaiser">
+        <name>DER KAISER</name>
+      </alias>
     </character>
     <character>
       <name>EIN RATSHERR</name>
@@ -77,21 +79,21 @@
       <alias xml:id="die_schildbürger">
         <name>DIE SCHILDBÜRGER</name>
       </alias>
-    	<alias xml:id="alle_schildbürger">
-    		<name>ALLE SCHILDBÜRGER</name>
-    	</alias>
-    	<alias xml:id="schildbürger">
-    		<name>SCHILDBÜRGER</name>
-    	</alias>
+      <alias xml:id="alle_schildbürger">
+        <name>ALLE SCHILDBÜRGER</name>
+      </alias>
+      <alias xml:id="schildbürger">
+        <name>SCHILDBÜRGER</name>
+      </alias>
     </character>
     <character>
       <name>DIE SEKRETÄRE</name>
       <alias xml:id="die_sekretäre">
         <name>DIE SEKRETÄRE</name>
       </alias>
-    	<alias xml:id="beide_sekretäre">
-    		<name>BEIDE SEKRETÄRE</name>
-    	</alias>
+      <alias xml:id="beide_sekretäre">
+        <name>BEIDE SEKRETÄRE</name>
+      </alias>
     </character>
     <character>
       <name>DER BÜRGERMEISTER</name>

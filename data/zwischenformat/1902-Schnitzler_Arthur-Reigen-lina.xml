@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?><play xmlns="http://lina.digital">
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital" id="232">
   <header>
     <title>Reigen</title>
     <subtitle/>
     <genretitle/>
     <author key="pnd:118609807">Schnitzler, Arthur</author>
     <date when="1896" type="written"/>
-  	<date when="1902" type="print"/>
-  	<date when="1920" type="premiere"/>
-  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:v3w3.0/data</source>
+    <date when="1902" type="print"/>
+    <date when="1920" type="premiere"/>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:v3w3.0/data</source>
   </header>
   <personae>
     <character>
@@ -28,16 +30,16 @@
       <alias xml:id="stubenmädchen">
         <name>STUBENMÄDCHEN</name>
       </alias>
-    	<alias xml:id="das_stubenmädchen">
-    		<name>DAS STUBENMÄDCHEN</name>
-    	</alias>
+      <alias xml:id="das_stubenmädchen">
+        <name>DAS STUBENMÄDCHEN</name>
+      </alias>
     </character>
-  	<character>
-  		<name>STUBENMÄDEL (10)</name>
-  		<alias xml:id="stubenmädel">
-  			<name>Stubenmädel (10)</name>
-  		</alias>
-  	</character>
+    <character>
+      <name>STUBENMÄDEL (10)</name>
+      <alias xml:id="stubenmädel">
+        <name>Stubenmädel (10)</name>
+      </alias>
+    </character>
     <character>
       <name>DER JUNGE HERR</name>
       <alias xml:id="der_junge_herr">
@@ -67,9 +69,9 @@
       <alias xml:id="der_dichter">
         <name>DER DICHTER</name>
       </alias>
-    	<alias xml:id="dichter">
-    		<name>DICHTER</name>
-    	</alias>
+      <alias xml:id="dichter">
+        <name>DICHTER</name>
+      </alias>
     </character>
     <character>
       <name>SCHAUSPIELERIN</name>
@@ -275,12 +277,12 @@
       </div>
     </div>
   </text>
-	<documentation>
-		<change n="1" type="adjustSpeaker" who="dariokampkaspar">
-			<path>/play/text[1]/div[11]/div[1]/sp[3]</path>
-			<orig>#stubenmädchen</orig>
-			<corr>#stubenmädel</corr>
-			<comment>Im Sinne des Aufbaus des Stückes ist das einmalig auftretende Stubenmädel des Grafen in der letzten Szene nicht identisch mit dem (tatsächlich handelnden) Stubenmädchen aus den Szenen 2 und 3.</comment>
-		</change>
-	</documentation>
+  <documentation>
+    <change n="1" type="adjustSpeaker" who="dariokampkaspar">
+      <path>/play/text[1]/div[11]/div[1]/sp[3]</path>
+      <orig>#stubenmädchen</orig>
+      <corr>#stubenmädel</corr>
+      <comment>Im Sinne des Aufbaus des Stückes ist das einmalig auftretende Stubenmädel des Grafen in der letzten Szene nicht identisch mit dem (tatsächlich handelnden) Stubenmädchen aus den Szenen 2 und 3.</comment>
+    </change>
+  </documentation>
 </play>

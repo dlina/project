@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?><play xmlns="http://lina.digital">
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital" id="402">
   <header>
     <title>Hasemann's Töchter</title>
-  	<subtitle>Volksstück in 4 Akten</subtitle>
+    <subtitle>Volksstück in 4 Akten</subtitle>
     <author key="pnd:116000309">L'Arronge, Adolph</author>
     <date when="1879" type="print"/>
-  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:rfbt.0/data</source>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:rfbt.0/data</source>
   </header>
   <personae>
     <character>
@@ -1532,12 +1534,12 @@
       </div>
     </div>
   </text>
-	<documentation>
-		<change n="1" who="dariokampkaspar" type="adjustSpeaker">
-			<path>/play/personae[1]/character[18]/name[1]</path>
-			<orig>DR</orig>
-			<corr>DR Seiler</corr>
-			<comment>Gemäß Personenliste der Vorlage</comment>
-		</change>
-	</documentation>
+  <documentation>
+    <change n="1" who="dariokampkaspar" type="adjustSpeaker">
+      <path>/play/personae[1]/character[18]/name[1]</path>
+      <orig>DR</orig>
+      <corr>DR Seiler</corr>
+      <comment>Gemäß Personenliste der Vorlage</comment>
+    </change>
+  </documentation>
 </play>

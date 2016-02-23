@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?><play xmlns="http://lina.digital">
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital" id="150">
   <header>
     <title>Komtesse Mizzi oder Der Familientag</title>
     <subtitle>Komödie in einem Akt</subtitle>
-  	<genretitle>Komödie</genretitle>
+    <genretitle>Komödie</genretitle>
     <author key="pnd:118609807">Schnitzler, Arthur</author>
     <date when="1907" type="written"/>
-  	<date when="1909" type="print"/>
-  	<date when="1909" type="premiere"/>
-  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:v3sw.0/data</source>
+    <date when="1909" type="print"/>
+    <date when="1909" type="premiere"/>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:v3sw.0/data</source>
   </header>
   <personae>
     <character>
@@ -40,9 +42,9 @@
       <alias xml:id="der_fürst">
         <name>DER FÜRST</name>
       </alias>
-    	<alias xml:id="fürst">
-    		<name>FÜRST</name>
-    	</alias>
+      <alias xml:id="fürst">
+        <name>FÜRST</name>
+      </alias>
     </character>
     <character>
       <name>PHILIPP</name>
@@ -67,9 +69,9 @@
       <alias xml:id="professor_windhofer">
         <name>PROFESSOR WINDHOFER</name>
       </alias>
-    	<alias xml:id="professor">
-    		<name>PROFESSOR</name>
-    	</alias>
+      <alias xml:id="professor">
+        <name>PROFESSOR</name>
+      </alias>
     </character>
   </personae>
   <text>

@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?><play xmlns="http://lina.digital">
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital" id="105">
   <header>
     <title>Siegfried</title>
     <subtitle>Eine Tragödie in fünf Akten</subtitle>
     <genretitle>Tragödie</genretitle>
     <author key="pnd:118594117">Wagner, Richard</author>
     <date when="1853" type="print"/>
-  	<date when="1876" type="premiere"/>
+    <date when="1876" type="premiere"/>
     <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:wzpd.0/data</source>
   </header>
   <personae>
@@ -27,36 +29,36 @@
       <alias xml:id="der_wanderer">
         <name>DER WANDERER</name>
       </alias>
-    	<alias xml:id="wandrer">
-    		<name>WANDRER</name>
-    	</alias>
+      <alias xml:id="wandrer">
+        <name>WANDRER</name>
+      </alias>
     </character>
     <character>
       <name>ALBERICH</name>
       <alias xml:id="alberich">
         <name>ALBERICH</name>
       </alias>
-    	<alias xml:id="alberichs_stimme" type="voiceOf">
-    		<name>ALBERICHS STIMME</name>
-    	</alias>
+      <alias xml:id="alberichs_stimme" type="voiceOf">
+        <name>ALBERICHS STIMME</name>
+      </alias>
     </character>
     <character>
       <name>FAFNER</name>
       <alias xml:id="fafner">
         <name>FAFNER</name>
       </alias>
-    	<alias xml:id="fafners_stimme" type="voiceOf">
-    		<name>FAFNERS STIMME</name>
-    	</alias>
+      <alias xml:id="fafners_stimme" type="voiceOf">
+        <name>FAFNERS STIMME</name>
+      </alias>
     </character>
     <character>
       <name>STIMME EINES WALDVOGELS</name>
       <alias xml:id="stimme_eines_waldvogels">
         <name>STIMME EINES WALDVOGELS</name>
       </alias>
-    	<alias xml:id="stimme_des_waldvogels">
-    		<name>STIMME DES WALDVOGELS</name>
-    	</alias>
+      <alias xml:id="stimme_des_waldvogels">
+        <name>STIMME DES WALDVOGELS</name>
+      </alias>
     </character>
     <character>
       <name>ERDA</name>

@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?><play xmlns="http://lina.digital">
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital" id="430">
   <header>
     <title>Die Makkabäer</title>
-  	<subtitle>Trauerspiel in fünf Akten</subtitle>
-  	<genretitle>Trauerspiel</genretitle>
+    <subtitle>Trauerspiel in fünf Akten</subtitle>
+    <genretitle>Trauerspiel</genretitle>
     <author key="pnd:118574973">Ludwig, Otto</author>
     <date when="1852" type="written"/>
-  	<date when="1854" type="print"/>
-  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:s6m2.0/data</source>
+    <date when="1854" type="print"/>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:s6m2.0/data</source>
   </header>
   <personae>
     <character>
@@ -117,18 +119,18 @@
       <alias xml:id="volk">
         <name>VOLK</name>
       </alias>
-    	<alias xml:id="die_bewaffneten">
-    		<name>DIE BEWAFFNETEN</name>
-    	</alias>
-    	<alias xml:id="die_übrigen">
-    		<name>DIE ÜBRIGEN</name>
-    	</alias>
-    	<alias xml:id="die_herumliegenden">
-    		<name>DIE HERUMLIEGENDEN</name>
-    	</alias>
-    	<alias xml:id="die_meisten_aus_dem_volke">
-    		<name>DIE MEISTEN AUS DEM VOLKE</name>
-    	</alias>
+      <alias xml:id="die_bewaffneten">
+        <name>DIE BEWAFFNETEN</name>
+      </alias>
+      <alias xml:id="die_übrigen">
+        <name>DIE ÜBRIGEN</name>
+      </alias>
+      <alias xml:id="die_herumliegenden">
+        <name>DIE HERUMLIEGENDEN</name>
+      </alias>
+      <alias xml:id="die_meisten_aus_dem_volke">
+        <name>DIE MEISTEN AUS DEM VOLKE</name>
+      </alias>
     </character>
     <character>
       <name>USIEL</name>
@@ -195,19 +197,19 @@
       <alias xml:id="volkshaufe">
         <name>VOLKSHAUFE</name>
       </alias>
-    	<alias xml:id="erster_volkshaufe">
-    		<name>ERSTER VOLKSHAUFE</name>
-    	</alias>
+      <alias xml:id="erster_volkshaufe">
+        <name>ERSTER VOLKSHAUFE</name>
+      </alias>
     </character>
-  	<character>
-  		<name>Dritter Volkshaufe</name>
-  		<alias xml:id="viele_stimmen_aus_dem_dritten_volkshaufen">
-  			<name>VIELE STIMMEN AUS DEM DRITTEN VOLKSHAUFEN</name>
-  		</alias>
-  		<alias xml:id="der_übrige_dritte_volkshaufe">
-  			<name>DER ÜBRIGE DRITTE VOLKSHAUFE</name>
-  		</alias>
-  	</character>
+    <character>
+      <name>Dritter Volkshaufe</name>
+      <alias xml:id="viele_stimmen_aus_dem_dritten_volkshaufen">
+        <name>VIELE STIMMEN AUS DEM DRITTEN VOLKSHAUFEN</name>
+      </alias>
+      <alias xml:id="der_übrige_dritte_volkshaufe">
+        <name>DER ÜBRIGE DRITTE VOLKSHAUFE</name>
+      </alias>
+    </character>
     <character>
       <name>DIE JUNGFRAUEN</name>
       <alias xml:id="die_jungfrauen">
@@ -219,9 +221,9 @@
       <alias xml:id="das_weib">
         <name>DAS WEIB</name>
       </alias>
-    	<alias xml:id="weib">
-    		<name>WEIB</name>
-    	</alias>
+      <alias xml:id="weib">
+        <name>WEIB</name>
+      </alias>
     </character>
     <character>
       <name>GREIS</name>
@@ -235,12 +237,12 @@
         <name>GESCHREI IM LAGER</name>
       </alias>
     </character>
-  	<character>
-  		<name>Judas Gefolge</name>
-  		<alias xml:id="judas_gefolge">
-  			<name>Gefolge</name>
-  		</alias>
-  	</character>
+    <character>
+      <name>Judas Gefolge</name>
+      <alias xml:id="judas_gefolge">
+        <name>Gefolge</name>
+      </alias>
+    </character>
   </personae>
   <text>
     <div>
@@ -574,7 +576,7 @@
           <amount n="61" unit="lines"/>
           <amount n="1930" unit="chars"/>
         </sp>
-      	<sp who="#viele_stimmen_aus_dem_dritten_volkshaufen #der_übrige_dritte_volkshaufe">
+        <sp who="#viele_stimmen_aus_dem_dritten_volkshaufen #der_übrige_dritte_volkshaufe">
           <amount n="6" unit="speech_acts"/>
           <amount n="35" unit="words"/>
           <amount n="7" unit="lines"/>
@@ -604,7 +606,7 @@
           <amount n="50" unit="lines"/>
           <amount n="1880" unit="chars"/>
         </sp>
-      	<sp who="#amri #der_übrige_dritte_volkshaufe #viele_stimmen_aus_dem_dritten_volkshaufen">
+        <sp who="#amri #der_übrige_dritte_volkshaufe #viele_stimmen_aus_dem_dritten_volkshaufen">
           <amount n="2" unit="speech_acts"/>
           <amount n="27" unit="words"/>
           <amount n="4" unit="lines"/>
@@ -823,16 +825,16 @@
       </div>
     </div>
   </text>
-	<documentation>
-		<change n="1" who="dariokampkaspar" type="adjustSpeaker">
-			<path>/play/personae[1]/character[18]</path>
-			<orig/>
-			<comment>Ehem. character »Die Bewaffneten«, »Die Herumliegenden«, »Die Übrigen« als Alias hinzugefügt: Nach Bühnenanweisung handelt es sich jeweils um das Volk wobei Teile davon einmalig durch eine Bühnenanweisung sich anders äußern bzw. verhalten.</comment>
-		</change>
-		<change n="2" who="dariokampkaspar" type="expandCollective">
-			<path>/play/text[1]/div[3]/div[1]/sp[11]</path>
-			<orig>#die_brüder</orig>
-			<comment>Eleazar verabschiedet sich, weitere Brüder nicht auf der Bühne.</comment>
-		</change>
-	</documentation>
+  <documentation>
+    <change n="1" who="dariokampkaspar" type="adjustSpeaker">
+      <path>/play/personae[1]/character[18]</path>
+      <orig/>
+      <comment>Ehem. character »Die Bewaffneten«, »Die Herumliegenden«, »Die Übrigen« als Alias hinzugefügt: Nach Bühnenanweisung handelt es sich jeweils um das Volk wobei Teile davon einmalig durch eine Bühnenanweisung sich anders äußern bzw. verhalten.</comment>
+    </change>
+    <change n="2" who="dariokampkaspar" type="expandCollective">
+      <path>/play/text[1]/div[3]/div[1]/sp[11]</path>
+      <orig>#die_brüder</orig>
+      <comment>Eleazar verabschiedet sich, weitere Brüder nicht auf der Bühne.</comment>
+    </change>
+  </documentation>
 </play>

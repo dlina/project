@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?><play xmlns="http://lina.digital">
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital" id="179">
   <header>
     <title>Der Diamant</title>
     <subtitle>Eine Komödie in fünf Akten</subtitle>
@@ -165,33 +167,33 @@
   <text>
     <div>
       <head>Prolog</head>
-          <div>
-            <head>noName</head>
-            <sp who="#der_dichter">
-              <amount n="29" unit="speech_acts"/>
-              <amount n="1500" unit="words"/>
-              <amount n="247" unit="lines"/>
-              <amount n="8171" unit="chars"/>
-            </sp>
-            <sp who="#die_muse">
-              <amount n="7" unit="speech_acts"/>
-              <amount n="214" unit="words"/>
-              <amount n="33" unit="lines"/>
-              <amount n="1062" unit="chars"/>
-            </sp>
-            <sp who="#die_aftermuse">
-              <amount n="1" unit="speech_acts"/>
-              <amount n="17" unit="words"/>
-              <amount n="2" unit="lines"/>
-              <amount n="76" unit="chars"/>
-            </sp>
-            <sp who="#musa">
-              <amount n="20" unit="speech_acts"/>
-              <amount n="1157" unit="words"/>
-              <amount n="179" unit="lines"/>
-              <amount n="6004" unit="chars"/>
-            </sp>
-          </div>
+      <div>
+        <head>noName</head>
+        <sp who="#der_dichter">
+          <amount n="29" unit="speech_acts"/>
+          <amount n="1500" unit="words"/>
+          <amount n="247" unit="lines"/>
+          <amount n="8171" unit="chars"/>
+        </sp>
+        <sp who="#die_muse">
+          <amount n="7" unit="speech_acts"/>
+          <amount n="214" unit="words"/>
+          <amount n="33" unit="lines"/>
+          <amount n="1062" unit="chars"/>
+        </sp>
+        <sp who="#die_aftermuse">
+          <amount n="1" unit="speech_acts"/>
+          <amount n="17" unit="words"/>
+          <amount n="2" unit="lines"/>
+          <amount n="76" unit="chars"/>
+        </sp>
+        <sp who="#musa">
+          <amount n="20" unit="speech_acts"/>
+          <amount n="1157" unit="words"/>
+          <amount n="179" unit="lines"/>
+          <amount n="6004" unit="chars"/>
+        </sp>
+      </div>
     </div>
     <div>
       <head>Der Diamant</head>

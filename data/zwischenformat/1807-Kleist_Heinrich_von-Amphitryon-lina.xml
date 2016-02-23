@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?><play xmlns="http://lina.digital">
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital" id="437">
   <header>
     <title>Amphitryon</title>
     <subtitle>Ein Lustspiel nach Molière</subtitle>
@@ -651,17 +653,17 @@
     </div>
   </text>
   <documentation>
-  <change n="1" type="expandCollectivePartially" who="peertrilcke">
-    <path>/play/text[1]/div[4]/div[10]/div[1]</path>
-    <orig>#das_volk</orig>
-    <corr>#das_volk #einer_aus_dem_volk</corr>
-    <comment/>
-  </change>
-  <change n="2" type="expandCollectivePartially" who="peertrilcke">
+    <change n="1" type="expandCollectivePartially" who="peertrilcke">
+      <path>/play/text[1]/div[4]/div[10]/div[1]</path>
+      <orig>#das_volk</orig>
+      <corr>#das_volk #einer_aus_dem_volk</corr>
+      <comment/>
+    </change>
+    <change n="2" type="expandCollectivePartially" who="peertrilcke">
       <path>/play/text[1]/div[4]/div[10]/div[1]</path>
       <orig>#volk</orig>
       <corr>#volk #einer_aus_dem_volk</corr>
       <comment/>
-  </change>
+    </change>
   </documentation>
 </play>

@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?><play xmlns="http://lina.digital">
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital" id="421">
   <header>
     <title>Die lustigen Räuber</title>
-  	<subtitle>Ein Schauspiel in fünf Akten</subtitle>
+    <subtitle>Ein Schauspiel in fünf Akten</subtitle>
     <genretitle>Schauspiel</genretitle>
     <author key="pnd:118606816">Scheerbart, Paul</author>
-  	<date when="1904" type="written"/>
-  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:tvc9.0/data</source>
+    <date when="1904" type="written"/>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:tvc9.0/data</source>
   </header>
   <personae>
     <character>
@@ -38,12 +40,12 @@
       <alias xml:id="theophil">
         <name>THEOPHIL</name>
       </alias>
-    	<alias xml:id="theophil_knipski">
-    		<name>THEOPHIL KNIPSKI</name>
-    	</alias>
-    	<alias xml:id="knipski">
-    		<name>KNIPSKI</name>
-    	</alias>
+      <alias xml:id="theophil_knipski">
+        <name>THEOPHIL KNIPSKI</name>
+      </alias>
+      <alias xml:id="knipski">
+        <name>KNIPSKI</name>
+      </alias>
     </character>
     <character>
       <name>STRICK</name>
@@ -326,13 +328,13 @@
           <amount n="1" unit="lines"/>
           <amount n="51" unit="chars"/>
         </sp>
-      	<sp who="#max #theophil #schlammberger #reitzer #hannibal">
+        <sp who="#max #theophil #schlammberger #reitzer #hannibal">
           <amount n="1" unit="speech_acts"/>
           <amount n="2" unit="words"/>
           <amount n="1" unit="lines"/>
           <amount n="15" unit="chars"/>
         </sp>
-      	<sp who="#max #theophil #schlammberger #reitzer #hannibal #katharina #meta #max">
+        <sp who="#max #theophil #schlammberger #reitzer #hannibal #katharina #meta #max">
           <amount n="1" unit="speech_acts"/>
           <amount n="2" unit="words"/>
           <amount n="1" unit="lines"/>
@@ -346,18 +348,18 @@
       </div>
     </div>
   </text>
-	<documentation>
-		<change n="1" type="expandCollective" who="dariokampkaspar">
-			<path>/play/text[1]/div[5]/div[1]/sp[2]</path>
-			<orig>#die_anderen_vier_räuber</orig>
-			<corr>#max #theophil #schlammberger #reitzer</corr>
-			<comment>Vgl. Stücketext bzw. Personenverzeichnis der Vorlage</comment>
-		</change>
-		<change n="2" type="expandCollective" who="dariokampkaspar">
-			<path>/play/text[1]/div[6]/div[1]/sp[10]/@who</path>
-			<orig>#die_fünf_beraubten_räuber</orig>
-			<corr>#max #theophil #schlammberger #reitzer #hannibal</corr>
-			<comment>vgl. Personenverzeichnis der Vorlage</comment>
-		</change>
-	</documentation>
+  <documentation>
+    <change n="1" type="expandCollective" who="dariokampkaspar">
+      <path>/play/text[1]/div[5]/div[1]/sp[2]</path>
+      <orig>#die_anderen_vier_räuber</orig>
+      <corr>#max #theophil #schlammberger #reitzer</corr>
+      <comment>Vgl. Stücketext bzw. Personenverzeichnis der Vorlage</comment>
+    </change>
+    <change n="2" type="expandCollective" who="dariokampkaspar">
+      <path>/play/text[1]/div[6]/div[1]/sp[10]/@who</path>
+      <orig>#die_fünf_beraubten_räuber</orig>
+      <corr>#max #theophil #schlammberger #reitzer #hannibal</corr>
+      <comment>vgl. Personenverzeichnis der Vorlage</comment>
+    </change>
+  </documentation>
 </play>

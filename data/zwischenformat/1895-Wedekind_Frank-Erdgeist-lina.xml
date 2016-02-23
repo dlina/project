@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?><play xmlns="http://lina.digital">
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital" id="140">
   <header>
     <title>Erdgeist</title>
-  	<subtitle>Tragödie in vier Aufzügen</subtitle>
-  	<genretitle>Tragödie</genretitle>
+    <subtitle>Tragödie in vier Aufzügen</subtitle>
+    <genretitle>Tragödie</genretitle>
     <author key="pnd:118629867">Wedekind, Frank</author>
-  	<date when="1895" type="written"/>
-  	<date when="1895" type="print"/>
-  	<date when="1898" type="premiere"/>
-  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:x3f6.0/data</source>
+    <date when="1895" type="written"/>
+    <date when="1895" type="print"/>
+    <date when="1898" type="premiere"/>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:x3f6.0/data</source>
   </header>
   <personae>
     <character>
@@ -52,9 +54,9 @@
       <alias xml:id="schigolch">
         <name>SCHIGOLCH</name>
       </alias>
-    	<alias xml:id="schigold">
-    		<name>SCHIGOLD</name>
-    	</alias>
+      <alias xml:id="schigold">
+        <name>SCHIGOLD</name>
+      </alias>
     </character>
     <character>
       <name>ESCHERICH</name>
@@ -73,9 +75,9 @@
       <alias xml:id="geschwitz">
         <name>GESCHWITZ</name>
       </alias>
-    	<alias xml:id="gräfin_geschwitz">
-    		<name>GRÄFIN GESCHWITZ</name>
-    	</alias>
+      <alias xml:id="gräfin_geschwitz">
+        <name>GRÄFIN GESCHWITZ</name>
+      </alias>
     </character>
     <character>
       <name>RODRIGO</name>
@@ -834,11 +836,11 @@
       </div>
     </div>
   </text>
-	<documentation>
-		<change n="1" who="dariokampkaspar" type="expandCollective">
-			<path>/play/text[1]/div[7]/div[6]/div[1]/sp[5]</path>
-			<orig>alle drei</orig>
-			<comment>Lulu ist die Angesprochene.</comment>
-		</change>
-	</documentation>
+  <documentation>
+    <change n="1" who="dariokampkaspar" type="expandCollective">
+      <path>/play/text[1]/div[7]/div[6]/div[1]/sp[5]</path>
+      <orig>alle drei</orig>
+      <comment>Lulu ist die Angesprochene.</comment>
+    </change>
+  </documentation>
 </play>

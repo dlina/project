@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?><play xmlns="http://lina.digital">
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital" id="43">
   <header>
     <title>Agnes Bernauer</title>
-  	<subtitle>Ein deutsches Trauerspiel in fünf Aufzügen</subtitle>
-  	<genretitle>Trauerspiel</genretitle>
+    <subtitle>Ein deutsches Trauerspiel in fünf Aufzügen</subtitle>
+    <genretitle>Trauerspiel</genretitle>
     <author key="pnd:118547445">Hebbel, Friedrich</author>
-  	<date when="1852" type="premiere"/>
-  	<date when="1855" type="print"/>
-  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:pksn.0/data</source>
+    <date when="1852" type="premiere"/>
+    <date when="1855" type="print"/>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:pksn.0/data</source>
   </header>
   <personae>
     <character>
@@ -51,9 +53,9 @@
       <alias xml:id="bürgermeister">
         <name>BÜRGERMEISTER</name>
       </alias>
-    	<alias xml:id="bürgermeister_nördlinger">
-    		<name>BÜRGERMEISTER NÖRDLINGER</name>
-    	</alias>
+      <alias xml:id="bürgermeister_nördlinger">
+        <name>BÜRGERMEISTER NÖRDLINGER</name>
+      </alias>
     </character>
     <character>
       <name>NOTHHAFFT VON WERNBERG</name>
@@ -96,9 +98,9 @@
       <alias xml:id="preising">
         <name>PREISING</name>
       </alias>
-    	<alias xml:id="der_kanzler_preising">
-    		<name>DER KANZLER PREISING</name>
-    	</alias>
+      <alias xml:id="der_kanzler_preising">
+        <name>DER KANZLER PREISING</name>
+      </alias>
     </character>
     <character>
       <name>KASTELLAN</name>
@@ -117,9 +119,9 @@
       <alias xml:id="pienzenau">
         <name>PIENZENAU</name>
       </alias>
-    	<alias xml:id="wolfram_von_pienzenau">
-    		<name>WOLFRAM VON PIENZENAU</name>
-    	</alias>
+      <alias xml:id="wolfram_von_pienzenau">
+        <name>WOLFRAM VON PIENZENAU</name>
+      </alias>
     </character>
     <character>
       <name>HANS VON LÄUBELFING</name>
@@ -1642,12 +1644,12 @@
       </div>
     </div>
   </text>
-	<documentation>
-		<change n="1" who="dariokampkaspar" type="expandCollective">
-			<path>/play/text[1]/div[6]/div[10]/div[1]/sp[2]</path>
-			<orig>#alle_ritter</orig>
-			<corr>#pappenheim #nothhafft #frauenhoven</corr>
-			<comment>Auflösuing unsicher; diese drei sind auf der Bühne und im Verzeichnis als Ritter genannt; ob weitere uaf der Bühne sind und Herzog Ernst und Kanzler Pienzenau dazu gezählt werden sollen, ist unklar.</comment>
-		</change>
-	</documentation>
+  <documentation>
+    <change n="1" who="dariokampkaspar" type="expandCollective">
+      <path>/play/text[1]/div[6]/div[10]/div[1]/sp[2]</path>
+      <orig>#alle_ritter</orig>
+      <corr>#pappenheim #nothhafft #frauenhoven</corr>
+      <comment>Auflösuing unsicher; diese drei sind auf der Bühne und im Verzeichnis als Ritter genannt; ob weitere uaf der Bühne sind und Herzog Ernst und Kanzler Pienzenau dazu gezählt werden sollen, ist unklar.</comment>
+    </change>
+  </documentation>
 </play>

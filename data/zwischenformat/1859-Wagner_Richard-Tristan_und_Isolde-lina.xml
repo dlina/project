@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?><play xmlns="http://lina.digital">
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital" id="166">
   <header>
     <title>Tristan und Isolde</title>
     <author key="pnd:118594117">Wagner, Richard</author>
-  	<date when="1859" type="written"/>
+    <date when="1859" type="written"/>
     <date when="1859" type="print"/>
-  	<date when="1865" type="premiere"/>
-  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:wzq9.0/data</source>
+    <date when="1865" type="premiere"/>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:wzq9.0/data</source>
   </header>
   <personae>
     <character>
@@ -20,18 +22,18 @@
       <alias xml:id="brangäne">
         <name>BRANGÄNE</name>
       </alias>
-    	<alias xml:id="brangänes_stimme" type="voiceOf">
-    		<name>BRANGÄNES STIMME</name>
-    	</alias>
+      <alias xml:id="brangänes_stimme" type="voiceOf">
+        <name>BRANGÄNES STIMME</name>
+      </alias>
     </character>
     <character>
       <name>DER JUNGE SEEMANN</name>
       <alias xml:id="der_junge_seemann">
         <name>DER JUNGE SEEMANN</name>
       </alias>
-    	<alias xml:id="stimme_eines_jungen_seemannes" type="voiceOf">
-    		<name>STIMME EINES JUNGEN SEEMANNES</name>
-    	</alias>
+      <alias xml:id="stimme_eines_jungen_seemannes" type="voiceOf">
+        <name>STIMME EINES JUNGEN SEEMANNES</name>
+      </alias>
     </character>
     <character>
       <name>KURWENAL</name>
@@ -50,9 +52,9 @@
       <alias xml:id="schiffsvolk">
         <name>SCHIFFSVOLK</name>
       </alias>
-    	<alias xml:id="stimmen_des_schiffsvolkes" type="voiceOf">
-    		<name>STIMMEN DES SCHIFFSVOLKES</name>
-    	</alias>
+      <alias xml:id="stimmen_des_schiffsvolkes" type="voiceOf">
+        <name>STIMMEN DES SCHIFFSVOLKES</name>
+      </alias>
     </character>
     <character>
       <name>MELOT</name>
@@ -447,17 +449,17 @@
       </div>
     </div>
   </text>
-	<documentation>
-		<change n="1" who="dariokampkaspar" type="expandCollective">
-			<path>/play/text[1]/div[2]/div[2]/div[1]/sp[6]</path>
-			<orig>alle männer</orig>
-			<comment>Der »junge Seemann« ist als auf dem Mast befindlich beschrieben, wird also an einem tutti der Männer auf der Bühne nicht teilnehmen.</comment>
-		</change>
-		<change n="2" who="kampkaspar" type="adjustSpeaker">
-			<path>/play/text[1]/div[2]/div[5]/div[1]/sp[5]; /play/text[1]/div[2]/div[5]/div[1]/sp[8]</path>
-			<orig>#ruf_der_männer; #alle_männer</orig>
-			<corr>#schiffsvolk</corr>
-			<comment>Aus den Bühnenanweisungen ergibt sich, daß es sich um die außen stehenden Männer handelt; nach vorherigern Bühnenanweisungen sind die die Stimmen des Schiffsvolks.</comment>
-		</change>
-	</documentation>
+  <documentation>
+    <change n="1" who="dariokampkaspar" type="expandCollective">
+      <path>/play/text[1]/div[2]/div[2]/div[1]/sp[6]</path>
+      <orig>alle männer</orig>
+      <comment>Der »junge Seemann« ist als auf dem Mast befindlich beschrieben, wird also an einem tutti der Männer auf der Bühne nicht teilnehmen.</comment>
+    </change>
+    <change n="2" who="kampkaspar" type="adjustSpeaker">
+      <path>/play/text[1]/div[2]/div[5]/div[1]/sp[5]; /play/text[1]/div[2]/div[5]/div[1]/sp[8]</path>
+      <orig>#ruf_der_männer; #alle_männer</orig>
+      <corr>#schiffsvolk</corr>
+      <comment>Aus den Bühnenanweisungen ergibt sich, daß es sich um die außen stehenden Männer handelt; nach vorherigern Bühnenanweisungen sind die die Stimmen des Schiffsvolks.</comment>
+    </change>
+  </documentation>
 </play>

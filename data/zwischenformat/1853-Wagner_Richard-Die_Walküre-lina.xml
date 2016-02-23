@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?><?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?><play xmlns="http://lina.digital">
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.rnc"?>
+<?xml-model href="https://raw.githubusercontent.com/DLiNa/project/master/rules/lina.sch"?>
+<play xmlns="http://lina.digital" id="349">
   <header>
     <title>Die Walküre</title>
     <author key="pnd:118594117">Wagner, Richard</author>
     <date when="1853" type="print"/>
-  	<date when="1876" type="premiere"/>
-  	<source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:wzp6.0/data</source>
+    <date when="1876" type="premiere"/>
+    <source>https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:wzp6.0/data</source>
   </header>
   <personae>
     <character>
@@ -13,9 +15,9 @@
       <alias xml:id="siegmund">
         <name>SIEGMUND</name>
       </alias>
-    	<alias xml:id="siegmunds_stimme" type="voiceOf">
-    		<name>SIEGMUNDS STIMME</name>
-    	</alias>
+      <alias xml:id="siegmunds_stimme" type="voiceOf">
+        <name>SIEGMUNDS STIMME</name>
+      </alias>
     </character>
     <character>
       <name>SIEGLINDE</name>
@@ -28,18 +30,18 @@
       <alias xml:id="hunding">
         <name>HUNDING</name>
       </alias>
-    	<alias xml:id="hundings_stimme" type="voiceOf">
-    		<name>HUNDINGS STIMME</name>
-    	</alias>
+      <alias xml:id="hundings_stimme" type="voiceOf">
+        <name>HUNDINGS STIMME</name>
+      </alias>
     </character>
     <character>
       <name>WOTAN</name>
       <alias xml:id="wotan">
         <name>WOTAN</name>
       </alias>
-    	<alias xml:id="wotans_stimme" type="voiceOf">
-    		<name>WOTANS STIMME</name>
-    	</alias>
+      <alias xml:id="wotans_stimme" type="voiceOf">
+        <name>WOTANS STIMME</name>
+      </alias>
     </character>
     <character>
       <name>BRÜNNHILDE</name>
@@ -64,9 +66,9 @@
       <alias xml:id="ortlinde">
         <name>ORTLINDE</name>
       </alias>
-    	<alias xml:id="orthilde">
-    		<name>ORTHILDE</name>
-    	</alias>
+      <alias xml:id="orthilde">
+        <name>ORTHILDE</name>
+      </alias>
     </character>
     <character>
       <name>WALTRAUTE</name>
@@ -79,9 +81,9 @@
       <alias xml:id="helmwige">
         <name>HELMWIGE</name>
       </alias>
-    	<alias xml:id="helmwiges_stimme" type="voiceOf">
-    		<name>HELMWIGES STIMME</name>
-    	</alias>
+      <alias xml:id="helmwiges_stimme" type="voiceOf">
+        <name>HELMWIGES STIMME</name>
+      </alias>
     </character>
     <character>
       <name>SCHWERTLEITE</name>
@@ -94,27 +96,27 @@
       <alias xml:id="grimgerde">
         <name>GRIMGERDE</name>
       </alias>
-    	<alias xml:id="grimgerdes_stimme" type="voiceOf">
-    		<name>Grimgerdes Stimme</name>
-    	</alias>
+      <alias xml:id="grimgerdes_stimme" type="voiceOf">
+        <name>Grimgerdes Stimme</name>
+      </alias>
     </character>
     <character>
       <name>ROSSWEISSE</name>
       <alias xml:id="rossweisse">
         <name>ROSSWEISSE</name>
       </alias>
-    	<alias xml:id="rossweisses_stimme">
-    		<name>Rossweisses Stimme</name>
-    	</alias>
+      <alias xml:id="rossweisses_stimme">
+        <name>Rossweisses Stimme</name>
+      </alias>
     </character>
     <character>
       <name>SIEGRUNE</name>
       <alias xml:id="siegrune">
         <name>SIEGRUNE</name>
       </alias>
-    	<alias xml:id="siegrunes_stimme">
-    		<name>SIEGRUNES STIMME</name>
-    	</alias>
+      <alias xml:id="siegrunes_stimme">
+        <name>SIEGRUNES STIMME</name>
+      </alias>
     </character>
   </personae>
   <text>
@@ -409,7 +411,7 @@
             <amount n="11" unit="lines"/>
             <amount n="205" unit="chars"/>
           </sp>
-        	<sp who="#gerhilde #ortlinde #waltraute #schwertleite #helmwige #siegrune #grimgerde #rossweisse">
+          <sp who="#gerhilde #ortlinde #waltraute #schwertleite #helmwige #siegrune #grimgerde #rossweisse">
             <amount n="3" unit="speech_acts"/>
             <amount n="33" unit="words"/>
             <amount n="9" unit="lines"/>
@@ -427,13 +429,13 @@
             <amount n="93" unit="lines"/>
             <amount n="1985" unit="chars"/>
           </sp>
-        	<sp who="#gerhilde #schwertleite #helmwige #siegrune #grimgerde #rossweisse">
+          <sp who="#gerhilde #schwertleite #helmwige #siegrune #grimgerde #rossweisse">
             <amount n="1" unit="speech_acts"/>
             <amount n="5" unit="words"/>
             <amount n="2" unit="lines"/>
             <amount n="34" unit="chars"/>
           </sp>
-        	<sp who="#gerhilde #schwertleite #helmwige #siegrune #grimgerde #rossweisse">
+          <sp who="#gerhilde #schwertleite #helmwige #siegrune #grimgerde #rossweisse">
             <amount n="3" unit="speech_acts"/>
             <amount n="29" unit="words"/>
             <amount n="9" unit="lines"/>
@@ -457,13 +459,13 @@
             <amount n="2" unit="lines"/>
             <amount n="34" unit="chars"/>
           </sp>
-        	<sp who="#gerhilde #ortlinde #waltraute #schwertleite #helmwige #siegrune #grimgerde #rossweisse">
+          <sp who="#gerhilde #ortlinde #waltraute #schwertleite #helmwige #siegrune #grimgerde #rossweisse">
             <amount n="1" unit="speech_acts"/>
             <amount n="5" unit="words"/>
             <amount n="2" unit="lines"/>
             <amount n="31" unit="chars"/>
           </sp>
-        	<sp who="#gerhilde #ortlinde #waltraute #schwertleite #helmwige #siegrune #grimgerde #rossweisse">
+          <sp who="#gerhilde #ortlinde #waltraute #schwertleite #helmwige #siegrune #grimgerde #rossweisse">
             <amount n="1" unit="speech_acts"/>
             <amount n="28" unit="words"/>
             <amount n="9" unit="lines"/>
@@ -481,7 +483,7 @@
             <amount n="126" unit="lines"/>
             <amount n="2754" unit="chars"/>
           </sp>
-        	<sp who="#gerhilde #ortlinde #waltraute #schwertleite #helmwige #siegrune #grimgerde #rossweisse">
+          <sp who="#gerhilde #ortlinde #waltraute #schwertleite #helmwige #siegrune #grimgerde #rossweisse">
             <amount n="2" unit="speech_acts"/>
             <amount n="48" unit="words"/>
             <amount n="11" unit="lines"/>
@@ -493,7 +495,7 @@
             <amount n="1" unit="lines"/>
             <amount n="26" unit="chars"/>
           </sp>
-        	<sp who="#gerhilde #ortlinde #waltraute #schwertleite #helmwige #siegrune #grimgerde #rossweisse">
+          <sp who="#gerhilde #ortlinde #waltraute #schwertleite #helmwige #siegrune #grimgerde #rossweisse">
             <amount n="1" unit="speech_acts"/>
             <amount n="38" unit="words"/>
             <amount n="8" unit="lines"/>
@@ -505,7 +507,7 @@
             <amount n="6" unit="lines"/>
             <amount n="116" unit="chars"/>
           </sp>
-        	<sp who="#gerhilde #ortlinde #waltraute #schwertleite #helmwige #siegrune #grimgerde #rossweisse">
+          <sp who="#gerhilde #ortlinde #waltraute #schwertleite #helmwige #siegrune #grimgerde #rossweisse">
             <amount n="2" unit="speech_acts"/>
             <amount n="7" unit="words"/>
             <amount n="3" unit="lines"/>
@@ -533,12 +535,12 @@
       </div>
     </div>
   </text>
-	<documentation>
-		<change n="1" who="dariokampkaspar" type="adjustSpeaker">
-			<path/>
-			<orig>character »orthilde«</orig>
-			<corr>Alias von »Ortlinde«</corr>
-			<comment>Vgl. andere Edition / Ausgabe dieser Stelle (III,1)</comment>
-		</change>
-	</documentation>
+  <documentation>
+    <change n="1" who="dariokampkaspar" type="adjustSpeaker">
+      <path/>
+      <orig>character »orthilde«</orig>
+      <corr>Alias von »Ortlinde«</corr>
+      <comment>Vgl. andere Edition / Ausgabe dieser Stelle (III,1)</comment>
+    </change>
+  </documentation>
 </play>
