@@ -3,6 +3,7 @@ namespace xml = "http://www.w3.org/XML/1998/namespace"
 
 start =
   element play {
+  	attribute id { xsd:int },
     element header {
       element title { text },
       element subtitle { text }?,
