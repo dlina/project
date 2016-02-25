@@ -17,4 +17,9 @@
         	</report>
         </rule>
     </pattern>
+    <pattern>
+        <rule context="text/div">
+            <assert test="div">Es sind 2 geschachtelte div nötig</assert>
+        </rule>
+    </pattern>
 </schema>
