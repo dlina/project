@@ -33,7 +33,11 @@ start =
         }+
       }*
     },
-    element text { \div* },
+    element text {
+        
+        element head { text }*,
+        element div { \div* }*
+        },
     element documentation {
     	element change {
     		attribute n { xsd:int },
