@@ -7,7 +7,7 @@
 	<xsl:output method="text"/>
 	
 	<xsl:template match="/">
-		<xsl:apply-templates select="//tei:body/tei:div[@type='act']//tei:head | //tei:body/tei:div[@type='act']//tei:sp"/>
+		<xsl:apply-templates select="//tei:body/tei:div[@type='act']//tei:sp"/>
 		<xsl:variable name="t1">
 			<xsl:value-of select="concat(substring-before((/tei:TEI/tei:teiHeader//tei:author)[1], ','),
 				'-',
@@ -40,6 +40,8 @@
 	</xsl:template>
 	
 	<xsl:template match="tei:l | tei:p">
+		<xsl:text>
+</xsl:text>
 		<xsl:value-of select="normalize-space()"/>
 	</xsl:template>
 	
@@ -48,8 +50,6 @@
 
 </xsl:text>
 		<xsl:value-of select="lina:sp(.)"/>
-		<xsl:text>
-</xsl:text>
 	</xsl:template>
 	
 	<xsl:function name="lina:sp">
