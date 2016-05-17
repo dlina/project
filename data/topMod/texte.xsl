@@ -19,7 +19,7 @@
 				<xsl:value-of select="concat('akt_', position())"/>
 			</xsl:variable>
 			<xsl:result-document href="{concat($t1, '-', $act, '.txt')}" method="text">
-				<xsl:apply-templates select="descendant::tei:sp"/>
+				<xsl:apply-templates select="descendant::tei:sp/tei:l | descendant::tei:sp/tei:p"/>
 			</xsl:result-document>
 		</xsl:for-each>
 		
