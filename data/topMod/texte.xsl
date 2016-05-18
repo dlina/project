@@ -7,7 +7,7 @@
 	<xsl:output method="text"/>
 	
 	<xsl:template match="/">
-		<xsl:apply-templates select="//tei:body/tei:div[@type='act']//tei:sp"/>
+		<xsl:apply-templates select="//tei:body//tei:div[@type='act']//tei:sp"/>
 		<xsl:variable name="t1">
 			<xsl:value-of select="concat(substring-before((/tei:TEI/tei:teiHeader//tei:author)[1], ','),
 				'-',
@@ -19,7 +19,7 @@
 				<xsl:value-of select="concat('akt_', position())"/>
 			</xsl:variable>
 			<xsl:result-document href="{concat($t1, '-', $act, '.txt')}" method="text">
-				<xsl:apply-templates select="descendant::tei:sp/tei:l | descendant::tei:sp/tei:p"/>
+				<xsl:apply-templates select="descendant::tei:sp//tei:l | descendant::tei:sp//tei:p"/>
 			</xsl:result-document>
 		</xsl:for-each>
 		
@@ -28,7 +28,7 @@
 				<xsl:for-each select="current-group()">
 					<xsl:text>
 </xsl:text>
-					<xsl:apply-templates select="tei:l | tei:p"/>
+					<xsl:apply-templates select="descendant::tei:l | descendant::tei:p"/>
 				</xsl:for-each>
 			</xsl:result-document>
 		</xsl:for-each-group>
@@ -36,7 +36,7 @@
 	
 	<xsl:template match="tei:sp">
 		<xsl:apply-templates select="tei:speaker"/>
-		<xsl:apply-templates select="tei:l | tei:p"/>
+		<xsl:apply-templates select="descendant::tei:l | descendant::tei:p"/>
 	</xsl:template>
 	
 	<xsl:template match="tei:l | tei:p">
