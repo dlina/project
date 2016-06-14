@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LES FOLIES AMOUREUSES</title>
+        <subtitle>COMÉDIE</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>REGNARD, Jean-François</author>
+        <date when="1692">1692</date>
+        <source>https://github.com/dramacode/theatre-classique/REGNARD_FOLIESAMOUREUSES.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>mademoisell_beauval</name>
+            <alias xml:id="mademoisell_beauval">
+                <name>mademoisell_beauval</name>
+            </alias>
+        </character>
+        <character>
+            <name>monsieu_dancour</name>
+            <alias xml:id="monsieu_dancour">
+                <name>monsieu_dancour</name>
+            </alias>
+        </character>
+        <character>
+            <name>mademoisell_desbrosses</name>
+            <alias xml:id="mademoisell_desbrosses">
+                <name>mademoisell_desbrosses</name>
+            </alias>
+        </character>
+        <character>
+            <name>monsieu_dubocage</name>
+            <alias xml:id="monsieu_dubocage">
+                <name>monsieu_dubocage</name>
+            </alias>
+        </character>
+        <character>
+            <name>momus</name>
+            <alias xml:id="momus">
+                <name>momus</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>lisette</name>
+            <alias xml:id="lisette">
+                <name>lisette</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>agathe</name>
+            <alias xml:id="agathe">
+                <name>agathe</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>albert</name>
+            <alias xml:id="albert">
+                <name>albert</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>crispin</name>
+            <alias xml:id="crispin">
+                <name>crispin</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>eraste</name>
+            <alias xml:id="eraste">
+                <name>eraste</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>PROLOGUE</head>
+            <div>
+                <head>SCÈNE I.</head>
+                <sp who="#mademoisell_beauval">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="110" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="561" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCENE II. Monsieur Dancour, Mademoiselle Beauval.</head>
+                <sp who="#monsieu_dancour">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="226" unit="words"/>
+                    <amount n="52" unit="lines"/>
+                    <amount n="1030" unit="chars"/>
+                </sp>
+                <sp who="#mademoisell_beauval">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="459" unit="words"/>
+                    <amount n="74" unit="lines"/>
+                    <amount n="2092" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Monsieur Dancour, Mademoiselle Beauval, Mademoiselle Desbrosses.</head>
+                <sp who="#mademoisell_desbrosses">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="123" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="576" unit="chars"/>
+                </sp>
+                <sp who="#mademoisell_beauval">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="355" unit="words"/>
+                    <amount n="56" unit="lines"/>
+                    <amount n="1631" unit="chars"/>
+                </sp>
+                <sp who="#monsieu_dancour">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="112" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="579" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Monsieur Dancour, Mademoiselle Beauval, Mademoiselle Desbrosses, Monsieur Dubocage.</head>
+                <sp who="#monsieu_dubocage">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="118" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="549" unit="chars"/>
+                </sp>
+                <sp who="#mademoisell_beauval">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="35" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Momus, Monsieur Dancour, Mademoiselle Beauval, Mademoiselle Desbrosses, MonsieurDubocage.</head>
+                <sp who="#momus">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="915" unit="words"/>
+                    <amount n="123" unit="lines"/>
+                    <amount n="4431" unit="chars"/>
+                </sp>
+                <sp who="#mademoisell_beauval">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="306" unit="words"/>
+                    <amount n="47" unit="lines"/>
+                    <amount n="1499" unit="chars"/>
+                </sp>
+                <sp who="#monsieu_dancour">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="49" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="236" unit="chars"/>
+                </sp>
+                <sp who="#mademoisell_desbrosses">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="25" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="136" unit="chars"/>
+                </sp>
+                <sp who="#monsieu_dubocage">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="4" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="15" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI.</head>
+                <sp who="#momus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="169" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="828" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE I. Agathe, Lisette.</head>
+                <sp who="#lisette">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="486" unit="words"/>
+                    <amount n="51" unit="lines"/>
+                    <amount n="2144" unit="chars"/>
+                </sp>
+                <sp who="#agathe">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="382" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="1845" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Albert, Agathe, Lisette.</head>
+                <sp who="#albert">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="526" unit="words"/>
+                    <amount n="71" unit="lines"/>
+                    <amount n="2401" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="480" unit="words"/>
+                    <amount n="63" unit="lines"/>
+                    <amount n="2236" unit="chars"/>
+                </sp>
+                <sp who="#agathe">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="261" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Albert, Lisette.</head>
+                <sp who="#albert">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="519" unit="words"/>
+                    <amount n="70" unit="lines"/>
+                    <amount n="2486" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="452" unit="words"/>
+                    <amount n="60" unit="lines"/>
+                    <amount n="2080" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. </head>
+                <sp who="#albert">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="66" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="296" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Albert, Crispin.</head>
+                <sp who="#crispin">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="778" unit="words"/>
+                    <amount n="93" unit="lines"/>
+                    <amount n="3717" unit="chars"/>
+                </sp>
+                <sp who="#albert">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="219" unit="words"/>
+                    <amount n="45" unit="lines"/>
+                    <amount n="990" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. </head>
+                <sp who="#crispin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="102" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="442" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Éraste, Crispin.</head>
+                <sp who="#crispin">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="418" unit="words"/>
+                    <amount n="48" unit="lines"/>
+                    <amount n="1914" unit="chars"/>
+                </sp>
+                <sp who="#eraste">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="307" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1441" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. </head>
+                <sp who="#crispin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="183" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE I.</head>
+                <sp who="#albert">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="132" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="657" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Agathe, Lisette, Albert.</head>
+                <sp who="#albert">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="280" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="1311" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="241" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="1115" unit="chars"/>
+                </sp>
+                <sp who="#agathe">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="210" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="934" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCENE III. Éraste, Albert, Agathe, Lisette, Crispin.</head>
+                <sp who="#albert">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="189" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="915" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="26" unit="chars"/>
+                </sp>
+                <sp who="#agathe">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="70" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="304" unit="chars"/>
+                </sp>
+                <sp who="#eraste">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="157" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="716" unit="chars"/>
+                </sp>
+                <sp who="#crispin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="173" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Albert, Lisette, éraste, Crispin.</head>
+                <sp who="#albert">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="66" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="109" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="515" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Albert, Éraste, Crispin.</head>
+                <sp who="#albert">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="252" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="1185" unit="chars"/>
+                </sp>
+                <sp who="#eraste">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="373" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="1774" unit="chars"/>
+                </sp>
+                <sp who="#crispin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="268" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Lisette, Éraste, Albert, Crispin.</head>
+                <sp who="#lisette">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="323" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="1548" unit="chars"/>
+                </sp>
+                <sp who="#albert">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="185" unit="chars"/>
+                </sp>
+                <sp who="#eraste">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="58" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Agathe, Albert, Éraste, Lisette, Crispin.</head>
+                <sp who="#lisette">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="67" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="332" unit="chars"/>
+                </sp>
+                <sp who="#agathe">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="686" unit="words"/>
+                    <amount n="95" unit="lines"/>
+                    <amount n="2998" unit="chars"/>
+                </sp>
+                <sp who="#eraste">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="55" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="233" unit="chars"/>
+                </sp>
+                <sp who="#crispin">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="148" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="677" unit="chars"/>
+                </sp>
+                <sp who="#albert">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="81" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="350" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Albert, Lisette, éraste, Crispin.</head>
+                <sp who="#albert">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="90" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCENE IX. Lisette, éraste, Crispin.</head>
+                <sp who="#lisette">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="99" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Éraste, Crispin.</head>
+                <sp who="#eraste">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="217" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="976" unit="chars"/>
+                </sp>
+                <sp who="#crispin">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="55" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="255" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Albert, Éraste, Crispin.</head>
+                <sp who="#albert">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="133" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="621" unit="chars"/>
+                </sp>
+                <sp who="#eraste">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="112" unit="chars"/>
+                </sp>
+                <sp who="#crispin">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="119" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="513" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII. Éraste, Crispin.</head>
+                <sp who="#eraste">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="66" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="334" unit="chars"/>
+                </sp>
+                <sp who="#crispin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="106" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="488" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIII.</head>
+                <sp who="#crispin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="129" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I. </head>
+                <sp who="#eraste">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="80" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="378" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Albert, Éraste.</head>
+                <sp who="#albert">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="166" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="764" unit="chars"/>
+                </sp>
+                <sp who="#eraste">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="187" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="868" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Lisette, Éraste, Albert.</head>
+                <sp who="#lisette">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="93" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Agathe en vieille, Lisette, Éraste, Crispin.</head>
+                <sp who="#agathe">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="720" unit="words"/>
+                    <amount n="74" unit="lines"/>
+                    <amount n="3414" unit="chars"/>
+                </sp>
+                <sp who="#eraste">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="60" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="280" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="83" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="363" unit="chars"/>
+                </sp>
+                <sp who="#albert">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="87" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="401" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Lisette, Éraste, Albert.</head>
+                <sp who="#lisette">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="127" unit="chars"/>
+                </sp>
+                <sp who="#eraste">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="54" unit="chars"/>
+                </sp>
+                <sp who="#albert">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="30" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Albert, Éraste.</head>
+                <sp who="#albert">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="94" unit="chars"/>
+                </sp>
+                <sp who="#eraste">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="25" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="97" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Albert, Éraste, Crispin.</head>
+                <sp who="#albert">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="115" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="536" unit="chars"/>
+                </sp>
+                <sp who="#crispin">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="364" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1703" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Éraste, Crispin.</head>
+                <sp who="#eraste">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="252" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="1217" unit="chars"/>
+                </sp>
+                <sp who="#crispin">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="244" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Lisette, Éraste, Albert, Crispin.</head>
+                <sp who="#crispin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="50" unit="chars"/>
+                </sp>
+                <sp who="#albert">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="84" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="382" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Albert, Éraste, Agathe, Lisette, Crispin.</head>
+                <sp who="#agathe">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="403" unit="words"/>
+                    <amount n="52" unit="lines"/>
+                    <amount n="1905" unit="chars"/>
+                </sp>
+                <sp who="#albert">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="69" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="291" unit="chars"/>
+                </sp>
+                <sp who="#eraste">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="180" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="889" unit="chars"/>
+                </sp>
+                <sp who="#crispin">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="353" unit="words"/>
+                    <amount n="53" unit="lines"/>
+                    <amount n="1658" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="57" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="256" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCENE XI. Éraste, Agathe, Lisette, Crispin.</head>
+                <sp who="#eraste">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="137" unit="chars"/>
+                </sp>
+                <sp who="#agathe">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="47" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="140" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII. </head>
+                <sp who="#albert">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="177" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="782" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

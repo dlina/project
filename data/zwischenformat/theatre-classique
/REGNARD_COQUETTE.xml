@@ -1,0 +1,858 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LA COQUETTE, OU L'ACADÉMIE DES DAMES. </title>
+        <subtitle>COMÉDIE en TROIS ACTES</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>REGNARD, Jean-François</author>
+        <date when="1692">1692</date>
+        <source>https://github.com/dramacode/theatre-classique/REGNARD_COQUETTE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>arlequin</name>
+            <alias xml:id="arlequin">
+                <name>arlequin</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>colombine</name>
+            <alias xml:id="colombine">
+                <name>colombine</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>bagatelle</name>
+            <alias xml:id="bagatelle">
+                <name>bagatelle</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>pierrot</name>
+            <alias xml:id="pierrot">
+                <name>pierrot</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>isabelle</name>
+            <alias xml:id="isabelle">
+                <name>isabelle</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>octave</name>
+            <alias xml:id="octave">
+                <name>octave</name>
+            </alias>
+        </character>
+        <character>
+            <name>mezzetin</name>
+            <alias xml:id="mezzetin">
+                <name>mezzetin</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>trafiquet</name>
+            <alias xml:id="trafiquet">
+                <name>trafiquet</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_laquais</name>
+            <alias xml:id="l_laquais">
+                <name>l_laquais</name>
+            </alias>
+        </character>
+        <character>
+            <name>nigaudin</name>
+            <alias xml:id="nigaudin">
+                <name>nigaudin</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_capitaine</name>
+            <alias xml:id="l_capitaine">
+                <name>l_capitaine</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_sergent</name>
+            <alias xml:id="l_sergent">
+                <name>l_sergent</name>
+            </alias>
+        </character>
+        <character>
+            <name>pasquariel</name>
+            <alias xml:id="pasquariel">
+                <name>pasquariel</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>mezzetin_pasquariel</name>
+            <alias xml:id="mezzetin_pasquariel">
+                <name>mezzetin_pasquariel</name>
+            </alias>
+        </character>
+        <character>
+            <name>prem_r_bohem_nne</name>
+            <alias xml:id="prem_r_bohem_nne">
+                <name>prem_r_bohem_nne</name>
+            </alias>
+        </character>
+        <character>
+            <name>second_bohem_nne</name>
+            <alias xml:id="second_bohem_nne">
+                <name>second_bohem_nne</name>
+            </alias>
+        </character>
+        <character>
+            <name>madam_pindaret</name>
+            <alias xml:id="madam_pindaret">
+                <name>madam_pindaret</name>
+            </alias>
+        </character>
+        <character>
+            <name>arelquin</name>
+            <alias xml:id="arelquin">
+                <name>arelquin</name>
+            </alias>
+        </character>
+        <character>
+            <name>margot</name>
+            <alias xml:id="margot">
+                <name>margot</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_choeur</name>
+            <alias xml:id="l_choeur">
+                <name>l_choeur</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE I. </head>
+                <sp who="#arlequin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="225" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="1009" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Arlequin, Mezzetin. </head>
+                <sp who="#arlequin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="51" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Colombine, Isabelle. </head>
+                <sp who="#colombine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="93" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Colombine, Isabelle, Pierrot, Bagatelle. </head>
+                <sp who="#colombine">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="71" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="341" unit="chars"/>
+                </sp>
+                <sp who="#bagatelle">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="64" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="300" unit="chars"/>
+                </sp>
+                <sp who="#pierrot">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="185" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Isabelle, Colombine. </head>
+                <sp who="#isabelle">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="427" unit="words"/>
+                    <amount n="51" unit="lines"/>
+                    <amount n="1975" unit="chars"/>
+                </sp>
+                <sp who="#colombine">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="836" unit="words"/>
+                    <amount n="98" unit="lines"/>
+                    <amount n="3863" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Colombine, Isabelle, Bagatelle. </head>
+                <sp who="#bagatelle">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="47" unit="chars"/>
+                </sp>
+                <sp who="#colombine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="3" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="13" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Isabelle, Colombine. </head>
+                <sp who="#isabelle">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="103" unit="chars"/>
+                </sp>
+                <sp who="#colombine">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="125" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="555" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Colombine, Isabelle, Octave, Mezzetin. </head>
+                <sp who="#octave">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="49" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="231" unit="chars"/>
+                </sp>
+                <sp who="#mezzetin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="92" unit="chars"/>
+                </sp>
+                <sp who="#isabelle">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="83" unit="chars"/>
+                </sp>
+                <sp who="#colombine">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="98" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="465" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Colombine, Isabelle, Octave, Mezzetin, Trafiquet, Pierrot.</head>
+                <sp who="#trafiquet">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="106" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="502" unit="chars"/>
+                </sp>
+                <sp who="#pierrot">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="73" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="341" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Trafiquet, Colombine, Isabelle, Pierrot. </head>
+                <sp who="#trafiquet">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="109" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="557" unit="chars"/>
+                </sp>
+                <sp who="#pierrot">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="41" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="164" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Trafiquet, Pierrot. </head>
+                <sp who="#pierrot">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="89" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="403" unit="chars"/>
+                </sp>
+                <sp who="#trafiquet">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="139" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="634" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII. Colombine, Pierrot. </head>
+                <sp who="#colombine">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="253" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="1231" unit="chars"/>
+                </sp>
+                <sp who="#pierrot">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="127" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="479" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIII. </head>
+                <sp who="#colombine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="223" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIV. Colombine, un Laquais. </head>
+                <sp who="#l_laquais">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="54" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XV. Colombine, Nigaudin, en habit de ville et en épée&#160;; un Laquais de Nigaudin. </head>
+                <sp who="#colombine">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="328" unit="words"/>
+                    <amount n="45" unit="lines"/>
+                    <amount n="1638" unit="chars"/>
+                </sp>
+                <sp who="#nigaudin">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="504" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="2492" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVI. Le Capitaine, Colombine, Nigaudin, Laquais de Nigaudin. </head>
+                <sp who="#l_capitaine">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="406" unit="words"/>
+                    <amount n="53" unit="lines"/>
+                    <amount n="1889" unit="chars"/>
+                </sp>
+                <sp who="#colombine">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="375" unit="words"/>
+                    <amount n="53" unit="lines"/>
+                    <amount n="1738" unit="chars"/>
+                </sp>
+                <sp who="#nigaudin">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="85" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="334" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVII. Le Capitaine, Colombine, Nigaudin, sous la table, un Sergent. </head>
+                <sp who="#l_sergent">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="159" unit="chars"/>
+                </sp>
+                <sp who="#colombine">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="131" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="635" unit="chars"/>
+                </sp>
+                <sp who="#l_capitaine">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="107" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="477" unit="chars"/>
+                </sp>
+                <sp who="#nigaudin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="39" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVIII. Le Capitaine, Nigaudin. </head>
+                <sp who="#nigaudin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="58" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="285" unit="chars"/>
+                </sp>
+                <sp who="#l_capitaine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="126" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE I. Trafiquet, Pierrot. </head>
+                <sp who="#pierrot">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="308" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1358" unit="chars"/>
+                </sp>
+                <sp who="#trafiquet">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="170" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="790" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Arlequin, Trafiquet, Pierrot. </head>
+                <sp who="#pierrot">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="111" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="515" unit="chars"/>
+                </sp>
+                <sp who="#arlequin">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="364" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="1706" unit="chars"/>
+                </sp>
+                <sp who="#trafiquet">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="191" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="900" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Trafiquet, Arlequin, Colombine, Pierrot. </head>
+                <sp who="#pierrot">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="51" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="224" unit="chars"/>
+                </sp>
+                <sp who="#trafiquet">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="41" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="200" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Colombine, Trafiquet.</head>
+                <sp who="#arlequin">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="530" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="2499" unit="chars"/>
+                </sp>
+                <sp who="#colombine">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="365" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="1733" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V.</head>
+                <sp who="#colombine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="62" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="287" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Trafiquet, Colombine. </head>
+                <sp who="#trafiquet">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="153" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="684" unit="chars"/>
+                </sp>
+                <sp who="#colombine">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="139" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="616" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Trafiquet, Colombine, Octave. </head>
+                <sp who="#colombine">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="167" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="722" unit="chars"/>
+                </sp>
+                <sp who="#trafiquet">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="211" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="927" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Trafiquet, Colombine. </head>
+                <sp who="#trafiquet">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="45" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="191" unit="chars"/>
+                </sp>
+                <sp who="#colombine">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="49" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. </head>
+                <sp who="#colombine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="167" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Colombine, Pierrot. </head>
+                <sp who="#colombine">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="69" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="306" unit="chars"/>
+                </sp>
+                <sp who="#pierrot">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="171" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="766" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Colombine, un Laquais. </head>
+                <sp who="#l_laquais">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="178" unit="chars"/>
+                </sp>
+                <sp who="#colombine">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="266" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII. Colombine, Mezzetin, en comtesse de Flamèche&#160;; Pasquariel, en marquise de Bistoquet. </head>
+                <sp who="#mezzetin">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="386" unit="words"/>
+                    <amount n="51" unit="lines"/>
+                    <amount n="1858" unit="chars"/>
+                </sp>
+                <sp who="#pasquariel">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="175" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="782" unit="chars"/>
+                </sp>
+                <sp who="#colombine">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="257" unit="words"/>
+                    <amount n="48" unit="lines"/>
+                    <amount n="1234" unit="chars"/>
+                </sp>
+                <sp who="#mezzetin_pasquariel">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="3" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="13" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIII. </head>
+                <sp who="#colombine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="195" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIV. Arlequin, Mezzetin, Pasquariel, Deux Bohémiens, suite de Bohémiens. </head>
+                <sp who="#arlequin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="50" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="270" unit="chars"/>
+                </sp>
+                <sp who="#mezzetin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="57" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="275" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XV. Arlequin, les deux Bohémiennes. </head>
+                <sp who="#arlequin">
+                    <amount n="25" unit="speech_acts"/>
+                    <amount n="555" unit="words"/>
+                    <amount n="89" unit="lines"/>
+                    <amount n="2374" unit="chars"/>
+                </sp>
+                <sp who="#prem_r_bohem_nne">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="495" unit="words"/>
+                    <amount n="71" unit="lines"/>
+                    <amount n="2208" unit="chars"/>
+                </sp>
+                <sp who="#second_bohem_nne">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="490" unit="words"/>
+                    <amount n="66" unit="lines"/>
+                    <amount n="2180" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I. </head>
+                <sp who="#colombine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="43" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="205" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Colombine, un Laquais. </head>
+                <sp who="#l_laquais">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="62" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Colombine, Mme Pindaret.</head>
+                <sp who="#madam_pindaret">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="201" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="970" unit="chars"/>
+                </sp>
+                <sp who="#colombine">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="154" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="731" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Mme Pindaret, Colombine, un Laquais, de madame Pindaret. </head>
+                <sp who="#madam_pindaret">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="149" unit="chars"/>
+                </sp>
+                <sp who="#l_laquais">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="128" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Mme Pindaret, Colombine. </head>
+                <sp who="#madam_pindaret">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="443" unit="words"/>
+                    <amount n="61" unit="lines"/>
+                    <amount n="2144" unit="chars"/>
+                </sp>
+                <sp who="#colombine">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="206" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="943" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Arlequin, en marquis ridicule, Colombine, Mme Pindaret.</head>
+                <sp who="#arelquin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="56" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="245" unit="chars"/>
+                </sp>
+                <sp who="#colombine">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="41" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="199" unit="chars"/>
+                </sp>
+                <sp who="#arlequin">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="59" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="280" unit="chars"/>
+                </sp>
+                <sp who="#madam_pindaret">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="67" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="272" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Arlequin, Colombine. </head>
+                <sp who="#arlequin">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="389" unit="words"/>
+                    <amount n="52" unit="lines"/>
+                    <amount n="1875" unit="chars"/>
+                </sp>
+                <sp who="#colombine">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="279" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="1375" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Arlequin, Colombine, un Laquais. </head>
+                <sp who="#l_laquais">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="38" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Arlequin, Colombine, Margot. </head>
+                <sp who="#colombine">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="146" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="705" unit="chars"/>
+                </sp>
+                <sp who="#margot">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="298" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1367" unit="chars"/>
+                </sp>
+                <sp who="#arlequin">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="276" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="1313" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Arlequin, Colombine. </head>
+                <sp who="#arlequin">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="114" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="566" unit="chars"/>
+                </sp>
+                <sp who="#colombine">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="117" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="573" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Arlequin, Mezzetin, en Sibylle, plusieurs Fourbes de la suite de Mezzetin. </head>
+                <sp who="#mezzetin">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="178" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="762" unit="chars"/>
+                </sp>
+                <sp who="#l_choeur">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="70" unit="chars"/>
+                </sp>
+                <sp who="#arlequin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="64" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII. Arlequin, Trafiquet, Colombine, Pierrot. </head>
+                <sp who="#trafiquet">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="78" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="346" unit="chars"/>
+                </sp>
+                <sp who="#arlequin">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="139" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="575" unit="chars"/>
+                </sp>
+                <sp who="#pierrot">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="287" unit="chars"/>
+                </sp>
+                <sp who="#colombine">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="73" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="338" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

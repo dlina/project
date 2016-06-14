@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LE JUGEMENT DERNIER DES ROIS</title>
+        <subtitle>PROPHÉTIE EN UN ACTE, EN PROSE</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>MARÉCHAL, Pierre-Sylvain</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/MARECHAL_JUGEMENTDERNIERDESROIS.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>le_vieillard</name>
+            <alias xml:id="le_vieillard">
+                <name>le_vieillard</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_san_culotte_fra_ais</name>
+            <alias xml:id="le_san_culotte_fra_ais">
+                <name>le_san_culotte_fra_ais</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_san_culotte_anglais</name>
+            <alias xml:id="le_san_culotte_anglais">
+                <name>le_san_culotte_anglais</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_san_culotte_espagnol</name>
+            <alias xml:id="le_san_culotte_espagnol">
+                <name>le_san_culotte_espagnol</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_san_culotte_sarde</name>
+            <alias xml:id="le_san_culotte_sarde">
+                <name>le_san_culotte_sarde</name>
+            </alias>
+        </character>
+        <character>
+            <name>plusieurs_san_culottes</name>
+            <alias xml:id="plusieurs_san_culottes">
+                <name>plusieurs_san_culottes</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_san_culotte_allemand</name>
+            <alias xml:id="le_san_culotte_allemand">
+                <name>le_san_culotte_allemand</name>
+            </alias>
+        </character>
+        <character>
+            <name>un_san_culotte</name>
+            <alias xml:id="un_san_culotte">
+                <name>un_san_culotte</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_empereur</name>
+            <alias xml:id="l_empereur">
+                <name>l_empereur</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_roi_d_angleterre</name>
+            <alias xml:id="le_roi_d_angleterre">
+                <name>le_roi_d_angleterre</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_san_culotte_prussien</name>
+            <alias xml:id="le_san_culotte_prussien">
+                <name>le_san_culotte_prussien</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_roi_de_prusse</name>
+            <alias xml:id="le_roi_de_prusse">
+                <name>le_roi_de_prusse</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_roi_d_espagne</name>
+            <alias xml:id="le_roi_d_espagne">
+                <name>le_roi_d_espagne</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_san_culotte_napolitain</name>
+            <alias xml:id="le_san_culotte_napolitain">
+                <name>le_san_culotte_napolitain</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_roi_de_naples</name>
+            <alias xml:id="le_roi_de_naples">
+                <name>le_roi_de_naples</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_roi_de_sardaigne</name>
+            <alias xml:id="le_roi_de_sardaigne">
+                <name>le_roi_de_sardaigne</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_san_culotte_russe</name>
+            <alias xml:id="le_san_culotte_russe">
+                <name>le_san_culotte_russe</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_san_culotte_polonais</name>
+            <alias xml:id="le_san_culotte_polonais">
+                <name>le_san_culotte_polonais</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_san_culotte_romain</name>
+            <alias xml:id="le_san_culotte_romain">
+                <name>le_san_culotte_romain</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_pape</name>
+            <alias xml:id="le_pape">
+                <name>le_pape</name>
+            </alias>
+        </character>
+        <character>
+            <name>les_san_culottes</name>
+            <alias xml:id="les_san_culottes">
+                <name>les_san_culottes</name>
+            </alias>
+        </character>
+        <character>
+            <name>roi_des_pay_bas</name>
+            <alias xml:id="roi_des_pay_bas">
+                <name>roi_des_pay_bas</name>
+            </alias>
+        </character>
+        <character>
+            <name>la_czarine</name>
+            <alias xml:id="la_czarine">
+                <name>la_czarine</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_roi_de_pologne</name>
+            <alias xml:id="le_roi_de_pologne">
+                <name>le_roi_de_pologne</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>un_des_san_culottes</name>
+            <alias xml:id="un_des_san_culottes">
+                <name>un_des_san_culottes</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>PROPHÉTIE EN UN ACTE.</head>
+            <div>
+                <head>SCÈNE PREMIÈRE.</head>
+                <sp who="#le_vieillard">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="292" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="1249" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Douze ou quinze Sans-Culottes, un de chaque nation de l'Europe. </head>
+                <sp who="#le_san_culotte_fra_ais">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="189" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="830" unit="chars"/>
+                </sp>
+                <sp who="#le_san_culotte_anglais">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="66" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="334" unit="chars"/>
+                </sp>
+                <sp who="#le_san_culotte_espagnol">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="169" unit="chars"/>
+                </sp>
+                <sp who="#le_san_culotte_sarde">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="73" unit="chars"/>
+                </sp>
+                <sp who="#plusieurs_san_culottes">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="17" unit="chars"/>
+                </sp>
+                <sp who="#le_san_culotte_allemand">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="90" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Les Acteurs Précédents et le Vieillard.</head>
+                <sp who="#plusieurs_san_culottes">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="64" unit="chars"/>
+                </sp>
+                <sp who="#le_vieillard">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="1252" unit="words"/>
+                    <amount n="100" unit="lines"/>
+                    <amount n="5620" unit="chars"/>
+                </sp>
+                <sp who="#le_san_culotte_fra_ais">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="456" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="2201" unit="chars"/>
+                </sp>
+                <sp who="#un_san_culotte">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="285" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="1283" unit="chars"/>
+                </sp>
+                <sp who="#le_san_culotte_allemand">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="350" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="1742" unit="chars"/>
+                </sp>
+                <sp who="#le_san_culotte_anglais">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="108" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="582" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Les Précédents, Familles Sauvages.</head>
+                <sp who="#le_vieillard">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="151" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Les Précédents, Les Rois d'Europe.</head>
+                <sp who="#le_san_culotte_allemand">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="180" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="852" unit="chars"/>
+                </sp>
+                <sp who="#l_empereur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="83" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="394" unit="chars"/>
+                </sp>
+                <sp who="#le_san_culotte_anglais">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="168" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="847" unit="chars"/>
+                </sp>
+                <sp who="#le_roi_d_angleterre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="82" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="364" unit="chars"/>
+                </sp>
+                <sp who="#le_san_culotte_prussien">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="71" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="332" unit="chars"/>
+                </sp>
+                <sp who="#le_roi_de_prusse">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="83" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="364" unit="chars"/>
+                </sp>
+                <sp who="#le_san_culotte_espagnol">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="206" unit="chars"/>
+                </sp>
+                <sp who="#le_roi_d_espagne">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="129" unit="chars"/>
+                </sp>
+                <sp who="#le_san_culotte_napolitain">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="146" unit="chars"/>
+                </sp>
+                <sp who="#le_roi_de_naples">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="116" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="532" unit="chars"/>
+                </sp>
+                <sp who="#le_san_culotte_sarde">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="104" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="463" unit="chars"/>
+                </sp>
+                <sp who="#le_roi_de_sardaigne">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="174" unit="chars"/>
+                </sp>
+                <sp who="#le_san_culotte_russe">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="100" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="436" unit="chars"/>
+                </sp>
+                <sp who="#le_san_culotte_polonais">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="135" unit="chars"/>
+                </sp>
+                <sp who="#un_san_culotte">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="54" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="237" unit="chars"/>
+                </sp>
+                <sp who="#le_san_culotte_romain">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="244" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="1250" unit="chars"/>
+                </sp>
+                <sp who="#le_pape">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="144" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="619" unit="chars"/>
+                </sp>
+                <sp who="#le_san_culotte_fra_ais">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="554" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="2899" unit="chars"/>
+                </sp>
+                <sp who="#les_san_culottes">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="61" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Les Rois d'Europe.</head>
+                <sp who="#l_empereur">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="194" unit="chars"/>
+                </sp>
+                <sp who="#roi_des_pay_bas">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="168" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="853" unit="chars"/>
+                </sp>
+                <sp who="#le_roi_d_angleterre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="59" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="305" unit="chars"/>
+                </sp>
+                <sp who="#le_pape">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="196" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="857" unit="chars"/>
+                </sp>
+                <sp who="#le_roi_d_espagne">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="282" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="1343" unit="chars"/>
+                </sp>
+                <sp who="#la_czarine">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="205" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="912" unit="chars"/>
+                </sp>
+                <sp who="#le_roi_de_pologne">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="100" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="455" unit="chars"/>
+                </sp>
+                <sp who="#le_roi_de_naples">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="315" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Les Acteurs Précédents et les Sans-Culottes.</head>
+                <sp who="#un_des_san_culottes">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="78" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="347" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. </head>
+                <sp who="#la_czarine">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="118" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="575" unit="chars"/>
+                </sp>
+                <sp who="#le_roi_de_pologne">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="103" unit="chars"/>
+                </sp>
+                <sp who="#le_roi_de_naples">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="53" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="255" unit="chars"/>
+                </sp>
+                <sp who="#le_pape">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="85" unit="chars"/>
+                </sp>
+                <sp who="#l_empereur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="49" unit="chars"/>
+                </sp>
+                <sp who="#le_roi_de_prusse">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="45" unit="chars"/>
+                </sp>
+                <sp who="#le_roi_d_espagne">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="80" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

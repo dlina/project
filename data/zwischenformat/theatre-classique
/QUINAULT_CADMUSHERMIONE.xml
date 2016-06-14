@@ -1,0 +1,979 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>CADMUS et HERMIONE</title>
+        <subtitle>TRAGÉDIE</subtitle>
+        <subtitle>Représentée par l'Académie Royale de Musique.</subtitle>
+        <genretitle>Opéra</genretitle>
+        <author>QUINAULT, Philippe</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/QUINAULT_CADMUSHERMIONE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>pa_s</name>
+            <alias xml:id="pa_s">
+                <name>pa_s</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>_lisse</name>
+            <alias xml:id="_lisse">
+                <name>_lisse</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>pa_s___lisse</name>
+            <alias xml:id="pa_s___lisse">
+                <name>pa_s___lisse</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_choeur</name>
+            <alias xml:id="le_choeur">
+                <name>le_choeur</name>
+            </alias>
+        </character>
+        <character>
+            <name>pan</name>
+            <alias xml:id="pan">
+                <name>pan</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>choeurs</name>
+            <alias xml:id="choeurs">
+                <name>choeurs</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_envie</name>
+            <alias xml:id="l_envie">
+                <name>l_envie</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_soleil</name>
+            <alias xml:id="l_soleil">
+                <name>l_soleil</name>
+            </alias>
+        </character>
+        <character>
+            <name>pa_s__lisse</name>
+            <alias xml:id="pa_s__lisse">
+                <name>pa_s__lisse</name>
+            </alias>
+        </character>
+        <character>
+            <name>pa_s__melisse__pan</name>
+            <alias xml:id="pa_s__melisse__pan">
+                <name>pa_s__melisse__pan</name>
+            </alias>
+        </character>
+        <character>
+            <name>archas</name>
+            <alias xml:id="archas">
+                <name>archas</name>
+            </alias>
+        </character>
+        <character>
+            <name>premier_prince_tyrien</name>
+            <alias xml:id="premier_prince_tyrien">
+                <name>premier_prince_tyrien</name>
+            </alias>
+        </character>
+        <character>
+            <name>les_deux_princes_tyriens</name>
+            <alias xml:id="les_deux_princes_tyriens">
+                <name>les_deux_princes_tyriens</name>
+            </alias>
+        </character>
+        <character>
+            <name>cadmus</name>
+            <alias xml:id="cadmus">
+                <name>cadmus</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>deux_me_prince_tyrien</name>
+            <alias xml:id="deux_me_prince_tyrien">
+                <name>deux_me_prince_tyrien</name>
+            </alias>
+        </character>
+        <character>
+            <name>arbas</name>
+            <alias xml:id="arbas">
+                <name>arbas</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>hermione</name>
+            <alias xml:id="hermione">
+                <name>hermione</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>aglante</name>
+            <alias xml:id="aglante">
+                <name>aglante</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>charite</name>
+            <alias xml:id="charite">
+                <name>charite</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_nourrice</name>
+            <alias xml:id="l_nourrice">
+                <name>l_nourrice</name>
+            </alias>
+        </character>
+        <character>
+            <name>arbas_africains</name>
+            <alias xml:id="arbas_africains">
+                <name>arbas_africains</name>
+            </alias>
+        </character>
+        <character>
+            <name>premie_africain</name>
+            <alias xml:id="premie_africain">
+                <name>premie_africain</name>
+            </alias>
+        </character>
+        <character>
+            <name>deux_m_africain</name>
+            <alias xml:id="deux_m_africain">
+                <name>deux_m_africain</name>
+            </alias>
+        </character>
+        <character>
+            <name>le__ant</name>
+            <alias xml:id="le__ant">
+                <name>le__ant</name>
+            </alias>
+        </character>
+        <character>
+            <name>junon</name>
+            <alias xml:id="junon">
+                <name>junon</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>pallas</name>
+            <alias xml:id="pallas">
+                <name>pallas</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>charite_arbas</name>
+            <alias xml:id="charite_arbas">
+                <name>charite_arbas</name>
+            </alias>
+        </character>
+        <character>
+            <name>hermione_cadmus</name>
+            <alias xml:id="hermione_cadmus">
+                <name>hermione_cadmus</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_amour</name>
+            <alias xml:id="l_amour">
+                <name>l_amour</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>les_deux_princes__arbas</name>
+            <alias xml:id="les_deux_princes__arbas">
+                <name>les_deux_princes__arbas</name>
+            </alias>
+        </character>
+        <character>
+            <name>les_deux_africains</name>
+            <alias xml:id="les_deux_africains">
+                <name>les_deux_africains</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_grand_sacrificateur</name>
+            <alias xml:id="le_grand_sacrificateur">
+                <name>le_grand_sacrificateur</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_choeur_des_sacrificateurs</name>
+            <alias xml:id="le_choeur_des_sacrificateurs">
+                <name>le_choeur_des_sacrificateurs</name>
+            </alias>
+        </character>
+        <character>
+            <name>mars</name>
+            <alias xml:id="mars">
+                <name>mars</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_amour__cadmus</name>
+            <alias xml:id="l_amour__cadmus">
+                <name>l_amour__cadmus</name>
+            </alias>
+        </character>
+        <character>
+            <name>echion</name>
+            <alias xml:id="echion">
+                <name>echion</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>hermione__cadmus</name>
+            <alias xml:id="hermione__cadmus">
+                <name>hermione__cadmus</name>
+            </alias>
+        </character>
+        <character>
+            <name>tou_ensemble</name>
+            <alias xml:id="tou_ensemble">
+                <name>tou_ensemble</name>
+            </alias>
+        </character>
+        <character>
+            <name>jupiter</name>
+            <alias xml:id="jupiter">
+                <name>jupiter</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>tous_les_choeurs</name>
+            <alias xml:id="tous_les_choeurs">
+                <name>tous_les_choeurs</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_hymen</name>
+            <alias xml:id="l_hymen">
+                <name>l_hymen</name>
+            </alias>
+        </character>
+        <character>
+            <name>les_choeurs</name>
+            <alias xml:id="les_choeurs">
+                <name>les_choeurs</name>
+            </alias>
+        </character>
+        <character>
+            <name>_nus</name>
+            <alias xml:id="_nus">
+                <name>_nus</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>arbas__la_nourrice</name>
+            <alias xml:id="arbas__la_nourrice">
+                <name>arbas__la_nourrice</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>LE SERPENT PYTHON</head>
+            <div>
+                <head>PROLOGUE. Palès, Melisse, Troupe de Nymphes, Troupe de Pasteurs.</head>
+                <sp who="#pa_s">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="53" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="265" unit="chars"/>
+                </sp>
+                <sp who="#_lisse">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="191" unit="chars"/>
+                </sp>
+                <sp who="#pa_s___lisse">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="113" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="97" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="503" unit="chars"/>
+                </sp>
+                <sp who="#pan">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="56" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="275" unit="chars"/>
+                </sp>
+                <sp who="#choeurs">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="48" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="247" unit="chars"/>
+                </sp>
+                <sp who="#l_envie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="244" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1202" unit="chars"/>
+                </sp>
+                <sp who="#l_soleil">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="93" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="447" unit="chars"/>
+                </sp>
+                <sp who="#pa_s__lisse">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="60" unit="chars"/>
+                </sp>
+                <sp who="#pa_s__melisse__pan">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="85" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="410" unit="chars"/>
+                </sp>
+                <sp who="#archas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="86" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="446" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE I. Cadmus, deux princes Tiriens, un page.</head>
+                <sp who="#premier_prince_tyrien">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="117" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="586" unit="chars"/>
+                </sp>
+                <sp who="#les_deux_princes_tyriens">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="97" unit="chars"/>
+                </sp>
+                <sp who="#cadmus">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="177" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="845" unit="chars"/>
+                </sp>
+                <sp who="#deux_me_prince_tyrien">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="62" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="304" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Cadmus, Arbas, les deux Princes, le Page.</head>
+                <sp who="#cadmus">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="152" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="747" unit="chars"/>
+                </sp>
+                <sp who="#arbas">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="155" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="730" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Hermione, Charite, Aglante, La Nourrice d'Hermione, un page.</head>
+                <sp who="#hermione">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="110" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="552" unit="chars"/>
+                </sp>
+                <sp who="#aglante">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="205" unit="chars"/>
+                </sp>
+                <sp who="#charite">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="48" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="252" unit="chars"/>
+                </sp>
+                <sp who="#l_nourrice">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="93" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="450" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Hermione, Charite, Aglante, Le Nourrice, Cadmus, deux princes tyriens, neuf Africains dansants, deux autres africains dansants, deux autres africains chantants, Arbas, le Géant, Quatre autres Géants, trois pages.</head>
+                <sp who="#arbas_africains">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="106" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="494" unit="chars"/>
+                </sp>
+                <sp who="#premie_africain">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="192" unit="chars"/>
+                </sp>
+                <sp who="#deux_m_africain">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="160" unit="chars"/>
+                </sp>
+                <sp who="#le__ant">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="127" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="622" unit="chars"/>
+                </sp>
+                <sp who="#hermione">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="50" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="244" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Cadmus, deux princes tiriens, un page.</head>
+                <sp who="#cadmus">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="73" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="348" unit="chars"/>
+                </sp>
+                <sp who="#premier_prince_tyrien">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="94" unit="chars"/>
+                </sp>
+                <sp who="#deux_me_prince_tyrien">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="99" unit="chars"/>
+                </sp>
+                <sp who="#les_deux_princes_tyriens">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="46" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Junon, Pallas, cadmus, les deux princes.</head>
+                <sp who="#junon">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="321" unit="chars"/>
+                </sp>
+                <sp who="#pallas">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="85" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="398" unit="chars"/>
+                </sp>
+                <sp who="#cadmus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="118" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE I. Arbas, Charite.</head>
+                <sp who="#arbas">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="251" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1206" unit="chars"/>
+                </sp>
+                <sp who="#charite">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="156" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="753" unit="chars"/>
+                </sp>
+                <sp who="#charite_arbas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="97" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. La nourrice, Arbas, Charite.</head>
+                <sp who="#l_nourrice">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="69" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="312" unit="chars"/>
+                </sp>
+                <sp who="#arbas">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="37" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="153" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. La Nourrice, Charite.</head>
+                <sp who="#l_nourrice">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="122" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="563" unit="chars"/>
+                </sp>
+                <sp who="#charite">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="98" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="455" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Cadmus, Hermione.</head>
+                <sp who="#cadmus">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="207" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="957" unit="chars"/>
+                </sp>
+                <sp who="#hermione">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="212" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="1025" unit="chars"/>
+                </sp>
+                <sp who="#hermione_cadmus">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="141" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V.</head>
+                <sp who="#hermione">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="48" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="242" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. L'Amour, Hermione.</head>
+                <sp who="#l_amour">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="156" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="751" unit="chars"/>
+                </sp>
+                <sp who="#hermione">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="176" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I. Les deux Princes Tyriens, Arbas, deux Afriquains.</head>
+                <sp who="#premier_prince_tyrien">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="49" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="246" unit="chars"/>
+                </sp>
+                <sp who="#deux_me_prince_tyrien">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="160" unit="chars"/>
+                </sp>
+                <sp who="#arbas">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="104" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="522" unit="chars"/>
+                </sp>
+                <sp who="#les_deux_princes__arbas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="115" unit="chars"/>
+                </sp>
+                <sp who="#les_deux_princes_tyriens">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="4" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="22" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Arbas, Deux Africains.</head>
+                <sp who="#arbas">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="114" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="503" unit="chars"/>
+                </sp>
+                <sp who="#les_deux_africains">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="20" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Cadmus, Arbas.</head>
+                <sp who="#cadmus">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="84" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="385" unit="chars"/>
+                </sp>
+                <sp who="#arbas">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="129" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="537" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV.</head>
+                <sp who="#arbas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="105" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="487" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Les deux princes tiriens, Arbas.</head>
+                <sp who="#premier_prince_tyrien">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="37" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="178" unit="chars"/>
+                </sp>
+                <sp who="#deux_me_prince_tyrien">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="54" unit="chars"/>
+                </sp>
+                <sp who="#les_deux_princes_tyriens">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="204" unit="chars"/>
+                </sp>
+                <sp who="#arbas">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="93" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="427" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Cadmus, les deux princes tyriens, Arbas, le Grand Sacrificateur, dix sacrificateurs chantants, un timbalier, huit sacrificateur dansants.</head>
+                <sp who="#le_grand_sacrificateur">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="151" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="726" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur_des_sacrificateurs">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="145" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="72" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="273" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII.</head>
+                <sp who="#mars">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="74" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="365" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="27" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE I. Cadmus, Arbas.</head>
+                <sp who="#cadmus">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="166" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="734" unit="chars"/>
+                </sp>
+                <sp who="#arbas">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="71" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="341" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. L'Amour, Cadmus.</head>
+                <sp who="#l_amour">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="243" unit="chars"/>
+                </sp>
+                <sp who="#cadmus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="40" unit="chars"/>
+                </sp>
+                <sp who="#l_amour__cadmus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="78" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Cadmus, les combattants nés de la Terre.</head>
+                <sp who="#echion">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="158" unit="chars"/>
+                </sp>
+                <sp who="#cadmus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="310" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Le Géant, Cadmus.</head>
+                <sp who="#le__ant">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="75" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="359" unit="chars"/>
+                </sp>
+                <sp who="#cadmus">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="79" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Le géant, trois autres géants, Pallas, Cadmus.</head>
+                <sp who="#le__ant">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="71" unit="chars"/>
+                </sp>
+                <sp who="#pallas">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="90" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="446" unit="chars"/>
+                </sp>
+                <sp who="#cadmus">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="111" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Cadmus, Hermione, Suite d'Hermione et de Cadmus.</head>
+                <sp who="#cadmus">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="228" unit="chars"/>
+                </sp>
+                <sp who="#hermione">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="45" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="223" unit="chars"/>
+                </sp>
+                <sp who="#hermione__cadmus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="127" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Junon, Camdus, Hermione, Suite.</head>
+                <sp who="#junon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="59" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="298" unit="chars"/>
+                </sp>
+                <sp who="#hermione">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="3" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="9" unit="chars"/>
+                </sp>
+                <sp who="#tou_ensemble">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="37" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE I.</head>
+                <sp who="#cadmus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="100" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="501" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Pallas, Cadmus.</head>
+                <sp who="#pallas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="49" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="234" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. </head>
+                <sp who="#jupiter">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="54" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="248" unit="chars"/>
+                </sp>
+                <sp who="#tous_les_choeurs">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="180" unit="chars"/>
+                </sp>
+                <sp who="#l_hymen">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="74" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="350" unit="chars"/>
+                </sp>
+                <sp who="#junon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="33" unit="chars"/>
+                </sp>
+                <sp who="#les_choeurs">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="187" unit="chars"/>
+                </sp>
+                <sp who="#_nus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="44" unit="chars"/>
+                </sp>
+                <sp who="#mars">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="69" unit="chars"/>
+                </sp>
+                <sp who="#pallas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="44" unit="chars"/>
+                </sp>
+                <sp who="#l_amour">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="46" unit="chars"/>
+                </sp>
+                <sp who="#arbas__la_nourrice">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="99" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="458" unit="chars"/>
+                </sp>
+                <sp who="#charite">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="95" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="419" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

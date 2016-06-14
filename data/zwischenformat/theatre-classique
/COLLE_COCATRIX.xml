@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title/>
+        <genretitle>Comédie</genretitle>
+        <author>COLLE, Charles</author>
+        <date when="1697">1697</date>
+        <source>https://github.com/dramacode/theatre-classique/COLLE_COCATRIX.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>amatrox</name>
+            <alias xml:id="amatrox">
+                <name>amatrox</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>vortex</name>
+            <alias xml:id="vortex">
+                <name>vortex</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>colorax</name>
+            <alias xml:id="colorax">
+                <name>colorax</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>cocatrix</name>
+            <alias xml:id="cocatrix">
+                <name>cocatrix</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head/>
+            <div>
+                <head>SCÈNE PREMIÈRE. Amatrox, Vortex, montés sur deux ânes, exercés et rompus au théâtre.</head>
+                <sp who="#amatrox">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="1086" unit="words"/>
+                    <amount n="127" unit="lines"/>
+                    <amount n="5028" unit="chars"/>
+                </sp>
+                <sp who="#vortex">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="450" unit="words"/>
+                    <amount n="58" unit="lines"/>
+                    <amount n="1990" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II.</head>
+                <sp who="#amatrox">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="108" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="473" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Colorax, Amatrox, Gardes.</head>
+                <sp who="#colorax">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="609" unit="words"/>
+                    <amount n="77" unit="lines"/>
+                    <amount n="2709" unit="chars"/>
+                </sp>
+                <sp who="#amatrox">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="397" unit="words"/>
+                    <amount n="55" unit="lines"/>
+                    <amount n="1788" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCENE IV.</head>
+                <sp who="#amatrox">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="419" unit="words"/>
+                    <amount n="47" unit="lines"/>
+                    <amount n="1949" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V et dernière. Cocatrix, Amatrox.</head>
+                <sp who="#cocatrix">
+                    <amount n="22" unit="speech_acts"/>
+                    <amount n="644" unit="words"/>
+                    <amount n="91" unit="lines"/>
+                    <amount n="2858" unit="chars"/>
+                </sp>
+                <sp who="#amatrox">
+                    <amount n="22" unit="speech_acts"/>
+                    <amount n="805" unit="words"/>
+                    <amount n="107" unit="lines"/>
+                    <amount n="3749" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

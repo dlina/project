@@ -1,0 +1,1265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>PERSÉE</title>
+        <subtitle>TRAGÉDIE</subtitle>
+        <genretitle>Opéra</genretitle>
+        <author>QUINAULT, Philippe</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/QUINAULT_PERSEE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>phronime</name>
+            <alias xml:id="phronime">
+                <name>phronime</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>megathyme</name>
+            <alias xml:id="megathyme">
+                <name>megathyme</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>phronime_megathyme</name>
+            <alias xml:id="phronime_megathyme">
+                <name>phronime_megathyme</name>
+            </alias>
+        </character>
+        <character>
+            <name>phronime_megathyme_choeur</name>
+            <alias xml:id="phronime_megathyme_choeur">
+                <name>phronime_megathyme_choeur</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_vertu</name>
+            <alias xml:id="l_vertu">
+                <name>l_vertu</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_fortune</name>
+            <alias xml:id="l_fortune">
+                <name>l_fortune</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_vertu_l_fortune</name>
+            <alias xml:id="l_vertu_l_fortune">
+                <name>l_vertu_l_fortune</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_vertu_l_fortune_choeurs</name>
+            <alias xml:id="l_vertu_l_fortune_choeurs">
+                <name>l_vertu_l_fortune_choeurs</name>
+            </alias>
+        </character>
+        <character>
+            <name>suivant_vertu_suivant_fortune</name>
+            <alias xml:id="suivant_vertu_suivant_fortune">
+                <name>suivant_vertu_suivant_fortune</name>
+            </alias>
+        </character>
+        <character>
+            <name>cephee</name>
+            <alias xml:id="cephee">
+                <name>cephee</name>
+            </alias>
+        </character>
+        <character>
+            <name>cassiope</name>
+            <alias xml:id="cassiope">
+                <name>cassiope</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>merope</name>
+            <alias xml:id="merope">
+                <name>merope</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>cephee_cassiope_merope</name>
+            <alias xml:id="cephee_cassiope_merope">
+                <name>cephee_cassiope_merope</name>
+            </alias>
+        </character>
+        <character>
+            <name>cassiope_merope</name>
+            <alias xml:id="cassiope_merope">
+                <name>cassiope_merope</name>
+            </alias>
+        </character>
+        <character>
+            <name>andromede_phinee</name>
+            <alias xml:id="andromede_phinee">
+                <name>andromede_phinee</name>
+            </alias>
+        </character>
+        <character>
+            <name>andromede</name>
+            <alias xml:id="andromede">
+                <name>andromede</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>phinee</name>
+            <alias xml:id="phinee">
+                <name>phinee</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>merope_andromede_phinee</name>
+            <alias xml:id="merope_andromede_phinee">
+                <name>merope_andromede_phinee</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_choeur</name>
+            <alias xml:id="l_choeur">
+                <name>l_choeur</name>
+            </alias>
+        </character>
+        <character>
+            <name>amphimedon</name>
+            <alias xml:id="amphimedon">
+                <name>amphimedon</name>
+            </alias>
+        </character>
+        <character>
+            <name>corite</name>
+            <alias xml:id="corite">
+                <name>corite</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>protenor</name>
+            <alias xml:id="protenor">
+                <name>protenor</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>phinee_merope</name>
+            <alias xml:id="phinee_merope">
+                <name>phinee_merope</name>
+            </alias>
+        </character>
+        <character>
+            <name>merope_cassiope_phinee</name>
+            <alias xml:id="merope_cassiope_phinee">
+                <name>merope_cassiope_phinee</name>
+            </alias>
+        </character>
+        <character>
+            <name>cassiope_cephee</name>
+            <alias xml:id="cassiope_cephee">
+                <name>cassiope_cephee</name>
+            </alias>
+        </character>
+        <character>
+            <name>andromede_merope</name>
+            <alias xml:id="andromede_merope">
+                <name>andromede_merope</name>
+            </alias>
+        </character>
+        <character>
+            <name>persee</name>
+            <alias xml:id="persee">
+                <name>persee</name>
+            </alias>
+        </character>
+        <character>
+            <name>persee_andromede</name>
+            <alias xml:id="persee_andromede">
+                <name>persee_andromede</name>
+            </alias>
+        </character>
+        <character>
+            <name>mercure</name>
+            <alias xml:id="mercure">
+                <name>mercure</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>u_de_cyclopes</name>
+            <alias xml:id="u_de_cyclopes">
+                <name>u_de_cyclopes</name>
+            </alias>
+        </character>
+        <character>
+            <name>nymph_guerriere</name>
+            <alias xml:id="nymph_guerriere">
+                <name>nymph_guerriere</name>
+            </alias>
+        </character>
+        <character>
+            <name>divinit_infernale</name>
+            <alias xml:id="divinit_infernale">
+                <name>divinit_infernale</name>
+            </alias>
+        </character>
+        <character>
+            <name>mercure__choeurs_de_cyclopes__nymphes_guerr_res__divini_s_infernales</name>
+            <alias xml:id="mercure__choeurs_de_cyclopes__nymphes_guerr_res__divini_s_infernales">
+                <name>mercure__choeurs_de_cyclopes__nymphes_guerr_res__divini_s_infernales</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_choeurs</name>
+            <alias xml:id="le_choeurs">
+                <name>le_choeurs</name>
+            </alias>
+        </character>
+        <character>
+            <name>meduse</name>
+            <alias xml:id="meduse">
+                <name>meduse</name>
+            </alias>
+        </character>
+        <character>
+            <name>_duse_euryale_stenone</name>
+            <alias xml:id="_duse_euryale_stenone">
+                <name>_duse_euryale_stenone</name>
+            </alias>
+        </character>
+        <character>
+            <name>medus_euryal_stenone</name>
+            <alias xml:id="medus_euryal_stenone">
+                <name>medus_euryal_stenone</name>
+            </alias>
+        </character>
+        <character>
+            <name>euryal_stenone</name>
+            <alias xml:id="euryal_stenone">
+                <name>euryal_stenone</name>
+            </alias>
+        </character>
+        <character>
+            <name>troup_ethiopiens</name>
+            <alias xml:id="troup_ethiopiens">
+                <name>troup_ethiopiens</name>
+            </alias>
+        </character>
+        <character>
+            <name>second_troup_ethiopiens</name>
+            <alias xml:id="second_troup_ethiopiens">
+                <name>second_troup_ethiopiens</name>
+            </alias>
+        </character>
+        <character>
+            <name>troisiem_troup_ethiopiens</name>
+            <alias xml:id="troisiem_troup_ethiopiens">
+                <name>troisiem_troup_ethiopiens</name>
+            </alias>
+        </character>
+        <character>
+            <name>idas_ethiopiens</name>
+            <alias xml:id="idas_ethiopiens">
+                <name>idas_ethiopiens</name>
+            </alias>
+        </character>
+        <character>
+            <name>idas</name>
+            <alias xml:id="idas">
+                <name>idas</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>triton</name>
+            <alias xml:id="triton">
+                <name>triton</name>
+            </alias>
+        </character>
+        <character>
+            <name>cephee_cassiope_ethiopiens</name>
+            <alias xml:id="cephee_cassiope_ethiopiens">
+                <name>cephee_cassiope_ethiopiens</name>
+            </alias>
+        </character>
+        <character>
+            <name>nereides_tritons</name>
+            <alias xml:id="nereides_tritons">
+                <name>nereides_tritons</name>
+            </alias>
+        </character>
+        <character>
+            <name>cassiop_cephee</name>
+            <alias xml:id="cassiop_cephee">
+                <name>cassiop_cephee</name>
+            </alias>
+        </character>
+        <character>
+            <name>choeur</name>
+            <alias xml:id="choeur">
+                <name>choeur</name>
+            </alias>
+        </character>
+        <character>
+            <name>choeu_de_tritons</name>
+            <alias xml:id="choeu_de_tritons">
+                <name>choeu_de_tritons</name>
+            </alias>
+        </character>
+        <character>
+            <name>tou_ensemble</name>
+            <alias xml:id="tou_ensemble">
+                <name>tou_ensemble</name>
+            </alias>
+        </character>
+        <character>
+            <name>nereide_triton</name>
+            <alias xml:id="nereide_triton">
+                <name>nereide_triton</name>
+            </alias>
+        </character>
+        <character>
+            <name>ethiopiens</name>
+            <alias xml:id="ethiopiens">
+                <name>ethiopiens</name>
+            </alias>
+        </character>
+        <character>
+            <name>cephee_cassiope</name>
+            <alias xml:id="cephee_cassiope">
+                <name>cephee_cassiope</name>
+            </alias>
+        </character>
+        <character>
+            <name>ethiopens</name>
+            <alias xml:id="ethiopens">
+                <name>ethiopens</name>
+            </alias>
+        </character>
+        <character>
+            <name>u_de_ethiopiens</name>
+            <alias xml:id="u_de_ethiopiens">
+                <name>u_de_ethiopiens</name>
+            </alias>
+        </character>
+        <character>
+            <name>un_de_ethiopiennes</name>
+            <alias xml:id="un_de_ethiopiennes">
+                <name>un_de_ethiopiennes</name>
+            </alias>
+        </character>
+        <character>
+            <name>merope_phinee</name>
+            <alias xml:id="merope_phinee">
+                <name>merope_phinee</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_gran_pretre</name>
+            <alias xml:id="l_gran_pretre">
+                <name>l_gran_pretre</name>
+            </alias>
+        </character>
+        <character>
+            <name>phinee_s_suite</name>
+            <alias xml:id="phinee_s_suite">
+                <name>phinee_s_suite</name>
+            </alias>
+        </character>
+        <character>
+            <name>cephee_persee_leur_suites</name>
+            <alias xml:id="cephee_persee_leur_suites">
+                <name>cephee_persee_leur_suites</name>
+            </alias>
+        </character>
+        <character>
+            <name>cassiope_andromede</name>
+            <alias xml:id="cassiope_andromede">
+                <name>cassiope_andromede</name>
+            </alias>
+        </character>
+        <character>
+            <name>phi_e_s_suite</name>
+            <alias xml:id="phi_e_s_suite">
+                <name>phi_e_s_suite</name>
+            </alias>
+        </character>
+        <character>
+            <name>cephee_cassiope_andromede</name>
+            <alias xml:id="cephee_cassiope_andromede">
+                <name>cephee_cassiope_andromede</name>
+            </alias>
+        </character>
+        <character>
+            <name>venus</name>
+            <alias xml:id="venus">
+                <name>venus</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>_nus__l_amour__l_hy__e__choeurs</name>
+            <alias xml:id="_nus__l_amour__l_hy__e__choeurs">
+                <name>_nus__l_amour__l_hy__e__choeurs</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>PROLOGUE</head>
+            <div>
+                <head>SCÈNE I. Phronime et Megathyme.</head>
+                <sp who="#phronime">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="57" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="253" unit="chars"/>
+                </sp>
+                <sp who="#megathyme">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="202" unit="chars"/>
+                </sp>
+                <sp who="#phronime_megathyme">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="140" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="623" unit="chars"/>
+                </sp>
+                <sp who="#phronime_megathyme_choeur">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="46" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="200" unit="chars"/>
+                </sp>
+                <sp who="#l_vertu">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="277" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="1370" unit="chars"/>
+                </sp>
+                <sp who="#l_fortune">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="130" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="631" unit="chars"/>
+                </sp>
+                <sp who="#l_vertu_l_fortune">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="214" unit="chars"/>
+                </sp>
+                <sp who="#l_vertu_l_fortune_choeurs">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="72" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="367" unit="chars"/>
+                </sp>
+                <sp who="#suivant_vertu_suivant_fortune">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="85" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="380" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Céphée, Cassiope, Mérope, suite.</head>
+                <sp who="#cephee">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="193" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="946" unit="chars"/>
+                </sp>
+                <sp who="#cassiope">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="111" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="563" unit="chars"/>
+                </sp>
+                <sp who="#merope">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="49" unit="chars"/>
+                </sp>
+                <sp who="#cephee_cassiope_merope">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="95" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Cassiope, Mérope.</head>
+                <sp who="#cassiope">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="137" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="621" unit="chars"/>
+                </sp>
+                <sp who="#merope">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="95" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="494" unit="chars"/>
+                </sp>
+                <sp who="#cassiope_merope">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="62" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III.</head>
+                <sp who="#merope">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="139" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="635" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Andromède, Phinée, Mérope.</head>
+                <sp who="#andromede_phinee">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="72" unit="chars"/>
+                </sp>
+                <sp who="#andromede">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="212" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="1030" unit="chars"/>
+                </sp>
+                <sp who="#phinee">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="263" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="1261" unit="chars"/>
+                </sp>
+                <sp who="#merope">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="341" unit="chars"/>
+                </sp>
+                <sp who="#merope_andromede_phinee">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="193" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Cassiope, Andromède, Mérope, Phinée, Troupes de suivants de Cassiope, qui portent les prix ; Quadrilles de Jeunes personnes choisies pour les jeux, Choeur de spectateurs.</head>
+                <sp who="#cassiope">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="80" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="432" unit="chars"/>
+                </sp>
+                <sp who="#l_choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="115" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Amphimédon, Corité, Protenor, et les acteurs de la scène précédente.</head>
+                <sp who="#amphimedon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="155" unit="chars"/>
+                </sp>
+                <sp who="#corite">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="32" unit="chars"/>
+                </sp>
+                <sp who="#protenor">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="196" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Cassiope, Mérope, Phinée.</head>
+                <sp who="#cassiope">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="77" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="381" unit="chars"/>
+                </sp>
+                <sp who="#phinee">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="72" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="341" unit="chars"/>
+                </sp>
+                <sp who="#merope">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="50" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="247" unit="chars"/>
+                </sp>
+                <sp who="#phinee_merope">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="58" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Céphée, Cassiope, Phinée, Mérope, suite</head>
+                <sp who="#phinee">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="138" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="699" unit="chars"/>
+                </sp>
+                <sp who="#cephee">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="56" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="261" unit="chars"/>
+                </sp>
+                <sp who="#merope_cassiope_phinee">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="30" unit="chars"/>
+                </sp>
+                <sp who="#cassiope_cephee">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="48" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCENE III. Céphée, Cassiope, Mérope.</head>
+                <sp who="#cephee">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="54" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="256" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCENE IV. </head>
+                <sp who="#merope">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="78" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="378" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCENE V. Andromède, Mérope.</head>
+                <sp who="#andromede">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="198" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="938" unit="chars"/>
+                </sp>
+                <sp who="#merope">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="157" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="720" unit="chars"/>
+                </sp>
+                <sp who="#andromede_merope">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="74" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="364" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCENE VI. Persée, Andromède.</head>
+                <sp who="#persee">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="202" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="1018" unit="chars"/>
+                </sp>
+                <sp who="#andromede">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="211" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1033" unit="chars"/>
+                </sp>
+                <sp who="#persee_andromede">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="174" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Mercure, sortant des enfers ; Persée.</head>
+                <sp who="#mercure">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="115" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="599" unit="chars"/>
+                </sp>
+                <sp who="#persee">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="43" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="183" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Mercure, Persée, troupe de cyclopes.</head>
+                <sp who="#u_de_cyclopes">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="46" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="212" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Mercure, Persée, Troupe de nymphes guerrières, troupe de cyclopes.</head>
+                <sp who="#nymph_guerriere">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="91" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="492" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Mercure, Persée, Troupes de divinités infernales, de cyclopes, et de nymphes guerrières.</head>
+                <sp who="#divinit_infernale">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="63" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="343" unit="chars"/>
+                </sp>
+                <sp who="#mercure__choeurs_de_cyclopes__nymphes_guerr_res__divini_s_infernales">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="166" unit="chars"/>
+                </sp>
+                <sp who="#mercure">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="175" unit="chars"/>
+                </sp>
+                <sp who="#le_choeurs">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="41" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Méduse, Euryale, Sténone</head>
+                <sp who="#meduse">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="194" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="933" unit="chars"/>
+                </sp>
+                <sp who="#_duse_euryale_stenone">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="79" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="416" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Mercure, Méduse, Euryale, Sténone.</head>
+                <sp who="#meduse">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="131" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="711" unit="chars"/>
+                </sp>
+                <sp who="#mercure">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="149" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="779" unit="chars"/>
+                </sp>
+                <sp who="#medus_euryal_stenone">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="56" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="243" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Persée, Mercure, les Gorgones, endormies.</head>
+                <sp who="#mercure">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="61" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="297" unit="chars"/>
+                </sp>
+                <sp who="#persee">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="182" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Persée, les Gorgones.</head>
+                <sp who="#persee">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="81" unit="chars"/>
+                </sp>
+                <sp who="#euryal_stenone">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="75" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="356" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Mercure, Persée, Euryale, Sténone.</head>
+                <sp who="#mercure">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="37" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="173" unit="chars"/>
+                </sp>
+                <sp who="#euryal_stenone">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="72" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Phinée, Mérope, troupes d'éthiopiens.</head>
+                <sp who="#troup_ethiopiens">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="54" unit="chars"/>
+                </sp>
+                <sp who="#phinee">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="144" unit="chars"/>
+                </sp>
+                <sp who="#second_troup_ethiopiens">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="54" unit="chars"/>
+                </sp>
+                <sp who="#merope">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="25" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="106" unit="chars"/>
+                </sp>
+                <sp who="#troisiem_troup_ethiopiens">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="54" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Phinée, Mérope.</head>
+                <sp who="#phinee">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="146" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="760" unit="chars"/>
+                </sp>
+                <sp who="#merope">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="98" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="493" unit="chars"/>
+                </sp>
+                <sp who="#phinee_merope">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="66" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="329" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Idas, Phinée, Mérope, troupe d'éthiopiens.</head>
+                <sp who="#idas_ethiopiens">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="49" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="244" unit="chars"/>
+                </sp>
+                <sp who="#phinee_merope">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="82" unit="chars"/>
+                </sp>
+                <sp who="#idas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="132" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="661" unit="chars"/>
+                </sp>
+                <sp who="#phinee">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="106" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="481" unit="chars"/>
+                </sp>
+                <sp who="#merope">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="47" unit="chars"/>
+                </sp>
+                <sp who="#triton">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="180" unit="chars"/>
+                </sp>
+                <sp who="#cassiope">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="27" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="137" unit="chars"/>
+                </sp>
+                <sp who="#cephee">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="4" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="24" unit="chars"/>
+                </sp>
+                <sp who="#andromede">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="108" unit="chars"/>
+                </sp>
+                <sp who="#cephee_cassiope_ethiopiens">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="98" unit="chars"/>
+                </sp>
+                <sp who="#nereides_tritons">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="34" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Cassiope, Céphée, Troupe d'Ethiopiens, placés sur les rochers.</head>
+                <sp who="#cassiop_cephee">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="140" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="739" unit="chars"/>
+                </sp>
+                <sp who="#cephee">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="66" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Thétis, Andromède, Cassiope, Céphée, troupe de Néréides, de Tritons et d'Ethiopiens.</head>
+                <sp who="#cassiop_cephee">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="45" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="234" unit="chars"/>
+                </sp>
+                <sp who="#cassiope">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="261" unit="chars"/>
+                </sp>
+                <sp who="#choeur">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="189" unit="chars"/>
+                </sp>
+                <sp who="#andromede">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="182" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="927" unit="chars"/>
+                </sp>
+                <sp who="#choeu_de_tritons">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="59" unit="chars"/>
+                </sp>
+                <sp who="#cephee">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="4" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="24" unit="chars"/>
+                </sp>
+                <sp who="#cephee_cassiope_ethiopiens">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="67" unit="chars"/>
+                </sp>
+                <sp who="#nereides_tritons">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="34" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Persée, en l'air, et les acteurs acteurs de la scène précédente, sur le rivage, sur les rochers, et dans la mer.</head>
+                <sp who="#andromede">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="52" unit="chars"/>
+                </sp>
+                <sp who="#nereides_tritons">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="43" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="225" unit="chars"/>
+                </sp>
+                <sp who="#cephee_cassiope_ethiopiens">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="72" unit="chars"/>
+                </sp>
+                <sp who="#tou_ensemble">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="34" unit="chars"/>
+                </sp>
+                <sp who="#nereide_triton">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="148" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCENE VII. Persée, Andromède et Céphée.</head>
+                <sp who="#ethiopiens">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="72" unit="chars"/>
+                </sp>
+                <sp who="#cephee_cassiope">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="68" unit="chars"/>
+                </sp>
+                <sp who="#persee_andromede">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="47" unit="chars"/>
+                </sp>
+                <sp who="#ethiopens">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="26" unit="chars"/>
+                </sp>
+                <sp who="#u_de_ethiopiens">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="119" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="570" unit="chars"/>
+                </sp>
+                <sp who="#cephee">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="45" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="204" unit="chars"/>
+                </sp>
+                <sp who="#l_choeur">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="86" unit="chars"/>
+                </sp>
+                <sp who="#un_de_ethiopiennes">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="71" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE PREMIÈRE.</head>
+                <sp who="#merope">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="96" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="478" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCENE II. Phinée, Mérope.</head>
+                <sp who="#phinee">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="213" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="1061" unit="chars"/>
+                </sp>
+                <sp who="#merope">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="92" unit="chars"/>
+                </sp>
+                <sp who="#merope_phinee">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="51" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Céphée, Cassiope, Persée, Andromède, le grand-prêtre du dieu Hyménée, Suite du grand-prêtre, troupe de courtisans de Céphée, magnifiquement parés pour assister aux noces de Persée et Andromède.</head>
+                <sp who="#l_gran_pretre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="95" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="467" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Mérope, et les acteurs de la scène précédente.</head>
+                <sp who="#merope">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="111" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="553" unit="chars"/>
+                </sp>
+                <sp who="#persee">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="25" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="122" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Phinée, suite de Phinée, et les acteurs de la scène précédente.</head>
+                <sp who="#phinee_s_suite">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="83" unit="chars"/>
+                </sp>
+                <sp who="#cephee_persee_leur_suites">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="150" unit="chars"/>
+                </sp>
+                <sp who="#cassiope_andromede">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="130" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Céphée, Cassiope, Andromède.</head>
+                <sp who="#cephee">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="90" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="446" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Persée, suite de Persée ; Phinée, suite de Phinée, et les acteurs de la scène précédente.</head>
+                <sp who="#phi_e_s_suite">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="126" unit="chars"/>
+                </sp>
+                <sp who="#cephee_cassiope_andromede">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="100" unit="chars"/>
+                </sp>
+                <sp who="#persee">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="63" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="289" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCENE VIII. Vénus, l'Amour, L'Hyménée, Céphée ; Cassiope, Andromède, les Graces, les Amours, et les Jeux, Troupe de Courtisans de Céphée, Troupe d'Éthiopiens et d'Éthiopiennes.</head>
+                <sp who="#venus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="70" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="343" unit="chars"/>
+                </sp>
+                <sp who="#_nus__l_amour__l_hy__e__choeurs">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="41" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="200" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

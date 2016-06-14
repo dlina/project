@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>HORACE</title>
+        <subtitle>TRAGÉDIE</subtitle>
+        <genretitle>Tragédie</genretitle>
+        <author>CORNEILLE, Pierre</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/CORNEILLEP_HORACE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>sabine</name>
+            <alias xml:id="sabine">
+                <name>sabine</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>julie</name>
+            <alias xml:id="julie">
+                <name>julie</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>camille</name>
+            <alias xml:id="camille">
+                <name>camille</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>curiace</name>
+            <alias xml:id="curiace">
+                <name>curiace</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>horace</name>
+            <alias xml:id="horace">
+                <name>horace</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>flavian</name>
+            <alias xml:id="flavian">
+                <name>flavian</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_vieil_horace</name>
+            <alias xml:id="le_vieil_horace">
+                <name>le_vieil_horace</name>
+            </alias>
+        </character>
+        <character>
+            <name>valere</name>
+            <alias xml:id="valere">
+                <name>valere</name>
+            </alias>
+        </character>
+        <character>
+            <name>procule</name>
+            <alias xml:id="procule">
+                <name>procule</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>tulle</name>
+            <alias xml:id="tulle">
+                <name>tulle</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Sabine, Julie.</head>
+                <sp who="#sabine">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="1029" unit="words"/>
+                    <amount n="107" unit="lines"/>
+                    <amount n="4977" unit="chars"/>
+                </sp>
+                <sp who="#julie">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="390" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="1968" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Camille, Julie.</head>
+                <sp who="#camille">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="900" unit="words"/>
+                    <amount n="100" unit="lines"/>
+                    <amount n="4401" unit="chars"/>
+                </sp>
+                <sp who="#julie">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="144" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="724" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Curiace, Camille, Julie.</head>
+                <sp who="#curiace">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="835" unit="words"/>
+                    <amount n="93" unit="lines"/>
+                    <amount n="4220" unit="chars"/>
+                </sp>
+                <sp who="#camille">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="207" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="967" unit="chars"/>
+                </sp>
+                <sp who="#julie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="41" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="227" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE PREMIERE. Horace, Curiace.</head>
+                <sp who="#curiace">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="464" unit="words"/>
+                    <amount n="47" unit="lines"/>
+                    <amount n="2212" unit="chars"/>
+                </sp>
+                <sp who="#horace">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="235" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="1168" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Horace, Curiace, Flavian.</head>
+                <sp who="#flavian">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="76" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="361" unit="chars"/>
+                </sp>
+                <sp who="#curiace">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="60" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="293" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Horace, Curiace.</head>
+                <sp who="#curiace">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="419" unit="words"/>
+                    <amount n="45" unit="lines"/>
+                    <amount n="2004" unit="chars"/>
+                </sp>
+                <sp who="#horace">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="515" unit="words"/>
+                    <amount n="56" unit="lines"/>
+                    <amount n="2534" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Horace, Curiace, Camille.</head>
+                <sp who="#horace">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="243" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="1137" unit="chars"/>
+                </sp>
+                <sp who="#camille">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="40" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Curiace, Camille.</head>
+                <sp who="#camille">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="378" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="1733" unit="chars"/>
+                </sp>
+                <sp who="#curiace">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="569" unit="words"/>
+                    <amount n="58" unit="lines"/>
+                    <amount n="2620" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Horace, Curiace, Sabine, Camille.</head>
+                <sp who="#curiace">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="204" unit="chars"/>
+                </sp>
+                <sp who="#sabine">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="536" unit="words"/>
+                    <amount n="57" unit="lines"/>
+                    <amount n="2550" unit="chars"/>
+                </sp>
+                <sp who="#horace">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="137" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="654" unit="chars"/>
+                </sp>
+                <sp who="#camille">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="4" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="27" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Le Viel Horace, Horace, Curiace.</head>
+                <sp who="#le_vieil_horace">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="67" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="359" unit="chars"/>
+                </sp>
+                <sp who="#sabine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="93" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="449" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Le Vieil Horace, Horace, Curiace.</head>
+                <sp who="#horace">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="368" unit="chars"/>
+                </sp>
+                <sp who="#le_vieil_horace">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="67" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="340" unit="chars"/>
+                </sp>
+                <sp who="#curiace">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="54" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE PREMIÈRE.</head>
+                <sp who="#sabine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="526" unit="words"/>
+                    <amount n="55" unit="lines"/>
+                    <amount n="2607" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Sabine, Julie.</head>
+                <sp who="#sabine">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="288" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="1412" unit="chars"/>
+                </sp>
+                <sp who="#julie">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="536" unit="words"/>
+                    <amount n="56" unit="lines"/>
+                    <amount n="2663" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Sabine, Camille, Julie.</head>
+                <sp who="#sabine">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="96" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="471" unit="chars"/>
+                </sp>
+                <sp who="#camille">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="217" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="1041" unit="chars"/>
+                </sp>
+                <sp who="#julie">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="122" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="600" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Sabine, Camille.</head>
+                <sp who="#sabine">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="333" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="1600" unit="chars"/>
+                </sp>
+                <sp who="#camille">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="316" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1490" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Le Vieil Horace, Sabine, Camille.</head>
+                <sp who="#le_vieil_horace">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="414" unit="words"/>
+                    <amount n="47" unit="lines"/>
+                    <amount n="2093" unit="chars"/>
+                </sp>
+                <sp who="#sabine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="241" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="1194" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Le Vieil Horace, Sabine, Camille, Julie.</head>
+                <sp who="#le_vieil_horace">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="451" unit="words"/>
+                    <amount n="55" unit="lines"/>
+                    <amount n="2267" unit="chars"/>
+                </sp>
+                <sp who="#julie">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="90" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="440" unit="chars"/>
+                </sp>
+                <sp who="#camille">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="4" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="15" unit="chars"/>
+                </sp>
+                <sp who="#sabine">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="53" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="296" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Le Vieil Horace, Camille.</head>
+                <sp who="#le_vieil_horace">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="128" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="605" unit="chars"/>
+                </sp>
+                <sp who="#camille">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="37" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="178" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Le Vieil Horace, Valère, Camille.</head>
+                <sp who="#valere">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="769" unit="words"/>
+                    <amount n="87" unit="lines"/>
+                    <amount n="3767" unit="chars"/>
+                </sp>
+                <sp who="#le_vieil_horace">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="294" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="1438" unit="chars"/>
+                </sp>
+                <sp who="#camille">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="2" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="8" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Le Vieil Horace, Camille.</head>
+                <sp who="#le_vieil_horace">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="216" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="1054" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV.</head>
+                <sp who="#camille">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="561" unit="words"/>
+                    <amount n="57" unit="lines"/>
+                    <amount n="2653" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Horace, Camille, Procule.</head>
+                <sp who="#horace">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="309" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1519" unit="chars"/>
+                </sp>
+                <sp who="#camille">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="398" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="1926" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Horace, Procule.</head>
+                <sp who="#procule">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="72" unit="chars"/>
+                </sp>
+                <sp who="#horace">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="110" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="497" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Horace, Sabine, Procule.</head>
+                <sp who="#sabine">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="464" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="2177" unit="chars"/>
+                </sp>
+                <sp who="#horace">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="214" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="1031" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Le Vieil Horace, Horace.</head>
+                <sp who="#le_vieil_horace">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="235" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="1055" unit="chars"/>
+                </sp>
+                <sp who="#horace">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="160" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="760" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Tulle, Valère, Le Vieil Horace, Horace, troupe de Gardes.</head>
+                <sp who="#le_vieil_horace">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="219" unit="chars"/>
+                </sp>
+                <sp who="#tulle">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="289" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="1381" unit="chars"/>
+                </sp>
+                <sp who="#valere">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="595" unit="words"/>
+                    <amount n="63" unit="lines"/>
+                    <amount n="2863" unit="chars"/>
+                </sp>
+                <sp who="#horace">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="601" unit="words"/>
+                    <amount n="61" unit="lines"/>
+                    <amount n="2832" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Tulle, Valère, Le Vieil Horace, Horace, Sabine.</head>
+                <sp who="#sabine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="346" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1639" unit="chars"/>
+                </sp>
+                <sp who="#le_vieil_horace">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="988" unit="words"/>
+                    <amount n="104" unit="lines"/>
+                    <amount n="4714" unit="chars"/>
+                </sp>
+                <sp who="#valere">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="23" unit="chars"/>
+                </sp>
+                <sp who="#tulle">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="521" unit="words"/>
+                    <amount n="55" unit="lines"/>
+                    <amount n="2517" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE DERNIÈRE.</head>
+                <sp who="#julie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="129" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="673" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

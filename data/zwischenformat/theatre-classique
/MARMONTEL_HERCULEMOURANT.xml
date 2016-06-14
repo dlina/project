@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>HERCULE MOURANT</title>
+        <subtitle>TRAGÉDIE EN MUSIQUE en CINQ ACTES</subtitle>
+        <genretitle>Opéra</genretitle>
+        <author>MARMONTEL, Jean-François</author>
+        <date when="1661">1661</date>
+        <source>https://github.com/dramacode/theatre-classique/MARMONTEL_HERCULEMOURANT.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>_janire</name>
+            <alias xml:id="_janire">
+                <name>_janire</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>dir_</name>
+            <alias xml:id="dir_">
+                <name>dir_</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>hilus</name>
+            <alias xml:id="hilus">
+                <name>hilus</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_choeur</name>
+            <alias xml:id="l_choeur">
+                <name>l_choeur</name>
+            </alias>
+        </character>
+        <character>
+            <name>un_thessalienne</name>
+            <alias xml:id="un_thessalienne">
+                <name>un_thessalienne</name>
+            </alias>
+        </character>
+        <character>
+            <name>junon</name>
+            <alias xml:id="junon">
+                <name>junon</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_jalousie</name>
+            <alias xml:id="l_jalousie">
+                <name>l_jalousie</name>
+            </alias>
+        </character>
+        <character>
+            <name>junon_l_jalousie</name>
+            <alias xml:id="junon_l_jalousie">
+                <name>junon_l_jalousie</name>
+            </alias>
+        </character>
+        <character>
+            <name>iole</name>
+            <alias xml:id="iole">
+                <name>iole</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>iole_hilus</name>
+            <alias xml:id="iole_hilus">
+                <name>iole_hilus</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_choeu_de_captifs</name>
+            <alias xml:id="l_choeu_de_captifs">
+                <name>l_choeu_de_captifs</name>
+            </alias>
+        </character>
+        <character>
+            <name>un_captive</name>
+            <alias xml:id="un_captive">
+                <name>un_captive</name>
+            </alias>
+        </character>
+        <character>
+            <name>hercule</name>
+            <alias xml:id="hercule">
+                <name>hercule</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>philoc_te</name>
+            <alias xml:id="philoc_te">
+                <name>philoc_te</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>hercule_philoc_te</name>
+            <alias xml:id="hercule_philoc_te">
+                <name>hercule_philoc_te</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_choeur_alcide</name>
+            <alias xml:id="l_choeur_alcide">
+                <name>l_choeur_alcide</name>
+            </alias>
+        </character>
+        <character>
+            <name>u_thessalien</name>
+            <alias xml:id="u_thessalien">
+                <name>u_thessalien</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_thessalien_l_choeur</name>
+            <alias xml:id="l_thessalien_l_choeur">
+                <name>l_thessalien_l_choeur</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_choeur__janire</name>
+            <alias xml:id="l_choeur__janire">
+                <name>l_choeur__janire</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_gran_p_tre_l_choeur</name>
+            <alias xml:id="l_gran_p_tre_l_choeur">
+                <name>l_gran_p_tre_l_choeur</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_gran_p_tre</name>
+            <alias xml:id="l_gran_p_tre">
+                <name>l_gran_p_tre</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_choeu_d_femmes</name>
+            <alias xml:id="l_choeu_d_femmes">
+                <name>l_choeu_d_femmes</name>
+            </alias>
+        </character>
+        <character>
+            <name>hercule_hilus_l_choeur</name>
+            <alias xml:id="hercule_hilus_l_choeur">
+                <name>hercule_hilus_l_choeur</name>
+            </alias>
+        </character>
+        <character>
+            <name>hilus_l_choeur</name>
+            <alias xml:id="hilus_l_choeur">
+                <name>hilus_l_choeur</name>
+            </alias>
+        </character>
+        <character>
+            <name>jupiter</name>
+            <alias xml:id="jupiter">
+                <name>jupiter</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Déjanire, Dircé.</head>
+                <sp who="#_janire">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="184" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="885" unit="chars"/>
+                </sp>
+                <sp who="#dir_">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="27" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="130" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Hilus, Déjanire, Dircé.</head>
+                <sp who="#_janire">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="51" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="249" unit="chars"/>
+                </sp>
+                <sp who="#hilus">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="139" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="697" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Hilus, Déjanire, Dircé, Peuple Thessalien, qui vient féliciter Déjanire sur le retour d'Hercule.</head>
+                <sp who="#l_choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="131" unit="chars"/>
+                </sp>
+                <sp who="#un_thessalienne">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="53" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="250" unit="chars"/>
+                </sp>
+                <sp who="#_janire">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="95" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Junon, la Jalousie.</head>
+                <sp who="#junon">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="133" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="633" unit="chars"/>
+                </sp>
+                <sp who="#l_jalousie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="77" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="384" unit="chars"/>
+                </sp>
+                <sp who="#junon_l_jalousie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="165" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE PREMIÈRE.</head>
+                <sp who="#iole">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="84" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="416" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Hilus, Iole.</head>
+                <sp who="#hilus">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="144" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="675" unit="chars"/>
+                </sp>
+                <sp who="#iole">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="238" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="1160" unit="chars"/>
+                </sp>
+                <sp who="#iole_hilus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="43" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="209" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Hilus, Déjanire, Dircé.</head>
+                <sp who="#_janire">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="197" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Déjanire, Dircé.</head>
+                <sp who="#_janire">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="93" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="456" unit="chars"/>
+                </sp>
+                <sp who="#dir_">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="85" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Déjanire, Dircé, Iole, les Captifs.</head>
+                <sp who="#l_choeu_de_captifs">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="63" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="310" unit="chars"/>
+                </sp>
+                <sp who="#_janire">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="130" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="564" unit="chars"/>
+                </sp>
+                <sp who="#un_captive">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="64" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="307" unit="chars"/>
+                </sp>
+                <sp who="#iole">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="71" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="379" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Déjanire, Dircé.</head>
+                <sp who="#dir_">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="87" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="469" unit="chars"/>
+                </sp>
+                <sp who="#_janire">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="240" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="1101" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE PREMIÈRE.</head>
+                <sp who="#hercule">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="56" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="264" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Hercule, Philoctète.</head>
+                <sp who="#philoc_te">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="122" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="616" unit="chars"/>
+                </sp>
+                <sp who="#hercule">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="113" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="558" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Hercule, Philoctète, Guerriers, Compagnons d'Hercule portant des trophées, composés de dépouilles des tyrans et des monstres qu'il a dompté, Thessaliens et Thessaliennes</head>
+                <sp who="#hercule">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="78" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="381" unit="chars"/>
+                </sp>
+                <sp who="#l_choeur">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="56" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="279" unit="chars"/>
+                </sp>
+                <sp who="#hercule_philoc_te">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="116" unit="chars"/>
+                </sp>
+                <sp who="#l_choeur_alcide">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="73" unit="chars"/>
+                </sp>
+                <sp who="#u_thessalien">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="64" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="310" unit="chars"/>
+                </sp>
+                <sp who="#l_thessalien_l_choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="20" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Hercule, Philoctète, Hilus, Lychas.</head>
+                <sp who="#hercule">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="154" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="755" unit="chars"/>
+                </sp>
+                <sp who="#hilus">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="126" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="632" unit="chars"/>
+                </sp>
+                <sp who="#philoc_te">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="193" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Déjanire, Dircé, la Jalousie.</head>
+                <sp who="#_janire">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="72" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="340" unit="chars"/>
+                </sp>
+                <sp who="#dir_">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="31" unit="chars"/>
+                </sp>
+                <sp who="#l_jalousie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="143" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II.</head>
+                <sp who="#_janire">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="135" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Déjanire, les Femmes de sa suite, les Prêtres de Jupiter.</head>
+                <sp who="#_janire">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="88" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="414" unit="chars"/>
+                </sp>
+                <sp who="#l_choeur__janire">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="188" unit="chars"/>
+                </sp>
+                <sp who="#l_gran_p_tre_l_choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="156" unit="chars"/>
+                </sp>
+                <sp who="#l_gran_p_tre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="75" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Déjanire, Hilus.</head>
+                <sp who="#_janire">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="139" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="662" unit="chars"/>
+                </sp>
+                <sp who="#hilus">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="312" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="1531" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Les Compagnons d'Hercule, élevant son Bûcher.</head>
+                <sp who="#l_choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="27" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="132" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Hercule, Philoctète, les Compagnons d'Hercule.</head>
+                <sp who="#hercule">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="74" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="343" unit="chars"/>
+                </sp>
+                <sp who="#philoc_te">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="148" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Hilus, Hercule, Philoctète, les Compagnons d'Hercule.</head>
+                <sp who="#hercule">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="186" unit="chars"/>
+                </sp>
+                <sp who="#hilus">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="61" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="299" unit="chars"/>
+                </sp>
+                <sp who="#l_choeu_d_femmes">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="32" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Iole, les Femmes de Déjanire, Hilus, Hercule, Philoctète, les Compagnons d'Hercule.</head>
+                <sp who="#l_choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="32" unit="chars"/>
+                </sp>
+                <sp who="#hilus">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="50" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="213" unit="chars"/>
+                </sp>
+                <sp who="#iole">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="106" unit="chars"/>
+                </sp>
+                <sp who="#hercule_hilus_l_choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="32" unit="chars"/>
+                </sp>
+                <sp who="#hercule">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="314" unit="words"/>
+                    <amount n="53" unit="lines"/>
+                    <amount n="1529" unit="chars"/>
+                </sp>
+                <sp who="#hilus_l_choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="30" unit="chars"/>
+                </sp>
+                <sp who="#philoc_te">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="41" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE DERNIÈRE. Jupiter sur son Trône, environné de sa cour céleste, Iole, les Femmes de Déjanire, Hilus, Hercule, Philoctète, les Compagnons d'Hercule.</head>
+                <sp who="#jupiter">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="63" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="291" unit="chars"/>
+                </sp>
+                <sp who="#l_choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="158" unit="chars"/>
+                </sp>
+                <sp who="#hercule">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="46" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="217" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

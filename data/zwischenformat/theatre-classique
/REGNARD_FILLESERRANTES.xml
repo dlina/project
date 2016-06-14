@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LES FILLES ERRANTES, OU LES INTRIGUES DES HÔTELLERIES.</title>
+        <subtitle>COMÉDIE EN TROIS ACTES</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>REGNARD, Jean-François</author>
+        <date when="1692">1692</date>
+        <source>https://github.com/dramacode/theatre-classique/REGNARD_FILLESERRANTES.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>isabelle</name>
+            <alias xml:id="isabelle">
+                <name>isabelle</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>arlequin</name>
+            <alias xml:id="arlequin">
+                <name>arlequin</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>cinthio</name>
+            <alias xml:id="cinthio">
+                <name>cinthio</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>colombine</name>
+            <alias xml:id="colombine">
+                <name>colombine</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>mezzetin</name>
+            <alias xml:id="mezzetin">
+                <name>mezzetin</name>
+            </alias>
+        </character>
+        <character>
+            <name>pierrot</name>
+            <alias xml:id="pierrot">
+                <name>pierrot</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_valet</name>
+            <alias xml:id="l_valet">
+                <name>l_valet</name>
+            </alias>
+        </character>
+        <character>
+            <name>monsieu_croquignolet</name>
+            <alias xml:id="monsieu_croquignolet">
+                <name>monsieu_croquignolet</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>pasquariel</name>
+            <alias xml:id="pasquariel">
+                <name>pasquariel</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_hollandais</name>
+            <alias xml:id="l_hollandais">
+                <name>l_hollandais</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_garde</name>
+            <alias xml:id="l_garde">
+                <name>l_garde</name>
+            </alias>
+        </character>
+        <character>
+            <name>arlequin__pierrot</name>
+            <alias xml:id="arlequin__pierrot">
+                <name>arlequin__pierrot</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_choeur</name>
+            <alias xml:id="l_choeur">
+                <name>l_choeur</name>
+            </alias>
+        </character>
+        <character>
+            <name>arlequin_mezzetin_pasquariel</name>
+            <alias xml:id="arlequin_mezzetin_pasquariel">
+                <name>arlequin_mezzetin_pasquariel</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE I. Cinthio, Colombine.</head>
+            </div>
+            <div>
+                <head>SCÈNE II. Cinthio, Colombine, Arlequin.</head>
+            </div>
+            <div>
+                <head>SCÈNE III. Arlequin, Cinthio, Colombine, Isabelle, en servante, sous le nom de Claudine.</head>
+                <sp who="#isabelle">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="127" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="611" unit="chars"/>
+                </sp>
+                <sp who="#arlequin">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="118" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="568" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Cinthio, Colombine, Isabelle.</head>
+                <sp who="#cinthio">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="26" unit="chars"/>
+                </sp>
+                <sp who="#colombine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="46" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Cinthio, Isabelle.</head>
+                <sp who="#isabelle">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="70" unit="chars"/>
+                </sp>
+                <sp who="#cinthio">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="88" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI.</head>
+                <sp who="#isabelle">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="53" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Mezzetin, Pierrot, Colombine.</head>
+                <sp who="#mezzetin">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="336" unit="words"/>
+                    <amount n="57" unit="lines"/>
+                    <amount n="1523" unit="chars"/>
+                </sp>
+                <sp who="#pierrot">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="229" unit="words"/>
+                    <amount n="54" unit="lines"/>
+                    <amount n="1119" unit="chars"/>
+                </sp>
+                <sp who="#colombine">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="554" unit="words"/>
+                    <amount n="64" unit="lines"/>
+                    <amount n="2655" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII.</head>
+                <sp who="#pierrot">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="153" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Monsieur Croquignolet, son Valet, portant un sac de nuit sur son épaule.</head>
+                <sp who="#l_valet">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="315" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1578" unit="chars"/>
+                </sp>
+                <sp who="#monsieu_croquignolet">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="126" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="570" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Monsieur Croquignolet, son Valet, Isabelle, sous le nom de Claudine.</head>
+                <sp who="#isabelle">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="280" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="1410" unit="chars"/>
+                </sp>
+                <sp who="#l_valet">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="205" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="955" unit="chars"/>
+                </sp>
+                <sp who="#monsieu_croquignolet">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="186" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="811" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X.. Monsieur Croquignolet, son Valet, Isabelle, Cinthio.</head>
+                <sp who="#cinthio">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="212" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="1030" unit="chars"/>
+                </sp>
+                <sp who="#monsieu_croquignolet">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="198" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="895" unit="chars"/>
+                </sp>
+                <sp who="#l_valet">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="250" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="1121" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII. Monsieur Croquignolet, son Valet.</head>
+                <sp who="#monsieu_croquignolet">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="151" unit="chars"/>
+                </sp>
+                <sp who="#l_valet">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="74" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE I. Isabelle, Cinthio.</head>
+                <sp who="#isabelle">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="195" unit="chars"/>
+                </sp>
+                <sp who="#cinthio">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="48" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="215" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II., Arlequin, Cinthio, Isabelle.</head>
+                <sp who="#arlequin">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="604" unit="words"/>
+                    <amount n="74" unit="lines"/>
+                    <amount n="2898" unit="chars"/>
+                </sp>
+                <sp who="#cinthio">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="217" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="1060" unit="chars"/>
+                </sp>
+                <sp who="#isabelle">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="336" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1654" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Isabelle, Colombine.</head>
+                <sp who="#colombine">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="915" unit="words"/>
+                    <amount n="91" unit="lines"/>
+                    <amount n="4461" unit="chars"/>
+                </sp>
+                <sp who="#isabelle">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="449" unit="words"/>
+                    <amount n="55" unit="lines"/>
+                    <amount n="2234" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Arlequin, Pierrot.</head>
+                <sp who="#arlequin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="175" unit="chars"/>
+                </sp>
+                <sp who="#pierrot">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="148" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V.</head>
+                <sp who="#pierrot">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="177" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Pierrot, Isabelle, sous le nom de Claudine.</head>
+                <sp who="#pierrot">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="359" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1633" unit="chars"/>
+                </sp>
+                <sp who="#isabelle">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="83" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="395" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII.</head>
+                <sp who="#pierrot">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="36" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I. Arlequin, en spadassin, se disant frère d'Isabelle&#160;; Pasquariel, et autres Spadassins.</head>
+                <sp who="#arlequin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="57" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="289" unit="chars"/>
+                </sp>
+                <sp who="#pasquariel">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="49" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="236" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Cinthio, Arlequin, Pasquariel, Spadassins.</head>
+                <sp who="#arlequin">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="285" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="1383" unit="chars"/>
+                </sp>
+                <sp who="#cinthio">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="169" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="787" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Arlequin, Pasquariel, Spadassins.</head>
+                <sp who="#arlequin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="27" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="125" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Un Capitaine Hollandais, avec une jambe de bois, Arlequin.</head>
+                <sp who="#l_hollandais">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="241" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="1154" unit="chars"/>
+                </sp>
+                <sp who="#arlequin">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="417" unit="words"/>
+                    <amount n="59" unit="lines"/>
+                    <amount n="1935" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Arlequin, en commissaire&#160;; Pierrot, en clerc&#160;; Cinthio, Isabelle, Gardes à la suite du commissaire.</head>
+                <sp who="#arlequin">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="331" unit="words"/>
+                    <amount n="55" unit="lines"/>
+                    <amount n="1711" unit="chars"/>
+                </sp>
+                <sp who="#pierrot">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="70" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="325" unit="chars"/>
+                </sp>
+                <sp who="#cinthio">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="94" unit="chars"/>
+                </sp>
+                <sp who="#isabelle">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="144" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Un Garde, Les Personnages précédents.</head>
+                <sp who="#l_garde">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="55" unit="chars"/>
+                </sp>
+                <sp who="#arlequin">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="228" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="1076" unit="chars"/>
+                </sp>
+                <sp who="#pierrot">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="91" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="407" unit="chars"/>
+                </sp>
+                <sp who="#isabelle">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="173" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="768" unit="chars"/>
+                </sp>
+                <sp who="#cinthio">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="72" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="342" unit="chars"/>
+                </sp>
+                <sp who="#arlequin__pierrot">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="96" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>DIVERTISSEMENT.</head>
+                <sp who="#l_choeur">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="110" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="578" unit="chars"/>
+                </sp>
+                <sp who="#mezzetin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="80" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="332" unit="chars"/>
+                </sp>
+                <sp who="#arlequin_mezzetin_pasquariel">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="129" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

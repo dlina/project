@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>ÉLECTRE Traduction nouvelle de Émile PESSONNEAUX</title>
+        <subtitle>TRAGÉDIE</subtitle>
+        <genretitle>Tragédie</genretitle>
+        <author>EURIPIDE</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/EURIPIDE_ELECTRE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>le_laboureur</name>
+            <alias xml:id="le_laboureur">
+                <name>le_laboureur</name>
+            </alias>
+        </character>
+        <character>
+            <name>électre</name>
+            <alias xml:id="électre">
+                <name>électre</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>oreste</name>
+            <alias xml:id="oreste">
+                <name>oreste</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_choeur</name>
+            <alias xml:id="le_choeur">
+                <name>le_choeur</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_vieillard</name>
+            <alias xml:id="le_vieillard">
+                <name>le_vieillard</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_messager</name>
+            <alias xml:id="le_messager">
+                <name>le_messager</name>
+            </alias>
+        </character>
+        <character>
+            <name>clytemnestre</name>
+            <alias xml:id="clytemnestre">
+                <name>clytemnestre</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>les_dioscures</name>
+            <alias xml:id="les_dioscures">
+                <name>les_dioscures</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ÉLECTRE</head>
+            <div>
+                <head>Un Laboureur, Électre.</head>
+                <sp who="#le_laboureur">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="654" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="3184" unit="chars"/>
+                </sp>
+                <sp who="#électre">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="234" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="1075" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>Oreste, Pylade.</head>
+                <sp who="#oreste">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="312" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="1487" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>Oreste, Électre, Pylade, Le Choeur.</head>
+                <sp who="#électre">
+                    <amount n="40" unit="speech_acts"/>
+                    <amount n="1568" unit="words"/>
+                    <amount n="168" unit="lines"/>
+                    <amount n="7242" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="206" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="990" unit="chars"/>
+                </sp>
+                <sp who="#oreste">
+                    <amount n="36" unit="speech_acts"/>
+                    <amount n="532" unit="words"/>
+                    <amount n="117" unit="lines"/>
+                    <amount n="2459" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>Le Laboureur, Électre, Oreste, Le Choeur.</head>
+                <sp who="#le_laboureur">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="330" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1564" unit="chars"/>
+                </sp>
+                <sp who="#électre">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="253" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="1199" unit="chars"/>
+                </sp>
+                <sp who="#oreste">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="453" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="2130" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="438" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="2179" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>Un Vieillard, Électre.</head>
+                <sp who="#le_vieillard">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="531" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="2455" unit="chars"/>
+                </sp>
+                <sp who="#électre">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="249" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="1197" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>Oreste, Électre, Le Vieillard. </head>
+                <sp who="#oreste">
+                    <amount n="32" unit="speech_acts"/>
+                    <amount n="612" unit="words"/>
+                    <amount n="118" unit="lines"/>
+                    <amount n="2919" unit="chars"/>
+                </sp>
+                <sp who="#électre">
+                    <amount n="28" unit="speech_acts"/>
+                    <amount n="487" unit="words"/>
+                    <amount n="95" unit="lines"/>
+                    <amount n="2160" unit="chars"/>
+                </sp>
+                <sp who="#le_vieillard">
+                    <amount n="35" unit="speech_acts"/>
+                    <amount n="526" unit="words"/>
+                    <amount n="112" unit="lines"/>
+                    <amount n="2448" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="82" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="380" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>Le Choeur.</head>
+                <sp who="#le_choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="390" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="1907" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>Électre, Le Choeur.</head>
+                <sp who="#électre">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="76" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="321" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="62" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="274" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>Un Messager, Électre.</head>
+                <sp who="#le_messager">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="1081" unit="words"/>
+                    <amount n="57" unit="lines"/>
+                    <amount n="5128" unit="chars"/>
+                </sp>
+                <sp who="#électre">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="137" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="636" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="127" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="579" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>Électre, Oreste, Le Choeur.</head>
+                <sp who="#électre">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="914" unit="words"/>
+                    <amount n="76" unit="lines"/>
+                    <amount n="4237" unit="chars"/>
+                </sp>
+                <sp who="#oreste">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="363" unit="words"/>
+                    <amount n="60" unit="lines"/>
+                    <amount n="1698" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="147" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>Le Choeur, Clytemnestre, Électre.</head>
+                <sp who="#le_choeur">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="267" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="1270" unit="chars"/>
+                </sp>
+                <sp who="#clytemnestre">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="867" unit="words"/>
+                    <amount n="74" unit="lines"/>
+                    <amount n="3954" unit="chars"/>
+                </sp>
+                <sp who="#électre">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="895" unit="words"/>
+                    <amount n="69" unit="lines"/>
+                    <amount n="4195" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>Le Choeur, Oreste, Électre.</head>
+                <sp who="#le_choeur">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="187" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="911" unit="chars"/>
+                </sp>
+                <sp who="#oreste">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="329" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="1471" unit="chars"/>
+                </sp>
+                <sp who="#électre">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="143" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="635" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>Les Dioscures, Le Choeur, Électre, Oreste.</head>
+                <sp who="#les_dioscures">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="889" unit="words"/>
+                    <amount n="60" unit="lines"/>
+                    <amount n="4208" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="59" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="279" unit="chars"/>
+                </sp>
+                <sp who="#oreste">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="154" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="660" unit="chars"/>
+                </sp>
+                <sp who="#électre">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="75" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="367" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

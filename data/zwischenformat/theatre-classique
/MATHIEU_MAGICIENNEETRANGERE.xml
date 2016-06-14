@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LA MAGICIENNE ÉTRANGÈRE</title>
+        <subtitle>TRAGÉDIE</subtitle>
+        <subtitle>En laquelle on voit les tyranniques comportements, origine, entreprises, dessein, sortilèges, arrêt, mort et supplice, tant du Marquis d'Ancre que de Léonor Galligay sa femme, avec l'aventureuse rencontre de leurs funestes ombres.</subtitle>
+        <genretitle>Tragédie</genretitle>
+        <author>MATHIEU, Pierre</author>
+        <date when="1617">1617</date>
+        <source>https://github.com/dramacode/theatre-classique/MATHIEU_MAGICIENNEETRANGERE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>gran_pa_francais</name>
+            <alias xml:id="gran_pa_francais">
+                <name>gran_pa_francais</name>
+            </alias>
+        </character>
+        <character>
+            <name>aymelis</name>
+            <alias xml:id="aymelis">
+                <name>aymelis</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>leontide</name>
+            <alias xml:id="leontide">
+                <name>leontide</name>
+            </alias>
+        </character>
+        <character>
+            <name>almindor</name>
+            <alias xml:id="almindor">
+                <name>almindor</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>argante</name>
+            <alias xml:id="argante">
+                <name>argante</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>solon</name>
+            <alias xml:id="solon">
+                <name>solon</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>lucidor</name>
+            <alias xml:id="lucidor">
+                <name>lucidor</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>agravie</name>
+            <alias xml:id="agravie">
+                <name>agravie</name>
+            </alias>
+        </character>
+        <character>
+            <name>almidor</name>
+            <alias xml:id="almidor">
+                <name>almidor</name>
+            </alias>
+        </character>
+        <character>
+            <name>alecton</name>
+            <alias xml:id="alecton">
+                <name>alecton</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>thesiphone</name>
+            <alias xml:id="thesiphone">
+                <name>thesiphone</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>megere</name>
+            <alias xml:id="megere">
+                <name>megere</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>_ange</name>
+            <alias xml:id="_ange">
+                <name>_ange</name>
+            </alias>
+        </character>
+        <character>
+            <name>galligay</name>
+            <alias xml:id="galligay">
+                <name>galligay</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>premie_conseiller</name>
+            <alias xml:id="premie_conseiller">
+                <name>premie_conseiller</name>
+            </alias>
+        </character>
+        <character>
+            <name>secon_conseiller</name>
+            <alias xml:id="secon_conseiller">
+                <name>secon_conseiller</name>
+            </alias>
+        </character>
+        <character>
+            <name>ecxecuteur</name>
+            <alias xml:id="ecxecuteur">
+                <name>ecxecuteur</name>
+            </alias>
+        </character>
+        <character>
+            <name>conchine</name>
+            <alias xml:id="conchine">
+                <name>conchine</name>
+            </alias>
+        </character>
+        <character>
+            <name>tenebrion</name>
+            <alias xml:id="tenebrion">
+                <name>tenebrion</name>
+            </alias>
+        </character>
+        <character>
+            <name>premie_docteur</name>
+            <alias xml:id="premie_docteur">
+                <name>premie_docteur</name>
+            </alias>
+        </character>
+        <character>
+            <name>secon_docteur</name>
+            <alias xml:id="secon_docteur">
+                <name>secon_docteur</name>
+            </alias>
+        </character>
+        <character>
+            <name>ombr_d_galligay</name>
+            <alias xml:id="ombr_d_galligay">
+                <name>ombr_d_galligay</name>
+            </alias>
+        </character>
+        <character>
+            <name>ombr_d_conchine</name>
+            <alias xml:id="ombr_d_conchine">
+                <name>ombr_d_conchine</name>
+            </alias>
+        </character>
+        <character>
+            <name>leontine</name>
+            <alias xml:id="leontine">
+                <name>leontine</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>aymelys</name>
+            <alias xml:id="aymelys">
+                <name>aymelys</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE I. Le grand Pan français, Aymelys, Léontine, Almidor, Argante, Lucidor, le Solon français.</head>
+                <sp who="#gran_pa_francais">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="821" unit="words"/>
+                    <amount n="92" unit="lines"/>
+                    <amount n="4199" unit="chars"/>
+                </sp>
+                <sp who="#aymelis">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="107" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="540" unit="chars"/>
+                </sp>
+                <sp who="#leontide">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="101" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="493" unit="chars"/>
+                </sp>
+                <sp who="#almindor">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="48" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="265" unit="chars"/>
+                </sp>
+                <sp who="#argante">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="57" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="261" unit="chars"/>
+                </sp>
+                <sp who="#solon">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="61" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="315" unit="chars"/>
+                </sp>
+                <sp who="#lucidor">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="111" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="564" unit="chars"/>
+                </sp>
+                <sp who="#agravie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="63" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="311" unit="chars"/>
+                </sp>
+                <sp who="#almidor">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="180" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Alecton, Thésyphore, Mégère, L'Ange.</head>
+                <sp who="#alecton">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="506" unit="words"/>
+                    <amount n="54" unit="lines"/>
+                    <amount n="2564" unit="chars"/>
+                </sp>
+                <sp who="#thesiphone">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="206" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="1018" unit="chars"/>
+                </sp>
+                <sp who="#megere">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="162" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="837" unit="chars"/>
+                </sp>
+                <sp who="#_ange">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="534" unit="words"/>
+                    <amount n="57" unit="lines"/>
+                    <amount n="2635" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE I. Le Solon français, Galligay, Premier Conseiller, Second Conseiller, Exécuteur.</head>
+                <sp who="#solon">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="392" unit="words"/>
+                    <amount n="54" unit="lines"/>
+                    <amount n="2024" unit="chars"/>
+                </sp>
+                <sp who="#galligay">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="621" unit="words"/>
+                    <amount n="74" unit="lines"/>
+                    <amount n="3059" unit="chars"/>
+                </sp>
+                <sp who="#premie_conseiller">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="105" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="559" unit="chars"/>
+                </sp>
+                <sp who="#secon_conseiller">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="70" unit="chars"/>
+                </sp>
+                <sp who="#ecxecuteur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="48" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="252" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Conchine, Tenebrion.</head>
+                <sp who="#conchine">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="614" unit="words"/>
+                    <amount n="73" unit="lines"/>
+                    <amount n="3190" unit="chars"/>
+                </sp>
+                <sp who="#tenebrion">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="310" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="1435" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I. Galligay, Premier docteur, Second Docteur, Exécuteur.</head>
+                <sp who="#galligay">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="913" unit="words"/>
+                    <amount n="98" unit="lines"/>
+                    <amount n="4505" unit="chars"/>
+                </sp>
+                <sp who="#premie_docteur">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="105" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="514" unit="chars"/>
+                </sp>
+                <sp who="#secon_docteur">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="75" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="396" unit="chars"/>
+                </sp>
+                <sp who="#ecxecuteur">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="68" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="311" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. L'ombre de Conchine et l'ombre de Galligay.</head>
+                <sp who="#conchine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="240" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="1272" unit="chars"/>
+                </sp>
+                <sp who="#ombr_d_galligay">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="150" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="721" unit="chars"/>
+                </sp>
+                <sp who="#ombr_d_conchine">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="172" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="928" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE I. Le Grand Pan Français, Léontine , Aymelis, Almidor, Argente, Lucidor.</head>
+                <sp who="#gran_pa_francais">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="261" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="1404" unit="chars"/>
+                </sp>
+                <sp who="#leontine">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="103" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="551" unit="chars"/>
+                </sp>
+                <sp who="#aymelys">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="216" unit="chars"/>
+                </sp>
+                <sp who="#almidor">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="68" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="365" unit="chars"/>
+                </sp>
+                <sp who="#argante">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="137" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="668" unit="chars"/>
+                </sp>
+                <sp who="#lucidor">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="75" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="347" unit="chars"/>
+                </sp>
+                <sp who="#aymelis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="72" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

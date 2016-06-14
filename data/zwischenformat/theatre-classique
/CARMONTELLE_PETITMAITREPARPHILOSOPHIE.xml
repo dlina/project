@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LE PETIT MAÎTRE PAR PHILOSOPHIE</title>
+        <subtitle>TRENTE-CINQUIÈME PROVERBE.</subtitle>
+        <genretitle>Proverbe</genretitle>
+        <author>CARMONTELLE, Louis Carrogis, dit Louis de Carmontelle</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/CARMONTELLE_PETITMAITREPARPHILOSOPHIE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>le_chevalier</name>
+            <alias xml:id="le_chevalier">
+                <name>le_chevalier</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_marquis</name>
+            <alias xml:id="l_marquis">
+                <name>l_marquis</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>dup_</name>
+            <alias xml:id="dup_">
+                <name>dup_</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>la_comtesse</name>
+            <alias xml:id="la_comtesse">
+                <name>la_comtesse</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head/>
+            <div>
+                <head>SCÈNE PREMIÈRE. La Marquis, La Chevalier.</head>
+                <sp who="#le_chevalier">
+                    <amount n="42" unit="speech_acts"/>
+                    <amount n="405" unit="words"/>
+                    <amount n="131" unit="lines"/>
+                    <amount n="1844" unit="chars"/>
+                </sp>
+                <sp who="#l_marquis">
+                    <amount n="42" unit="speech_acts"/>
+                    <amount n="1553" unit="words"/>
+                    <amount n="157" unit="lines"/>
+                    <amount n="7362" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Le Marquis, Le Chevalier, Dupré.</head>
+                <sp who="#dup_">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="71" unit="chars"/>
+                </sp>
+                <sp who="#l_marquis">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="55" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="237" unit="chars"/>
+                </sp>
+                <sp who="#le_chevalier">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="126" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. La Comtesse, Le Chevalier.</head>
+                <sp who="#la_comtesse">
+                    <amount n="58" unit="speech_acts"/>
+                    <amount n="891" unit="words"/>
+                    <amount n="199" unit="lines"/>
+                    <amount n="4099" unit="chars"/>
+                </sp>
+                <sp who="#le_chevalier">
+                    <amount n="58" unit="speech_acts"/>
+                    <amount n="687" unit="words"/>
+                    <amount n="189" unit="lines"/>
+                    <amount n="2975" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Le Marquis, Le Chevalier.</head>
+                <sp who="#l_marquis">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="141" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="632" unit="chars"/>
+                </sp>
+                <sp who="#le_chevalier">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="77" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="333" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

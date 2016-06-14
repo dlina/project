@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>AJAX</title>
+        <subtitle>TRAGÉDIE</subtitle>
+        <genretitle>Tragédie</genretitle>
+        <author>POINSINET de SIVRY, Louis</author>
+        <date when="1755">1755</date>
+        <source>https://github.com/dramacode/theatre-classique/POINSINET_AJAX.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>memnon</name>
+            <alias xml:id="memnon">
+                <name>memnon</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>hippodamas</name>
+            <alias xml:id="hippodamas">
+                <name>hippodamas</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>hersile</name>
+            <alias xml:id="hersile">
+                <name>hersile</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>pent_si_e</name>
+            <alias xml:id="pent_si_e">
+                <name>pent_si_e</name>
+            </alias>
+        </character>
+        <character>
+            <name>ajax</name>
+            <alias xml:id="ajax">
+                <name>ajax</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>arcas</name>
+            <alias xml:id="arcas">
+                <name>arcas</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>ulysse</name>
+            <alias xml:id="ulysse">
+                <name>ulysse</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>agamemnon</name>
+            <alias xml:id="agamemnon">
+                <name>agamemnon</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>an_nor</name>
+            <alias xml:id="an_nor">
+                <name>an_nor</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>eurybate</name>
+            <alias xml:id="eurybate">
+                <name>eurybate</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Memnon, Hippodamas.</head>
+                <sp who="#memnon">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="267" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="1240" unit="chars"/>
+                </sp>
+                <sp who="#hippodamas">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="281" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="1358" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Penthésilée, Hersile.</head>
+                <sp who="#hersile">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="310" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="1568" unit="chars"/>
+                </sp>
+                <sp who="#pent_si_e">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="1015" unit="words"/>
+                    <amount n="108" unit="lines"/>
+                    <amount n="4798" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Penthésilée, Ajax, Arcas.</head>
+                <sp who="#ajax">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="402" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="1903" unit="chars"/>
+                </sp>
+                <sp who="#pent_si_e">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="391" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="1844" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Ajax, Arcas.</head>
+                <sp who="#ajax">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="408" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="1812" unit="chars"/>
+                </sp>
+                <sp who="#arcas">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="70" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="306" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Agamemnon, Ulysse.</head>
+                <sp who="#ulysse">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="833" unit="words"/>
+                    <amount n="81" unit="lines"/>
+                    <amount n="4102" unit="chars"/>
+                </sp>
+                <sp who="#agamemnon">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="681" unit="words"/>
+                    <amount n="76" unit="lines"/>
+                    <amount n="3246" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Agamemnon, Ulysse, Anténor.</head>
+                <sp who="#an_nor">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="175" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="845" unit="chars"/>
+                </sp>
+                <sp who="#ulysse">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="328" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="1536" unit="chars"/>
+                </sp>
+                <sp who="#agamemnon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="58" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="293" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Agamemnon, Ulysse, Chefs des Grecs.</head>
+                <sp who="#agamemnon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="254" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="1177" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. AAgamemnon, Ajax, Acteurs précédents.</head>
+                <sp who="#ajax">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="286" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="1382" unit="chars"/>
+                </sp>
+                <sp who="#agamemnon">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="203" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="978" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V.</head>
+                <sp who="#ajax">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="84" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="380" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Penthésilée, Hersile.</head>
+                <sp who="#pent_si_e">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="450" unit="words"/>
+                    <amount n="47" unit="lines"/>
+                    <amount n="2169" unit="chars"/>
+                </sp>
+                <sp who="#hersile">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="78" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II.</head>
+                <sp who="#pent_si_e">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="48" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="215" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Penthésilée, Ajax.</head>
+                <sp who="#ajax">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="505" unit="words"/>
+                    <amount n="56" unit="lines"/>
+                    <amount n="2342" unit="chars"/>
+                </sp>
+                <sp who="#pent_si_e">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="338" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="1619" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV.</head>
+                <sp who="#pent_si_e">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="212" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="984" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Penthésilée, Anténor.</head>
+                <sp who="#an_nor">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="151" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="746" unit="chars"/>
+                </sp>
+                <sp who="#pent_si_e">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="112" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="563" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Penthésilée, Anténor, Hersile.</head>
+                <sp who="#pent_si_e">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="543" unit="words"/>
+                    <amount n="66" unit="lines"/>
+                    <amount n="2459" unit="chars"/>
+                </sp>
+                <sp who="#hersile">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="188" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="913" unit="chars"/>
+                </sp>
+                <sp who="#an_nor">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="224" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="1102" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Penthésilée, Anténor, Hersile, Memnon.</head>
+                <sp who="#pent_si_e">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="198" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="896" unit="chars"/>
+                </sp>
+                <sp who="#memnon">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="225" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="1052" unit="chars"/>
+                </sp>
+                <sp who="#an_nor">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="187" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="912" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Agamemnon, Eurybate.</head>
+                <sp who="#eurybate">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="121" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="595" unit="chars"/>
+                </sp>
+                <sp who="#agamemnon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="53" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="253" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Agaemnon, Ajax, Ulysse Chefs des Grecs, Suite.</head>
+                <sp who="#agamemnon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="85" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="390" unit="chars"/>
+                </sp>
+                <sp who="#ajax">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="896" unit="words"/>
+                    <amount n="92" unit="lines"/>
+                    <amount n="4237" unit="chars"/>
+                </sp>
+                <sp who="#ulysse">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="1017" unit="words"/>
+                    <amount n="96" unit="lines"/>
+                    <amount n="4837" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Agamemnon, Ulysse, Chefs, Suite.</head>
+                <sp who="#ulysse">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="285" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1393" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Agamemnon, Chefs, Suite.</head>
+                <sp who="#agamemnon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="139" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="656" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Agamemnon, Chefs, Eurybate.</head>
+                <sp who="#eurybate">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="43" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="229" unit="chars"/>
+                </sp>
+                <sp who="#agamemnon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="55" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Agamemnon, Chefs, Penthésilée.</head>
+                <sp who="#pent_si_e">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="323" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="1584" unit="chars"/>
+                </sp>
+                <sp who="#agamemnon">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="209" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="970" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII.</head>
+                <sp who="#pent_si_e">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="66" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="312" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Penthésilée, Hersile.</head>
+                <sp who="#pent_si_e">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="123" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="542" unit="chars"/>
+                </sp>
+                <sp who="#hersile">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="158" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="792" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Ajax, Arcas.</head>
+                <sp who="#ajax">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="436" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="1985" unit="chars"/>
+                </sp>
+                <sp who="#arcas">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="180" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="937" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Ajax, Penthésilée, Arcas.</head>
+                <sp who="#pent_si_e">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="605" unit="words"/>
+                    <amount n="74" unit="lines"/>
+                    <amount n="2875" unit="chars"/>
+                </sp>
+                <sp who="#ajax">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="746" unit="words"/>
+                    <amount n="91" unit="lines"/>
+                    <amount n="3410" unit="chars"/>
+                </sp>
+                <sp who="#arcas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="14" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III.</head>
+                <sp who="#ajax">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="205" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="974" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Ajax, Ulysse.</head>
+                <sp who="#ajax">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="235" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="1103" unit="chars"/>
+                </sp>
+                <sp who="#ulysse">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="295" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="1329" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V.</head>
+                <sp who="#ajax">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="89" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="374" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI ET DERNIÈRE. Ajax, Arcas.</head>
+                <sp who="#arcas">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="172" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="792" unit="chars"/>
+                </sp>
+                <sp who="#ajax">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="272" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="1263" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

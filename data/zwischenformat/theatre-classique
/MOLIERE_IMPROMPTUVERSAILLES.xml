@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>L'IMPROMPTU DE VERSAILLES</title>
+        <subtitle>COMÉDIE</subtitle>
+        <subtitle>Représentée la première foi à Versailles pour le Roi le quatorzième octobre 1663 et donnée depuis au Public dans la Salle du Palais-Royal, le quatrième Novembre de la même année 1663.</subtitle>
+        <subtitle>Par le Troupe de MONSIEUR, Frère unique du Roi.</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>MOLIERE</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/MOLIERE_IMPROMPTUVERSAILLES.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>mol_re</name>
+            <alias xml:id="mol_re">
+                <name>mol_re</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>b_court</name>
+            <alias xml:id="b_court">
+                <name>b_court</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>la_grange</name>
+            <alias xml:id="la_grange">
+                <name>la_grange</name>
+            </alias>
+        </character>
+        <character>
+            <name>du_croisy</name>
+            <alias xml:id="du_croisy">
+                <name>du_croisy</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>mademoiselle_du_parc</name>
+            <alias xml:id="mademoiselle_du_parc">
+                <name>mademoiselle_du_parc</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>mademoiselle__jart</name>
+            <alias xml:id="mademoiselle__jart">
+                <name>mademoiselle__jart</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>mademoiselle_de_brie</name>
+            <alias xml:id="mademoiselle_de_brie">
+                <name>mademoiselle_de_brie</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>mademoiselle_du_croisy</name>
+            <alias xml:id="mademoiselle_du_croisy">
+                <name>mademoiselle_du_croisy</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>mademoisell_herve</name>
+            <alias xml:id="mademoisell_herve">
+                <name>mademoisell_herve</name>
+            </alias>
+        </character>
+        <character>
+            <name>mademoisell_mol_re</name>
+            <alias xml:id="mademoisell_mol_re">
+                <name>mademoisell_mol_re</name>
+            </alias>
+        </character>
+        <character>
+            <name>la_thorill_re</name>
+            <alias xml:id="la_thorill_re">
+                <name>la_thorill_re</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>bejart</name>
+            <alias xml:id="bejart">
+                <name>bejart</name>
+            </alias>
+        </character>
+        <character>
+            <name>un__cessaire</name>
+            <alias xml:id="un__cessaire">
+                <name>un__cessaire</name>
+            </alias>
+        </character>
+        <character>
+            <name>autre__cessaire</name>
+            <alias xml:id="autre__cessaire">
+                <name>autre__cessaire</name>
+            </alias>
+        </character>
+        <character>
+            <name>autr_necessaire</name>
+            <alias xml:id="autr_necessaire">
+                <name>autr_necessaire</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Molière, Brécourt, La Grange, Du Croisy, Mademoiselle Du Parc, Mademoiselle Béjart, Mademoiselle De Brie, Mademoiselle Molière, Mademoiselle Du Croisy, Mademoiselle Hervé.</head>
+                <sp who="#mol_re">
+                    <amount n="31" unit="speech_acts"/>
+                    <amount n="2118" unit="words"/>
+                    <amount n="193" unit="lines"/>
+                    <amount n="10027" unit="chars"/>
+                </sp>
+                <sp who="#b_court">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="45" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="203" unit="chars"/>
+                </sp>
+                <sp who="#la_grange">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="55" unit="chars"/>
+                </sp>
+                <sp who="#du_croisy">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="58" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_du_parc">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="92" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="422" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle__jart">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="396" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="1950" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_de_brie">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="133" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="576" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_du_croisy">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="98" unit="chars"/>
+                </sp>
+                <sp who="#mademoisell_herve">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="53" unit="chars"/>
+                </sp>
+                <sp who="#mademoisell_mol_re">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="147" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="698" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. La Thorillière, Molière, etc.</head>
+                <sp who="#la_thorill_re">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="189" unit="words"/>
+                    <amount n="62" unit="lines"/>
+                    <amount n="877" unit="chars"/>
+                </sp>
+                <sp who="#mol_re">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="277" unit="words"/>
+                    <amount n="60" unit="lines"/>
+                    <amount n="1120" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_du_croisy">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="16" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_de_brie">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="83" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III.  Molière, La Grange, etc.</head>
+                <sp who="#mol_re">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="430" unit="words"/>
+                    <amount n="64" unit="lines"/>
+                    <amount n="1892" unit="chars"/>
+                </sp>
+                <sp who="#la_grange">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="189" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="800" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Molière, Brécourt, Lagrange, etc.</head>
+                <sp who="#b_court">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="402" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="2028" unit="chars"/>
+                </sp>
+                <sp who="#mol_re">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="707" unit="words"/>
+                    <amount n="62" unit="lines"/>
+                    <amount n="3348" unit="chars"/>
+                </sp>
+                <sp who="#la_grange">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="76" unit="chars"/>
+                </sp>
+                <sp who="#mademoisell_mol_re">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="155" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="664" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_du_parc">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="173" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="733" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Mademoiselle de Brie, Mademoiselle du Par, etc. </head>
+                <sp who="#mademoiselle_de_brie">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="169" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="798" unit="chars"/>
+                </sp>
+                <sp who="#mol_re">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="1120" unit="words"/>
+                    <amount n="72" unit="lines"/>
+                    <amount n="5295" unit="chars"/>
+                </sp>
+                <sp who="#du_croisy">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="246" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="1216" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_du_parc">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="132" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="655" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_du_croisy">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="55" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="235" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle__jart">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="162" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="749" unit="chars"/>
+                </sp>
+                <sp who="#mademoisell_mol_re">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="255" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="1250" unit="chars"/>
+                </sp>
+                <sp who="#b_court">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="331" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="1554" unit="chars"/>
+                </sp>
+                <sp who="#la_grange">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="152" unit="chars"/>
+                </sp>
+                <sp who="#mademoisell_herve">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="56" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE [VI]. Béjart, Molière, etc.</head>
+                <sp who="#bejart">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="92" unit="chars"/>
+                </sp>
+                <sp who="#mol_re">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="92" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="426" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_du_parc">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="32" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE [VII]. Molière, Mademoiselle Béjart, etc, Un nécessaire.</head>
+                <sp who="#un__cessaire">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="28" unit="chars"/>
+                </sp>
+                <sp who="#mol_re">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="86" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE [VIII]. Molière, Mademoiselle Béjart, etc, Autre nécessaire.</head>
+                <sp who="#autre__cessaire">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="28" unit="chars"/>
+                </sp>
+                <sp who="#mol_re">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="77" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE [IX]. Molière, Mademoiselle Béjart, etc, Autre nécessaire.</head>
+                <sp who="#autre__cessaire">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="28" unit="chars"/>
+                </sp>
+                <sp who="#mol_re">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="138" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE [X]. Molière, Mademoiselle Béjart, etc, Autre nécessaire.</head>
+                <sp who="#autr_necessaire">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="28" unit="chars"/>
+                </sp>
+                <sp who="#mol_re">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="70" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE [XI]. Béjart, Molière, etc.</head>
+                <sp who="#mol_re">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="63" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="282" unit="chars"/>
+                </sp>
+                <sp who="#bejart">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="53" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="258" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

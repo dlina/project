@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LA COMÉDIE DE LA COMÉDIE</title>
+        <subtitle>COMÉDIE</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>DORIMOND, Nicolas Drouin dit</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/DORIMOND_COMEDIEDELACOMEDIE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>_andre</name>
+            <alias xml:id="_andre">
+                <name>_andre</name>
+            </alias>
+        </character>
+        <character>
+            <name>lucidor</name>
+            <alias xml:id="lucidor">
+                <name>lucidor</name>
+            </alias>
+        </character>
+        <character>
+            <name>une_dame</name>
+            <alias xml:id="une_dame">
+                <name>une_dame</name>
+            </alias>
+        </character>
+        <character>
+            <name>une_autre_dame</name>
+            <alias xml:id="une_autre_dame">
+                <name>une_autre_dame</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_portier</name>
+            <alias xml:id="le_portier">
+                <name>le_portier</name>
+            </alias>
+        </character>
+        <character>
+            <name>la_co_dienne</name>
+            <alias xml:id="la_co_dienne">
+                <name>la_co_dienne</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_galant</name>
+            <alias xml:id="le_galant">
+                <name>le_galant</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_pinai</name>
+            <alias xml:id="l_pinai">
+                <name>l_pinai</name>
+            </alias>
+        </character>
+        <character>
+            <name>deux_filoux</name>
+            <alias xml:id="deux_filoux">
+                <name>deux_filoux</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_filou</name>
+            <alias xml:id="le_filou">
+                <name>le_filou</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head/>
+            <div>
+                <head>SCÈNE PREMIÈRE. Léandre, Lucidor</head>
+                <sp who="#_andre">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="67" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="327" unit="chars"/>
+                </sp>
+                <sp who="#lucidor">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="339" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="1579" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCENE II. Les Dames.</head>
+                <sp who="#une_dame">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="196" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="948" unit="chars"/>
+                </sp>
+                <sp who="#une_autre_dame">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="25" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="107" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III.</head>
+                <sp who="#le_portier">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="408" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="1990" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. La Comédienne, Le Galant, L'Épinay.</head>
+                <sp who="#la_co_dienne">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="802" unit="words"/>
+                    <amount n="93" unit="lines"/>
+                    <amount n="3993" unit="chars"/>
+                </sp>
+                <sp who="#le_galant">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="254" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1173" unit="chars"/>
+                </sp>
+                <sp who="#l_pinai">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="92" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="416" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Le Portier, Deux filous.</head>
+                <sp who="#le_portier">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="371" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="1676" unit="chars"/>
+                </sp>
+                <sp who="#deux_filoux">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="2" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="8" unit="chars"/>
+                </sp>
+                <sp who="#le_filou">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="60" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="258" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LES ILLUSTRES ENNEMIS</title>
+        <subtitle>COMÉDIE</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>CORNEILLE, Thomas</author>
+        <date when="1657">1657</date>
+        <source>https://github.com/dramacode/theatre-classique/CORNEILLET_ILLUSTRESENNEMIS.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>alonse</name>
+            <alias xml:id="alonse">
+                <name>alonse</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>enrique</name>
+            <alias xml:id="enrique">
+                <name>enrique</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>blanche</name>
+            <alias xml:id="blanche">
+                <name>blanche</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>jacinte</name>
+            <alias xml:id="jacinte">
+                <name>jacinte</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>do_lope</name>
+            <alias xml:id="do_lope">
+                <name>do_lope</name>
+            </alias>
+        </character>
+        <character>
+            <name>do_sanche</name>
+            <alias xml:id="do_sanche">
+                <name>do_sanche</name>
+            </alias>
+        </character>
+        <character>
+            <name>cassandre</name>
+            <alias xml:id="cassandre">
+                <name>cassandre</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>flore</name>
+            <alias xml:id="flore">
+                <name>flore</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>do_alvar</name>
+            <alias xml:id="do_alvar">
+                <name>do_alvar</name>
+            </alias>
+        </character>
+        <character>
+            <name>do_ramire</name>
+            <alias xml:id="do_ramire">
+                <name>do_ramire</name>
+            </alias>
+        </character>
+        <character>
+            <name>n1e_brave</name>
+            <alias xml:id="n1e_brave">
+                <name>n1e_brave</name>
+            </alias>
+        </character>
+        <character>
+            <name>n_m_brave</name>
+            <alias xml:id="n_m_brave">
+                <name>n_m_brave</name>
+            </alias>
+        </character>
+        <character>
+            <name>do_louis</name>
+            <alias xml:id="do_louis">
+                <name>do_louis</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Alonse, Enrique.</head>
+                <sp who="#alonse">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="430" unit="words"/>
+                    <amount n="56" unit="lines"/>
+                    <amount n="2124" unit="chars"/>
+                </sp>
+                <sp who="#enrique">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="504" unit="words"/>
+                    <amount n="63" unit="lines"/>
+                    <amount n="2511" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Alonse, Blanche.</head>
+                <sp who="#alonse">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="72" unit="chars"/>
+                </sp>
+                <sp who="#blanche">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="68" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Jacinte, Blanche.</head>
+                <sp who="#jacinte">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="529" unit="words"/>
+                    <amount n="61" unit="lines"/>
+                    <amount n="2604" unit="chars"/>
+                </sp>
+                <sp who="#blanche">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="101" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="501" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Don Lope, Jacinte, Blanche.</head>
+                <sp who="#jacinte">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="495" unit="words"/>
+                    <amount n="65" unit="lines"/>
+                    <amount n="2436" unit="chars"/>
+                </sp>
+                <sp who="#do_lope">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="377" unit="words"/>
+                    <amount n="48" unit="lines"/>
+                    <amount n="1834" unit="chars"/>
+                </sp>
+                <sp who="#blanche">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="32" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Don Sanche, Alonse.</head>
+                <sp who="#do_sanche">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="181" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="886" unit="chars"/>
+                </sp>
+                <sp who="#alonse">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="301" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="1523" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Don Sanche, Alonse, Jacinte.</head>
+                <sp who="#jacinte">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="293" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="1397" unit="chars"/>
+                </sp>
+                <sp who="#do_sanche">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="81" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="358" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Don Lope, Jacinte, Blanche.</head>
+                <sp who="#jacinte">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="310" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="1482" unit="chars"/>
+                </sp>
+                <sp who="#do_lope">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="335" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="1574" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Don Lope, Cassandre, Flore.</head>
+                <sp who="#do_lope">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="681" unit="words"/>
+                    <amount n="77" unit="lines"/>
+                    <amount n="3369" unit="chars"/>
+                </sp>
+                <sp who="#cassandre">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="244" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="1230" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Don Lope, Cassandre, Jacinte, Blanche, Flore.</head>
+                <sp who="#do_lope">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="467" unit="words"/>
+                    <amount n="65" unit="lines"/>
+                    <amount n="2363" unit="chars"/>
+                </sp>
+                <sp who="#cassandre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="112" unit="chars"/>
+                </sp>
+                <sp who="#jacinte">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="592" unit="words"/>
+                    <amount n="76" unit="lines"/>
+                    <amount n="2949" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Jacinte, Cassandre, Flore, Blanche.</head>
+                <sp who="#cassandre">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="683" unit="words"/>
+                    <amount n="82" unit="lines"/>
+                    <amount n="3304" unit="chars"/>
+                </sp>
+                <sp who="#jacinte">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="263" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="1312" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Jacinte, Cassandre, Flore, Blanche.</head>
+                <sp who="#jacinte">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="121" unit="chars"/>
+                </sp>
+                <sp who="#cassandre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="26" unit="chars"/>
+                </sp>
+                <sp who="#flore">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="50" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="195" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Don Alvar, Jacinte, Cassandre, Flore, Blanche.</head>
+                <sp who="#do_alvar">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="354" unit="words"/>
+                    <amount n="57" unit="lines"/>
+                    <amount n="1642" unit="chars"/>
+                </sp>
+                <sp who="#jacinte">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="85" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="379" unit="chars"/>
+                </sp>
+                <sp who="#cassandre">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="271" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="1283" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Don Sanche, Don Ramire.</head>
+                <sp who="#do_ramire">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="315" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="1524" unit="chars"/>
+                </sp>
+                <sp who="#do_sanche">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="278" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="1332" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Don Sanche, Don Ramire, Jacinte, Blanche.</head>
+                <sp who="#do_sanche">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="123" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="589" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Jacinte, Blanche.</head>
+                <sp who="#jacinte">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="105" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="527" unit="chars"/>
+                </sp>
+                <sp who="#blanche">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="103" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="483" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Cassandre, Jacinte, Blanche, Flore.</head>
+                <sp who="#jacinte">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="136" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="660" unit="chars"/>
+                </sp>
+                <sp who="#cassandre">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="107" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="506" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Cassandre, Flore.</head>
+                <sp who="#cassandre">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="93" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="431" unit="chars"/>
+                </sp>
+                <sp who="#flore">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="75" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="361" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Don Alvar, Cassandre, Flore.</head>
+                <sp who="#do_alvar">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="591" unit="words"/>
+                    <amount n="80" unit="lines"/>
+                    <amount n="2923" unit="chars"/>
+                </sp>
+                <sp who="#cassandre">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="699" unit="words"/>
+                    <amount n="93" unit="lines"/>
+                    <amount n="3445" unit="chars"/>
+                </sp>
+                <sp who="#flore">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="2" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="8" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Enrique, Don Alvar, Cassandre, Flore.</head>
+                <sp who="#enrique">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="193" unit="chars"/>
+                </sp>
+                <sp who="#do_alvar">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="114" unit="chars"/>
+                </sp>
+                <sp who="#cassandre">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="49" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="244" unit="chars"/>
+                </sp>
+                <sp who="#flore">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="135" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Don Lope, Cassandre, Flore.</head>
+                <sp who="#do_lope">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="96" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="461" unit="chars"/>
+                </sp>
+                <sp who="#cassandre">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="117" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Don Lope, Don Alvar, Trois Braves le poursuivant.</head>
+                <sp who="#n1e_brave">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="26" unit="chars"/>
+                </sp>
+                <sp who="#do_alvar">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="109" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="531" unit="chars"/>
+                </sp>
+                <sp who="#do_lope">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="116" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="543" unit="chars"/>
+                </sp>
+                <sp who="#n_m_brave">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="100" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Don Lope, Don Alvar, Don Louis, Suite d'Archers.</head>
+                <sp who="#do_louis">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="53" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="247" unit="chars"/>
+                </sp>
+                <sp who="#do_lope">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="89" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Don Lope, Don Alvar.</head>
+                <sp who="#do_alvar">
+                    <amount n="24" unit="speech_acts"/>
+                    <amount n="284" unit="words"/>
+                    <amount n="60" unit="lines"/>
+                    <amount n="1338" unit="chars"/>
+                </sp>
+                <sp who="#do_lope">
+                    <amount n="23" unit="speech_acts"/>
+                    <amount n="350" unit="words"/>
+                    <amount n="64" unit="lines"/>
+                    <amount n="1701" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Alonse, Don Lope.</head>
+                <sp who="#alonse">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="589" unit="words"/>
+                    <amount n="73" unit="lines"/>
+                    <amount n="3013" unit="chars"/>
+                </sp>
+                <sp who="#do_lope">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="325" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="1599" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Don Lope, Don Alvar.</head>
+                <sp who="#do_lope">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="267" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1336" unit="chars"/>
+                </sp>
+                <sp who="#do_alvar">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="479" unit="words"/>
+                    <amount n="59" unit="lines"/>
+                    <amount n="2374" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Don Lope, Don Alavar, Blanche.</head>
+                <sp who="#do_lope">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="46" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="203" unit="chars"/>
+                </sp>
+                <sp who="#blanche">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="43" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="215" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Don Lope, Don Alvar.</head>
+                <sp who="#do_lope">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="310" unit="words"/>
+                    <amount n="47" unit="lines"/>
+                    <amount n="1495" unit="chars"/>
+                </sp>
+                <sp who="#do_alvar">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="171" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="828" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Don Lope, Don Alvar, Blanche.</head>
+                <sp who="#do_lope">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="202" unit="chars"/>
+                </sp>
+                <sp who="#blanche">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="48" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="236" unit="chars"/>
+                </sp>
+                <sp who="#do_alvar">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="191" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="926" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Don Sanche, Don Alvar.</head>
+                <sp who="#do_sanche">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="310" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="1412" unit="chars"/>
+                </sp>
+                <sp who="#do_alvar">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="204" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="981" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Don Lope, Don Alvar, Blanche.</head>
+                <sp who="#do_lope">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="87" unit="chars"/>
+                </sp>
+                <sp who="#do_alvar">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="60" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="287" unit="chars"/>
+                </sp>
+                <sp who="#blanche">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="57" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Don Sanche, Don Alvar, Jacinte, Blanche.</head>
+                <sp who="#jacinte">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="80" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="344" unit="chars"/>
+                </sp>
+                <sp who="#do_sanche">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="680" unit="words"/>
+                    <amount n="89" unit="lines"/>
+                    <amount n="3206" unit="chars"/>
+                </sp>
+                <sp who="#do_alvar">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="170" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="707" unit="chars"/>
+                </sp>
+                <sp who="#blanche">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="101" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Don Lope, Cassandre.</head>
+                <sp who="#do_lope">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="469" unit="words"/>
+                    <amount n="59" unit="lines"/>
+                    <amount n="2369" unit="chars"/>
+                </sp>
+                <sp who="#cassandre">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="132" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="660" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Don Lope, Jacinte, Cassandre.</head>
+                <sp who="#do_lope">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="276" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="1408" unit="chars"/>
+                </sp>
+                <sp who="#jacinte">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="268" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="1339" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Don Lope, Don Alvar.</head>
+                <sp who="#do_alvar">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="619" unit="words"/>
+                    <amount n="87" unit="lines"/>
+                    <amount n="3082" unit="chars"/>
+                </sp>
+                <sp who="#do_lope">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="435" unit="words"/>
+                    <amount n="66" unit="lines"/>
+                    <amount n="2120" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Don Lope, Don Alvar, Cassandre.</head>
+                <sp who="#cassandre">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="243" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="1170" unit="chars"/>
+                </sp>
+                <sp who="#do_alvar">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="293" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="1479" unit="chars"/>
+                </sp>
+                <sp who="#do_lope">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="57" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="236" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Don Sanche, Don Lope, Don Alvar, Cassandre.</head>
+                <sp who="#do_sanche">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="235" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="1102" unit="chars"/>
+                </sp>
+                <sp who="#do_alvar">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="169" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="807" unit="chars"/>
+                </sp>
+                <sp who="#do_lope">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="218" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="1064" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Don Sanche, Don Alvar, Don Lope, Jacinte, Cassandre.</head>
+                <sp who="#jacinte">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="63" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="299" unit="chars"/>
+                </sp>
+                <sp who="#do_sanche">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="83" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="398" unit="chars"/>
+                </sp>
+                <sp who="#do_lope">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="62" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="288" unit="chars"/>
+                </sp>
+                <sp who="#do_alvar">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="61" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="285" unit="chars"/>
+                </sp>
+                <sp who="#cassandre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="97" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

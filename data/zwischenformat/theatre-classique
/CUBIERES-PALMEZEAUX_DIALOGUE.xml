@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>DIALOGUE ENTRE L'AUTEUR ET UN HOMME DE GOÛT  dans THÉÂTRE MORAL OU PIÈCES DRAMATIQUES NOUVELLES</title>
+        <genretitle>Dialogue</genretitle>
+        <author>CUBIÈRES-PALMÉZEAUX, Michel de</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/CUBIERES-PALMEZEAUX_DIALOGUE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>l_homme_de_g_t</name>
+            <alias xml:id="l_homme_de_g_t">
+                <name>l_homme_de_g_t</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_auteur</name>
+            <alias xml:id="l_auteur">
+                <name>l_auteur</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head/>
+            <div>
+                <head/>
+                <sp who="#l_homme_de_g_t">
+                    <amount n="49" unit="speech_acts"/>
+                    <amount n="1986" unit="words"/>
+                    <amount n="185" unit="lines"/>
+                    <amount n="9954" unit="chars"/>
+                </sp>
+                <sp who="#l_auteur">
+                    <amount n="49" unit="speech_acts"/>
+                    <amount n="4708" unit="words"/>
+                    <amount n="247" unit="lines"/>
+                    <amount n="23233" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

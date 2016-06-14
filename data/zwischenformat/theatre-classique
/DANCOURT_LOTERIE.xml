@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LA LOTERIE</title>
+        <subtitle>COMÉDIE</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>DANCOURT, Florent CARTON dit</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/DANCOURT_LOTERIE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>mariane</name>
+            <alias xml:id="mariane">
+                <name>mariane</name>
+            </alias>
+        </character>
+        <character>
+            <name>lisette</name>
+            <alias xml:id="lisette">
+                <name>lisette</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_flamand</name>
+            <alias xml:id="l_flamand">
+                <name>l_flamand</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>sbrigany</name>
+            <alias xml:id="sbrigany">
+                <name>sbrigany</name>
+            </alias>
+        </character>
+        <character>
+            <name>petronillo</name>
+            <alias xml:id="petronillo">
+                <name>petronillo</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>bastien</name>
+            <alias xml:id="bastien">
+                <name>bastien</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_france</name>
+            <alias xml:id="l_france">
+                <name>l_france</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>madam_l_cloche</name>
+            <alias xml:id="madam_l_cloche">
+                <name>madam_l_cloche</name>
+            </alias>
+        </character>
+        <character>
+            <name>signolet</name>
+            <alias xml:id="signolet">
+                <name>signolet</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>éraste</name>
+            <alias xml:id="éraste">
+                <name>éraste</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_gascon</name>
+            <alias xml:id="l_gascon">
+                <name>l_gascon</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_procureuse</name>
+            <alias xml:id="l_procureuse">
+                <name>l_procureuse</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_marquise</name>
+            <alias xml:id="l_marquise">
+                <name>l_marquise</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_laquais</name>
+            <alias xml:id="l_laquais">
+                <name>l_laquais</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_financier</name>
+            <alias xml:id="l_financier">
+                <name>l_financier</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head/>
+            <div>
+                <head>SCÈNE PREMIÈRE. Mariane, Lisette.</head>
+                <sp who="#mariane">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="170" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="825" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="445" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="2084" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Le Flamand, Mariane, Lisette.</head>
+                <sp who="#l_flamand">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="59" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="310" unit="chars"/>
+                </sp>
+                <sp who="#mariane">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="56" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="271" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="38" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Sbrigany, Le Flamand.</head>
+                <sp who="#l_flamand">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="355" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="1766" unit="chars"/>
+                </sp>
+                <sp who="#sbrigany">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="203" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="927" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV.</head>
+                <sp who="#sbrigany">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="151" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Lisette , Sbrigany.</head>
+                <sp who="#sbrigany">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="318" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="1423" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="497" unit="words"/>
+                    <amount n="57" unit="lines"/>
+                    <amount n="2436" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Petronillo, Sbrigany.</head>
+                <sp who="#sbrigany">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="120" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="531" unit="chars"/>
+                </sp>
+                <sp who="#petronillo">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="254" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="1206" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Lisette, Sbrigany, Petronillo.</head>
+                <sp who="#lisette">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="150" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="661" unit="chars"/>
+                </sp>
+                <sp who="#sbrigany">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="159" unit="chars"/>
+                </sp>
+                <sp who="#petronillo">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="87" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="370" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Lisette, Sbrigany.</head>
+                <sp who="#lisette">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="101" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="466" unit="chars"/>
+                </sp>
+                <sp who="#sbrigany">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="163" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="756" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Bastien, Sbrigany, Lisette.</head>
+                <sp who="#bastien">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="268" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="1246" unit="chars"/>
+                </sp>
+                <sp who="#sbrigany">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="58" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="276" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="67" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="311" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Lisette, Bastien.</head>
+                <sp who="#bastien">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="290" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="1302" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="155" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Sbrigany, Lisette, Bastien.</head>
+                <sp who="#sbrigany">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="162" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="728" unit="chars"/>
+                </sp>
+                <sp who="#bastien">
+                    <amount n="20" unit="speech_acts"/>
+                    <amount n="621" unit="words"/>
+                    <amount n="90" unit="lines"/>
+                    <amount n="2799" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="179" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="840" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII. Lisette, Sbrigany.</head>
+                <sp who="#lisette">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="172" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIII. La France, Sbrigany, Lisette.</head>
+                <sp who="#l_france">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="157" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="779" unit="chars"/>
+                </sp>
+                <sp who="#sbrigany">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="61" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="250" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="184" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIV. Lisette, Sbrigany.</head>
+                <sp who="#lisette">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="58" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="272" unit="chars"/>
+                </sp>
+                <sp who="#sbrigany">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="25" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="98" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XV. Madame La Cloche, Sbrigany, Lisette.</head>
+                <sp who="#madam_l_cloche">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="358" unit="words"/>
+                    <amount n="51" unit="lines"/>
+                    <amount n="1570" unit="chars"/>
+                </sp>
+                <sp who="#sbrigany">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="88" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="363" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="61" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="280" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVI. Sbrigany, Lisette.</head>
+                <sp who="#sbrigany">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="144" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="98" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVII. Signolet, Sbrigany, Lisette.</head>
+                <sp who="#signolet">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="269" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="1289" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="78" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="363" unit="chars"/>
+                </sp>
+                <sp who="#sbrigany">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="146" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="649" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVIII. Mariane, Sbrigany, Lisette.</head>
+                <sp who="#mariane">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="66" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="330" unit="chars"/>
+                </sp>
+                <sp who="#sbrigany">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="136" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="612" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIX. Lisette, Mariane.</head>
+                <sp who="#lisette">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="122" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="559" unit="chars"/>
+                </sp>
+                <sp who="#mariane">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="112" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="482" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XX. Éraste, Mariane, Lisette.</head>
+                <sp who="#éraste">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="150" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="716" unit="chars"/>
+                </sp>
+                <sp who="#mariane">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="137" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="647" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="591" unit="words"/>
+                    <amount n="60" unit="lines"/>
+                    <amount n="2770" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXI. Sbrigany, Mariane, Lisette.</head>
+                <sp who="#sbrigany">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="140" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="603" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="70" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="336" unit="chars"/>
+                </sp>
+                <sp who="#mariane">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="58" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="283" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXII. Lisette, Sbrigany.</head>
+                <sp who="#lisette">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="59" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="268" unit="chars"/>
+                </sp>
+                <sp who="#sbrigany">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="227" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXIV. Le Gascon, Sbrigany, Lisette.</head>
+                <sp who="#l_gascon">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="486" unit="words"/>
+                    <amount n="71" unit="lines"/>
+                    <amount n="2204" unit="chars"/>
+                </sp>
+                <sp who="#sbrigany">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="221" unit="words"/>
+                    <amount n="56" unit="lines"/>
+                    <amount n="951" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="123" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="632" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXIV. Sbrigany, Lisette.</head>
+                <sp who="#sbrigany">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="140" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="46" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="200" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXV. La Procureuse, Sbrigany, Lisette.</head>
+                <sp who="#l_procureuse">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="169" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="783" unit="chars"/>
+                </sp>
+                <sp who="#sbrigany">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="68" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="298" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="72" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="359" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXVI. Petronillo, Sbrigany, La Procureuse, Lisette.</head>
+                <sp who="#petronillo">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="127" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="556" unit="chars"/>
+                </sp>
+                <sp who="#sbrigany">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="45" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="199" unit="chars"/>
+                </sp>
+                <sp who="#l_procureuse">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="145" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="619" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="206" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXVII. La Marquise, Sbrigany, Petronillo, Lisette, Un Laquais.</head>
+                <sp who="#l_marquise">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="168" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="750" unit="chars"/>
+                </sp>
+                <sp who="#l_laquais">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="40" unit="chars"/>
+                </sp>
+                <sp who="#sbrigany">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="114" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="547" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="61" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="274" unit="chars"/>
+                </sp>
+                <sp who="#petronillo">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="41" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="181" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXVIII. Le Financier, La Marquise, Sbrigany, Lisette, Petronillo, etc.</head>
+                <sp who="#l_marquise">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="94" unit="chars"/>
+                </sp>
+                <sp who="#l_financier">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="77" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="370" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="48" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="225" unit="chars"/>
+                </sp>
+                <sp who="#sbrigany">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="63" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXIX. Éraste, Le Financier, La Marquise, Lisette, Sbrigany, Lisette, Petronillo.</head>
+                <sp who="#éraste">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="50" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="210" unit="chars"/>
+                </sp>
+                <sp who="#l_marquise">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="3" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="14" unit="chars"/>
+                </sp>
+                <sp who="#l_financier">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="73" unit="chars"/>
+                </sp>
+                <sp who="#sbrigany">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="102" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="179" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE DERNIÈRE. Signolet, La Marquise, Le Financier, Sbrigany, Éraste, Lisette, etc.</head>
+                <sp who="#signolet">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="130" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="586" unit="chars"/>
+                </sp>
+                <sp who="#sbrigany">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="170" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="56" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="275" unit="chars"/>
+                </sp>
+                <sp who="#l_financier">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="138" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="643" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

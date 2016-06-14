@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>L'ENVIEUX</title>
+        <subtitle>COMÉDIE EN TROIS ACTES</subtitle>
+        <genretitle>Tragédie</genretitle>
+        <author>VOLTAIRE</author>
+        <date when="1738">1738</date>
+        <source>https://github.com/dramacode/theatre-classique/VOLTAIRE_ENVIEUX.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>zoilin</name>
+            <alias xml:id="zoilin">
+                <name>zoilin</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_fleur</name>
+            <alias xml:id="l_fleur">
+                <name>l_fleur</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_laquais</name>
+            <alias xml:id="l_laquais">
+                <name>l_laquais</name>
+            </alias>
+        </character>
+        <character>
+            <name>laure</name>
+            <alias xml:id="laure">
+                <name>laure</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>nicodon</name>
+            <alias xml:id="nicodon">
+                <name>nicodon</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>hortense</name>
+            <alias xml:id="hortense">
+                <name>hortense</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>ariston</name>
+            <alias xml:id="ariston">
+                <name>ariston</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>clitandre</name>
+            <alias xml:id="clitandre">
+                <name>clitandre</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>_exempt</name>
+            <alias xml:id="_exempt">
+                <name>_exempt</name>
+            </alias>
+        </character>
+        <character>
+            <name>c_on</name>
+            <alias xml:id="c_on">
+                <name>c_on</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE I. </head>
+                <sp who="#zoilin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="97" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="484" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Zoïlin, La Fleur sortant de l'appartement d'Hortense. </head>
+                <sp who="#zoilin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="186" unit="chars"/>
+                </sp>
+                <sp who="#l_fleur">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="66" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. </head>
+                <sp who="#zoilin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="138" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="609" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Zoïlin, Un Laquais, porteur d'une lettre. </head>
+                <sp who="#l_laquais">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="60" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="269" unit="chars"/>
+                </sp>
+                <sp who="#zoilin">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="104" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. </head>
+                <sp who="#zoilin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="194" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="954" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Zoïlin, Laure, sortant de l'appartement d'Hortense. </head>
+                <sp who="#zoilin">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="520" unit="words"/>
+                    <amount n="68" unit="lines"/>
+                    <amount n="2364" unit="chars"/>
+                </sp>
+                <sp who="#laure">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="225" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="973" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Zoïlin, Nicodon. </head>
+                <sp who="#zoilin">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="190" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="876" unit="chars"/>
+                </sp>
+                <sp who="#nicodon">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="172" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="764" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Hortense, Ariston, Zoïlin, Nicodon.</head>
+                <sp who="#hortense">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="301" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="1444" unit="chars"/>
+                </sp>
+                <sp who="#nicodon">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="49" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="221" unit="chars"/>
+                </sp>
+                <sp who="#zoilin">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="218" unit="words"/>
+                    <amount n="48" unit="lines"/>
+                    <amount n="936" unit="chars"/>
+                </sp>
+                <sp who="#ariston">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="715" unit="words"/>
+                    <amount n="93" unit="lines"/>
+                    <amount n="3453" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Zoïlin, Nicodon.</head>
+                <sp who="#zoilin">
+                    <amount n="25" unit="speech_acts"/>
+                    <amount n="593" unit="words"/>
+                    <amount n="89" unit="lines"/>
+                    <amount n="2614" unit="chars"/>
+                </sp>
+                <sp who="#nicodon">
+                    <amount n="24" unit="speech_acts"/>
+                    <amount n="263" unit="words"/>
+                    <amount n="57" unit="lines"/>
+                    <amount n="1120" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Nicodon, Laure.</head>
+                <sp who="#laure">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="139" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="698" unit="chars"/>
+                </sp>
+                <sp who="#nicodon">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="88" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="388" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE I. Laure, Zoïlin.</head>
+                <sp who="#laure">
+                    <amount n="20" unit="speech_acts"/>
+                    <amount n="580" unit="words"/>
+                    <amount n="83" unit="lines"/>
+                    <amount n="2675" unit="chars"/>
+                </sp>
+                <sp who="#zoilin">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="381" unit="words"/>
+                    <amount n="62" unit="lines"/>
+                    <amount n="1671" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Hortense, Laure, Zoïlin.</head>
+                <sp who="#hortense">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="455" unit="words"/>
+                    <amount n="55" unit="lines"/>
+                    <amount n="2126" unit="chars"/>
+                </sp>
+                <sp who="#laure">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="78" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="316" unit="chars"/>
+                </sp>
+                <sp who="#zoilin">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="128" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="610" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Laure, Nicodon.</head>
+                <sp who="#laure">
+                    <amount n="21" unit="speech_acts"/>
+                    <amount n="550" unit="words"/>
+                    <amount n="82" unit="lines"/>
+                    <amount n="2587" unit="chars"/>
+                </sp>
+                <sp who="#nicodon">
+                    <amount n="21" unit="speech_acts"/>
+                    <amount n="540" unit="words"/>
+                    <amount n="80" unit="lines"/>
+                    <amount n="2465" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Hortense, Laure.</head>
+                <sp who="#hortense">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="506" unit="words"/>
+                    <amount n="63" unit="lines"/>
+                    <amount n="2481" unit="chars"/>
+                </sp>
+                <sp who="#laure">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="155" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="776" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Hortense, Clitandre, Laure.</head>
+                <sp who="#ariston">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="228" unit="chars"/>
+                </sp>
+                <sp who="#hortense">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="78" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="373" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Ariston, Clitandre, Laure.</head>
+                <sp who="#clitandre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="92" unit="chars"/>
+                </sp>
+                <sp who="#ariston">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="60" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="251" unit="chars"/>
+                </sp>
+                <sp who="#laure">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="199" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Ariston, Clitandre.</head>
+                <sp who="#ariston">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="187" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="940" unit="chars"/>
+                </sp>
+                <sp who="#clitandre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="63" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="311" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I. Ariston, Clitandre.</head>
+                <sp who="#ariston">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="376" unit="words"/>
+                    <amount n="45" unit="lines"/>
+                    <amount n="1779" unit="chars"/>
+                </sp>
+                <sp who="#clitandre">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="403" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="2004" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE I.. Ariston, Clitandre, Un Laquais.</head>
+                <sp who="#l_laquais">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="64" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="315" unit="chars"/>
+                </sp>
+                <sp who="#ariston">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="140" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="689" unit="chars"/>
+                </sp>
+                <sp who="#clitandre">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="159" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Ariston, Clitandre, Nicodon.</head>
+                <sp who="#nicodon">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="188" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="722" unit="chars"/>
+                </sp>
+                <sp who="#ariston">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="477" unit="words"/>
+                    <amount n="70" unit="lines"/>
+                    <amount n="2251" unit="chars"/>
+                </sp>
+                <sp who="#clitandre">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="93" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="429" unit="chars"/>
+                </sp>
+                <sp who="#l_laquais">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="98" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Ariston, Clitandre, Un Exempt, Gardes, Le Laquais.</head>
+                <sp who="#_exempt">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="37" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="155" unit="chars"/>
+                </sp>
+                <sp who="#ariston">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="139" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="649" unit="chars"/>
+                </sp>
+                <sp who="#clitandre">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="71" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="348" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Cléon, Ariston, Clitandre, L'Exempt, Gardes, dans le fond, laquais et diverses personnes de la suite de Cléon. </head>
+                <sp who="#c_on">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="141" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="634" unit="chars"/>
+                </sp>
+                <sp who="#clitandre">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="67" unit="chars"/>
+                </sp>
+                <sp who="#ariston">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="180" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Ariston, Cléon, Hortense, Clitandre, L'Exempt, Gardes dans le fond, suite de Cléon. </head>
+                <sp who="#hortense">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="37" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="179" unit="chars"/>
+                </sp>
+                <sp who="#ariston">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="202" unit="chars"/>
+                </sp>
+                <sp who="#c_on">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="90" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="429" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Les acteurs précédents, Zoïlin.</head>
+                <sp who="#c_on">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="379" unit="words"/>
+                    <amount n="60" unit="lines"/>
+                    <amount n="1888" unit="chars"/>
+                </sp>
+                <sp who="#zoilin">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="130" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="615" unit="chars"/>
+                </sp>
+                <sp who="#hortense">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="51" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="276" unit="chars"/>
+                </sp>
+                <sp who="#ariston">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="85" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="422" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

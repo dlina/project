@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>L'OPÉRATEUR BARRY</title>
+        <subtitle>COMÉDIE</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>DANCOURT, Florent Carton dit</author>
+        <date when="1699">1699</date>
+        <source>https://github.com/dramacode/theatre-classique/DANCOURT_OPERATEURBARRY.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>monsieur_le_comte</name>
+            <alias xml:id="monsieur_le_comte">
+                <name>monsieur_le_comte</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>la_france</name>
+            <alias xml:id="la_france">
+                <name>la_france</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>monsieur_dancourt</name>
+            <alias xml:id="monsieur_dancourt">
+                <name>monsieur_dancourt</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>madame_de_chanvallon</name>
+            <alias xml:id="madame_de_chanvallon">
+                <name>madame_de_chanvallon</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>monsieur_barry</name>
+            <alias xml:id="monsieur_barry">
+                <name>monsieur_barry</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>jodelet</name>
+            <alias xml:id="jodelet">
+                <name>jodelet</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>garguille</name>
+            <alias xml:id="garguille">
+                <name>garguille</name>
+            </alias>
+        </character>
+        <character>
+            <name>spacamonte</name>
+            <alias xml:id="spacamonte">
+                <name>spacamonte</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>zerbinette</name>
+            <alias xml:id="zerbinette">
+                <name>zerbinette</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>mostelin</name>
+            <alias xml:id="mostelin">
+                <name>mostelin</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>isabelle</name>
+            <alias xml:id="isabelle">
+                <name>isabelle</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>cascaret</name>
+            <alias xml:id="cascaret">
+                <name>cascaret</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>tous_ensemble</name>
+            <alias xml:id="tous_ensemble">
+                <name>tous_ensemble</name>
+            </alias>
+        </character>
+        <character>
+            <name>margot</name>
+            <alias xml:id="margot">
+                <name>margot</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>PROLOGUE</head>
+            <div>
+                <head>SCÈNE I. Monsieur le Comte, la France.</head>
+                <sp who="#monsieur_le_comte">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="87" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="456" unit="chars"/>
+                </sp>
+                <sp who="#la_france">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="53" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Monsieur le Comte, Monsieur Dancourt.</head>
+                <sp who="#monsieur_le_comte">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="162" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="825" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_dancourt">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="371" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="1890" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Madame de Chanvallon, Monsieur Barry, Jodelet, Troupe de Valets de Barry.</head>
+                <sp who="#madame_de_chanvallon">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="204" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="1010" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_barry">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="330" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="1552" unit="chars"/>
+                </sp>
+                <sp who="#jodelet">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="53" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="238" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Monsieur Barry, Jodelet et ses Valets.</head>
+                <sp who="#monsieur_barry">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="702" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="3371" unit="chars"/>
+                </sp>
+                <sp who="#jodelet">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="96" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="445" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>COMÉDIE.</head>
+            <div>
+                <head>SCÈNE I.</head>
+                <sp who="#garguille">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="138" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="684" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Garguille, Spacamonte.</head>
+                <sp who="#spacamonte">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="266" unit="words"/>
+                    <amount n="51" unit="lines"/>
+                    <amount n="1247" unit="chars"/>
+                </sp>
+                <sp who="#garguille">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="246" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="1124" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III.</head>
+                <sp who="#garguille">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="95" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="458" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Garguille, Zerbinette.</head>
+                <sp who="#zerbinette">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="168" unit="words"/>
+                    <amount n="48" unit="lines"/>
+                    <amount n="767" unit="chars"/>
+                </sp>
+                <sp who="#garguille">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="197" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="991" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V.</head>
+                <sp who="#zerbinette">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="73" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="355" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Mostelin, Zerbinette.</head>
+                <sp who="#mostelin">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="95" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="471" unit="chars"/>
+                </sp>
+                <sp who="#zerbinette">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="139" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="669" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Garguille, Isabelle, Zerbinette, Jodelet.</head>
+                <sp who="#garguille">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="102" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="500" unit="chars"/>
+                </sp>
+                <sp who="#isabelle">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="122" unit="chars"/>
+                </sp>
+                <sp who="#zerbinette">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="144" unit="chars"/>
+                </sp>
+                <sp who="#jodelet">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="37" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="180" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Isabelle, Zerbinette, Jodelet.</head>
+                <sp who="#zerbinette">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="240" unit="words"/>
+                    <amount n="62" unit="lines"/>
+                    <amount n="1270" unit="chars"/>
+                </sp>
+                <sp who="#isabelle">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="107" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="541" unit="chars"/>
+                </sp>
+                <sp who="#jodelet">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="154" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="738" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Isabelle, Zerbinette, Jodelet, Cascaret.</head>
+                <sp who="#cascaret">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="81" unit="chars"/>
+                </sp>
+                <sp who="#zerbinette">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="135" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="601" unit="chars"/>
+                </sp>
+                <sp who="#jodelet">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="174" unit="chars"/>
+                </sp>
+                <sp who="#isabelle">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="76" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="386" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Isabelle, Zerbinette, Jodelet.</head>
+                <sp who="#isabelle">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="138" unit="chars"/>
+                </sp>
+                <sp who="#zerbinette">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="100" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="462" unit="chars"/>
+                </sp>
+                <sp who="#jodelet">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="71" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="323" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Isabelle, Zerbinette, Mostelin, Jodelet au fonds du Théâtre.</head>
+                <sp who="#mostelin">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="124" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="644" unit="chars"/>
+                </sp>
+                <sp who="#isabelle">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="78" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="395" unit="chars"/>
+                </sp>
+                <sp who="#zerbinette">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="77" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="384" unit="chars"/>
+                </sp>
+                <sp who="#jodelet">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="92" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="435" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII. Spacamonte, Isabelle, Zerbinette, Jodelet.</head>
+                <sp who="#spacamonte">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="198" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="873" unit="chars"/>
+                </sp>
+                <sp who="#zerbinette">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="142" unit="chars"/>
+                </sp>
+                <sp who="#isabelle">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="67" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="278" unit="chars"/>
+                </sp>
+                <sp who="#jodelet">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="37" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIII. Spacamonte, Mostelin, Jodelet.</head>
+                <sp who="#jodelet">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="29" unit="chars"/>
+                </sp>
+                <sp who="#mostelin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="208" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIV. Spacamonte, Jodelet.</head>
+                <sp who="#spacamonte">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="84" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="359" unit="chars"/>
+                </sp>
+                <sp who="#jodelet">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="89" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XV. Spacamonte, Mostelin, Jodelet.</head>
+                <sp who="#mostelin">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="60" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="286" unit="chars"/>
+                </sp>
+                <sp who="#spacamonte">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="96" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="410" unit="chars"/>
+                </sp>
+                <sp who="#jodelet">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="27" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVI. Spacamonte, Mostelin, Isabelle, Garguille, Zerbinette, Jodelet.</head>
+                <sp who="#garguille">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="162" unit="chars"/>
+                </sp>
+                <sp who="#spacamonte">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="93" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="390" unit="chars"/>
+                </sp>
+                <sp who="#mostelin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="41" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="174" unit="chars"/>
+                </sp>
+                <sp who="#zerbinette">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="37" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="204" unit="chars"/>
+                </sp>
+                <sp who="#jodelet">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="52" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>AIRS DU DIVERTISSEMENT.</head>
+                <sp who="#monsieur_barry">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="181" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="833" unit="chars"/>
+                </sp>
+                <sp who="#mostelin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="60" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="318" unit="chars"/>
+                </sp>
+                <sp who="#zerbinette">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="75" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="349" unit="chars"/>
+                </sp>
+                <sp who="#tous_ensemble">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="55" unit="chars"/>
+                </sp>
+                <sp who="#jodelet">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="153" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="730" unit="chars"/>
+                </sp>
+                <sp who="#isabelle">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="163" unit="chars"/>
+                </sp>
+                <sp who="#margot">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="148" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

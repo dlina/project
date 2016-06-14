@@ -1,0 +1,861 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LES AMOURS DE JUPITER ET DE SÉMÉLÉ</title>
+        <subtitle>TRAGÉDIE</subtitle>
+        <genretitle>Tragédie</genretitle>
+        <author>BOYER, Claude</author>
+        <date when="1666">1666</date>
+        <source>https://github.com/dramacode/theatre-classique/BOYER_AMOURSJUPITERSEMELE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>melpomene</name>
+            <alias xml:id="melpomene">
+                <name>melpomene</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>thalie</name>
+            <alias xml:id="thalie">
+                <name>thalie</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>euterpe</name>
+            <alias xml:id="euterpe">
+                <name>euterpe</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>apollon</name>
+            <alias xml:id="apollon">
+                <name>apollon</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_heures</name>
+            <alias xml:id="le_heures">
+                <name>le_heures</name>
+            </alias>
+        </character>
+        <character>
+            <name>aurore</name>
+            <alias xml:id="aurore">
+                <name>aurore</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>semele</name>
+            <alias xml:id="semele">
+                <name>semele</name>
+            </alias>
+        </character>
+        <character>
+            <name>dirce</name>
+            <alias xml:id="dirce">
+                <name>dirce</name>
+            </alias>
+        </character>
+        <character>
+            <name>dimas</name>
+            <alias xml:id="dimas">
+                <name>dimas</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>alcmeon</name>
+            <alias xml:id="alcmeon">
+                <name>alcmeon</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_roi</name>
+            <alias xml:id="l_roi">
+                <name>l_roi</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_reine</name>
+            <alias xml:id="l_reine">
+                <name>l_reine</name>
+            </alias>
+        </character>
+        <character>
+            <name>_amour</name>
+            <alias xml:id="_amour">
+                <name>_amour</name>
+            </alias>
+        </character>
+        <character>
+            <name>jupiter</name>
+            <alias xml:id="jupiter">
+                <name>jupiter</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>momus</name>
+            <alias xml:id="momus">
+                <name>momus</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>junon</name>
+            <alias xml:id="junon">
+                <name>junon</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>venus</name>
+            <alias xml:id="venus">
+                <name>venus</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_jeunesse</name>
+            <alias xml:id="l_jeunesse">
+                <name>l_jeunesse</name>
+            </alias>
+        </character>
+        <character>
+            <name>amour</name>
+            <alias xml:id="amour">
+                <name>amour</name>
+            </alias>
+        </character>
+        <character>
+            <name>hymenee</name>
+            <alias xml:id="hymenee">
+                <name>hymenee</name>
+            </alias>
+        </character>
+        <character>
+            <name>jalousie</name>
+            <alias xml:id="jalousie">
+                <name>jalousie</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>atys</name>
+            <alias xml:id="atys">
+                <name>atys</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>PROLOGUE</head>
+            <div>
+                <head>SCÈNE I.</head>
+                <sp who="#melpomene">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="187" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="908" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Thalie, Melpomène. </head>
+                <sp who="#thalie">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="533" unit="words"/>
+                    <amount n="53" unit="lines"/>
+                    <amount n="2360" unit="chars"/>
+                </sp>
+                <sp who="#melpomene">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="550" unit="words"/>
+                    <amount n="60" unit="lines"/>
+                    <amount n="2601" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Melpomène, Thalie, Euterpe.</head>
+                <sp who="#melpomene">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="218" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="993" unit="chars"/>
+                </sp>
+                <sp who="#thalie">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="112" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="523" unit="chars"/>
+                </sp>
+                <sp who="#euterpe">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="899" unit="words"/>
+                    <amount n="86" unit="lines"/>
+                    <amount n="4048" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Melpomène, Thalie, Euterpe, Apollon au milieu des airs. </head>
+                <sp who="#melpomene">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="242" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="1161" unit="chars"/>
+                </sp>
+                <sp who="#apollon">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="321" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1496" unit="chars"/>
+                </sp>
+                <sp who="#thalie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="95" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="420" unit="chars"/>
+                </sp>
+                <sp who="#euterpe">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="76" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="346" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE I. Les Heures, L'Aurore, Sémélé.</head>
+                <sp who="#le_heures">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="74" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="348" unit="chars"/>
+                </sp>
+                <sp who="#aurore">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="219" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="1028" unit="chars"/>
+                </sp>
+                <sp who="#semele">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="97" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="457" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Sémélé, Dircé sa confidente.</head>
+                <sp who="#semele">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="823" unit="words"/>
+                    <amount n="82" unit="lines"/>
+                    <amount n="3666" unit="chars"/>
+                </sp>
+                <sp who="#dirce">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="170" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="770" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Dimas, Alcméon, Sémélé, Dircé.</head>
+                <sp who="#dimas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="51" unit="chars"/>
+                </sp>
+                <sp who="#alcmeon">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="461" unit="words"/>
+                    <amount n="54" unit="lines"/>
+                    <amount n="2027" unit="chars"/>
+                </sp>
+                <sp who="#semele">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="444" unit="words"/>
+                    <amount n="51" unit="lines"/>
+                    <amount n="1942" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Cadmus Roi de Thèbes, Hermione Reine, Alcméon, Suite.</head>
+                <sp who="#alcmeon">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="221" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="986" unit="chars"/>
+                </sp>
+                <sp who="#l_roi">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="403" unit="words"/>
+                    <amount n="48" unit="lines"/>
+                    <amount n="1856" unit="chars"/>
+                </sp>
+                <sp who="#l_reine">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="308" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="1354" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. La Reine, Dircé.</head>
+                <sp who="#l_reine">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="248" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="1120" unit="chars"/>
+                </sp>
+                <sp who="#dirce">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="116" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="524" unit="chars"/>
+                </sp>
+                <sp who="#_amour">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="94" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="415" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE I. Jupiter en habit de Berger, Momus.</head>
+                <sp who="#jupiter">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="676" unit="words"/>
+                    <amount n="72" unit="lines"/>
+                    <amount n="3100" unit="chars"/>
+                </sp>
+                <sp who="#momus">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="443" unit="words"/>
+                    <amount n="51" unit="lines"/>
+                    <amount n="2049" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Jupiter, Sémélé.</head>
+                <sp who="#jupiter">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="241" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1108" unit="chars"/>
+                </sp>
+                <sp who="#semele">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="556" unit="words"/>
+                    <amount n="58" unit="lines"/>
+                    <amount n="2459" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Jupiter, Sémélé, Alcméon.</head>
+                <sp who="#alcmeon">
+                    <amount n="20" unit="speech_acts"/>
+                    <amount n="501" unit="words"/>
+                    <amount n="69" unit="lines"/>
+                    <amount n="2248" unit="chars"/>
+                </sp>
+                <sp who="#semele">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="173" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="798" unit="chars"/>
+                </sp>
+                <sp who="#jupiter">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="272" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="1171" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Alcméon, Junon paraît dans un ciel orageux. </head>
+                <sp who="#alcmeon">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="402" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="1897" unit="chars"/>
+                </sp>
+                <sp who="#junon">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="451" unit="words"/>
+                    <amount n="50" unit="lines"/>
+                    <amount n="2073" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I. Jupiter, Sémélé, Momus.</head>
+                <sp who="#jupiter">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="750" unit="words"/>
+                    <amount n="78" unit="lines"/>
+                    <amount n="3475" unit="chars"/>
+                </sp>
+                <sp who="#momus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="44" unit="chars"/>
+                </sp>
+                <sp who="#semele">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="293" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="1352" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Sémélé, Vénus descend du ciel dans son char, accompagnée de deux amours, et chante en descendant.</head>
+                <sp who="#venus">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="274" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="1195" unit="chars"/>
+                </sp>
+                <sp who="#semele">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="63" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="294" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III.  La Jeunesse, Sémélé, deux Amours.</head>
+                <sp who="#l_jeunesse">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="255" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="1159" unit="chars"/>
+                </sp>
+                <sp who="#semele">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="61" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="297" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Junon déguisée en Mercure, Sémélé, deux Amours. </head>
+                <sp who="#junon">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="291" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1321" unit="chars"/>
+                </sp>
+                <sp who="#semele">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="158" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="770" unit="chars"/>
+                </sp>
+                <sp who="#amour">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="72" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="327" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Sémélé, Junon.</head>
+                <sp who="#semele">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="162" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="750" unit="chars"/>
+                </sp>
+                <sp who="#junon">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="150" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="716" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. </head>
+                <sp who="#junon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="108" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Junon, Momus.</head>
+                <sp who="#momus">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="531" unit="words"/>
+                    <amount n="56" unit="lines"/>
+                    <amount n="2345" unit="chars"/>
+                </sp>
+                <sp who="#junon">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="194" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="877" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE I.</head>
+                <sp who="#semele">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="377" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="1738" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Sémélé, Dircé.</head>
+                <sp who="#semele">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="319" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="1419" unit="chars"/>
+                </sp>
+                <sp who="#dirce">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="64" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="287" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Alcméon, Sémélé, Dircé.</head>
+                <sp who="#alcmeon">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="462" unit="words"/>
+                    <amount n="51" unit="lines"/>
+                    <amount n="2034" unit="chars"/>
+                </sp>
+                <sp who="#semele">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="205" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="908" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. La Reine, Sémélé, Alcméon, Dircé.</head>
+                <sp who="#l_reine">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="200" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="899" unit="chars"/>
+                </sp>
+                <sp who="#alcmeon">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="225" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="982" unit="chars"/>
+                </sp>
+                <sp who="#semele">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="89" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="386" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Le Roi, La Reine, Alcméon, Sémélé, Dircé, Suite.</head>
+                <sp who="#l_roi">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="179" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="811" unit="chars"/>
+                </sp>
+                <sp who="#semele">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="192" unit="chars"/>
+                </sp>
+                <sp who="#l_reine">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="185" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. L'Hyménée, Le Roi, La Reine, Alcméon, Sémélé.</head>
+                <sp who="#hymenee">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="174" unit="chars"/>
+                </sp>
+                <sp who="#l_roi">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="127" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="570" unit="chars"/>
+                </sp>
+                <sp who="#alcmeon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="80" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="359" unit="chars"/>
+                </sp>
+                <sp who="#l_reine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="157" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. La Jalousie, Le Roi, La Reine, Sémélé.</head>
+                <sp who="#jalousie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="115" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="516" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Le Roi, La Reine, etc. </head>
+                <sp who="#l_reine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="48" unit="chars"/>
+                </sp>
+                <sp who="#l_roi">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="137" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="618" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Jupiter, sous l'habit de Minerve, Le Roi, La Reine, Sémélé, Alcméon, Suite. </head>
+                <sp who="#jupiter">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="114" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="497" unit="chars"/>
+                </sp>
+                <sp who="#l_roi">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="179" unit="chars"/>
+                </sp>
+                <sp who="#alcmeon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="41" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="190" unit="chars"/>
+                </sp>
+                <sp who="#l_reine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="99" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Jupiter, Sémélé.</head>
+                <sp who="#semele">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="593" unit="words"/>
+                    <amount n="74" unit="lines"/>
+                    <amount n="2693" unit="chars"/>
+                </sp>
+                <sp who="#jupiter">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="394" unit="words"/>
+                    <amount n="54" unit="lines"/>
+                    <amount n="1776" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE I. Sémélé, Dircé.</head>
+                <sp who="#semele">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="191" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="871" unit="chars"/>
+                </sp>
+                <sp who="#dirce">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="139" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Sémélé, Momus, Dircé.</head>
+                <sp who="#semele">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="203" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="871" unit="chars"/>
+                </sp>
+                <sp who="#momus">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="488" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="2207" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III.</head>
+                <sp who="#jupiter">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="430" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="1857" unit="chars"/>
+                </sp>
+                <sp who="#momus">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="141" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="650" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV.</head>
+                <sp who="#momus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="139" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="648" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Alcméon, Dimas.</head>
+                <sp who="#dimas">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="116" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="467" unit="chars"/>
+                </sp>
+                <sp who="#alcmeon">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="186" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="850" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. La Reine, Alcméon, Dimas.</head>
+                <sp who="#alcmeon">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="235" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="1049" unit="chars"/>
+                </sp>
+                <sp who="#l_reine">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="51" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="238" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Junon dans son char avec sa forme ordinaire, La Reine, Alcméon, Dimas.</head>
+                <sp who="#junon">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="120" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="493" unit="chars"/>
+                </sp>
+                <sp who="#alcmeon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="83" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="374" unit="chars"/>
+                </sp>
+                <sp who="#l_reine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="79" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="332" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Le Roi, La Reine, Suite.</head>
+                <sp who="#l_roi">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="293" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="1248" unit="chars"/>
+                </sp>
+                <sp who="#l_reine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="183" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Le Roi, La Reine, Atys, Suite, etc.</head>
+                <sp who="#l_roi">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="118" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="543" unit="chars"/>
+                </sp>
+                <sp who="#atys">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="290" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="1280" unit="chars"/>
+                </sp>
+                <sp who="#l_reine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="91" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="432" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE DERNIÈRE. Jupiter, Le Roi, La Reine, etc. </head>
+                <sp who="#jupiter">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="254" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="1140" unit="chars"/>
+                </sp>
+                <sp who="#l_roi">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="58" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="294" unit="chars"/>
+                </sp>
+                <sp who="#l_reine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="180" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

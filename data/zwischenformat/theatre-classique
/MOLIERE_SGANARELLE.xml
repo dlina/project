@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>SGANARELLE ou Le COCU IMAGINAIRE</title>
+        <subtitle>COMÉDIE</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>MOLIÈRE</author>
+        <date when="1660">1660</date>
+        <source>https://github.com/dramacode/theatre-classique/MOLIERE_SGANARELLE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>_lie</name>
+            <alias xml:id="_lie">
+                <name>_lie</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>gorgibus</name>
+            <alias xml:id="gorgibus">
+                <name>gorgibus</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>suivante</name>
+            <alias xml:id="suivante">
+                <name>suivante</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>sganarelle</name>
+            <alias xml:id="sganarelle">
+                <name>sganarelle</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>femm_sganarelle</name>
+            <alias xml:id="femm_sganarelle">
+                <name>femm_sganarelle</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>gro_rene</name>
+            <alias xml:id="gro_rene">
+                <name>gro_rene</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_parent</name>
+            <alias xml:id="le_parent">
+                <name>le_parent</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>villebrequin</name>
+            <alias xml:id="villebrequin">
+                <name>villebrequin</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head/>
+            <div>
+                <head>SCÈNE PREMIÈRE. Célie, Gorgibus.</head>
+                <sp who="#_lie">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="54" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="246" unit="chars"/>
+                </sp>
+                <sp who="#gorgibus">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="584" unit="words"/>
+                    <amount n="61" unit="lines"/>
+                    <amount n="2775" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. La suivante, Célie.</head>
+                <sp who="#suivante">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="360" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="1689" unit="chars"/>
+                </sp>
+                <sp who="#_lie">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="86" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="420" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Sganarelle, La suivante.</head>
+                <sp who="#sganarelle">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="175" unit="chars"/>
+                </sp>
+                <sp who="#suivante">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="93" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Sganarelle, Sa femme.</head>
+                <sp who="#sganarelle">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="77" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="356" unit="chars"/>
+                </sp>
+                <sp who="#femm_sganarelle">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="138" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V.</head>
+                <sp who="#femm_sganarelle">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="200" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="937" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Sganarelle, Sa femme.</head>
+                <sp who="#sganarelle">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="500" unit="words"/>
+                    <amount n="64" unit="lines"/>
+                    <amount n="2264" unit="chars"/>
+                </sp>
+                <sp who="#femm_sganarelle">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="269" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="1284" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Gros René, Lélie.</head>
+                <sp who="#gro_rene">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="311" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="1435" unit="chars"/>
+                </sp>
+                <sp who="#_lie">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="89" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="389" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII.</head>
+                <sp who="#_lie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="139" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Sganarelle, Lélie.</head>
+                <sp who="#sganarelle">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="343" unit="words"/>
+                    <amount n="48" unit="lines"/>
+                    <amount n="1567" unit="chars"/>
+                </sp>
+                <sp who="#_lie">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="119" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="524" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X.</head>
+                <sp who="#_lie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="105" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="513" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. La Femme de Sganarelle, Lélie.</head>
+                <sp who="#femm_sganarelle">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="203" unit="chars"/>
+                </sp>
+                <sp who="#_lie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="90" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII. Le Parent, Sganarelle.</head>
+                <sp who="#le_parent">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="115" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="538" unit="chars"/>
+                </sp>
+                <sp who="#sganarelle">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="51" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIII.</head>
+                <sp who="#sganarelle">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="67" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="309" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIV. Sganarelle, Sa femme, Lélie.</head>
+                <sp who="#sganarelle">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="68" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="317" unit="chars"/>
+                </sp>
+                <sp who="#femm_sganarelle">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="102" unit="chars"/>
+                </sp>
+                <sp who="#_lie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="105" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XV. Sganarelle, Lélie.</head>
+                <sp who="#sganarelle">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="47" unit="chars"/>
+                </sp>
+                <sp who="#_lie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="49" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="235" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVI. Sganarelle, Célie.</head>
+                <sp who="#sganarelle">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="372" unit="words"/>
+                    <amount n="59" unit="lines"/>
+                    <amount n="1714" unit="chars"/>
+                </sp>
+                <sp who="#_lie">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="271" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="1264" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVII.</head>
+                <sp who="#sganarelle">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="661" unit="words"/>
+                    <amount n="71" unit="lines"/>
+                    <amount n="3235" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVIII. Célie, Gorgibus.</head>
+                <sp who="#_lie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="60" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="269" unit="chars"/>
+                </sp>
+                <sp who="#gorgibus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="102" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="464" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIX. La suivante, Célie.</head>
+                <sp who="#suivante">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="71" unit="chars"/>
+                </sp>
+                <sp who="#_lie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="162" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XX. Lélie, Célie.</head>
+                <sp who="#_lie">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="118" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="539" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXI. Sganarelle, Célie, Lélie.</head>
+                <sp who="#sganarelle">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="296" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="1340" unit="chars"/>
+                </sp>
+                <sp who="#_lie">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="243" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="1149" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXII. Sganarelle, Sa femme, Célie, Lélie, La suivante.</head>
+                <sp who="#femm_sganarelle">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="147" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="695" unit="chars"/>
+                </sp>
+                <sp who="#_lie">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="249" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="1143" unit="chars"/>
+                </sp>
+                <sp who="#sganarelle">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="121" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="554" unit="chars"/>
+                </sp>
+                <sp who="#suivante">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="136" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="629" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXIII. Lélie, Gorgibus.</head>
+                <sp who="#_lie">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="62" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="305" unit="chars"/>
+                </sp>
+                <sp who="#gorgibus">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="101" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="495" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE DERNIÈRE. Gorgibus, Villebrequin, Lélie, Sganarelle.</head>
+                <sp who="#gorgibus">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="71" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="346" unit="chars"/>
+                </sp>
+                <sp who="#villebrequin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="78" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="363" unit="chars"/>
+                </sp>
+                <sp who="#_lie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="63" unit="chars"/>
+                </sp>
+                <sp who="#sganarelle">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="45" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="232" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LE PRIX D'UN MOMENT</title>
+        <subtitle>PETITE PIÈCE EN UN ACTE ET EN PROSE, MELÉE D'AIRS.</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>(anonyme)</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/ANONYME_PRIXDUNMOMENT.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>louis</name>
+            <alias xml:id="louis">
+                <name>louis</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_vieillard</name>
+            <alias xml:id="l_vieillard">
+                <name>l_vieillard</name>
+            </alias>
+        </character>
+        <character>
+            <name>v_l_galop</name>
+            <alias xml:id="v_l_galop">
+                <name>v_l_galop</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>serr_fort</name>
+            <alias xml:id="serr_fort">
+                <name>serr_fort</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>dumont</name>
+            <alias xml:id="dumont">
+                <name>dumont</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head/>
+            <div>
+                <head>SCÈNE PREMIÈRE.</head>
+                <sp who="#louis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="424" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="1906" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Louis, Le Vieillard.</head>
+                <sp who="#l_vieillard">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="448" unit="words"/>
+                    <amount n="59" unit="lines"/>
+                    <amount n="2033" unit="chars"/>
+                </sp>
+                <sp who="#louis">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="207" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="952" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III.</head>
+                <sp who="#louis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="183" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="846" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Louis, Va-Le-Galop, Serre-Fort.</head>
+                <sp who="#v_l_galop">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="368" unit="words"/>
+                    <amount n="52" unit="lines"/>
+                    <amount n="1753" unit="chars"/>
+                </sp>
+                <sp who="#serr_fort">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="57" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="252" unit="chars"/>
+                </sp>
+                <sp who="#louis">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="118" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="534" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE DERNIÈRE. Les Personnages précédents, Dumont.</head>
+                <sp who="#dumont">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="692" unit="words"/>
+                    <amount n="90" unit="lines"/>
+                    <amount n="3096" unit="chars"/>
+                </sp>
+                <sp who="#louis">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="158" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="709" unit="chars"/>
+                </sp>
+                <sp who="#v_l_galop">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="289" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="1429" unit="chars"/>
+                </sp>
+                <sp who="#serr_fort">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="55" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="253" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

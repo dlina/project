@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>ARLEQUIN DEUCALION</title>
+        <subtitle>MONOLOGUE EN TROIS ACTES</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>PIRON, Alexis</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/PIRON_ARLEQUINDECALION.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>arlequin</name>
+            <alias xml:id="arlequin">
+                <name>arlequin</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>la_voix</name>
+            <alias xml:id="la_voix">
+                <name>la_voix</name>
+            </alias>
+        </character>
+        <character>
+            <name>pyrrha</name>
+            <alias xml:id="pyrrha">
+                <name>pyrrha</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>polichinelle</name>
+            <alias xml:id="polichinelle">
+                <name>polichinelle</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE I.</head>
+                <sp who="#arlequin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="1681" unit="words"/>
+                    <amount n="142" unit="lines"/>
+                    <amount n="7378" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Arlequin-Deucalion, une voix.</head>
+                <sp who="#la_voix">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="46" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="163" unit="chars"/>
+                </sp>
+                <sp who="#arlequin">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="353" unit="words"/>
+                    <amount n="57" unit="lines"/>
+                    <amount n="1446" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Arlequin-Deucalion, Melpomène.</head>
+                <sp who="#arlequin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="1070" unit="words"/>
+                    <amount n="85" unit="lines"/>
+                    <amount n="4840" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Thalie, Arlequin.</head>
+                <sp who="#arlequin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="264" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1137" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V.</head>
+                <sp who="#arlequin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="66" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="288" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II </head>
+            <div>
+                <head>SCÈNE I.</head>
+            </div>
+            <div>
+                <head>SCÈNE II. Pyrrha, Apollon.</head>
+            </div>
+            <div>
+                <head>SCÈNE III. Apollon, Arlequin, Pyrrha.</head>
+                <sp who="#arlequin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="872" unit="words"/>
+                    <amount n="69" unit="lines"/>
+                    <amount n="3879" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Arlequin, Pyrrha.</head>
+                <sp who="#arlequin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="1985" unit="words"/>
+                    <amount n="159" unit="lines"/>
+                    <amount n="8873" unit="chars"/>
+                </sp>
+                <sp who="#pyrrha">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="62" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="304" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I. Arlequin, Pyrrha.</head>
+                <sp who="#arlequin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="447" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="2010" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Apollon, Arlequin, Pyrrha.</head>
+                <sp who="#arlequin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="210" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="950" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Arlequin, Pyrrha.</head>
+                <sp who="#arlequin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="1412" unit="words"/>
+                    <amount n="103" unit="lines"/>
+                    <amount n="6457" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Arlequin, Polichinelle-Momus, Pyrrha.</head>
+                <sp who="#arlequin">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="308" unit="words"/>
+                    <amount n="55" unit="lines"/>
+                    <amount n="1414" unit="chars"/>
+                </sp>
+                <sp who="#polichinelle">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="241" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1003" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Arlequin, Pyrrha.</head>
+                <sp who="#arlequin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="94" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="395" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Arlequin, Pyrrha, cinq hommes, un laboureur, un artisan, un homme d'épée, un robin et quatre femmes.</head>
+                <sp who="#arlequin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="797" unit="words"/>
+                    <amount n="74" unit="lines"/>
+                    <amount n="3597" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

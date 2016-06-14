@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>L'AUTEUR AVANTAGEUX.</title>
+        <subtitle>COMÉDIE.</subtitle>
+        <subtitle>TRENTE-HUITIÈME PROVERBE.</subtitle>
+        <genretitle>Proverbe</genretitle>
+        <author>CARMONTELLE, Louis Carrogis, dit Louis de Carmontelle</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/CARMONTELLE_AUTEURAVANTAGEUX.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>le_chevalier</name>
+            <alias xml:id="le_chevalier">
+                <name>le_chevalier</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_ab_</name>
+            <alias xml:id="l_ab_">
+                <name>l_ab_</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_co_dien</name>
+            <alias xml:id="le_co_dien">
+                <name>le_co_dien</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head/>
+            <div>
+                <head>SCÈNE PREMIÈRE. L'Abbé, Le Chevalier.</head>
+                <sp who="#le_chevalier">
+                    <amount n="20" unit="speech_acts"/>
+                    <amount n="291" unit="words"/>
+                    <amount n="67" unit="lines"/>
+                    <amount n="1335" unit="chars"/>
+                </sp>
+                <sp who="#l_ab_">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="725" unit="words"/>
+                    <amount n="66" unit="lines"/>
+                    <amount n="3276" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Le Chevalier, L'Abbé, Le Comédien.</head>
+                <sp who="#le_co_dien">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="331" unit="words"/>
+                    <amount n="53" unit="lines"/>
+                    <amount n="1539" unit="chars"/>
+                </sp>
+                <sp who="#l_ab_">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="78" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="348" unit="chars"/>
+                </sp>
+                <sp who="#le_chevalier">
+                    <amount n="20" unit="speech_acts"/>
+                    <amount n="308" unit="words"/>
+                    <amount n="68" unit="lines"/>
+                    <amount n="1404" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

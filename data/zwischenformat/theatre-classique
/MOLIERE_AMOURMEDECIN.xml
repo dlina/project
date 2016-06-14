@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>L'AMOUR MÉDECIN</title>
+        <subtitle>COMÉDIE</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>Molière</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/MOLIERE_AMOURMEDECIN.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>l_comedie</name>
+            <alias xml:id="l_comedie">
+                <name>l_comedie</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>comedie_musique_ballet</name>
+            <alias xml:id="comedie_musique_ballet">
+                <name>comedie_musique_ballet</name>
+            </alias>
+        </character>
+        <character>
+            <name>sganarelle</name>
+            <alias xml:id="sganarelle">
+                <name>sganarelle</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>monsieu_guillaume</name>
+            <alias xml:id="monsieu_guillaume">
+                <name>monsieu_guillaume</name>
+            </alias>
+        </character>
+        <character>
+            <name>monsieu_josse</name>
+            <alias xml:id="monsieu_josse">
+                <name>monsieu_josse</name>
+            </alias>
+        </character>
+        <character>
+            <name>aminte</name>
+            <alias xml:id="aminte">
+                <name>aminte</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>lucrece</name>
+            <alias xml:id="lucrece">
+                <name>lucrece</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>lisette</name>
+            <alias xml:id="lisette">
+                <name>lisette</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>lucinde</name>
+            <alias xml:id="lucinde">
+                <name>lucinde</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>monsieu_tomes</name>
+            <alias xml:id="monsieu_tomes">
+                <name>monsieu_tomes</name>
+            </alias>
+        </character>
+        <character>
+            <name>monsieu_de_fonandres</name>
+            <alias xml:id="monsieu_de_fonandres">
+                <name>monsieu_de_fonandres</name>
+            </alias>
+        </character>
+        <character>
+            <name>monsieu_macroton</name>
+            <alias xml:id="monsieu_macroton">
+                <name>monsieu_macroton</name>
+            </alias>
+        </character>
+        <character>
+            <name>monsieu_bahys</name>
+            <alias xml:id="monsieu_bahys">
+                <name>monsieu_bahys</name>
+            </alias>
+        </character>
+        <character>
+            <name>_operateur</name>
+            <alias xml:id="_operateur">
+                <name>_operateur</name>
+            </alias>
+        </character>
+        <character>
+            <name>monsieu_filerin</name>
+            <alias xml:id="monsieu_filerin">
+                <name>monsieu_filerin</name>
+            </alias>
+        </character>
+        <character>
+            <name>clitandre</name>
+            <alias xml:id="clitandre">
+                <name>clitandre</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_notaire</name>
+            <alias xml:id="l_notaire">
+                <name>l_notaire</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>PROLOGUE</head>
+            <div>
+                <head> La Comédie, la Musique et le Ballet.</head>
+                <sp who="#l_comedie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="84" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="427" unit="chars"/>
+                </sp>
+                <sp who="#comedie_musique_ballet">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="34" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE I. Sganarelle, Aminte, Lucrèce, M.Guillaume, M. Josse.</head>
+                <sp who="#sganarelle">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="474" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="2179" unit="chars"/>
+                </sp>
+                <sp who="#monsieu_guillaume">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="223" unit="chars"/>
+                </sp>
+                <sp who="#monsieu_josse">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="49" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="223" unit="chars"/>
+                </sp>
+                <sp who="#aminte">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="45" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="184" unit="chars"/>
+                </sp>
+                <sp who="#lucrece">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="86" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="407" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Lucinde, Sganarelle.</head>
+                <sp who="#sganarelle">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="322" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1354" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Lisette, Sganarelle, Lucinde.</head>
+                <sp who="#lisette">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="299" unit="words"/>
+                    <amount n="61" unit="lines"/>
+                    <amount n="1281" unit="chars"/>
+                </sp>
+                <sp who="#sganarelle">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="171" unit="words"/>
+                    <amount n="52" unit="lines"/>
+                    <amount n="714" unit="chars"/>
+                </sp>
+                <sp who="#lucinde">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="115" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Lisette, Lucinde.</head>
+                <sp who="#lisette">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="251" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="1053" unit="chars"/>
+                </sp>
+                <sp who="#lucinde">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="271" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="1246" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. </head>
+                <sp who="#sganarelle">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="134" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="634" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Lisette, Sganarelle.</head>
+                <sp who="#lisette">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="274" unit="words"/>
+                    <amount n="55" unit="lines"/>
+                    <amount n="1169" unit="chars"/>
+                </sp>
+                <sp who="#sganarelle">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="102" unit="words"/>
+                    <amount n="52" unit="lines"/>
+                    <amount n="374" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE I.Sganarelle, Lisette.</head>
+                <sp who="#lisette">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="194" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="889" unit="chars"/>
+                </sp>
+                <sp who="#sganarelle">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="218" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Messieurs Tomes, des Fonandrès, Macroton et Bahys, Médecins, Sganarelle, Lisette.</head>
+                <sp who="#sganarelle">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="94" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="394" unit="chars"/>
+                </sp>
+                <sp who="#monsieu_tomes">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="122" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="544" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="87" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="320" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Messieurs des Fonandrès, Tomès, Macroton et Bahys.</head>
+                <sp who="#monsieu_de_fonandres">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="118" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="574" unit="chars"/>
+                </sp>
+                <sp who="#monsieu_tomes">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="338" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="1595" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Sganarelle, Messieurs Tomès, des Fonandrès, Macroton et Bahys.</head>
+                <sp who="#sganarelle">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="58" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="251" unit="chars"/>
+                </sp>
+                <sp who="#monsieu_tomes">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="147" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="660" unit="chars"/>
+                </sp>
+                <sp who="#monsieu_de_fonandres">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="176" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="767" unit="chars"/>
+                </sp>
+                <sp who="#monsieu_macroton">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="30" unit="chars"/>
+                </sp>
+                <sp who="#monsieu_bahys">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="19" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Sganarelle, Messieurs Macroton et Bahys, médecins. </head>
+                <sp who="#sganarelle">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="86" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="370" unit="chars"/>
+                </sp>
+                <sp who="#monsieu_macroton">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="209" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="1308" unit="chars"/>
+                </sp>
+                <sp who="#monsieu_bahys">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="185" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="892" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI.</head>
+                <sp who="#sganarelle">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="125" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="627" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. L'Opérateur, Sganarelle.</head>
+                <sp who="#sganarelle">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="58" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="267" unit="chars"/>
+                </sp>
+                <sp who="#_operateur">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="134" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="622" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I. Messieurs Filerin, Tomès et des Fonandrès.</head>
+                <sp who="#monsieu_filerin">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="602" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="2934" unit="chars"/>
+                </sp>
+                <sp who="#monsieu_tomes">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="27" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="114" unit="chars"/>
+                </sp>
+                <sp who="#monsieu_de_fonandres">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="176" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Messieurs Tomès, des Fonandrès, Lisette.</head>
+                <sp who="#lisette">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="74" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="338" unit="chars"/>
+                </sp>
+                <sp who="#monsieu_tomes">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="25" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="109" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Lisette, Clitandre.</head>
+                <sp who="#clitandre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="48" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="184" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="876" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Sganarelle, Lisette.</head>
+                <sp who="#lisette">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="87" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="389" unit="chars"/>
+                </sp>
+                <sp who="#sganarelle">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="64" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="242" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Clitandre, en habit de médecin, Sganarelle, Lisette.</head>
+                <sp who="#lisette">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="53" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="219" unit="chars"/>
+                </sp>
+                <sp who="#sganarelle">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="78" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="321" unit="chars"/>
+                </sp>
+                <sp who="#clitandre">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="76" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="334" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Lucinde, Lisette, Sganarelle, Clitandre. </head>
+                <sp who="#lisette">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="58" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="278" unit="chars"/>
+                </sp>
+                <sp who="#sganarelle">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="195" unit="words"/>
+                    <amount n="62" unit="lines"/>
+                    <amount n="654" unit="chars"/>
+                </sp>
+                <sp who="#clitandre">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="651" unit="words"/>
+                    <amount n="64" unit="lines"/>
+                    <amount n="2914" unit="chars"/>
+                </sp>
+                <sp who="#lucinde">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="176" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="772" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Le Notaire, Clitandre, Sganarelle, Lucinde, Lisette
+Clitandre parle au Notaire à l'oreille.</head>
+                <sp who="#sganarelle">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="111" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="424" unit="chars"/>
+                </sp>
+                <sp who="#lucinde">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="123" unit="chars"/>
+                </sp>
+                <sp who="#l_notaire">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="53" unit="chars"/>
+                </sp>
+                <sp who="#clitandre">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="78" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="350" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE DERNIÈRE. La Comédie, le Ballet et la Musique.</head>
+                <sp who="#comedie_musique_ballet">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="27" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="133" unit="chars"/>
+                </sp>
+                <sp who="#l_comedie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="136" unit="chars"/>
+                </sp>
+                <sp who="#sganarelle">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="48" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="199" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="144" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LES TOMBEAUX DE VÉRONE.</title>
+        <subtitle>DRAME EN CINQ ACTES.</subtitle>
+        <genretitle>Drame</genretitle>
+        <author>MERCIER, Louis-Sébastien</author>
+        <date when="1782">1782</date>
+        <source>https://github.com/dramacode/theatre-classique/MERCIER_TOMBEAUXDEVERONE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>juliette</name>
+            <alias xml:id="juliette">
+                <name>juliette</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>laure</name>
+            <alias xml:id="laure">
+                <name>laure</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>ro_o</name>
+            <alias xml:id="ro_o">
+                <name>ro_o</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>madame_capulet</name>
+            <alias xml:id="madame_capulet">
+                <name>madame_capulet</name>
+            </alias>
+        </character>
+        <character>
+            <name>capulet</name>
+            <alias xml:id="capulet">
+                <name>capulet</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>madam_capulet</name>
+            <alias xml:id="madam_capulet">
+                <name>madam_capulet</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>benvoglio</name>
+            <alias xml:id="benvoglio">
+                <name>benvoglio</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>montaigu</name>
+            <alias xml:id="montaigu">
+                <name>montaigu</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE PREMIÈRE.</head>
+                <sp who="#juliette">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="190" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="787" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Juliette, Laure.</head>
+                <sp who="#juliette">
+                    <amount n="33" unit="speech_acts"/>
+                    <amount n="1834" unit="words"/>
+                    <amount n="186" unit="lines"/>
+                    <amount n="8488" unit="chars"/>
+                </sp>
+                <sp who="#laure">
+                    <amount n="33" unit="speech_acts"/>
+                    <amount n="493" unit="words"/>
+                    <amount n="121" unit="lines"/>
+                    <amount n="2315" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Juliette, Roméo.</head>
+                <sp who="#juliette">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="494" unit="words"/>
+                    <amount n="85" unit="lines"/>
+                    <amount n="2131" unit="chars"/>
+                </sp>
+                <sp who="#ro_o">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="831" unit="words"/>
+                    <amount n="84" unit="lines"/>
+                    <amount n="4001" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Roméo, Juliette, Laure.</head>
+                <sp who="#laure">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="102" unit="chars"/>
+                </sp>
+                <sp who="#juliette">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="53" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="181" unit="chars"/>
+                </sp>
+                <sp who="#ro_o">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="41" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="141" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Juliette, Laure.</head>
+                <sp who="#laure">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="111" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="484" unit="chars"/>
+                </sp>
+                <sp who="#juliette">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="186" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="735" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Madame Capulet, Laure.</head>
+                <sp who="#madame_capulet">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="559" unit="words"/>
+                    <amount n="59" unit="lines"/>
+                    <amount n="2710" unit="chars"/>
+                </sp>
+                <sp who="#laure">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="217" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="1085" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II.</head>
+                <sp who="#madame_capulet">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="146" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="706" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Monsieur Capulet, Madame Capulet.</head>
+                <sp who="#capulet">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="509" unit="words"/>
+                    <amount n="55" unit="lines"/>
+                    <amount n="2341" unit="chars"/>
+                </sp>
+                <sp who="#madame_capulet">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="343" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="1592" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV.</head>
+                <sp who="#madame_capulet">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="164" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="760" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Madame Capulet, Juliette, Laure.</head>
+                <sp who="#laure">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="34" unit="chars"/>
+                </sp>
+                <sp who="#juliette">
+                    <amount n="28" unit="speech_acts"/>
+                    <amount n="593" unit="words"/>
+                    <amount n="112" unit="lines"/>
+                    <amount n="2452" unit="chars"/>
+                </sp>
+                <sp who="#madame_capulet">
+                    <amount n="24" unit="speech_acts"/>
+                    <amount n="674" unit="words"/>
+                    <amount n="98" unit="lines"/>
+                    <amount n="3097" unit="chars"/>
+                </sp>
+                <sp who="#madam_capulet">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="118" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="508" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Juliette, Laure.</head>
+                <sp who="#laure">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="233" unit="chars"/>
+                </sp>
+                <sp who="#juliette">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="249" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="1113" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Juliette, Benvoglio, Laure.</head>
+                <sp who="#juliette">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="646" unit="words"/>
+                    <amount n="71" unit="lines"/>
+                    <amount n="2977" unit="chars"/>
+                </sp>
+                <sp who="#benvoglio">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="1883" unit="words"/>
+                    <amount n="122" unit="lines"/>
+                    <amount n="9016" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Capulet, Madame Capulet.</head>
+                <sp who="#capulet">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="205" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="1028" unit="chars"/>
+                </sp>
+                <sp who="#madam_capulet">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="119" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="565" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II.</head>
+                <sp who="#capulet">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="71" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="353" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Capulet, Juliette, Laure.</head>
+                <sp who="#juliette">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="212" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="921" unit="chars"/>
+                </sp>
+                <sp who="#capulet">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="458" unit="words"/>
+                    <amount n="63" unit="lines"/>
+                    <amount n="2096" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV.</head>
+                <sp who="#juliette">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="184" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="766" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Juliette, Laure.</head>
+                <sp who="#laure">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="55" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="262" unit="chars"/>
+                </sp>
+                <sp who="#juliette">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="222" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="1031" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Benvoglio, Juliette.</head>
+                <sp who="#juliette">
+                    <amount n="28" unit="speech_acts"/>
+                    <amount n="799" unit="words"/>
+                    <amount n="131" unit="lines"/>
+                    <amount n="3470" unit="chars"/>
+                </sp>
+                <sp who="#benvoglio">
+                    <amount n="28" unit="speech_acts"/>
+                    <amount n="1320" unit="words"/>
+                    <amount n="120" unit="lines"/>
+                    <amount n="6535" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE PREMIÈRE.</head>
+                <sp who="#juliette">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="228" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="924" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Madame Capulet, Juliette.</head>
+                <sp who="#madam_capulet">
+                    <amount n="22" unit="speech_acts"/>
+                    <amount n="366" unit="words"/>
+                    <amount n="85" unit="lines"/>
+                    <amount n="1580" unit="chars"/>
+                </sp>
+                <sp who="#juliette">
+                    <amount n="21" unit="speech_acts"/>
+                    <amount n="452" unit="words"/>
+                    <amount n="90" unit="lines"/>
+                    <amount n="1734" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Madame Capulet, Laure.</head>
+                <sp who="#laure">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="60" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="241" unit="chars"/>
+                </sp>
+                <sp who="#madam_capulet">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="97" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="405" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Capulet, Madame Capulet, Laure.</head>
+                <sp who="#capulet">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="163" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="647" unit="chars"/>
+                </sp>
+                <sp who="#madame_capulet">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="41" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="198" unit="chars"/>
+                </sp>
+                <sp who="#madam_capulet">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="66" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Capulet, Madame Capulet, Benvoglio, Laure, Plusieurs domestiques.</head>
+                <sp who="#capulet">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="560" unit="words"/>
+                    <amount n="78" unit="lines"/>
+                    <amount n="2552" unit="chars"/>
+                </sp>
+                <sp who="#benvoglio">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="353" unit="words"/>
+                    <amount n="53" unit="lines"/>
+                    <amount n="1696" unit="chars"/>
+                </sp>
+                <sp who="#madam_capulet">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="372" unit="words"/>
+                    <amount n="47" unit="lines"/>
+                    <amount n="1528" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCENE VI.</head>
+                <sp who="#benvoglio">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="156" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="718" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Benvoglio, Laure.</head>
+                <sp who="#benvoglio">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="209" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="996" unit="chars"/>
+                </sp>
+                <sp who="#laure">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="280" unit="words"/>
+                    <amount n="51" unit="lines"/>
+                    <amount n="1195" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE PREMIÈRE.</head>
+                <sp who="#ro_o">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="1228" unit="words"/>
+                    <amount n="103" unit="lines"/>
+                    <amount n="5306" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Roméo, Benvoglio.</head>
+                <sp who="#benvoglio">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="112" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="410" unit="chars"/>
+                </sp>
+                <sp who="#ro_o">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="107" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="426" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Acteurs précédents, Capulet, entrant à la tête de ses gens, armés et portant des flambeaux.</head>
+                <sp who="#capulet">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="91" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="420" unit="chars"/>
+                </sp>
+                <sp who="#benvoglio">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="155" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Acteurs précédents, Montaigu, suivi de gens armés.</head>
+                <sp who="#montaigu">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="144" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="599" unit="chars"/>
+                </sp>
+                <sp who="#ro_o">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="93" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="326" unit="chars"/>
+                </sp>
+                <sp who="#capulet">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="290" unit="words"/>
+                    <amount n="60" unit="lines"/>
+                    <amount n="1188" unit="chars"/>
+                </sp>
+                <sp who="#benvoglio">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="1176" unit="words"/>
+                    <amount n="96" unit="lines"/>
+                    <amount n="5529" unit="chars"/>
+                </sp>
+                <sp who="#juliette">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="73" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="241" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>L'ÉCHO DU PUBLIC</title>
+        <subtitle>COMÉDIE EN VERS ET EN UN ACTE</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>RICCOBONI père, RICCOBONI fils, ROMAGNESI</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/RICCOBONI-RICCOBONI-ROMAGNESI_ECHODUPUBLIC.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>la_critique</name>
+            <alias xml:id="la_critique">
+                <name>la_critique</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_suivant_d_apollon</name>
+            <alias xml:id="le_suivant_d_apollon">
+                <name>le_suivant_d_apollon</name>
+            </alias>
+        </character>
+        <character>
+            <name>belise</name>
+            <alias xml:id="belise">
+                <name>belise</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_arlequin_fra_ais</name>
+            <alias xml:id="l_arlequin_fra_ais">
+                <name>l_arlequin_fra_ais</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_arlequin_italien</name>
+            <alias xml:id="l_arlequin_italien">
+                <name>l_arlequin_italien</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_marquis</name>
+            <alias xml:id="le_marquis">
+                <name>le_marquis</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>filemon</name>
+            <alias xml:id="filemon">
+                <name>filemon</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_auteur</name>
+            <alias xml:id="l_auteur">
+                <name>l_auteur</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>L'ÉCHO DU PUBLIC</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. La Critique, Un Suivant d'Apollon.</head>
+                <sp who="#la_critique">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="247" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1178" unit="chars"/>
+                </sp>
+                <sp who="#le_suivant_d_apollon">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="228" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1161" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. La Critique, Belise.</head>
+                <sp who="#belise">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="950" unit="words"/>
+                    <amount n="135" unit="lines"/>
+                    <amount n="4646" unit="chars"/>
+                </sp>
+                <sp who="#la_critique">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="534" unit="words"/>
+                    <amount n="85" unit="lines"/>
+                    <amount n="2750" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. La Critique, L'Arlequin Français.</head>
+                <sp who="#l_arlequin_fra_ais">
+                    <amount n="20" unit="speech_acts"/>
+                    <amount n="683" unit="words"/>
+                    <amount n="110" unit="lines"/>
+                    <amount n="3363" unit="chars"/>
+                </sp>
+                <sp who="#la_critique">
+                    <amount n="20" unit="speech_acts"/>
+                    <amount n="488" unit="words"/>
+                    <amount n="81" unit="lines"/>
+                    <amount n="2461" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. La Critique, L'Arlequin Français, et L'Arlequin Italien.</head>
+                <sp who="#l_arlequin_italien">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="342" unit="words"/>
+                    <amount n="65" unit="lines"/>
+                    <amount n="1593" unit="chars"/>
+                </sp>
+                <sp who="#l_arlequin_fra_ais">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="427" unit="words"/>
+                    <amount n="79" unit="lines"/>
+                    <amount n="2093" unit="chars"/>
+                </sp>
+                <sp who="#la_critique">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="232" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="1172" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. La Critique, Le Marquis.</head>
+                <sp who="#le_marquis">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="972" unit="words"/>
+                    <amount n="147" unit="lines"/>
+                    <amount n="4810" unit="chars"/>
+                </sp>
+                <sp who="#la_critique">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="339" unit="words"/>
+                    <amount n="67" unit="lines"/>
+                    <amount n="1714" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. La Critique, Filemon.</head>
+                <sp who="#la_critique">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="257" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="1272" unit="chars"/>
+                </sp>
+                <sp who="#filemon">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="324" unit="words"/>
+                    <amount n="45" unit="lines"/>
+                    <amount n="1621" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. La Critique, Filemon, L'Auteur.</head>
+                <sp who="#la_critique">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="262" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1380" unit="chars"/>
+                </sp>
+                <sp who="#l_auteur">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="907" unit="words"/>
+                    <amount n="128" unit="lines"/>
+                    <amount n="4613" unit="chars"/>
+                </sp>
+                <sp who="#filemon">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="276" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="1379" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII ET DERNIERE.</head>
+                <sp who="#la_critique">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="74" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="370" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

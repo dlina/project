@@ -1,0 +1,1358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>CIRCÉ</title>
+        <subtitle>TRAGÉDIE</subtitle>
+        <subtitle>ORNÉE de MACHINES, de Changements de Théâtre, et de Musique.</subtitle>
+        <genretitle>Tragédie</genretitle>
+        <author>CORNEILLE, Thomas</author>
+        <date when="1677">1677</date>
+        <source>https://github.com/dramacode/theatre-classique/CORNEILLET_CIRCE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>mars</name>
+            <alias xml:id="mars">
+                <name>mars</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_fortune</name>
+            <alias xml:id="l_fortune">
+                <name>l_fortune</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_renommee</name>
+            <alias xml:id="l_renommee">
+                <name>l_renommee</name>
+            </alias>
+        </character>
+        <character>
+            <name>_amour</name>
+            <alias xml:id="_amour">
+                <name>_amour</name>
+            </alias>
+        </character>
+        <character>
+            <name>la_gloire</name>
+            <alias xml:id="la_gloire">
+                <name>la_gloire</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_comedie</name>
+            <alias xml:id="l_comedie">
+                <name>l_comedie</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_musique</name>
+            <alias xml:id="l_musique">
+                <name>l_musique</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_arts_le_plaisirs</name>
+            <alias xml:id="le_arts_le_plaisirs">
+                <name>le_arts_le_plaisirs</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_comedie_l_musique</name>
+            <alias xml:id="l_comedie_l_musique">
+                <name>l_comedie_l_musique</name>
+            </alias>
+        </character>
+        <character>
+            <name>tou_ensemble</name>
+            <alias xml:id="tou_ensemble">
+                <name>tou_ensemble</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_comedie_l_musique_u_art</name>
+            <alias xml:id="l_comedie_l_musique_u_art">
+                <name>l_comedie_l_musique_u_art</name>
+            </alias>
+        </character>
+        <character>
+            <name>palemon</name>
+            <alias xml:id="palemon">
+                <name>palemon</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>glaucus</name>
+            <alias xml:id="glaucus">
+                <name>glaucus</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>celie</name>
+            <alias xml:id="celie">
+                <name>celie</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>melisse</name>
+            <alias xml:id="melisse">
+                <name>melisse</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>silla</name>
+            <alias xml:id="silla">
+                <name>silla</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>florise</name>
+            <alias xml:id="florise">
+                <name>florise</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>asterie</name>
+            <alias xml:id="asterie">
+                <name>asterie</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>dorine</name>
+            <alias xml:id="dorine">
+                <name>dorine</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>premie_satyre</name>
+            <alias xml:id="premie_satyre">
+                <name>premie_satyre</name>
+            </alias>
+        </character>
+        <character>
+            <name>secon_satyre</name>
+            <alias xml:id="secon_satyre">
+                <name>secon_satyre</name>
+            </alias>
+        </character>
+        <character>
+            <name>troisiem_satyre</name>
+            <alias xml:id="troisiem_satyre">
+                <name>troisiem_satyre</name>
+            </alias>
+        </character>
+        <character>
+            <name>quatriem_satyre</name>
+            <alias xml:id="quatriem_satyre">
+                <name>quatriem_satyre</name>
+            </alias>
+        </character>
+        <character>
+            <name>cnquiem_satyre</name>
+            <alias xml:id="cnquiem_satyre">
+                <name>cnquiem_satyre</name>
+            </alias>
+        </character>
+        <character>
+            <name>circe</name>
+            <alias xml:id="circe">
+                <name>circe</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>melicerte</name>
+            <alias xml:id="melicerte">
+                <name>melicerte</name>
+            </alias>
+        </character>
+        <character>
+            <name>tircis</name>
+            <alias xml:id="tircis">
+                <name>tircis</name>
+            </alias>
+        </character>
+        <character>
+            <name>silvie</name>
+            <alias xml:id="silvie">
+                <name>silvie</name>
+            </alias>
+        </character>
+        <character>
+            <name>silvie_tircis</name>
+            <alias xml:id="silvie_tircis">
+                <name>silvie_tircis</name>
+            </alias>
+        </character>
+        <character>
+            <name>venus</name>
+            <alias xml:id="venus">
+                <name>venus</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_faune</name>
+            <alias xml:id="l_faune">
+                <name>l_faune</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_dryade</name>
+            <alias xml:id="l_dryade">
+                <name>l_dryade</name>
+            </alias>
+        </character>
+        <character>
+            <name>faune_dryade</name>
+            <alias xml:id="faune_dryade">
+                <name>faune_dryade</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_soleil</name>
+            <alias xml:id="l_soleil">
+                <name>l_soleil</name>
+            </alias>
+        </character>
+        <character>
+            <name>neptune</name>
+            <alias xml:id="neptune">
+                <name>neptune</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>jupiter</name>
+            <alias xml:id="jupiter">
+                <name>jupiter</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>sylvain</name>
+            <alias xml:id="sylvain">
+                <name>sylvain</name>
+            </alias>
+        </character>
+        <character>
+            <name>choeu_d_divini_s</name>
+            <alias xml:id="choeu_d_divini_s">
+                <name>choeu_d_divini_s</name>
+            </alias>
+        </character>
+        <character>
+            <name>sylvai_dryade</name>
+            <alias xml:id="sylvai_dryade">
+                <name>sylvai_dryade</name>
+            </alias>
+        </character>
+        <character>
+            <name>choeu_de_divinites</name>
+            <alias xml:id="choeu_de_divinites">
+                <name>choeu_de_divinites</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>PROLOGUE</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Mars, La Fortune.</head>
+                <sp who="#mars">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="244" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="1167" unit="chars"/>
+                </sp>
+                <sp who="#l_fortune">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="247" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1162" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Mars, La Fortune, La Renommée, L'Amour.</head>
+                <sp who="#l_renommee">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="575" unit="words"/>
+                    <amount n="68" unit="lines"/>
+                    <amount n="2664" unit="chars"/>
+                </sp>
+                <sp who="#mars">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="72" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="323" unit="chars"/>
+                </sp>
+                <sp who="#_amour">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="433" unit="words"/>
+                    <amount n="53" unit="lines"/>
+                    <amount n="1877" unit="chars"/>
+                </sp>
+                <sp who="#l_fortune">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="134" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. La Gloire, Mars, La Renommée, La Fortune, L'Amour. </head>
+                <sp who="#_amour">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="564" unit="words"/>
+                    <amount n="70" unit="lines"/>
+                    <amount n="2614" unit="chars"/>
+                </sp>
+                <sp who="#l_fortune">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="44" unit="chars"/>
+                </sp>
+                <sp who="#l_renommee">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="35" unit="chars"/>
+                </sp>
+                <sp who="#mars">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="42" unit="chars"/>
+                </sp>
+                <sp who="#la_gloire">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="71" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="326" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>PROLOGUE de le MUSIQUE et de la COMÉDIE.</head>
+                <sp who="#l_comedie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="51" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="241" unit="chars"/>
+                </sp>
+                <sp who="#l_musique">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="106" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="481" unit="chars"/>
+                </sp>
+                <sp who="#le_arts_le_plaisirs">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="54" unit="chars"/>
+                </sp>
+                <sp who="#l_comedie_l_musique">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="230" unit="chars"/>
+                </sp>
+                <sp who="#tou_ensemble">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="54" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="278" unit="chars"/>
+                </sp>
+                <sp who="#l_comedie_l_musique_u_art">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="116" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Glaucus, Palémon.</head>
+                <sp who="#palemon">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="485" unit="words"/>
+                    <amount n="59" unit="lines"/>
+                    <amount n="2209" unit="chars"/>
+                </sp>
+                <sp who="#glaucus">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="612" unit="words"/>
+                    <amount n="75" unit="lines"/>
+                    <amount n="2891" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Glaucus, Palémon, Célie, Mélisse. </head>
+                <sp who="#glaucus">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="222" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="1040" unit="chars"/>
+                </sp>
+                <sp who="#celie">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="317" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="1415" unit="chars"/>
+                </sp>
+                <sp who="#melisse">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="105" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="458" unit="chars"/>
+                </sp>
+                <sp who="#palemon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="44" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Glaucus, Silla, Palémon, Célie, Mélisse. </head>
+                <sp who="#glaucus">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="386" unit="words"/>
+                    <amount n="57" unit="lines"/>
+                    <amount n="1749" unit="chars"/>
+                </sp>
+                <sp who="#silla">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="637" unit="words"/>
+                    <amount n="82" unit="lines"/>
+                    <amount n="2875" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Palémon, Célie. </head>
+                <sp who="#palemon">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="142" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="676" unit="chars"/>
+                </sp>
+                <sp who="#celie">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="185" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="814" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Florise, Dorine, Astérie.</head>
+                <sp who="#florise">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="45" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="256" unit="chars"/>
+                </sp>
+                <sp who="#asterie">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="220" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="1010" unit="chars"/>
+                </sp>
+                <sp who="#dorine">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="161" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="763" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Florise, Dorine, Astérie, Trois Satyres.</head>
+                <sp who="#premie_satyre">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="144" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="620" unit="chars"/>
+                </sp>
+                <sp who="#florise">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="15" unit="chars"/>
+                </sp>
+                <sp who="#secon_satyre">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="196" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="846" unit="chars"/>
+                </sp>
+                <sp who="#asterie">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="98" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="445" unit="chars"/>
+                </sp>
+                <sp who="#troisiem_satyre">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="81" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="343" unit="chars"/>
+                </sp>
+                <sp who="#dorine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="39" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Florise, Dorine, Astérie, Trois Satyres, Deux autres Satyres qui surviennent.</head>
+                <sp who="#quatriem_satyre">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="73" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="302" unit="chars"/>
+                </sp>
+                <sp who="#premie_satyre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="3" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="11" unit="chars"/>
+                </sp>
+                <sp who="#cnquiem_satyre">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="158" unit="chars"/>
+                </sp>
+                <sp who="#secon_satyre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="36" unit="chars"/>
+                </sp>
+                <sp who="#asterie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="325" unit="chars"/>
+                </sp>
+                <sp who="#troisiem_satyre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="66" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Florise, Dorine, Astérie, Circé, Cinq Satyres.</head>
+                <sp who="#cnquiem_satyre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="25" unit="chars"/>
+                </sp>
+                <sp who="#circe">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="57" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="259" unit="chars"/>
+                </sp>
+                <sp who="#asterie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="25" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="116" unit="chars"/>
+                </sp>
+                <sp who="#dorine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="39" unit="chars"/>
+                </sp>
+                <sp who="#florise">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="49" unit="chars"/>
+                </sp>
+                <sp who="#quatriem_satyre">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="56" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Glaucus, Circé.</head>
+                <sp who="#glaucus">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="264" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="1228" unit="chars"/>
+                </sp>
+                <sp who="#circe">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="321" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1358" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Palémon, Florise, Dorine, Astérie. </head>
+                <sp who="#florise">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="72" unit="chars"/>
+                </sp>
+                <sp who="#palemon">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="263" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1157" unit="chars"/>
+                </sp>
+                <sp who="#asterie">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="129" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="597" unit="chars"/>
+                </sp>
+                <sp who="#dorine">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="55" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="237" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Florise, Dorine, Astérie.</head>
+                <sp who="#dorine">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="80" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="362" unit="chars"/>
+                </sp>
+                <sp who="#florise">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="175" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="771" unit="chars"/>
+                </sp>
+                <sp who="#asterie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="184" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="869" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. CIRCÉ, Florise, Dorine, Astérie. </head>
+                <sp who="#circe">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="630" unit="words"/>
+                    <amount n="77" unit="lines"/>
+                    <amount n="2845" unit="chars"/>
+                </sp>
+                <sp who="#dorine">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="204" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="925" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Circé, Mélicerte, Dorine.</head>
+                <sp who="#melicerte">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="425" unit="words"/>
+                    <amount n="58" unit="lines"/>
+                    <amount n="1959" unit="chars"/>
+                </sp>
+                <sp who="#circe">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="299" unit="words"/>
+                    <amount n="45" unit="lines"/>
+                    <amount n="1356" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Circé, Dorine.</head>
+                <sp who="#dorine">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="112" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="536" unit="chars"/>
+                </sp>
+                <sp who="#circe">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="153" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="702" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Glaucus, Circé, Palémon Dorine. </head>
+                <sp who="#circe">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="163" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="732" unit="chars"/>
+                </sp>
+                <sp who="#glaucus">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="365" unit="words"/>
+                    <amount n="47" unit="lines"/>
+                    <amount n="1666" unit="chars"/>
+                </sp>
+                <sp who="#dorine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="51" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Glaucus, Circé, Astérie, Palémon Dorine. </head>
+                <sp who="#circe">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="583" unit="words"/>
+                    <amount n="75" unit="lines"/>
+                    <amount n="2673" unit="chars"/>
+                </sp>
+                <sp who="#asterie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="14" unit="chars"/>
+                </sp>
+                <sp who="#tircis">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="125" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="595" unit="chars"/>
+                </sp>
+                <sp who="#silvie">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="120" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="509" unit="chars"/>
+                </sp>
+                <sp who="#silvie_tircis">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="60" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="298" unit="chars"/>
+                </sp>
+                <sp who="#glaucus">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="394" unit="words"/>
+                    <amount n="51" unit="lines"/>
+                    <amount n="1825" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Circé, Dorine.</head>
+                <sp who="#circe">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="162" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="769" unit="chars"/>
+                </sp>
+                <sp who="#dorine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="141" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Mélicerte, Astérie.</head>
+                <sp who="#melicerte">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="446" unit="words"/>
+                    <amount n="60" unit="lines"/>
+                    <amount n="2077" unit="chars"/>
+                </sp>
+                <sp who="#asterie">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="469" unit="words"/>
+                    <amount n="63" unit="lines"/>
+                    <amount n="2156" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Palémon, Astérie.</head>
+                <sp who="#asterie">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="444" unit="words"/>
+                    <amount n="60" unit="lines"/>
+                    <amount n="1996" unit="chars"/>
+                </sp>
+                <sp who="#palemon">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="336" unit="words"/>
+                    <amount n="45" unit="lines"/>
+                    <amount n="1502" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Circé, Dorine, Astérie. </head>
+                <sp who="#circe">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="116" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="506" unit="chars"/>
+                </sp>
+                <sp who="#asterie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="66" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="335" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Circé, Dorine. </head>
+                <sp who="#dorine">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="63" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="296" unit="chars"/>
+                </sp>
+                <sp who="#circe">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="365" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="1680" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Circé, Florise, Dorine. </head>
+                <sp who="#florise">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="48" unit="chars"/>
+                </sp>
+                <sp who="#circe">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="82" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="379" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Circé, Silla, Dorine. </head>
+                <sp who="#silla">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="325" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1461" unit="chars"/>
+                </sp>
+                <sp who="#circe">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="113" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="524" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Glaucus, Circé, Silla, Palémon, Dorine. </head>
+                <sp who="#glaucus">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="496" unit="words"/>
+                    <amount n="67" unit="lines"/>
+                    <amount n="2300" unit="chars"/>
+                </sp>
+                <sp who="#silla">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="132" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="612" unit="chars"/>
+                </sp>
+                <sp who="#circe">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="296" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1352" unit="chars"/>
+                </sp>
+                <sp who="#palemon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="65" unit="chars"/>
+                </sp>
+                <sp who="#dorine">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="272" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Glaucus, Palémon.</head>
+                <sp who="#glaucus">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="191" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="851" unit="chars"/>
+                </sp>
+                <sp who="#palemon">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="98" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Vénus sur le Globe environné d'Amours, Glaucus, Palémon. </head>
+                <sp who="#glaucus">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="185" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="800" unit="chars"/>
+                </sp>
+                <sp who="#venus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="113" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="512" unit="chars"/>
+                </sp>
+                <sp who="#palemon">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="72" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="313" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Palémon, Astérie. </head>
+                <sp who="#asterie">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="408" unit="words"/>
+                    <amount n="51" unit="lines"/>
+                    <amount n="1832" unit="chars"/>
+                </sp>
+                <sp who="#palemon">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="233" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1011" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Mélicerte, Astérie. </head>
+                <sp who="#asterie">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="206" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="961" unit="chars"/>
+                </sp>
+                <sp who="#melicerte">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="354" unit="words"/>
+                    <amount n="48" unit="lines"/>
+                    <amount n="1716" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Florise, Astérie.</head>
+                <sp who="#florise">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="201" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="920" unit="chars"/>
+                </sp>
+                <sp who="#asterie">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="378" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="1832" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Circé, Silla, Florise, Astérie. </head>
+                <sp who="#circe">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="415" unit="words"/>
+                    <amount n="63" unit="lines"/>
+                    <amount n="1896" unit="chars"/>
+                </sp>
+                <sp who="#silla">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="242" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1099" unit="chars"/>
+                </sp>
+                <sp who="#l_faune">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="106" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="497" unit="chars"/>
+                </sp>
+                <sp who="#l_dryade">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="205" unit="chars"/>
+                </sp>
+                <sp who="#faune_dryade">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="104" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Circé, Dorine, Silla.</head>
+                <sp who="#dorine">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="204" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="938" unit="chars"/>
+                </sp>
+                <sp who="#circe">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="846" unit="words"/>
+                    <amount n="104" unit="lines"/>
+                    <amount n="3890" unit="chars"/>
+                </sp>
+                <sp who="#silla">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="142" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Le Soleil dans son palais, Circé, Dorine. </head>
+                <sp who="#l_soleil">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="93" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="415" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Circé, Dorine. </head>
+                <sp who="#dorine">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="77" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="341" unit="chars"/>
+                </sp>
+                <sp who="#circe">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="198" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="905" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Glaucus, Circé, Dorine. </head>
+                <sp who="#glaucus">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="123" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="536" unit="chars"/>
+                </sp>
+                <sp who="#circe">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="161" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="757" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Glaucus, Circé, Palémon, Dorine.</head>
+                <sp who="#palemon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="94" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="418" unit="chars"/>
+                </sp>
+                <sp who="#glaucus">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="54" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="252" unit="chars"/>
+                </sp>
+                <sp who="#circe">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="149" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="715" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Circé, Dorine. </head>
+                <sp who="#dorine">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="91" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="418" unit="chars"/>
+                </sp>
+                <sp who="#circe">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="157" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="729" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Silla, Florise, Astérie</head>
+                <sp who="#silla">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="333" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="1512" unit="chars"/>
+                </sp>
+                <sp who="#florise">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="139" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="626" unit="chars"/>
+                </sp>
+                <sp who="#asterie">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="120" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="520" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Silla, Mélicerte, Florise. </head>
+                <sp who="#melicerte">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="259" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="1222" unit="chars"/>
+                </sp>
+                <sp who="#silla">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="282" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="1296" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Silla, Mélicerte, Palémon, Astérie, Florise.</head>
+                <sp who="#silla">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="36" unit="chars"/>
+                </sp>
+                <sp who="#palemon">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="260" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="1152" unit="chars"/>
+                </sp>
+                <sp who="#melicerte">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="113" unit="chars"/>
+                </sp>
+                <sp who="#florise">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="212" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="920" unit="chars"/>
+                </sp>
+                <sp who="#asterie">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="342" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="1531" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Dorine, Astérie, Florise. </head>
+                <sp who="#asterie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="53" unit="chars"/>
+                </sp>
+                <sp who="#dorine">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="498" unit="words"/>
+                    <amount n="60" unit="lines"/>
+                    <amount n="2500" unit="chars"/>
+                </sp>
+                <sp who="#florise">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="4" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="25" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Circé, Dorine. </head>
+                <sp who="#circe">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="207" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="1022" unit="chars"/>
+                </sp>
+                <sp who="#dorine">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="154" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Glaucus, Circé, Dorine. </head>
+                <sp who="#glaucus">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="534" unit="words"/>
+                    <amount n="72" unit="lines"/>
+                    <amount n="2791" unit="chars"/>
+                </sp>
+                <sp who="#circe">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="374" unit="words"/>
+                    <amount n="51" unit="lines"/>
+                    <amount n="1903" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Glaucus, Palémon, Circé, Dorine.</head>
+                <sp who="#palemon">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="128" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="652" unit="chars"/>
+                </sp>
+                <sp who="#glaucus">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="99" unit="chars"/>
+                </sp>
+                <sp who="#circe">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="91" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="446" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Glaucus, Palémon. </head>
+                <sp who="#glaucus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="104" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="474" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Neptune sur les flots, Glaucus. </head>
+                <sp who="#neptune">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="107" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="540" unit="chars"/>
+                </sp>
+                <sp who="#glaucus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="160" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Jupiter dans son Palais, Neptune sur</head>
+                <sp who="#jupiter">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="86" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="450" unit="chars"/>
+                </sp>
+                <sp who="#glaucus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="114" unit="chars"/>
+                </sp>
+                <sp who="#neptune">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="50" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Neptune, Glaucus, Silla. </head>
+                <sp who="#glaucus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="69" unit="chars"/>
+                </sp>
+                <sp who="#silla">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="159" unit="chars"/>
+                </sp>
+                <sp who="#neptune">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="68" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="356" unit="chars"/>
+                </sp>
+                <sp who="#sylvain">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="56" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="281" unit="chars"/>
+                </sp>
+                <sp who="#choeu_d_divini_s">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="57" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="274" unit="chars"/>
+                </sp>
+                <sp who="#sylvai_dryade">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="149" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="714" unit="chars"/>
+                </sp>
+                <sp who="#choeu_de_divinites">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="57" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="274" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

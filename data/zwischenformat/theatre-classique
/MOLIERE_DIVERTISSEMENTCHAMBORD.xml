@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LE DIVERTISSEMENT DE CHAMBORD</title>
+        <subtitle>Mêlé de Comédie, de Musique, et d'Entrées de Ballet. </subtitle>
+        <genretitle>Ballet</genretitle>
+        <author>MOLIÈRE</author>
+        <date when="1666">1666</date>
+        <source>https://github.com/dramacode/theatre-classique/MOLIERE_DIVERTISSEMENTCHAMBORD.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>prem_re_voix</name>
+            <alias xml:id="prem_re_voix">
+                <name>prem_re_voix</name>
+            </alias>
+        </character>
+        <character>
+            <name>deux_me_voix</name>
+            <alias xml:id="deux_me_voix">
+                <name>deux_me_voix</name>
+            </alias>
+        </character>
+        <character>
+            <name>trois_me_voix</name>
+            <alias xml:id="trois_me_voix">
+                <name>trois_me_voix</name>
+            </alias>
+        </character>
+        <character>
+            <name>les_trois_voix_ensemble</name>
+            <alias xml:id="les_trois_voix_ensemble">
+                <name>les_trois_voix_ensemble</name>
+            </alias>
+        </character>
+        <character>
+            <name>les_deux_musiciens</name>
+            <alias xml:id="les_deux_musiciens">
+                <name>les_deux_musiciens</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_avocat</name>
+            <alias xml:id="l_avocat">
+                <name>l_avocat</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_avocat_bredouilleur</name>
+            <alias xml:id="l_avocat_bredouilleur">
+                <name>l_avocat_bredouilleur</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_gyptienne</name>
+            <alias xml:id="l_gyptienne">
+                <name>l_gyptienne</name>
+            </alias>
+        </character>
+        <character>
+            <name>choeur_des_musiciens</name>
+            <alias xml:id="choeur_des_musiciens">
+                <name>choeur_des_musiciens</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_gyptien</name>
+            <alias xml:id="l_gyptien">
+                <name>l_gyptien</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_gyptien__l_gyptienne</name>
+            <alias xml:id="l_gyptien__l_gyptienne">
+                <name>l_gyptien__l_gyptienne</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_petit_choeur</name>
+            <alias xml:id="le_petit_choeur">
+                <name>le_petit_choeur</name>
+            </alias>
+        </character>
+        <character>
+            <name>monsieur_blondel</name>
+            <alias xml:id="monsieur_blondel">
+                <name>monsieur_blondel</name>
+            </alias>
+        </character>
+        <character>
+            <name>tous_ensemble</name>
+            <alias xml:id="tous_ensemble">
+                <name>tous_ensemble</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>PROLOGUE</head>
+            <div>
+                <head>PREMIER INTERMÈDE.</head>
+                <sp who="#prem_re_voix">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="62" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="286" unit="chars"/>
+                </sp>
+                <sp who="#deux_me_voix">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="57" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="255" unit="chars"/>
+                </sp>
+                <sp who="#trois_me_voix">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="140" unit="chars"/>
+                </sp>
+                <sp who="#les_trois_voix_ensemble">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="56" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="281" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>LE PREMIER ACTE de la Comédie. </head>
+            <div>
+                <head>LE SECOND INTERMÈDE. </head>
+                <sp who="#les_deux_musiciens">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="171" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="703" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>LE SECOND ACTE de la Comédie. </head>
+            <div>
+                <head>TROISIÈME INTERMÈDE. </head>
+                <sp who="#l_avocat">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="53" unit="chars"/>
+                </sp>
+                <sp who="#l_avocat_bredouilleur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="161" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="649" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>LE TROISIÈME ACTE de la Comédie. </head>
+            <div>
+                <head>QUATRIÈME INTERMÈDE. </head>
+                <sp who="#l_gyptienne">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="108" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="450" unit="chars"/>
+                </sp>
+                <sp who="#choeur_des_musiciens">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="67" unit="chars"/>
+                </sp>
+                <sp who="#l_gyptien">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="61" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="246" unit="chars"/>
+                </sp>
+                <sp who="#l_gyptien__l_gyptienne">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="59" unit="chars"/>
+                </sp>
+                <sp who="#le_petit_choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="66" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_blondel">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="99" unit="chars"/>
+                </sp>
+                <sp who="#tous_ensemble">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="67" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

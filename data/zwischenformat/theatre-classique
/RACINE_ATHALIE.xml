@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>ATHALIE</title>
+        <subtitle>TRAGÉDIE tirée de l'écriture sainte.</subtitle>
+        <genretitle>Tragédie</genretitle>
+        <author>RACINE, Jean</author>
+        <date when="1691">1691</date>
+        <source>https://github.com/dramacode/theatre-classique/RACINE_ATHALIE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>abner</name>
+            <alias xml:id="abner">
+                <name>abner</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>joad</name>
+            <alias xml:id="joad">
+                <name>joad</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>josabet</name>
+            <alias xml:id="josabet">
+                <name>josabet</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>choeur</name>
+            <alias xml:id="choeur">
+                <name>choeur</name>
+                <sex>0</sex>
+            </alias>
+        </character>
+        <character>
+            <name>zacharie</name>
+            <alias xml:id="zacharie">
+                <name>zacharie</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>salomith</name>
+            <alias xml:id="salomith">
+                <name>salomith</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>agar</name>
+            <alias xml:id="agar">
+                <name>agar</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>athalie</name>
+            <alias xml:id="athalie">
+                <name>athalie</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>mathan</name>
+            <alias xml:id="mathan">
+                <name>mathan</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>joas</name>
+            <alias xml:id="joas">
+                <name>joas</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>nabal</name>
+            <alias xml:id="nabal">
+                <name>nabal</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>azarias</name>
+            <alias xml:id="azarias">
+                <name>azarias</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>ismael</name>
+            <alias xml:id="ismael">
+                <name>ismael</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>levites</name>
+            <alias xml:id="levites">
+                <name>levites</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Joad, Abner.</head>
+                <sp who="#abner">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="900" unit="words"/>
+                    <amount n="106" unit="lines"/>
+                    <amount n="4585" unit="chars"/>
+                </sp>
+                <sp who="#joad">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="648" unit="words"/>
+                    <amount n="75" unit="lines"/>
+                    <amount n="3253" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Joad, Josabet.</head>
+                <sp who="#joad">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="610" unit="words"/>
+                    <amount n="73" unit="lines"/>
+                    <amount n="2993" unit="chars"/>
+                </sp>
+                <sp who="#josabet">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="655" unit="words"/>
+                    <amount n="76" unit="lines"/>
+                    <amount n="3254" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Josabet, Zacharie, Salomith, Le Choeur.</head>
+                <sp who="#josabet">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="134" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="652" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Le Choeur.</head>
+                <sp who="#choeur">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="543" unit="words"/>
+                    <amount n="79" unit="lines"/>
+                    <amount n="2611" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Josabet, Salomith, Le Choeur.</head>
+                <sp who="#josabet">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="198" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Zacharie, Josabet, Salomith, Le Choeur.</head>
+                <sp who="#josabet">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="105" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="477" unit="chars"/>
+                </sp>
+                <sp who="#zacharie">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="362" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="1798" unit="chars"/>
+                </sp>
+                <sp who="#salomith">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="94" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Athalie, Agar, Abner, Suite d'Athalie.</head>
+                <sp who="#agar">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="232" unit="chars"/>
+                </sp>
+                <sp who="#athalie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="50" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="207" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Athalie, Abner, etc.</head>
+                <sp who="#abner">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="115" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="552" unit="chars"/>
+                </sp>
+                <sp who="#athalie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="79" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="369" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Mathan, Athalie, Abner, etc.</head>
+                <sp who="#mathan">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="231" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="1123" unit="chars"/>
+                </sp>
+                <sp who="#athalie">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="958" unit="words"/>
+                    <amount n="116" unit="lines"/>
+                    <amount n="4666" unit="chars"/>
+                </sp>
+                <sp who="#abner">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="190" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="902" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Athalie, Mathan, etc.</head>
+                <sp who="#mathan">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="85" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="394" unit="chars"/>
+                </sp>
+                <sp who="#athalie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="79" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="364" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Joas, Josabet, Athalie, Zacharie, Abner, Salomith, deux Lévites, Le Choeur, etc.</head>
+                <sp who="#josabet">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="125" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="571" unit="chars"/>
+                </sp>
+                <sp who="#abner">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="312" unit="chars"/>
+                </sp>
+                <sp who="#athalie">
+                    <amount n="32" unit="speech_acts"/>
+                    <amount n="735" unit="words"/>
+                    <amount n="116" unit="lines"/>
+                    <amount n="3509" unit="chars"/>
+                </sp>
+                <sp who="#joas">
+                    <amount n="21" unit="speech_acts"/>
+                    <amount n="312" unit="words"/>
+                    <amount n="59" unit="lines"/>
+                    <amount n="1453" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Joad, Josabet, Joas, Zacharie, Abner, Salomith, Lévites, Le Choeur.</head>
+                <sp who="#josabet">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="50" unit="chars"/>
+                </sp>
+                <sp who="#joad">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="102" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="499" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Le Choeur.</head>
+                <sp who="#choeur">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="735" unit="words"/>
+                    <amount n="114" unit="lines"/>
+                    <amount n="3646" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Mathan, Nabal, Le Choeur.</head>
+                <sp who="#mathan">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="97" unit="chars"/>
+                </sp>
+                <sp who="#choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="50" unit="chars"/>
+                </sp>
+                <sp who="#nabal">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="56" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Zacharie, Mathan, Nabal.</head>
+                <sp who="#zacharie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="64" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="355" unit="chars"/>
+                </sp>
+                <sp who="#mathan">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="144" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Mathan, Nabal.</head>
+                <sp who="#nabal">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="154" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="756" unit="chars"/>
+                </sp>
+                <sp who="#mathan">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="798" unit="words"/>
+                    <amount n="90" unit="lines"/>
+                    <amount n="3988" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Josabet, Mathan, Nabal.</head>
+                <sp who="#mathan">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="406" unit="words"/>
+                    <amount n="50" unit="lines"/>
+                    <amount n="1990" unit="chars"/>
+                </sp>
+                <sp who="#josabet">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="118" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="583" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Joad, Josabet, Mathan, Nabal.</head>
+                <sp who="#joad">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="175" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="823" unit="chars"/>
+                </sp>
+                <sp who="#mathan">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="67" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="286" unit="chars"/>
+                </sp>
+                <sp who="#nabal">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="88" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Joad, Josabet.</head>
+                <sp who="#josabet">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="325" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="1598" unit="chars"/>
+                </sp>
+                <sp who="#joad">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="174" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="870" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Joad, Joasabet, Azarias suivi du choeur et de plusieurs Lévites.</head>
+                <sp who="#joad">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="618" unit="words"/>
+                    <amount n="75" unit="lines"/>
+                    <amount n="2989" unit="chars"/>
+                </sp>
+                <sp who="#azarias">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="72" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="347" unit="chars"/>
+                </sp>
+                <sp who="#choeur">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="131" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="645" unit="chars"/>
+                </sp>
+                <sp who="#josabet">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="25" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="107" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Salomith, Le Choeur.</head>
+                <sp who="#salomith">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="128" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="633" unit="chars"/>
+                </sp>
+                <sp who="#choeur">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="276" unit="words"/>
+                    <amount n="54" unit="lines"/>
+                    <amount n="1344" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Joas, Joasabet, Zacharie, Salomith, un Lévite, Le Choeur.</head>
+                <sp who="#salomith">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="188" unit="chars"/>
+                </sp>
+                <sp who="#josabet">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="97" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="452" unit="chars"/>
+                </sp>
+                <sp who="#joas">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="135" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="670" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Joad, Joas.</head>
+                <sp who="#joas">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="123" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="566" unit="chars"/>
+                </sp>
+                <sp who="#joad">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="300" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="1442" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Joas, Joad, Azarias, Ismaël et les trois autres chefs des Lévites.</head>
+                <sp who="#joad">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="864" unit="words"/>
+                    <amount n="98" unit="lines"/>
+                    <amount n="4310" unit="chars"/>
+                </sp>
+                <sp who="#azarias">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="88" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="405" unit="chars"/>
+                </sp>
+                <sp who="#ismael">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="27" unit="chars"/>
+                </sp>
+                <sp who="#joas">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="50" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="235" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Joas, Joad, Joasabet, Zacharie, Azarias, etc., Salomith, Le Choeur.</head>
+                <sp who="#josabet">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="180" unit="chars"/>
+                </sp>
+                <sp who="#joas">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="153" unit="chars"/>
+                </sp>
+                <sp who="#joad">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="70" unit="chars"/>
+                </sp>
+                <sp who="#choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="18" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Joas, Joasabet, Joad, etc., Un Lévite.</head>
+                <sp who="#levites">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="83" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="417" unit="chars"/>
+                </sp>
+                <sp who="#josabet">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="145" unit="chars"/>
+                </sp>
+                <sp who="#joad">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="279" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="1335" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Salomith, Le Choeur.</head>
+                <sp who="#choeur">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="343" unit="words"/>
+                    <amount n="52" unit="lines"/>
+                    <amount n="1656" unit="chars"/>
+                </sp>
+                <sp who="#salomith">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="153" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Zacharie, Salomith, Le Choeur.</head>
+                <sp who="#salomith">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="55" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="278" unit="chars"/>
+                </sp>
+                <sp who="#zacharie">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="449" unit="words"/>
+                    <amount n="63" unit="lines"/>
+                    <amount n="2161" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Abner, Joad, Josabet, Zacharie, Salomith, Ismaël, deux Lévites, etc.</head>
+                <sp who="#joad">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="293" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="1472" unit="chars"/>
+                </sp>
+                <sp who="#abner">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="713" unit="words"/>
+                    <amount n="100" unit="lines"/>
+                    <amount n="3455" unit="chars"/>
+                </sp>
+                <sp who="#josabet">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="75" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Joad, Josabet, Ismaël, Zacharie, etc.</head>
+                <sp who="#joad">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="166" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="805" unit="chars"/>
+                </sp>
+                <sp who="#josabet">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="172" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Joas, Joad, Josabet, Troupes de prêtres et de lévites, etc.</head>
+                <sp who="#joad">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="140" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="680" unit="chars"/>
+                </sp>
+                <sp who="#josabet">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="117" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Athalie, Joas caché derrière le rideau, Joad, Josabet, Abner, Suite d'Athalie.</head>
+                <sp who="#athalie">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="218" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1020" unit="chars"/>
+                </sp>
+                <sp who="#joad">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="168" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="762" unit="chars"/>
+                </sp>
+                <sp who="#abner">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="75" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Ismaël, Joas, Joad, Athalie, etc.</head>
+                <sp who="#ismael">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="217" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="1054" unit="chars"/>
+                </sp>
+                <sp who="#athalie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="223" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="1029" unit="chars"/>
+                </sp>
+                <sp who="#joad">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="57" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="282" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Joas, Joas, Joasbet, Abner, etc.</head>
+                <sp who="#joas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="180" unit="chars"/>
+                </sp>
+                <sp who="#joad">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="76" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="373" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE DERNIÈRE. Un Lévite, Joas, Joad, etc.</head>
+                <sp who="#levites">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="37" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="164" unit="chars"/>
+                </sp>
+                <sp who="#joad">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="187" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>CATILINA</title>
+        <subtitle>TRAGÉDIE</subtitle>
+        <genretitle>Tragédie</genretitle>
+        <author>CRÉBILLON, Prosper J. de</author>
+        <date when="1749">1749</date>
+        <source>https://github.com/dramacode/theatre-classique/CREBILLON_CATILINA.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>catilina</name>
+            <alias xml:id="catilina">
+                <name>catilina</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>lentulus</name>
+            <alias xml:id="lentulus">
+                <name>lentulus</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>probus</name>
+            <alias xml:id="probus">
+                <name>probus</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>tullie</name>
+            <alias xml:id="tullie">
+                <name>tullie</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>fulvie</name>
+            <alias xml:id="fulvie">
+                <name>fulvie</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>ciceron</name>
+            <alias xml:id="ciceron">
+                <name>ciceron</name>
+            </alias>
+        </character>
+        <character>
+            <name>sunnon</name>
+            <alias xml:id="sunnon">
+                <name>sunnon</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>gontran</name>
+            <alias xml:id="gontran">
+                <name>gontran</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>caton</name>
+            <alias xml:id="caton">
+                <name>caton</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>crassus</name>
+            <alias xml:id="crassus">
+                <name>crassus</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>cethegus</name>
+            <alias xml:id="cethegus">
+                <name>cethegus</name>
+            </alias>
+        </character>
+        <character>
+            <name>lucius</name>
+            <alias xml:id="lucius">
+                <name>lucius</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE I. Catilina, Lentulus.</head>
+                <sp who="#catilina">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="1338" unit="words"/>
+                    <amount n="142" unit="lines"/>
+                    <amount n="6317" unit="chars"/>
+                </sp>
+                <sp who="#lentulus">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="592" unit="words"/>
+                    <amount n="67" unit="lines"/>
+                    <amount n="2942" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head> SCENE II. Catilina, Probus.</head>
+                <sp who="#probus">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="675" unit="words"/>
+                    <amount n="77" unit="lines"/>
+                    <amount n="3260" unit="chars"/>
+                </sp>
+                <sp who="#catilina">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="412" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="1996" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head> SCENE III. Tullie, Catilina, Probus.</head>
+                <sp who="#probus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="4" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="24" unit="chars"/>
+                </sp>
+                <sp who="#catilina">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="150" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head> SCENE IV. Catilina, Tullie.</head>
+                <sp who="#catilina">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="178" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="907" unit="chars"/>
+                </sp>
+                <sp who="#tullie">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="443" unit="words"/>
+                    <amount n="50" unit="lines"/>
+                    <amount n="2128" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head> SCENE V. Catilina, Tullie, Fulvie, déguisée en esclave.</head>
+                <sp who="#catilina">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="97" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="471" unit="chars"/>
+                </sp>
+                <sp who="#tullie">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="92" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="425" unit="chars"/>
+                </sp>
+                <sp who="#fulvie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="113" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="530" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head> SCENE VI. Catilina, Tullie, Fulvie, Probus.</head>
+                <sp who="#tullie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="116" unit="chars"/>
+                </sp>
+                <sp who="#catilina">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="114" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="507" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head> SCENE VII.</head>
+                <sp who="#catilina">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="353" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1787" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE I. Fulvie, Probus.</head>
+                <sp who="#fulvie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="485" unit="words"/>
+                    <amount n="52" unit="lines"/>
+                    <amount n="2335" unit="chars"/>
+                </sp>
+                <sp who="#probus">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="537" unit="words"/>
+                    <amount n="60" unit="lines"/>
+                    <amount n="2706" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Catilina, Fulvie, Probus.</head>
+                <sp who="#catilina">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="254" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="1200" unit="chars"/>
+                </sp>
+                <sp who="#fulvie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="393" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="1875" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Catilina, Fulvie, Probus, les licteurs.</head>
+                <sp who="#catilina">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="72" unit="chars"/>
+                </sp>
+                <sp who="#fulvie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="66" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Catilina, Probus, les licteurs.</head>
+                <sp who="#catilina">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="96" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Cicéron, Catilina, les licteurs.</head>
+                <sp who="#ciceron">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="490" unit="words"/>
+                    <amount n="55" unit="lines"/>
+                    <amount n="2481" unit="chars"/>
+                </sp>
+                <sp who="#catilina">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="771" unit="words"/>
+                    <amount n="86" unit="lines"/>
+                    <amount n="3888" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI.</head>
+                <sp who="#ciceron">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="184" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="912" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I. Sunnon, Gontran.</head>
+                <sp who="#sunnon">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="512" unit="words"/>
+                    <amount n="57" unit="lines"/>
+                    <amount n="2509" unit="chars"/>
+                </sp>
+                <sp who="#gontran">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="91" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Catilina, Sunnon.</head>
+                <sp who="#catilina">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="670" unit="words"/>
+                    <amount n="73" unit="lines"/>
+                    <amount n="3245" unit="chars"/>
+                </sp>
+                <sp who="#sunnon">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="404" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="1919" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III.</head>
+                <sp who="#catilina">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="147" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Tullie, Catilina.</head>
+                <sp who="#tullie">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="631" unit="words"/>
+                    <amount n="74" unit="lines"/>
+                    <amount n="3183" unit="chars"/>
+                </sp>
+                <sp who="#catilina">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="447" unit="words"/>
+                    <amount n="53" unit="lines"/>
+                    <amount n="2225" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V.</head>
+                <sp who="#catilina">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="25" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="113" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Catilina, Probus.</head>
+                <sp who="#probus">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="84" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="411" unit="chars"/>
+                </sp>
+                <sp who="#catilina">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="189" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="901" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE I. Cicéron, Crassus, Caton, et le reste des sénateurs.</head>
+                <sp who="#ciceron">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="208" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="1030" unit="chars"/>
+                </sp>
+                <sp who="#caton">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="436" unit="words"/>
+                    <amount n="50" unit="lines"/>
+                    <amount n="2168" unit="chars"/>
+                </sp>
+                <sp who="#crassus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="583" unit="words"/>
+                    <amount n="65" unit="lines"/>
+                    <amount n="3001" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Catilina, et les acteurs précédents.</head>
+                <sp who="#catilina">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="1834" unit="words"/>
+                    <amount n="204" unit="lines"/>
+                    <amount n="8871" unit="chars"/>
+                </sp>
+                <sp who="#caton">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="90" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="412" unit="chars"/>
+                </sp>
+                <sp who="#ciceron">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="296" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1418" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Catilina, Céthégus.</head>
+                <sp who="#cethegus">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="137" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="665" unit="chars"/>
+                </sp>
+                <sp who="#catilina">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="781" unit="words"/>
+                    <amount n="86" unit="lines"/>
+                    <amount n="3842" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE I.</head>
+                <sp who="#ciceron">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="263" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="1293" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head> SCENE II. Caton, Cicéron.</head>
+                <sp who="#ciceron">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="173" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="870" unit="chars"/>
+                </sp>
+                <sp who="#caton">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="536" unit="words"/>
+                    <amount n="63" unit="lines"/>
+                    <amount n="2657" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Cicéron, Caton, Lucius.</head>
+                <sp who="#caton">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="101" unit="chars"/>
+                </sp>
+                <sp who="#lucius">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="137" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="654" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Cicéron, Caton, Tullie.</head>
+                <sp who="#tullie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="94" unit="chars"/>
+                </sp>
+                <sp who="#ciceron">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="200" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V.</head>
+                <sp who="#tullie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="231" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="1142" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Catilina, sans épée, un poignard à la main ; Tullie.</head>
+                <sp who="#tullie">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="618" unit="words"/>
+                    <amount n="73" unit="lines"/>
+                    <amount n="2968" unit="chars"/>
+                </sp>
+                <sp who="#catilina">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="796" unit="words"/>
+                    <amount n="90" unit="lines"/>
+                    <amount n="3870" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Catilina, Tullie, Lentulus, Céthégus, les licteurs.</head>
+                <sp who="#catilina">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="140" unit="chars"/>
+                </sp>
+                <sp who="#cethegus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="41" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Cicéron, Caton, Tullie, Catilina, les licteurs.</head>
+                <sp who="#catilina">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="98" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="470" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

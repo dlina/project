@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>ARLEQUIN-PLUTON</title>
+        <subtitle>COMÉDIE INÉDITE EN TROIS ACTES.</subtitle>
+        <subtitle>PRÉCÉDÉE D'UNE PRÉFACE </subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>GUEULLETTE, Thomas-Simon</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/GUEULLETTE_ARLEQUINPLUTON.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>proserpine</name>
+            <alias xml:id="proserpine">
+                <name>proserpine</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>pluton</name>
+            <alias xml:id="pluton">
+                <name>pluton</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>mercure</name>
+            <alias xml:id="mercure">
+                <name>mercure</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>pasquin</name>
+            <alias xml:id="pasquin">
+                <name>pasquin</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>arlequin</name>
+            <alias xml:id="arlequin">
+                <name>arlequin</name>
+            </alias>
+        </character>
+        <character>
+            <name>silvia</name>
+            <alias xml:id="silvia">
+                <name>silvia</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>cinthio</name>
+            <alias xml:id="cinthio">
+                <name>cinthio</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>pantalon</name>
+            <alias xml:id="pantalon">
+                <name>pantalon</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>violette</name>
+            <alias xml:id="violette">
+                <name>violette</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>rosette</name>
+            <alias xml:id="rosette">
+                <name>rosette</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>scaramouche</name>
+            <alias xml:id="scaramouche">
+                <name>scaramouche</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>un_paysan</name>
+            <alias xml:id="un_paysan">
+                <name>un_paysan</name>
+            </alias>
+        </character>
+        <character>
+            <name>la_fille</name>
+            <alias xml:id="la_fille">
+                <name>la_fille</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_ga_on</name>
+            <alias xml:id="le_ga_on">
+                <name>le_ga_on</name>
+            </alias>
+        </character>
+        <character>
+            <name>caron</name>
+            <alias xml:id="caron">
+                <name>caron</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>mademoiselle_romanville</name>
+            <alias xml:id="mademoiselle_romanville">
+                <name>mademoiselle_romanville</name>
+            </alias>
+        </character>
+        <character>
+            <name>mathanasius</name>
+            <alias xml:id="mathanasius">
+                <name>mathanasius</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>mademoiselle_decoulisses</name>
+            <alias xml:id="mademoiselle_decoulisses">
+                <name>mademoiselle_decoulisses</name>
+            </alias>
+        </character>
+        <character>
+            <name>l__telier</name>
+            <alias xml:id="l__telier">
+                <name>l__telier</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_suisse</name>
+            <alias xml:id="le_suisse">
+                <name>le_suisse</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I </head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Pluton, Proserpine.</head>
+                <sp who="#proserpine">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="340" unit="words"/>
+                    <amount n="54" unit="lines"/>
+                    <amount n="1578" unit="chars"/>
+                </sp>
+                <sp who="#pluton">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="373" unit="words"/>
+                    <amount n="56" unit="lines"/>
+                    <amount n="1697" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. </head>
+                <sp who="#pluton">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="76" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="346" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Pluton, Mercure.</head>
+                <sp who="#pluton">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="158" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="743" unit="chars"/>
+                </sp>
+                <sp who="#mercure">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="316" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="1532" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Arlequin, Pasquin.</head>
+                <sp who="#pasquin">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="189" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="864" unit="chars"/>
+                </sp>
+                <sp who="#arlequin">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="415" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="1969" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. </head>
+                <sp who="#silvia">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="129" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="557" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Silvia, Cinthio.</head>
+                <sp who="#cinthio">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="188" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="865" unit="chars"/>
+                </sp>
+                <sp who="#silvia">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="286" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="1312" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Silvia, Pasquin.</head>
+                <sp who="#silvia">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="92" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="358" unit="chars"/>
+                </sp>
+                <sp who="#pasquin">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="60" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="304" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Pantalon, Violette. </head>
+                <sp who="#pantalon">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="106" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="471" unit="chars"/>
+                </sp>
+                <sp who="#violette">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="129" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Les précédents, Arlequin.</head>
+                <sp who="#arlequin">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="60" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="240" unit="chars"/>
+                </sp>
+                <sp who="#pantalon">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="182" unit="chars"/>
+                </sp>
+                <sp who="#violette">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="166" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Les Précédents, Pluton, Mercure.</head>
+                <sp who="#pluton">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="61" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="270" unit="chars"/>
+                </sp>
+                <sp who="#mercure">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="94" unit="chars"/>
+                </sp>
+                <sp who="#violette">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="85" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="363" unit="chars"/>
+                </sp>
+                <sp who="#arlequin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="65" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Pantalon, Arlequin, Cinthio, Scaramouche.</head>
+                <sp who="#arlequin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="86" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII.</head>
+                <sp who="#pantalon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="177" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIII. Pantalon, Arlequin, Cinthio, Scaramouche.</head>
+                <sp who="#arlequin">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="607" unit="words"/>
+                    <amount n="82" unit="lines"/>
+                    <amount n="2636" unit="chars"/>
+                </sp>
+                <sp who="#pantalon">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="84" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="367" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II </head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Silvia, Rosette.</head>
+                <sp who="#silvia">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="124" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="534" unit="chars"/>
+                </sp>
+                <sp who="#rosette">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="354" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="1557" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Silvia, Rosette, Pantalon, Cinthio, Scaramouche.</head>
+                <sp who="#pantalon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="70" unit="chars"/>
+                </sp>
+                <sp who="#silvia">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="31" unit="chars"/>
+                </sp>
+                <sp who="#scaramouche">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="25" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="112" unit="chars"/>
+                </sp>
+                <sp who="#cinthio">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="134" unit="chars"/>
+                </sp>
+                <sp who="#un_paysan">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="114" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="518" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Un Petit Arlequin, Une Petite Arlequine. </head>
+                <sp who="#la_fille">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="62" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="295" unit="chars"/>
+                </sp>
+                <sp who="#le_ga_on">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="64" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="266" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCENE IV. CINTHIO, SILVIA. </head>
+                <sp who="#cinthio">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="145" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="732" unit="chars"/>
+                </sp>
+                <sp who="#silvia">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="262" unit="words"/>
+                    <amount n="63" unit="lines"/>
+                    <amount n="1206" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Arlequin, Mercure. </head>
+                <sp who="#mercure">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="257" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="1206" unit="chars"/>
+                </sp>
+                <sp who="#arlequin">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="214" unit="words"/>
+                    <amount n="51" unit="lines"/>
+                    <amount n="952" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Arlequin, Caron.</head>
+                <sp who="#arlequin">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="171" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="701" unit="chars"/>
+                </sp>
+                <sp who="#caron">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="57" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="256" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Arlequin, Proserpine, Caron.</head>
+                <sp who="#proserpine">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="167" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="718" unit="chars"/>
+                </sp>
+                <sp who="#caron">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="200" unit="chars"/>
+                </sp>
+                <sp who="#arlequin">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="247" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1087" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Pluton, Violette, Mercure.</head>
+                <sp who="#mercure">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="146" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="673" unit="chars"/>
+                </sp>
+                <sp who="#pluton">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="233" unit="words"/>
+                    <amount n="58" unit="lines"/>
+                    <amount n="1087" unit="chars"/>
+                </sp>
+                <sp who="#violette">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="374" unit="words"/>
+                    <amount n="56" unit="lines"/>
+                    <amount n="1607" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Caron, Medemoiselle Romanville, Mathanasius.</head>
+                <sp who="#caron">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="173" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="783" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_romanville">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="182" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="860" unit="chars"/>
+                </sp>
+                <sp who="#mathanasius">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="416" unit="words"/>
+                    <amount n="53" unit="lines"/>
+                    <amount n="1698" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Arlequin, Caron.</head>
+                <sp who="#arlequin">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="113" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="532" unit="chars"/>
+                </sp>
+                <sp who="#caron">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="50" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="254" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Arlequin, Mademoiselle Descoulisses.</head>
+                <sp who="#arlequin">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="71" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="326" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_decoulisses">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="352" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1588" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Arlequin, un Hôtelier, un Suisse.</head>
+                <sp who="#l__telier">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="163" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="679" unit="chars"/>
+                </sp>
+                <sp who="#le_suisse">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="86" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="395" unit="chars"/>
+                </sp>
+                <sp who="#arlequin">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="188" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="868" unit="chars"/>
+                </sp>
+                <sp who="#caron">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="177" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Pluton, Caron.</head>
+                <sp who="#pluton">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="43" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="181" unit="chars"/>
+                </sp>
+                <sp who="#caron">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="80" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="367" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Pluton, Caron, Arlequin, Proserpine, Mercure.</head>
+                <sp who="#pluton">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="218" unit="words"/>
+                    <amount n="63" unit="lines"/>
+                    <amount n="914" unit="chars"/>
+                </sp>
+                <sp who="#proserpine">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="87" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="361" unit="chars"/>
+                </sp>
+                <sp who="#arlequin">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="320" unit="words"/>
+                    <amount n="67" unit="lines"/>
+                    <amount n="1385" unit="chars"/>
+                </sp>
+                <sp who="#mercure">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="127" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII ET DERNIÈRE. Pantalon, Silvia, Violette, Rosette, Cinthio ; Mercure, et Arlequin qui surviennent.</head>
+                <sp who="#cinthio">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="201" unit="chars"/>
+                </sp>
+                <sp who="#pantalon">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="110" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="515" unit="chars"/>
+                </sp>
+                <sp who="#rosette">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="200" unit="chars"/>
+                </sp>
+                <sp who="#silvia">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="28" unit="chars"/>
+                </sp>
+                <sp who="#arlequin">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="262" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="1125" unit="chars"/>
+                </sp>
+                <sp who="#violette">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="103" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="417" unit="chars"/>
+                </sp>
+                <sp who="#mercure">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="112" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>DIVERTISSEMENT. </head>
+                <sp who="#un_paysan">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="75" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="356" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>VAUDEVILLE. </head>
+                <sp who="#un_paysan">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="56" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="262" unit="chars"/>
+                </sp>
+                <sp who="#silvia">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="124" unit="chars"/>
+                </sp>
+                <sp who="#rosette">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="143" unit="chars"/>
+                </sp>
+                <sp who="#arlequin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="127" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

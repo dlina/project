@@ -1,0 +1,908 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LE DOUBLE VEUVAGE</title>
+        <subtitle>COMÉDIE EN TROIS ACTES.</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>DUFRESNY, Charles</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/DUFRESNY_DOUBLEVEUVAGE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>l_chevalier</name>
+            <alias xml:id="l_chevalier">
+                <name>l_chevalier</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_marquis</name>
+            <alias xml:id="l_marquis">
+                <name>l_marquis</name>
+            </alias>
+        </character>
+        <character>
+            <name>frosine</name>
+            <alias xml:id="frosine">
+                <name>frosine</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>dorante</name>
+            <alias xml:id="dorante">
+                <name>dorante</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>t__se</name>
+            <alias xml:id="t__se">
+                <name>t__se</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>la_comtesse</name>
+            <alias xml:id="la_comtesse">
+                <name>la_comtesse</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>la_suivante</name>
+            <alias xml:id="la_suivante">
+                <name>la_suivante</name>
+            </alias>
+        </character>
+        <character>
+            <name>la_suissesse</name>
+            <alias xml:id="la_suissesse">
+                <name>la_suissesse</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_suisse</name>
+            <alias xml:id="le_suisse">
+                <name>le_suisse</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>gusmand</name>
+            <alias xml:id="gusmand">
+                <name>gusmand</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_suivante_gusmand</name>
+            <alias xml:id="l_suivante_gusmand">
+                <name>l_suivante_gusmand</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_veuve</name>
+            <alias xml:id="l_veuve">
+                <name>l_veuve</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_intendant</name>
+            <alias xml:id="l_intendant">
+                <name>l_intendant</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_suisse__un_laquais</name>
+            <alias xml:id="le_suisse__un_laquais">
+                <name>le_suisse__un_laquais</name>
+            </alias>
+        </character>
+        <character>
+            <name>la_suissesse__le_laquais</name>
+            <alias xml:id="la_suissesse__le_laquais">
+                <name>la_suissesse__le_laquais</name>
+            </alias>
+        </character>
+        <character>
+            <name>un_laquais</name>
+            <alias xml:id="un_laquais">
+                <name>un_laquais</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>PROLOGUE.</head>
+            <div>
+                <head> Le Marquis, Le Chevalier.</head>
+                <sp who="#l_chevalier">
+                    <amount n="33" unit="speech_acts"/>
+                    <amount n="670" unit="words"/>
+                    <amount n="131" unit="lines"/>
+                    <amount n="3151" unit="chars"/>
+                </sp>
+                <sp who="#l_marquis">
+                    <amount n="33" unit="speech_acts"/>
+                    <amount n="480" unit="words"/>
+                    <amount n="100" unit="lines"/>
+                    <amount n="2446" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE I. Dorante, Frosine.</head>
+                <sp who="#frosine">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="596" unit="words"/>
+                    <amount n="71" unit="lines"/>
+                    <amount n="2915" unit="chars"/>
+                </sp>
+                <sp who="#dorante">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="288" unit="words"/>
+                    <amount n="64" unit="lines"/>
+                    <amount n="1299" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Dorante, Frosine, Thérèse.</head>
+                <sp who="#t__se">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="202" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="821" unit="chars"/>
+                </sp>
+                <sp who="#dorante">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="73" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="367" unit="chars"/>
+                </sp>
+                <sp who="#frosine">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="67" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="326" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Dorante, Thérèse.</head>
+                <sp who="#t__se">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="163" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="781" unit="chars"/>
+                </sp>
+                <sp who="#dorante">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="107" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="526" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Thérèse, Dorante, La Comtesse, La Suivante.</head>
+                <sp who="#la_comtesse">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="288" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="1407" unit="chars"/>
+                </sp>
+                <sp who="#t__se">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="70" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="356" unit="chars"/>
+                </sp>
+                <sp who="#dorante">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="50" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="250" unit="chars"/>
+                </sp>
+                <sp who="#la_suivante">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="50" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="238" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. La Comtesse, La Suivante.</head>
+                <sp who="#la_comtesse">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="205" unit="chars"/>
+                </sp>
+                <sp who="#la_suivante">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="141" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. La Comtesse, La Suivante, La Suissesse.</head>
+                <sp who="#la_suissesse">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="189" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="870" unit="chars"/>
+                </sp>
+                <sp who="#la_comtesse">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="176" unit="chars"/>
+                </sp>
+                <sp who="#la_suivante">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="178" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. La Comtesse, Le Suisse, et La Suivante.</head>
+                <sp who="#le_suisse">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="282" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="1333" unit="chars"/>
+                </sp>
+                <sp who="#la_comtesse">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="188" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="898" unit="chars"/>
+                </sp>
+                <sp who="#la_suivante">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="71" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="321" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. La Comtesse, La Suivante, Gusmand.</head>
+                <sp who="#gusmand">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="459" unit="words"/>
+                    <amount n="56" unit="lines"/>
+                    <amount n="1658" unit="chars"/>
+                </sp>
+                <sp who="#la_comtesse">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="63" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Gusmand, La Veuve.</head>
+                <sp who="#gusmand">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="127" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="629" unit="chars"/>
+                </sp>
+                <sp who="#la_suivante">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="160" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="766" unit="chars"/>
+                </sp>
+                <sp who="#l_suivante_gusmand">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="88" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. La Suivante, Frosine, Gusmand.</head>
+                <sp who="#frosine">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="227" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="1159" unit="chars"/>
+                </sp>
+                <sp who="#gusmand">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="145" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="814" unit="chars"/>
+                </sp>
+                <sp who="#dorante">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="187" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. La Comtesse, la Veuve, Frosine.</head>
+                <sp who="#la_comtesse">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="313" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1517" unit="chars"/>
+                </sp>
+                <sp who="#l_veuve">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="244" unit="words"/>
+                    <amount n="53" unit="lines"/>
+                    <amount n="1096" unit="chars"/>
+                </sp>
+                <sp who="#frosine">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="93" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="460" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X.I. La Veuve, Frosine.</head>
+                <sp who="#l_veuve">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="144" unit="words"/>
+                    <amount n="51" unit="lines"/>
+                    <amount n="659" unit="chars"/>
+                </sp>
+                <sp who="#frosine">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="256" unit="words"/>
+                    <amount n="55" unit="lines"/>
+                    <amount n="1253" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE I. Thérèse, Dorante.</head>
+                <sp who="#t__se">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="71" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="356" unit="chars"/>
+                </sp>
+                <sp who="#dorante">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="108" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="522" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Thérèse, Dorante, Frosine.</head>
+                <sp who="#t__se">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="94" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="466" unit="chars"/>
+                </sp>
+                <sp who="#frosine">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="112" unit="chars"/>
+                </sp>
+                <sp who="#dorante">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="88" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="397" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Frosine, Dorante, Thérèse, Gusmand.</head>
+                <sp who="#gusmand">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="190" unit="chars"/>
+                </sp>
+                <sp who="#frosine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="207" unit="chars"/>
+                </sp>
+                <sp who="#dorante">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="4" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="17" unit="chars"/>
+                </sp>
+                <sp who="#t__se">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="3" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="22" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. L'Intendant, Frosine, Dorante, Thérèse, Gusmand.</head>
+                <sp who="#l_intendant">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="76" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="348" unit="chars"/>
+                </sp>
+                <sp who="#dorante">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="4" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="12" unit="chars"/>
+                </sp>
+                <sp who="#t__se">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="29" unit="chars"/>
+                </sp>
+                <sp who="#frosine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="26" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. L'Intendant Gusmand.</head>
+                <sp who="#l_intendant">
+                    <amount n="32" unit="speech_acts"/>
+                    <amount n="362" unit="words"/>
+                    <amount n="117" unit="lines"/>
+                    <amount n="1473" unit="chars"/>
+                </sp>
+                <sp who="#gusmand">
+                    <amount n="32" unit="speech_acts"/>
+                    <amount n="626" unit="words"/>
+                    <amount n="115" unit="lines"/>
+                    <amount n="2902" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI.</head>
+                <sp who="#gusmand">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="73" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="326" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Gusmand, Le Suisse, La Suissesse, Deux Laquais.</head>
+                <sp who="#la_suissesse">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="174" unit="chars"/>
+                </sp>
+                <sp who="#le_suisse">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="56" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="223" unit="chars"/>
+                </sp>
+                <sp who="#le_suisse__un_laquais">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="4" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="16" unit="chars"/>
+                </sp>
+                <sp who="#la_suissesse__le_laquais">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="2" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="6" unit="chars"/>
+                </sp>
+                <sp who="#gusmand">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="84" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="392" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Le Suisse, La Suissesse, Deux Laquais.</head>
+                <sp who="#le_suisse">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="153" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="667" unit="chars"/>
+                </sp>
+                <sp who="#la_suissesse">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="83" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Le Suisse, La Suissesse, Deux Laquais, L'Intendant.</head>
+                <sp who="#l_intendant">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="195" unit="chars"/>
+                </sp>
+                <sp who="#le_suisse">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="83" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="361" unit="chars"/>
+                </sp>
+                <sp who="#la_suissesse__le_laquais">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="3" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="11" unit="chars"/>
+                </sp>
+                <sp who="#un_laquais">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="32" unit="chars"/>
+                </sp>
+                <sp who="#la_suissesse">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="132" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="589" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. L'Intendant, Gusmand, Thérèse.</head>
+                <sp who="#gusmand">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="92" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="401" unit="chars"/>
+                </sp>
+                <sp who="#t__se">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="136" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="651" unit="chars"/>
+                </sp>
+                <sp who="#l_intendant">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="89" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="409" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Thérèse, Gusmand.</head>
+                <sp who="#t__se">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="130" unit="chars"/>
+                </sp>
+                <sp who="#gusmand">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="68" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="345" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII. Gusmand, Thérèse, La Comtesse, Frosine, L'Intendant.</head>
+                <sp who="#la_comtesse">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="142" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="713" unit="chars"/>
+                </sp>
+                <sp who="#l_intendant">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="66" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIII. Frosine, Dorante.</head>
+                <sp who="#dorante">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="68" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="347" unit="chars"/>
+                </sp>
+                <sp who="#frosine">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="74" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="350" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIV. Frosine, La Veuve, Dorante, un peu éloigné.</head>
+                <sp who="#l_veuve">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="456" unit="words"/>
+                    <amount n="60" unit="lines"/>
+                    <amount n="2087" unit="chars"/>
+                </sp>
+                <sp who="#frosine">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="91" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="423" unit="chars"/>
+                </sp>
+                <sp who="#dorante">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="81" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="383" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XV. Frosine, Dorante, Gusmand.</head>
+                <sp who="#frosine">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="175" unit="chars"/>
+                </sp>
+                <sp who="#gusmand">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="51" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="233" unit="chars"/>
+                </sp>
+                <sp who="#dorante">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="84" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVI. Gusmand, Frosine.</head>
+                <sp who="#gusmand">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="81" unit="chars"/>
+                </sp>
+                <sp who="#frosine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="102" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVII.</head>
+                <sp who="#gusmand">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="76" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="359" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVIII. Gusmand, L'Intendant.</head>
+                <sp who="#l_intendant">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="76" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="369" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIX. Gusmand caché, L'Intendant, La Veuve.</head>
+                <sp who="#l_veuve">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="198" unit="words"/>
+                    <amount n="62" unit="lines"/>
+                    <amount n="784" unit="chars"/>
+                </sp>
+                <sp who="#l_intendant">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="230" unit="words"/>
+                    <amount n="66" unit="lines"/>
+                    <amount n="1089" unit="chars"/>
+                </sp>
+                <sp who="#gusmand">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="27" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="124" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I. Frosine, Thérèse.</head>
+                <sp who="#frosine">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="114" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="549" unit="chars"/>
+                </sp>
+                <sp who="#t__se">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="38" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Gusmand, L'Intendant.</head>
+                <sp who="#gusmand">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="273" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1414" unit="chars"/>
+                </sp>
+                <sp who="#l_intendant">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="120" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="572" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Gusmand, Frosine.</head>
+                <sp who="#frosine">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="68" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="323" unit="chars"/>
+                </sp>
+                <sp who="#gusmand">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="72" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="342" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Frosine, La Veuve.</head>
+                <sp who="#l_veuve">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="92" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="435" unit="chars"/>
+                </sp>
+                <sp who="#frosine">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="119" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="586" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Frosine, La Veuve, Gusmand, L'Intendant.</head>
+                <sp who="#frosine">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="145" unit="chars"/>
+                </sp>
+                <sp who="#l_veuve">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="187" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="792" unit="chars"/>
+                </sp>
+                <sp who="#l_intendant">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="125" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="647" unit="chars"/>
+                </sp>
+                <sp who="#gusmand">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="116" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Gusmand, L'Intendant, La Suivante, La Veuve, Frosine.</head>
+                <sp who="#la_suivante">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="129" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="656" unit="chars"/>
+                </sp>
+                <sp who="#l_intendant">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="99" unit="chars"/>
+                </sp>
+                <sp who="#l_veuve">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="37" unit="chars"/>
+                </sp>
+                <sp who="#frosine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="35" unit="chars"/>
+                </sp>
+                <sp who="#gusmand">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="43" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI.. L'Intendant, La Suivante, La Comtesse, Dorante, La Suissesse,  La Veuve, Thérèse, Frosine.</head>
+                <sp who="#la_comtesse">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="250" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1196" unit="chars"/>
+                </sp>
+                <sp who="#la_suissesse">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="106" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="462" unit="chars"/>
+                </sp>
+                <sp who="#la_suivante">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="74" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="369" unit="chars"/>
+                </sp>
+                <sp who="#l_intendant">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="57" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="226" unit="chars"/>
+                </sp>
+                <sp who="#l_veuve">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="49" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="188" unit="chars"/>
+                </sp>
+                <sp who="#frosine">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="25" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="127" unit="chars"/>
+                </sp>
+                <sp who="#gusmand">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="834" unit="words"/>
+                    <amount n="82" unit="lines"/>
+                    <amount n="3702" unit="chars"/>
+                </sp>
+                <sp who="#dorante">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="37" unit="chars"/>
+                </sp>
+                <sp who="#t__se">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="56" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

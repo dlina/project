@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LE POT AU NOIR ET  LE POT AUX ROSES</title>
+        <subtitle>OU DAPHNIS ET HORTENSE</subtitle>
+        <subtitle>PASTORALE EN UN ACTE</subtitle>
+        <genretitle>Pastorale</genretitle>
+        <author>SAINT-PRIEST, Commandant</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/SAINTPRIEST_POTAUNOIRPOTAUXROSES.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>daphnis</name>
+            <alias xml:id="daphnis">
+                <name>daphnis</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>bobielle</name>
+            <alias xml:id="bobielle">
+                <name>bobielle</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>alain</name>
+            <alias xml:id="alain">
+                <name>alain</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>hortense</name>
+            <alias xml:id="hortense">
+                <name>hortense</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>les_autres_sauf_alain</name>
+            <alias xml:id="les_autres_sauf_alain">
+                <name>les_autres_sauf_alain</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>PASTORALE EN UN ACTE.</head>
+            <div>
+                <head>SCÈNE PREMIÈRE.</head>
+                <sp who="#daphnis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="104" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="494" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Daphnis, Bobielle.</head>
+                <sp who="#bobielle">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="230" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="896" unit="chars"/>
+                </sp>
+                <sp who="#daphnis">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="122" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="495" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Bobielle, Daphnis, Alain.</head>
+                <sp who="#alain">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="409" unit="words"/>
+                    <amount n="54" unit="lines"/>
+                    <amount n="1833" unit="chars"/>
+                </sp>
+                <sp who="#bobielle">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="46" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="197" unit="chars"/>
+                </sp>
+                <sp who="#daphnis">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="98" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Bobielle, Daphnis, ensuite Hortense.</head>
+                <sp who="#daphnis">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="194" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="826" unit="chars"/>
+                </sp>
+                <sp who="#bobielle">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="111" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="480" unit="chars"/>
+                </sp>
+                <sp who="#hortense">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="119" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="520" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V.</head>
+                <sp who="#hortense">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="355" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="1546" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Hortense, Alain, portant une cage dans laquelle est un oiseau.</head>
+                <sp who="#alain">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="182" unit="words"/>
+                    <amount n="47" unit="lines"/>
+                    <amount n="688" unit="chars"/>
+                </sp>
+                <sp who="#hortense">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="246" unit="words"/>
+                    <amount n="53" unit="lines"/>
+                    <amount n="1100" unit="chars"/>
+                </sp>
+                <sp who="#daphnis">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="204" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Bobielle, Alain.</head>
+                <sp who="#alain">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="145" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="540" unit="chars"/>
+                </sp>
+                <sp who="#bobielle">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="313" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="1290" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII.</head>
+                <sp who="#hortense">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="221" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="934" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Hortense, Daphnis, Bobielle.</head>
+                <sp who="#hortense">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="289" unit="words"/>
+                    <amount n="62" unit="lines"/>
+                    <amount n="1273" unit="chars"/>
+                </sp>
+                <sp who="#daphnis">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="155" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="680" unit="chars"/>
+                </sp>
+                <sp who="#bobielle">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="341" unit="words"/>
+                    <amount n="67" unit="lines"/>
+                    <amount n="1531" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Les Acteurs précédens, Alain.</head>
+                <sp who="#alain">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="314" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="1284" unit="chars"/>
+                </sp>
+                <sp who="#hortense">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="148" unit="chars"/>
+                </sp>
+                <sp who="#bobielle">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="104" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="454" unit="chars"/>
+                </sp>
+                <sp who="#les_autres_sauf_alain">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="117" unit="chars"/>
+                </sp>
+                <sp who="#daphnis">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="145" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="628" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

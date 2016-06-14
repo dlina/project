@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>L'ESPRIT DE CONTRADICTION</title>
+        <subtitle>COMÉDIE</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>DU FRESNY, Charles Rivière</author>
+        <date when="1700">1700</date>
+        <source>https://github.com/dramacode/theatre-classique/DUFRESNY_ESPRITDECONTRADICTION.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>lucas</name>
+            <alias xml:id="lucas">
+                <name>lucas</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>oronte</name>
+            <alias xml:id="oronte">
+                <name>oronte</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>madam_oronte</name>
+            <alias xml:id="madam_oronte">
+                <name>madam_oronte</name>
+            </alias>
+        </character>
+        <character>
+            <name>an_lique</name>
+            <alias xml:id="an_lique">
+                <name>an_lique</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>va_re</name>
+            <alias xml:id="va_re">
+                <name>va_re</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>thibaudois</name>
+            <alias xml:id="thibaudois">
+                <name>thibaudois</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_laquais</name>
+            <alias xml:id="l_laquais">
+                <name>l_laquais</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_notaire</name>
+            <alias xml:id="l_notaire">
+                <name>l_notaire</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head/>
+            <div>
+                <head>SCÈNE PREMIÈRE. Oronte, Lucas.</head>
+                <sp who="#lucas">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="588" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="2613" unit="chars"/>
+                </sp>
+                <sp who="#oronte">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="166" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="748" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II.</head>
+                <sp who="#lucas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="129" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Lucas, Madame Oronte.</head>
+                <sp who="#madam_oronte">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="340" unit="words"/>
+                    <amount n="61" unit="lines"/>
+                    <amount n="1491" unit="chars"/>
+                </sp>
+                <sp who="#lucas">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="452" unit="words"/>
+                    <amount n="72" unit="lines"/>
+                    <amount n="1830" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Madame Oronte, Angélique.</head>
+                <sp who="#an_lique">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="240" unit="words"/>
+                    <amount n="51" unit="lines"/>
+                    <amount n="1146" unit="chars"/>
+                </sp>
+                <sp who="#madam_oronte">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="470" unit="words"/>
+                    <amount n="62" unit="lines"/>
+                    <amount n="2244" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V.</head>
+                <sp who="#an_lique">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="218" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Angélique, Valère.</head>
+                <sp who="#va_re">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="431" unit="words"/>
+                    <amount n="56" unit="lines"/>
+                    <amount n="1971" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="384" unit="words"/>
+                    <amount n="50" unit="lines"/>
+                    <amount n="1869" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Angélique, Oronte.</head>
+                <sp who="#oronte">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="188" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="882" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="143" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Angélique, Oronte, Monsieur Thibaudois.</head>
+                <sp who="#thibaudois">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="190" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="744" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="64" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="281" unit="chars"/>
+                </sp>
+                <sp who="#oronte">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="172" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Oronte, Thibaudois.</head>
+                <sp who="#oronte">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="103" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="489" unit="chars"/>
+                </sp>
+                <sp who="#thibaudois">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="93" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="394" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Oronte, Thibaudois, Lucas.</head>
+                <sp who="#oronte">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="54" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="230" unit="chars"/>
+                </sp>
+                <sp who="#lucas">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="364" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="1542" unit="chars"/>
+                </sp>
+                <sp who="#thibaudois">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="138" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Lucas, Madame Oronte.</head>
+                <sp who="#madam_oronte">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="215" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="958" unit="chars"/>
+                </sp>
+                <sp who="#lucas">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="107" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII. Lucas, Madame Oronte, [Oronte].</head>
+                <sp who="#madam_oronte">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="127" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="602" unit="chars"/>
+                </sp>
+                <sp who="#oronte">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="50" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="186" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIII. Lucas, Oronte.</head>
+                <sp who="#oronte">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="65" unit="chars"/>
+                </sp>
+                <sp who="#lucas">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="43" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="201" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIV. Oronte, Angélique</head>
+                <sp who="#oronte">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="85" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="113" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XV.</head>
+                <sp who="#an_lique">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="27" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="134" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVI. Madame Oronte, Le Laquais.</head>
+                <sp who="#madam_oronte">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="148" unit="chars"/>
+                </sp>
+                <sp who="#l_laquais">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="27" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="121" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVII.</head>
+                <sp who="#madam_oronte">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="118" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="518" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVIII. Madame Oronte, Lucas, [Oronte].</head>
+                <sp who="#lucas">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="84" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="362" unit="chars"/>
+                </sp>
+                <sp who="#oronte">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="118" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="546" unit="chars"/>
+                </sp>
+                <sp who="#madam_oronte">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="153" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="699" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIX. Oronte, Lucas.</head>
+                <sp who="#oronte">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="58" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="265" unit="chars"/>
+                </sp>
+                <sp who="#lucas">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="69" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XX.</head>
+                <sp who="#lucas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="60" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXI. Lucas, Thibaudois.</head>
+                <sp who="#thibaudois">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="133" unit="chars"/>
+                </sp>
+                <sp who="#lucas">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="126" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXII.</head>
+                <sp who="#thibaudois">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="134" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXIII. Monsieur Thibaudois, Angélique, Valère qui suit Angélique, pour examiner ses demarches.</head>
+                <sp who="#thibaudois">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="181" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="783" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="141" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="689" unit="chars"/>
+                </sp>
+                <sp who="#va_re">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="103" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="435" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXIV. Angélique, Valère.</head>
+                <sp who="#va_re">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="244" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXV. Angélique, Valère, Madame Oronte, à part.</head>
+                <sp who="#madam_oronte">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="28" unit="chars"/>
+                </sp>
+                <sp who="#va_re">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="168" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="58" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="253" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXVI. Valère, Madame Oronte, Angélique.</head>
+                <sp who="#va_re">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="80" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="368" unit="chars"/>
+                </sp>
+                <sp who="#madam_oronte">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="229" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="1060" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="48" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="242" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXVII. Angélique, Valère.</head>
+                <sp who="#va_re">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="61" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="280" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="203" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="1010" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXVIII. Angélique, Valère, Lucas.</head>
+                <sp who="#an_lique">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="91" unit="chars"/>
+                </sp>
+                <sp who="#lucas">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="153" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="697" unit="chars"/>
+                </sp>
+                <sp who="#va_re">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="96" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIX. Angélique, Valère, Lucas, Thibaudois.</head>
+                <sp who="#lucas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="198" unit="chars"/>
+                </sp>
+                <sp who="#madam_oronte">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="165" unit="chars"/>
+                </sp>
+                <sp who="#thibaudois">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="119" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXX. Angélique, Valère, Lucas, Madame Oronte, Oronte, La Notaire.</head>
+                <sp who="#oronte">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="108" unit="chars"/>
+                </sp>
+                <sp who="#madam_oronte">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="73" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="319" unit="chars"/>
+                </sp>
+                <sp who="#l_notaire">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="63" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="68" unit="chars"/>
+                </sp>
+                <sp who="#va_re">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="118" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXXI. Valère, Angélique, Lucas, Oronte, Madame Oronte.</head>
+                <sp who="#madam_oronte">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="58" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="234" unit="chars"/>
+                </sp>
+                <sp who="#lucas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="60" unit="chars"/>
+                </sp>
+                <sp who="#oronte">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="114" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="34" unit="chars"/>
+                </sp>
+                <sp who="#va_re">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="70" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

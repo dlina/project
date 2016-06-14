@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LE CHAPEAU DE FORTUNATUS</title>
+        <subtitle>FARCE EN UN ACTE.</subtitle>
+        <genretitle>Farce</genretitle>
+        <author>GUEULLETTE, Thomas-Simon</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/GUEULLETTE_CHAPEAUDEFORTUNATUS.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>le_m_tre</name>
+            <alias xml:id="le_m_tre">
+                <name>le_m_tre</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>gilles</name>
+            <alias xml:id="gilles">
+                <name>gilles</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>divertissant</name>
+            <alias xml:id="divertissant">
+                <name>divertissant</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>san_quartier</name>
+            <alias xml:id="san_quartier">
+                <name>san_quartier</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>divertissant__san_quartier</name>
+            <alias xml:id="divertissant__san_quartier">
+                <name>divertissant__san_quartier</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head/>
+            <div>
+                <head>SCÈNE I.</head>
+                <sp who="#le_m_tre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="469" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="2290" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Le Maître, Gilles arrive hardiment et renverse son maître.</head>
+                <sp who="#gilles">
+                    <amount n="23" unit="speech_acts"/>
+                    <amount n="620" unit="words"/>
+                    <amount n="101" unit="lines"/>
+                    <amount n="2606" unit="chars"/>
+                </sp>
+                <sp who="#le_m_tre">
+                    <amount n="22" unit="speech_acts"/>
+                    <amount n="556" unit="words"/>
+                    <amount n="90" unit="lines"/>
+                    <amount n="2511" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Divertissant, Sans-Quartier.</head>
+                <sp who="#divertissant">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="343" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1614" unit="chars"/>
+                </sp>
+                <sp who="#san_quartier">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="126" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="581" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Gilles, Divertissant et Ssans quartier arrivent peu de temps après.</head>
+                <sp who="#gilles">
+                    <amount n="52" unit="speech_acts"/>
+                    <amount n="1095" unit="words"/>
+                    <amount n="221" unit="lines"/>
+                    <amount n="4802" unit="chars"/>
+                </sp>
+                <sp who="#divertissant">
+                    <amount n="40" unit="speech_acts"/>
+                    <amount n="747" unit="words"/>
+                    <amount n="145" unit="lines"/>
+                    <amount n="3488" unit="chars"/>
+                </sp>
+                <sp who="#san_quartier">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="287" unit="words"/>
+                    <amount n="62" unit="lines"/>
+                    <amount n="1355" unit="chars"/>
+                </sp>
+                <sp who="#divertissant__san_quartier">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="47" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V.</head>
+                <sp who="#gilles">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="73" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="306" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI, et dernière. Le Maître, Gilles.</head>
+                <sp who="#le_m_tre">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="98" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="422" unit="chars"/>
+                </sp>
+                <sp who="#gilles">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="179" unit="words"/>
+                    <amount n="50" unit="lines"/>
+                    <amount n="735" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

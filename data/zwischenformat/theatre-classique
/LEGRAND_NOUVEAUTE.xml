@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LA NOUVEAUTÉ</title>
+        <subtitle>COMÉDIE</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>LEGRAND, Marc-Antoine</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/LEGRAND_NOUVEAUTE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>le_temps</name>
+            <alias xml:id="le_temps">
+                <name>le_temps</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>momus</name>
+            <alias xml:id="momus">
+                <name>momus</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_conseiller</name>
+            <alias xml:id="le_conseiller">
+                <name>le_conseiller</name>
+            </alias>
+        </character>
+        <character>
+            <name>la_comtesse</name>
+            <alias xml:id="la_comtesse">
+                <name>la_comtesse</name>
+            </alias>
+        </character>
+        <character>
+            <name>la_marquise</name>
+            <alias xml:id="la_marquise">
+                <name>la_marquise</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_bourgeois</name>
+            <alias xml:id="le_bourgeois">
+                <name>le_bourgeois</name>
+            </alias>
+        </character>
+        <character>
+            <name>mercure</name>
+            <alias xml:id="mercure">
+                <name>mercure</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>un_garcon_marchand</name>
+            <alias xml:id="un_garcon_marchand">
+                <name>un_garcon_marchand</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>un_clerc</name>
+            <alias xml:id="un_clerc">
+                <name>un_clerc</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>un_provincial</name>
+            <alias xml:id="un_provincial">
+                <name>un_provincial</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>une_bourgeoise</name>
+            <alias xml:id="une_bourgeoise">
+                <name>une_bourgeoise</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>un_ab_</name>
+            <alias xml:id="un_ab_">
+                <name>un_ab_</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>la_nouveau_</name>
+            <alias xml:id="la_nouveau_">
+                <name>la_nouveau_</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>troupe_de_curieux</name>
+            <alias xml:id="troupe_de_curieux">
+                <name>troupe_de_curieux</name>
+            </alias>
+        </character>
+        <character>
+            <name>lisandre</name>
+            <alias xml:id="lisandre">
+                <name>lisandre</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>éliante</name>
+            <alias xml:id="éliante">
+                <name>éliante</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_nouvelliste</name>
+            <alias xml:id="le_nouvelliste">
+                <name>le_nouvelliste</name>
+            </alias>
+        </character>
+        <character>
+            <name>claudine</name>
+            <alias xml:id="claudine">
+                <name>claudine</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_baron</name>
+            <alias xml:id="le_baron">
+                <name>le_baron</name>
+            </alias>
+        </character>
+        <character>
+            <name>la_baronne</name>
+            <alias xml:id="la_baronne">
+                <name>la_baronne</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_page</name>
+            <alias xml:id="le_page">
+                <name>le_page</name>
+            </alias>
+        </character>
+        <character>
+            <name>la_cascade</name>
+            <alias xml:id="la_cascade">
+                <name>la_cascade</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>la_rimaille</name>
+            <alias xml:id="la_rimaille">
+                <name>la_rimaille</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>deux_suivants</name>
+            <alias xml:id="deux_suivants">
+                <name>deux_suivants</name>
+            </alias>
+        </character>
+        <character>
+            <name>un_suivant</name>
+            <alias xml:id="un_suivant">
+                <name>un_suivant</name>
+            </alias>
+        </character>
+        <character>
+            <name>ensemble</name>
+            <alias xml:id="ensemble">
+                <name>ensemble</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>LA NOUVEAUTÉ</head>
+            <div>
+                <head>SCÈNE PREMIÈRE.</head>
+                <sp who="#le_temps">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="189" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Le Temps, Momus.</head>
+                <sp who="#momus">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="246" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="1165" unit="chars"/>
+                </sp>
+                <sp who="#le_temps">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="490" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="2333" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Momus, Le Conseiller, La Comtesse, La Marquise, Le Marquise, Le Bourgeois  et plusieurs gens endormis.</head>
+                <sp who="#momus">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="85" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="479" unit="chars"/>
+                </sp>
+                <sp who="#le_conseiller">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="55" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="282" unit="chars"/>
+                </sp>
+                <sp who="#la_comtesse">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="103" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="494" unit="chars"/>
+                </sp>
+                <sp who="#la_marquise">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="54" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="267" unit="chars"/>
+                </sp>
+                <sp who="#le_bourgeois">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="172" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Momus, Mercure, et les autres personnages.</head>
+                <sp who="#mercure">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="184" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="891" unit="chars"/>
+                </sp>
+                <sp who="#momus">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="127" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="595" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Mercure, etc.</head>
+                <sp who="#un_garcon_marchand">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="49" unit="chars"/>
+                </sp>
+                <sp who="#mercure">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="298" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="1348" unit="chars"/>
+                </sp>
+                <sp who="#un_clerc">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="34" unit="chars"/>
+                </sp>
+                <sp who="#un_provincial">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="69" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="316" unit="chars"/>
+                </sp>
+                <sp who="#une_bourgeoise">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="113" unit="chars"/>
+                </sp>
+                <sp who="#un_ab_">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="43" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="217" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI.</head>
+                <sp who="#la_nouveau_">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="86" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="369" unit="chars"/>
+                </sp>
+                <sp who="#troupe_de_curieux">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="25" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. La Nouveauté, Lisandre.</head>
+                <sp who="#lisandre">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="247" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1144" unit="chars"/>
+                </sp>
+                <sp who="#la_nouveau_">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="167" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="818" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. La Nouveauté, Éliante.</head>
+                <sp who="#éliante">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="209" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="972" unit="chars"/>
+                </sp>
+                <sp who="#la_nouveau_">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="96" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="418" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. La Nouveauté, Lisandre, Éliante.</head>
+                <sp who="#lisandre">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="90" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="407" unit="chars"/>
+                </sp>
+                <sp who="#éliante">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="58" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="298" unit="chars"/>
+                </sp>
+                <sp who="#la_nouveau_">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="128" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="588" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈN X. La Nouveauté, Un Nouvelliste.</head>
+                <sp who="#le_nouvelliste">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="486" unit="words"/>
+                    <amount n="50" unit="lines"/>
+                    <amount n="2326" unit="chars"/>
+                </sp>
+                <sp who="#la_nouveau_">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="219" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1057" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. La Nouveauté, Claudine.</head>
+                <sp who="#claudine">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="467" unit="words"/>
+                    <amount n="52" unit="lines"/>
+                    <amount n="2093" unit="chars"/>
+                </sp>
+                <sp who="#la_nouveau_">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="207" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="966" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII. La Nouveauté, un vieux Baron, un vieille Baronne avec un page, vêtus à l'ancienne mode.</head>
+                <sp who="#le_baron">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="271" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="1193" unit="chars"/>
+                </sp>
+                <sp who="#la_nouveau_">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="169" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="809" unit="chars"/>
+                </sp>
+                <sp who="#la_baronne">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="341" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="1527" unit="chars"/>
+                </sp>
+                <sp who="#le_page">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="59" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="289" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIII. La Nouveauté, La Cascade.</head>
+                <sp who="#la_cascade">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="450" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="2144" unit="chars"/>
+                </sp>
+                <sp who="#la_nouveau_">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="148" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="661" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIV. La Nouveauté, La Cascade, La Rimaille.</head>
+                <sp who="#la_rimaille">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="667" unit="words"/>
+                    <amount n="64" unit="lines"/>
+                    <amount n="3040" unit="chars"/>
+                </sp>
+                <sp who="#la_nouveau_">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="216" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="1028" unit="chars"/>
+                </sp>
+                <sp who="#la_cascade">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="201" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="910" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>DIVERTISSEMENT.</head>
+                <sp who="#deux_suivants">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="143" unit="chars"/>
+                </sp>
+                <sp who="#un_suivant">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="37" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="192" unit="chars"/>
+                </sp>
+                <sp who="#ensemble">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="395" unit="words"/>
+                    <amount n="73" unit="lines"/>
+                    <amount n="1946" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

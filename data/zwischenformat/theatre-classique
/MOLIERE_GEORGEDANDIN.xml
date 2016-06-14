@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>GEORGE DANDIN</title>
+        <subtitle>ou LE MARI CONFONDU</subtitle>
+        <subtitle>COMÉDIE</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>Molière</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/MOLIERE_GEORGEDANDIN.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>george_dandin</name>
+            <alias xml:id="george_dandin">
+                <name>george_dandin</name>
+            </alias>
+        </character>
+        <character>
+            <name>lubin</name>
+            <alias xml:id="lubin">
+                <name>lubin</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>monsieur_de_sotenville</name>
+            <alias xml:id="monsieur_de_sotenville">
+                <name>monsieur_de_sotenville</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>madame_de_sotenville</name>
+            <alias xml:id="madame_de_sotenville">
+                <name>madame_de_sotenville</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>clitandre</name>
+            <alias xml:id="clitandre">
+                <name>clitandre</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>an_lique</name>
+            <alias xml:id="an_lique">
+                <name>an_lique</name>
+            </alias>
+        </character>
+        <character>
+            <name>claudine</name>
+            <alias xml:id="claudine">
+                <name>claudine</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>colin</name>
+            <alias xml:id="colin">
+                <name>colin</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE I.</head>
+                <sp who="#george_dandin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="216" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="1084" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. George Dandin, Lubin.</head>
+                <sp who="#george_dandin">
+                    <amount n="26" unit="speech_acts"/>
+                    <amount n="209" unit="words"/>
+                    <amount n="82" unit="lines"/>
+                    <amount n="989" unit="chars"/>
+                </sp>
+                <sp who="#lubin">
+                    <amount n="26" unit="speech_acts"/>
+                    <amount n="620" unit="words"/>
+                    <amount n="100" unit="lines"/>
+                    <amount n="2733" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III.</head>
+                <sp who="#george_dandin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="214" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="1038" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Monsieur et Madame de Sotenville, George Dandin.</head>
+                <sp who="#monsieur_de_sotenville">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="471" unit="words"/>
+                    <amount n="58" unit="lines"/>
+                    <amount n="2260" unit="chars"/>
+                </sp>
+                <sp who="#george_dandin">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="418" unit="words"/>
+                    <amount n="57" unit="lines"/>
+                    <amount n="1905" unit="chars"/>
+                </sp>
+                <sp who="#madame_de_sotenville">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="471" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="2249" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Monsieur de Sotenville, Clitandre, George Dandin.</head>
+                <sp who="#monsieur_de_sotenville">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="237" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="1167" unit="chars"/>
+                </sp>
+                <sp who="#clitandre">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="214" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="977" unit="chars"/>
+                </sp>
+                <sp who="#george_dandin">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="67" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Monsieur et Madame de Sotenville, Angélique, Clitandre, George Dandin, Claudine.</head>
+                <sp who="#madame_de_sotenville">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="71" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="343" unit="chars"/>
+                </sp>
+                <sp who="#clitandre">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="231" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="1032" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="288" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="1285" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_de_sotenville">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="330" unit="words"/>
+                    <amount n="69" unit="lines"/>
+                    <amount n="1513" unit="chars"/>
+                </sp>
+                <sp who="#george_dandin">
+                    <amount n="20" unit="speech_acts"/>
+                    <amount n="307" unit="words"/>
+                    <amount n="68" unit="lines"/>
+                    <amount n="1390" unit="chars"/>
+                </sp>
+                <sp who="#claudine">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="118" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="510" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII.</head>
+                <sp who="#george_dandin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="69" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="311" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE I. Claudine, Lubin.</head>
+                <sp who="#claudine">
+                    <amount n="27" unit="speech_acts"/>
+                    <amount n="429" unit="words"/>
+                    <amount n="92" unit="lines"/>
+                    <amount n="1953" unit="chars"/>
+                </sp>
+                <sp who="#lubin">
+                    <amount n="26" unit="speech_acts"/>
+                    <amount n="549" unit="words"/>
+                    <amount n="94" unit="lines"/>
+                    <amount n="2387" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. George Dandin, Angélique, Clitandre.</head>
+                <sp who="#george_dandin">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="564" unit="words"/>
+                    <amount n="58" unit="lines"/>
+                    <amount n="2522" unit="chars"/>
+                </sp>
+                <sp who="#clitandre">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="65" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="424" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="1939" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Claudine, Angélique.</head>
+                <sp who="#claudine">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="74" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="325" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="55" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="272" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Clitandre, Lubin, Claudine.</head>
+                <sp who="#claudine">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="158" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="689" unit="chars"/>
+                </sp>
+                <sp who="#clitandre">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="79" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="371" unit="chars"/>
+                </sp>
+                <sp who="#lubin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="152" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. George Dandin, Lubin.</head>
+                <sp who="#george_dandin">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="94" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="393" unit="chars"/>
+                </sp>
+                <sp who="#lubin">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="276" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="1193" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI.</head>
+                <sp who="#george_dandin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="221" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="1013" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Monsieur et Madame de Sotenville, George Dandin.</head>
+                <sp who="#george_dandin">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="220" unit="words"/>
+                    <amount n="45" unit="lines"/>
+                    <amount n="990" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_de_sotenville">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="115" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="603" unit="chars"/>
+                </sp>
+                <sp who="#madame_de_sotenville">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="56" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="289" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Angélique, Clitandre, Claudine, Monsieur et Madame de Sotenville, George Dandin.</head>
+                <sp who="#an_lique">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="355" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1662" unit="chars"/>
+                </sp>
+                <sp who="#clitandre">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="109" unit="chars"/>
+                </sp>
+                <sp who="#george_dandin">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="126" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="603" unit="chars"/>
+                </sp>
+                <sp who="#claudine">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="90" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="401" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_de_sotenville">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="163" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="795" unit="chars"/>
+                </sp>
+                <sp who="#madame_de_sotenville">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="94" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="451" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I. Clitandre, Lubin.</head>
+                <sp who="#clitandre">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="129" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="572" unit="chars"/>
+                </sp>
+                <sp who="#lubin">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="154" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="684" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Angélique, Claudine, Clitandre, Lubin.</head>
+                <sp who="#an_lique">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="41" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="182" unit="chars"/>
+                </sp>
+                <sp who="#claudine">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="130" unit="chars"/>
+                </sp>
+                <sp who="#clitandre">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="140" unit="chars"/>
+                </sp>
+                <sp who="#lubin">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="135" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. George Dandin, Lubin.</head>
+                <sp who="#george_dandin">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="81" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="367" unit="chars"/>
+                </sp>
+                <sp who="#lubin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="190" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="843" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Colin, George Dandin.</head>
+                <sp who="#colin">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="174" unit="chars"/>
+                </sp>
+                <sp who="#george_dandin">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="343" unit="words"/>
+                    <amount n="64" unit="lines"/>
+                    <amount n="1482" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Clitandre, Angélique, George Dandin, Claudine, Lubin.</head>
+                <sp who="#an_lique">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="129" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="635" unit="chars"/>
+                </sp>
+                <sp who="#clitandre">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="238" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="1122" unit="chars"/>
+                </sp>
+                <sp who="#george_dandin">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="170" unit="chars"/>
+                </sp>
+                <sp who="#claudine">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="37" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="139" unit="chars"/>
+                </sp>
+                <sp who="#lubin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="48" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Angélique, Claudine, George Dandin.</head>
+                <sp who="#an_lique">
+                    <amount n="26" unit="speech_acts"/>
+                    <amount n="900" unit="words"/>
+                    <amount n="102" unit="lines"/>
+                    <amount n="4218" unit="chars"/>
+                </sp>
+                <sp who="#claudine">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="210" unit="chars"/>
+                </sp>
+                <sp who="#george_dandin">
+                    <amount n="23" unit="speech_acts"/>
+                    <amount n="744" unit="words"/>
+                    <amount n="107" unit="lines"/>
+                    <amount n="3474" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Monsieur et Madame de Sotenville, Colin, Claudine, Angélique, George Dandin.</head>
+                <sp who="#an_lique">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="326" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1501" unit="chars"/>
+                </sp>
+                <sp who="#george_dandin">
+                    <amount n="20" unit="speech_acts"/>
+                    <amount n="190" unit="words"/>
+                    <amount n="67" unit="lines"/>
+                    <amount n="793" unit="chars"/>
+                </sp>
+                <sp who="#claudine">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="104" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="479" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_de_sotenville">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="253" unit="words"/>
+                    <amount n="66" unit="lines"/>
+                    <amount n="1151" unit="chars"/>
+                </sp>
+                <sp who="#madame_de_sotenville">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="84" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="401" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII.</head>
+                <sp who="#george_dandin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="207" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

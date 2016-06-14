@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>AGAMEMNON Traduction nouvelle de Leconte de Lisle</title>
+        <subtitle>TRAGÉDIE</subtitle>
+        <genretitle>Tragédie</genretitle>
+        <author>ESCHYLE</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/ESCHYLE_AGAMEMNON.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>le_veilleur</name>
+            <alias xml:id="le_veilleur">
+                <name>le_veilleur</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_choeur_des_vieillards</name>
+            <alias xml:id="le_choeur_des_vieillards">
+                <name>le_choeur_des_vieillards</name>
+            </alias>
+        </character>
+        <character>
+            <name>clytemnestre</name>
+            <alias xml:id="clytemnestre">
+                <name>clytemnestre</name>
+            </alias>
+        </character>
+        <character>
+            <name>talthybios</name>
+            <alias xml:id="talthybios">
+                <name>talthybios</name>
+            </alias>
+        </character>
+        <character>
+            <name>agamemnon</name>
+            <alias xml:id="agamemnon">
+                <name>agamemnon</name>
+            </alias>
+        </character>
+        <character>
+            <name>cassandre</name>
+            <alias xml:id="cassandre">
+                <name>cassandre</name>
+            </alias>
+        </character>
+        <character>
+            <name>premier_dem_choeur</name>
+            <alias xml:id="premier_dem_choeur">
+                <name>premier_dem_choeur</name>
+            </alias>
+        </character>
+        <character>
+            <name>second_dem_choeur</name>
+            <alias xml:id="second_dem_choeur">
+                <name>second_dem_choeur</name>
+            </alias>
+        </character>
+        <character>
+            <name>egisthe</name>
+            <alias xml:id="egisthe">
+                <name>egisthe</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head/>
+            <div>
+                <head>Le Veilleur, Le Choeur des Vieillards.</head>
+                <sp who="#le_veilleur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="400" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="1878" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur_des_vieillards">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="1653" unit="words"/>
+                    <amount n="87" unit="lines"/>
+                    <amount n="8315" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>Le Choeur des Vieillards, Clytemenstre.</head>
+                <sp who="#le_choeur_des_vieillards">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="1139" unit="words"/>
+                    <amount n="95" unit="lines"/>
+                    <amount n="5604" unit="chars"/>
+                </sp>
+                <sp who="#clytemnestre">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="897" unit="words"/>
+                    <amount n="67" unit="lines"/>
+                    <amount n="4364" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>Talthybios, Clytemnestre, Le Choeur des Vieillards.</head>
+                <sp who="#talthybios">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="1376" unit="words"/>
+                    <amount n="94" unit="lines"/>
+                    <amount n="6589" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur_des_vieillards">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="1038" unit="words"/>
+                    <amount n="95" unit="lines"/>
+                    <amount n="5182" unit="chars"/>
+                </sp>
+                <sp who="#clytemnestre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="291" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="1401" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>Agamemnon, Clytemnestre.</head>
+                <sp who="#agamemnon">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="846" unit="words"/>
+                    <amount n="61" unit="lines"/>
+                    <amount n="3991" unit="chars"/>
+                </sp>
+                <sp who="#clytemnestre">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="684" unit="words"/>
+                    <amount n="47" unit="lines"/>
+                    <amount n="3295" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>Clytemnestre, Le Choeur des Vieillards.</head>
+                <sp who="#clytemnestre">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="457" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="2215" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur_des_vieillards">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="431" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="2086" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>Cassandre, Le Choeur des Vieillards.</head>
+                <sp who="#cassandre">
+                    <amount n="37" unit="speech_acts"/>
+                    <amount n="1794" unit="words"/>
+                    <amount n="253" unit="lines"/>
+                    <amount n="8317" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur_des_vieillards">
+                    <amount n="37" unit="speech_acts"/>
+                    <amount n="897" unit="words"/>
+                    <amount n="141" unit="lines"/>
+                    <amount n="4389" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>Agamemnon, Le Choeur des Vieillards.</head>
+                <sp who="#agamemnon">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="25" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="114" unit="chars"/>
+                </sp>
+                <sp who="#premier_dem_choeur">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="140" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="614" unit="chars"/>
+                </sp>
+                <sp who="#second_dem_choeur">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="141" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="675" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>Clytemnestre, Le Choeur des Vieillards.</head>
+                <sp who="#clytemnestre">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="1064" unit="words"/>
+                    <amount n="80" unit="lines"/>
+                    <amount n="4879" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur_des_vieillards">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="696" unit="words"/>
+                    <amount n="88" unit="lines"/>
+                    <amount n="3130" unit="chars"/>
+                </sp>
+                <sp who="#premier_dem_choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="69" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="310" unit="chars"/>
+                </sp>
+                <sp who="#second_dem_choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="100" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>Egisthe, Clytemenestre, , Le Choeur des Vieillards.</head>
+                <sp who="#egisthe">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="687" unit="words"/>
+                    <amount n="59" unit="lines"/>
+                    <amount n="3238" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur_des_vieillards">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="270" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="1234" unit="chars"/>
+                </sp>
+                <sp who="#clytemnestre">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="124" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="613" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

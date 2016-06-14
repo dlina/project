@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>BRITANNICUS</title>
+        <subtitle>TRAGÉDIE</subtitle>
+        <genretitle>Tragédie</genretitle>
+        <author>RACINE, Jean</author>
+        <date when="1670">1670</date>
+        <source>https://github.com/dramacode/theatre-classique/RACINE_BRITANNICUS.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>albine</name>
+            <alias xml:id="albine">
+                <name>albine</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>agrippine</name>
+            <alias xml:id="agrippine">
+                <name>agrippine</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>burrhus</name>
+            <alias xml:id="burrhus">
+                <name>burrhus</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>britannicus</name>
+            <alias xml:id="britannicus">
+                <name>britannicus</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>narcisse</name>
+            <alias xml:id="narcisse">
+                <name>narcisse</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>_ron</name>
+            <alias xml:id="_ron">
+                <name>_ron</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>junie</name>
+            <alias xml:id="junie">
+                <name>junie</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Agrippine, Albine.</head>
+                <sp who="#albine">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="334" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="1690" unit="chars"/>
+                </sp>
+                <sp who="#agrippine">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="967" unit="words"/>
+                    <amount n="103" unit="lines"/>
+                    <amount n="4612" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Agrippine, Burrhus, Albine.</head>
+                <sp who="#burrhus">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="868" unit="words"/>
+                    <amount n="101" unit="lines"/>
+                    <amount n="4371" unit="chars"/>
+                </sp>
+                <sp who="#agrippine">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="573" unit="words"/>
+                    <amount n="71" unit="lines"/>
+                    <amount n="2994" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Agrippine, Britannicus, Narcisse, Albine.</head>
+                <sp who="#agrippine">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="77" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="407" unit="chars"/>
+                </sp>
+                <sp who="#britannicus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="90" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="455" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Britannicus, Narcisse.</head>
+                <sp who="#britannicus">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="426" unit="words"/>
+                    <amount n="47" unit="lines"/>
+                    <amount n="2032" unit="chars"/>
+                </sp>
+                <sp who="#narcisse">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="102" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="495" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Néron, Burrhus, Narcisse, Gardes.</head>
+                <sp who="#_ron">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="148" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="681" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Néron, Narcisse.</head>
+                <sp who="#narcisse">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="564" unit="words"/>
+                    <amount n="77" unit="lines"/>
+                    <amount n="2794" unit="chars"/>
+                </sp>
+                <sp who="#_ron">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="880" unit="words"/>
+                    <amount n="111" unit="lines"/>
+                    <amount n="4386" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Néron, Junie.</head>
+                <sp who="#_ron">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="889" unit="words"/>
+                    <amount n="106" unit="lines"/>
+                    <amount n="4308" unit="chars"/>
+                </sp>
+                <sp who="#junie">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="647" unit="words"/>
+                    <amount n="84" unit="lines"/>
+                    <amount n="3216" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Néron, Junie, Narcisse.</head>
+                <sp who="#narcisse">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="58" unit="chars"/>
+                </sp>
+                <sp who="#_ron">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="121" unit="chars"/>
+                </sp>
+                <sp who="#junie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="3" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="14" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Junie, Narcisse.</head>
+                <sp who="#junie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="25" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="102" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Junie, Britannicus, Narcisse.</head>
+                <sp who="#britannicus">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="416" unit="words"/>
+                    <amount n="47" unit="lines"/>
+                    <amount n="2078" unit="chars"/>
+                </sp>
+                <sp who="#junie">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="99" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="490" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Néron, Junie, Narcisse.</head>
+                <sp who="#_ron">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="4" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="10" unit="chars"/>
+                </sp>
+                <sp who="#junie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="129" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Néron, Narcisse.</head>
+                <sp who="#_ron">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="105" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="463" unit="chars"/>
+                </sp>
+                <sp who="#narcisse">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="183" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I. Néron, Burrhus.</head>
+                <sp who="#burrhus">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="236" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="1177" unit="chars"/>
+                </sp>
+                <sp who="#_ron">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="132" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="646" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II.</head>
+                <sp who="#burrhus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="84" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="415" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Agrippine, Burrhus, Albine.</head>
+                <sp who="#agrippine">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="324" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1578" unit="chars"/>
+                </sp>
+                <sp who="#burrhus">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="252" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="1296" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Agrippine, Albine.</head>
+                <sp who="#albine">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="277" unit="chars"/>
+                </sp>
+                <sp who="#agrippine">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="171" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="781" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Britannicus, Agrippine, Narcisse, Albine.</head>
+                <sp who="#britannicus">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="169" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="855" unit="chars"/>
+                </sp>
+                <sp who="#agrippine">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="134" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="626" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Britannicus, Narcisse.</head>
+                <sp who="#britannicus">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="174" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="834" unit="chars"/>
+                </sp>
+                <sp who="#narcisse">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="112" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="577" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Britannicus, Junie.</head>
+                <sp who="#junie">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="375" unit="words"/>
+                    <amount n="48" unit="lines"/>
+                    <amount n="1894" unit="chars"/>
+                </sp>
+                <sp who="#britannicus">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="273" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="1311" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Néron, Britannicus, Junie.</head>
+                <sp who="#_ron">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="264" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="1247" unit="chars"/>
+                </sp>
+                <sp who="#britannicus">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="227" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="1066" unit="chars"/>
+                </sp>
+                <sp who="#junie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="98" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="488" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Néron, Burrhus.</head>
+                <sp who="#burrhus">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="65" unit="chars"/>
+                </sp>
+                <sp who="#_ron">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="129" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="605" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Agrippine, Burrhus.</head>
+                <sp who="#burrhus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="154" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="743" unit="chars"/>
+                </sp>
+                <sp who="#agrippine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="26" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Agrippine, Néron.</head>
+                <sp who="#agrippine">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="1333" unit="words"/>
+                    <amount n="147" unit="lines"/>
+                    <amount n="6617" unit="chars"/>
+                </sp>
+                <sp who="#_ron">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="414" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="2102" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Néron, Burrhus.</head>
+                <sp who="#burrhus">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="640" unit="words"/>
+                    <amount n="77" unit="lines"/>
+                    <amount n="3174" unit="chars"/>
+                </sp>
+                <sp who="#_ron">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="188" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="892" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Néron, Narcisse.</head>
+                <sp who="#narcisse">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="628" unit="words"/>
+                    <amount n="77" unit="lines"/>
+                    <amount n="3160" unit="chars"/>
+                </sp>
+                <sp who="#_ron">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="233" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="1093" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Britannicus, Junie.</head>
+                <sp who="#britannicus">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="552" unit="words"/>
+                    <amount n="67" unit="lines"/>
+                    <amount n="2655" unit="chars"/>
+                </sp>
+                <sp who="#junie">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="276" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1299" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Aggripine, Britannicus, Junie.</head>
+                <sp who="#agrippine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="54" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="268" unit="chars"/>
+                </sp>
+                <sp who="#britannicus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="193" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Agrippine, Junie.</head>
+                <sp who="#agrippine">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="287" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="1434" unit="chars"/>
+                </sp>
+                <sp who="#junie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="63" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="310" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Agrippine, Junie, Burrhus.</head>
+                <sp who="#agrippine">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="64" unit="chars"/>
+                </sp>
+                <sp who="#burrhus">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="74" unit="chars"/>
+                </sp>
+                <sp who="#junie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="99" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Agrippine, Burrhus</head>
+                <sp who="#agrippine">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="131" unit="chars"/>
+                </sp>
+                <sp who="#burrhus">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="271" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1326" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Agrippine, Néron, Burrhus, Narcisse.</head>
+                <sp who="#_ron">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="89" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="397" unit="chars"/>
+                </sp>
+                <sp who="#agrippine">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="272" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="1259" unit="chars"/>
+                </sp>
+                <sp who="#narcisse">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="120" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="592" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Agrippine, Burrhus.</head>
+                <sp who="#agrippine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="68" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="335" unit="chars"/>
+                </sp>
+                <sp who="#burrhus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="146" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="696" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE DERNIÈRE. Agrippine, Burrhus, Albine.</head>
+                <sp who="#albine">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="436" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="2113" unit="chars"/>
+                </sp>
+                <sp who="#agrippine">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="213" unit="chars"/>
+                </sp>
+                <sp who="#burrhus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="53" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>L'AVOCAT CONSULTANT.</title>
+        <subtitle>COMÉDIE.</subtitle>
+        <subtitle>CINQUANTE-TROISIÈME PROVERBE.</subtitle>
+        <genretitle>Proverbe</genretitle>
+        <author>CARMONTELLE, Louis Carrogis, dit Louis de Carmontelle</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/CARMONTELLE_AVOCATCONSULTANT.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>monsieu_d_cachant</name>
+            <alias xml:id="monsieu_d_cachant">
+                <name>monsieu_d_cachant</name>
+            </alias>
+        </character>
+        <character>
+            <name>monsieur_de_sain_hilaire</name>
+            <alias xml:id="monsieur_de_sain_hilaire">
+                <name>monsieur_de_sain_hilaire</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>ben_t</name>
+            <alias xml:id="ben_t">
+                <name>ben_t</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>monsieur_galand</name>
+            <alias xml:id="monsieur_galand">
+                <name>monsieur_galand</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head/>
+            <div>
+                <head>SCÈNE PREMIÈRE. Monsieur de Cachant, Monsieur de Saint-Hilaire.</head>
+                <sp who="#monsieu_d_cachant">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="88" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="408" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_de_sain_hilaire">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="74" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="344" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Monsieur de Saint Hilaire, Monsieur de Cachant, Benoît.</head>
+                <sp who="#ben_t">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="190" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_de_sain_hilaire">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="53" unit="chars"/>
+                </sp>
+                <sp who="#monsieu_d_cachant">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="50" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Monsieur de Saint Hilaire, Monsieur Galand.</head>
+                <sp who="#monsieur_galand">
+                    <amount n="22" unit="speech_acts"/>
+                    <amount n="223" unit="words"/>
+                    <amount n="69" unit="lines"/>
+                    <amount n="1048" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_de_sain_hilaire">
+                    <amount n="21" unit="speech_acts"/>
+                    <amount n="419" unit="words"/>
+                    <amount n="71" unit="lines"/>
+                    <amount n="1958" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>DIVERTISSEMENT DE SCEAUX</title>
+        <subtitle>COMÉDIE-BALLET</subtitle>
+        <genretitle>Comédie-ballet</genretitle>
+        <author>DANCOURT, Florent CARTON dit</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/DANCOURT_DIVERTISSEMENTDESCEAUX.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>mademoiselle_salle</name>
+            <alias xml:id="mademoiselle_salle">
+                <name>mademoiselle_salle</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>monsieur_salle</name>
+            <alias xml:id="monsieur_salle">
+                <name>monsieur_salle</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_druide</name>
+            <alias xml:id="le_druide">
+                <name>le_druide</name>
+            </alias>
+        </character>
+        <character>
+            <name>monsieur_poisson</name>
+            <alias xml:id="monsieur_poisson">
+                <name>monsieur_poisson</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head/>
+            <div>
+                <head/>
+                <sp who="#mademoiselle_salle">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="803" unit="words"/>
+                    <amount n="129" unit="lines"/>
+                    <amount n="3495" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_salle">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="119" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="522" unit="chars"/>
+                </sp>
+                <sp who="#le_druide">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="534" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="2456" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_poisson">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="374" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="1920" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

@@ -1,0 +1,961 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LES MÉNECHMES, ou LES JUMEAUX</title>
+        <subtitle>COMÉDIE EN CINQ ACTES</subtitle>
+        <subtitle>PRÉCÉDÉE D'UN PROLOGUE</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>REGNARD, Jean-François</author>
+        <date when="1692">1692</date>
+        <source>https://github.com/dramacode/theatre-classique/REGNARD_MENECHMES.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>mercure</name>
+            <alias xml:id="mercure">
+                <name>mercure</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>apollon</name>
+            <alias xml:id="apollon">
+                <name>apollon</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>plaute</name>
+            <alias xml:id="plaute">
+                <name>plaute</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_chevalier</name>
+            <alias xml:id="l_chevalier">
+                <name>l_chevalier</name>
+            </alias>
+        </character>
+        <character>
+            <name>valentin</name>
+            <alias xml:id="valentin">
+                <name>valentin</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>araminte</name>
+            <alias xml:id="araminte">
+                <name>araminte</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>finette</name>
+            <alias xml:id="finette">
+                <name>finette</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>_mophon</name>
+            <alias xml:id="_mophon">
+                <name>_mophon</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>_neschme</name>
+            <alias xml:id="_neschme">
+                <name>_neschme</name>
+            </alias>
+        </character>
+        <character>
+            <name>isabelle</name>
+            <alias xml:id="isabelle">
+                <name>isabelle</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>monsieu_coquelet</name>
+            <alias xml:id="monsieu_coquelet">
+                <name>monsieu_coquelet</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_marquis</name>
+            <alias xml:id="l_marquis">
+                <name>l_marquis</name>
+            </alias>
+        </character>
+        <character>
+            <name>robertin</name>
+            <alias xml:id="robertin">
+                <name>robertin</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>PROLOGUE DES MÉNECHMES.</head>
+            <div>
+                <head>SCÈNE I. Apollon, Mercure.</head>
+                <sp who="#mercure">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="683" unit="words"/>
+                    <amount n="81" unit="lines"/>
+                    <amount n="3025" unit="chars"/>
+                </sp>
+                <sp who="#apollon">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="432" unit="words"/>
+                    <amount n="62" unit="lines"/>
+                    <amount n="1998" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Plaute, Apollon, Mercure.</head>
+                <sp who="#apollon">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="162" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="692" unit="chars"/>
+                </sp>
+                <sp who="#plaute">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="559" unit="words"/>
+                    <amount n="65" unit="lines"/>
+                    <amount n="2510" unit="chars"/>
+                </sp>
+                <sp who="#mercure">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="222" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="997" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III.</head>
+                <sp who="#mercure">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="190" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="895" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE I. </head>
+                <sp who="#l_chevalier">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="50" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="225" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Valentin, Le Chevalier.</head>
+                <sp who="#l_chevalier">
+                    <amount n="30" unit="speech_acts"/>
+                    <amount n="1147" unit="words"/>
+                    <amount n="134" unit="lines"/>
+                    <amount n="5029" unit="chars"/>
+                </sp>
+                <sp who="#valentin">
+                    <amount n="29" unit="speech_acts"/>
+                    <amount n="1327" unit="words"/>
+                    <amount n="151" unit="lines"/>
+                    <amount n="5840" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Araminte, Finette, Le Chevalier, à part.</head>
+                <sp who="#araminte">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="353" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="1676" unit="chars"/>
+                </sp>
+                <sp who="#finette">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="189" unit="chars"/>
+                </sp>
+                <sp who="#l_chevalier">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="514" unit="words"/>
+                    <amount n="59" unit="lines"/>
+                    <amount n="2240" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Araminte, Finette.</head>
+                <sp who="#araminte">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="27" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="118" unit="chars"/>
+                </sp>
+                <sp who="#finette">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="95" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Démophon, Araminte, Finette.</head>
+                <sp who="#finette">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="46" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="210" unit="chars"/>
+                </sp>
+                <sp who="#_mophon">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="235" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="1026" unit="chars"/>
+                </sp>
+                <sp who="#araminte">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="207" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="905" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Finette, Démophon.</head>
+                <sp who="#_mophon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="4" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="21" unit="chars"/>
+                </sp>
+                <sp who="#finette">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="84" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="389" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII.</head>
+                <sp who="#_mophon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="302" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE I. Le Chevalier, Valentin.</head>
+                <sp who="#valentin">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="764" unit="words"/>
+                    <amount n="80" unit="lines"/>
+                    <amount n="3366" unit="chars"/>
+                </sp>
+                <sp who="#l_chevalier">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="281" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1280" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Ménechme, en deuil, Valentin.</head>
+                <sp who="#valentin">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="225" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="1009" unit="chars"/>
+                </sp>
+                <sp who="#_neschme">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="434" unit="words"/>
+                    <amount n="51" unit="lines"/>
+                    <amount n="1947" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Finette, Ménechme, Valentin.</head>
+                <sp who="#valentin">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="89" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="423" unit="chars"/>
+                </sp>
+                <sp who="#finette">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="474" unit="words"/>
+                    <amount n="71" unit="lines"/>
+                    <amount n="2112" unit="chars"/>
+                </sp>
+                <sp who="#_neschme">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="386" unit="words"/>
+                    <amount n="54" unit="lines"/>
+                    <amount n="1726" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Ménechme, Valentin.</head>
+                <sp who="#_neschme">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="106" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="489" unit="chars"/>
+                </sp>
+                <sp who="#valentin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="57" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="255" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Araminte, Finette, Ménechme, Valentin.</head>
+                <sp who="#araminte">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="293" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="1330" unit="chars"/>
+                </sp>
+                <sp who="#finette">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="161" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="732" unit="chars"/>
+                </sp>
+                <sp who="#_neschme">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="346" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="1430" unit="chars"/>
+                </sp>
+                <sp who="#valentin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="194" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Finette, Ménechme, Valentin. </head>
+                <sp who="#finette">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="223" unit="chars"/>
+                </sp>
+                <sp who="#_neschme">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="85" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Ménechme, Valentin.</head>
+                <sp who="#_neschme">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="62" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="303" unit="chars"/>
+                </sp>
+                <sp who="#valentin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="84" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="376" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. </head>
+                <sp who="#valentin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="174" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I. Le Chevalier, vêtu en deuil, Valentin.</head>
+                <sp who="#valentin">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="276" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="1233" unit="chars"/>
+                </sp>
+                <sp who="#l_chevalier">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="84" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="396" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Démophon, Le Chevalier, Valentin. </head>
+                <sp who="#valentin">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="136" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="594" unit="chars"/>
+                </sp>
+                <sp who="#_mophon">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="269" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="1195" unit="chars"/>
+                </sp>
+                <sp who="#l_chevalier">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="117" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="514" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Le Chevalier, Valentin.</head>
+                <sp who="#l_chevalier">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="37" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="174" unit="chars"/>
+                </sp>
+                <sp who="#valentin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="223" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Démophon, Isabelle&#160;; Le Chevalier, à l?écart.</head>
+                <sp who="#_mophon">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="215" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="975" unit="chars"/>
+                </sp>
+                <sp who="#isabelle">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="204" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="941" unit="chars"/>
+                </sp>
+                <sp who="#l_chevalier">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="101" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="489" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Araminte, Le Chevalier, Démophon, Isabelle.</head>
+                <sp who="#araminte">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="152" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="696" unit="chars"/>
+                </sp>
+                <sp who="#l_chevalier">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="133" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="609" unit="chars"/>
+                </sp>
+                <sp who="#_mophon">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="135" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="546" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Araminte, Démophon, Isabelle.</head>
+                <sp who="#araminte">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="50" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="211" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Démophon, Isabelle.</head>
+                <sp who="#_mophon">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="51" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="237" unit="chars"/>
+                </sp>
+                <sp who="#isabelle">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="50" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Ménechme, Valentin, Démophon, Isabelle.</head>
+                <sp who="#valentin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="122" unit="chars"/>
+                </sp>
+                <sp who="#_mophon">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="238" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="1037" unit="chars"/>
+                </sp>
+                <sp who="#_neschme">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="520" unit="words"/>
+                    <amount n="61" unit="lines"/>
+                    <amount n="2287" unit="chars"/>
+                </sp>
+                <sp who="#isabelle">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="72" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="357" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Démophon, Ménechme, Valentin.</head>
+                <sp who="#_mophon">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="78" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="357" unit="chars"/>
+                </sp>
+                <sp who="#_neschme">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="78" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="314" unit="chars"/>
+                </sp>
+                <sp who="#valentin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="26" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Ménechme, Valentin.</head>
+                <sp who="#_neschme">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="25" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="107" unit="chars"/>
+                </sp>
+                <sp who="#valentin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="126" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. M. Coquelet, Ménechme, Démophon, Valentin.</head>
+                <sp who="#valentin">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="308" unit="words"/>
+                    <amount n="47" unit="lines"/>
+                    <amount n="1372" unit="chars"/>
+                </sp>
+                <sp who="#monsieu_coquelet">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="398" unit="words"/>
+                    <amount n="61" unit="lines"/>
+                    <amount n="1720" unit="chars"/>
+                </sp>
+                <sp who="#_neschme">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="141" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="637" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII. Ménechme, Valentin.</head>
+                <sp who="#valentin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="53" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="256" unit="chars"/>
+                </sp>
+                <sp who="#_neschme">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="97" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="434" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIII. </head>
+                <sp who="#valentin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="43" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="191" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE I. </head>
+                <sp who="#valentin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="109" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="500" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Finette, Valentin.</head>
+                <sp who="#valentin">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="570" unit="words"/>
+                    <amount n="63" unit="lines"/>
+                    <amount n="2504" unit="chars"/>
+                </sp>
+                <sp who="#finette">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="137" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="645" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Ménechme, Valentin, Finette.</head>
+                <sp who="#valentin">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="171" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="768" unit="chars"/>
+                </sp>
+                <sp who="#_neschme">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="314" unit="words"/>
+                    <amount n="50" unit="lines"/>
+                    <amount n="1398" unit="chars"/>
+                </sp>
+                <sp who="#finette">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="304" unit="words"/>
+                    <amount n="48" unit="lines"/>
+                    <amount n="1351" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Ménechme, Valentin.</head>
+                <sp who="#_neschme">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="91" unit="chars"/>
+                </sp>
+                <sp who="#valentin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="203" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Le Marquis, Ménechme, Valentin.</head>
+                <sp who="#valentin">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="103" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="436" unit="chars"/>
+                </sp>
+                <sp who="#l_marquis">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="515" unit="words"/>
+                    <amount n="69" unit="lines"/>
+                    <amount n="2289" unit="chars"/>
+                </sp>
+                <sp who="#_neschme">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="302" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="1316" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Ménechme, Valentin.</head>
+                <sp who="#_neschme">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="157" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="720" unit="chars"/>
+                </sp>
+                <sp who="#valentin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="50" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII.</head>
+                <sp who="#valentin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="48" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="202" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Le Chevalier, Valentin.</head>
+                <sp who="#l_chevalier">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="157" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="662" unit="chars"/>
+                </sp>
+                <sp who="#valentin">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="316" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1449" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Isabelle, Le Chevalier, Valentin.</head>
+                <sp who="#l_chevalier">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="143" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="595" unit="chars"/>
+                </sp>
+                <sp who="#isabelle">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="205" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="887" unit="chars"/>
+                </sp>
+                <sp who="#valentin">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="410" unit="words"/>
+                    <amount n="45" unit="lines"/>
+                    <amount n="1836" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE I. Araminte, Finette.</head>
+                <sp who="#finette">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="480" unit="words"/>
+                    <amount n="48" unit="lines"/>
+                    <amount n="2185" unit="chars"/>
+                </sp>
+                <sp who="#araminte">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="56" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="232" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Démophon, Isabelle, Araminte, Finette.</head>
+                <sp who="#_mophon">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="90" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="443" unit="chars"/>
+                </sp>
+                <sp who="#araminte">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="158" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="717" unit="chars"/>
+                </sp>
+                <sp who="#isabelle">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="56" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="247" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Ménechme, Démophon, Isabelle, Araminte, Finette.</head>
+                <sp who="#_mophon">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="170" unit="chars"/>
+                </sp>
+                <sp who="#_neschme">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="350" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="1561" unit="chars"/>
+                </sp>
+                <sp who="#araminte">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="105" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="477" unit="chars"/>
+                </sp>
+                <sp who="#finette">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="186" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Robertin, Ménechme, Démophon, Isabelle, Araminte, Finette.</head>
+                <sp who="#_mophon">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="62" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="286" unit="chars"/>
+                </sp>
+                <sp who="#robertin">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="380" unit="words"/>
+                    <amount n="55" unit="lines"/>
+                    <amount n="1628" unit="chars"/>
+                </sp>
+                <sp who="#_neschme">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="265" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="1181" unit="chars"/>
+                </sp>
+                <sp who="#isabelle">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="108" unit="chars"/>
+                </sp>
+                <sp who="#araminte">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="178" unit="chars"/>
+                </sp>
+                <sp who="#finette">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="93" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Ménechme, Valentin, Démophon, Araminte, Isabelle, Robertin, Finette.</head>
+                <sp who="#valentin">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="112" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="483" unit="chars"/>
+                </sp>
+                <sp who="#_neschme">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="102" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="435" unit="chars"/>
+                </sp>
+                <sp who="#robertin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="155" unit="chars"/>
+                </sp>
+                <sp who="#_mophon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="25" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="100" unit="chars"/>
+                </sp>
+                <sp who="#araminte">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="105" unit="chars"/>
+                </sp>
+                <sp who="#finette">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="94" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Le Chevalier, Ménechme, Démophon, Araminte, Isabelle, Robertin, Valentin, Finette. </head>
+                <sp who="#l_chevalier">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="379" unit="words"/>
+                    <amount n="50" unit="lines"/>
+                    <amount n="1670" unit="chars"/>
+                </sp>
+                <sp who="#_mophon">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="85" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="355" unit="chars"/>
+                </sp>
+                <sp who="#robertin">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="81" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="371" unit="chars"/>
+                </sp>
+                <sp who="#araminte">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="114" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="475" unit="chars"/>
+                </sp>
+                <sp who="#finette">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="94" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="397" unit="chars"/>
+                </sp>
+                <sp who="#_neschme">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="286" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="1277" unit="chars"/>
+                </sp>
+                <sp who="#isabelle">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="146" unit="chars"/>
+                </sp>
+                <sp who="#valentin">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="105" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="488" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

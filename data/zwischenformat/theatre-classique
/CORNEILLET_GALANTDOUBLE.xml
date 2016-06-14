@@ -1,0 +1,838 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LE GALANT DOUBLÉ</title>
+        <subtitle>COMÉDIE</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>CORNEILLE, Thomas</author>
+        <date when="1659">1659</date>
+        <source>https://github.com/dramacode/theatre-classique/CORNEILLET_GALANTDOUBLE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>do_fernand</name>
+            <alias xml:id="do_fernand">
+                <name>do_fernand</name>
+            </alias>
+        </character>
+        <character>
+            <name>guzman</name>
+            <alias xml:id="guzman">
+                <name>guzman</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>jacinte</name>
+            <alias xml:id="jacinte">
+                <name>jacinte</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>beatrix</name>
+            <alias xml:id="beatrix">
+                <name>beatrix</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>do_juan</name>
+            <alias xml:id="do_juan">
+                <name>do_juan</name>
+            </alias>
+        </character>
+        <character>
+            <name>do_diegue</name>
+            <alias xml:id="do_diegue">
+                <name>do_diegue</name>
+            </alias>
+        </character>
+        <character>
+            <name>isabelle</name>
+            <alias xml:id="isabelle">
+                <name>isabelle</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>_onor</name>
+            <alias xml:id="_onor">
+                <name>_onor</name>
+            </alias>
+        </character>
+        <character>
+            <name>_exempt</name>
+            <alias xml:id="_exempt">
+                <name>_exempt</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Don Fernand, Gusman. </head>
+                <sp who="#do_fernand">
+                    <amount n="24" unit="speech_acts"/>
+                    <amount n="612" unit="words"/>
+                    <amount n="92" unit="lines"/>
+                    <amount n="2858" unit="chars"/>
+                </sp>
+                <sp who="#guzman">
+                    <amount n="24" unit="speech_acts"/>
+                    <amount n="603" unit="words"/>
+                    <amount n="88" unit="lines"/>
+                    <amount n="2945" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Don Fernand, Jacinte, Guzman. </head>
+                <sp who="#jacinte">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="267" unit="words"/>
+                    <amount n="47" unit="lines"/>
+                    <amount n="1228" unit="chars"/>
+                </sp>
+                <sp who="#guzman">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="292" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="1338" unit="chars"/>
+                </sp>
+                <sp who="#do_fernand">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="146" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="673" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Don Fernand, Guzman. </head>
+                <sp who="#guzman">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="137" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="717" unit="chars"/>
+                </sp>
+                <sp who="#do_fernand">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="196" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="945" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Don Fernand, Béatrix, Guzman. </head>
+                <sp who="#do_fernand">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="202" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="865" unit="chars"/>
+                </sp>
+                <sp who="#beatrix">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="478" unit="words"/>
+                    <amount n="68" unit="lines"/>
+                    <amount n="2261" unit="chars"/>
+                </sp>
+                <sp who="#guzman">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="96" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="441" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Don Fernand, Don Juan, Béatrix, Guzman. </head>
+                <sp who="#do_juan">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="149" unit="chars"/>
+                </sp>
+                <sp who="#do_fernand">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="97" unit="chars"/>
+                </sp>
+                <sp who="#beatrix">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="196" unit="chars"/>
+                </sp>
+                <sp who="#guzman">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="19" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Don Fernand, Don Juan, Guzman. </head>
+                <sp who="#do_juan">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="223" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="1150" unit="chars"/>
+                </sp>
+                <sp who="#guzman">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="70" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="345" unit="chars"/>
+                </sp>
+                <sp who="#do_fernand">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="144" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="716" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Don Diègue, Isabelle, Béatrix. </head>
+                <sp who="#do_diegue">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="195" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="969" unit="chars"/>
+                </sp>
+                <sp who="#isabelle">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="114" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="563" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Isabelle, Béatrix. </head>
+                <sp who="#beatrix">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="551" unit="words"/>
+                    <amount n="63" unit="lines"/>
+                    <amount n="2574" unit="chars"/>
+                </sp>
+                <sp who="#isabelle">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="315" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="1499" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Léonor, Isabelle, Béatrix. </head>
+                <sp who="#_onor">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="601" unit="words"/>
+                    <amount n="73" unit="lines"/>
+                    <amount n="3008" unit="chars"/>
+                </sp>
+                <sp who="#isabelle">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="103" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="540" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Léonor, Isabelle, Jacinte, Béatrix. </head>
+                <sp who="#jacinte">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="31" unit="chars"/>
+                </sp>
+                <sp who="#_onor">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="69" unit="chars"/>
+                </sp>
+                <sp who="#isabelle">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="46" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="235" unit="chars"/>
+                </sp>
+                <sp who="#beatrix">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="140" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Léonor, Don Fernand, Jacinte. </head>
+                <sp who="#jacinte">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="24" unit="chars"/>
+                </sp>
+                <sp who="#do_fernand">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="294" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="1422" unit="chars"/>
+                </sp>
+                <sp who="#_onor">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="299" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="1404" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Isabelle, Léonor, Don Fernand, Béatrix, Jacinte. </head>
+                <sp who="#isabelle">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="363" unit="words"/>
+                    <amount n="51" unit="lines"/>
+                    <amount n="1695" unit="chars"/>
+                </sp>
+                <sp who="#beatrix">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="99" unit="chars"/>
+                </sp>
+                <sp who="#_onor">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="143" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="693" unit="chars"/>
+                </sp>
+                <sp who="#do_fernand">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="215" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1082" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Don Fernand, Isabelle, Béatrix. </head>
+                <sp who="#do_fernand">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="305" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="1459" unit="chars"/>
+                </sp>
+                <sp who="#isabelle">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="370" unit="words"/>
+                    <amount n="47" unit="lines"/>
+                    <amount n="1757" unit="chars"/>
+                </sp>
+                <sp who="#beatrix">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="362" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="1738" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Don Fernand, Guzman. </head>
+                <sp who="#guzman">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="568" unit="words"/>
+                    <amount n="76" unit="lines"/>
+                    <amount n="2797" unit="chars"/>
+                </sp>
+                <sp who="#do_fernand">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="652" unit="words"/>
+                    <amount n="86" unit="lines"/>
+                    <amount n="3199" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Don Fernand, Isabelle, Béatrix, Guzman. </head>
+                <sp who="#do_fernand">
+                    <amount n="20" unit="speech_acts"/>
+                    <amount n="520" unit="words"/>
+                    <amount n="78" unit="lines"/>
+                    <amount n="2508" unit="chars"/>
+                </sp>
+                <sp who="#isabelle">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="408" unit="words"/>
+                    <amount n="62" unit="lines"/>
+                    <amount n="2070" unit="chars"/>
+                </sp>
+                <sp who="#beatrix">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="221" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1091" unit="chars"/>
+                </sp>
+                <sp who="#guzman">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="54" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="232" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Don Juan, Don Fernand, Isabelle, Béatrix, Guzman. </head>
+                <sp who="#do_juan">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="237" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="1119" unit="chars"/>
+                </sp>
+                <sp who="#do_fernand">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="139" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="642" unit="chars"/>
+                </sp>
+                <sp who="#isabelle">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="201" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="1008" unit="chars"/>
+                </sp>
+                <sp who="#beatrix">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="121" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="598" unit="chars"/>
+                </sp>
+                <sp who="#guzman">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="236" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Don Juan, Don Fernand, Guzman. </head>
+                <sp who="#guzman">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="96" unit="chars"/>
+                </sp>
+                <sp who="#do_fernand">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="130" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="624" unit="chars"/>
+                </sp>
+                <sp who="#do_juan">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="68" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="346" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Don Fernand, Guzman. </head>
+                <sp who="#guzman">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="150" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="795" unit="chars"/>
+                </sp>
+                <sp who="#do_fernand">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="119" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="606" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Don Fernand, Léonor, Jacinte, Guzman. </head>
+                <sp who="#_onor">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="248" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="1245" unit="chars"/>
+                </sp>
+                <sp who="#jacinte">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="46" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="221" unit="chars"/>
+                </sp>
+                <sp who="#do_fernand">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="157" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="731" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Léonor, Jacinte. </head>
+                <sp who="#jacinte">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="246" unit="chars"/>
+                </sp>
+                <sp who="#_onor">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="142" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Béatrix, Guzman </head>
+                <sp who="#beatrix">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="250" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="1211" unit="chars"/>
+                </sp>
+                <sp who="#guzman">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="550" unit="words"/>
+                    <amount n="66" unit="lines"/>
+                    <amount n="2624" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Don Fernand, Guzman, Béatrix. </head>
+                <sp who="#guzman">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="121" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="568" unit="chars"/>
+                </sp>
+                <sp who="#do_fernand">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="187" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="922" unit="chars"/>
+                </sp>
+                <sp who="#beatrix">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="234" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="1091" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Don Fernand, Isabelle, Béatrix, Guzman. </head>
+                <sp who="#do_fernand">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="71" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="396" unit="chars"/>
+                </sp>
+                <sp who="#isabelle">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="120" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="558" unit="chars"/>
+                </sp>
+                <sp who="#beatrix">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="95" unit="chars"/>
+                </sp>
+                <sp who="#guzman">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="66" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Isabelle, Don Fernand, Béatrix, Guzman, Un Exempt, Suite de L'Exempt.</head>
+                <sp who="#_exempt">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="87" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="445" unit="chars"/>
+                </sp>
+                <sp who="#do_fernand">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="53" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="261" unit="chars"/>
+                </sp>
+                <sp who="#guzman">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="223" unit="chars"/>
+                </sp>
+                <sp who="#isabelle">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="47" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Isabelle, Béatrix. </head>
+                <sp who="#beatrix">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="268" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="1284" unit="chars"/>
+                </sp>
+                <sp who="#isabelle">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="176" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="859" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Don Juan, Isabelle, Béatrix. </head>
+                <sp who="#isabelle">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="80" unit="chars"/>
+                </sp>
+                <sp who="#do_juan">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="121" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="561" unit="chars"/>
+                </sp>
+                <sp who="#beatrix">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="53" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Don Fernand, Don Juan, Isabelle, Béatrix. </head>
+                <sp who="#beatrix">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="78" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="397" unit="chars"/>
+                </sp>
+                <sp who="#isabelle">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="179" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="853" unit="chars"/>
+                </sp>
+                <sp who="#do_fernand">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="142" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="717" unit="chars"/>
+                </sp>
+                <sp who="#do_juan">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="172" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Don Fernand, Don Juan, Isabelle, Guzman, Béatrix. </head>
+                <sp who="#guzman">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="204" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="980" unit="chars"/>
+                </sp>
+                <sp who="#beatrix">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="25" unit="chars"/>
+                </sp>
+                <sp who="#do_fernand">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="95" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="424" unit="chars"/>
+                </sp>
+                <sp who="#isabelle">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="106" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="516" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Don Juan, Don Fernand, Guzman. </head>
+                <sp who="#do_juan">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="74" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="381" unit="chars"/>
+                </sp>
+                <sp who="#do_fernand">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="107" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="526" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Don Juan, Guzman. </head>
+                <sp who="#guzman">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="87" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="428" unit="chars"/>
+                </sp>
+                <sp who="#do_fernand">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="61" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Don Fernand, Jacinte, Guzman.</head>
+                <sp who="#jacinte">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="60" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="288" unit="chars"/>
+                </sp>
+                <sp who="#do_fernand">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="203" unit="chars"/>
+                </sp>
+                <sp who="#guzman">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="50" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Isabelle, Léonor, Béatrix. </head>
+                <sp who="#isabelle">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="417" unit="words"/>
+                    <amount n="52" unit="lines"/>
+                    <amount n="1971" unit="chars"/>
+                </sp>
+                <sp who="#_onor">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="231" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="1117" unit="chars"/>
+                </sp>
+                <sp who="#beatrix">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="356" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1686" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Isabelle, Léonor, Don Fernand, Guzman, Jacinte, Béatrix. </head>
+                <sp who="#do_fernand">
+                    <amount n="25" unit="speech_acts"/>
+                    <amount n="619" unit="words"/>
+                    <amount n="93" unit="lines"/>
+                    <amount n="2955" unit="chars"/>
+                </sp>
+                <sp who="#guzman">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="210" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="956" unit="chars"/>
+                </sp>
+                <sp who="#_onor">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="509" unit="words"/>
+                    <amount n="73" unit="lines"/>
+                    <amount n="2449" unit="chars"/>
+                </sp>
+                <sp who="#isabelle">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="199" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="990" unit="chars"/>
+                </sp>
+                <sp who="#beatrix">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="111" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="549" unit="chars"/>
+                </sp>
+                <sp who="#jacinte">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="111" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="492" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Don Diègue, Don Juan, Isabelle, Léonor, Don Fernand, Béatrix, Jacinte, Guzman. </head>
+                <sp who="#do_diegue">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="129" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="608" unit="chars"/>
+                </sp>
+                <sp who="#do_fernand">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="66" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="327" unit="chars"/>
+                </sp>
+                <sp who="#_onor">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="57" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="246" unit="chars"/>
+                </sp>
+                <sp who="#isabelle">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="83" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="411" unit="chars"/>
+                </sp>
+                <sp who="#do_juan">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="181" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="853" unit="chars"/>
+                </sp>
+                <sp who="#guzman">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="155" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="709" unit="chars"/>
+                </sp>
+                <sp who="#beatrix">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="318" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1547" unit="chars"/>
+                </sp>
+                <sp who="#jacinte">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="26" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

@@ -1,0 +1,954 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LE VÉRITABLE SAINT GENEST</title>
+        <subtitle>TRAGÉDIE</subtitle>
+        <genretitle>Tragédie</genretitle>
+        <author>ROTROU, Jean</author>
+        <date when="1648">1648</date>
+        <source>https://github.com/dramacode/theatre-classique/ROTROU_SAINTGENEST.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>camille</name>
+            <alias xml:id="camille">
+                <name>camille</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>valerie</name>
+            <alias xml:id="valerie">
+                <name>valerie</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_page</name>
+            <alias xml:id="l_page">
+                <name>l_page</name>
+            </alias>
+        </character>
+        <character>
+            <name>diocletian</name>
+            <alias xml:id="diocletian">
+                <name>diocletian</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>maximin</name>
+            <alias xml:id="maximin">
+                <name>maximin</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>genest</name>
+            <alias xml:id="genest">
+                <name>genest</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>decorateur</name>
+            <alias xml:id="decorateur">
+                <name>decorateur</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>marcele</name>
+            <alias xml:id="marcele">
+                <name>marcele</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>voi_d_ciel</name>
+            <alias xml:id="voi_d_ciel">
+                <name>voi_d_ciel</name>
+            </alias>
+        </character>
+        <character>
+            <name>plancien</name>
+            <alias xml:id="plancien">
+                <name>plancien</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>adrian</name>
+            <alias xml:id="adrian">
+                <name>adrian</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>flavie</name>
+            <alias xml:id="flavie">
+                <name>flavie</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>geolier</name>
+            <alias xml:id="geolier">
+                <name>geolier</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>natalie</name>
+            <alias xml:id="natalie">
+                <name>natalie</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>garde</name>
+            <alias xml:id="garde">
+                <name>garde</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>anthyme</name>
+            <alias xml:id="anthyme">
+                <name>anthyme</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>lentule</name>
+            <alias xml:id="lentule">
+                <name>lentule</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>soldat</name>
+            <alias xml:id="soldat">
+                <name>soldat</name>
+            </alias>
+        </character>
+        <character>
+            <name>sergeste</name>
+            <alias xml:id="sergeste">
+                <name>sergeste</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>octave</name>
+            <alias xml:id="octave">
+                <name>octave</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>albin</name>
+            <alias xml:id="albin">
+                <name>albin</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Valérie, Camille.</head>
+                <sp who="#camille">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="264" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="1207" unit="chars"/>
+                </sp>
+                <sp who="#valerie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="621" unit="words"/>
+                    <amount n="65" unit="lines"/>
+                    <amount n="2925" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Un Page, Valérie, Camille.</head>
+                <sp who="#l_page">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="62" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="292" unit="chars"/>
+                </sp>
+                <sp who="#valerie">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="63" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="297" unit="chars"/>
+                </sp>
+                <sp who="#camille">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="138" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Dioclétian, Maximin, Gardes, Soldats, Valérie, Camille, Plancien. </head>
+                <sp who="#diocletian">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="569" unit="words"/>
+                    <amount n="59" unit="lines"/>
+                    <amount n="2650" unit="chars"/>
+                </sp>
+                <sp who="#maximin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="294" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1426" unit="chars"/>
+                </sp>
+                <sp who="#valerie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="89" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="394" unit="chars"/>
+                </sp>
+                <sp who="#camille">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="153" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Un Page, Dioclétian, Maximin, Valérie, Camille. Gardes, Soldats, Plancien. </head>
+                <sp who="#l_page">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="93" unit="chars"/>
+                </sp>
+                <sp who="#diocletian">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="3" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="13" unit="chars"/>
+                </sp>
+                <sp who="#camille">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="45" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="226" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Genest, Dioclétian, Maximin, Plancien, Valérie, Camille. Gardes, Soldats. </head>
+                <sp who="#genest">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="662" unit="words"/>
+                    <amount n="60" unit="lines"/>
+                    <amount n="3190" unit="chars"/>
+                </sp>
+                <sp who="#diocletian">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="397" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="1857" unit="chars"/>
+                </sp>
+                <sp who="#valerie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="104" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="501" unit="chars"/>
+                </sp>
+                <sp who="#maximin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="59" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="296" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Genest, Décorateur.</head>
+                <sp who="#genest">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="140" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="663" unit="chars"/>
+                </sp>
+                <sp who="#decorateur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="80" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="402" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Genest seul, se promenant, et lisant son rôle, dit comme en repassant, et achevant de s'habiller. </head>
+                <sp who="#genest">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="157" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="697" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Marcelle, Genest</head>
+                <sp who="#marcele">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="299" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="1421" unit="chars"/>
+                </sp>
+                <sp who="#genest">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="108" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="549" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Genest seul, repassant son rôle, et se promenant.</head>
+                <sp who="#genest">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="520" unit="words"/>
+                    <amount n="56" unit="lines"/>
+                    <amount n="2430" unit="chars"/>
+                </sp>
+                <sp who="#voi_d_ciel">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="137" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Le décorateur, venant allumer les chandelles, Genest.</head>
+                <sp who="#decorateur">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="94" unit="chars"/>
+                </sp>
+                <sp who="#genest">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="49" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="234" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Dioclétian, Maximin, Valérie, Camille, Plancien, Suite de Soldats, Gardes.</head>
+                <sp who="#valerie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="43" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="193" unit="chars"/>
+                </sp>
+                <sp who="#maximin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="145" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="697" unit="chars"/>
+                </sp>
+                <sp who="#plancien">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="137" unit="chars"/>
+                </sp>
+                <sp who="#diocletian">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="91" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. GENEST seul sur le Théâtre élevé, Diolcétian, Maximin, Valérie, Camille, Plancien, Gardes, assis. Suite de Soldats.</head>
+                <sp who="#adrian">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="598" unit="words"/>
+                    <amount n="57" unit="lines"/>
+                    <amount n="2673" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Flavie, Tribun représenté par Sergeste Comédien, Adrian, deux Gardes.</head>
+                <sp who="#flavie">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="953" unit="words"/>
+                    <amount n="116" unit="lines"/>
+                    <amount n="4546" unit="chars"/>
+                </sp>
+                <sp who="#adrian">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="385" unit="words"/>
+                    <amount n="58" unit="lines"/>
+                    <amount n="1774" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Dioclétian, Maximin, Valérie.</head>
+                <sp who="#diocletian">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="67" unit="chars"/>
+                </sp>
+                <sp who="#maximin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="50" unit="chars"/>
+                </sp>
+                <sp who="#valerie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="62" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Dioclétian, Maximin, Valérie, Camille, Plancien, Suite de gardes et de soldats.</head>
+                <sp who="#valerie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="107" unit="chars"/>
+                </sp>
+                <sp who="#camille">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="85" unit="chars"/>
+                </sp>
+                <sp who="#maximin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="183" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Maximin, représenté par Octave Comédien, Adrian chargé de fers, Flavie, Suite de Gardes et de Soldats.</head>
+                <sp who="#maximin">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="469" unit="words"/>
+                    <amount n="58" unit="lines"/>
+                    <amount n="2260" unit="chars"/>
+                </sp>
+                <sp who="#adrian">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="578" unit="words"/>
+                    <amount n="64" unit="lines"/>
+                    <amount n="2666" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Maximin Acteur. Gardes.</head>
+                <sp who="#maximin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="112" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="545" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Flavie ramenant Adrian à la prison, Adrian, Le geôlier, Gardes.</head>
+                <sp who="#flavie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="47" unit="chars"/>
+                </sp>
+                <sp who="#geolier">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="43" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Natalie, Flavie, Adrian, Le geôlier.</head>
+                <sp who="#natalie">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="769" unit="words"/>
+                    <amount n="82" unit="lines"/>
+                    <amount n="3588" unit="chars"/>
+                </sp>
+                <sp who="#flavie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="147" unit="chars"/>
+                </sp>
+                <sp who="#adrian">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="851" unit="words"/>
+                    <amount n="89" unit="lines"/>
+                    <amount n="3905" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Flavie, Gardes, Arian, Natalie.</head>
+                <sp who="#flavie">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="75" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="372" unit="chars"/>
+                </sp>
+                <sp who="#natalie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="299" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1398" unit="chars"/>
+                </sp>
+                <sp who="#adrian">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="51" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="229" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII.</head>
+                <sp who="#natalie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="241" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="1109" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Genest, Dioclétian, Maximin, etc. </head>
+                <sp who="#genest">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="45" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="226" unit="chars"/>
+                </sp>
+                <sp who="#diocletian">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="27" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="133" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Dioclétian, Maximin, Valérie, Camille, Plancien, Gardes, descendant du théâtre.</head>
+                <sp who="#valerie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="93" unit="chars"/>
+                </sp>
+                <sp who="#diocletian">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="88" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Adrian représenté par Genest, Flavie représentée par Segeste, Gardes, Dioclétian, Maximin, Valérie, Camille, Plancien, Suite de Gardes. </head>
+                <sp who="#flavie">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="285" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="1345" unit="chars"/>
+                </sp>
+                <sp who="#adrian">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="276" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1299" unit="chars"/>
+                </sp>
+                <sp who="#garde">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="47" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III.</head>
+                <sp who="#adrian">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="94" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="478" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Natalie, Adrian. </head>
+                <sp who="#adrian">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="334" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="1485" unit="chars"/>
+                </sp>
+                <sp who="#natalie">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="872" unit="words"/>
+                    <amount n="92" unit="lines"/>
+                    <amount n="3987" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Anthyme, Adrian, Natalie.</head>
+                <sp who="#anthyme">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="202" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="953" unit="chars"/>
+                </sp>
+                <sp who="#adrian">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="239" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="1096" unit="chars"/>
+                </sp>
+                <sp who="#marcele">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="45" unit="chars"/>
+                </sp>
+                <sp who="#lentule">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="103" unit="chars"/>
+                </sp>
+                <sp who="#diocletian">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="92" unit="chars"/>
+                </sp>
+                <sp who="#valerie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="97" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Flavie, Gardes, Marcelle, Lentule, Dioclétian, etc...</head>
+                <sp who="#flavie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="49" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="227" unit="chars"/>
+                </sp>
+                <sp who="#soldat">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="56" unit="chars"/>
+                </sp>
+                <sp who="#marcele">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="137" unit="chars"/>
+                </sp>
+                <sp who="#camille">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="41" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Genest, Sergeste, Lentule, Marcele, Gardes, Dioclétian, Valérie, etc.. </head>
+                <sp who="#genest">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="960" unit="words"/>
+                    <amount n="105" unit="lines"/>
+                    <amount n="4481" unit="chars"/>
+                </sp>
+                <sp who="#maximin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="70" unit="chars"/>
+                </sp>
+                <sp who="#valerie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="66" unit="chars"/>
+                </sp>
+                <sp who="#plancien">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="132" unit="chars"/>
+                </sp>
+                <sp who="#marcele">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="70" unit="chars"/>
+                </sp>
+                <sp who="#sergeste">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="46" unit="chars"/>
+                </sp>
+                <sp who="#lentule">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="144" unit="chars"/>
+                </sp>
+                <sp who="#diocletian">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="152" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="719" unit="chars"/>
+                </sp>
+                <sp who="#camille">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="46" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Octave, Le Décorateur, Marcele, Plancien, Gardes. </head>
+                <sp who="#octave">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="48" unit="chars"/>
+                </sp>
+                <sp who="#marcele">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="113" unit="chars"/>
+                </sp>
+                <sp who="#plancien">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="87" unit="chars"/>
+                </sp>
+                <sp who="#garde">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="2" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="11" unit="chars"/>
+                </sp>
+                <sp who="#genest">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="152" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Plancien, Marcele, Octave, Sergeste, Lentule, Albin, Gardes, Décorateur, et autres assistants.</head>
+                <sp who="#plancien">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="181" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="832" unit="chars"/>
+                </sp>
+                <sp who="#marcele">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="141" unit="chars"/>
+                </sp>
+                <sp who="#octave">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="139" unit="chars"/>
+                </sp>
+                <sp who="#lentule">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="117" unit="chars"/>
+                </sp>
+                <sp who="#albin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="3" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="16" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Genest seul dans sa prison, avec des fers.</head>
+                <sp who="#genest">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="255" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="1246" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Marcele, Le Geôlier, Genest.</head>
+                <sp who="#geolier">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="2" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="8" unit="chars"/>
+                </sp>
+                <sp who="#marcele">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="785" unit="words"/>
+                    <amount n="86" unit="lines"/>
+                    <amount n="3594" unit="chars"/>
+                </sp>
+                <sp who="#genest">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="722" unit="words"/>
+                    <amount n="81" unit="lines"/>
+                    <amount n="3399" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Le Geôlier, Marcele, Genest.</head>
+                <sp who="#geolier">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="24" unit="chars"/>
+                </sp>
+                <sp who="#marcele">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="3" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="13" unit="chars"/>
+                </sp>
+                <sp who="#genest">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="2" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="7" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Le Geôlier, Genest.</head>
+                <sp who="#geolier">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="138" unit="chars"/>
+                </sp>
+                <sp who="#genest">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="50" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="216" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Dioclétian, Maximain, Suite de Gardes. </head>
+                <sp who="#diocletian">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="368" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1715" unit="chars"/>
+                </sp>
+                <sp who="#maximin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="57" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="271" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Valérie, Camille, Marcele Comédien, Octave Com., Sergeste Comédien, Lentule Comédien, Albin, Dioclétian, Maximin, Suite de Gardes.</head>
+                <sp who="#valerie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="143" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="666" unit="chars"/>
+                </sp>
+                <sp who="#diocletian">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="259" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="1262" unit="chars"/>
+                </sp>
+                <sp who="#marcele">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="49" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="196" unit="chars"/>
+                </sp>
+                <sp who="#octave">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="92" unit="chars"/>
+                </sp>
+                <sp who="#flavie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="97" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Plancien, Dioclétian, Maximin, Valérie, Camille, Marcele, Octave, etc...</head>
+                <sp who="#plancien">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="242" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="1126" unit="chars"/>
+                </sp>
+                <sp who="#marcele">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="46" unit="chars"/>
+                </sp>
+                <sp who="#octave">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="41" unit="chars"/>
+                </sp>
+                <sp who="#diocletian">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="88" unit="chars"/>
+                </sp>
+                <sp who="#valerie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="101" unit="chars"/>
+                </sp>
+                <sp who="#maximin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="183" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

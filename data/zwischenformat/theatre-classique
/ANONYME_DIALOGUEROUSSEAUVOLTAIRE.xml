@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>DIALOGUE ENTRE VOLTAIRE ET ROUSSEAU</title>
+        <subtitle>APRÈS LEUR PASSAGE DU STYX</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>Anonyme</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/ANONYME_DIALOGUEROUSSEAUVOLTAIRE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>voltaire</name>
+            <alias xml:id="voltaire">
+                <name>voltaire</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>rousseau</name>
+            <alias xml:id="rousseau">
+                <name>rousseau</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>DIALOGUE.</head>
+            <div>
+                <head/>
+                <sp who="#voltaire">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="794" unit="words"/>
+                    <amount n="97" unit="lines"/>
+                    <amount n="3821" unit="chars"/>
+                </sp>
+                <sp who="#rousseau">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="896" unit="words"/>
+                    <amount n="91" unit="lines"/>
+                    <amount n="4434" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LA JOURNÉE DE TITUS OU LE BON PRINCE</title>
+        <subtitle>DRAME EN UN ACTE MÊLÉ DE FÊTES ET DE DANSES</subtitle>
+        <subtitle>Ses vertus et nos pleurs le feront reconnaître.</subtitle>
+        <genretitle>Drame</genretitle>
+        <author>CARRIÈRE-DOISIN A.</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/CARRIERE-DOISIN_JOURNEEDETITUS.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>le_peuple</name>
+            <alias xml:id="le_peuple">
+                <name>le_peuple</name>
+                <sex>0</sex>
+            </alias>
+        </character>
+        <character>
+            <name>un_officier_de_la_maison</name>
+            <alias xml:id="un_officier_de_la_maison">
+                <name>un_officier_de_la_maison</name>
+            </alias>
+        </character>
+        <character>
+            <name>une_des_femmes</name>
+            <alias xml:id="une_des_femmes">
+                <name>une_des_femmes</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_prince</name>
+            <alias xml:id="le_prince">
+                <name>le_prince</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>une_autre_femme</name>
+            <alias xml:id="une_autre_femme">
+                <name>une_autre_femme</name>
+            </alias>
+        </character>
+        <character>
+            <name>d_alfons</name>
+            <alias xml:id="d_alfons">
+                <name>d_alfons</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_comte</name>
+            <alias xml:id="le_comte">
+                <name>le_comte</name>
+            </alias>
+        </character>
+        <character>
+            <name>de_polincour</name>
+            <alias xml:id="de_polincour">
+                <name>de_polincour</name>
+            </alias>
+        </character>
+        <character>
+            <name>la_veuve</name>
+            <alias xml:id="la_veuve">
+                <name>la_veuve</name>
+            </alias>
+        </character>
+        <character>
+            <name>d_ettingen</name>
+            <alias xml:id="d_ettingen">
+                <name>d_ettingen</name>
+            </alias>
+        </character>
+        <character>
+            <name>richard__re</name>
+            <alias xml:id="richard__re">
+                <name>richard__re</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>richard_fils</name>
+            <alias xml:id="richard_fils">
+                <name>richard_fils</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>babet</name>
+            <alias xml:id="babet">
+                <name>babet</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>tous_les_trois</name>
+            <alias xml:id="tous_les_trois">
+                <name>tous_les_trois</name>
+            </alias>
+        </character>
+        <character>
+            <name>d_hermans</name>
+            <alias xml:id="d_hermans">
+                <name>d_hermans</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>de_valmon</name>
+            <alias xml:id="de_valmon">
+                <name>de_valmon</name>
+            </alias>
+        </character>
+        <character>
+            <name>e_onore</name>
+            <alias xml:id="e_onore">
+                <name>e_onore</name>
+            </alias>
+        </character>
+        <character>
+            <name>tous_deux</name>
+            <alias xml:id="tous_deux">
+                <name>tous_deux</name>
+            </alias>
+        </character>
+        <character>
+            <name>les_officiers</name>
+            <alias xml:id="les_officiers">
+                <name>les_officiers</name>
+            </alias>
+        </character>
+        <character>
+            <name>un_officier</name>
+            <alias xml:id="un_officier">
+                <name>un_officier</name>
+            </alias>
+        </character>
+        <character>
+            <name>tous</name>
+            <alias xml:id="tous">
+                <name>tous</name>
+            </alias>
+        </character>
+        <character>
+            <name>quelques_officiers</name>
+            <alias xml:id="quelques_officiers">
+                <name>quelques_officiers</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head/>
+            <div>
+                <head>SCÈNE PREMIÈRE.</head>
+                <sp who="#le_peuple">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="86" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="356" unit="chars"/>
+                </sp>
+                <sp who="#un_officier_de_la_maison">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="74" unit="chars"/>
+                </sp>
+                <sp who="#une_des_femmes">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="163" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="749" unit="chars"/>
+                </sp>
+                <sp who="#le_prince">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="69" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="314" unit="chars"/>
+                </sp>
+                <sp who="#une_autre_femme">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="85" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="372" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Le Prince, LE Marquis d'Alfons.</head>
+                <sp who="#le_prince">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="111" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="511" unit="chars"/>
+                </sp>
+                <sp who="#d_alfons">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="151" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="759" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Le Comte De Polincour, les précèdents.</head>
+                <sp who="#le_comte">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="51" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="247" unit="chars"/>
+                </sp>
+                <sp who="#le_prince">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="299" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Le Prince, Le Marquis D'Alfons.</head>
+                <sp who="#le_prince">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="165" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="758" unit="chars"/>
+                </sp>
+                <sp who="#d_alfons">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="125" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Le Prince, Le Comte de Polincour, Le Marquis D'Alfons, Une Veuve et quatre enfants ; ils font en grand deuil.</head>
+                <sp who="#de_polincour">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="34" unit="chars"/>
+                </sp>
+                <sp who="#le_prince">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="137" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="658" unit="chars"/>
+                </sp>
+                <sp who="#la_veuve">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="244" unit="chars"/>
+                </sp>
+                <sp who="#d_alfons">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="4" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="18" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Le Marquis d'Alfons, Le Comte de Polincour.</head>
+                <sp who="#d_alfons">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="89" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="433" unit="chars"/>
+                </sp>
+                <sp who="#de_polincour">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="130" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="636" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. D'Ettingen, Richard père, Richard fils, Babet, les Précédents</head>
+                <sp who="#d_ettingen">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="85" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="369" unit="chars"/>
+                </sp>
+                <sp who="#richard__re">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="122" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="585" unit="chars"/>
+                </sp>
+                <sp who="#d_alfons">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="59" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="252" unit="chars"/>
+                </sp>
+                <sp who="#richard_fils">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="56" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="250" unit="chars"/>
+                </sp>
+                <sp who="#babet">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="69" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="307" unit="chars"/>
+                </sp>
+                <sp who="#de_polincour">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="60" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Richard père, Richard fils, Babet.</head>
+                <sp who="#richard__re">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="406" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="1908" unit="chars"/>
+                </sp>
+                <sp who="#richard_fils">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="59" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="250" unit="chars"/>
+                </sp>
+                <sp who="#babet">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="107" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="468" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Le Marquis D'Alfons, D'Ettingen, Les Précédents.</head>
+                <sp who="#d_alfons">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="135" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="576" unit="chars"/>
+                </sp>
+                <sp who="#tous_les_trois">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="30" unit="chars"/>
+                </sp>
+                <sp who="#richard_fils">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="44" unit="chars"/>
+                </sp>
+                <sp who="#richard__re">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="172" unit="chars"/>
+                </sp>
+                <sp who="#babet">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="164" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Le Marquis d'Alfons, d'Ettingen.</head>
+                <sp who="#d_alfons">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="68" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="321" unit="chars"/>
+                </sp>
+                <sp who="#d_ettingen">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="217" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X.. D'HERMANS, LE MARQUIS D'ALFONS.</head>
+                <sp who="#d_hermans">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="221" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="1099" unit="chars"/>
+                </sp>
+                <sp who="#d_alfons">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="92" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="458" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII. De Valmon, Éléonore, Une Gouvernante, d'Ettingen, Le Marquis d'Alfons.
+</head>
+                <sp who="#d_ettingen">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="152" unit="chars"/>
+                </sp>
+                <sp who="#de_valmon">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="126" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="575" unit="chars"/>
+                </sp>
+                <sp who="#d_alfons">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="105" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="476" unit="chars"/>
+                </sp>
+                <sp who="#e_onore">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="29" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIII. D'Hermans, Eléonore, La Gouvernante, D'Ettingen.</head>
+                <sp who="#d_hermans">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="123" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="563" unit="chars"/>
+                </sp>
+                <sp who="#e_onore">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="128" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="625" unit="chars"/>
+                </sp>
+                <sp who="#d_ettingen">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="203" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIV. Le Prince, De Valmon, Le Marquis, D'Alfons.</head>
+                <sp who="#le_prince">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="84" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="378" unit="chars"/>
+                </sp>
+                <sp who="#de_valmon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="65" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XV. Les Précédents, D'Hermans.</head>
+                <sp who="#d_hermans">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="137" unit="chars"/>
+                </sp>
+                <sp who="#de_valmon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="49" unit="chars"/>
+                </sp>
+                <sp who="#le_prince">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="30" unit="chars"/>
+                </sp>
+                <sp who="#tous_deux">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="38" unit="chars"/>
+                </sp>
+                <sp who="#d_alfons">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="38" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVI. Les Précédents, Plusieurs Officiers et valets de la maison veulent entrer.</head>
+                <sp who="#les_officiers">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="55" unit="chars"/>
+                </sp>
+                <sp who="#le_prince">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="83" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="414" unit="chars"/>
+                </sp>
+                <sp who="#un_officier">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="85" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="414" unit="chars"/>
+                </sp>
+                <sp who="#tous">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="71" unit="chars"/>
+                </sp>
+                <sp who="#d_alfons">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="41" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="205" unit="chars"/>
+                </sp>
+                <sp who="#quelques_officiers">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="29" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVII et DERNIÈRE. De Valmon, Eléonore, Le Marquis D'Alfons, D'Ettingen, D'Hermans.</head>
+                <sp who="#de_valmon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="113" unit="chars"/>
+                </sp>
+                <sp who="#d_hermans">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="127" unit="chars"/>
+                </sp>
+                <sp who="#d_alfons">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="134" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

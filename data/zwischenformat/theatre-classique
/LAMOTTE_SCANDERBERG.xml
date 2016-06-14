@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>SCANDERBERG</title>
+        <subtitle>TRAGÉDIE</subtitle>
+        <genretitle>Tragédie lyrique</genretitle>
+        <author>LA MOTTE, Antoine-Houdard de</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/LAMOTTE_SCANDERBERG.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>melpo_ne</name>
+            <alias xml:id="melpo_ne">
+                <name>melpo_ne</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>polimnie</name>
+            <alias xml:id="polimnie">
+                <name>polimnie</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>la_magie</name>
+            <alias xml:id="la_magie">
+                <name>la_magie</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>melpo_ne__polimnie</name>
+            <alias xml:id="melpo_ne__polimnie">
+                <name>melpo_ne__polimnie</name>
+            </alias>
+        </character>
+        <character>
+            <name>ensemble</name>
+            <alias xml:id="ensemble">
+                <name>ensemble</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_amour</name>
+            <alias xml:id="l_amour">
+                <name>l_amour</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_choeur</name>
+            <alias xml:id="le_choeur">
+                <name>le_choeur</name>
+            </alias>
+        </character>
+        <character>
+            <name>scanderberg</name>
+            <alias xml:id="scanderberg">
+                <name>scanderberg</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>osman</name>
+            <alias xml:id="osman">
+                <name>osman</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>roxane</name>
+            <alias xml:id="roxane">
+                <name>roxane</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>choeur_des_sultanes</name>
+            <alias xml:id="choeur_des_sultanes">
+                <name>choeur_des_sultanes</name>
+            </alias>
+        </character>
+        <character>
+            <name>une_sultane</name>
+            <alias xml:id="une_sultane">
+                <name>une_sultane</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_choeur__roxane</name>
+            <alias xml:id="le_choeur__roxane">
+                <name>le_choeur__roxane</name>
+            </alias>
+        </character>
+        <character>
+            <name>choeur_des_bostangis_et_des_sultanes</name>
+            <alias xml:id="choeur_des_bostangis_et_des_sultanes">
+                <name>choeur_des_bostangis_et_des_sultanes</name>
+            </alias>
+        </character>
+        <character>
+            <name>servilie</name>
+            <alias xml:id="servilie">
+                <name>servilie</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>amurat</name>
+            <alias xml:id="amurat">
+                <name>amurat</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>une_grecque</name>
+            <alias xml:id="une_grecque">
+                <name>une_grecque</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>choeur_des_grecques</name>
+            <alias xml:id="choeur_des_grecques">
+                <name>choeur_des_grecques</name>
+            </alias>
+        </character>
+        <character>
+            <name>la_grecque</name>
+            <alias xml:id="la_grecque">
+                <name>la_grecque</name>
+            </alias>
+        </character>
+        <character>
+            <name>choeur_des_janissaires</name>
+            <alias xml:id="choeur_des_janissaires">
+                <name>choeur_des_janissaires</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_vizir</name>
+            <alias xml:id="le_vizir">
+                <name>le_vizir</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_aga_des_janissaires</name>
+            <alias xml:id="l_aga_des_janissaires">
+                <name>l_aga_des_janissaires</name>
+            </alias>
+        </character>
+        <character>
+            <name>scanderberg__servilie</name>
+            <alias xml:id="scanderberg__servilie">
+                <name>scanderberg__servilie</name>
+            </alias>
+        </character>
+        <character>
+            <name>deux_scythes</name>
+            <alias xml:id="deux_scythes">
+                <name>deux_scythes</name>
+            </alias>
+        </character>
+        <character>
+            <name>une_asiatique</name>
+            <alias xml:id="une_asiatique">
+                <name>une_asiatique</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>une_italienne</name>
+            <alias xml:id="une_italienne">
+                <name>une_italienne</name>
+            </alias>
+        </character>
+        <character>
+            <name>choeur_de_peuples</name>
+            <alias xml:id="choeur_de_peuples">
+                <name>choeur_de_peuples</name>
+            </alias>
+        </character>
+        <character>
+            <name>une_odalisque</name>
+            <alias xml:id="une_odalisque">
+                <name>une_odalisque</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_muphti</name>
+            <alias xml:id="le_muphti">
+                <name>le_muphti</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>PROLOGUE</head>
+            <div>
+                <head>SCÈNE I. Melpomène, Polimnie.</head>
+                <sp who="#melpo_ne">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="153" unit="chars"/>
+                </sp>
+                <sp who="#polimnie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="25" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="134" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. La Magie, et les acteurs de la cène précédente.</head>
+                <sp who="#melpo_ne">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="110" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="532" unit="chars"/>
+                </sp>
+                <sp who="#la_magie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="147" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="693" unit="chars"/>
+                </sp>
+                <sp who="#melpo_ne__polimnie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="137" unit="chars"/>
+                </sp>
+                <sp who="#polimnie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="4" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="23" unit="chars"/>
+                </sp>
+                <sp who="#ensemble">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="43" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. L'Amour, Melpomène, Polimnie, </head>
+                <sp who="#l_amour">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="201" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="991" unit="chars"/>
+                </sp>
+                <sp who="#melpo_ne">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="54" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="272" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="148" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Scanderberg, Osman.</head>
+                <sp who="#scanderberg">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="238" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1161" unit="chars"/>
+                </sp>
+                <sp who="#osman">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="152" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="761" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II.</head>
+                <sp who="#scanderberg">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="106" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="528" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Roxane, Scanderberg.</head>
+                <sp who="#roxane">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="353" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="1625" unit="chars"/>
+                </sp>
+                <sp who="#scanderberg">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="83" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="392" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Roxane, Scanderberg, Les Sultanes.</head>
+                <sp who="#roxane">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="64" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="355" unit="chars"/>
+                </sp>
+                <sp who="#choeur_des_sultanes">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="219" unit="chars"/>
+                </sp>
+                <sp who="#une_sultane">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="100" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="439" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="76" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur__roxane">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="55" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Roxane, Scanderberg, Osman, Sultanes, Bostangis.</head>
+                <sp who="#osman">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="51" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="256" unit="chars"/>
+                </sp>
+                <sp who="#roxane">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="96" unit="chars"/>
+                </sp>
+                <sp who="#scanderberg">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="65" unit="chars"/>
+                </sp>
+                <sp who="#choeur_des_bostangis_et_des_sultanes">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="27" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="133" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE PREMIÈRE.</head>
+                <sp who="#scanderberg">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="109" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="563" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE SECONDE. Scanderberg, Servilie, Osman.</head>
+                <sp who="#scanderberg">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="106" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="520" unit="chars"/>
+                </sp>
+                <sp who="#servilie">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="176" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="810" unit="chars"/>
+                </sp>
+                <sp who="#ensemble">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="158" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Scanderberg, Servilie, Amurat.</head>
+                <sp who="#amurat">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="321" unit="words"/>
+                    <amount n="45" unit="lines"/>
+                    <amount n="1579" unit="chars"/>
+                </sp>
+                <sp who="#scanderberg">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="54" unit="chars"/>
+                </sp>
+                <sp who="#servilie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="72" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="373" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Scanderberg, Servilie, Amurat, les Officiers de la Porte, le Peuple, les Grecques de la Suite de Servilie.</head>
+                <sp who="#le_choeur">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="196" unit="words"/>
+                    <amount n="57" unit="lines"/>
+                    <amount n="980" unit="chars"/>
+                </sp>
+                <sp who="#amurat">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="231" unit="chars"/>
+                </sp>
+                <sp who="#une_grecque">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="209" unit="chars"/>
+                </sp>
+                <sp who="#choeur_des_grecques">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="43" unit="chars"/>
+                </sp>
+                <sp who="#la_grecque">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="4" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="28" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I.</head>
+                <sp who="#roxane">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="197" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="922" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Roxane, Ssanderberg.</head>
+                <sp who="#roxane">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="352" unit="words"/>
+                    <amount n="55" unit="lines"/>
+                    <amount n="1711" unit="chars"/>
+                </sp>
+                <sp who="#scanderberg">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="210" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="1014" unit="chars"/>
+                </sp>
+                <sp who="#ensemble">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="35" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Scanderberg, Choeur de Janissaires.</head>
+                <sp who="#scanderberg">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="50" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="249" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="111" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Scanderberg, Choeur des Janissaires, Le Vizir, à la tête des Janissaires.</head>
+                <sp who="#choeur_des_janissaires">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="111" unit="chars"/>
+                </sp>
+                <sp who="#le_vizir">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="36" unit="chars"/>
+                </sp>
+                <sp who="#scanderberg">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="47" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Amurat, L'Aga des Janissaires, Les Janissaires.</head>
+                <sp who="#amurat">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="219" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="1037" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="211" unit="chars"/>
+                </sp>
+                <sp who="#scanderberg">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="141" unit="chars"/>
+                </sp>
+                <sp who="#l_aga_des_janissaires">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="51" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="230" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE PREMIÈRE.</head>
+                <sp who="#servilie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="147" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="716" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Servilie, Scanderberg.</head>
+                <sp who="#servilie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="72" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="382" unit="chars"/>
+                </sp>
+                <sp who="#scanderberg">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="203" unit="chars"/>
+                </sp>
+                <sp who="#scanderberg__servilie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="87" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Servilie, Scanderberg, Roxane.</head>
+                <sp who="#scanderberg">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="88" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="396" unit="chars"/>
+                </sp>
+                <sp who="#roxane">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="133" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="660" unit="chars"/>
+                </sp>
+                <sp who="#servilie">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="119" unit="chars"/>
+                </sp>
+                <sp who="#scanderberg__servilie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="30" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Servilie, Scanderberg.</head>
+                <sp who="#servilie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="41" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="196" unit="chars"/>
+                </sp>
+                <sp who="#scanderberg">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="133" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Servilie, Amurat, Scandeberg, Esclaves de différentes nations.</head>
+                <sp who="#amurat">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="76" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="379" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="158" unit="chars"/>
+                </sp>
+                <sp who="#deux_scythes">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="230" unit="chars"/>
+                </sp>
+                <sp who="#une_asiatique">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="46" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="224" unit="chars"/>
+                </sp>
+                <sp who="#une_italienne">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="158" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. ROXANE et les Acteurs précédents.</head>
+                <sp who="#roxane">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="96" unit="chars"/>
+                </sp>
+                <sp who="#amurat">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="162" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="755" unit="chars"/>
+                </sp>
+                <sp who="#servilie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="48" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V.</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Amurat, Les Grands Officiers de la porte.</head>
+                <sp who="#choeur_de_peuples">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="84" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Amurat, Bachas, Peuples.</head>
+                <sp who="#amurat">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="142" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="702" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III.</head>
+                <sp who="#le_choeur">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="56" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="274" unit="chars"/>
+                </sp>
+                <sp who="#amurat">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="102" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="509" unit="chars"/>
+                </sp>
+                <sp who="#une_odalisque">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="73" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Le Muphti suivi des Imans, et acteurs de la scène précédente.</head>
+                <sp who="#le_muphti">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="146" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="720" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="84" unit="chars"/>
+                </sp>
+                <sp who="#amurat">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="134" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="673" unit="chars"/>
+                </sp>
+                <sp who="#servilie">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="41" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="194" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Scanderberg, et les acteurs de la Scène précédente.</head>
+                <sp who="#servilie">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="116" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="487" unit="chars"/>
+                </sp>
+                <sp who="#amurat">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="78" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="340" unit="chars"/>
+                </sp>
+                <sp who="#scanderberg">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="80" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="344" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

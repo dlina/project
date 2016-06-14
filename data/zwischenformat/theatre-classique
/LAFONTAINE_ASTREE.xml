@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>ASTRÉE</title>
+        <subtitle>TRAGÉDIE LYRIQUE</subtitle>
+        <genretitle>Tragédie lyrique</genretitle>
+        <author>LA FONTAINE, Jean de</author>
+        <date when="1691">1691</date>
+        <source>https://github.com/dramacode/theatre-classique/LAFONTAINE_ASTREE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>nymphe</name>
+            <alias xml:id="nymphe">
+                <name>nymphe</name>
+            </alias>
+        </character>
+        <character>
+            <name>apollon</name>
+            <alias xml:id="apollon">
+                <name>apollon</name>
+            </alias>
+        </character>
+        <character>
+            <name>apollon_nymphe_acanthe</name>
+            <alias xml:id="apollon_nymphe_acanthe">
+                <name>apollon_nymphe_acanthe</name>
+            </alias>
+        </character>
+        <character>
+            <name>choeur</name>
+            <alias xml:id="choeur">
+                <name>choeur</name>
+            </alias>
+        </character>
+        <character>
+            <name>nymphe_acanthe</name>
+            <alias xml:id="nymphe_acanthe">
+                <name>nymphe_acanthe</name>
+            </alias>
+        </character>
+        <character>
+            <name>semire</name>
+            <alias xml:id="semire">
+                <name>semire</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>astree</name>
+            <alias xml:id="astree">
+                <name>astree</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>philis</name>
+            <alias xml:id="philis">
+                <name>philis</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>hylas</name>
+            <alias xml:id="hylas">
+                <name>hylas</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>astree_philis</name>
+            <alias xml:id="astree_philis">
+                <name>astree_philis</name>
+            </alias>
+        </character>
+        <character>
+            <name>celadon</name>
+            <alias xml:id="celadon">
+                <name>celadon</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>druide</name>
+            <alias xml:id="druide">
+                <name>druide</name>
+            </alias>
+        </character>
+        <character>
+            <name>druide_choeur</name>
+            <alias xml:id="druide_choeur">
+                <name>druide_choeur</name>
+            </alias>
+        </character>
+        <character>
+            <name>berger_choeur</name>
+            <alias xml:id="berger_choeur">
+                <name>berger_choeur</name>
+            </alias>
+        </character>
+        <character>
+            <name>berger</name>
+            <alias xml:id="berger">
+                <name>berger</name>
+            </alias>
+        </character>
+        <character>
+            <name>galatee</name>
+            <alias xml:id="galatee">
+                <name>galatee</name>
+            </alias>
+        </character>
+        <character>
+            <name>leonide</name>
+            <alias xml:id="leonide">
+                <name>leonide</name>
+            </alias>
+        </character>
+        <character>
+            <name>celadon_leonide</name>
+            <alias xml:id="celadon_leonide">
+                <name>celadon_leonide</name>
+            </alias>
+        </character>
+        <character>
+            <name>ismene</name>
+            <alias xml:id="ismene">
+                <name>ismene</name>
+            </alias>
+        </character>
+        <character>
+            <name>genie</name>
+            <alias xml:id="genie">
+                <name>genie</name>
+            </alias>
+        </character>
+        <character>
+            <name>tircis</name>
+            <alias xml:id="tircis">
+                <name>tircis</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>tircis_hylas</name>
+            <alias xml:id="tircis_hylas">
+                <name>tircis_hylas</name>
+            </alias>
+        </character>
+        <character>
+            <name>astree_celadon</name>
+            <alias xml:id="astree_celadon">
+                <name>astree_celadon</name>
+            </alias>
+        </character>
+        <character>
+            <name>galatee_ismene_astree_celadon</name>
+            <alias xml:id="galatee_ismene_astree_celadon">
+                <name>galatee_ismene_astree_celadon</name>
+            </alias>
+        </character>
+        <character>
+            <name>ismene_galatee</name>
+            <alias xml:id="ismene_galatee">
+                <name>ismene_galatee</name>
+            </alias>
+        </character>
+        <character>
+            <name>lizette</name>
+            <alias xml:id="lizette">
+                <name>lizette</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>galioffo</name>
+            <alias xml:id="galioffo">
+                <name>galioffo</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>gambarini</name>
+            <alias xml:id="gambarini">
+                <name>gambarini</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>lizette_galioffo_gambarini</name>
+            <alias xml:id="lizette_galioffo_gambarini">
+                <name>lizette_galioffo_gambarini</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>PROLOGUE</head>
+            <div>
+                <head/>
+                <sp who="#nymphe">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="179" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="968" unit="chars"/>
+                </sp>
+                <sp who="#apollon">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="234" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="1220" unit="chars"/>
+                </sp>
+                <sp who="#apollon_nymphe_acanthe">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="170" unit="chars"/>
+                </sp>
+                <sp who="#choeur">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="73" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="423" unit="chars"/>
+                </sp>
+                <sp who="#nymphe_acanthe">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="41" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="184" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE I.</head>
+                <sp who="#semire">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="209" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="1152" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Astrée, Philis.</head>
+                <sp who="#astree">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="277" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="1444" unit="chars"/>
+                </sp>
+                <sp who="#philis">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="231" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="1189" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Philis, Hylas, Astrée.</head>
+                <sp who="#philis">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="124" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="680" unit="chars"/>
+                </sp>
+                <sp who="#hylas">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="104" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="527" unit="chars"/>
+                </sp>
+                <sp who="#astree">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="91" unit="chars"/>
+                </sp>
+                <sp who="#astree_philis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="69" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Céladon, Astrée.</head>
+                <sp who="#celadon">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="281" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="1409" unit="chars"/>
+                </sp>
+                <sp who="#astree">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="81" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="417" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V.</head>
+                <sp who="#astree">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="139" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="727" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Troupes de druides, de pâtres, sylvains, faunes, bergers et bergères.</head>
+                <sp who="#druide">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="89" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="474" unit="chars"/>
+                </sp>
+                <sp who="#druide_choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="184" unit="chars"/>
+                </sp>
+                <sp who="#berger_choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="112" unit="chars"/>
+                </sp>
+                <sp who="#choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="64" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="320" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII.</head>
+                <sp who="#berger">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="25" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="140" unit="chars"/>
+                </sp>
+                <sp who="#choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="3" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="22" unit="chars"/>
+                </sp>
+                <sp who="#druide">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="27" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="120" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Philis, Astrée.</head>
+                <sp who="#philis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="75" unit="chars"/>
+                </sp>
+                <sp who="#astree">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="88" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="438" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE I.</head>
+                <sp who="#galatee">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="50" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="255" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Léonide et Galatée.</head>
+                <sp who="#leonide">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="93" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="489" unit="chars"/>
+                </sp>
+                <sp who="#galatee">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="298" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="1555" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Galatée, Céladon, Léonide.</head>
+                <sp who="#galatee">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="237" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="1310" unit="chars"/>
+                </sp>
+                <sp who="#celadon">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="84" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="410" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Céladon, Léonide.</head>
+                <sp who="#leonide">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="187" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="967" unit="chars"/>
+                </sp>
+                <sp who="#celadon">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="158" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="856" unit="chars"/>
+                </sp>
+                <sp who="#celadon_leonide">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="80" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Ismène, Fée, Léonide, Céladon.</head>
+                <sp who="#ismene">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="201" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="968" unit="chars"/>
+                </sp>
+                <sp who="#leonide">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="123" unit="chars"/>
+                </sp>
+                <sp who="#celadon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="153" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Philis, Astrée.</head>
+                <sp who="#philis">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="77" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="376" unit="chars"/>
+                </sp>
+                <sp who="#astree">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="76" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="387" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Astrée, Philis, Hylas, Tircis, choeur de demi-dieux, de nymphes, et des ministres d'Ismène.</head>
+                <sp who="#genie">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="128" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="628" unit="chars"/>
+                </sp>
+                <sp who="#choeur">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="61" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="343" unit="chars"/>
+                </sp>
+                <sp who="#hylas">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="141" unit="chars"/>
+                </sp>
+                <sp who="#tircis">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="107" unit="chars"/>
+                </sp>
+                <sp who="#tircis_hylas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="100" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Philis, Astrée.</head>
+                <sp who="#philis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="64" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="315" unit="chars"/>
+                </sp>
+                <sp who="#astree">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="299" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I.</head>
+                <sp who="#astree">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="225" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="1119" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II.</head>
+                <sp who="#celadon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="127" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="668" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Tircis, Hylas.</head>
+                <sp who="#tircis">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="102" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="506" unit="chars"/>
+                </sp>
+                <sp who="#hylas">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="176" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Astrée, Céladon.</head>
+                <sp who="#astree">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="144" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="797" unit="chars"/>
+                </sp>
+                <sp who="#celadon">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="84" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="496" unit="chars"/>
+                </sp>
+                <sp who="#astree_celadon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="198" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Ismène, Galatée, Céladon, Astrée.</head>
+                <sp who="#celadon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="96" unit="chars"/>
+                </sp>
+                <sp who="#galatee">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="54" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="275" unit="chars"/>
+                </sp>
+                <sp who="#astree_celadon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="45" unit="chars"/>
+                </sp>
+                <sp who="#ismene">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="112" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="560" unit="chars"/>
+                </sp>
+                <sp who="#galatee_ismene_astree_celadon">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="217" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Galatée, Ismène, Hylas&#160;; choeur de bergers et de bergères.</head>
+                <sp who="#galatee">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="25" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="146" unit="chars"/>
+                </sp>
+                <sp who="#ismene_galatee">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="27" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="157" unit="chars"/>
+                </sp>
+                <sp who="#choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="98" unit="chars"/>
+                </sp>
+                <sp who="#hylas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="234" unit="chars"/>
+                </sp>
+                <sp who="#ismene">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="27" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="150" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Troupe de la suite d'Ismène, Lizette, Galioffo, Gambarini.</head>
+                <sp who="#lizette">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="91" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="458" unit="chars"/>
+                </sp>
+                <sp who="#galioffo">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="230" unit="chars"/>
+                </sp>
+                <sp who="#gambarini">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="67" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="289" unit="chars"/>
+                </sp>
+                <sp who="#lizette_galioffo_gambarini">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="44" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

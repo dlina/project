@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LE MARIAGE DE SCARRON</title>
+        <subtitle>COMÉDIE en un acte et en prose, mêlée de vaudevilles</subtitle>
+        <genretitle>Vaudeville</genretitle>
+        <author>BARRÉ, RADET, DESFONTAINES.</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/BARREREDETDESFONTAINES_MARIGEDESCARRON.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>maugin</name>
+            <alias xml:id="maugin">
+                <name>maugin</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>monsieur_de_villarceaux</name>
+            <alias xml:id="monsieur_de_villarceaux">
+                <name>monsieur_de_villarceaux</name>
+            </alias>
+        </character>
+        <character>
+            <name>monsieur_villarceaux</name>
+            <alias xml:id="monsieur_villarceaux">
+                <name>monsieur_villarceaux</name>
+            </alias>
+        </character>
+        <character>
+            <name>ninon</name>
+            <alias xml:id="ninon">
+                <name>ninon</name>
+            </alias>
+        </character>
+        <character>
+            <name>ensemble</name>
+            <alias xml:id="ensemble">
+                <name>ensemble</name>
+            </alias>
+        </character>
+        <character>
+            <name>mademoiselle_d_aubig_</name>
+            <alias xml:id="mademoiselle_d_aubig_">
+                <name>mademoiselle_d_aubig_</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>_nage</name>
+            <alias xml:id="_nage">
+                <name>_nage</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>scarron</name>
+            <alias xml:id="scarron">
+                <name>scarron</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>girault</name>
+            <alias xml:id="girault">
+                <name>girault</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>babet</name>
+            <alias xml:id="babet">
+                <name>babet</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>monsieur_de_villarceaux___nage</name>
+            <alias xml:id="monsieur_de_villarceaux___nage">
+                <name>monsieur_de_villarceaux___nage</name>
+            </alias>
+        </character>
+        <character>
+            <name>tous</name>
+            <alias xml:id="tous">
+                <name>tous</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_notaire</name>
+            <alias xml:id="le_notaire">
+                <name>le_notaire</name>
+            </alias>
+        </character>
+        <character>
+            <name>choeur</name>
+            <alias xml:id="choeur">
+                <name>choeur</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head/>
+            <div>
+                <head>SCÈNE PREMIÈRE. </head>
+                <sp who="#maugin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="559" unit="words"/>
+                    <amount n="52" unit="lines"/>
+                    <amount n="2481" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. MAUGIN, M. DE VILLARCEAUX. </head>
+                <sp who="#maugin">
+                    <amount n="34" unit="speech_acts"/>
+                    <amount n="942" unit="words"/>
+                    <amount n="161" unit="lines"/>
+                    <amount n="3709" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_de_villarceaux">
+                    <amount n="33" unit="speech_acts"/>
+                    <amount n="302" unit="words"/>
+                    <amount n="110" unit="lines"/>
+                    <amount n="1267" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_villarceaux">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="37" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Les Mêmes, Ninon. </head>
+                <sp who="#ninon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="39" unit="chars"/>
+                </sp>
+                <sp who="#maugin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="106" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Ninon, Monsieur de Villarceaux.</head>
+                <sp who="#ninon">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="492" unit="words"/>
+                    <amount n="74" unit="lines"/>
+                    <amount n="2272" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_de_villarceaux">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="158" unit="words"/>
+                    <amount n="52" unit="lines"/>
+                    <amount n="634" unit="chars"/>
+                </sp>
+                <sp who="#ensemble">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="27" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="132" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Les mêmes, Mademoiselle d'Aubigné.</head>
+                <sp who="#ninon">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="130" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="565" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_d_aubig_">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="151" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_de_villarceaux">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="64" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="248" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Ninon, Mademoiselle D'Aubigné.</head>
+                <sp who="#ninon">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="483" unit="words"/>
+                    <amount n="75" unit="lines"/>
+                    <amount n="2019" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_d_aubig_">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="317" unit="words"/>
+                    <amount n="48" unit="lines"/>
+                    <amount n="1456" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. </head>
+                <sp who="#mademoiselle_d_aubig_">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="85" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="390" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Mademoiselle D'Aubigné, Maugin.</head>
+                <sp who="#maugin">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="115" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="503" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_d_aubig_">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="86" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. </head>
+                <sp who="#_nage">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="114" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Ménage, Scarron. </head>
+                <sp who="#scarron">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="101" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="399" unit="chars"/>
+                </sp>
+                <sp who="#_nage">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="25" unit="chars"/>
+                </sp>
+                <sp who="#maugin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="16" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Scarron, Ménage.</head>
+                <sp who="#scarron">
+                    <amount n="26" unit="speech_acts"/>
+                    <amount n="566" unit="words"/>
+                    <amount n="118" unit="lines"/>
+                    <amount n="2314" unit="chars"/>
+                </sp>
+                <sp who="#_nage">
+                    <amount n="25" unit="speech_acts"/>
+                    <amount n="487" unit="words"/>
+                    <amount n="102" unit="lines"/>
+                    <amount n="2113" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII. </head>
+                <sp who="#scarron">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="3" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="24" unit="chars"/>
+                </sp>
+                <sp who="#maugin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="50" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIII. </head>
+                <sp who="#scarron">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="343" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="1415" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIV. Scarron, Mademoiselle D'Aubigné.</head>
+                <sp who="#scarron">
+                    <amount n="28" unit="speech_acts"/>
+                    <amount n="827" unit="words"/>
+                    <amount n="151" unit="lines"/>
+                    <amount n="3608" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_d_aubig_">
+                    <amount n="27" unit="speech_acts"/>
+                    <amount n="478" unit="words"/>
+                    <amount n="113" unit="lines"/>
+                    <amount n="2032" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XV. Les Mêmes, Maugin.</head>
+                <sp who="#maugin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="115" unit="chars"/>
+                </sp>
+                <sp who="#scarron">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="90" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="351" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_d_aubig_">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="68" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVI. Scarron, Girault.</head>
+                <sp who="#scarron">
+                    <amount n="35" unit="speech_acts"/>
+                    <amount n="698" unit="words"/>
+                    <amount n="152" unit="lines"/>
+                    <amount n="2726" unit="chars"/>
+                </sp>
+                <sp who="#girault">
+                    <amount n="34" unit="speech_acts"/>
+                    <amount n="508" unit="words"/>
+                    <amount n="107" unit="lines"/>
+                    <amount n="2224" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVII. </head>
+                <sp who="#scarron">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="88" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="363" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVIII. Scarron, Babet d'un air timide et cherchant. </head>
+                <sp who="#babet">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="324" unit="words"/>
+                    <amount n="61" unit="lines"/>
+                    <amount n="1386" unit="chars"/>
+                </sp>
+                <sp who="#scarron">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="218" unit="words"/>
+                    <amount n="48" unit="lines"/>
+                    <amount n="911" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIX. Scarron, Maugin.</head>
+                <sp who="#scarron">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="74" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="341" unit="chars"/>
+                </sp>
+                <sp who="#maugin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="122" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="608" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XX. Scarron, Monsieur de Villarceaux. </head>
+                <sp who="#scarron">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="72" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="301" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_de_villarceaux">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="195" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXI. Les Mêmes, Ménage.</head>
+                <sp who="#scarron">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="101" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="416" unit="chars"/>
+                </sp>
+                <sp who="#_nage">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="90" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_de_villarceaux">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="37" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="178" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_de_villarceaux___nage">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="90" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXII. Les mêmes, Mademoiselle D'Aubigné.</head>
+                <sp who="#_nage">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="46" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_d_aubig_">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="197" unit="chars"/>
+                </sp>
+                <sp who="#scarron">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="67" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="341" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_de_villarceaux">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="164" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXIII. Les mêmes, Ninon.</head>
+                <sp who="#ninon">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="267" unit="words"/>
+                    <amount n="53" unit="lines"/>
+                    <amount n="1237" unit="chars"/>
+                </sp>
+                <sp who="#tous">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="100" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_de_villarceaux">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="100" unit="chars"/>
+                </sp>
+                <sp who="#scarron">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="179" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_d_aubig_">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="84" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="374" unit="chars"/>
+                </sp>
+                <sp who="#_nage">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="95" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXIV. les Mêmes, Girault, un Notaire. </head>
+                <sp who="#girault">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="124" unit="chars"/>
+                </sp>
+                <sp who="#scarron">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="153" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="684" unit="chars"/>
+                </sp>
+                <sp who="#_nage">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="78" unit="chars"/>
+                </sp>
+                <sp who="#tous">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="2" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="10" unit="chars"/>
+                </sp>
+                <sp who="#ninon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="105" unit="chars"/>
+                </sp>
+                <sp who="#le_notaire">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="131" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXV. Les Mêmes, Maugin, Babet.</head>
+                <sp who="#maugin">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="140" unit="chars"/>
+                </sp>
+                <sp who="#scarron">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="194" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="850" unit="chars"/>
+                </sp>
+                <sp who="#le_notaire">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="29" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_de_villarceaux">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="184" unit="chars"/>
+                </sp>
+                <sp who="#ninon">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="199" unit="chars"/>
+                </sp>
+                <sp who="#girault">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="43" unit="chars"/>
+                </sp>
+                <sp who="#babet">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="53" unit="chars"/>
+                </sp>
+                <sp who="#tous">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="68" unit="chars"/>
+                </sp>
+                <sp who="#_nage">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="60" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>VAUDEVILLE.</head>
+                <sp who="#_nage">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="207" unit="chars"/>
+                </sp>
+                <sp who="#choeur">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="50" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="191" unit="chars"/>
+                </sp>
+                <sp who="#scarron">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="184" unit="chars"/>
+                </sp>
+                <sp who="#ninon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="50" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="192" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_d_aubig_">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="147" unit="chars"/>
+                </sp>
+                <sp who="#maugin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="74" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="290" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

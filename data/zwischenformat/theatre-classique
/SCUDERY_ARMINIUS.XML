@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>ARMINIUS ou LES FRÈRES ENNEMIS</title>
+        <subtitle>TRAGÉDIE</subtitle>
+        <genretitle>Tragédie</genretitle>
+        <author>SCUDERY, Georges de</author>
+        <date when="1644">1644</date>
+        <source>https://github.com/dramacode/theatre-classique/SCUDERY_ARMINIUS.XML</source>
+    </header>
+    <personae>
+        <character>
+            <name>cecina</name>
+            <alias xml:id="cecina">
+                <name>cecina</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>agrippine</name>
+            <alias xml:id="agrippine">
+                <name>agrippine</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>hercinie</name>
+            <alias xml:id="hercinie">
+                <name>hercinie</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>segeste</name>
+            <alias xml:id="segeste">
+                <name>segeste</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>germanicus</name>
+            <alias xml:id="germanicus">
+                <name>germanicus</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>arminius</name>
+            <alias xml:id="arminius">
+                <name>arminius</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>segimire</name>
+            <alias xml:id="segimire">
+                <name>segimire</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>emile</name>
+            <alias xml:id="emile">
+                <name>emile</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>flavian</name>
+            <alias xml:id="flavian">
+                <name>flavian</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE I. Cecina, troupe de soldats romains.</head>
+                <sp who="#cecina">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="131" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="624" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II.</head>
+                <sp who="#agrippine">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="609" unit="words"/>
+                    <amount n="76" unit="lines"/>
+                    <amount n="2883" unit="chars"/>
+                </sp>
+                <sp who="#hercinie">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="1073" unit="words"/>
+                    <amount n="119" unit="lines"/>
+                    <amount n="4894" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III.</head>
+                <sp who="#segeste">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="189" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="913" unit="chars"/>
+                </sp>
+                <sp who="#germanicus">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="565" unit="words"/>
+                    <amount n="65" unit="lines"/>
+                    <amount n="2578" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV.</head>
+                <sp who="#arminius">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="395" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="1822" unit="chars"/>
+                </sp>
+                <sp who="#germanicus">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="184" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="872" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE I. Segimire, Émile.</head>
+                <sp who="#segimire">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="634" unit="words"/>
+                    <amount n="66" unit="lines"/>
+                    <amount n="2779" unit="chars"/>
+                </sp>
+                <sp who="#emile">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="194" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="909" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Flavian, Hercinie.</head>
+                <sp who="#flavian">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="736" unit="words"/>
+                    <amount n="83" unit="lines"/>
+                    <amount n="3448" unit="chars"/>
+                </sp>
+                <sp who="#hercinie">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="454" unit="words"/>
+                    <amount n="54" unit="lines"/>
+                    <amount n="2011" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III.</head>
+                <sp who="#flavian">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="159" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="717" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Flavian, Émile.</head>
+                <sp who="#flavian">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="142" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="633" unit="chars"/>
+                </sp>
+                <sp who="#emile">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="128" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="582" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Segimire, Flavian.</head>
+                <sp who="#segimire">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="331" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="1452" unit="chars"/>
+                </sp>
+                <sp who="#flavian">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="149" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="650" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Segimire, Émile.</head>
+                <sp who="#segimire">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="117" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="491" unit="chars"/>
+                </sp>
+                <sp who="#emile">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="134" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="634" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Germanicus, Cecina, Agripine.</head>
+                <sp who="#germanicus">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="223" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="1055" unit="chars"/>
+                </sp>
+                <sp who="#cecina">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="357" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="1744" unit="chars"/>
+                </sp>
+                <sp who="#agrippine">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="234" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="1130" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII.</head>
+                <sp who="#arminius">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="184" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="872" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Cecina, Arminius.</head>
+                <sp who="#cecina">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="151" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="740" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X.</head>
+                <sp who="#arminius">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="515" unit="words"/>
+                    <amount n="51" unit="lines"/>
+                    <amount n="2390" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I.</head>
+                <sp who="#flavian">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="420" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="1877" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Flavian, Segeste.</head>
+                <sp who="#flavian">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="187" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="833" unit="chars"/>
+                </sp>
+                <sp who="#segeste">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="318" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1414" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCENE III. Agripine, Germanicus, Segimire.</head>
+                <sp who="#agrippine">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="51" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="238" unit="chars"/>
+                </sp>
+                <sp who="#germanicus">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="258" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="1214" unit="chars"/>
+                </sp>
+                <sp who="#segimire">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="358" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="1697" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Germanicus, Segeste.</head>
+                <sp who="#germanicus">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="385" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="1790" unit="chars"/>
+                </sp>
+                <sp who="#segeste">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="258" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="1231" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V.</head>
+                <sp who="#segeste">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="91" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="375" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI.</head>
+                <sp who="#cecina">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="37" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="176" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Arminius, Hercinie.</head>
+                <sp who="#arminius">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="453" unit="words"/>
+                    <amount n="59" unit="lines"/>
+                    <amount n="2100" unit="chars"/>
+                </sp>
+                <sp who="#hercinie">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="369" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="1733" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE I. Segimire, Hercinie, Émile.</head>
+                <sp who="#segimire">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="128" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="607" unit="chars"/>
+                </sp>
+                <sp who="#hercinie">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="152" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="702" unit="chars"/>
+                </sp>
+                <sp who="#emile">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="47" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Agripine, Flavian, Hercinie, Segimire.</head>
+                <sp who="#agrippine">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="56" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="275" unit="chars"/>
+                </sp>
+                <sp who="#flavian">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="236" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1102" unit="chars"/>
+                </sp>
+                <sp who="#hercinie">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="81" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="362" unit="chars"/>
+                </sp>
+                <sp who="#segimire">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="91" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="433" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III.</head>
+                <sp who="#flavian">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="99" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="426" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Arminius, Germanicus.</head>
+                <sp who="#arminius">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="888" unit="words"/>
+                    <amount n="96" unit="lines"/>
+                    <amount n="4062" unit="chars"/>
+                </sp>
+                <sp who="#germanicus">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="338" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="1537" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V.</head>
+                <sp who="#germanicus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="175" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Segeste, Hercinie.</head>
+                <sp who="#segeste">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="78" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="374" unit="chars"/>
+                </sp>
+                <sp who="#hercinie">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="295" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="1412" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Arminius, Segeste, Hercinie.</head>
+                <sp who="#arminius">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="115" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="551" unit="chars"/>
+                </sp>
+                <sp who="#segeste">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="171" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="764" unit="chars"/>
+                </sp>
+                <sp who="#hercinie">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="72" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="337" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Arminius, Hercinie.</head>
+                <sp who="#arminius">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="197" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="922" unit="chars"/>
+                </sp>
+                <sp who="#hercinie">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="182" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="782" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE I. Germanicus, Cecina.</head>
+                <sp who="#germanicus">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="240" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="1073" unit="chars"/>
+                </sp>
+                <sp who="#cecina">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="97" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="416" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Segeste, Cecina.</head>
+                <sp who="#segeste">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="608" unit="words"/>
+                    <amount n="75" unit="lines"/>
+                    <amount n="2856" unit="chars"/>
+                </sp>
+                <sp who="#cecina">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="99" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="463" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III.</head>
+                <sp who="#cecina">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="41" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="190" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Arminus, Flavian.</head>
+                <sp who="#arminius">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="740" unit="words"/>
+                    <amount n="84" unit="lines"/>
+                    <amount n="3385" unit="chars"/>
+                </sp>
+                <sp who="#flavian">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="473" unit="words"/>
+                    <amount n="55" unit="lines"/>
+                    <amount n="2063" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Hercinie, Flavian, Arminius.</head>
+                <sp who="#hercinie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="371" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1597" unit="chars"/>
+                </sp>
+                <sp who="#flavian">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="143" unit="chars"/>
+                </sp>
+                <sp who="#arminius">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="128" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Segimire, Arminius, Flavian, Émile.</head>
+                <sp who="#segimire">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="288" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="1276" unit="chars"/>
+                </sp>
+                <sp who="#arminius">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="42" unit="chars"/>
+                </sp>
+                <sp who="#flavian">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="58" unit="chars"/>
+                </sp>
+                <sp who="#emile">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="3" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="17" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE DERNIERE. Germanicus, Arminius, Flavian, Segimire, Cecina, Agripine.</head>
+                <sp who="#germanicus">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="230" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="1060" unit="chars"/>
+                </sp>
+                <sp who="#arminius">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="212" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="986" unit="chars"/>
+                </sp>
+                <sp who="#flavian">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="86" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="426" unit="chars"/>
+                </sp>
+                <sp who="#segimire">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="173" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="772" unit="chars"/>
+                </sp>
+                <sp who="#cecina">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="64" unit="chars"/>
+                </sp>
+                <sp who="#agrippine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="76" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="352" unit="chars"/>
+                </sp>
+                <sp who="#hercinie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="63" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

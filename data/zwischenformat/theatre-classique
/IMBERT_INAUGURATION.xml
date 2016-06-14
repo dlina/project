@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>L'INAUGURATION DU THÉÂTRE FRANÇAIS</title>
+        <subtitle>PIECE EN UN ACTE ET EN VERS</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>IMBERT, Barthélémy</author>
+        <date when="1664">1664</date>
+        <source>https://github.com/dramacode/theatre-classique/IMBERT_INAUGURATION.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>mercure</name>
+            <alias xml:id="mercure">
+                <name>mercure</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>la_cabale</name>
+            <alias xml:id="la_cabale">
+                <name>la_cabale</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>apollon</name>
+            <alias xml:id="apollon">
+                <name>apollon</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_auteur_comique</name>
+            <alias xml:id="l_auteur_comique">
+                <name>l_auteur_comique</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_auteur_tragique</name>
+            <alias xml:id="l_auteur_tragique">
+                <name>l_auteur_tragique</name>
+            </alias>
+        </character>
+        <character>
+            <name>la_critique</name>
+            <alias xml:id="la_critique">
+                <name>la_critique</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>melpo_ne</name>
+            <alias xml:id="melpo_ne">
+                <name>melpo_ne</name>
+            </alias>
+        </character>
+        <character>
+            <name>thalie</name>
+            <alias xml:id="thalie">
+                <name>thalie</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le__nie_de_corneille</name>
+            <alias xml:id="le__nie_de_corneille">
+                <name>le__nie_de_corneille</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le__nie_de_mol_re</name>
+            <alias xml:id="le__nie_de_mol_re">
+                <name>le__nie_de_mol_re</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_acteur_tragique</name>
+            <alias xml:id="l_acteur_tragique">
+                <name>l_acteur_tragique</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_acteur_comique</name>
+            <alias xml:id="l_acteur_comique">
+                <name>l_acteur_comique</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head/>
+            <div>
+                <head>SCÈNE PREMIERE. Mercure, Plusieurs Génies.</head>
+                <sp who="#mercure">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="85" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="420" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Mercure, seul d'abord; ensuite La Cabale.</head>
+                <sp who="#mercure">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="290" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="1317" unit="chars"/>
+                </sp>
+                <sp who="#la_cabale">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="355" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="1653" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III.</head>
+                <sp who="#mercure">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="45" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="190" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Mercure, Apollon.</head>
+                <sp who="#mercure">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="181" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="864" unit="chars"/>
+                </sp>
+                <sp who="#apollon">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="239" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="1100" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Apollon, Mercure, un Auteur tragique, un Auteur comique.</head>
+                <sp who="#l_auteur_comique">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="382" unit="words"/>
+                    <amount n="55" unit="lines"/>
+                    <amount n="1764" unit="chars"/>
+                </sp>
+                <sp who="#apollon">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="291" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="1397" unit="chars"/>
+                </sp>
+                <sp who="#mercure">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="105" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="506" unit="chars"/>
+                </sp>
+                <sp who="#l_auteur_tragique">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="413" unit="words"/>
+                    <amount n="47" unit="lines"/>
+                    <amount n="1933" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. La Critique, Apollon, Mercure, les deux Auteurs.</head>
+                <sp who="#l_auteur_tragique">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="25" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="97" unit="chars"/>
+                </sp>
+                <sp who="#l_auteur_comique">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="68" unit="chars"/>
+                </sp>
+                <sp who="#apollon">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="46" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="218" unit="chars"/>
+                </sp>
+                <sp who="#mercure">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="44" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. La Critique, Apollon, Mercure.</head>
+                <sp who="#apollon">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="232" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="1101" unit="chars"/>
+                </sp>
+                <sp who="#mercure">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="214" unit="chars"/>
+                </sp>
+                <sp who="#la_critique">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="238" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1117" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Thalie et Melpomène, le Génie de Corneille, et le Génie de Molière, Apollon, Mercure, la Critique.</head>
+                <sp who="#apollon">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="99" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="477" unit="chars"/>
+                </sp>
+                <sp who="#melpo_ne">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="112" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="487" unit="chars"/>
+                </sp>
+                <sp who="#la_critique">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="92" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="410" unit="chars"/>
+                </sp>
+                <sp who="#thalie">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="85" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="400" unit="chars"/>
+                </sp>
+                <sp who="#mercure">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="58" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="278" unit="chars"/>
+                </sp>
+                <sp who="#le__nie_de_corneille">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="191" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="937" unit="chars"/>
+                </sp>
+                <sp who="#le__nie_de_mol_re">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="410" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="2069" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX ET DERNIÈRE. Les précédents, Un Acteur Tragique, habillé en Orosmane, ou sous un autre habit tragique, mais sans poignard, Un Acteur comique, en habit de Crispin, mais sans épée.</head>
+                <sp who="#melpo_ne">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="60" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="292" unit="chars"/>
+                </sp>
+                <sp who="#thalie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="57" unit="chars"/>
+                </sp>
+                <sp who="#l_acteur_tragique">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="160" unit="chars"/>
+                </sp>
+                <sp who="#l_acteur_comique">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="146" unit="chars"/>
+                </sp>
+                <sp who="#apollon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="232" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

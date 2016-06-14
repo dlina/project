@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LE SUISSE DE PORTE ET LE PORTRAIT.</title>
+        <subtitle>COMÉDIE.</subtitle>
+        <subtitle>QUARANTE-NEUVIÈME PROVERBE.</subtitle>
+        <genretitle>Proverbe</genretitle>
+        <author>CARMONTELLE, Louis Carrogis, dit Louis de Carmontelle</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/CARMONTELLE_SUISSEDEPORTE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>l_baron</name>
+            <alias xml:id="l_baron">
+                <name>l_baron</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>dubois</name>
+            <alias xml:id="dubois">
+                <name>dubois</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_comte</name>
+            <alias xml:id="l_comte">
+                <name>l_comte</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_marquise</name>
+            <alias xml:id="l_marquise">
+                <name>l_marquise</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_suisse</name>
+            <alias xml:id="l_suisse">
+                <name>l_suisse</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head/>
+            <div>
+                <head>SCÈNE PREMIÈRE. Le Baron, Dubois.</head>
+                <sp who="#l_baron">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="184" unit="chars"/>
+                </sp>
+                <sp who="#dubois">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="138" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Le BARON , Le COMTE.</head>
+                <sp who="#l_comte">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="150" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="662" unit="chars"/>
+                </sp>
+                <sp who="#l_baron">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="228" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="1066" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. La Marquise, Le Baron.</head>
+                <sp who="#l_marquise">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="176" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="815" unit="chars"/>
+                </sp>
+                <sp who="#l_baron">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="338" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="1602" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. La Marquise, Le Comte, Le Baron.</head>
+                <sp who="#l_comte">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="135" unit="chars"/>
+                </sp>
+                <sp who="#l_marquise">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="131" unit="chars"/>
+                </sp>
+                <sp who="#l_baron">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="50" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. La Marquise, Le Comte, Le Baron, Dubois, Le Suisse.</head>
+                <sp who="#l_marquise">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="60" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="267" unit="chars"/>
+                </sp>
+                <sp who="#dubois">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="44" unit="chars"/>
+                </sp>
+                <sp who="#l_suisse">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="144" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="655" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. La Comtesse, Le Baron, Le Comte.</head>
+                <sp who="#l_baron">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="54" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="269" unit="chars"/>
+                </sp>
+                <sp who="#l_comte">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="215" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="925" unit="chars"/>
+                </sp>
+                <sp who="#l_marquise">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="179" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="847" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

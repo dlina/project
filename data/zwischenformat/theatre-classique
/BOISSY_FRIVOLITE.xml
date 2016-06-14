@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LA FRIVOLITÉ</title>
+        <subtitle>COMÉDIE EN UN ACTE ET EN VERS.</subtitle>
+        <subtitle>Représentée pour la première fois par les Comédiens Italiens le 23 Janvier 1753.</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>BOISSY, Louis de</author>
+        <date when="1732">1732</date>
+        <source>https://github.com/dramacode/theatre-classique/BOISSY_FRIVOLITE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>la_frivoli_</name>
+            <alias xml:id="la_frivoli_">
+                <name>la_frivoli_</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_hiver</name>
+            <alias xml:id="l_hiver">
+                <name>l_hiver</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>monsieur_fauster</name>
+            <alias xml:id="monsieur_fauster">
+                <name>monsieur_fauster</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>mis_blar</name>
+            <alias xml:id="mis_blar">
+                <name>mis_blar</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_marquis</name>
+            <alias xml:id="le_marquis">
+                <name>le_marquis</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>empty</name>
+            <alias xml:id="empty">
+                <name>empty</name>
+            </alias>
+        </character>
+        <character>
+            <name>arlequin</name>
+            <alias xml:id="arlequin">
+                <name>arlequin</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_marquis__arlequin</name>
+            <alias xml:id="le_marquis__arlequin">
+                <name>le_marquis__arlequin</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. La Frivolité, L'Hiver.</head>
+                <sp who="#la_frivoli_">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="681" unit="words"/>
+                    <amount n="72" unit="lines"/>
+                    <amount n="3126" unit="chars"/>
+                </sp>
+                <sp who="#l_hiver">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="372" unit="words"/>
+                    <amount n="47" unit="lines"/>
+                    <amount n="1679" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. La Frivolité, Monsieur Fauster.</head>
+                <sp who="#monsieur_fauster">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="998" unit="words"/>
+                    <amount n="120" unit="lines"/>
+                    <amount n="4441" unit="chars"/>
+                </sp>
+                <sp who="#la_frivoli_">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="809" unit="words"/>
+                    <amount n="100" unit="lines"/>
+                    <amount n="3639" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. La Frivolité, Monsieur Fauster, Miss-Blar.</head>
+                <sp who="#mis_blar">
+                    <amount n="31" unit="speech_acts"/>
+                    <amount n="800" unit="words"/>
+                    <amount n="123" unit="lines"/>
+                    <amount n="3474" unit="chars"/>
+                </sp>
+                <sp who="#la_frivoli_">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="264" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="1205" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_fauster">
+                    <amount n="21" unit="speech_acts"/>
+                    <amount n="588" unit="words"/>
+                    <amount n="91" unit="lines"/>
+                    <amount n="2588" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. La Frivolité, Le Marquis, Miss-Blar et Monsieur Fauster, cachés.</head>
+                <sp who="#le_marquis">
+                    <amount n="20" unit="speech_acts"/>
+                    <amount n="562" unit="words"/>
+                    <amount n="81" unit="lines"/>
+                    <amount n="2535" unit="chars"/>
+                </sp>
+                <sp who="#la_frivoli_">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="392" unit="words"/>
+                    <amount n="65" unit="lines"/>
+                    <amount n="1745" unit="chars"/>
+                </sp>
+                <sp who="#">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="116" unit="chars"/>
+                </sp>
+                <sp who="#mis_blar">
+                    <amount n="24" unit="speech_acts"/>
+                    <amount n="735" unit="words"/>
+                    <amount n="109" unit="lines"/>
+                    <amount n="3375" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_fauster">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="451" unit="words"/>
+                    <amount n="61" unit="lines"/>
+                    <amount n="2147" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V.</head>
+                <sp who="#la_frivoli_">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="164" unit="chars"/>
+                </sp>
+                <sp who="#le_marquis">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="41" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="176" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI et DERNIÈRE. La Frivolité, Le Marquis, Arlequin, déguisé en Maître de Musique.</head>
+                <sp who="#arlequin">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="794" unit="words"/>
+                    <amount n="86" unit="lines"/>
+                    <amount n="3561" unit="chars"/>
+                </sp>
+                <sp who="#la_frivoli_">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="112" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="476" unit="chars"/>
+                </sp>
+                <sp who="#le_marquis">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="110" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="499" unit="chars"/>
+                </sp>
+                <sp who="#le_marquis__arlequin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="83" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

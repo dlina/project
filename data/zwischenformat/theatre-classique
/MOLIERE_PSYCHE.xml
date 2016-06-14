@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>PSYCHÉ</title>
+        <subtitle>TRAGI-COMÉDIE avec intermèdes et ballets</subtitle>
+        <genretitle>Tragi-comédie</genretitle>
+        <author>MOLIÈRE</author>
+        <date when="1666">1666</date>
+        <source>https://github.com/dramacode/theatre-classique/MOLIERE_PSYCHE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>flore</name>
+            <alias xml:id="flore">
+                <name>flore</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>vertumne_palaemon</name>
+            <alias xml:id="vertumne_palaemon">
+                <name>vertumne_palaemon</name>
+            </alias>
+        </character>
+        <character>
+            <name>vertumne</name>
+            <alias xml:id="vertumne">
+                <name>vertumne</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>palaemon</name>
+            <alias xml:id="palaemon">
+                <name>palaemon</name>
+            </alias>
+        </character>
+        <character>
+            <name>choeur</name>
+            <alias xml:id="choeur">
+                <name>choeur</name>
+            </alias>
+        </character>
+        <character>
+            <name>venus</name>
+            <alias xml:id="venus">
+                <name>venus</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>aegiale</name>
+            <alias xml:id="aegiale">
+                <name>aegiale</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>phaene</name>
+            <alias xml:id="phaene">
+                <name>phaene</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>_amour</name>
+            <alias xml:id="_amour">
+                <name>_amour</name>
+            </alias>
+        </character>
+        <character>
+            <name>aglaure</name>
+            <alias xml:id="aglaure">
+                <name>aglaure</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>cidippe</name>
+            <alias xml:id="cidippe">
+                <name>cidippe</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>cleomene</name>
+            <alias xml:id="cleomene">
+                <name>cleomene</name>
+            </alias>
+        </character>
+        <character>
+            <name>agenor</name>
+            <alias xml:id="agenor">
+                <name>agenor</name>
+            </alias>
+        </character>
+        <character>
+            <name>psyche</name>
+            <alias xml:id="psyche">
+                <name>psyche</name>
+            </alias>
+        </character>
+        <character>
+            <name>lycas</name>
+            <alias xml:id="lycas">
+                <name>lycas</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>femm_desolee</name>
+            <alias xml:id="femm_desolee">
+                <name>femm_desolee</name>
+            </alias>
+        </character>
+        <character>
+            <name>premie_homm_afflige</name>
+            <alias xml:id="premie_homm_afflige">
+                <name>premie_homm_afflige</name>
+            </alias>
+        </character>
+        <character>
+            <name>secon_homm_afflige</name>
+            <alias xml:id="secon_homm_afflige">
+                <name>secon_homm_afflige</name>
+            </alias>
+        </character>
+        <character>
+            <name>troi_affliges</name>
+            <alias xml:id="troi_affliges">
+                <name>troi_affliges</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_roi</name>
+            <alias xml:id="l_roi">
+                <name>l_roi</name>
+            </alias>
+        </character>
+        <character>
+            <name>vulcain</name>
+            <alias xml:id="vulcain">
+                <name>vulcain</name>
+            </alias>
+        </character>
+        <character>
+            <name>zephire</name>
+            <alias xml:id="zephire">
+                <name>zephire</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_zephyr</name>
+            <alias xml:id="l_zephyr">
+                <name>l_zephyr</name>
+            </alias>
+        </character>
+        <character>
+            <name>zephyr_amour</name>
+            <alias xml:id="zephyr_amour">
+                <name>zephyr_amour</name>
+            </alias>
+        </character>
+        <character>
+            <name>jupiter</name>
+            <alias xml:id="jupiter">
+                <name>jupiter</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>apollon</name>
+            <alias xml:id="apollon">
+                <name>apollon</name>
+            </alias>
+        </character>
+        <character>
+            <name>divinites</name>
+            <alias xml:id="divinites">
+                <name>divinites</name>
+            </alias>
+        </character>
+        <character>
+            <name>muses</name>
+            <alias xml:id="muses">
+                <name>muses</name>
+            </alias>
+        </character>
+        <character>
+            <name>bacchus</name>
+            <alias xml:id="bacchus">
+                <name>bacchus</name>
+            </alias>
+        </character>
+        <character>
+            <name>mome</name>
+            <alias xml:id="mome">
+                <name>mome</name>
+            </alias>
+        </character>
+        <character>
+            <name>mars</name>
+            <alias xml:id="mars">
+                <name>mars</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>PROLOGUE</head>
+            <div>
+                <head/>
+                <sp who="#flore">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="145" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="593" unit="chars"/>
+                </sp>
+                <sp who="#vertumne_palaemon">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="272" unit="chars"/>
+                </sp>
+                <sp who="#vertumne">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="55" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="250" unit="chars"/>
+                </sp>
+                <sp who="#palaemon">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="63" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="279" unit="chars"/>
+                </sp>
+                <sp who="#choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="194" unit="chars"/>
+                </sp>
+                <sp who="#venus">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="900" unit="words"/>
+                    <amount n="103" unit="lines"/>
+                    <amount n="3965" unit="chars"/>
+                </sp>
+                <sp who="#aegiale">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="54" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="239" unit="chars"/>
+                </sp>
+                <sp who="#phaene">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="63" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="280" unit="chars"/>
+                </sp>
+                <sp who="#_amour">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="50" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="214" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE I. Aglaure, Cidippe.</head>
+                <sp who="#aglaure">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="821" unit="words"/>
+                    <amount n="100" unit="lines"/>
+                    <amount n="3736" unit="chars"/>
+                </sp>
+                <sp who="#cidippe">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="485" unit="words"/>
+                    <amount n="57" unit="lines"/>
+                    <amount n="2099" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Cléomène, Agénor, Aglaure, Cidippe.</head>
+                <sp who="#aglaure">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="211" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="972" unit="chars"/>
+                </sp>
+                <sp who="#cidippe">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="173" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="780" unit="chars"/>
+                </sp>
+                <sp who="#cleomene">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="159" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="716" unit="chars"/>
+                </sp>
+                <sp who="#agenor">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="120" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="534" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Psyché, Cidippe, Aglaure, Cléomène, Agénor.</head>
+                <sp who="#cidippe">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="71" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="323" unit="chars"/>
+                </sp>
+                <sp who="#aglaure">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="107" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="502" unit="chars"/>
+                </sp>
+                <sp who="#psyche">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="466" unit="words"/>
+                    <amount n="51" unit="lines"/>
+                    <amount n="2067" unit="chars"/>
+                </sp>
+                <sp who="#cleomene">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="328" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1497" unit="chars"/>
+                </sp>
+                <sp who="#agenor">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="153" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="696" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Lycas, Psyché, Aglaure, Cidippe, Cléomène, Agénor.</head>
+                <sp who="#lycas">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="265" unit="chars"/>
+                </sp>
+                <sp who="#psyche">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="76" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="329" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Aglaure, Cidippe, Lycas </head>
+                <sp who="#aglaure">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="100" unit="chars"/>
+                </sp>
+                <sp who="#lycas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="168" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="753" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Aglaure, Cidippe.</head>
+                <sp who="#cidippe">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="41" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="182" unit="chars"/>
+                </sp>
+                <sp who="#aglaure">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="45" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="188" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>PREMIER INTERMÈDE.</head>
+                <sp who="#femm_desolee">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="251" unit="chars"/>
+                </sp>
+                <sp who="#premie_homm_afflige">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="55" unit="chars"/>
+                </sp>
+                <sp who="#secon_homm_afflige">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="48" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="205" unit="chars"/>
+                </sp>
+                <sp who="#troi_affliges">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="179" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE I. Le Roi, Psyché, Aglaure, Cidippe, Lycas, Suite.</head>
+                <sp who="#psyche">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="529" unit="words"/>
+                    <amount n="61" unit="lines"/>
+                    <amount n="2355" unit="chars"/>
+                </sp>
+                <sp who="#l_roi">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="1030" unit="words"/>
+                    <amount n="116" unit="lines"/>
+                    <amount n="4603" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Psyché, Aglaure, Cidippe.</head>
+                <sp who="#psyche">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="292" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1291" unit="chars"/>
+                </sp>
+                <sp who="#aglaure">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="171" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="788" unit="chars"/>
+                </sp>
+                <sp who="#cidippe">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="142" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III.</head>
+                <sp who="#psyche">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="215" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="1008" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Cléomène, Agénor, Psyché/</head>
+                <sp who="#cleomene">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="229" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="1065" unit="chars"/>
+                </sp>
+                <sp who="#psyche">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="453" unit="words"/>
+                    <amount n="53" unit="lines"/>
+                    <amount n="2023" unit="chars"/>
+                </sp>
+                <sp who="#agenor">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="182" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="802" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V.</head>
+                <sp who="#_amour">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="61" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="270" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SECOND INTERMÈDE.</head>
+                <sp who="#vulcain">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="137" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="597" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I. L'Amour, Zéphire.</head>
+                <sp who="#zephire">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="418" unit="words"/>
+                    <amount n="52" unit="lines"/>
+                    <amount n="1895" unit="chars"/>
+                </sp>
+                <sp who="#_amour">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="211" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="920" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II.</head>
+                <sp who="#psyche">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="346" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="1482" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. L'Amour, Psyché, Zéphire.</head>
+                <sp who="#_amour">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="970" unit="words"/>
+                    <amount n="114" unit="lines"/>
+                    <amount n="4313" unit="chars"/>
+                </sp>
+                <sp who="#psyche">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="791" unit="words"/>
+                    <amount n="92" unit="lines"/>
+                    <amount n="3481" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>TROISIÈME INTERMEDE.</head>
+                <sp who="#l_zephyr">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="170" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="707" unit="chars"/>
+                </sp>
+                <sp who="#zephyr_amour">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="159" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="591" unit="chars"/>
+                </sp>
+                <sp who="#_amour">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="45" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="199" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE I. Aglaure, Cidippe.</head>
+                <sp who="#aglaure">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="438" unit="words"/>
+                    <amount n="51" unit="lines"/>
+                    <amount n="1952" unit="chars"/>
+                </sp>
+                <sp who="#cidippe">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="244" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="1080" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Psyché, Aglaure, Cidippe.</head>
+                <sp who="#psyche">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="246" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1041" unit="chars"/>
+                </sp>
+                <sp who="#aglaure">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="495" unit="words"/>
+                    <amount n="58" unit="lines"/>
+                    <amount n="2156" unit="chars"/>
+                </sp>
+                <sp who="#cidippe">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="139" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. L'Amour, Psyché.</head>
+                <sp who="#_amour">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="796" unit="words"/>
+                    <amount n="96" unit="lines"/>
+                    <amount n="3456" unit="chars"/>
+                </sp>
+                <sp who="#psyche">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="378" unit="words"/>
+                    <amount n="51" unit="lines"/>
+                    <amount n="1637" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV.</head>
+                <sp who="#psyche">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="415" unit="words"/>
+                    <amount n="48" unit="lines"/>
+                    <amount n="1847" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Vénus, Psyché.</head>
+                <sp who="#venus">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="409" unit="words"/>
+                    <amount n="52" unit="lines"/>
+                    <amount n="1864" unit="chars"/>
+                </sp>
+                <sp who="#psyche">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="233" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="1055" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>QUATRIÈME INERMÈDE.</head>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE I.</head>
+                <sp who="#psyche">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="419" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="1871" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Psyché, Cléomène, Agénor.</head>
+                <sp who="#psyche">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="166" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="747" unit="chars"/>
+                </sp>
+                <sp who="#cleomene">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="291" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="1306" unit="chars"/>
+                </sp>
+                <sp who="#agenor">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="366" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="1660" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III.</head>
+                <sp who="#psyche">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="309" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="1342" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. L'Amour, Psyché, évanouie. </head>
+                <sp who="#_amour">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="392" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="1727" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Vénus, L'Amour, Psyché, évanouie. </head>
+                <sp who="#venus">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="441" unit="words"/>
+                    <amount n="61" unit="lines"/>
+                    <amount n="1962" unit="chars"/>
+                </sp>
+                <sp who="#_amour">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="389" unit="words"/>
+                    <amount n="50" unit="lines"/>
+                    <amount n="1697" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Jupiter, Vénus, L'Amour, Psyché.</head>
+                <sp who="#_amour">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="237" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="1057" unit="chars"/>
+                </sp>
+                <sp who="#jupiter">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="188" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="796" unit="chars"/>
+                </sp>
+                <sp who="#venus">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="140" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="607" unit="chars"/>
+                </sp>
+                <sp who="#psyche">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="127" unit="chars"/>
+                </sp>
+                <sp who="#apollon">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="162" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="672" unit="chars"/>
+                </sp>
+                <sp who="#divinites">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="64" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="271" unit="chars"/>
+                </sp>
+                <sp who="#muses">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="120" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="499" unit="chars"/>
+                </sp>
+                <sp who="#bacchus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="51" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="215" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>ENTRÉE DE BALLET. Composée de deux Ménades et de deux Aegipans qui suivent Bacchus.</head>
+                <sp who="#mome">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="59" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="254" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SECONDE ENTRÉE DE BALLET. Composée de quatre polichinelles et de deux matassins qui suivent Mome, et viennent joindre leur plaisanterie et leur badinage aux divertissements de cette grande fête.</head>
+                <sp who="#bacchus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="51" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="211" unit="chars"/>
+                </sp>
+                <sp who="#mome">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="133" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="568" unit="chars"/>
+                </sp>
+                <sp who="#mars">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="131" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>DERNIÈRE ENTRÉE DE BALLET.</head>
+                <sp who="#choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="92" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="449" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

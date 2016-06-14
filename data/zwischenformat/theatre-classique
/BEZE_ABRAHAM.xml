@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>ABRAHAM SACRIFIANT</title>
+        <subtitle>TRAGÉDIE FRANÇAISE</subtitle>
+        <subtitle>GEN. XV. ROM.III.</subtitle>
+        <subtitle>Abraham a cru à Dieu, et il lui a été réputé à justice.</subtitle>
+        <genretitle>Tragédie</genretitle>
+        <author>BEZE, Théodore</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/BEZE_ABRAHAM.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>prologue</name>
+            <alias xml:id="prologue">
+                <name>prologue</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>abraham</name>
+            <alias xml:id="abraham">
+                <name>abraham</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>sarah</name>
+            <alias xml:id="sarah">
+                <name>sarah</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>satan</name>
+            <alias xml:id="satan">
+                <name>satan</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_ange</name>
+            <alias xml:id="l_ange">
+                <name>l_ange</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>dem_troupe</name>
+            <alias xml:id="dem_troupe">
+                <name>dem_troupe</name>
+            </alias>
+        </character>
+        <character>
+            <name>isaac</name>
+            <alias xml:id="isaac">
+                <name>isaac</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>troupe_de_bergers</name>
+            <alias xml:id="troupe_de_bergers">
+                <name>troupe_de_bergers</name>
+                <sex>0</sex>
+            </alias>
+        </character>
+        <character>
+            <name>épilogue</name>
+            <alias xml:id="épilogue">
+                <name>épilogue</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ABRAHAM SACRIFIANT.</head>
+            <div>
+                <head/>
+                <sp who="#prologue">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="380" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="1861" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>Abraham.</head>
+                <sp who="#abraham">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="265" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="1200" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>Sarah, Abraham.</head>
+                <sp who="#sarah">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="234" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="1097" unit="chars"/>
+                </sp>
+                <sp who="#abraham">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="548" unit="words"/>
+                    <amount n="106" unit="lines"/>
+                    <amount n="2537" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>Satan.</head>
+                <sp who="#satan">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="702" unit="words"/>
+                    <amount n="79" unit="lines"/>
+                    <amount n="3139" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>Abraham, L'Ange.</head>
+                <sp who="#abraham">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="181" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="831" unit="chars"/>
+                </sp>
+                <sp who="#l_ange">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="48" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="215" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>Troupe des bergers sortants de la maison  d'Abraham, Isaac.</head>
+                <sp who="#dem_troupe">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="153" unit="chars"/>
+                </sp>
+                <sp who="#isaac">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="138" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="653" unit="chars"/>
+                </sp>
+                <sp who="#troupe_de_bergers">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="491" unit="words"/>
+                    <amount n="112" unit="lines"/>
+                    <amount n="2340" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>Abraham, Sarah, troupe de bergers.</head>
+                <sp who="#abraham">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="240" unit="words"/>
+                    <amount n="50" unit="lines"/>
+                    <amount n="1089" unit="chars"/>
+                </sp>
+                <sp who="#sarah">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="248" unit="words"/>
+                    <amount n="50" unit="lines"/>
+                    <amount n="1142" unit="chars"/>
+                </sp>
+                <sp who="#isaac">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="57" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="245" unit="chars"/>
+                </sp>
+                <sp who="#troupe_de_bergers">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="69" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head/>
+                <sp who="#satan">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="200" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="878" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>Abraham, Troupe de Bergers, Isaac.</head>
+                <sp who="#abraham">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="152" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="695" unit="chars"/>
+                </sp>
+                <sp who="#troupe_de_bergers">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="85" unit="chars"/>
+                </sp>
+                <sp who="#dem_troupe">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="673" unit="words"/>
+                    <amount n="135" unit="lines"/>
+                    <amount n="3117" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>Isaac, Abraham.</head>
+                <sp who="#isaac">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="139" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="589" unit="chars"/>
+                </sp>
+                <sp who="#abraham">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="56" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="218" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head/>
+                <sp who="#sarah">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="243" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="1091" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>Abraham, Satan, Isaac.</head>
+                <sp who="#abraham">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="1219" unit="words"/>
+                    <amount n="161" unit="lines"/>
+                    <amount n="5562" unit="chars"/>
+                </sp>
+                <sp who="#satan">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="151" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="651" unit="chars"/>
+                </sp>
+                <sp who="#isaac">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="452" unit="words"/>
+                    <amount n="63" unit="lines"/>
+                    <amount n="1936" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>Abraham, L'Ange.</head>
+                <sp who="#abraham">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="264" unit="words"/>
+                    <amount n="48" unit="lines"/>
+                    <amount n="1163" unit="chars"/>
+                </sp>
+                <sp who="#isaac">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="43" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="200" unit="chars"/>
+                </sp>
+                <sp who="#l_ange">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="209" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1047" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head/>
+                <sp who="#épilogue">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="379" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="1833" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

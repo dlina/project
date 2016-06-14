@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>ORPHÉE, OU ARLEQUIN AUX ENFERS</title>
+        <subtitle>DIVERTISSEMENT QUI a été joué ensuite du Pédant le samedi douze Septembre 1711.</subtitle>
+        <genretitle>Divertissement</genretitle>
+        <author>FUZELIER, Louis</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/FUZELIER_ORPHEE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>un_des_songes</name>
+            <alias xml:id="un_des_songes">
+                <name>un_des_songes</name>
+            </alias>
+        </character>
+        <character>
+            <name>arlequin</name>
+            <alias xml:id="arlequin">
+                <name>arlequin</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>scaramouche</name>
+            <alias xml:id="scaramouche">
+                <name>scaramouche</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head/>
+            <div>
+                <head>SCENE I.</head>
+                <sp who="#un_des_songes">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="177" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II.</head>
+            </div>
+            <div>
+                <head>SCÈNE III.</head>
+                <sp who="#arlequin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="43" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="190" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV.</head>
+            </div>
+            <div>
+                <head>SCÈNE V.</head>
+                <sp who="#arlequin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="58" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="295" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI.</head>
+                <sp who="#arlequin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="153" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE DERNIÈRE.</head>
+                <sp who="#arlequin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="152" unit="chars"/>
+                </sp>
+                <sp who="#scaramouche">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="192" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

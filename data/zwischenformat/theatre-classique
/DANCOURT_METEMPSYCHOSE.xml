@@ -1,0 +1,986 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LA MÉTEMPSYCOSE</title>
+        <subtitle>COMÉDIE</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>DANCOURT, Florent CARTON dit</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/DANCOURT_METEMPSYCHOSE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>mercure</name>
+            <alias xml:id="mercure">
+                <name>mercure</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>la_paix</name>
+            <alias xml:id="la_paix">
+                <name>la_paix</name>
+            </alias>
+        </character>
+        <character>
+            <name>bacchus</name>
+            <alias xml:id="bacchus">
+                <name>bacchus</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_amour</name>
+            <alias xml:id="l_amour">
+                <name>l_amour</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>thalie</name>
+            <alias xml:id="thalie">
+                <name>thalie</name>
+            </alias>
+        </character>
+        <character>
+            <name>thalie_et_mercure</name>
+            <alias xml:id="thalie_et_mercure">
+                <name>thalie_et_mercure</name>
+            </alias>
+        </character>
+        <character>
+            <name>un_thessalien</name>
+            <alias xml:id="un_thessalien">
+                <name>un_thessalien</name>
+            </alias>
+        </character>
+        <character>
+            <name>jupiter</name>
+            <alias xml:id="jupiter">
+                <name>jupiter</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>faunus</name>
+            <alias xml:id="faunus">
+                <name>faunus</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>corine</name>
+            <alias xml:id="corine">
+                <name>corine</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>junon</name>
+            <alias xml:id="junon">
+                <name>junon</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_inconstance</name>
+            <alias xml:id="l_inconstance">
+                <name>l_inconstance</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>phi_ne</name>
+            <alias xml:id="phi_ne">
+                <name>phi_ne</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>_rope</name>
+            <alias xml:id="_rope">
+                <name>_rope</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>philis</name>
+            <alias xml:id="philis">
+                <name>philis</name>
+            </alias>
+        </character>
+        <character>
+            <name>philis_et_phi_ne</name>
+            <alias xml:id="philis_et_phi_ne">
+                <name>philis_et_phi_ne</name>
+            </alias>
+        </character>
+        <character>
+            <name>philis_et_tircis</name>
+            <alias xml:id="philis_et_tircis">
+                <name>philis_et_tircis</name>
+            </alias>
+        </character>
+        <character>
+            <name>un_suivant_de_bacchus</name>
+            <alias xml:id="un_suivant_de_bacchus">
+                <name>un_suivant_de_bacchus</name>
+            </alias>
+        </character>
+        <character>
+            <name>une_bacchante</name>
+            <alias xml:id="une_bacchante">
+                <name>une_bacchante</name>
+            </alias>
+        </character>
+        <character>
+            <name>un_petit_amour</name>
+            <alias xml:id="un_petit_amour">
+                <name>un_petit_amour</name>
+            </alias>
+        </character>
+        <character>
+            <name>une_suivante_de_l_amour</name>
+            <alias xml:id="une_suivante_de_l_amour">
+                <name>une_suivante_de_l_amour</name>
+            </alias>
+        </character>
+        <character>
+            <name>_nus</name>
+            <alias xml:id="_nus">
+                <name>_nus</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>une_thessalienne</name>
+            <alias xml:id="une_thessalienne">
+                <name>une_thessalienne</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>PROLOGUE. </head>
+            <div>
+                <head>SCÈNE I.</head>
+                <sp who="#mercure">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="89" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="386" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. La Paix, Mercure.</head>
+                <sp who="#la_paix">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="469" unit="words"/>
+                    <amount n="60" unit="lines"/>
+                    <amount n="2203" unit="chars"/>
+                </sp>
+                <sp who="#mercure">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="529" unit="words"/>
+                    <amount n="67" unit="lines"/>
+                    <amount n="2423" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Bacchus, l'Amour, Mercure, la Paix, Thalie.</head>
+                <sp who="#bacchus">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="200" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="890" unit="chars"/>
+                </sp>
+                <sp who="#mercure">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="354" unit="words"/>
+                    <amount n="47" unit="lines"/>
+                    <amount n="1601" unit="chars"/>
+                </sp>
+                <sp who="#l_amour">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="98" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="460" unit="chars"/>
+                </sp>
+                <sp who="#thalie">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="85" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="393" unit="chars"/>
+                </sp>
+                <sp who="#la_paix">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="43" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="171" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>DIVERTISSEMENT.</head>
+                <sp who="#thalie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="50" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="238" unit="chars"/>
+                </sp>
+                <sp who="#thalie_et_mercure">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="54" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="245" unit="chars"/>
+                </sp>
+                <sp who="#un_thessalien">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="83" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="395" unit="chars"/>
+                </sp>
+                <sp who="#la_paix">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="47" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE I. Jupiter, Mercure.</head>
+                <sp who="#jupiter">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="579" unit="words"/>
+                    <amount n="79" unit="lines"/>
+                    <amount n="2670" unit="chars"/>
+                </sp>
+                <sp who="#mercure">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="742" unit="words"/>
+                    <amount n="88" unit="lines"/>
+                    <amount n="3470" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Faunus, Jupiter, Mercure.</head>
+                <sp who="#faunus">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="127" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="558" unit="chars"/>
+                </sp>
+                <sp who="#mercure">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="152" unit="chars"/>
+                </sp>
+                <sp who="#jupiter">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="74" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="323" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Jupiter, Faunus.</head>
+                <sp who="#faunus">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="93" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="390" unit="chars"/>
+                </sp>
+                <sp who="#jupiter">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="162" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="689" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Corine, Jupiter, Faunus.</head>
+                <sp who="#corine">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="145" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="683" unit="chars"/>
+                </sp>
+                <sp who="#jupiter">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="319" unit="words"/>
+                    <amount n="45" unit="lines"/>
+                    <amount n="1498" unit="chars"/>
+                </sp>
+                <sp who="#faunus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="26" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Faunus, Corine.</head>
+                <sp who="#faunus">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="208" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="944" unit="chars"/>
+                </sp>
+                <sp who="#corine">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="156" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="724" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Corine, Junon sous la figure de la tante.</head>
+                <sp who="#corine">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="356" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="1733" unit="chars"/>
+                </sp>
+                <sp who="#junon">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="239" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="1131" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. </head>
+                <sp who="#junon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="113" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="522" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. L'Amour,  Junon, l'Inconstance.</head>
+                <sp who="#l_amour">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="182" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="816" unit="chars"/>
+                </sp>
+                <sp who="#junon">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="143" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="676" unit="chars"/>
+                </sp>
+                <sp who="#l_inconstance">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="78" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="340" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. L'Amour, Junon.</head>
+                <sp who="#l_amour">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="503" unit="words"/>
+                    <amount n="65" unit="lines"/>
+                    <amount n="2300" unit="chars"/>
+                </sp>
+                <sp who="#junon">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="186" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="871" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Junon, Faunus.</head>
+                <sp who="#faunus">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="185" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="804" unit="chars"/>
+                </sp>
+                <sp who="#junon">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="124" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="564" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI.</head>
+                <sp who="#junon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="104" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="503" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>DIVERTISSEMENT.</head>
+                <sp who="#l_amour">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="129" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII. Corine, Faunus,  Mérope, Philène. </head>
+                <sp who="#faunus">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="119" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="557" unit="chars"/>
+                </sp>
+                <sp who="#corine">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="25" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="109" unit="chars"/>
+                </sp>
+                <sp who="#phi_ne">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="97" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="429" unit="chars"/>
+                </sp>
+                <sp who="#_rope">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="180" unit="chars"/>
+                </sp>
+                <sp who="#philis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="50" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="244" unit="chars"/>
+                </sp>
+                <sp who="#philis_et_phi_ne">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="168" unit="chars"/>
+                </sp>
+                <sp who="#philis_et_tircis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="168" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE I. </head>
+                <sp who="#corine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="212" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="982" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Mérope, Corine.</head>
+                <sp who="#_rope">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="796" unit="words"/>
+                    <amount n="99" unit="lines"/>
+                    <amount n="3544" unit="chars"/>
+                </sp>
+                <sp who="#corine">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="297" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="1363" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. </head>
+                <sp who="#_rope">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="162" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="749" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Faunus, Mérope.</head>
+                <sp who="#faunus">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="345" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="1501" unit="chars"/>
+                </sp>
+                <sp who="#_rope">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="225" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="1021" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Bacchus, Faunus, Mérope.</head>
+                <sp who="#bacchus">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="91" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="423" unit="chars"/>
+                </sp>
+                <sp who="#faunus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="60" unit="chars"/>
+                </sp>
+                <sp who="#_rope">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="147" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Faunus, Bacchus.</head>
+                <sp who="#faunus">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="163" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="797" unit="chars"/>
+                </sp>
+                <sp who="#bacchus">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="372" unit="words"/>
+                    <amount n="53" unit="lines"/>
+                    <amount n="1663" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Corine, Faunus, Bacchus.</head>
+                <sp who="#bacchus">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="210" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="992" unit="chars"/>
+                </sp>
+                <sp who="#corine">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="139" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="642" unit="chars"/>
+                </sp>
+                <sp who="#faunus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="64" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Corine, Faunus.</head>
+                <sp who="#corine">
+                    <amount n="24" unit="speech_acts"/>
+                    <amount n="336" unit="words"/>
+                    <amount n="68" unit="lines"/>
+                    <amount n="1537" unit="chars"/>
+                </sp>
+                <sp who="#faunus">
+                    <amount n="24" unit="speech_acts"/>
+                    <amount n="526" unit="words"/>
+                    <amount n="90" unit="lines"/>
+                    <amount n="2384" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX.</head>
+                <sp who="#corine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="180" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="807" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Philène, Corine.</head>
+                <sp who="#phi_ne">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="252" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="1129" unit="chars"/>
+                </sp>
+                <sp who="#corine">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="189" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="820" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Mérope, Corine, Philène.</head>
+                <sp who="#_rope">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="537" unit="words"/>
+                    <amount n="74" unit="lines"/>
+                    <amount n="2359" unit="chars"/>
+                </sp>
+                <sp who="#corine">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="248" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="1051" unit="chars"/>
+                </sp>
+                <sp who="#phi_ne">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="66" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="338" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII. Corine, Philène.</head>
+                <sp who="#corine">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="58" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="256" unit="chars"/>
+                </sp>
+                <sp who="#phi_ne">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="146" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIII. Faunus, Corine.</head>
+                <sp who="#faunus">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="299" unit="words"/>
+                    <amount n="45" unit="lines"/>
+                    <amount n="1330" unit="chars"/>
+                </sp>
+                <sp who="#corine">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="143" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="604" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>DIVERTISSEMENT DU SECOND ACTE.</head>
+            <div>
+                <head>SCÈNE I. Bacchus, Faunus, Suite de Bacchus. </head>
+                <sp who="#bacchus">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="137" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="599" unit="chars"/>
+                </sp>
+                <sp who="#faunus">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="188" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="901" unit="chars"/>
+                </sp>
+                <sp who="#un_suivant_de_bacchus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="64" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="285" unit="chars"/>
+                </sp>
+                <sp who="#une_bacchante">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="89" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="392" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. L'Amour, Bacchus, Faunus, Suite de l'Amour et de Bacchus.</head>
+                <sp who="#un_petit_amour">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="142" unit="chars"/>
+                </sp>
+                <sp who="#un_suivant_de_bacchus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="49" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="201" unit="chars"/>
+                </sp>
+                <sp who="#une_suivante_de_l_amour">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="37" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="155" unit="chars"/>
+                </sp>
+                <sp who="#faunus">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="148" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="700" unit="chars"/>
+                </sp>
+                <sp who="#bacchus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="3" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="13" unit="chars"/>
+                </sp>
+                <sp who="#l_amour">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="4" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="16" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Bacchus, L'Amour.</head>
+                <sp who="#bacchus">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="48" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="187" unit="chars"/>
+                </sp>
+                <sp who="#l_amour">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="55" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="249" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I. Jupiter, Mercure.</head>
+                <sp who="#mercure">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="257" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1175" unit="chars"/>
+                </sp>
+                <sp who="#jupiter">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="312" unit="words"/>
+                    <amount n="48" unit="lines"/>
+                    <amount n="1476" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Jupiter,  Mercure, Mérope.</head>
+                <sp who="#_rope">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="224" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="944" unit="chars"/>
+                </sp>
+                <sp who="#jupiter">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="122" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="596" unit="chars"/>
+                </sp>
+                <sp who="#mercure">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="69" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="317" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Jupiter, Mercure, Faunus, Mérope.</head>
+                <sp who="#faunus">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="278" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="1214" unit="chars"/>
+                </sp>
+                <sp who="#jupiter">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="62" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="313" unit="chars"/>
+                </sp>
+                <sp who="#mercure">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="24" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Jupiter, Mercure.</head>
+                <sp who="#jupiter">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="124" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="548" unit="chars"/>
+                </sp>
+                <sp who="#mercure">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="24" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Vénus, Jupiter, Mercure.</head>
+                <sp who="#jupiter">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="512" unit="words"/>
+                    <amount n="63" unit="lines"/>
+                    <amount n="2315" unit="chars"/>
+                </sp>
+                <sp who="#_nus">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="269" unit="words"/>
+                    <amount n="47" unit="lines"/>
+                    <amount n="1257" unit="chars"/>
+                </sp>
+                <sp who="#mercure">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="61" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Vénus, Mercure. </head>
+                <sp who="#_nus">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="116" unit="chars"/>
+                </sp>
+                <sp who="#mercure">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="234" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="1070" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII.</head>
+                <sp who="#_nus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="48" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="218" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. L'Amour, Vénus.</head>
+                <sp who="#l_amour">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="81" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="362" unit="chars"/>
+                </sp>
+                <sp who="#_nus">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="103" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="442" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Faunus, Vénus, l'Amour.</head>
+                <sp who="#faunus">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="185" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="825" unit="chars"/>
+                </sp>
+                <sp who="#l_amour">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="123" unit="chars"/>
+                </sp>
+                <sp who="#_nus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="66" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="319" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Faunus, Vénus, l'Amour, l'Inconstance.</head>
+                <sp who="#l_inconstance">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="409" unit="words"/>
+                    <amount n="54" unit="lines"/>
+                    <amount n="1790" unit="chars"/>
+                </sp>
+                <sp who="#l_amour">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="174" unit="chars"/>
+                </sp>
+                <sp who="#_nus">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="92" unit="chars"/>
+                </sp>
+                <sp who="#faunus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="34" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Mercure, l'Amour, Vénus, l'Inconstance.</head>
+                <sp who="#mercure">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="165" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="800" unit="chars"/>
+                </sp>
+                <sp who="#l_amour">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="87" unit="chars"/>
+                </sp>
+                <sp who="#_nus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="40" unit="chars"/>
+                </sp>
+                <sp who="#l_inconstance">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="144" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>DIVERTISSEMENT.</head>
+                <sp who="#une_thessalienne">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="46" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="216" unit="chars"/>
+                </sp>
+                <sp who="#un_thessalien">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="422" unit="words"/>
+                    <amount n="72" unit="lines"/>
+                    <amount n="1894" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

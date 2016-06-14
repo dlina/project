@@ -1,0 +1,902 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LES FÊTES DE L'AMOUR ET DE BACCHUS</title>
+        <subtitle>PASTORALE</subtitle>
+        <subtitle>Réprésentée par l'Académie Royale de Musique.</subtitle>
+        <genretitle>Pastorale</genretitle>
+        <author>QUINAULT, Philippe</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/QUINAULT_FETESAMOURBACCHUS.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>le_choeur</name>
+            <alias xml:id="le_choeur">
+                <name>le_choeur</name>
+            </alias>
+        </character>
+        <character>
+            <name>homme_du_bel_air</name>
+            <alias xml:id="homme_du_bel_air">
+                <name>homme_du_bel_air</name>
+            </alias>
+        </character>
+        <character>
+            <name>autre_homme_du_bel_air</name>
+            <alias xml:id="autre_homme_du_bel_air">
+                <name>autre_homme_du_bel_air</name>
+            </alias>
+        </character>
+        <character>
+            <name>femme_du_bel_air</name>
+            <alias xml:id="femme_du_bel_air">
+                <name>femme_du_bel_air</name>
+            </alias>
+        </character>
+        <character>
+            <name>autre_femme_du_bel_air</name>
+            <alias xml:id="autre_femme_du_bel_air">
+                <name>autre_femme_du_bel_air</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_gascon</name>
+            <alias xml:id="le_gascon">
+                <name>le_gascon</name>
+            </alias>
+        </character>
+        <character>
+            <name>autre_gascon</name>
+            <alias xml:id="autre_gascon">
+                <name>autre_gascon</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_suisse</name>
+            <alias xml:id="le_suisse">
+                <name>le_suisse</name>
+            </alias>
+        </character>
+        <character>
+            <name>vieux_bourgeois_babillard</name>
+            <alias xml:id="vieux_bourgeois_babillard">
+                <name>vieux_bourgeois_babillard</name>
+            </alias>
+        </character>
+        <character>
+            <name>vieille_bourgeois_babillarde</name>
+            <alias xml:id="vieille_bourgeois_babillarde">
+                <name>vieille_bourgeois_babillarde</name>
+            </alias>
+        </character>
+        <character>
+            <name>hommes_et_femmes_du_bel_air</name>
+            <alias xml:id="hommes_et_femmes_du_bel_air">
+                <name>hommes_et_femmes_du_bel_air</name>
+            </alias>
+        </character>
+        <character>
+            <name>tous_ensemble</name>
+            <alias xml:id="tous_ensemble">
+                <name>tous_ensemble</name>
+            </alias>
+        </character>
+        <character>
+            <name>polymnie</name>
+            <alias xml:id="polymnie">
+                <name>polymnie</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>melpo_ne</name>
+            <alias xml:id="melpo_ne">
+                <name>melpo_ne</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>euterpe</name>
+            <alias xml:id="euterpe">
+                <name>euterpe</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>melpo_ne_et_euterpe</name>
+            <alias xml:id="melpo_ne_et_euterpe">
+                <name>melpo_ne_et_euterpe</name>
+            </alias>
+        </character>
+        <character>
+            <name>les_trois_muses</name>
+            <alias xml:id="les_trois_muses">
+                <name>les_trois_muses</name>
+            </alias>
+        </character>
+        <character>
+            <name>choeurs</name>
+            <alias xml:id="choeurs">
+                <name>choeurs</name>
+            </alias>
+        </character>
+        <character>
+            <name>un_choeur</name>
+            <alias xml:id="un_choeur">
+                <name>un_choeur</name>
+            </alias>
+        </character>
+        <character>
+            <name>tous_les_choeurs</name>
+            <alias xml:id="tous_les_choeurs">
+                <name>tous_les_choeurs</name>
+            </alias>
+        </character>
+        <character>
+            <name>tircis</name>
+            <alias xml:id="tircis">
+                <name>tircis</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>licaste</name>
+            <alias xml:id="licaste">
+                <name>licaste</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>_nandre</name>
+            <alias xml:id="_nandre">
+                <name>_nandre</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>licastre___nandre</name>
+            <alias xml:id="licastre___nandre">
+                <name>licastre___nandre</name>
+            </alias>
+        </character>
+        <character>
+            <name>caliste___nandre</name>
+            <alias xml:id="caliste___nandre">
+                <name>caliste___nandre</name>
+            </alias>
+        </character>
+        <character>
+            <name>cli_ne</name>
+            <alias xml:id="cli_ne">
+                <name>cli_ne</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>caliste</name>
+            <alias xml:id="caliste">
+                <name>caliste</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>_nandre__licaste__tircis</name>
+            <alias xml:id="_nandre__licaste__tircis">
+                <name>_nandre__licaste__tircis</name>
+            </alias>
+        </character>
+        <character>
+            <name>licaste___nandre</name>
+            <alias xml:id="licaste___nandre">
+                <name>licaste___nandre</name>
+            </alias>
+        </character>
+        <character>
+            <name>forestan</name>
+            <alias xml:id="forestan">
+                <name>forestan</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>silvandre</name>
+            <alias xml:id="silvandre">
+                <name>silvandre</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>fosrestan</name>
+            <alias xml:id="fosrestan">
+                <name>fosrestan</name>
+            </alias>
+        </character>
+        <character>
+            <name>tous</name>
+            <alias xml:id="tous">
+                <name>tous</name>
+            </alias>
+        </character>
+        <character>
+            <name>les_trois_sorc_res</name>
+            <alias xml:id="les_trois_sorc_res">
+                <name>les_trois_sorc_res</name>
+            </alias>
+        </character>
+        <character>
+            <name>une_sorc_re</name>
+            <alias xml:id="une_sorc_re">
+                <name>une_sorc_re</name>
+            </alias>
+        </character>
+        <character>
+            <name>silvandre__forestan</name>
+            <alias xml:id="silvandre__forestan">
+                <name>silvandre__forestan</name>
+            </alias>
+        </character>
+        <character>
+            <name>damon</name>
+            <alias xml:id="damon">
+                <name>damon</name>
+            </alias>
+        </character>
+        <character>
+            <name>damon__cli_ne</name>
+            <alias xml:id="damon__cli_ne">
+                <name>damon__cli_ne</name>
+            </alias>
+        </character>
+        <character>
+            <name>troupe_de_bergers_et_de_ber_res</name>
+            <alias xml:id="troupe_de_bergers_et_de_ber_res">
+                <name>troupe_de_bergers_et_de_ber_res</name>
+            </alias>
+        </character>
+        <character>
+            <name>arcas</name>
+            <alias xml:id="arcas">
+                <name>arcas</name>
+            </alias>
+        </character>
+        <character>
+            <name>cloris</name>
+            <alias xml:id="cloris">
+                <name>cloris</name>
+            </alias>
+        </character>
+        <character>
+            <name>silvie</name>
+            <alias xml:id="silvie">
+                <name>silvie</name>
+            </alias>
+        </character>
+        <character>
+            <name>tircis__arcas</name>
+            <alias xml:id="tircis__arcas">
+                <name>tircis__arcas</name>
+            </alias>
+        </character>
+        <character>
+            <name>aminte</name>
+            <alias xml:id="aminte">
+                <name>aminte</name>
+            </alias>
+        </character>
+        <character>
+            <name>choeurs_de_bacchus</name>
+            <alias xml:id="choeurs_de_bacchus">
+                <name>choeurs_de_bacchus</name>
+            </alias>
+        </character>
+        <character>
+            <name>choeurs_de_l_amour</name>
+            <alias xml:id="choeurs_de_l_amour">
+                <name>choeurs_de_l_amour</name>
+            </alias>
+        </character>
+        <character>
+            <name>parti_de_l_amour</name>
+            <alias xml:id="parti_de_l_amour">
+                <name>parti_de_l_amour</name>
+            </alias>
+        </character>
+        <character>
+            <name>parti_de_bacchus</name>
+            <alias xml:id="parti_de_bacchus">
+                <name>parti_de_bacchus</name>
+            </alias>
+        </character>
+        <character>
+            <name>les_deux_partis</name>
+            <alias xml:id="les_deux_partis">
+                <name>les_deux_partis</name>
+            </alias>
+        </character>
+        <character>
+            <name>les_deux_choeurs</name>
+            <alias xml:id="les_deux_choeurs">
+                <name>les_deux_choeurs</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>PROLOGUE</head>
+            <div>
+                <head/>
+                <sp who="#le_choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="25" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="95" unit="chars"/>
+                </sp>
+                <sp who="#homme_du_bel_air">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="100" unit="chars"/>
+                </sp>
+                <sp who="#autre_homme_du_bel_air">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="69" unit="chars"/>
+                </sp>
+                <sp who="#femme_du_bel_air">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="74" unit="chars"/>
+                </sp>
+                <sp who="#autre_femme_du_bel_air">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="57" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="293" unit="chars"/>
+                </sp>
+                <sp who="#le_gascon">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="51" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="221" unit="chars"/>
+                </sp>
+                <sp who="#autre_gascon">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="82" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="344" unit="chars"/>
+                </sp>
+                <sp who="#le_suisse">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="66" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="290" unit="chars"/>
+                </sp>
+                <sp who="#vieux_bourgeois_babillard">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="213" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="905" unit="chars"/>
+                </sp>
+                <sp who="#vieille_bourgeois_babillarde">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="181" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="848" unit="chars"/>
+                </sp>
+                <sp who="#hommes_et_femmes_du_bel_air">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="37" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="163" unit="chars"/>
+                </sp>
+                <sp who="#tous_ensemble">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="25" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="95" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>PREMIÈRE ENTRÉE. Le donneur de livres, quatre importuns.</head>
+                <sp who="#polymnie">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="144" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="705" unit="chars"/>
+                </sp>
+                <sp who="#melpo_ne">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="81" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="423" unit="chars"/>
+                </sp>
+                <sp who="#euterpe">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="365" unit="chars"/>
+                </sp>
+                <sp who="#melpo_ne_et_euterpe">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="53" unit="chars"/>
+                </sp>
+                <sp who="#les_trois_muses">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="76" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SECONDE ENTRÉE. Quatre héros, quatre Pâtres et quatre ouvriers.</head>
+                <sp who="#les_trois_muses">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="67" unit="chars"/>
+                </sp>
+                <sp who="#choeurs">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="67" unit="chars"/>
+                </sp>
+                <sp who="#melpo_ne">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="110" unit="chars"/>
+                </sp>
+                <sp who="#un_choeur">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="66" unit="chars"/>
+                </sp>
+                <sp who="#euterpe">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="103" unit="chars"/>
+                </sp>
+                <sp who="#polymnie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="78" unit="chars"/>
+                </sp>
+                <sp who="#tous_les_choeurs">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="33" unit="chars"/>
+                </sp>
+                <sp who="#tous_ensemble">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="176" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE I.</head>
+                <sp who="#tircis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="228" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Licaste, Ménandre, Tircis.</head>
+                <sp who="#licaste">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="75" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="379" unit="chars"/>
+                </sp>
+                <sp who="#_nandre">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="72" unit="chars"/>
+                </sp>
+                <sp who="#tircis">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="84" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="372" unit="chars"/>
+                </sp>
+                <sp who="#licastre___nandre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="4" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="13" unit="chars"/>
+                </sp>
+                <sp who="#caliste___nandre">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="104" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Climène, Caliste.</head>
+                <sp who="#cli_ne">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="139" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="666" unit="chars"/>
+                </sp>
+                <sp who="#caliste">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="45" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="206" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV.</head>
+                <sp who="#caliste">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="172" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="886" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Tircis, Licaste, Ménandre, Caliste, endormie.</head>
+                <sp who="#tircis">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="105" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="492" unit="chars"/>
+                </sp>
+                <sp who="#_nandre__licaste__tircis">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="196" unit="chars"/>
+                </sp>
+                <sp who="#caliste">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="319" unit="chars"/>
+                </sp>
+                <sp who="#licaste___nandre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="43" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="183" unit="chars"/>
+                </sp>
+                <sp who="#licaste">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="23" unit="chars"/>
+                </sp>
+                <sp who="#_nandre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="25" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Forestan, Silvandre, Caliste, Tircis.</head>
+                <sp who="#forestan">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="88" unit="chars"/>
+                </sp>
+                <sp who="#silvandre">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="244" unit="chars"/>
+                </sp>
+                <sp who="#caliste">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="52" unit="chars"/>
+                </sp>
+                <sp who="#fosrestan">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="153" unit="chars"/>
+                </sp>
+                <sp who="#tous">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="157" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>TROISIÈME ENTRÉE.</head>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE PREMIÈRE.</head>
+                <sp who="#forestan">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="59" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="293" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Forestan, Deux magiciens, Trois sorcières, Six démons dansants, et sept autres démons volants.</head>
+            </div>
+            <div>
+                <head>QUATRIÈME ENTRÉE. Deux magiciens, Six démons.</head>
+                <sp who="#les_trois_sorc_res">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="295" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="1273" unit="chars"/>
+                </sp>
+                <sp who="#une_sorc_re">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="163" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III.</head>
+                <sp who="#forestan">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="161" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Silvandre, Forestan.</head>
+                <sp who="#silvandre">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="156" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="701" unit="chars"/>
+                </sp>
+                <sp who="#forestan">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="173" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="674" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV.</head>
+                <sp who="#silvandre">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="69" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="205" unit="chars"/>
+                </sp>
+                <sp who="#forestan">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="61" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="269" unit="chars"/>
+                </sp>
+                <sp who="#silvandre__forestan">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="25" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="95" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Damon, Silvandre, Forestan</head>
+                <sp who="#damon">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="61" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="287" unit="chars"/>
+                </sp>
+                <sp who="#silvandre">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="69" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="307" unit="chars"/>
+                </sp>
+                <sp who="#forestan">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="36" unit="chars"/>
+                </sp>
+                <sp who="#silvandre__forestan">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="25" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="95" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Damon, Climène.</head>
+                <sp who="#damon">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="87" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="419" unit="chars"/>
+                </sp>
+                <sp who="#cli_ne">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="84" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="412" unit="chars"/>
+                </sp>
+                <sp who="#damon__cli_ne">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="161" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Troupe de bergers et de bergères, Damon, Climène.</head>
+                <sp who="#troupe_de_bergers_et_de_ber_res">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="151" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Arcas, Damon, Climène, Troupe de bergers et de bergères.</head>
+                <sp who="#arcas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="61" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="273" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I. Troupes de pasteurs, de bergers et de bergères.</head>
+                <sp who="#caliste">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="78" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="404" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>CINQUIÈME ENTRÉE. Quatre bergers, quatre bergères.</head>
+                <sp who="#cli_ne">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="46" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="252" unit="chars"/>
+                </sp>
+                <sp who="#cloris">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="48" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="204" unit="chars"/>
+                </sp>
+                <sp who="#silvie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="214" unit="chars"/>
+                </sp>
+                <sp who="#arcas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="82" unit="chars"/>
+                </sp>
+                <sp who="#tircis__arcas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="72" unit="chars"/>
+                </sp>
+                <sp who="#choeurs">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="146" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Troupes de satires, de bacchantes, et de silvains, jouant de différents instruments, chantants, et dansants, Silvandre, Aminte, Forestan, Troupes de bergers et de bergères, et de suivants de l'Amour.</head>
+                <sp who="#silvandre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="258" unit="chars"/>
+                </sp>
+                <sp who="#choeurs">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="147" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SIXIÈME ENTRÉE. Quatre satires, quatre bacchantes.</head>
+                <sp who="#aminte">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="124" unit="chars"/>
+                </sp>
+                <sp who="#forestan">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="111" unit="chars"/>
+                </sp>
+                <sp who="#choeurs_de_bacchus">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="174" unit="chars"/>
+                </sp>
+                <sp who="#choeurs_de_l_amour">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="139" unit="chars"/>
+                </sp>
+                <sp who="#parti_de_l_amour">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="131" unit="chars"/>
+                </sp>
+                <sp who="#parti_de_bacchus">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="136" unit="chars"/>
+                </sp>
+                <sp who="#les_deux_partis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="52" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III et DERNIÈRE.</head>
+                <sp who="#licaste">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="49" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="225" unit="chars"/>
+                </sp>
+                <sp who="#les_deux_choeurs">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="174" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SEPTIÈME et DERNIÈRE ENTRÉE.</head>
+            </div>
+        </div>
+    </text>
+</play>

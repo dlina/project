@@ -1,0 +1,961 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LE FEINT ASTROLOGUE </title>
+        <subtitle>COMÉDIE</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>CORNEILLE, Thomas</author>
+        <date when="1636">1636</date>
+        <source>https://github.com/dramacode/theatre-classique/CORNEILLET_FEINTASTROLOGUE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>do_fernand</name>
+            <alias xml:id="do_fernand">
+                <name>do_fernand</name>
+            </alias>
+        </character>
+        <character>
+            <name>philipin</name>
+            <alias xml:id="philipin">
+                <name>philipin</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>beatrix</name>
+            <alias xml:id="beatrix">
+                <name>beatrix</name>
+            </alias>
+        </character>
+        <character>
+            <name>do_louys</name>
+            <alias xml:id="do_louys">
+                <name>do_louys</name>
+            </alias>
+        </character>
+        <character>
+            <name>do_lope</name>
+            <alias xml:id="do_lope">
+                <name>do_lope</name>
+            </alias>
+        </character>
+        <character>
+            <name>leonor</name>
+            <alias xml:id="leonor">
+                <name>leonor</name>
+            </alias>
+        </character>
+        <character>
+            <name>lucrece</name>
+            <alias xml:id="lucrece">
+                <name>lucrece</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>leonard</name>
+            <alias xml:id="leonard">
+                <name>leonard</name>
+            </alias>
+        </character>
+        <character>
+            <name>mendoce</name>
+            <alias xml:id="mendoce">
+                <name>mendoce</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>jacinte</name>
+            <alias xml:id="jacinte">
+                <name>jacinte</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>do_juan</name>
+            <alias xml:id="do_juan">
+                <name>do_juan</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Don Fernand, Philipin. </head>
+                <sp who="#do_fernand">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="373" unit="words"/>
+                    <amount n="54" unit="lines"/>
+                    <amount n="1754" unit="chars"/>
+                </sp>
+                <sp who="#philipin">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="372" unit="words"/>
+                    <amount n="54" unit="lines"/>
+                    <amount n="1768" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Philipin, Béatrix.</head>
+                <sp who="#beatrix">
+                    <amount n="30" unit="speech_acts"/>
+                    <amount n="369" unit="words"/>
+                    <amount n="79" unit="lines"/>
+                    <amount n="1594" unit="chars"/>
+                </sp>
+                <sp who="#philipin">
+                    <amount n="30" unit="speech_acts"/>
+                    <amount n="430" unit="words"/>
+                    <amount n="86" unit="lines"/>
+                    <amount n="1972" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. </head>
+                <sp who="#philipin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="88" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="421" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Don Fernand, Philipin. </head>
+                <sp who="#do_fernand">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="224" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="1006" unit="chars"/>
+                </sp>
+                <sp who="#philipin">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="174" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="773" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Don Fernand, Don Louis.</head>
+                <sp who="#do_louys">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="227" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="1020" unit="chars"/>
+                </sp>
+                <sp who="#do_fernand">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="245" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="1109" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Don Lope, Don Louis.</head>
+                <sp who="#do_louys">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="152" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="714" unit="chars"/>
+                </sp>
+                <sp who="#do_lope">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="373" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="1844" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. </head>
+                <sp who="#do_lope">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="85" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="406" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Don Lope, Léonor, Jacinte. </head>
+                <sp who="#leonor">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="251" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="1157" unit="chars"/>
+                </sp>
+                <sp who="#do_lope">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="214" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="1005" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Lucrèce, Béatrix. </head>
+                <sp who="#beatrix">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="111" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="513" unit="chars"/>
+                </sp>
+                <sp who="#lucrece">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="367" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="1805" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Don Fernand, Lucrèce, Béatrix, Philipin. </head>
+                <sp who="#do_fernand">
+                    <amount n="20" unit="speech_acts"/>
+                    <amount n="642" unit="words"/>
+                    <amount n="89" unit="lines"/>
+                    <amount n="3105" unit="chars"/>
+                </sp>
+                <sp who="#lucrece">
+                    <amount n="20" unit="speech_acts"/>
+                    <amount n="291" unit="words"/>
+                    <amount n="54" unit="lines"/>
+                    <amount n="1379" unit="chars"/>
+                </sp>
+                <sp who="#philipin">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="398" unit="words"/>
+                    <amount n="61" unit="lines"/>
+                    <amount n="1861" unit="chars"/>
+                </sp>
+                <sp who="#beatrix">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="123" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="520" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Léonard, Don Fernand, Lucrèce, Béatrix,</head>
+                <sp who="#leonard">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="281" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="1479" unit="chars"/>
+                </sp>
+                <sp who="#lucrece">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="80" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="397" unit="chars"/>
+                </sp>
+                <sp who="#do_fernand">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="227" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="1112" unit="chars"/>
+                </sp>
+                <sp who="#beatrix">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="37" unit="chars"/>
+                </sp>
+                <sp who="#philipin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="45" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Léonard, Don Fernand, Don Louis, Lucrèce, Béatrix, Mendoce, Philipin.</head>
+                <sp who="#mendoce">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="2" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="10" unit="chars"/>
+                </sp>
+                <sp who="#leonard">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="46" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="235" unit="chars"/>
+                </sp>
+                <sp who="#philipin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="88" unit="chars"/>
+                </sp>
+                <sp who="#do_fernand">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="140" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Don Fernand, Don Louis, Philipin.</head>
+                <sp who="#do_fernand">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="158" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="795" unit="chars"/>
+                </sp>
+                <sp who="#do_louys">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="288" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="1494" unit="chars"/>
+                </sp>
+                <sp who="#philipin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="41" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="191" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Don Louis, Don Lope.</head>
+                <sp who="#do_louys">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="328" unit="words"/>
+                    <amount n="52" unit="lines"/>
+                    <amount n="1504" unit="chars"/>
+                </sp>
+                <sp who="#do_lope">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="141" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="673" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. </head>
+                <sp who="#do_lope">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="202" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="990" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Don Fernand, Don Louis, Philipin.</head>
+                <sp who="#do_louys">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="425" unit="words"/>
+                    <amount n="54" unit="lines"/>
+                    <amount n="2113" unit="chars"/>
+                </sp>
+                <sp who="#do_fernand">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="188" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="961" unit="chars"/>
+                </sp>
+                <sp who="#philipin">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="235" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Don Fernand, Léonor, Jacinte, Philipin.</head>
+                <sp who="#leonor">
+                    <amount n="20" unit="speech_acts"/>
+                    <amount n="627" unit="words"/>
+                    <amount n="89" unit="lines"/>
+                    <amount n="2949" unit="chars"/>
+                </sp>
+                <sp who="#do_fernand">
+                    <amount n="24" unit="speech_acts"/>
+                    <amount n="844" unit="words"/>
+                    <amount n="120" unit="lines"/>
+                    <amount n="4064" unit="chars"/>
+                </sp>
+                <sp who="#philipin">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="114" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="552" unit="chars"/>
+                </sp>
+                <sp who="#jacinte">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="127" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="605" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Don Fernand, Don Louis, Philipin.</head>
+                <sp who="#do_fernand">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="236" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="1128" unit="chars"/>
+                </sp>
+                <sp who="#do_louys">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="124" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="580" unit="chars"/>
+                </sp>
+                <sp who="#leonor">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="81" unit="chars"/>
+                </sp>
+                <sp who="#philipin">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="101" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="439" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV.</head>
+                <sp who="#philipin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="129" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="608" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Don Juam, Philipin. </head>
+                <sp who="#do_juan">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="58" unit="chars"/>
+                </sp>
+                <sp who="#philipin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="158" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. </head>
+                <sp who="#do_juan">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="165" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="767" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Léonor, Jacinte </head>
+                <sp who="#jacinte">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="91" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="436" unit="chars"/>
+                </sp>
+                <sp who="#leonor">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="118" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="583" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Don Juan, Léonor, Jacinte.</head>
+                <sp who="#jacinte">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="49" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="219" unit="chars"/>
+                </sp>
+                <sp who="#leonor">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="77" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="339" unit="chars"/>
+                </sp>
+                <sp who="#do_juan">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="182" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="888" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Don Juan, Lucrèce, Béatrix. </head>
+                <sp who="#do_juan">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="248" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1177" unit="chars"/>
+                </sp>
+                <sp who="#lucrece">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="243" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1165" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Léonard, Lucrèce, Don Juan, Béatrix.</head>
+                <sp who="#leonard">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="80" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="360" unit="chars"/>
+                </sp>
+                <sp who="#do_juan">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="162" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="762" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Léonard, Lucrèce, Béatrix.</head>
+                <sp who="#leonard">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="133" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="625" unit="chars"/>
+                </sp>
+                <sp who="#lucrece">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="108" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="533" unit="chars"/>
+                </sp>
+                <sp who="#beatrix">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="94" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Lucrèce, Béatrix.</head>
+                <sp who="#lucrece">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="59" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="281" unit="chars"/>
+                </sp>
+                <sp who="#beatrix">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="69" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="366" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Don Fernand, Don Louis.</head>
+                <sp who="#do_fernand">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="170" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="815" unit="chars"/>
+                </sp>
+                <sp who="#do_louys">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="148" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="739" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Don Fernand, Don Louis, Léonor, Jacinte.</head>
+                <sp who="#leonor">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="214" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="1050" unit="chars"/>
+                </sp>
+                <sp who="#do_fernand">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="233" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="1112" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Don Fernand, Don Louis.</head>
+                <sp who="#do_louys">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="126" unit="chars"/>
+                </sp>
+                <sp who="#do_fernand">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="46" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="199" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Léonard, Don Fernand, Don Louis.</head>
+                <sp who="#leonard">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="360" unit="words"/>
+                    <amount n="53" unit="lines"/>
+                    <amount n="1814" unit="chars"/>
+                </sp>
+                <sp who="#do_fernand">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="330" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="1568" unit="chars"/>
+                </sp>
+                <sp who="#do_louys">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="56" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="279" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Léonard, Don Fernand, Don Louis, Philipin.</head>
+                <sp who="#philipin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="117" unit="chars"/>
+                </sp>
+                <sp who="#leonard">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="147" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="669" unit="chars"/>
+                </sp>
+                <sp who="#do_louys">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="190" unit="chars"/>
+                </sp>
+                <sp who="#do_fernand">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="134" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="622" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Don Fernand, Don Louis, Philipin.</head>
+                <sp who="#do_louys">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="69" unit="chars"/>
+                </sp>
+                <sp who="#do_fernand">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="113" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="543" unit="chars"/>
+                </sp>
+                <sp who="#philipin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="157" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Don Fernand, Don Louis, Mendoce, Philipin.</head>
+                <sp who="#do_fernand">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="79" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="346" unit="chars"/>
+                </sp>
+                <sp who="#mendoce">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="114" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="518" unit="chars"/>
+                </sp>
+                <sp who="#philipin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="91" unit="chars"/>
+                </sp>
+                <sp who="#do_louys">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="23" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII. Mendoce, Philipin.</head>
+                <sp who="#mendoce">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="484" unit="words"/>
+                    <amount n="66" unit="lines"/>
+                    <amount n="2319" unit="chars"/>
+                </sp>
+                <sp who="#philipin">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="359" unit="words"/>
+                    <amount n="55" unit="lines"/>
+                    <amount n="1650" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE PREMIÈRE.</head>
+                <sp who="#do_juan">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="211" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="1023" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Léonard, Don Juan.</head>
+                <sp who="#leonard">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="378" unit="words"/>
+                    <amount n="54" unit="lines"/>
+                    <amount n="1727" unit="chars"/>
+                </sp>
+                <sp who="#do_juan">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="430" unit="words"/>
+                    <amount n="62" unit="lines"/>
+                    <amount n="2039" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Don Juan, Léonor, Jacinte.</head>
+                <sp who="#leonor">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="106" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="529" unit="chars"/>
+                </sp>
+                <sp who="#do_juan">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="139" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="669" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Léonor, Jacinte.</head>
+                <sp who="#jacinte">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="97" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="455" unit="chars"/>
+                </sp>
+                <sp who="#leonor">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="108" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="510" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Don Lope, Léonor, Jacinte.</head>
+                <sp who="#do_lope">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="226" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1144" unit="chars"/>
+                </sp>
+                <sp who="#leonor">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="158" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="751" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI.</head>
+                <sp who="#mendoce">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="74" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="339" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Philipin, Mendoce.</head>
+                <sp who="#philipin">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="402" unit="words"/>
+                    <amount n="62" unit="lines"/>
+                    <amount n="1754" unit="chars"/>
+                </sp>
+                <sp who="#mendoce">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="235" unit="words"/>
+                    <amount n="45" unit="lines"/>
+                    <amount n="1078" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Don Juan, Lucrèce, Béatrix, Mendoce, Philipin. </head>
+                <sp who="#lucrece">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="98" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="460" unit="chars"/>
+                </sp>
+                <sp who="#do_juan">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="95" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="453" unit="chars"/>
+                </sp>
+                <sp who="#mendoce">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="94" unit="chars"/>
+                </sp>
+                <sp who="#beatrix">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="81" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Léonard, Don Fernand, Lucrèce, Béatrix, Mendoce, Philipin.</head>
+                <sp who="#do_fernand">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="166" unit="chars"/>
+                </sp>
+                <sp who="#leonard">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="43" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="198" unit="chars"/>
+                </sp>
+                <sp who="#lucrece">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="94" unit="chars"/>
+                </sp>
+                <sp who="#mendoce">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="27" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="117" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Léonard, Don Fernand, Don Lope, Léonor, Lucrèce, Béatrix, Mendoce, Philipin. </head>
+                <sp who="#leonor">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="76" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="382" unit="chars"/>
+                </sp>
+                <sp who="#lucrece">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="45" unit="chars"/>
+                </sp>
+                <sp who="#mendoce">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="77" unit="chars"/>
+                </sp>
+                <sp who="#leonard">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="187" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Léonard, Don Fernand, Don Juan, Don Lope, Léonor, Lucrèce, Béatrix, Jacinte, Philipin, Mendoce.</head>
+                <sp who="#do_juan">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="149" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="709" unit="chars"/>
+                </sp>
+                <sp who="#leonor">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="80" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="363" unit="chars"/>
+                </sp>
+                <sp who="#leonard">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="97" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="484" unit="chars"/>
+                </sp>
+                <sp who="#lucrece">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="143" unit="chars"/>
+                </sp>
+                <sp who="#do_fernand">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="86" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="434" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII. Léonard, Don Fernand, Don Juan, Béatrix, Philippin, Mendoce.</head>
+                <sp who="#do_juan">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="47" unit="chars"/>
+                </sp>
+                <sp who="#mendoce">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="92" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="387" unit="chars"/>
+                </sp>
+                <sp who="#leonard">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="86" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="440" unit="chars"/>
+                </sp>
+                <sp who="#philipin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="116" unit="chars"/>
+                </sp>
+                <sp who="#do_fernand">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="50" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="234" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>MÉDÉE</title>
+        <subtitle>TRAGÉDIE</subtitle>
+        <genretitle>Tragédie</genretitle>
+        <author>LONGEPIERRE, Hilaire de</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/LONGEPIERRE_MEDEE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>jason</name>
+            <alias xml:id="jason">
+                <name>jason</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>iphite</name>
+            <alias xml:id="iphite">
+                <name>iphite</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>c_use</name>
+            <alias xml:id="c_use">
+                <name>c_use</name>
+            </alias>
+        </character>
+        <character>
+            <name>creon</name>
+            <alias xml:id="creon">
+                <name>creon</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>medee</name>
+            <alias xml:id="medee">
+                <name>medee</name>
+            </alias>
+        </character>
+        <character>
+            <name>rhodope</name>
+            <alias xml:id="rhodope">
+                <name>rhodope</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>premie_enfant</name>
+            <alias xml:id="premie_enfant">
+                <name>premie_enfant</name>
+            </alias>
+        </character>
+        <character>
+            <name>secon_enfant</name>
+            <alias xml:id="secon_enfant">
+                <name>secon_enfant</name>
+            </alias>
+        </character>
+        <character>
+            <name>cydippe</name>
+            <alias xml:id="cydippe">
+                <name>cydippe</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Jason, Iphite.</head>
+                <sp who="#jason">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="1177" unit="words"/>
+                    <amount n="125" unit="lines"/>
+                    <amount n="5527" unit="chars"/>
+                </sp>
+                <sp who="#iphite">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="266" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="1270" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Jason, Créuse, Iphite, Cydippe.</head>
+                <sp who="#c_use">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="320" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="1460" unit="chars"/>
+                </sp>
+                <sp who="#jason">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="290" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1349" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Jason, Créuse, Créon, Suite.</head>
+                <sp who="#creon">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="539" unit="words"/>
+                    <amount n="61" unit="lines"/>
+                    <amount n="2630" unit="chars"/>
+                </sp>
+                <sp who="#jason">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="60" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="285" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE I.</head>
+                <sp who="#medee">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="436" unit="words"/>
+                    <amount n="45" unit="lines"/>
+                    <amount n="2090" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Médée, Rhodope.</head>
+                <sp who="#medee">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="605" unit="words"/>
+                    <amount n="64" unit="lines"/>
+                    <amount n="2717" unit="chars"/>
+                </sp>
+                <sp who="#rhodope">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="129" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="583" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Médée, Créon, Rhodope, Suite.</head>
+                <sp who="#creon">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="411" unit="words"/>
+                    <amount n="50" unit="lines"/>
+                    <amount n="1908" unit="chars"/>
+                </sp>
+                <sp who="#medee">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="577" unit="words"/>
+                    <amount n="64" unit="lines"/>
+                    <amount n="2768" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Médée, Rhodope.</head>
+                <sp who="#medee">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="150" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="656" unit="chars"/>
+                </sp>
+                <sp who="#rhodope">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="25" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Médée, Jason, Rhodope.</head>
+                <sp who="#medee">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="930" unit="words"/>
+                    <amount n="97" unit="lines"/>
+                    <amount n="4320" unit="chars"/>
+                </sp>
+                <sp who="#jason">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="316" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1476" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Médée, Rhodope.</head>
+                <sp who="#medee">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="280" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I. Jason, Créuse, Iphite.</head>
+                <sp who="#jason">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="584" unit="words"/>
+                    <amount n="65" unit="lines"/>
+                    <amount n="2846" unit="chars"/>
+                </sp>
+                <sp who="#c_use">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="341" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="1665" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Jason, Iphite.</head>
+                <sp who="#iphite">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="201" unit="chars"/>
+                </sp>
+                <sp who="#jason">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="229" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="1086" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Jason, Médée, Iphite, Rhodope.</head>
+                <sp who="#medee">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="661" unit="words"/>
+                    <amount n="73" unit="lines"/>
+                    <amount n="3144" unit="chars"/>
+                </sp>
+                <sp who="#jason">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="278" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="1411" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Médée, Rhodope.</head>
+                <sp who="#medee">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="381" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="1854" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE I. Médée, Rhodope.</head>
+                <sp who="#medee">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="218" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="1044" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Médée, seule.</head>
+                <sp who="#medee">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="549" unit="words"/>
+                    <amount n="56" unit="lines"/>
+                    <amount n="2581" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Médée, Rhodope.</head>
+                <sp who="#medee">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="107" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="522" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV.</head>
+                <sp who="#medee">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="107" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="482" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Médée, ses enfants, Rhodope.</head>
+                <sp who="#medee">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="428" unit="words"/>
+                    <amount n="45" unit="lines"/>
+                    <amount n="1980" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI.</head>
+                <sp who="#medee">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="180" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="928" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Médée, ses enfants, Rhodope.</head>
+                <sp who="#rhodope">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="203" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="960" unit="chars"/>
+                </sp>
+                <sp who="#medee">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="577" unit="words"/>
+                    <amount n="65" unit="lines"/>
+                    <amount n="2805" unit="chars"/>
+                </sp>
+                <sp who="#premie_enfant">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="37" unit="chars"/>
+                </sp>
+                <sp who="#secon_enfant">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="66" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII.</head>
+                <sp who="#medee">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="294" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="1290" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Médée, Rhodope.</head>
+                <sp who="#rhodope">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="263" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="1333" unit="chars"/>
+                </sp>
+                <sp who="#medee">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="141" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="670" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Jason, Iphite.</head>
+                <sp who="#jason">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="174" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Jason, Iphite, Créuse, Cydippe.</head>
+                <sp who="#c_use">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="474" unit="words"/>
+                    <amount n="52" unit="lines"/>
+                    <amount n="2222" unit="chars"/>
+                </sp>
+                <sp who="#jason">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="350" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1564" unit="chars"/>
+                </sp>
+                <sp who="#cydippe">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="23" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Jason, Médée, Iphite.</head>
+                <sp who="#medee">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="655" unit="words"/>
+                    <amount n="73" unit="lines"/>
+                    <amount n="2976" unit="chars"/>
+                </sp>
+                <sp who="#jason">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="136" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="635" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE DERNIÈRE. Jason, Iphite.</head>
+                <sp who="#jason">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="137" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="631" unit="chars"/>
+                </sp>
+                <sp who="#iphite">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="104" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

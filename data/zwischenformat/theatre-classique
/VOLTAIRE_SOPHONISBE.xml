@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>SOPHONISBE </title>
+        <subtitle>TRAGÉDIE en cinq actes</subtitle>
+        <genretitle>Tragédie</genretitle>
+        <author>VOLTAIRE</author>
+        <date when="1774">1774</date>
+        <source>https://github.com/dramacode/theatre-classique/VOLTAIRE_SOPHONISBE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>syphax</name>
+            <alias xml:id="syphax">
+                <name>syphax</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>sophonisbe</name>
+            <alias xml:id="sophonisbe">
+                <name>sophonisbe</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>phaedime</name>
+            <alias xml:id="phaedime">
+                <name>phaedime</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>actor</name>
+            <alias xml:id="actor">
+                <name>actor</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>massinisse</name>
+            <alias xml:id="massinisse">
+                <name>massinisse</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>alamar</name>
+            <alias xml:id="alamar">
+                <name>alamar</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>lelie</name>
+            <alias xml:id="lelie">
+                <name>lelie</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>scipion</name>
+            <alias xml:id="scipion">
+                <name>scipion</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE I. Syphax, une lettre à la main ; soldats.</head>
+                <sp who="#syphax">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="268" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="1330" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Syphax, Sophonisbe, Phaedime.</head>
+                <sp who="#sophonisbe">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="691" unit="words"/>
+                    <amount n="78" unit="lines"/>
+                    <amount n="3353" unit="chars"/>
+                </sp>
+                <sp who="#syphax">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="501" unit="words"/>
+                    <amount n="54" unit="lines"/>
+                    <amount n="2325" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Sophonisbe, Phaedime.</head>
+                <sp who="#sophonisbe">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="479" unit="words"/>
+                    <amount n="55" unit="lines"/>
+                    <amount n="2262" unit="chars"/>
+                </sp>
+                <sp who="#phaedime">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="150" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="771" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Sophonisbe, Phaedime, Actor.</head>
+                <sp who="#actor">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="310" unit="chars"/>
+                </sp>
+                <sp who="#sophonisbe">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="83" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="388" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE I. Sophonisbe, Phaedime.</head>
+                <sp who="#phaedime">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="135" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="653" unit="chars"/>
+                </sp>
+                <sp who="#sophonisbe">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="263" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="1242" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Sophonisbe, Phaedime, Actor.</head>
+                <sp who="#sophonisbe">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="234" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="1064" unit="chars"/>
+                </sp>
+                <sp who="#actor">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="438" unit="words"/>
+                    <amount n="54" unit="lines"/>
+                    <amount n="2048" unit="chars"/>
+                </sp>
+                <sp who="#massinisse">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="4" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="20" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Massinisse, Alamar, un des chefs numides, Actor, guerriers numides. </head>
+                <sp who="#massinisse">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="312" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="1486" unit="chars"/>
+                </sp>
+                <sp who="#actor">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="58" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="266" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Massinisse, Alamar, guerriers numides.</head>
+                <sp who="#massinisse">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="242" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="1073" unit="chars"/>
+                </sp>
+                <sp who="#alamar">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="123" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="650" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Sophonisbe, Massinisse, Phaedime, gardes.</head>
+                <sp who="#sophonisbe">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="293" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="1373" unit="chars"/>
+                </sp>
+                <sp who="#massinisse">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="468" unit="words"/>
+                    <amount n="54" unit="lines"/>
+                    <amount n="2283" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Sophonisbe, Phaedime.</head>
+                <sp who="#sophonisbe">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="293" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="1421" unit="chars"/>
+                </sp>
+                <sp who="#phaedime">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="238" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="1158" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Sophonisbe, Phaedime, Actor.&#160;</head>
+                <sp who="#actor">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="109" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="502" unit="chars"/>
+                </sp>
+                <sp who="#sophonisbe">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="96" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="422" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I. Lélie, Massinisse, assis, soldats romains, soldats numides dans l'enfoncement, divisés en deux troupes. </head>
+                <sp who="#lelie">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="538" unit="words"/>
+                    <amount n="72" unit="lines"/>
+                    <amount n="2631" unit="chars"/>
+                </sp>
+                <sp who="#massinisse">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="489" unit="words"/>
+                    <amount n="64" unit="lines"/>
+                    <amount n="2430" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Massimisse, Alamar ; les soldats numides restent au fond de la scène. </head>
+                <sp who="#massinisse">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="462" unit="words"/>
+                    <amount n="54" unit="lines"/>
+                    <amount n="2181" unit="chars"/>
+                </sp>
+                <sp who="#alamar">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="186" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="887" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Sophonisbe, Massinisse.</head>
+                <sp who="#sophonisbe">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="537" unit="words"/>
+                    <amount n="63" unit="lines"/>
+                    <amount n="2494" unit="chars"/>
+                </sp>
+                <sp who="#massinisse">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="535" unit="words"/>
+                    <amount n="62" unit="lines"/>
+                    <amount n="2497" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Sophonisbe, Massinisse, Phaedime.</head>
+                <sp who="#phaedime">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="50" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="226" unit="chars"/>
+                </sp>
+                <sp who="#massinisse">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="102" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE I. Lélie, Romains.</head>
+                <sp who="#lelie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="244" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="1202" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Massinisse, Lélie, Licteurs.</head>
+                <sp who="#massinisse">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="160" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="787" unit="chars"/>
+                </sp>
+                <sp who="#lelie">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="508" unit="words"/>
+                    <amount n="64" unit="lines"/>
+                    <amount n="2449" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III.</head>
+                <sp who="#massinisse">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="195" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="939" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Scipion, Massinisse, Licteurs.</head>
+                <sp who="#massinisse">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="436" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="2025" unit="chars"/>
+                </sp>
+                <sp who="#scipion">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="508" unit="words"/>
+                    <amount n="61" unit="lines"/>
+                    <amount n="2472" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V.</head>
+                <sp who="#massinisse">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="146" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="657" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Massinisse, Sophonisbe.</head>
+                <sp who="#massinisse">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="127" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="614" unit="chars"/>
+                </sp>
+                <sp who="#sophonisbe">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="206" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="932" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII.</head>
+                <sp who="#massinisse">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="55" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="277" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE I. Lélie, Scipion, Romains.</head>
+                <sp who="#scipion">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="237" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="1130" unit="chars"/>
+                </sp>
+                <sp who="#lelie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="110" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="539" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Scipion, Lélie, Phaedime.&#160;</head>
+                <sp who="#phaedime">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="212" unit="chars"/>
+                </sp>
+                <sp who="#scipion">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="77" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="353" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Scipion, Lélie, Massinisse, Licteurs.&#160;</head>
+                <sp who="#scipion">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="191" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="926" unit="chars"/>
+                </sp>
+                <sp who="#massinisse">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="368" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="1705" unit="chars"/>
+                </sp>
+                <sp who="#sophonisbe">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="121" unit="chars"/>
+                </sp>
+                <sp who="#lelie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="56" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

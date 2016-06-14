@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>ARLEQUIN MISANTHROPE</title>
+        <subtitle>COMÉDIE</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>BARANTE, Claude Ignace Brugière de</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/BARANTE_ARLEQUINMISANTHROPE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>arlequin</name>
+            <alias xml:id="arlequin">
+                <name>arlequin</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>colombine</name>
+            <alias xml:id="colombine">
+                <name>colombine</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>octave</name>
+            <alias xml:id="octave">
+                <name>octave</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>scaramouche</name>
+            <alias xml:id="scaramouche">
+                <name>scaramouche</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>monsieu_disanvray</name>
+            <alias xml:id="monsieu_disanvray">
+                <name>monsieu_disanvray</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_docteur</name>
+            <alias xml:id="l_docteur">
+                <name>l_docteur</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>_andre</name>
+            <alias xml:id="_andre">
+                <name>_andre</name>
+            </alias>
+        </character>
+        <character>
+            <name>u_espagnol</name>
+            <alias xml:id="u_espagnol">
+                <name>u_espagnol</name>
+            </alias>
+        </character>
+        <character>
+            <name>un_espagnolette</name>
+            <alias xml:id="un_espagnolette">
+                <name>un_espagnolette</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_comtesse</name>
+            <alias xml:id="l_comtesse">
+                <name>l_comtesse</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_chevalier</name>
+            <alias xml:id="l_chevalier">
+                <name>l_chevalier</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>pierrot</name>
+            <alias xml:id="pierrot">
+                <name>pierrot</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_vieillard</name>
+            <alias xml:id="l_vieillard">
+                <name>l_vieillard</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_femme</name>
+            <alias xml:id="l_femme">
+                <name>l_femme</name>
+            </alias>
+        </character>
+        <character>
+            <name>gasconne</name>
+            <alias xml:id="gasconne">
+                <name>gasconne</name>
+            </alias>
+        </character>
+        <character>
+            <name>seconde_gasconne</name>
+            <alias xml:id="seconde_gasconne">
+                <name>seconde_gasconne</name>
+            </alias>
+        </character>
+        <character>
+            <name>monsieu_d_colafon</name>
+            <alias xml:id="monsieu_d_colafon">
+                <name>monsieu_d_colafon</name>
+            </alias>
+        </character>
+        <character>
+            <name>madam_d__architrave</name>
+            <alias xml:id="madam_d__architrave">
+                <name>madam_d__architrave</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>u_m_on</name>
+            <alias xml:id="u_m_on">
+                <name>u_m_on</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_chanteuse</name>
+            <alias xml:id="l_chanteuse">
+                <name>l_chanteuse</name>
+            </alias>
+        </character>
+        <character>
+            <name>monsieu_d_geresol</name>
+            <alias xml:id="monsieu_d_geresol">
+                <name>monsieu_d_geresol</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>monsieu_d_l_cabriole</name>
+            <alias xml:id="monsieu_d_l_cabriole">
+                <name>monsieu_d_l_cabriole</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_libraire</name>
+            <alias xml:id="l_libraire">
+                <name>l_libraire</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_peintre</name>
+            <alias xml:id="l_peintre">
+                <name>l_peintre</name>
+            </alias>
+        </character>
+        <character>
+            <name>jaquet</name>
+            <alias xml:id="jaquet">
+                <name>jaquet</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>macine</name>
+            <alias xml:id="macine">
+                <name>macine</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>u_berger_un_ber_re</name>
+            <alias xml:id="u_berger_un_ber_re">
+                <name>u_berger_un_ber_re</name>
+            </alias>
+        </character>
+        <character>
+            <name>un_ber_re</name>
+            <alias xml:id="un_ber_re">
+                <name>un_ber_re</name>
+            </alias>
+        </character>
+        <character>
+            <name>mezzetin</name>
+            <alias xml:id="mezzetin">
+                <name>mezzetin</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>PROLOGUE</head>
+            <div>
+                <head>SCÈNE I. Arlequin, Colombine.</head>
+                <sp who="#arlequin">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="616" unit="words"/>
+                    <amount n="51" unit="lines"/>
+                    <amount n="3079" unit="chars"/>
+                </sp>
+                <sp who="#colombine">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="344" unit="words"/>
+                    <amount n="45" unit="lines"/>
+                    <amount n="1712" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE I. </head>
+                <sp who="#arlequin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="762" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="3722" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Colombine, Arlequin.</head>
+                <sp who="#colombine">
+                    <amount n="30" unit="speech_acts"/>
+                    <amount n="826" unit="words"/>
+                    <amount n="102" unit="lines"/>
+                    <amount n="4005" unit="chars"/>
+                </sp>
+                <sp who="#arlequin">
+                    <amount n="29" unit="speech_acts"/>
+                    <amount n="479" unit="words"/>
+                    <amount n="108" unit="lines"/>
+                    <amount n="2398" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Octave, Scaramouche, en habit de livrée.</head>
+                <sp who="#octave">
+                    <amount n="24" unit="speech_acts"/>
+                    <amount n="224" unit="words"/>
+                    <amount n="79" unit="lines"/>
+                    <amount n="1194" unit="chars"/>
+                </sp>
+                <sp who="#scaramouche">
+                    <amount n="24" unit="speech_acts"/>
+                    <amount n="543" unit="words"/>
+                    <amount n="93" unit="lines"/>
+                    <amount n="2458" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Arlequin, Monsieur Disanvray.</head>
+                <sp who="#arlequin">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="450" unit="words"/>
+                    <amount n="63" unit="lines"/>
+                    <amount n="2408" unit="chars"/>
+                </sp>
+                <sp who="#monsieu_disanvray">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="502" unit="words"/>
+                    <amount n="66" unit="lines"/>
+                    <amount n="2428" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Le Docteur, Léandre, Une Fille, Scaramouche.</head>
+                <sp who="#l_docteur">
+                    <amount n="21" unit="speech_acts"/>
+                    <amount n="365" unit="words"/>
+                    <amount n="65" unit="lines"/>
+                    <amount n="1679" unit="chars"/>
+                </sp>
+                <sp who="#arlequin">
+                    <amount n="33" unit="speech_acts"/>
+                    <amount n="1014" unit="words"/>
+                    <amount n="136" unit="lines"/>
+                    <amount n="4941" unit="chars"/>
+                </sp>
+                <sp who="#_andre">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="97" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="477" unit="chars"/>
+                </sp>
+                <sp who="#scaramouche">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="117" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="519" unit="chars"/>
+                </sp>
+                <sp who="#u_espagnol">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="53" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="275" unit="chars"/>
+                </sp>
+                <sp who="#un_espagnolette">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="154" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="808" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE I. La Comtesse, Le Chevalier, Arlequin.</head>
+                <sp who="#l_comtesse">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="402" unit="words"/>
+                    <amount n="53" unit="lines"/>
+                    <amount n="1937" unit="chars"/>
+                </sp>
+                <sp who="#arlequin">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="444" unit="words"/>
+                    <amount n="56" unit="lines"/>
+                    <amount n="2153" unit="chars"/>
+                </sp>
+                <sp who="#l_chevalier">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="277" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="1436" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Octave, Arlequin.</head>
+                <sp who="#octave">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="278" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="1329" unit="chars"/>
+                </sp>
+                <sp who="#arlequin">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="137" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="637" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Octave, Colombine, Arlequin.</head>
+                <sp who="#octave">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="173" unit="chars"/>
+                </sp>
+                <sp who="#arlequin">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="100" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="466" unit="chars"/>
+                </sp>
+                <sp who="#colombine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="21" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Arlequin, Pierrot.</head>
+                <sp who="#arlequin">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="100" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="484" unit="chars"/>
+                </sp>
+                <sp who="#pierrot">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="234" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="1062" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Le Vieillard, sa Femme, Arlequin.</head>
+                <sp who="#l_vieillard">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="139" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="662" unit="chars"/>
+                </sp>
+                <sp who="#arlequin">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="194" unit="words"/>
+                    <amount n="64" unit="lines"/>
+                    <amount n="1036" unit="chars"/>
+                </sp>
+                <sp who="#l_femme">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="170" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="742" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Deux Gasconnes, dont il y en a une chantant, Arlequin.</head>
+                <sp who="#gasconne">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="286" unit="chars"/>
+                </sp>
+                <sp who="#arlequin">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="339" unit="words"/>
+                    <amount n="65" unit="lines"/>
+                    <amount n="1608" unit="chars"/>
+                </sp>
+                <sp who="#seconde_gasconne">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="135" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="585" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Monsieur de Colafon, Maître à danser, Arlequin.</head>
+                <sp who="#monsieu_d_colafon">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="203" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="903" unit="chars"/>
+                </sp>
+                <sp who="#arlequin">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="131" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="636" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Arlequin, Madame de l'Architrave. </head>
+                <sp who="#arlequin">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="635" unit="words"/>
+                    <amount n="80" unit="lines"/>
+                    <amount n="3109" unit="chars"/>
+                </sp>
+                <sp who="#madam_d__architrave">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="688" unit="words"/>
+                    <amount n="58" unit="lines"/>
+                    <amount n="3473" unit="chars"/>
+                </sp>
+                <sp who="#u_m_on">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="142" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="669" unit="chars"/>
+                </sp>
+                <sp who="#l_chanteuse">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="123" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I. Arlequin, Colombine.</head>
+                <sp who="#arlequin">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="710" unit="words"/>
+                    <amount n="81" unit="lines"/>
+                    <amount n="3518" unit="chars"/>
+                </sp>
+                <sp who="#colombine">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="202" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="1095" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Arlequin, Monsieur de la Cabriole Maître à danser, Monsieur de Geresol Maître à chanter.</head>
+                <sp who="#arlequin">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="246" unit="words"/>
+                    <amount n="55" unit="lines"/>
+                    <amount n="1167" unit="chars"/>
+                </sp>
+                <sp who="#monsieu_d_geresol">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="394" unit="words"/>
+                    <amount n="57" unit="lines"/>
+                    <amount n="1945" unit="chars"/>
+                </sp>
+                <sp who="#monsieu_d_l_cabriole">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="331" unit="words"/>
+                    <amount n="56" unit="lines"/>
+                    <amount n="1662" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Madame de l'Architrave, Arlequin.</head>
+                <sp who="#madam_d__architrave">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="513" unit="words"/>
+                    <amount n="69" unit="lines"/>
+                    <amount n="2615" unit="chars"/>
+                </sp>
+                <sp who="#arlequin">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="441" unit="words"/>
+                    <amount n="69" unit="lines"/>
+                    <amount n="2104" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Le Libraire, Arlequin.</head>
+                <sp who="#l_libraire">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="721" unit="words"/>
+                    <amount n="69" unit="lines"/>
+                    <amount n="3470" unit="chars"/>
+                </sp>
+                <sp who="#arlequin">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="377" unit="words"/>
+                    <amount n="52" unit="lines"/>
+                    <amount n="1916" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Un Peintre, Arlequin.</head>
+                <sp who="#l_peintre">
+                    <amount n="20" unit="speech_acts"/>
+                    <amount n="818" unit="words"/>
+                    <amount n="97" unit="lines"/>
+                    <amount n="3932" unit="chars"/>
+                </sp>
+                <sp who="#arlequin">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="249" unit="words"/>
+                    <amount n="67" unit="lines"/>
+                    <amount n="1226" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Octave, Scaramouche, Colombine, cachée.</head>
+                <sp who="#colombine">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="187" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="901" unit="chars"/>
+                </sp>
+                <sp who="#scaramouche">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="272" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="1217" unit="chars"/>
+                </sp>
+                <sp who="#octave">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="202" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="963" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Arlequin, Colombine, Scaramouche.</head>
+                <sp who="#arlequin">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="459" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="2279" unit="chars"/>
+                </sp>
+                <sp who="#scaramouche">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="301" unit="chars"/>
+                </sp>
+                <sp who="#colombine">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="166" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="821" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Jaquet, Macine, Arlequin, Colombine.</head>
+                <sp who="#jaquet">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="216" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="982" unit="chars"/>
+                </sp>
+                <sp who="#macine">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="309" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="1480" unit="chars"/>
+                </sp>
+                <sp who="#arlequin">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="275" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="1267" unit="chars"/>
+                </sp>
+                <sp who="#colombine">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="296" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Le Docteur, Octave, Colombine, Arlequin.</head>
+                <sp who="#l_docteur">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="169" unit="chars"/>
+                </sp>
+                <sp who="#arlequin">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="570" unit="words"/>
+                    <amount n="73" unit="lines"/>
+                    <amount n="2797" unit="chars"/>
+                </sp>
+                <sp who="#octave">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="132" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="648" unit="chars"/>
+                </sp>
+                <sp who="#colombine">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="197" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="979" unit="chars"/>
+                </sp>
+                <sp who="#u_berger_un_ber_re">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="107" unit="chars"/>
+                </sp>
+                <sp who="#un_ber_re">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="51" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="253" unit="chars"/>
+                </sp>
+                <sp who="#_andre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="72" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="368" unit="chars"/>
+                </sp>
+                <sp who="#mezzetin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="125" unit="chars"/>
+                </sp>
+                <sp who="#scaramouche">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="97" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="457" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

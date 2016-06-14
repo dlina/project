@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>L'APOLOGIE DU SIÈCLE</title>
+        <subtitle>OU MOMUS CORRIGÉ</subtitle>
+        <subtitle>COMÉDIE EN VERS ET EN TROIS ACTES.</subtitle>
+        <subtitle>Représentée par les Comédiens Italiens, pour la premièr[e] fois, le premier Avril 1734.</subtitle>
+        <subtitle>Le prix est de vingt-quatre sols.</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>BOISSY, Louis de</author>
+        <date when="1732">1732</date>
+        <source>https://github.com/dramacode/theatre-classique/BOISSY_APOLOGIEDUSIECLE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>l_actrice</name>
+            <alias xml:id="l_actrice">
+                <name>l_actrice</name>
+            </alias>
+        </character>
+        <character>
+            <name>momus</name>
+            <alias xml:id="momus">
+                <name>momus</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>philinte</name>
+            <alias xml:id="philinte">
+                <name>philinte</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_indif_rent</name>
+            <alias xml:id="l_indif_rent">
+                <name>l_indif_rent</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le__nie</name>
+            <alias xml:id="le__nie">
+                <name>le__nie</name>
+            </alias>
+        </character>
+        <character>
+            <name>terpsicore</name>
+            <alias xml:id="terpsicore">
+                <name>terpsicore</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>chanteur_du_divertisssement</name>
+            <alias xml:id="chanteur_du_divertisssement">
+                <name>chanteur_du_divertisssement</name>
+            </alias>
+        </character>
+        <character>
+            <name>chanteur_du_vaudeville</name>
+            <alias xml:id="chanteur_du_vaudeville">
+                <name>chanteur_du_vaudeville</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head/>
+            <div>
+                <head>SCÈNE PREMIÈRE. Momus, Une Actrice.</head>
+                <sp who="#l_actrice">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="356" unit="words"/>
+                    <amount n="51" unit="lines"/>
+                    <amount n="1659" unit="chars"/>
+                </sp>
+                <sp who="#momus">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="352" unit="words"/>
+                    <amount n="55" unit="lines"/>
+                    <amount n="1673" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Momus, Philinte.</head>
+                <sp who="#philinte">
+                    <amount n="24" unit="speech_acts"/>
+                    <amount n="1187" unit="words"/>
+                    <amount n="148" unit="lines"/>
+                    <amount n="5754" unit="chars"/>
+                </sp>
+                <sp who="#momus">
+                    <amount n="23" unit="speech_acts"/>
+                    <amount n="725" unit="words"/>
+                    <amount n="109" unit="lines"/>
+                    <amount n="3436" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Momus, L'indifférent.</head>
+                <sp who="#l_indif_rent">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="658" unit="words"/>
+                    <amount n="94" unit="lines"/>
+                    <amount n="3204" unit="chars"/>
+                </sp>
+                <sp who="#momus">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="124" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="592" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Momus, Le Génie du siècle.</head>
+                <sp who="#le__nie">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="1139" unit="words"/>
+                    <amount n="153" unit="lines"/>
+                    <amount n="5627" unit="chars"/>
+                </sp>
+                <sp who="#momus">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="373" unit="words"/>
+                    <amount n="53" unit="lines"/>
+                    <amount n="1706" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V ET DERNIÈRE. Momus, Terpsicore.</head>
+                <sp who="#terpsicore">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="525" unit="words"/>
+                    <amount n="79" unit="lines"/>
+                    <amount n="2485" unit="chars"/>
+                </sp>
+                <sp who="#momus">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="193" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="914" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>DIVERTISSEMENT.</head>
+                <sp who="#chanteur_du_divertisssement">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="92" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="458" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>VAUDEVILLE.</head>
+                <sp who="#chanteur_du_vaudeville">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="77" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="354" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

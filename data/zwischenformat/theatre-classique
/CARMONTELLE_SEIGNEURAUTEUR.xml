@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LE SEIGNEUR AUTEUR</title>
+        <subtitle>COMÉDIE PROVERBE</subtitle>
+        <genretitle>Proverbe</genretitle>
+        <author>CARMONTELLE, Louis Carrogis, dit Louis de Carmontelle</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/CARMONTELLE_SEIGNEURAUTEUR.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>l_duc</name>
+            <alias xml:id="l_duc">
+                <name>l_duc</name>
+            </alias>
+        </character>
+        <character>
+            <name>dup_</name>
+            <alias xml:id="dup_">
+                <name>dup_</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>monsieu_ronflant</name>
+            <alias xml:id="monsieu_ronflant">
+                <name>monsieu_ronflant</name>
+            </alias>
+        </character>
+        <character>
+            <name>monsieu__cousu</name>
+            <alias xml:id="monsieu__cousu">
+                <name>monsieu__cousu</name>
+            </alias>
+        </character>
+        <character>
+            <name>tou_troi_ensemble</name>
+            <alias xml:id="tou_troi_ensemble">
+                <name>tou_troi_ensemble</name>
+            </alias>
+        </character>
+        <character>
+            <name>ronflant___cousu</name>
+            <alias xml:id="ronflant___cousu">
+                <name>ronflant___cousu</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head/>
+            <div>
+                <head>SCÈNE I. La Duc, Dupré</head>
+                <sp who="#l_duc">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="176" unit="words"/>
+                    <amount n="48" unit="lines"/>
+                    <amount n="721" unit="chars"/>
+                </sp>
+                <sp who="#dup_">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="129" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="619" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Le Duc, Monsieur Ronflant, Monsieur Décousu.</head>
+                <sp who="#l_duc">
+                    <amount n="47" unit="speech_acts"/>
+                    <amount n="718" unit="words"/>
+                    <amount n="170" unit="lines"/>
+                    <amount n="3053" unit="chars"/>
+                </sp>
+                <sp who="#monsieu_ronflant">
+                    <amount n="38" unit="speech_acts"/>
+                    <amount n="485" unit="words"/>
+                    <amount n="122" unit="lines"/>
+                    <amount n="2261" unit="chars"/>
+                </sp>
+                <sp who="#monsieu__cousu">
+                    <amount n="34" unit="speech_acts"/>
+                    <amount n="382" unit="words"/>
+                    <amount n="103" unit="lines"/>
+                    <amount n="1696" unit="chars"/>
+                </sp>
+                <sp who="#tou_troi_ensemble">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="27" unit="chars"/>
+                </sp>
+                <sp who="#ronflant___cousu">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="53" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Le Duc, Dupré. </head>
+                <sp who="#l_duc">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="125" unit="chars"/>
+                </sp>
+                <sp who="#dup_">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="167" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

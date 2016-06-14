@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LES VENDANGES DE SURESNES</title>
+        <subtitle>COMÉDIE</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>DU RYER, Pierre</author>
+        <date when="1636">1636</date>
+        <source>https://github.com/dramacode/theatre-classique/DURYER_VENDANGESDESURESNES.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>philemon</name>
+            <alias xml:id="philemon">
+                <name>philemon</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>tirsis</name>
+            <alias xml:id="tirsis">
+                <name>tirsis</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>polidor</name>
+            <alias xml:id="polidor">
+                <name>polidor</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>dorimene</name>
+            <alias xml:id="dorimene">
+                <name>dorimene</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>lisette</name>
+            <alias xml:id="lisette">
+                <name>lisette</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>florice</name>
+            <alias xml:id="florice">
+                <name>florice</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>guillaume</name>
+            <alias xml:id="guillaume">
+                <name>guillaume</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>olenie</name>
+            <alias xml:id="olenie">
+                <name>olenie</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>doripe</name>
+            <alias xml:id="doripe">
+                <name>doripe</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>crisere</name>
+            <alias xml:id="crisere">
+                <name>crisere</name>
+            </alias>
+        </character>
+        <character>
+            <name>ormin</name>
+            <alias xml:id="ormin">
+                <name>ormin</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE I. Philémon, Tirsis.</head>
+                <sp who="#philemon">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="533" unit="words"/>
+                    <amount n="67" unit="lines"/>
+                    <amount n="2515" unit="chars"/>
+                </sp>
+                <sp who="#tirsis">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="420" unit="words"/>
+                    <amount n="55" unit="lines"/>
+                    <amount n="1979" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Polidor, Tirsis.</head>
+                <sp who="#polidor">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="355" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="1591" unit="chars"/>
+                </sp>
+                <sp who="#tirsis">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="404" unit="words"/>
+                    <amount n="57" unit="lines"/>
+                    <amount n="1960" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III.</head>
+                <sp who="#dorimene">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="337" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="1556" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Tirsis, Polidor, Dorimène.</head>
+                <sp who="#tirsis">
+                    <amount n="21" unit="speech_acts"/>
+                    <amount n="587" unit="words"/>
+                    <amount n="87" unit="lines"/>
+                    <amount n="2830" unit="chars"/>
+                </sp>
+                <sp who="#polidor">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="282" unit="words"/>
+                    <amount n="45" unit="lines"/>
+                    <amount n="1245" unit="chars"/>
+                </sp>
+                <sp who="#dorimene">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="188" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="863" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Philémon, Tirsis.</head>
+                <sp who="#philemon">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="55" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="255" unit="chars"/>
+                </sp>
+                <sp who="#tirsis">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="104" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="448" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Lisette, Florice.</head>
+                <sp who="#lisette">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="473" unit="words"/>
+                    <amount n="64" unit="lines"/>
+                    <amount n="2223" unit="chars"/>
+                </sp>
+                <sp who="#florice">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="494" unit="words"/>
+                    <amount n="65" unit="lines"/>
+                    <amount n="2218" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Lisette, Guillaume.</head>
+                <sp who="#lisette">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="171" unit="chars"/>
+                </sp>
+                <sp who="#guillaume">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="79" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="363" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE I. Polidor, Guillaume.</head>
+                <sp who="#polidor">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="148" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="650" unit="chars"/>
+                </sp>
+                <sp who="#guillaume">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="150" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="640" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Florice, Olénie, Polidor.</head>
+                <sp who="#florice">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="66" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="307" unit="chars"/>
+                </sp>
+                <sp who="#olenie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="97" unit="chars"/>
+                </sp>
+                <sp who="#polidor">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="58" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="278" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Olénie, Doripe, Dorimène, Florice, Polidor.</head>
+                <sp who="#olenie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="61" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="280" unit="chars"/>
+                </sp>
+                <sp who="#doripe">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="108" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="507" unit="chars"/>
+                </sp>
+                <sp who="#florice">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="74" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="320" unit="chars"/>
+                </sp>
+                <sp who="#dorimene">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="181" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="914" unit="chars"/>
+                </sp>
+                <sp who="#polidor">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="311" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1500" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Florice, Lisette. </head>
+                <sp who="#florice">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="453" unit="words"/>
+                    <amount n="60" unit="lines"/>
+                    <amount n="2107" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="502" unit="words"/>
+                    <amount n="63" unit="lines"/>
+                    <amount n="2357" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Crisère, Doripe.</head>
+                <sp who="#crisere">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="376" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="1786" unit="chars"/>
+                </sp>
+                <sp who="#doripe">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="212" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="987" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Dorimène, Crisère, Doripe.</head>
+                <sp who="#dorimene">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="255" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="1177" unit="chars"/>
+                </sp>
+                <sp who="#crisere">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="214" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="1006" unit="chars"/>
+                </sp>
+                <sp who="#doripe">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="124" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Polidor, Dorimène, Crisère.</head>
+                <sp who="#polidor">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="494" unit="words"/>
+                    <amount n="66" unit="lines"/>
+                    <amount n="2332" unit="chars"/>
+                </sp>
+                <sp who="#dorimene">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="379" unit="words"/>
+                    <amount n="55" unit="lines"/>
+                    <amount n="1810" unit="chars"/>
+                </sp>
+                <sp who="#crisere">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="84" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I. Tirsis, Philémon.</head>
+                <sp who="#tirsis">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="252" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1178" unit="chars"/>
+                </sp>
+                <sp who="#philemon">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="220" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="1072" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Polidor, Guillaume, Tirsis, Philémon.</head>
+                <sp who="#polidor">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="507" unit="words"/>
+                    <amount n="68" unit="lines"/>
+                    <amount n="2301" unit="chars"/>
+                </sp>
+                <sp who="#guillaume">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="218" unit="chars"/>
+                </sp>
+                <sp who="#tirsis">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="302" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="1411" unit="chars"/>
+                </sp>
+                <sp who="#philemon">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="182" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="893" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. </head>
+                <sp who="#guillaume">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="88" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="416" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Tirsis, Guillaume, Polidor.</head>
+                <sp who="#tirsis">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="590" unit="words"/>
+                    <amount n="77" unit="lines"/>
+                    <amount n="2766" unit="chars"/>
+                </sp>
+                <sp who="#guillaume">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="242" unit="chars"/>
+                </sp>
+                <sp who="#polidor">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="95" unit="chars"/>
+                </sp>
+                <sp who="#dorimene">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="282" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="1312" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Polidor, Guillaume.</head>
+                <sp who="#polidor">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="223" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1005" unit="chars"/>
+                </sp>
+                <sp who="#guillaume">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="287" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="1344" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE I. Lisette, Florice.</head>
+                <sp who="#lisette">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="174" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="870" unit="chars"/>
+                </sp>
+                <sp who="#florice">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="218" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="1066" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Tirsis, Lisette, Florice. </head>
+                <sp who="#tirsis">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="139" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="657" unit="chars"/>
+                </sp>
+                <sp who="#florice">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="89" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="448" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="156" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="808" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Guillaume, Polidor.</head>
+                <sp who="#guillaume">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="89" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="413" unit="chars"/>
+                </sp>
+                <sp who="#polidor">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="157" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Dorimène, Polidor. </head>
+                <sp who="#dorimene">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="181" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="885" unit="chars"/>
+                </sp>
+                <sp who="#polidor">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="112" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="529" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Tirsis, Dorimène, Polidor.</head>
+                <sp who="#tirsis">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="96" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="443" unit="chars"/>
+                </sp>
+                <sp who="#polidor">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="151" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="707" unit="chars"/>
+                </sp>
+                <sp who="#dorimene">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="211" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1024" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Crisère, Doripe.</head>
+                <sp who="#crisere">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="610" unit="words"/>
+                    <amount n="70" unit="lines"/>
+                    <amount n="2873" unit="chars"/>
+                </sp>
+                <sp who="#doripe">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="319" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="1529" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Dorimène, Olénie.</head>
+                <sp who="#dorimene">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="59" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="289" unit="chars"/>
+                </sp>
+                <sp who="#olenie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="210" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Dorimène, Guillaume, Olénie.</head>
+                <sp who="#dorimene">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="110" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="479" unit="chars"/>
+                </sp>
+                <sp who="#guillaume">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="168" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="775" unit="chars"/>
+                </sp>
+                <sp who="#olenie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="96" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Dorimène, Guillaume, Crisère, Doripe, Olénie.</head>
+                <sp who="#dorimene">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="25" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="110" unit="chars"/>
+                </sp>
+                <sp who="#guillaume">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="109" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="508" unit="chars"/>
+                </sp>
+                <sp who="#olenie">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="215" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1036" unit="chars"/>
+                </sp>
+                <sp who="#crisere">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="354" unit="words"/>
+                    <amount n="51" unit="lines"/>
+                    <amount n="1598" unit="chars"/>
+                </sp>
+                <sp who="#doripe">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="121" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="580" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE I. Florice, Dorimène, Lisette.</head>
+                <sp who="#florice">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="364" unit="words"/>
+                    <amount n="45" unit="lines"/>
+                    <amount n="1688" unit="chars"/>
+                </sp>
+                <sp who="#dorimene">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="322" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="1479" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="286" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="1314" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Tirsis, Guillaume.</head>
+                <sp who="#tirsis">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="148" unit="chars"/>
+                </sp>
+                <sp who="#guillaume">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="261" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="1247" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Polidor, Tirisi, Guillaume, Philémon.</head>
+                <sp who="#polidor">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="206" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="1006" unit="chars"/>
+                </sp>
+                <sp who="#tirsis">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="125" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="584" unit="chars"/>
+                </sp>
+                <sp who="#guillaume">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="151" unit="chars"/>
+                </sp>
+                <sp who="#philemon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="26" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Crisère, Doripe, Lisette.</head>
+                <sp who="#crisere">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="264" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="1243" unit="chars"/>
+                </sp>
+                <sp who="#doripe">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="80" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="388" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Lisette, Doripe, Crisère.</head>
+                <sp who="#lisette">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="165" unit="chars"/>
+                </sp>
+                <sp who="#doripe">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="35" unit="chars"/>
+                </sp>
+                <sp who="#crisere">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="66" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Polidor, Tirsis, Florice, Dorimène.</head>
+                <sp who="#polidor">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="227" unit="chars"/>
+                </sp>
+                <sp who="#tirsis">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="85" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="384" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Philémon, Polidor, Tirsis, Guillaume.</head>
+                <sp who="#philemon">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="50" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="240" unit="chars"/>
+                </sp>
+                <sp who="#guillaume">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="79" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="341" unit="chars"/>
+                </sp>
+                <sp who="#tirsis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="85" unit="chars"/>
+                </sp>
+                <sp who="#polidor">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="76" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="332" unit="chars"/>
+                </sp>
+                <sp who="#florice">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="68" unit="chars"/>
+                </sp>
+                <sp who="#dorimene">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="22" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE DERNIÈRE. Doripe, Crisère, Polidor, Dorimène, Tirsis, Lisette, Ormin, Guillaume. </head>
+                <sp who="#doripe">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="157" unit="chars"/>
+                </sp>
+                <sp who="#crisere">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="224" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1099" unit="chars"/>
+                </sp>
+                <sp who="#polidor">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="80" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="393" unit="chars"/>
+                </sp>
+                <sp who="#guillaume">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="139" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="627" unit="chars"/>
+                </sp>
+                <sp who="#tirsis">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="98" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="467" unit="chars"/>
+                </sp>
+                <sp who="#dorimene">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="98" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="458" unit="chars"/>
+                </sp>
+                <sp who="#ormin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="63" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="293" unit="chars"/>
+                </sp>
+                <sp who="#florice">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="96" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="177" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

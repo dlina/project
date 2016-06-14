@@ -1,0 +1,979 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>PROSERPINE</title>
+        <subtitle>TRAGÉDIE EN MUSIQUE, ornée d'entrées de ballet, de machines et de changements de théâtre</subtitle>
+        <genretitle>Tragédie</genretitle>
+        <author>QUINAULT, Philippe</author>
+        <date when="1680">1680</date>
+        <source>https://github.com/dramacode/theatre-classique/QUINAULT_PROSERPINE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>l_paix</name>
+            <alias xml:id="l_paix">
+                <name>l_paix</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_discorde</name>
+            <alias xml:id="l_discorde">
+                <name>l_discorde</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_paix_s_suite</name>
+            <alias xml:id="l_paix_s_suite">
+                <name>l_paix_s_suite</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_discorde_s_suite</name>
+            <alias xml:id="l_discorde_s_suite">
+                <name>l_discorde_s_suite</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_victoire</name>
+            <alias xml:id="l_victoire">
+                <name>l_victoire</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_victoire_s_suite</name>
+            <alias xml:id="l_victoire_s_suite">
+                <name>l_victoire_s_suite</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_victoire_l_paix</name>
+            <alias xml:id="l_victoire_l_paix">
+                <name>l_victoire_l_paix</name>
+            </alias>
+        </character>
+        <character>
+            <name>l__lici___abondance</name>
+            <alias xml:id="l__lici___abondance">
+                <name>l__lici___abondance</name>
+            </alias>
+        </character>
+        <character>
+            <name>l__lici_</name>
+            <alias xml:id="l__lici_">
+                <name>l__lici_</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_choeur</name>
+            <alias xml:id="l_choeur">
+                <name>l_choeur</name>
+            </alias>
+        </character>
+        <character>
+            <name>__s</name>
+            <alias xml:id="__s">
+                <name>__s</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>__s_cyane_crinise</name>
+            <alias xml:id="__s_cyane_crinise">
+                <name>__s_cyane_crinise</name>
+            </alias>
+        </character>
+        <character>
+            <name>mercure</name>
+            <alias xml:id="mercure">
+                <name>mercure</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>a_thuse</name>
+            <alias xml:id="a_thuse">
+                <name>a_thuse</name>
+            </alias>
+        </character>
+        <character>
+            <name>alp_e</name>
+            <alias xml:id="alp_e">
+                <name>alp_e</name>
+            </alias>
+        </character>
+        <character>
+            <name>proserpine</name>
+            <alias xml:id="proserpine">
+                <name>proserpine</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>proserpine_l_choeur</name>
+            <alias xml:id="proserpine_l_choeur">
+                <name>proserpine_l_choeur</name>
+            </alias>
+        </character>
+        <character>
+            <name>crinise</name>
+            <alias xml:id="crinise">
+                <name>crinise</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>ascalaphe</name>
+            <alias xml:id="ascalaphe">
+                <name>ascalaphe</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>a_thuse_alp_e</name>
+            <alias xml:id="a_thuse_alp_e">
+                <name>a_thuse_alp_e</name>
+            </alias>
+        </character>
+        <character>
+            <name>pluton</name>
+            <alias xml:id="pluton">
+                <name>pluton</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>pluto_ascalaphe</name>
+            <alias xml:id="pluto_ascalaphe">
+                <name>pluto_ascalaphe</name>
+            </alias>
+        </character>
+        <character>
+            <name>proserpine_se_nymphes</name>
+            <alias xml:id="proserpine_se_nymphes">
+                <name>proserpine_se_nymphes</name>
+            </alias>
+        </character>
+        <character>
+            <name>choeu_d_nymphes</name>
+            <alias xml:id="choeu_d_nymphes">
+                <name>choeu_d_nymphes</name>
+            </alias>
+        </character>
+        <character>
+            <name>proserpine_cya_</name>
+            <alias xml:id="proserpine_cya_">
+                <name>proserpine_cya_</name>
+            </alias>
+        </character>
+        <character>
+            <name>pluton_ascalaphe_divinite_infernales</name>
+            <alias xml:id="pluton_ascalaphe_divinite_infernales">
+                <name>pluton_ascalaphe_divinite_infernales</name>
+            </alias>
+        </character>
+        <character>
+            <name>cya_</name>
+            <alias xml:id="cya_">
+                <name>cya_</name>
+            </alias>
+        </character>
+        <character>
+            <name>tou_ensemble</name>
+            <alias xml:id="tou_ensemble">
+                <name>tou_ensemble</name>
+            </alias>
+        </character>
+        <character>
+            <name>deu_nymphes</name>
+            <alias xml:id="deu_nymphes">
+                <name>deu_nymphes</name>
+            </alias>
+        </character>
+        <character>
+            <name>__s_l_choeur</name>
+            <alias xml:id="__s_l_choeur">
+                <name>__s_l_choeur</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_choeu_de_ombres</name>
+            <alias xml:id="l_choeu_de_ombres">
+                <name>l_choeu_de_ombres</name>
+            </alias>
+        </character>
+        <character>
+            <name>deu_ombres</name>
+            <alias xml:id="deu_ombres">
+                <name>deu_ombres</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_ombres</name>
+            <alias xml:id="le_ombres">
+                <name>le_ombres</name>
+            </alias>
+        </character>
+        <character>
+            <name>a_thuse_alp_e_ascalaphe</name>
+            <alias xml:id="a_thuse_alp_e_ascalaphe">
+                <name>a_thuse_alp_e_ascalaphe</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_choeurs</name>
+            <alias xml:id="le_choeurs">
+                <name>le_choeurs</name>
+            </alias>
+        </character>
+        <character>
+            <name>choeu_de_ombres</name>
+            <alias xml:id="choeu_de_ombres">
+                <name>choeu_de_ombres</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_troi_juge_de_enfers</name>
+            <alias xml:id="le_troi_juge_de_enfers">
+                <name>le_troi_juge_de_enfers</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_troi_furies</name>
+            <alias xml:id="le_troi_furies">
+                <name>le_troi_furies</name>
+            </alias>
+        </character>
+        <character>
+            <name>un_de_furies</name>
+            <alias xml:id="un_de_furies">
+                <name>un_de_furies</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_furies_l_choeur</name>
+            <alias xml:id="le_furies_l_choeur">
+                <name>le_furies_l_choeur</name>
+            </alias>
+        </character>
+        <character>
+            <name>voi_infernales</name>
+            <alias xml:id="voi_infernales">
+                <name>voi_infernales</name>
+            </alias>
+        </character>
+        <character>
+            <name>jupiter</name>
+            <alias xml:id="jupiter">
+                <name>jupiter</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>PROLOGUE</head>
+            <div>
+                <head/>
+                <sp who="#l_paix">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="147" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="734" unit="chars"/>
+                </sp>
+                <sp who="#l_discorde">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="247" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="1289" unit="chars"/>
+                </sp>
+                <sp who="#l_paix_s_suite">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="222" unit="chars"/>
+                </sp>
+                <sp who="#l_discorde_s_suite">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="170" unit="chars"/>
+                </sp>
+                <sp who="#l_victoire">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="135" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="664" unit="chars"/>
+                </sp>
+                <sp who="#l_victoire_s_suite">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="48" unit="chars"/>
+                </sp>
+                <sp who="#l_victoire_l_paix">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="124" unit="chars"/>
+                </sp>
+                <sp who="#l__lici___abondance">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="79" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="382" unit="chars"/>
+                </sp>
+                <sp who="#l__lici_">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="51" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="269" unit="chars"/>
+                </sp>
+                <sp who="#l_choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="25" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="126" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE I. Cérès, Cyané, Crinise.</head>
+                <sp who="#__s">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="111" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="624" unit="chars"/>
+                </sp>
+                <sp who="#__s_cyane_crinise">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="109" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Mercure, Cérès.</head>
+                <sp who="#__s">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="225" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1112" unit="chars"/>
+                </sp>
+                <sp who="#mercure">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="171" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="878" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Arethuse, Cérès.</head>
+                <sp who="#__s">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="167" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="813" unit="chars"/>
+                </sp>
+                <sp who="#a_thuse">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="157" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="716" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV.</head>
+                <sp who="#a_thuse">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="186" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="865" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Alphée, Aréthuse.</head>
+                <sp who="#alp_e">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="258" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="1287" unit="chars"/>
+                </sp>
+                <sp who="#a_thuse">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="66" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="323" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Proserpine, Alphée, Arethuse, Cyané, Crinise, troupes de divinités et de peuples de Sicile, quatorze nymphes chantantes, six divinités des bois chantantes, six divinités des eaux chantantes, six habitants de Sicile chantants, un conducteur de la fête dansant, six habitants de Sicile dansants...</head>
+                <sp who="#proserpine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="198" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Cérès, Proserpine, Alphée, Arethuse, Cyané, Crinise, troupes de divinités et de peuples.</head>
+                <sp who="#__s">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="66" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="344" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Proserpine, Alphée, Arethuse, Cyané, Crinise, troupe de divinités, troupe de peuples.</head>
+                <sp who="#proserpine_l_choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="115" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="616" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE I. Crinise, Alphée.</head>
+                <sp who="#crinise">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="74" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="365" unit="chars"/>
+                </sp>
+                <sp who="#alp_e">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="165" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="831" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Ascalaphe, Alphée.</head>
+                <sp who="#alp_e">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="70" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="409" unit="chars"/>
+                </sp>
+                <sp who="#ascalaphe">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="179" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="858" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III.</head>
+                <sp who="#alp_e">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="94" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="449" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Alphée, Arethuse.</head>
+                <sp who="#alp_e">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="116" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="545" unit="chars"/>
+                </sp>
+                <sp who="#a_thuse">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="73" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="361" unit="chars"/>
+                </sp>
+                <sp who="#a_thuse_alp_e">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="57" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="257" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Ascalaphe, Aréthuse, Alphée.</head>
+                <sp who="#a_thuse">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="123" unit="chars"/>
+                </sp>
+                <sp who="#ascalaphe">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="144" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="698" unit="chars"/>
+                </sp>
+                <sp who="#a_thuse_alp_e">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="44" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Pluton, Aréthuse, Ascalaphe, Alphée.</head>
+                <sp who="#pluton">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="172" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="908" unit="chars"/>
+                </sp>
+                <sp who="#a_thuse">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="55" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="280" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Pluton, Ascalaphe.</head>
+                <sp who="#ascalaphe">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="76" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="382" unit="chars"/>
+                </sp>
+                <sp who="#pluton">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="148" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="754" unit="chars"/>
+                </sp>
+                <sp who="#pluto_ascalaphe">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="53" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Proserpine, Cyané, Arethuse, Pluton, Ascalaphe, troupe de nymphes, quatorze nymphes de la suite de Proserpine chantantes, huit nymphes dansantes.</head>
+                <sp who="#proserpine_se_nymphes">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="43" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="208" unit="chars"/>
+                </sp>
+                <sp who="#pluton">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="73" unit="chars"/>
+                </sp>
+                <sp who="#proserpine">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="213" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="1059" unit="chars"/>
+                </sp>
+                <sp who="#l_choeur">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="130" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="628" unit="chars"/>
+                </sp>
+                <sp who="#choeu_d_nymphes">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="62" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Pluton, Proserpine, Ascalaphe, Cyané, troupe de divinités des enfers, huit divinités infernales chantantes.</head>
+                <sp who="#pluton">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="152" unit="chars"/>
+                </sp>
+                <sp who="#proserpine">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="54" unit="chars"/>
+                </sp>
+                <sp who="#proserpine_cya_">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="64" unit="chars"/>
+                </sp>
+                <sp who="#pluton_ascalaphe_divinite_infernales">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="114" unit="chars"/>
+                </sp>
+                <sp who="#cya_">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="4" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="27" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I. Alphée, Aréthuse, Crinise, troupe de nymphes, troupe de dieux des bois.</head>
+                <sp who="#tou_ensemble">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="48" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="255" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Arethuse, Alphée.</head>
+                <sp who="#a_thuse">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="104" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="528" unit="chars"/>
+                </sp>
+                <sp who="#alp_e">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="86" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="440" unit="chars"/>
+                </sp>
+                <sp who="#a_thuse_alp_e">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="72" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Alphée, Aréthuse, Crinise, troupes de nymphes et de dieux des bois.</head>
+                <sp who="#tou_ensemble">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="219" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV.</head>
+                <sp who="#__s">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="170" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="861" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Cérès, Crinise, troupes de nymphes et de dieux des bois.</head>
+                <sp who="#__s">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="72" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="341" unit="chars"/>
+                </sp>
+                <sp who="#l_choeur">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="129" unit="chars"/>
+                </sp>
+                <sp who="#deu_nymphes">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="85" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Cyané, Cérès, Crinise, troupes de nymphes et de dieux champêtres.</head>
+                <sp who="#cya_">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="71" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="310" unit="chars"/>
+                </sp>
+                <sp who="#__s">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="155" unit="chars"/>
+                </sp>
+                <sp who="#__s_l_choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="28" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Cérès, Crinise, troupe de nymphes, et de dieux des bois.</head>
+                <sp who="#__s">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="254" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="1337" unit="chars"/>
+                </sp>
+                <sp who="#l_choeur">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="54" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Cérès, troupes de nymphes et de dieux champêtres, troupe de suivants de Cérès, troupe de peuples de Sicile.</head>
+                <sp who="#__s">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="69" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="331" unit="chars"/>
+                </sp>
+                <sp who="#l_choeur">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="216" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE I. Ombres heureuses, quatorze ombres heureuses chantantes, six ombres jouant la flûte.</head>
+                <sp who="#l_choeu_de_ombres">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="64" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="332" unit="chars"/>
+                </sp>
+                <sp who="#deu_ombres">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="107" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="533" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Proserpine, Ascalaphe, les ombres heureuses.</head>
+                <sp who="#proserpine">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="167" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="846" unit="chars"/>
+                </sp>
+                <sp who="#ascalaphe">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="178" unit="chars"/>
+                </sp>
+                <sp who="#le_ombres">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="69" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Aréthuse, Alphée, Proserpine, Ascalaphe.</head>
+                <sp who="#proserpine">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="196" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="936" unit="chars"/>
+                </sp>
+                <sp who="#a_thuse_alp_e">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="84" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="417" unit="chars"/>
+                </sp>
+                <sp who="#a_thuse">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="139" unit="chars"/>
+                </sp>
+                <sp who="#alp_e">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="76" unit="chars"/>
+                </sp>
+                <sp who="#ascalaphe">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="56" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="302" unit="chars"/>
+                </sp>
+                <sp who="#a_thuse_alp_e_ascalaphe">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="210" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Pluton, Proserpine.</head>
+                <sp who="#proserpine">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="176" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="934" unit="chars"/>
+                </sp>
+                <sp who="#pluton">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="300" unit="words"/>
+                    <amount n="51" unit="lines"/>
+                    <amount n="1545" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Pluton, Proserpine, choeur d'ombres bienheureuses, choeur de divinités infernales, quatorze divinités infernales de la suite de Pluton chantantes, les trois juges des enfers, quatre divinités infernales dansantes, quatre ombres heureuses dansantes.</head>
+                <sp who="#pluton">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="68" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="324" unit="chars"/>
+                </sp>
+                <sp who="#le_choeurs">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="94" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="450" unit="chars"/>
+                </sp>
+                <sp who="#choeu_de_ombres">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="103" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="503" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE I. Pluton, les trois juges des enfers, les trois furies, troupe de divinités infernales, Les trois furies.</head>
+                <sp who="#pluton">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="176" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="920" unit="chars"/>
+                </sp>
+                <sp who="#l_choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="59" unit="chars"/>
+                </sp>
+                <sp who="#le_troi_juge_de_enfers">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="177" unit="chars"/>
+                </sp>
+                <sp who="#le_troi_furies">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="113" unit="chars"/>
+                </sp>
+                <sp who="#un_de_furies">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="92" unit="chars"/>
+                </sp>
+                <sp who="#le_furies_l_choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="47" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II.</head>
+                <sp who="#__s">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="159" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="754" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Cérès, Voix infernales.</head>
+                <sp who="#__s">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="177" unit="chars"/>
+                </sp>
+                <sp who="#voi_infernales">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="94" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Alphée, Arethuse, Cérès.</head>
+                <sp who="#__s">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="187" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="951" unit="chars"/>
+                </sp>
+                <sp who="#a_thuse">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="187" unit="chars"/>
+                </sp>
+                <sp who="#a_thuse_alp_e">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="56" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="292" unit="chars"/>
+                </sp>
+                <sp who="#alp_e">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="83" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Mercure, Cérès, Alphée, Arethuse.</head>
+                <sp who="#mercure">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="72" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="366" unit="chars"/>
+                </sp>
+                <sp who="#__s">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="113" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Jupiter, Pluton, Proserpine, Cérès, Mercure, Alphée, Aréthuse, troupes de divinités célestes, terrestres, et infernales, six divinités qui jouent de divers instruments, et qui accompagnent Jupiter dans la gloire, Divinités célestes qui chantent dans des machines, Venus, Pallas, Hercule, Apollon, L'Amour, L'Hymenée, Troupe de divinités de la terre chantantes, Pomone, Flore, Vertumne, Troupe de divinités de la terre chantantes, Troupe de divinités infernales chantantes, Troupe de divinités infernales dansantes.</head>
+                <sp who="#jupiter">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="228" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

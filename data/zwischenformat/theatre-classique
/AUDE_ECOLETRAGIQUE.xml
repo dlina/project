@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>L'ÉCOLE TRAGIQUE OU CADET ROUSSEL MAITRE DE DÉCLAMATION</title>
+        <subtitle>COMÉDIE OU NON EN UN ACTE</subtitle>
+        <subtitle>mélée de quelques scènes de la Princesse de Poitou, tragédie.</subtitle>
+        <subtitle>Représentée sur le théâtre Montansier Variétés le 10 fructidor, an 6.</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>AUDE, Joseph </author>
+        <date when="1718">1718</date>
+        <source>https://github.com/dramacode/theatre-classique/AUDE_ECOLETRAGIQUE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>homurin</name>
+            <alias xml:id="homurin">
+                <name>homurin</name>
+            </alias>
+        </character>
+        <character>
+            <name>linval</name>
+            <alias xml:id="linval">
+                <name>linval</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>premier_habit_</name>
+            <alias xml:id="premier_habit_">
+                <name>premier_habit_</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>deux_me_habit_</name>
+            <alias xml:id="deux_me_habit_">
+                <name>deux_me_habit_</name>
+            </alias>
+        </character>
+        <character>
+            <name>germon</name>
+            <alias xml:id="germon">
+                <name>germon</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>linval__humorin</name>
+            <alias xml:id="linval__humorin">
+                <name>linval__humorin</name>
+            </alias>
+        </character>
+        <character>
+            <name>humorin</name>
+            <alias xml:id="humorin">
+                <name>humorin</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>blanchet__re</name>
+            <alias xml:id="blanchet__re">
+                <name>blanchet__re</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>la__re_cloutier</name>
+            <alias xml:id="la__re_cloutier">
+                <name>la__re_cloutier</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>manon</name>
+            <alias xml:id="manon">
+                <name>manon</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>blanchet_fils</name>
+            <alias xml:id="blanchet_fils">
+                <name>blanchet_fils</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>cadet</name>
+            <alias xml:id="cadet">
+                <name>cadet</name>
+            </alias>
+        </character>
+        <character>
+            <name>blanchet</name>
+            <alias xml:id="blanchet">
+                <name>blanchet</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_petit_roussel</name>
+            <alias xml:id="le_petit_roussel">
+                <name>le_petit_roussel</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>la__re_roussel</name>
+            <alias xml:id="la__re_roussel">
+                <name>la__re_roussel</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>beuglan</name>
+            <alias xml:id="beuglan">
+                <name>beuglan</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>tous</name>
+            <alias xml:id="tous">
+                <name>tous</name>
+            </alias>
+        </character>
+        <character>
+            <name>grignardet</name>
+            <alias xml:id="grignardet">
+                <name>grignardet</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>madame_grugeot</name>
+            <alias xml:id="madame_grugeot">
+                <name>madame_grugeot</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>mademoiselle_grugeot</name>
+            <alias xml:id="mademoiselle_grugeot">
+                <name>mademoiselle_grugeot</name>
+            </alias>
+        </character>
+        <character>
+            <name>madame_grugeot__la__re_roussel__beuglan</name>
+            <alias xml:id="madame_grugeot__la__re_roussel__beuglan">
+                <name>madame_grugeot__la__re_roussel__beuglan</name>
+            </alias>
+        </character>
+        <character>
+            <name>jobar</name>
+            <alias xml:id="jobar">
+                <name>jobar</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_amour</name>
+            <alias xml:id="l_amour">
+                <name>l_amour</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>LE CAFÉ, PROLOGUE.</head>
+            <div>
+                <head>SCÈNE PREMIÈRE.</head>
+                <sp who="#homurin">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="240" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="1119" unit="chars"/>
+                </sp>
+                <sp who="#linval">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="560" unit="words"/>
+                    <amount n="64" unit="lines"/>
+                    <amount n="2517" unit="chars"/>
+                </sp>
+                <sp who="#premier_habit_">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="65" unit="chars"/>
+                </sp>
+                <sp who="#deux_me_habit_">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="22" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Les Précédents, Germon.</head>
+                <sp who="#germon">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="549" unit="words"/>
+                    <amount n="80" unit="lines"/>
+                    <amount n="2544" unit="chars"/>
+                </sp>
+                <sp who="#linval__humorin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="4" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="18" unit="chars"/>
+                </sp>
+                <sp who="#homurin">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="117" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="601" unit="chars"/>
+                </sp>
+                <sp who="#linval">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="101" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="470" unit="chars"/>
+                </sp>
+                <sp who="#premier_habit_">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="45" unit="chars"/>
+                </sp>
+                <sp who="#humorin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="145" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>CADET ROUSSEL MAITRE DE DÉCLAMATION</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Blanchet, père, la Mère Cloutier.</head>
+                <sp who="#blanchet__re">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="517" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="2295" unit="chars"/>
+                </sp>
+                <sp who="#la__re_cloutier">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="341" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="1582" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II.</head>
+                <sp who="#la__re_cloutier">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="117" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. La mère Cloutier, Manon.</head>
+                <sp who="#manon">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="225" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="1030" unit="chars"/>
+                </sp>
+                <sp who="#la__re_cloutier">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="242" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="1030" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Manon, la mère Cloutier, Blanchet fils.</head>
+                <sp who="#blanchet_fils">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="174" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="760" unit="chars"/>
+                </sp>
+                <sp who="#la__re_cloutier">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="128" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="527" unit="chars"/>
+                </sp>
+                <sp who="#manon">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="64" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="283" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Manon, Blanchet, fils.</head>
+                <sp who="#blanchet_fils">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="231" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="1022" unit="chars"/>
+                </sp>
+                <sp who="#manon">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="153" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="652" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Les Précédents, Cadet-Roussel, le petit Roussel, la Mère Roussel.</head>
+                <sp who="#cadet">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="488" unit="words"/>
+                    <amount n="70" unit="lines"/>
+                    <amount n="2217" unit="chars"/>
+                </sp>
+                <sp who="#blanchet">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="71" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="320" unit="chars"/>
+                </sp>
+                <sp who="#manon">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="27" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="122" unit="chars"/>
+                </sp>
+                <sp who="#blanchet_fils">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="126" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="568" unit="chars"/>
+                </sp>
+                <sp who="#le_petit_roussel">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="78" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="340" unit="chars"/>
+                </sp>
+                <sp who="#la__re_roussel">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="3" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="15" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Les Mêmes, Beuglan.</head>
+                <sp who="#beuglan">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="61" unit="chars"/>
+                </sp>
+                <sp who="#cadet">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="54" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="287" unit="chars"/>
+                </sp>
+                <sp who="#blanchet_fils">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="49" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Les Mêmes, Blanchet père.</head>
+                <sp who="#blanchet_fils">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="235" unit="chars"/>
+                </sp>
+                <sp who="#blanchet">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="32" unit="chars"/>
+                </sp>
+                <sp who="#tous">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="4" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="22" unit="chars"/>
+                </sp>
+                <sp who="#cadet">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="46" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="201" unit="chars"/>
+                </sp>
+                <sp who="#beuglan">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="4" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="19" unit="chars"/>
+                </sp>
+                <sp who="#blanchet__re">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="127" unit="chars"/>
+                </sp>
+                <sp who="#la__re_roussel">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="22" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Les Mêmes, Jobar, Grignardet.</head>
+                <sp who="#cadet">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="45" unit="chars"/>
+                </sp>
+                <sp who="#blanchet__re">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="63" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="307" unit="chars"/>
+                </sp>
+                <sp who="#blanchet_fils">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="23" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Les Mêmes, excepté les Blanchet.</head>
+                <sp who="#cadet">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="64" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="301" unit="chars"/>
+                </sp>
+                <sp who="#manon">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="48" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="205" unit="chars"/>
+                </sp>
+                <sp who="#beuglan">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="35" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Les Mêmes, excepté Manon.</head>
+                <sp who="#la__re_roussel">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="37" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="184" unit="chars"/>
+                </sp>
+                <sp who="#cadet">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="108" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="512" unit="chars"/>
+                </sp>
+                <sp who="#beuglan">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="48" unit="chars"/>
+                </sp>
+                <sp who="#le_petit_roussel">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="3" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="11" unit="chars"/>
+                </sp>
+                <sp who="#grignardet">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="36" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII. Les Précédents, la citoyenne Grugeot.</head>
+                <sp who="#cadet">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="178" unit="chars"/>
+                </sp>
+                <sp who="#madame_grugeot">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="70" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="345" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIII. Madame Grugeot, la mère Roussel, Grignardet.</head>
+                <sp who="#la__re_roussel">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="83" unit="chars"/>
+                </sp>
+                <sp who="#madame_grugeot">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="138" unit="chars"/>
+                </sp>
+                <sp who="#grignardet">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="43" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIV. La mère Roussel, Madame Grugeot.</head>
+                <sp who="#madame_grugeot">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="706" unit="words"/>
+                    <amount n="45" unit="lines"/>
+                    <amount n="3184" unit="chars"/>
+                </sp>
+                <sp who="#la__re_roussel">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="147" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="613" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XV. Les Précédents, Mademoiselle Grugeot.</head>
+                <sp who="#mademoiselle_grugeot">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="69" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="308" unit="chars"/>
+                </sp>
+                <sp who="#madame_grugeot">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="67" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="288" unit="chars"/>
+                </sp>
+                <sp who="#la__re_roussel">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="131" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVI. Les Précédents, Cadet, en habit noir.</head>
+                <sp who="#cadet">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="284" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="1253" unit="chars"/>
+                </sp>
+                <sp who="#la__re_roussel">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="121" unit="chars"/>
+                </sp>
+                <sp who="#madame_grugeot">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="58" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="260" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_grugeot">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="83" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVII.</head>
+                <sp who="#cadet">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="162" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVIII. Cadet, Blanchet fils.</head>
+                <sp who="#blanchet_fils">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="259" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="1199" unit="chars"/>
+                </sp>
+                <sp who="#cadet">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="196" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIX. Les Mêmes. La mère Cloutier, Manon.</head>
+                <sp who="#la__re_cloutier">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="67" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="295" unit="chars"/>
+                </sp>
+                <sp who="#cadet">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="90" unit="chars"/>
+                </sp>
+                <sp who="#manon">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="71" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XX. Blanchet, Manon.</head>
+                <sp who="#blanchet_fils">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="110" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="505" unit="chars"/>
+                </sp>
+                <sp who="#manon">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="58" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="271" unit="chars"/>
+                </sp>
+                <sp who="#blanchet">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="32" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXI.</head>
+                <sp who="#manon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="56" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="229" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXII. Cadet, Manon.</head>
+                <sp who="#cadet">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="156" unit="chars"/>
+                </sp>
+                <sp who="#manon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="31" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXIII. Cadet, Madame Grugeot, Mlle. Grugeot.</head>
+                <sp who="#madame_grugeot">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="92" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="403" unit="chars"/>
+                </sp>
+                <sp who="#cadet">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="123" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="553" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_grugeot">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="86" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXIV. Les Mêmes, Beuglan, Jobar, Grignardet, La mère Cloutier, La mère Roussel, Musiciens, Assistans.</head>
+                <sp who="#cadet">
+                    <amount n="53" unit="speech_acts"/>
+                    <amount n="1569" unit="words"/>
+                    <amount n="253" unit="lines"/>
+                    <amount n="6811" unit="chars"/>
+                </sp>
+                <sp who="#beuglan">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="115" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="547" unit="chars"/>
+                </sp>
+                <sp who="#grignardet">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="173" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="801" unit="chars"/>
+                </sp>
+                <sp who="#madame_grugeot">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="118" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="542" unit="chars"/>
+                </sp>
+                <sp who="#madame_grugeot__la__re_roussel__beuglan">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="4" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="18" unit="chars"/>
+                </sp>
+                <sp who="#le_petit_roussel">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="27" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="115" unit="chars"/>
+                </sp>
+                <sp who="#jobar">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="58" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="233" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_grugeot">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="43" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="172" unit="chars"/>
+                </sp>
+                <sp who="#blanchet_fils">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="100" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="445" unit="chars"/>
+                </sp>
+                <sp who="#l_amour">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="131" unit="chars"/>
+                </sp>
+                <sp who="#la__re_cloutier">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="121" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="522" unit="chars"/>
+                </sp>
+                <sp who="#la__re_roussel">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="33" unit="chars"/>
+                </sp>
+                <sp who="#tous">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="172" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXV. Les Mêmes, Manon.</head>
+                <sp who="#manon">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="201" unit="chars"/>
+                </sp>
+                <sp who="#cadet">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="41" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="173" unit="chars"/>
+                </sp>
+                <sp who="#la__re_cloutier">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="44" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCENE XXVI. Les Mêmes, Blanchet père.</head>
+                <sp who="#blanchet__re">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="76" unit="chars"/>
+                </sp>
+                <sp who="#cadet">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="62" unit="chars"/>
+                </sp>
+                <sp who="#blanchet_fils">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="48" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXVII. Les Mêmes, excepté les deux Blanchet.</head>
+                <sp who="#cadet">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="107" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="483" unit="chars"/>
+                </sp>
+                <sp who="#beuglan">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="43" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="216" unit="chars"/>
+                </sp>
+                <sp who="#grignardet">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="3" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="14" unit="chars"/>
+                </sp>
+                <sp who="#madame_grugeot">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="25" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>VAUDEVILLE.</head>
+                <sp who="#cadet">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="256" unit="chars"/>
+                </sp>
+                <sp who="#beuglan">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="56" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="259" unit="chars"/>
+                </sp>
+                <sp who="#madame_grugeot">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="100" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="493" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

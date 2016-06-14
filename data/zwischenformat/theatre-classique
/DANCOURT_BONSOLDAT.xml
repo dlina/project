@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LE BON SOLDAT </title>
+        <subtitle>COMÉDIE EN VERS</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>DANCOURT, Florent Carton dit</author>
+        <date when="1699">1699</date>
+        <source>https://github.com/dramacode/theatre-classique/DANCOURT_BONSOLDAT.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>jacinte</name>
+            <alias xml:id="jacinte">
+                <name>jacinte</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>an_lique</name>
+            <alias xml:id="an_lique">
+                <name>an_lique</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>jocrisse</name>
+            <alias xml:id="jocrisse">
+                <name>jocrisse</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>grognard</name>
+            <alias xml:id="grognard">
+                <name>grognard</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_clerc</name>
+            <alias xml:id="le_clerc">
+                <name>le_clerc</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_soldat</name>
+            <alias xml:id="le_soldat">
+                <name>le_soldat</name>
+            </alias>
+        </character>
+        <character>
+            <name>barbe</name>
+            <alias xml:id="barbe">
+                <name>barbe</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_rotisseur</name>
+            <alias xml:id="le_rotisseur">
+                <name>le_rotisseur</name>
+            </alias>
+        </character>
+        <character>
+            <name>_andre</name>
+            <alias xml:id="_andre">
+                <name>_andre</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head/>
+            <div>
+                <head>SCÈNE I. Angélique, Jacinte.</head>
+                <sp who="#jacinte">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="246" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="1063" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="254" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="1097" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Angélique, Jacinte, Jocrisse.</head>
+                <sp who="#jocrisse">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="95" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="375" unit="chars"/>
+                </sp>
+                <sp who="#jacinte">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="140" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="143" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Monsieur Grognard, Angélique, Jacinte, Jocrisse.</head>
+                <sp who="#grognard">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="45" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="176" unit="chars"/>
+                </sp>
+                <sp who="#jacinte">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="61" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Monsieur Grognard, Angélique, Jocrisse.</head>
+                <sp who="#grognard">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="220" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="909" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="100" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="420" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Monsieur Grognard, Angélique, Le Maître-Clerc, Jocrisse.</head>
+                <sp who="#le_clerc">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="160" unit="chars"/>
+                </sp>
+                <sp who="#grognard">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="75" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="332" unit="chars"/>
+                </sp>
+                <sp who="#jocrisse">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="106" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="468" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. M. Grognard, Jocrisse.</head>
+                <sp who="#grognard">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="235" unit="chars"/>
+                </sp>
+                <sp who="#jocrisse">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="148" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="553" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Angélique, Monsieur Grognard, Jocrisse.</head>
+                <sp who="#an_lique">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="69" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="294" unit="chars"/>
+                </sp>
+                <sp who="#grognard">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="90" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="391" unit="chars"/>
+                </sp>
+                <sp who="#jocrisse">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="162" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Angélique, Jacinte.</head>
+                <sp who="#jacinte">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="84" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="385" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="49" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="194" unit="chars"/>
+                </sp>
+                <sp who="#grognard">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="3" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="12" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Jacinte, Jocrisse.</head>
+                <sp who="#jocrisse">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="134" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="583" unit="chars"/>
+                </sp>
+                <sp who="#jacinte">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="43" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="167" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Monsieur Grognard, Angélique, Jacinte.</head>
+                <sp who="#an_lique">
+                    <amount n="21" unit="speech_acts"/>
+                    <amount n="299" unit="words"/>
+                    <amount n="53" unit="lines"/>
+                    <amount n="1211" unit="chars"/>
+                </sp>
+                <sp who="#grognard">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="252" unit="words"/>
+                    <amount n="47" unit="lines"/>
+                    <amount n="988" unit="chars"/>
+                </sp>
+                <sp who="#jacinte">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="145" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="641" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Angélique, Jacinte.</head>
+                <sp who="#jacinte">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="83" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="366" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="43" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="171" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII. Angélique, Jacinte, Le Soldat, Barbe.</head>
+                <sp who="#jacinte">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="223" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="927" unit="chars"/>
+                </sp>
+                <sp who="#le_soldat">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="208" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="875" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="91" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="370" unit="chars"/>
+                </sp>
+                <sp who="#barbe">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="3" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="9" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIII. Angélique, Jacinte, Le Rôtisseur. </head>
+                <sp who="#an_lique">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="19" unit="chars"/>
+                </sp>
+                <sp who="#le_rotisseur">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="55" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="230" unit="chars"/>
+                </sp>
+                <sp who="#jacinte">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="59" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="247" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIV. Angélique, Jacinte, Le Rôtisseur, Barbe. </head>
+                <sp who="#jacinte">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="142" unit="chars"/>
+                </sp>
+                <sp who="#le_rotisseur">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="43" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="176" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="71" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XV. Angélique, Léandre, Jacinte, Barbe.</head>
+                <sp who="#_andre">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="192" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="793" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="220" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="903" unit="chars"/>
+                </sp>
+                <sp who="#jacinte">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="128" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="558" unit="chars"/>
+                </sp>
+                <sp who="#barbe">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="25" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVI. Grognard, Angélique, Jacinte.</head>
+                <sp who="#grognard">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="150" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="615" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="123" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="549" unit="chars"/>
+                </sp>
+                <sp who="#jacinte">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="60" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="256" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVII. Grognard, Angélique, Jacinte, Barbe, Le Soldat.</head>
+                <sp who="#le_soldat">
+                    <amount n="26" unit="speech_acts"/>
+                    <amount n="957" unit="words"/>
+                    <amount n="126" unit="lines"/>
+                    <amount n="4126" unit="chars"/>
+                </sp>
+                <sp who="#grognard">
+                    <amount n="24" unit="speech_acts"/>
+                    <amount n="446" unit="words"/>
+                    <amount n="68" unit="lines"/>
+                    <amount n="1860" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="124" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="492" unit="chars"/>
+                </sp>
+                <sp who="#jacinte">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="59" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="237" unit="chars"/>
+                </sp>
+                <sp who="#barbe">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="30" unit="chars"/>
+                </sp>
+                <sp who="#_andre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="61" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVIII. Grognard, Jacinte.</head>
+                <sp who="#jacinte">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="62" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="268" unit="chars"/>
+                </sp>
+                <sp who="#grognard">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="80" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="351" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

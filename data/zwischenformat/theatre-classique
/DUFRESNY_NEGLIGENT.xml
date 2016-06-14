@@ -1,0 +1,905 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LE NÉGLIGENT</title>
+        <subtitle>COMÉDIE EN TROIS ACTES, AVEC UN PROLOGUE.</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>DUFRESNY, Charles</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/DUFRESNY_NEGLIGENT.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>fanchon</name>
+            <alias xml:id="fanchon">
+                <name>fanchon</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>oronte</name>
+            <alias xml:id="oronte">
+                <name>oronte</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_p_te</name>
+            <alias xml:id="l_p_te">
+                <name>l_p_te</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_clerc</name>
+            <alias xml:id="l_clerc">
+                <name>l_clerc</name>
+            </alias>
+        </character>
+        <character>
+            <name>dorante</name>
+            <alias xml:id="dorante">
+                <name>dorante</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>an_lique</name>
+            <alias xml:id="an_lique">
+                <name>an_lique</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>_lise</name>
+            <alias xml:id="_lise">
+                <name>_lise</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_marquis</name>
+            <alias xml:id="l_marquis">
+                <name>l_marquis</name>
+            </alias>
+        </character>
+        <character>
+            <name>_intendant</name>
+            <alias xml:id="_intendant">
+                <name>_intendant</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_tailleur</name>
+            <alias xml:id="l_tailleur">
+                <name>l_tailleur</name>
+            </alias>
+        </character>
+        <character>
+            <name>lolive</name>
+            <alias xml:id="lolive">
+                <name>lolive</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l___chal</name>
+            <alias xml:id="l___chal">
+                <name>l___chal</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_comtesse</name>
+            <alias xml:id="l_comtesse">
+                <name>l_comtesse</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>PROLOGUE. </head>
+            <div>
+                <head>SCÈNE I. Oronte, Fanchon. </head>
+                <sp who="#fanchon">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="271" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="1198" unit="chars"/>
+                </sp>
+                <sp who="#oronte">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="161" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="763" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Le Poète, Fanchon, Oronte. </head>
+                <sp who="#l_p_te">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="77" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="356" unit="chars"/>
+                </sp>
+                <sp who="#fanchon">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="49" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="186" unit="chars"/>
+                </sp>
+                <sp who="#oronte">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="95" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="455" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Oronte, Le Poète. </head>
+                <sp who="#oronte">
+                    <amount n="20" unit="speech_acts"/>
+                    <amount n="482" unit="words"/>
+                    <amount n="68" unit="lines"/>
+                    <amount n="2289" unit="chars"/>
+                </sp>
+                <sp who="#l_p_te">
+                    <amount n="20" unit="speech_acts"/>
+                    <amount n="1089" unit="words"/>
+                    <amount n="130" unit="lines"/>
+                    <amount n="5136" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Oronte, Le Poète, Fanchon.</head>
+                <sp who="#fanchon">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="222" unit="words"/>
+                    <amount n="45" unit="lines"/>
+                    <amount n="996" unit="chars"/>
+                </sp>
+                <sp who="#oronte">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="309" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="1493" unit="chars"/>
+                </sp>
+                <sp who="#l_p_te">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="49" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="218" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Fanchon, Le Poète. </head>
+                <sp who="#fanchon">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="203" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="1028" unit="chars"/>
+                </sp>
+                <sp who="#l_p_te">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="157" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="751" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE I.</head>
+                <sp who="#oronte">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="119" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Oronte, Fanchon. </head>
+                <sp who="#fanchon">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="130" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="619" unit="chars"/>
+                </sp>
+                <sp who="#oronte">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="153" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="679" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Oronte, Fanchon. </head>
+                <sp who="#l_clerc">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="129" unit="chars"/>
+                </sp>
+                <sp who="#oronte">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="120" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="603" unit="chars"/>
+                </sp>
+                <sp who="#fanchon">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="137" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Le Poète, Fanchon. </head>
+                <sp who="#fanchon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="72" unit="chars"/>
+                </sp>
+                <sp who="#l_p_te">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="144" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="711" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Dorante, Fanchon, Le Poète. </head>
+                <sp who="#dorante">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="124" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="574" unit="chars"/>
+                </sp>
+                <sp who="#fanchon">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="212" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="1009" unit="chars"/>
+                </sp>
+                <sp who="#l_p_te">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="116" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Angélique, Bélise.</head>
+                <sp who="#an_lique">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="300" unit="words"/>
+                    <amount n="53" unit="lines"/>
+                    <amount n="1309" unit="chars"/>
+                </sp>
+                <sp who="#_lise">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="612" unit="words"/>
+                    <amount n="62" unit="lines"/>
+                    <amount n="2934" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Fanchon, Bélise, Angélique. </head>
+                <sp who="#fanchon">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="243" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="1058" unit="chars"/>
+                </sp>
+                <sp who="#_lise">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="152" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="687" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="57" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="225" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII.</head>
+                <sp who="#an_lique">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="100" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="455" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Dorante, Angélique. </head>
+                <sp who="#dorante">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="116" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="563" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="113" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="488" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Dorante, Angélique, Fanchon. </head>
+                <sp who="#fanchon">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="70" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="330" unit="chars"/>
+                </sp>
+                <sp who="#dorante">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="69" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Bélise, Fanchon, Le Poète, Angélique. </head>
+                <sp who="#_lise">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="135" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="552" unit="chars"/>
+                </sp>
+                <sp who="#l_p_te">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="27" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="132" unit="chars"/>
+                </sp>
+                <sp who="#fanchon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="4" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="18" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII. Le Poète, Fanchon. </head>
+                <sp who="#l_p_te">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="54" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="265" unit="chars"/>
+                </sp>
+                <sp who="#fanchon">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="131" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="613" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIII. Fanchon, Le Marquis. </head>
+                <sp who="#l_marquis">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="152" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="681" unit="chars"/>
+                </sp>
+                <sp who="#fanchon">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="124" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="584" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIV. Le Marquis, L'Intendant. </head>
+                <sp who="#l_marquis">
+                    <amount n="23" unit="speech_acts"/>
+                    <amount n="770" unit="words"/>
+                    <amount n="86" unit="lines"/>
+                    <amount n="3555" unit="chars"/>
+                </sp>
+                <sp who="#_intendant">
+                    <amount n="22" unit="speech_acts"/>
+                    <amount n="401" unit="words"/>
+                    <amount n="70" unit="lines"/>
+                    <amount n="1830" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XV. Le Marquis, L'Intendant, Le Tailleur. </head>
+                <sp who="#l_tailleur">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="221" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1021" unit="chars"/>
+                </sp>
+                <sp who="#l_marquis">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="316" unit="words"/>
+                    <amount n="50" unit="lines"/>
+                    <amount n="1436" unit="chars"/>
+                </sp>
+                <sp who="#_intendant">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="54" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="265" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVI. Le Marquis, Oronte, L'intendant.</head>
+                <sp who="#oronte">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="122" unit="chars"/>
+                </sp>
+                <sp who="#l_marquis">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="107" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="510" unit="chars"/>
+                </sp>
+                <sp who="#_intendant">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="45" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVII. Le Marquis, Oronte. </head>
+                <sp who="#l_marquis">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="293" unit="words"/>
+                    <amount n="50" unit="lines"/>
+                    <amount n="1340" unit="chars"/>
+                </sp>
+                <sp who="#oronte">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="104" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="468" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE I. Lolive, Fanchon. </head>
+                <sp who="#lolive">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="124" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="585" unit="chars"/>
+                </sp>
+                <sp who="#fanchon">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="110" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="511" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Le Marquis, Fanchon, Le Poète. </head>
+                <sp who="#l_marquis">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="109" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="501" unit="chars"/>
+                </sp>
+                <sp who="#l_p_te">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="17" unit="chars"/>
+                </sp>
+                <sp who="#fanchon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="92" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Le Marquis, Le Poète.</head>
+                <sp who="#l_p_te">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="287" unit="words"/>
+                    <amount n="54" unit="lines"/>
+                    <amount n="1242" unit="chars"/>
+                </sp>
+                <sp who="#l_marquis">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="323" unit="words"/>
+                    <amount n="53" unit="lines"/>
+                    <amount n="1458" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Le Marquis, Le Sénéchal. </head>
+                <sp who="#l_marquis">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="93" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="443" unit="chars"/>
+                </sp>
+                <sp who="#l___chal">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="104" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="480" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Le Marquis, La Comtesse, Le Sénéchal. </head>
+                <sp who="#l_marquis">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="41" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="192" unit="chars"/>
+                </sp>
+                <sp who="#l_comtesse">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="89" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="418" unit="chars"/>
+                </sp>
+                <sp who="#l___chal">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="263" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Le Marquis, La Comtesse. </head>
+                <sp who="#l_marquis">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="83" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="386" unit="chars"/>
+                </sp>
+                <sp who="#l_comtesse">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="158" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="736" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Le Marquis, La Comtesse, Fanchon. </head>
+                <sp who="#fanchon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="88" unit="chars"/>
+                </sp>
+                <sp who="#l_comtesse">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="46" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Le Marquis, Fanchon. </head>
+                <sp who="#fanchon">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="68" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="298" unit="chars"/>
+                </sp>
+                <sp who="#l_marquis">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="135" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="598" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX.</head>
+                <sp who="#fanchon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="94" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Dorante, Fanchon. </head>
+                <sp who="#dorante">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="131" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="660" unit="chars"/>
+                </sp>
+                <sp who="#fanchon">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="60" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="275" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Oronte, Dorante, Fanchon. </head>
+                <sp who="#oronte">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="136" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="590" unit="chars"/>
+                </sp>
+                <sp who="#fanchon">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="152" unit="chars"/>
+                </sp>
+                <sp who="#dorante">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="112" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="510" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII. Oronte, Fanchon. </head>
+                <sp who="#oronte">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="54" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="238" unit="chars"/>
+                </sp>
+                <sp who="#fanchon">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="119" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="555" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I. Bélise, Le Poète, Fanchon. </head>
+                <sp who="#_lise">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="388" unit="words"/>
+                    <amount n="65" unit="lines"/>
+                    <amount n="1802" unit="chars"/>
+                </sp>
+                <sp who="#l_p_te">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="286" unit="words"/>
+                    <amount n="70" unit="lines"/>
+                    <amount n="1232" unit="chars"/>
+                </sp>
+                <sp who="#fanchon">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="172" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="820" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. </head>
+                <sp who="#fanchon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="146" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Dorante, Fanchon. </head>
+                <sp who="#dorante">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="55" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="254" unit="chars"/>
+                </sp>
+                <sp who="#fanchon">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="161" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Dorante, Fanchon, Lolive. </head>
+                <sp who="#dorante">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="130" unit="words"/>
+                    <amount n="52" unit="lines"/>
+                    <amount n="520" unit="chars"/>
+                </sp>
+                <sp who="#lolive">
+                    <amount n="24" unit="speech_acts"/>
+                    <amount n="617" unit="words"/>
+                    <amount n="82" unit="lines"/>
+                    <amount n="2842" unit="chars"/>
+                </sp>
+                <sp who="#fanchon">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="97" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="425" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Dorante, Fanchon. </head>
+                <sp who="#dorante">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="226" unit="chars"/>
+                </sp>
+                <sp who="#fanchon">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="76" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Dorante, Le Marquis, Fanchon. </head>
+                <sp who="#l_marquis">
+                    <amount n="24" unit="speech_acts"/>
+                    <amount n="458" unit="words"/>
+                    <amount n="85" unit="lines"/>
+                    <amount n="2044" unit="chars"/>
+                </sp>
+                <sp who="#dorante">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="265" unit="words"/>
+                    <amount n="58" unit="lines"/>
+                    <amount n="1200" unit="chars"/>
+                </sp>
+                <sp who="#fanchon">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="61" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="254" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Angélique, Le Marquis, Fanchon. </head>
+                <sp who="#an_lique">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="160" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="698" unit="chars"/>
+                </sp>
+                <sp who="#l_marquis">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="508" unit="words"/>
+                    <amount n="58" unit="lines"/>
+                    <amount n="2402" unit="chars"/>
+                </sp>
+                <sp who="#fanchon">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="265" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1265" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Angélique, Fanchon, Le Marquis, La Comtesse. </head>
+                <sp who="#l_comtesse">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="127" unit="chars"/>
+                </sp>
+                <sp who="#l_marquis">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="35" unit="chars"/>
+                </sp>
+                <sp who="#fanchon">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="62" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Le Marquis, La Comtesse. </head>
+                <sp who="#l_comtesse">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="57" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="257" unit="chars"/>
+                </sp>
+                <sp who="#l_marquis">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="66" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Le Marquis, Le Sénéchal. </head>
+                <sp who="#l___chal">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="304" unit="chars"/>
+                </sp>
+                <sp who="#l_marquis">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="61" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="275" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Oronte, Le Marquis. </head>
+                <sp who="#oronte">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="43" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="198" unit="chars"/>
+                </sp>
+                <sp who="#l_marquis">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="82" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="393" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII. Dorante, Oronte, Le Marquis, Le Poète. </head>
+                <sp who="#l_marquis">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="174" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="851" unit="chars"/>
+                </sp>
+                <sp who="#dorante">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="97" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="470" unit="chars"/>
+                </sp>
+                <sp who="#oronte">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="204" unit="chars"/>
+                </sp>
+                <sp who="#l_p_te">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="136" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE DERNIÈRE. Oronte, Dorante, Le Poète. </head>
+                <sp who="#oronte">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="115" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="551" unit="chars"/>
+                </sp>
+                <sp who="#dorante">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="60" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="291" unit="chars"/>
+                </sp>
+                <sp who="#l_p_te">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="330" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

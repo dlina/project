@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LE CENTENAIRE DE MOLIÈRE</title>
+        <subtitle>COMÉDIE en un acte, en vers et en prose</subtitle>
+        <subtitle>Suivie d'un Divertissement relatif à l'Apothéose de Molière</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>ARTAUD, Jean-Baptiste</author>
+        <date when="1773">1773</date>
+        <source>https://github.com/dramacode/theatre-classique/ARTAUD_CENTENAIREMOLIERE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>momus</name>
+            <alias xml:id="momus">
+                <name>momus</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>thalie</name>
+            <alias xml:id="thalie">
+                <name>thalie</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>sosie</name>
+            <alias xml:id="sosie">
+                <name>sosie</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>_lie</name>
+            <alias xml:id="_lie">
+                <name>_lie</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>tartuffe</name>
+            <alias xml:id="tartuffe">
+                <name>tartuffe</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>madame_pernelle</name>
+            <alias xml:id="madame_pernelle">
+                <name>madame_pernelle</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>harpagon</name>
+            <alias xml:id="harpagon">
+                <name>harpagon</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>trissotin</name>
+            <alias xml:id="trissotin">
+                <name>trissotin</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>alceste</name>
+            <alias xml:id="alceste">
+                <name>alceste</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>an_lique</name>
+            <alias xml:id="an_lique">
+                <name>an_lique</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>claudine</name>
+            <alias xml:id="claudine">
+                <name>claudine</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>clitandre</name>
+            <alias xml:id="clitandre">
+                <name>clitandre</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>george_dandin</name>
+            <alias xml:id="george_dandin">
+                <name>george_dandin</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>monsieur_jourdain</name>
+            <alias xml:id="monsieur_jourdain">
+                <name>monsieur_jourdain</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>tous_les_acteurs</name>
+            <alias xml:id="tous_les_acteurs">
+                <name>tous_les_acteurs</name>
+            </alias>
+        </character>
+        <character>
+            <name>monsieur_le_kain</name>
+            <alias xml:id="monsieur_le_kain">
+                <name>monsieur_le_kain</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>monsieur_brizard</name>
+            <alias xml:id="monsieur_brizard">
+                <name>monsieur_brizard</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>choeur</name>
+            <alias xml:id="choeur">
+                <name>choeur</name>
+            </alias>
+        </character>
+        <character>
+            <name>momus__monsieur_jourdain</name>
+            <alias xml:id="momus__monsieur_jourdain">
+                <name>momus__monsieur_jourdain</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head/>
+            <div>
+                <head>SCÈNE PREMIÈRE. Thalie, déguisée en nuit&#160;; Momus, en Médecin.</head>
+                <sp who="#momus">
+                    <amount n="23" unit="speech_acts"/>
+                    <amount n="565" unit="words"/>
+                    <amount n="100" unit="lines"/>
+                    <amount n="2718" unit="chars"/>
+                </sp>
+                <sp who="#thalie">
+                    <amount n="22" unit="speech_acts"/>
+                    <amount n="348" unit="words"/>
+                    <amount n="71" unit="lines"/>
+                    <amount n="1682" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II.</head>
+                <sp who="#thalie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="127" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="615" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Thalie, Sosie&#160;: il entre en chantant, sa Lanterne à la main.</head>
+                <sp who="#thalie">
+                    <amount n="42" unit="speech_acts"/>
+                    <amount n="477" unit="words"/>
+                    <amount n="120" unit="lines"/>
+                    <amount n="2220" unit="chars"/>
+                </sp>
+                <sp who="#sosie">
+                    <amount n="41" unit="speech_acts"/>
+                    <amount n="743" unit="words"/>
+                    <amount n="147" unit="lines"/>
+                    <amount n="3610" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Lélie, Thalie.</head>
+                <sp who="#_lie">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="308" unit="words"/>
+                    <amount n="50" unit="lines"/>
+                    <amount n="1482" unit="chars"/>
+                </sp>
+                <sp who="#thalie">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="158" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="743" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Sosie, Lélie, Thalie</head>
+                <sp who="#sosie">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="57" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="244" unit="chars"/>
+                </sp>
+                <sp who="#_lie">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="98" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="455" unit="chars"/>
+                </sp>
+                <sp who="#thalie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="134" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Momus, Thalie, Lélie, Sosie.</head>
+                <sp who="#momus">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="80" unit="chars"/>
+                </sp>
+                <sp who="#thalie">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="143" unit="chars"/>
+                </sp>
+                <sp who="#_lie">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="101" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="484" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Momus, Sosie, Thalie.</head>
+                <sp who="#momus">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="160" unit="chars"/>
+                </sp>
+                <sp who="#sosie">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="72" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="301" unit="chars"/>
+                </sp>
+                <sp who="#thalie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="37" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="171" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Sosie, Momus.</head>
+                <sp who="#sosie">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="58" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="279" unit="chars"/>
+                </sp>
+                <sp who="#momus">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="56" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Tartuffe, Momus, Sosie.</head>
+                <sp who="#tartuffe">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="360" unit="words"/>
+                    <amount n="53" unit="lines"/>
+                    <amount n="1693" unit="chars"/>
+                </sp>
+                <sp who="#momus">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="67" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="306" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Sosie, Momus.</head>
+                <sp who="#sosie">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="233" unit="chars"/>
+                </sp>
+                <sp who="#momus">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="138" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Madame Pernelle, Phlipotte, Momus, Sosie.</head>
+                <sp who="#madame_pernelle">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="239" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1129" unit="chars"/>
+                </sp>
+                <sp who="#momus">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="134" unit="chars"/>
+                </sp>
+                <sp who="#sosie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="54" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII. Sosie, Momus.</head>
+                <sp who="#sosie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="139" unit="chars"/>
+                </sp>
+                <sp who="#momus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="27" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="127" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIII. Harpagon, Momus, Sosie.</head>
+                <sp who="#harpagon">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="195" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="920" unit="chars"/>
+                </sp>
+                <sp who="#momus">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="92" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="428" unit="chars"/>
+                </sp>
+                <sp who="#sosie">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="138" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIV. Trissotin, et les acteurs précédents.</head>
+                <sp who="#trissotin">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="46" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="218" unit="chars"/>
+                </sp>
+                <sp who="#harpagon">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="49" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="220" unit="chars"/>
+                </sp>
+                <sp who="#sosie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="17" unit="chars"/>
+                </sp>
+                <sp who="#momus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="1" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="5" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XV. Trissotin, Sosie, Momus.</head>
+                <sp who="#trissotin">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="156" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="771" unit="chars"/>
+                </sp>
+                <sp who="#sosie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="27" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="134" unit="chars"/>
+                </sp>
+                <sp who="#momus">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="64" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="314" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVI. Alceste, et les acteurs précédents.</head>
+                <sp who="#sosie">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="37" unit="chars"/>
+                </sp>
+                <sp who="#momus">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="80" unit="chars"/>
+                </sp>
+                <sp who="#alceste">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="318" unit="words"/>
+                    <amount n="55" unit="lines"/>
+                    <amount n="1599" unit="chars"/>
+                </sp>
+                <sp who="#trissotin">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="212" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="974" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVII. Alceste, Sosie, Momus.</head>
+                <sp who="#alceste">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="124" unit="chars"/>
+                </sp>
+                <sp who="#sosie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="4" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="14" unit="chars"/>
+                </sp>
+                <sp who="#momus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="76" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVIII. Momus, Sosie.</head>
+                <sp who="#momus">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="126" unit="chars"/>
+                </sp>
+                <sp who="#sosie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="49" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="246" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIX. Angélique, Claudine, Clitandre, Momus, Sosie.</head>
+                <sp who="#an_lique">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="118" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="604" unit="chars"/>
+                </sp>
+                <sp who="#claudine">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="102" unit="chars"/>
+                </sp>
+                <sp who="#clitandre">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="66" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="327" unit="chars"/>
+                </sp>
+                <sp who="#momus">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="64" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="351" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XX. George Dandin, et les Acteurs précédents.</head>
+                <sp who="#george_dandin">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="102" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="486" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="85" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="425" unit="chars"/>
+                </sp>
+                <sp who="#claudine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="34" unit="chars"/>
+                </sp>
+                <sp who="#momus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="44" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXI. Monsieur Jourdain, et les Acteurs précédents.</head>
+                <sp who="#monsieur_jourdain">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="283" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="1277" unit="chars"/>
+                </sp>
+                <sp who="#momus">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="90" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="439" unit="chars"/>
+                </sp>
+                <sp who="#sosie">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="149" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="96" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXII. Les Acteurs précédents, Thalie, Tartuffe, Trissotin.</head>
+                <sp who="#thalie">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="182" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="879" unit="chars"/>
+                </sp>
+                <sp who="#tartuffe">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="146" unit="chars"/>
+                </sp>
+                <sp who="#momus">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="56" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="262" unit="chars"/>
+                </sp>
+                <sp who="#trissotin">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="111" unit="chars"/>
+                </sp>
+                <sp who="#sosie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="183" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_jourdain">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="62" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="313" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXIII. Lélie, et les Acteurs précédents.</head>
+                <sp who="#_lie">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="251" unit="chars"/>
+                </sp>
+                <sp who="#sosie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="70" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="353" unit="chars"/>
+                </sp>
+                <sp who="#thalie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="45" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="211" unit="chars"/>
+                </sp>
+                <sp who="#momus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="41" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="180" unit="chars"/>
+                </sp>
+                <sp who="#tous_les_acteurs">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="46" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXIV, et dernière. Tous les Acteurs de la Comédie, en habit de caractère des pièces de Molière, sur l'aile droite du Théâtre, et tous les Acteurs de la Tragédie en habit Tragique, sur l'aile gauche.</head>
+                <sp who="#monsieur_le_kain">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="51" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="260" unit="chars"/>
+                </sp>
+                <sp who="#thalie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="72" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="349" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_brizard">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="96" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="491" unit="chars"/>
+                </sp>
+                <sp who="#choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="66" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>MARCHE.</head>
+            </div>
+            <div>
+                <head>Ballet de caractère.</head>
+            </div>
+            <div>
+                <head>VAUDEVILLE.</head>
+                <sp who="#thalie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="101" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="510" unit="chars"/>
+                </sp>
+                <sp who="#choeur">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="141" unit="chars"/>
+                </sp>
+                <sp who="#momus">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="112" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="573" unit="chars"/>
+                </sp>
+                <sp who="#sosie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="111" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="520" unit="chars"/>
+                </sp>
+                <sp who="#madame_pernelle">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="53" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="242" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="49" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="253" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_jourdain">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="82" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="347" unit="chars"/>
+                </sp>
+                <sp who="#alceste">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="81" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="365" unit="chars"/>
+                </sp>
+                <sp who="#momus__monsieur_jourdain">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="27" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

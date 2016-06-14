@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>PANDORE</title>
+        <subtitle>OPÉRA en cinq actes</subtitle>
+        <subtitle>Le Théâtre de M. Voltaire Tome I</subtitle>
+        <genretitle>Opéra</genretitle>
+        <author>VOLTAIRE</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/VOLTAIRE_PANDORE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>pro_t_e</name>
+            <alias xml:id="pro_t_e">
+                <name>pro_t_e</name>
+            </alias>
+        </character>
+        <character>
+            <name>encelad_typhon</name>
+            <alias xml:id="encelad_typhon">
+                <name>encelad_typhon</name>
+            </alias>
+        </character>
+        <character>
+            <name>typhon</name>
+            <alias xml:id="typhon">
+                <name>typhon</name>
+            </alias>
+        </character>
+        <character>
+            <name>encelade</name>
+            <alias xml:id="encelade">
+                <name>encelade</name>
+            </alias>
+        </character>
+        <character>
+            <name>promethee_deu_titans</name>
+            <alias xml:id="promethee_deu_titans">
+                <name>promethee_deu_titans</name>
+            </alias>
+        </character>
+        <character>
+            <name>choeu_de_dieu_infernaux</name>
+            <alias xml:id="choeu_de_dieu_infernaux">
+                <name>choeu_de_dieu_infernaux</name>
+            </alias>
+        </character>
+        <character>
+            <name>nemesis</name>
+            <alias xml:id="nemesis">
+                <name>nemesis</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_troi_parques</name>
+            <alias xml:id="le_troi_parques">
+                <name>le_troi_parques</name>
+            </alias>
+        </character>
+        <character>
+            <name>choeu_de_nymphes</name>
+            <alias xml:id="choeu_de_nymphes">
+                <name>choeu_de_nymphes</name>
+            </alias>
+        </character>
+        <character>
+            <name>dryade</name>
+            <alias xml:id="dryade">
+                <name>dryade</name>
+            </alias>
+        </character>
+        <character>
+            <name>choeur</name>
+            <alias xml:id="choeur">
+                <name>choeur</name>
+            </alias>
+        </character>
+        <character>
+            <name>pandore</name>
+            <alias xml:id="pandore">
+                <name>pandore</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>nymphes_titans</name>
+            <alias xml:id="nymphes_titans">
+                <name>nymphes_titans</name>
+            </alias>
+        </character>
+        <character>
+            <name>pandor_promethee</name>
+            <alias xml:id="pandor_promethee">
+                <name>pandor_promethee</name>
+            </alias>
+        </character>
+        <character>
+            <name>mercure</name>
+            <alias xml:id="mercure">
+                <name>mercure</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>pandore_promethee</name>
+            <alias xml:id="pandore_promethee">
+                <name>pandore_promethee</name>
+            </alias>
+        </character>
+        <character>
+            <name>jupiter</name>
+            <alias xml:id="jupiter">
+                <name>jupiter</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>choeu_de_dieux</name>
+            <alias xml:id="choeu_de_dieux">
+                <name>choeu_de_dieux</name>
+            </alias>
+        </character>
+        <character>
+            <name>neptune</name>
+            <alias xml:id="neptune">
+                <name>neptune</name>
+            </alias>
+        </character>
+        <character>
+            <name>pluton</name>
+            <alias xml:id="pluton">
+                <name>pluton</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_troi_graces</name>
+            <alias xml:id="le_troi_graces">
+                <name>le_troi_graces</name>
+            </alias>
+        </character>
+        <character>
+            <name>un_voix</name>
+            <alias xml:id="un_voix">
+                <name>un_voix</name>
+            </alias>
+        </character>
+        <character>
+            <name>c_u_d_titans</name>
+            <alias xml:id="c_u_d_titans">
+                <name>c_u_d_titans</name>
+            </alias>
+        </character>
+        <character>
+            <name>c_ur_de_nymphes</name>
+            <alias xml:id="c_ur_de_nymphes">
+                <name>c_ur_de_nymphes</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_titans</name>
+            <alias xml:id="le_titans">
+                <name>le_titans</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_dieux</name>
+            <alias xml:id="le_dieux">
+                <name>le_dieux</name>
+            </alias>
+        </character>
+        <character>
+            <name>dieu_titans</name>
+            <alias xml:id="dieu_titans">
+                <name>dieu_titans</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_destin</name>
+            <alias xml:id="l_destin">
+                <name>l_destin</name>
+            </alias>
+        </character>
+        <character>
+            <name>un_nymphe</name>
+            <alias xml:id="un_nymphe">
+                <name>un_nymphe</name>
+            </alias>
+        </character>
+        <character>
+            <name>un_autr_nymphe</name>
+            <alias xml:id="un_autr_nymphe">
+                <name>un_autr_nymphe</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_c_ur</name>
+            <alias xml:id="l_c_ur">
+                <name>l_c_ur</name>
+            </alias>
+        </character>
+        <character>
+            <name>furies_et_demons</name>
+            <alias xml:id="furies_et_demons">
+                <name>furies_et_demons</name>
+            </alias>
+        </character>
+        <character>
+            <name>_amour</name>
+            <alias xml:id="_amour">
+                <name>_amour</name>
+            </alias>
+        </character>
+        <character>
+            <name>promethe_pandore</name>
+            <alias xml:id="promethe_pandore">
+                <name>promethe_pandore</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE I. Prométhée, Le Choeur, Pandore, dans l'enfoncement, couchée sur une estrade. </head>
+                <sp who="#pro_t_e">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="127" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="539" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Prométhée, Les Titans, Encelade, et Typhon, etc. </head>
+                <sp who="#encelad_typhon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="147" unit="chars"/>
+                </sp>
+                <sp who="#pro_t_e">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="379" unit="words"/>
+                    <amount n="48" unit="lines"/>
+                    <amount n="1630" unit="chars"/>
+                </sp>
+                <sp who="#typhon">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="72" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="321" unit="chars"/>
+                </sp>
+                <sp who="#encelade">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="96" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="394" unit="chars"/>
+                </sp>
+                <sp who="#promethee_deu_titans">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="55" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="235" unit="chars"/>
+                </sp>
+                <sp who="#choeu_de_dieu_infernaux">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="163" unit="chars"/>
+                </sp>
+                <sp who="#nemesis">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="126" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="564" unit="chars"/>
+                </sp>
+                <sp who="#le_troi_parques">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="135" unit="chars"/>
+                </sp>
+                <sp who="#choeu_de_nymphes">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="163" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II </head>
+            <div>
+                <head>SCÈNE I. Prométhée, Pandore, Nymphes, Titans, Choeurs, etc. </head>
+                <sp who="#dryade">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="56" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="242" unit="chars"/>
+                </sp>
+                <sp who="#choeu_de_nymphes">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="95" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="395" unit="chars"/>
+                </sp>
+                <sp who="#pro_t_e">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="384" unit="words"/>
+                    <amount n="54" unit="lines"/>
+                    <amount n="1670" unit="chars"/>
+                </sp>
+                <sp who="#choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="69" unit="chars"/>
+                </sp>
+                <sp who="#pandore">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="317" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1319" unit="chars"/>
+                </sp>
+                <sp who="#nymphes_titans">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="156" unit="chars"/>
+                </sp>
+                <sp who="#pandor_promethee">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="295" unit="chars"/>
+                </sp>
+                <sp who="#mercure">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="90" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="367" unit="chars"/>
+                </sp>
+                <sp who="#pandore_promethee">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="20" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I. Jupiter, Mercure.</head>
+                <sp who="#jupiter">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="481" unit="words"/>
+                    <amount n="62" unit="lines"/>
+                    <amount n="2115" unit="chars"/>
+                </sp>
+                <sp who="#mercure">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="116" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="529" unit="chars"/>
+                </sp>
+                <sp who="#pandore">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="538" unit="words"/>
+                    <amount n="70" unit="lines"/>
+                    <amount n="2302" unit="chars"/>
+                </sp>
+                <sp who="#choeu_de_dieux">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="63" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="308" unit="chars"/>
+                </sp>
+                <sp who="#neptune">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="23" unit="chars"/>
+                </sp>
+                <sp who="#pluton">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="21" unit="chars"/>
+                </sp>
+                <sp who="#le_troi_graces">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="100" unit="chars"/>
+                </sp>
+                <sp who="#choeur">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="239" unit="chars"/>
+                </sp>
+                <sp who="#un_voix">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="78" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="332" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE I. Prométhée, Les Titans. </head>
+                <sp who="#encelade">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="75" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="355" unit="chars"/>
+                </sp>
+                <sp who="#pro_t_e">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="128" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="553" unit="chars"/>
+                </sp>
+                <sp who="#c_u_d_titans">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="142" unit="chars"/>
+                </sp>
+                <sp who="#c_ur_de_nymphes">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="148" unit="chars"/>
+                </sp>
+                <sp who="#le_titans">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="164" unit="chars"/>
+                </sp>
+                <sp who="#le_dieux">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="90" unit="chars"/>
+                </sp>
+                <sp who="#pandore">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="37" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="141" unit="chars"/>
+                </sp>
+                <sp who="#dieu_titans">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="64" unit="chars"/>
+                </sp>
+                <sp who="#l_destin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="97" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="414" unit="chars"/>
+                </sp>
+                <sp who="#choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="68" unit="chars"/>
+                </sp>
+                <sp who="#jupiter">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="91" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="391" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE I. Prométhée, Pandore. </head>
+                <sp who="#pandore">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="542" unit="words"/>
+                    <amount n="82" unit="lines"/>
+                    <amount n="2303" unit="chars"/>
+                </sp>
+                <sp who="#pro_t_e">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="359" unit="words"/>
+                    <amount n="50" unit="lines"/>
+                    <amount n="1559" unit="chars"/>
+                </sp>
+                <sp who="#un_nymphe">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="74" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="297" unit="chars"/>
+                </sp>
+                <sp who="#un_autr_nymphe">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="61" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="274" unit="chars"/>
+                </sp>
+                <sp who="#l_c_ur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="160" unit="chars"/>
+                </sp>
+                <sp who="#nemesis">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="236" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="1011" unit="chars"/>
+                </sp>
+                <sp who="#furies_et_demons">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="80" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="337" unit="chars"/>
+                </sp>
+                <sp who="#choeu_de_nymphes">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="126" unit="chars"/>
+                </sp>
+                <sp who="#_amour">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="105" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="464" unit="chars"/>
+                </sp>
+                <sp who="#promethe_pandore">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="139" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

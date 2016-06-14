@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LE SICILIEN </title>
+        <subtitle>OU L'AMOUR PEINTRE</subtitle>
+        <subtitle>COMÉDIE</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>MOLIÈRE</author>
+        <date when="1655">1655</date>
+        <source>https://github.com/dramacode/theatre-classique/MOLIERE_SICILIEN.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>hali</name>
+            <alias xml:id="hali">
+                <name>hali</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>adraste</name>
+            <alias xml:id="adraste">
+                <name>adraste</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>premie_musicien</name>
+            <alias xml:id="premie_musicien">
+                <name>premie_musicien</name>
+            </alias>
+        </character>
+        <character>
+            <name>deux_m_musicien</name>
+            <alias xml:id="deux_m_musicien">
+                <name>deux_m_musicien</name>
+            </alias>
+        </character>
+        <character>
+            <name>premier_deux_m_musicien</name>
+            <alias xml:id="premier_deux_m_musicien">
+                <name>premier_deux_m_musicien</name>
+            </alias>
+        </character>
+        <character>
+            <name>trois_m_musicien</name>
+            <alias xml:id="trois_m_musicien">
+                <name>trois_m_musicien</name>
+            </alias>
+        </character>
+        <character>
+            <name>do__dre</name>
+            <alias xml:id="do__dre">
+                <name>do__dre</name>
+            </alias>
+        </character>
+        <character>
+            <name>isidore</name>
+            <alias xml:id="isidore">
+                <name>isidore</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>cli_ne</name>
+            <alias xml:id="cli_ne">
+                <name>cli_ne</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l__nateur</name>
+            <alias xml:id="l__nateur">
+                <name>l__nateur</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head/>
+            <div>
+                <head>SCÈNE PREMIÈRE. Hali, Musiciens.</head>
+                <sp who="#hali">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="160" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="681" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Adraste et Deux Laquais, Hali.</head>
+                <sp who="#adraste">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="345" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="1561" unit="chars"/>
+                </sp>
+                <sp who="#hali">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="310" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="1386" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Chantée par trois musiciens.</head>
+                <sp who="#premie_musicien">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="71" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="307" unit="chars"/>
+                </sp>
+                <sp who="#deux_m_musicien">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="57" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="271" unit="chars"/>
+                </sp>
+                <sp who="#premier_deux_m_musicien">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="158" unit="chars"/>
+                </sp>
+                <sp who="#trois_m_musicien">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="86" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="354" unit="chars"/>
+                </sp>
+                <sp who="#hali">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="51" unit="chars"/>
+                </sp>
+                <sp who="#adraste">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="54" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Don Pèdre, Adraste, Hali.</head>
+                <sp who="#do__dre">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="150" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="663" unit="chars"/>
+                </sp>
+                <sp who="#adraste">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="116" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="528" unit="chars"/>
+                </sp>
+                <sp who="#hali">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="103" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="431" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Adraste, Hali.</head>
+                <sp who="#adraste">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="96" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="418" unit="chars"/>
+                </sp>
+                <sp who="#hali">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="112" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="519" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Don Pèdre, Isidore.</head>
+                <sp who="#isidore">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="532" unit="words"/>
+                    <amount n="56" unit="lines"/>
+                    <amount n="2428" unit="chars"/>
+                </sp>
+                <sp who="#do__dre">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="362" unit="words"/>
+                    <amount n="48" unit="lines"/>
+                    <amount n="1635" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Don Pèdre, Hali, Isidore.</head>
+                <sp who="#do__dre">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="27" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="123" unit="chars"/>
+                </sp>
+                <sp who="#hali">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="166" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="786" unit="chars"/>
+                </sp>
+                <sp who="#isidore">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="72" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Hali et Quatre Esclaves, Isidore, Don Pèdre.</head>
+                <sp who="#hali">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="323" unit="words"/>
+                    <amount n="54" unit="lines"/>
+                    <amount n="1303" unit="chars"/>
+                </sp>
+                <sp who="#do__dre">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="126" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="466" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Adraste, Hali.</head>
+                <sp who="#hali">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="63" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="270" unit="chars"/>
+                </sp>
+                <sp who="#adraste">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="265" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="1139" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Don Pèdre, Adraste.</head>
+                <sp who="#do__dre">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="182" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="860" unit="chars"/>
+                </sp>
+                <sp who="#adraste">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="37" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="166" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Isidore, Don Pèdre, Adraste, et deux Laquais.</head>
+                <sp who="#do__dre">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="131" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="586" unit="chars"/>
+                </sp>
+                <sp who="#adraste">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="535" unit="words"/>
+                    <amount n="57" unit="lines"/>
+                    <amount n="2357" unit="chars"/>
+                </sp>
+                <sp who="#isidore">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="282" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="1267" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII. Hali, vêtu en Espagnol, Don Pèdre, Adraste, Isidore.</head>
+                <sp who="#do__dre">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="83" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="385" unit="chars"/>
+                </sp>
+                <sp who="#hali">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="191" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="858" unit="chars"/>
+                </sp>
+                <sp who="#adraste">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="227" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="1025" unit="chars"/>
+                </sp>
+                <sp who="#isidore">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="73" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="300" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIII. Don Pèdre, Isidore.</head>
+                <sp who="#isidore">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="66" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="299" unit="chars"/>
+                </sp>
+                <sp who="#do__dre">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="105" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="508" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIV. Climène, Don Pèdre, Isidore.</head>
+                <sp who="#cli_ne">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="109" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="502" unit="chars"/>
+                </sp>
+                <sp who="#do__dre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="52" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XV. Adraste, Don Pèdre.</head>
+                <sp who="#do__dre">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="134" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="583" unit="chars"/>
+                </sp>
+                <sp who="#adraste">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="158" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="768" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVI. Climène, Adraste, Don Pèdre.</head>
+                <sp who="#do__dre">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="61" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="250" unit="chars"/>
+                </sp>
+                <sp who="#cli_ne">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="139" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVII. Isidore, sous le voile de Climène, Adraste, Don Pèdre.</head>
+                <sp who="#do__dre">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="84" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="409" unit="chars"/>
+                </sp>
+                <sp who="#adraste">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="229" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVIII. Climène, Don Pèdre.</head>
+                <sp who="#do__dre">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="225" unit="chars"/>
+                </sp>
+                <sp who="#cli_ne">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="91" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="422" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIX. Le Sénateur, Don Pèdre.</head>
+                <sp who="#l__nateur">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="120" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="548" unit="chars"/>
+                </sp>
+                <sp who="#do__dre">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="76" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="363" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE DERNIÈRE.</head>
+            </div>
+        </div>
+    </text>
+</play>

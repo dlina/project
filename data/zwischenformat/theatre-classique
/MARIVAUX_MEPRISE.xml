@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LA MÉPRISE</title>
+        <subtitle>COMÉDIE en un acte, en prose.</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>MARIVAUX</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/MARIVAUX_MEPRISE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>frontin</name>
+            <alias xml:id="frontin">
+                <name>frontin</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>ergaste</name>
+            <alias xml:id="ergaste">
+                <name>ergaste</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>lisette</name>
+            <alias xml:id="lisette">
+                <name>lisette</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>hortense</name>
+            <alias xml:id="hortense">
+                <name>hortense</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>arlequin</name>
+            <alias xml:id="arlequin">
+                <name>arlequin</name>
+            </alias>
+        </character>
+        <character>
+            <name>clarice</name>
+            <alias xml:id="clarice">
+                <name>clarice</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head/>
+            <div>
+                <head>SCÈNE PREMIÈRE. Frontin, Ergaste.</head>
+                <sp who="#frontin">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="550" unit="words"/>
+                    <amount n="45" unit="lines"/>
+                    <amount n="2508" unit="chars"/>
+                </sp>
+                <sp who="#ergaste">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="291" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="1384" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Lisette, Frontin.</head>
+                <sp who="#frontin">
+                    <amount n="29" unit="speech_acts"/>
+                    <amount n="727" unit="words"/>
+                    <amount n="110" unit="lines"/>
+                    <amount n="3207" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="28" unit="speech_acts"/>
+                    <amount n="415" unit="words"/>
+                    <amount n="97" unit="lines"/>
+                    <amount n="1848" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Ergaste, Frontin.</head>
+                <sp who="#ergaste">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="61" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="282" unit="chars"/>
+                </sp>
+                <sp who="#frontin">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="287" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="1279" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Ergaste, Hortense, Frontin, éloigné.</head>
+                <sp who="#hortense">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="797" unit="words"/>
+                    <amount n="68" unit="lines"/>
+                    <amount n="3598" unit="chars"/>
+                </sp>
+                <sp who="#ergaste">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="599" unit="words"/>
+                    <amount n="57" unit="lines"/>
+                    <amount n="2734" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Hortense, Arlequin.</head>
+                <sp who="#arlequin">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="130" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="564" unit="chars"/>
+                </sp>
+                <sp who="#hortense">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="69" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="294" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Hortense, Clarice.</head>
+                <sp who="#hortense">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="99" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="447" unit="chars"/>
+                </sp>
+                <sp who="#clarice">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="117" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="483" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Clarice, Lisette.</head>
+                <sp who="#lisette">
+                    <amount n="22" unit="speech_acts"/>
+                    <amount n="296" unit="words"/>
+                    <amount n="73" unit="lines"/>
+                    <amount n="1272" unit="chars"/>
+                </sp>
+                <sp who="#clarice">
+                    <amount n="21" unit="speech_acts"/>
+                    <amount n="221" unit="words"/>
+                    <amount n="66" unit="lines"/>
+                    <amount n="961" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Frontin, Lisette, Clarice.</head>
+                <sp who="#clarice">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="59" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="246" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="88" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="416" unit="chars"/>
+                </sp>
+                <sp who="#frontin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="82" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Clarice, Lisette, Ergaste.</head>
+                <sp who="#ergaste">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="209" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="992" unit="chars"/>
+                </sp>
+                <sp who="#clarice">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="170" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="888" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="97" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Ergaste, Clarice, Lisette, Frontin.</head>
+                <sp who="#frontin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="78" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="55" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Ergaste, Frontin.</head>
+                <sp who="#ergaste">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="64" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="277" unit="chars"/>
+                </sp>
+                <sp who="#frontin">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="107" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="479" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII. Arlequin, Ergaste, Frontin.</head>
+                <sp who="#arlequin">
+                    <amount n="28" unit="speech_acts"/>
+                    <amount n="517" unit="words"/>
+                    <amount n="103" unit="lines"/>
+                    <amount n="2186" unit="chars"/>
+                </sp>
+                <sp who="#ergaste">
+                    <amount n="23" unit="speech_acts"/>
+                    <amount n="277" unit="words"/>
+                    <amount n="84" unit="lines"/>
+                    <amount n="1211" unit="chars"/>
+                </sp>
+                <sp who="#frontin">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="139" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="648" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIII. Arlequin, Frontin.</head>
+                <sp who="#arlequin">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="236" unit="words"/>
+                    <amount n="65" unit="lines"/>
+                    <amount n="989" unit="chars"/>
+                </sp>
+                <sp who="#frontin">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="223" unit="words"/>
+                    <amount n="56" unit="lines"/>
+                    <amount n="945" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIV. Ergaste, Frontin, Arlequin.</head>
+                <sp who="#ergaste">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="54" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="265" unit="chars"/>
+                </sp>
+                <sp who="#arlequin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="103" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="438" unit="chars"/>
+                </sp>
+                <sp who="#frontin">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="306" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XV.</head>
+                <sp who="#ergaste">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="103" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVI. Lisette, Ergaste.</head>
+                <sp who="#lisette">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="363" unit="words"/>
+                    <amount n="50" unit="lines"/>
+                    <amount n="1614" unit="chars"/>
+                </sp>
+                <sp who="#ergaste">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="195" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="848" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVII.</head>
+                <sp who="#ergaste">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="95" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVIII. Frontin, Ergaste.</head>
+                <sp who="#ergaste">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="120" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="560" unit="chars"/>
+                </sp>
+                <sp who="#frontin">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="512" unit="words"/>
+                    <amount n="57" unit="lines"/>
+                    <amount n="2408" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIX. Ergaste, Clarice, Lisette, Frontin.</head>
+                <sp who="#clarice">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="171" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="768" unit="chars"/>
+                </sp>
+                <sp who="#ergaste">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="90" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="462" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="122" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="544" unit="chars"/>
+                </sp>
+                <sp who="#frontin">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="135" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="627" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XX. Ergaste, Frontin.</head>
+                <sp who="#ergaste">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="109" unit="chars"/>
+                </sp>
+                <sp who="#frontin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="67" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXI. Hortense, Ergaste, Frontin.</head>
+                <sp who="#hortense">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="94" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="434" unit="chars"/>
+                </sp>
+                <sp who="#ergaste">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="4" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="22" unit="chars"/>
+                </sp>
+                <sp who="#frontin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="38" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXII et dernière. Hortense, Clarice, Lisette, Ergaste, Frontin, Arlequin.</head>
+                <sp who="#clarice">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="164" unit="chars"/>
+                </sp>
+                <sp who="#frontin">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="70" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="307" unit="chars"/>
+                </sp>
+                <sp who="#hortense">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="60" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="277" unit="chars"/>
+                </sp>
+                <sp who="#ergaste">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="133" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="585" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="92" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="445" unit="chars"/>
+                </sp>
+                <sp who="#arlequin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="44" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

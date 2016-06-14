@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>TANCRÈDE</title>
+        <subtitle>TRAGÉDIE EN  VERS ET EN CINQ ACTES</subtitle>
+        <genretitle>Tragédie</genretitle>
+        <author>VOLTAIRE</author>
+        <date when="1771">1771</date>
+        <source>https://github.com/dramacode/theatre-classique/VOLTAIRE_TANCREDE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>argire</name>
+            <alias xml:id="argire">
+                <name>argire</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>orbassan</name>
+            <alias xml:id="orbassan">
+                <name>orbassan</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>loredan</name>
+            <alias xml:id="loredan">
+                <name>loredan</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>catane</name>
+            <alias xml:id="catane">
+                <name>catane</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>armenaide</name>
+            <alias xml:id="armenaide">
+                <name>armenaide</name>
+            </alias>
+        </character>
+        <character>
+            <name>fanie</name>
+            <alias xml:id="fanie">
+                <name>fanie</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>tanc_de</name>
+            <alias xml:id="tanc_de">
+                <name>tanc_de</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>aldamon</name>
+            <alias xml:id="aldamon">
+                <name>aldamon</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE I. Assemblée des chevaliers rangés en demi-cercle.</head>
+                <sp who="#argire">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="625" unit="words"/>
+                    <amount n="70" unit="lines"/>
+                    <amount n="3015" unit="chars"/>
+                </sp>
+                <sp who="#orbassan">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="485" unit="words"/>
+                    <amount n="54" unit="lines"/>
+                    <amount n="2368" unit="chars"/>
+                </sp>
+                <sp who="#loredan">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="355" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="1824" unit="chars"/>
+                </sp>
+                <sp who="#catane">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="100" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="470" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Argire, Orbassan.</head>
+                <sp who="#argire">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="154" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="777" unit="chars"/>
+                </sp>
+                <sp who="#orbassan">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="264" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="1244" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Argire, Orbassan, Aménaïde.</head>
+                <sp who="#argire">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="98" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="448" unit="chars"/>
+                </sp>
+                <sp who="#armenaide">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="107" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="539" unit="chars"/>
+                </sp>
+                <sp who="#orbassan">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="124" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="573" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Argire, Aménaïde.</head>
+                <sp who="#argire">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="476" unit="words"/>
+                    <amount n="58" unit="lines"/>
+                    <amount n="2231" unit="chars"/>
+                </sp>
+                <sp who="#armenaide">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="586" unit="words"/>
+                    <amount n="72" unit="lines"/>
+                    <amount n="2904" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V.</head>
+                <sp who="#armenaide">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="201" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Aménaïde, Fanie.</head>
+                <sp who="#armenaide">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="302" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="1354" unit="chars"/>
+                </sp>
+                <sp who="#fanie">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="241" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1171" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE I. Aménaïde, Fanie.</head>
+                <sp who="#armenaide">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="826" unit="words"/>
+                    <amount n="93" unit="lines"/>
+                    <amount n="3930" unit="chars"/>
+                </sp>
+                <sp who="#fanie">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="223" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1073" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Aménaïde, Fanie, sur le devant ; Argire, Les chevaliers, au fond.</head>
+                <sp who="#argire">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="217" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="873" unit="chars"/>
+                </sp>
+                <sp who="#armenaide">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="120" unit="chars"/>
+                </sp>
+                <sp who="#fanie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="4" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="13" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Argire, les chevaliers.</head>
+                <sp who="#argire">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="162" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="669" unit="chars"/>
+                </sp>
+                <sp who="#loredan">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="104" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="501" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Les chevaliers.</head>
+                <sp who="#catane">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="204" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="1015" unit="chars"/>
+                </sp>
+                <sp who="#loredan">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="129" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="642" unit="chars"/>
+                </sp>
+                <sp who="#orbassan">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="50" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="228" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Les chevaliers, sur le devant ; Aménaïde, au fond, entourée de gardes.</head>
+                <sp who="#armenaide">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="181" unit="chars"/>
+                </sp>
+                <sp who="#catane">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="170" unit="chars"/>
+                </sp>
+                <sp who="#orbassan">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="87" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Aménaïde, Orbassan.</head>
+                <sp who="#armenaide">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="310" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="1426" unit="chars"/>
+                </sp>
+                <sp who="#orbassan">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="458" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="2129" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Aménaïde ; soldats, dans l'enfoncement.</head>
+                <sp who="#armenaide">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="279" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="1148" unit="chars"/>
+                </sp>
+                <sp who="#fanie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="49" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I. Tancrède, suivi de deux écuyers qui portent sa lance, son écu, etc. ; Aldamon.</head>
+                <sp who="#tanc_de">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="449" unit="words"/>
+                    <amount n="55" unit="lines"/>
+                    <amount n="2105" unit="chars"/>
+                </sp>
+                <sp who="#aldamon">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="382" unit="words"/>
+                    <amount n="47" unit="lines"/>
+                    <amount n="1823" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Tancrède, ses écuyers, au fond.</head>
+                <sp who="#tanc_de">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="260" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="1226" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Tancrède, Aldamon.</head>
+                <sp who="#tanc_de">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="427" unit="words"/>
+                    <amount n="63" unit="lines"/>
+                    <amount n="1944" unit="chars"/>
+                </sp>
+                <sp who="#aldamon">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="407" unit="words"/>
+                    <amount n="61" unit="lines"/>
+                    <amount n="1923" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Argire, dans un des côtés de la scène ; Tancrède, sur le devant, Aldamon, loin de lui, dans l'enfoncement.</head>
+                <sp who="#argire">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="340" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="1537" unit="chars"/>
+                </sp>
+                <sp who="#tanc_de">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="287" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="1289" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Orbassan, Argire, Tancrède, Chevaliers, suite.</head>
+                <sp who="#orbassan">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="206" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="1015" unit="chars"/>
+                </sp>
+                <sp who="#argire">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="242" unit="chars"/>
+                </sp>
+                <sp who="#tanc_de">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="142" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. La scène s'ouvre : on voit Aménaïde au milieu des gardes ; les chevaliers, le peuple, remplissent la place.</head>
+                <sp who="#argire">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="91" unit="chars"/>
+                </sp>
+                <sp who="#tanc_de">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="227" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="1030" unit="chars"/>
+                </sp>
+                <sp who="#armenaide">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="227" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="993" unit="chars"/>
+                </sp>
+                <sp who="#orbassan">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="133" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="669" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Argire, sur le devant ; au fond, Aménaïde, à qui l'on a ôté les fers.</head>
+                <sp who="#armenaide">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="135" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="613" unit="chars"/>
+                </sp>
+                <sp who="#argire">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="92" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="450" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE I. Tancrède, Lorédan, chevaliers.</head>
+                <sp who="#loredan">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="264" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1311" unit="chars"/>
+                </sp>
+                <sp who="#tanc_de">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="148" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="639" unit="chars"/>
+                </sp>
+                <sp who="#catane">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="131" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Tancrède, Aldamon.</head>
+                <sp who="#aldamon">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="213" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="1036" unit="chars"/>
+                </sp>
+                <sp who="#tanc_de">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="521" unit="words"/>
+                    <amount n="57" unit="lines"/>
+                    <amount n="2376" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Tancrède, Aldamon, plusieurs chevaliers.</head>
+                <sp who="#catane">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="51" unit="chars"/>
+                </sp>
+                <sp who="#tanc_de">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="82" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Tancrède, Aménaïde, Aldamon, Fanie, Chevaliers. </head>
+                <sp who="#armenaide">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="241" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="1100" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Aménaïde, Fanie.</head>
+                <sp who="#armenaide">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="460" unit="words"/>
+                    <amount n="52" unit="lines"/>
+                    <amount n="2143" unit="chars"/>
+                </sp>
+                <sp who="#fanie">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="162" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="769" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Argire, Aménaïde, suite.</head>
+                <sp who="#argire">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="315" unit="words"/>
+                    <amount n="45" unit="lines"/>
+                    <amount n="1460" unit="chars"/>
+                </sp>
+                <sp who="#armenaide">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="442" unit="words"/>
+                    <amount n="56" unit="lines"/>
+                    <amount n="2115" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII.</head>
+                <sp who="#armenaide">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="137" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="631" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE I. Les chevaliers et leurs écuyers, l'épée à la main ; des soldats, portant des trophées ; Le peuple, dans le fond.</head>
+                <sp who="#loredan">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="314" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="1586" unit="chars"/>
+                </sp>
+                <sp who="#catane">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="396" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="1900" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Les chevaliers, Argire ; Aménaïde, dans l'enfoncement, soutenue par ses femmes.</head>
+                <sp who="#argire">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="89" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="408" unit="chars"/>
+                </sp>
+                <sp who="#loredan">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="141" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Argire, Aménaïde.</head>
+                <sp who="#argire">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="297" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="1349" unit="chars"/>
+                </sp>
+                <sp who="#armenaide">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="241" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="1135" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Argire, Aménaïde, Fanie.</head>
+                <sp who="#fanie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="279" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="1396" unit="chars"/>
+                </sp>
+                <sp who="#armenaide">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="109" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="486" unit="chars"/>
+                </sp>
+                <sp who="#argire">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="75" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="347" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Argire, Aménaïde, Aldamon, Fanie.</head>
+                <sp who="#armenaide">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="219" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="937" unit="chars"/>
+                </sp>
+                <sp who="#aldamon">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="94" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="456" unit="chars"/>
+                </sp>
+                <sp who="#argire">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="108" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="525" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Lorédan, chevaliers, suite, Aménaïde, Argire, Fanie, Aldamon ; Tancrède, dans le fond, porté par des soldats.</head>
+                <sp who="#loredan">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="225" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="1063" unit="chars"/>
+                </sp>
+                <sp who="#tanc_de">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="205" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="890" unit="chars"/>
+                </sp>
+                <sp who="#armenaide">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="238" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="1065" unit="chars"/>
+                </sp>
+                <sp who="#argire">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="125" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="577" unit="chars"/>
+                </sp>
+                <sp who="#catane">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="79" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

@@ -1,0 +1,1208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>L'INCONNU</title>
+        <subtitle>COMÉDIE MÊLÉE D'ORNEMENTS et de Musique. </subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>CORNEILLE, Thomas</author>
+        <date when="1675">1675</date>
+        <source>https://github.com/dramacode/theatre-classique/CORNEILLET_INCONNU.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>thalie</name>
+            <alias xml:id="thalie">
+                <name>thalie</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_genie</name>
+            <alias xml:id="l_genie">
+                <name>l_genie</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_nymphe</name>
+            <alias xml:id="l_nymphe">
+                <name>l_nymphe</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_berger</name>
+            <alias xml:id="l_berger">
+                <name>l_berger</name>
+            </alias>
+        </character>
+        <character>
+            <name>nymphe_berger</name>
+            <alias xml:id="nymphe_berger">
+                <name>nymphe_berger</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_marquis</name>
+            <alias xml:id="l_marquis">
+                <name>l_marquis</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_montagne</name>
+            <alias xml:id="l_montagne">
+                <name>l_montagne</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>virgine</name>
+            <alias xml:id="virgine">
+                <name>virgine</name>
+            </alias>
+        </character>
+        <character>
+            <name>olimpe</name>
+            <alias xml:id="olimpe">
+                <name>olimpe</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>melisse</name>
+            <alias xml:id="melisse">
+                <name>melisse</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_comtesse</name>
+            <alias xml:id="l_comtesse">
+                <name>l_comtesse</name>
+            </alias>
+        </character>
+        <character>
+            <name>_amour</name>
+            <alias xml:id="_amour">
+                <name>_amour</name>
+            </alias>
+        </character>
+        <character>
+            <name>la_jeunesse</name>
+            <alias xml:id="la_jeunesse">
+                <name>la_jeunesse</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_chevalier</name>
+            <alias xml:id="l_chevalier">
+                <name>l_chevalier</name>
+            </alias>
+        </character>
+        <character>
+            <name>comus</name>
+            <alias xml:id="comus">
+                <name>comus</name>
+            </alias>
+        </character>
+        <character>
+            <name>vertumne</name>
+            <alias xml:id="vertumne">
+                <name>vertumne</name>
+            </alias>
+        </character>
+        <character>
+            <name>pomone</name>
+            <alias xml:id="pomone">
+                <name>pomone</name>
+            </alias>
+        </character>
+        <character>
+            <name>pomone_vertumne</name>
+            <alias xml:id="pomone_vertumne">
+                <name>pomone_vertumne</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_bohemienne</name>
+            <alias xml:id="l_bohemienne">
+                <name>l_bohemienne</name>
+            </alias>
+        </character>
+        <character>
+            <name>peti_bohemien</name>
+            <alias xml:id="peti_bohemien">
+                <name>peti_bohemien</name>
+            </alias>
+        </character>
+        <character>
+            <name>petit_bohemienne</name>
+            <alias xml:id="petit_bohemienne">
+                <name>petit_bohemienne</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_vicomte</name>
+            <alias xml:id="le_vicomte">
+                <name>le_vicomte</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>cascaret</name>
+            <alias xml:id="cascaret">
+                <name>cascaret</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_comedien</name>
+            <alias xml:id="le_comedien">
+                <name>le_comedien</name>
+            </alias>
+        </character>
+        <character>
+            <name>alcidon</name>
+            <alias xml:id="alcidon">
+                <name>alcidon</name>
+            </alias>
+        </character>
+        <character>
+            <name>aminte</name>
+            <alias xml:id="aminte">
+                <name>aminte</name>
+            </alias>
+        </character>
+        <character>
+            <name>alcidon_aminte</name>
+            <alias xml:id="alcidon_aminte">
+                <name>alcidon_aminte</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_comus</name>
+            <alias xml:id="l_comus">
+                <name>l_comus</name>
+            </alias>
+        </character>
+        <character>
+            <name>u_maure</name>
+            <alias xml:id="u_maure">
+                <name>u_maure</name>
+            </alias>
+        </character>
+        <character>
+            <name>u_maure_femm_maure</name>
+            <alias xml:id="u_maure_femm_maure">
+                <name>u_maure_femm_maure</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_femm_maure</name>
+            <alias xml:id="l_femm_maure">
+                <name>l_femm_maure</name>
+            </alias>
+        </character>
+        <character>
+            <name>zephire</name>
+            <alias xml:id="zephire">
+                <name>zephire</name>
+            </alias>
+        </character>
+        <character>
+            <name>aglaure</name>
+            <alias xml:id="aglaure">
+                <name>aglaure</name>
+            </alias>
+        </character>
+        <character>
+            <name>cephise</name>
+            <alias xml:id="cephise">
+                <name>cephise</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>PROLOGUE</head>
+            <div>
+                <head>Thalie, Le Génie de la France. </head>
+                <sp who="#thalie">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="311" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="1482" unit="chars"/>
+                </sp>
+                <sp who="#l_genie">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="382" unit="words"/>
+                    <amount n="56" unit="lines"/>
+                    <amount n="1704" unit="chars"/>
+                </sp>
+                <sp who="#l_nymphe">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="62" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="274" unit="chars"/>
+                </sp>
+                <sp who="#l_berger">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="133" unit="chars"/>
+                </sp>
+                <sp who="#nymphe_berger">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="68" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="293" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Le Marquis, La Montagne.</head>
+                <sp who="#l_marquis">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="163" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="698" unit="chars"/>
+                </sp>
+                <sp who="#l_montagne">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="562" unit="words"/>
+                    <amount n="74" unit="lines"/>
+                    <amount n="2382" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Le Marquis, Virgine. </head>
+                <sp who="#l_marquis">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="601" unit="words"/>
+                    <amount n="63" unit="lines"/>
+                    <amount n="2662" unit="chars"/>
+                </sp>
+                <sp who="#virgine">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="431" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="1931" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE I.I. Le Marquis, Olimpe, Mélisse.</head>
+                <sp who="#olimpe">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="186" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="846" unit="chars"/>
+                </sp>
+                <sp who="#l_marquis">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="142" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="625" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Olimpe, Mélisse. </head>
+                <sp who="#olimpe">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="43" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="213" unit="chars"/>
+                </sp>
+                <sp who="#melisse">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="77" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. La Comtesse, Olimpe, Virgine, Mélisse. </head>
+                <sp who="#l_comtesse">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="927" unit="words"/>
+                    <amount n="101" unit="lines"/>
+                    <amount n="4233" unit="chars"/>
+                </sp>
+                <sp who="#olimpe">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="349" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="1571" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. La Comtesse, Olimpe, Deux Enfants représentant L'Amour et la Jeunesse, Virgine, Mélisse, Un More.</head>
+                <sp who="#_amour">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="70" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="345" unit="chars"/>
+                </sp>
+                <sp who="#l_comtesse">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="168" unit="chars"/>
+                </sp>
+                <sp who="#virgine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="27" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="122" unit="chars"/>
+                </sp>
+                <sp who="#olimpe">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="101" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>DIALOGUE DE L'AMOUR ET DE LA JEUNESSE.</head>
+                <sp who="#la_jeunesse">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="493" unit="words"/>
+                    <amount n="69" unit="lines"/>
+                    <amount n="2246" unit="chars"/>
+                </sp>
+                <sp who="#_amour">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="235" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="1033" unit="chars"/>
+                </sp>
+                <sp who="#l_comtesse">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="417" unit="words"/>
+                    <amount n="67" unit="lines"/>
+                    <amount n="1723" unit="chars"/>
+                </sp>
+                <sp who="#olimpe">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="64" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="295" unit="chars"/>
+                </sp>
+                <sp who="#virgine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="53" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Olimpe, Mélisse.</head>
+                <sp who="#melisse">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="56" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="260" unit="chars"/>
+                </sp>
+                <sp who="#olimpe">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="421" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="1836" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Le Chevalier, Olimpe, Mélisse.</head>
+                <sp who="#l_chevalier">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="224" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="991" unit="chars"/>
+                </sp>
+                <sp who="#olimpe">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="464" unit="words"/>
+                    <amount n="56" unit="lines"/>
+                    <amount n="2049" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Le Marquis, Le Chevalier. </head>
+                <sp who="#l_marquis">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="148" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="661" unit="chars"/>
+                </sp>
+                <sp who="#l_chevalier">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="235" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1075" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Le Marquis, Virgine. </head>
+                <sp who="#l_marquis">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="153" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="698" unit="chars"/>
+                </sp>
+                <sp who="#virgine">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="133" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="625" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. La Comtesse, Le Marquis, Virgine. </head>
+                <sp who="#l_marquis">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="348" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="1486" unit="chars"/>
+                </sp>
+                <sp who="#l_comtesse">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="286" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="1296" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. La Comtesse, Olimpe, Le Chevalier, Le Marquis, Virgine, Mélisse.</head>
+                <sp who="#l_chevalier">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="49" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="223" unit="chars"/>
+                </sp>
+                <sp who="#l_marquis">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="202" unit="chars"/>
+                </sp>
+                <sp who="#l_comtesse">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="72" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI.. La Comtesse, Le Marquis, Le Chevalier, Olimpe, La Montagne représentant Comus, Virgine, Mélisse, Suite de Comus. </head>
+                <sp who="#comus">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="289" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="1285" unit="chars"/>
+                </sp>
+                <sp who="#l_comtesse">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="154" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="656" unit="chars"/>
+                </sp>
+                <sp who="#l_chevalier">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="54" unit="chars"/>
+                </sp>
+                <sp who="#olimpe">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="41" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="194" unit="chars"/>
+                </sp>
+                <sp who="#l_marquis">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="51" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="187" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. La Comtesse, Olimpe, Le Chevalier, Virgine, Mélisse, Comus, Suite de Comus. </head>
+                <sp who="#olimpe">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="35" unit="chars"/>
+                </sp>
+                <sp who="#l_comtesse">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="158" unit="chars"/>
+                </sp>
+                <sp who="#comus">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="115" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="533" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>DIALOGUE DE VERTUMNE ET DE POMONE.</head>
+                <sp who="#vertumne">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="130" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="575" unit="chars"/>
+                </sp>
+                <sp who="#pomone">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="210" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="989" unit="chars"/>
+                </sp>
+                <sp who="#pomone_vertumne">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="101" unit="chars"/>
+                </sp>
+                <sp who="#olimpe">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="177" unit="chars"/>
+                </sp>
+                <sp who="#l_chevalier">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="34" unit="chars"/>
+                </sp>
+                <sp who="#l_comtesse">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="113" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="511" unit="chars"/>
+                </sp>
+                <sp who="#comus">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="104" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="470" unit="chars"/>
+                </sp>
+                <sp who="#virgine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="49" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="226" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. La Comtesse, Olimpe, Virgine. </head>
+                <sp who="#l_comtesse">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="631" unit="words"/>
+                    <amount n="73" unit="lines"/>
+                    <amount n="2885" unit="chars"/>
+                </sp>
+                <sp who="#olimpe">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="302" unit="words"/>
+                    <amount n="45" unit="lines"/>
+                    <amount n="1330" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. La Comtesse, Virgine. </head>
+                <sp who="#l_comtesse">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="114" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="526" unit="chars"/>
+                </sp>
+                <sp who="#virgine">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="172" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="783" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. La Comtesse, Le Chevalier. </head>
+                <sp who="#l_comtesse">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="211" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="954" unit="chars"/>
+                </sp>
+                <sp who="#l_chevalier">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="210" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="949" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Le Marquis, La Comtesse, Le Chevalier. </head>
+                <sp who="#l_marquis">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="242" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="1010" unit="chars"/>
+                </sp>
+                <sp who="#l_comtesse">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="156" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="730" unit="chars"/>
+                </sp>
+                <sp who="#l_chevalier">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="75" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. La Comtesse, Olimpe, Le Marquis, Le Chevalier.</head>
+                <sp who="#olimpe">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="101" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="452" unit="chars"/>
+                </sp>
+                <sp who="#l_comtesse">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="139" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="610" unit="chars"/>
+                </sp>
+                <sp who="#l_chevalier">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="59" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="261" unit="chars"/>
+                </sp>
+                <sp who="#l_marquis">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="161" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. La Comtesse, Olimpe, Le Marquis, Le Chevalier, Virgine, La Montagne, représentant une Bohémienne, Troupe de Bohémiens. </head>
+                <sp who="#l_comtesse">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="125" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="546" unit="chars"/>
+                </sp>
+                <sp who="#virgine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="46" unit="chars"/>
+                </sp>
+                <sp who="#l_chevalier">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="190" unit="chars"/>
+                </sp>
+                <sp who="#olimpe">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="178" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="776" unit="chars"/>
+                </sp>
+                <sp who="#l_bohemienne">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="528" unit="words"/>
+                    <amount n="74" unit="lines"/>
+                    <amount n="2416" unit="chars"/>
+                </sp>
+                <sp who="#l_marquis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="75" unit="chars"/>
+                </sp>
+                <sp who="#peti_bohemien">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="133" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="530" unit="chars"/>
+                </sp>
+                <sp who="#petit_bohemienne">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="160" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. La Comtesse, Olimpe, Le Marquis, Le Chevalier. </head>
+                <sp who="#l_comtesse">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="162" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="740" unit="chars"/>
+                </sp>
+                <sp who="#l_chevalier">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="88" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="393" unit="chars"/>
+                </sp>
+                <sp who="#l_marquis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="4" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="15" unit="chars"/>
+                </sp>
+                <sp who="#olimpe">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="47" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. La Comtesse, Olimpe, Virgine, Le Marquis, Le Chevalier. </head>
+                <sp who="#virgine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="112" unit="chars"/>
+                </sp>
+                <sp who="#l_comtesse">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="93" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="410" unit="chars"/>
+                </sp>
+                <sp who="#olimpe">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="128" unit="chars"/>
+                </sp>
+                <sp who="#l_marquis">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="80" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. La Comtesse, Le Marquis, Virgine. </head>
+                <sp who="#l_marquis">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="219" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="967" unit="chars"/>
+                </sp>
+                <sp who="#l_comtesse">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="225" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="1003" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. La Comtesse, Le Chevalier, Le Marquis, Virgine. </head>
+                <sp who="#l_comtesse">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="197" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="935" unit="chars"/>
+                </sp>
+                <sp who="#l_chevalier">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="242" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="1055" unit="chars"/>
+                </sp>
+                <sp who="#l_marquis">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="45" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. La Comtesse, Le Marquis, Virgine.</head>
+                <sp who="#l_comtesse">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="120" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="540" unit="chars"/>
+                </sp>
+                <sp who="#l_marquis">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="57" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="246" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. La Comtesse, Le Vicomte, Le Marquis, Virgine. </head>
+                <sp who="#l_comtesse">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="81" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="370" unit="chars"/>
+                </sp>
+                <sp who="#le_vicomte">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="1040" unit="words"/>
+                    <amount n="117" unit="lines"/>
+                    <amount n="4670" unit="chars"/>
+                </sp>
+                <sp who="#l_marquis">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="69" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="331" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. La Comtesse, Olimpe, Le Marquis, Le Vicomte, Virgine. </head>
+                <sp who="#olimpe">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="493" unit="words"/>
+                    <amount n="61" unit="lines"/>
+                    <amount n="2243" unit="chars"/>
+                </sp>
+                <sp who="#l_comtesse">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="140" unit="chars"/>
+                </sp>
+                <sp who="#le_vicomte">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="130" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="532" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. La Comtesse, Olimpe, Le Vicomte, Le Marquis, Le Chevalier, La Montagne, représentant un Comédien, Virgine, Cascaret. </head>
+                <sp who="#cascaret">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="36" unit="chars"/>
+                </sp>
+                <sp who="#l_comtesse">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="183" unit="chars"/>
+                </sp>
+                <sp who="#virgine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="44" unit="chars"/>
+                </sp>
+                <sp who="#l_montagne">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="51" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="232" unit="chars"/>
+                </sp>
+                <sp who="#le_comedien">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="93" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="383" unit="chars"/>
+                </sp>
+                <sp who="#le_vicomte">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="116" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="546" unit="chars"/>
+                </sp>
+                <sp who="#olimpe">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="87" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>DIALOGUE D'ALCIDON ET D'AMINTE.</head>
+                <sp who="#alcidon">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="156" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="691" unit="chars"/>
+                </sp>
+                <sp who="#aminte">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="112" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="476" unit="chars"/>
+                </sp>
+                <sp who="#alcidon_aminte">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="145" unit="chars"/>
+                </sp>
+                <sp who="#l_comtesse">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="53" unit="chars"/>
+                </sp>
+                <sp who="#le_vicomte">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="170" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="748" unit="chars"/>
+                </sp>
+                <sp who="#le_comedien">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="68" unit="chars"/>
+                </sp>
+                <sp who="#olimpe">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="72" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Olimpe, Le Marquis.</head>
+                <sp who="#olimpe">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="253" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="1134" unit="chars"/>
+                </sp>
+                <sp who="#l_marquis">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="181" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="743" unit="chars"/>
+                </sp>
+                <sp who="#l_comus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="192" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Le Marquis, Virgine.</head>
+                <sp who="#virgine">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="136" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="635" unit="chars"/>
+                </sp>
+                <sp who="#l_marquis">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="254" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="1181" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Olimpe, Le Marquis.</head>
+                <sp who="#olimpe">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="179" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="796" unit="chars"/>
+                </sp>
+                <sp who="#l_marquis">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="88" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="370" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. La Comtesse, Le Vicomte, Le Chevalier, Olimpe, Le Marquis, Virgine.</head>
+                <sp who="#le_vicomte">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="85" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="333" unit="chars"/>
+                </sp>
+                <sp who="#l_comtesse">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="107" unit="chars"/>
+                </sp>
+                <sp who="#l_chevalier">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="79" unit="chars"/>
+                </sp>
+                <sp who="#l_marquis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="18" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. La Comtesse, Le Vicomte, Le Chevalier, Olimpe, Le Marquis, Virgine, La Montagne représentant Le Comédien, et vêtu en Zéphire.</head>
+                <sp who="#l_comtesse">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="112" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="515" unit="chars"/>
+                </sp>
+                <sp who="#le_comedien">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="335" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="1530" unit="chars"/>
+                </sp>
+                <sp who="#l_chevalier">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="75" unit="chars"/>
+                </sp>
+                <sp who="#le_vicomte">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="268" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1204" unit="chars"/>
+                </sp>
+                <sp who="#l_marquis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="24" unit="chars"/>
+                </sp>
+                <sp who="#olimpe">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="113" unit="chars"/>
+                </sp>
+                <sp who="#u_maure">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="76" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="344" unit="chars"/>
+                </sp>
+                <sp who="#u_maure_femm_maure">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="120" unit="chars"/>
+                </sp>
+                <sp who="#l_femm_maure">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="83" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. La Montagne représentant Zéphire, Aglaure. </head>
+                <sp who="#zephire">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="202" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="877" unit="chars"/>
+                </sp>
+                <sp who="#aglaure">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="195" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="848" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Aglaure, Céphise. </head>
+                <sp who="#cephise">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="335" unit="words"/>
+                    <amount n="48" unit="lines"/>
+                    <amount n="1526" unit="chars"/>
+                </sp>
+                <sp who="#aglaure">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="149" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="689" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Zéphire, Céphise, Un Enfant représentant l'Amour. </head>
+                <sp who="#zephire">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="282" unit="words"/>
+                    <amount n="45" unit="lines"/>
+                    <amount n="1205" unit="chars"/>
+                </sp>
+                <sp who="#cephise">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="234" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="1020" unit="chars"/>
+                </sp>
+                <sp who="#l_comtesse">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="145" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="646" unit="chars"/>
+                </sp>
+                <sp who="#_amour">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="61" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="257" unit="chars"/>
+                </sp>
+                <sp who="#olimpe">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="106" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="465" unit="chars"/>
+                </sp>
+                <sp who="#l_chevalier">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="50" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="237" unit="chars"/>
+                </sp>
+                <sp who="#le_vicomte">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="71" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="291" unit="chars"/>
+                </sp>
+                <sp who="#l_marquis">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="100" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="461" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

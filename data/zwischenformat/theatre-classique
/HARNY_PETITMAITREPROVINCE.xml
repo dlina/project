@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LE PETIT-MAÎTRE EN PROVINCE</title>
+        <subtitle>COMÉDIE EN UN ACTE ET EN VERS</subtitle>
+        <subtitle>AVEC DES ARIETTES</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>HARNY DE GUERVILLE</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/HARNY_PETITMAITREPROVINCE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>le_marquis</name>
+            <alias xml:id="le_marquis">
+                <name>le_marquis</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>lepine</name>
+            <alias xml:id="lepine">
+                <name>lepine</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>dainval</name>
+            <alias xml:id="dainval">
+                <name>dainval</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>julie</name>
+            <alias xml:id="julie">
+                <name>julie</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>marton</name>
+            <alias xml:id="marton">
+                <name>marton</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_baron</name>
+            <alias xml:id="le_baron">
+                <name>le_baron</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>blaise</name>
+            <alias xml:id="blaise">
+                <name>blaise</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>la_baronne</name>
+            <alias xml:id="la_baronne">
+                <name>la_baronne</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_baron_et_la_baronne</name>
+            <alias xml:id="le_baron_et_la_baronne">
+                <name>le_baron_et_la_baronne</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_baron__la_baronne__blaise</name>
+            <alias xml:id="le_baron__la_baronne__blaise">
+                <name>le_baron__la_baronne__blaise</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head/>
+            <div>
+                <head>SCÈNE PREMIÈRE. Le Marquis, Lépine, Laquais, Cochers.</head>
+                <sp who="#le_marquis">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="201" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="864" unit="chars"/>
+                </sp>
+                <sp who="#lepine">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="130" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Le Marquis, Dainval.</head>
+                <sp who="#dainval">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="105" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="462" unit="chars"/>
+                </sp>
+                <sp who="#le_marquis">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="247" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1123" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCENE III. LEPINE, LE MARQUIS, DAINVAL.</head>
+                <sp who="#lepine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="51" unit="chars"/>
+                </sp>
+                <sp who="#dainval">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="83" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="398" unit="chars"/>
+                </sp>
+                <sp who="#le_marquis">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="150" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="697" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCENE IV.</head>
+                <sp who="#dainval">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="89" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Julie, Dainval.</head>
+                <sp who="#dainval">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="181" unit="chars"/>
+                </sp>
+                <sp who="#julie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="123" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="626" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Julie, Marton, Dainval.</head>
+                <sp who="#marton">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="111" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="545" unit="chars"/>
+                </sp>
+                <sp who="#julie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="58" unit="chars"/>
+                </sp>
+                <sp who="#dainval">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="4" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="19" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Marton, La Baronne, Julie, Le Baron, Dainval, Blaise.</head>
+                <sp who="#le_baron">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="376" unit="words"/>
+                    <amount n="61" unit="lines"/>
+                    <amount n="1820" unit="chars"/>
+                </sp>
+                <sp who="#blaise">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="53" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="240" unit="chars"/>
+                </sp>
+                <sp who="#julie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="49" unit="chars"/>
+                </sp>
+                <sp who="#dainval">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="28" unit="chars"/>
+                </sp>
+                <sp who="#la_baronne">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="100" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="546" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Le Marquis, Dainval, Le Baron, Lépine.</head>
+                <sp who="#le_marquis">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="433" unit="words"/>
+                    <amount n="66" unit="lines"/>
+                    <amount n="2186" unit="chars"/>
+                </sp>
+                <sp who="#le_baron">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="288" unit="words"/>
+                    <amount n="70" unit="lines"/>
+                    <amount n="1440" unit="chars"/>
+                </sp>
+                <sp who="#lepine">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="35" unit="chars"/>
+                </sp>
+                <sp who="#dainval">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="49" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="198" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Le Marquis, Dainval.</head>
+                <sp who="#le_marquis">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="143" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="690" unit="chars"/>
+                </sp>
+                <sp who="#dainval">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="129" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="585" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Le Baronne, Le Marquis.</head>
+                <sp who="#la_baronne">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="138" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="679" unit="chars"/>
+                </sp>
+                <sp who="#le_marquis">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="171" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="852" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. La Baronne, Le Baron.</head>
+                <sp who="#le_baron">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="121" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="527" unit="chars"/>
+                </sp>
+                <sp who="#la_baronne">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="59" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="259" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII. La Baronne, Blaise, La Baron.</head>
+                <sp who="#blaise">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="248" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="1136" unit="chars"/>
+                </sp>
+                <sp who="#le_baron">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="81" unit="chars"/>
+                </sp>
+                <sp who="#la_baronne">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="84" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIII. La Baronne, Julie, Le Baron, Marton, Blaise.</head>
+                <sp who="#le_baron">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="53" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="244" unit="chars"/>
+                </sp>
+                <sp who="#la_baronne">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="237" unit="chars"/>
+                </sp>
+                <sp who="#le_baron_et_la_baronne">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="146" unit="chars"/>
+                </sp>
+                <sp who="#julie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="31" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIV. Julie, Marton, Blaise.</head>
+                <sp who="#marton">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="94" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="458" unit="chars"/>
+                </sp>
+                <sp who="#julie">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="58" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="248" unit="chars"/>
+                </sp>
+                <sp who="#blaise">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="106" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XV. Le Marquis, Julie, Marton.</head>
+                <sp who="#le_marquis">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="353" unit="words"/>
+                    <amount n="56" unit="lines"/>
+                    <amount n="1702" unit="chars"/>
+                </sp>
+                <sp who="#julie">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="188" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="861" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVI. Le Marquis, Marquis, Blaise.</head>
+                <sp who="#marton">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="37" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="167" unit="chars"/>
+                </sp>
+                <sp who="#le_marquis">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="186" unit="chars"/>
+                </sp>
+                <sp who="#blaise">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="105" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVII. Le Marquis, Marton, sur le devant du Théâtre, Le Baron, Blaise dans le fond.</head>
+                <sp who="#le_marquis">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="73" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="331" unit="chars"/>
+                </sp>
+                <sp who="#blaise">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="52" unit="chars"/>
+                </sp>
+                <sp who="#le_baron">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="32" unit="chars"/>
+                </sp>
+                <sp who="#marton">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="72" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVIII. Le Marquis, Marton, sur le devant du Théâtre, Le Baron, La Baronne, Blaise, au fond.</head>
+                <sp who="#marton">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="159" unit="chars"/>
+                </sp>
+                <sp who="#le_marquis">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="233" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="1054" unit="chars"/>
+                </sp>
+                <sp who="#le_baron">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="154" unit="chars"/>
+                </sp>
+                <sp who="#la_baronne">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="216" unit="chars"/>
+                </sp>
+                <sp who="#blaise">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="74" unit="chars"/>
+                </sp>
+                <sp who="#le_baron__la_baronne__blaise">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="31" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIX et dernière. Le Marquis, La Baronne, Le Baron, Julie, Dainval, Blaise.</head>
+                <sp who="#dainval">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="209" unit="words"/>
+                    <amount n="45" unit="lines"/>
+                    <amount n="936" unit="chars"/>
+                </sp>
+                <sp who="#le_marquis">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="114" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="505" unit="chars"/>
+                </sp>
+                <sp who="#le_baron">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="120" unit="chars"/>
+                </sp>
+                <sp who="#la_baronne">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="178" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="814" unit="chars"/>
+                </sp>
+                <sp who="#julie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="255" unit="chars"/>
+                </sp>
+                <sp who="#blaise">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="54" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="255" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

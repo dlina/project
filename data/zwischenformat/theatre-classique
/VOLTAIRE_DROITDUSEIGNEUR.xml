@@ -1,0 +1,817 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LE DROIT DU SEIGNEUR</title>
+        <subtitle>COMÉDIE, EN CINQ ACTES</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>VOLTAIRE</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/VOLTAIRE_DROITDUSEIGNEUR.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>mathurin</name>
+            <alias xml:id="mathurin">
+                <name>mathurin</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_baillif</name>
+            <alias xml:id="le_baillif">
+                <name>le_baillif</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>colette</name>
+            <alias xml:id="colette">
+                <name>colette</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>acante</name>
+            <alias xml:id="acante">
+                <name>acante</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>dignant</name>
+            <alias xml:id="dignant">
+                <name>dignant</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>berthe</name>
+            <alias xml:id="berthe">
+                <name>berthe</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>champagne</name>
+            <alias xml:id="champagne">
+                <name>champagne</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_chevalier</name>
+            <alias xml:id="le_chevalier">
+                <name>le_chevalier</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_marquis</name>
+            <alias xml:id="le_marquis">
+                <name>le_marquis</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_domestique</name>
+            <alias xml:id="le_domestique">
+                <name>le_domestique</name>
+            </alias>
+        </character>
+        <character>
+            <name>dor_ne</name>
+            <alias xml:id="dor_ne">
+                <name>dor_ne</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE I. Mathurin, Le Baillif.</head>
+                <sp who="#mathurin">
+                    <amount n="20" unit="speech_acts"/>
+                    <amount n="833" unit="words"/>
+                    <amount n="119" unit="lines"/>
+                    <amount n="3926" unit="chars"/>
+                </sp>
+                <sp who="#le_baillif">
+                    <amount n="20" unit="speech_acts"/>
+                    <amount n="730" unit="words"/>
+                    <amount n="100" unit="lines"/>
+                    <amount n="3372" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II.</head>
+                <sp who="#mathurin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="179" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="751" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Mathurin ; Colette, courant après.</head>
+                <sp who="#colette">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="376" unit="words"/>
+                    <amount n="50" unit="lines"/>
+                    <amount n="1705" unit="chars"/>
+                </sp>
+                <sp who="#mathurin">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="139" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="584" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Mathurin, Dignant, Acanthe, Colette.</head>
+                <sp who="#mathurin">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="227" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="1050" unit="chars"/>
+                </sp>
+                <sp who="#colette">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="108" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="444" unit="chars"/>
+                </sp>
+                <sp who="#acante">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="69" unit="chars"/>
+                </sp>
+                <sp who="#dignant">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="179" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="837" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Les Précédents, Berthe.</head>
+                <sp who="#mathurin">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="162" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="696" unit="chars"/>
+                </sp>
+                <sp who="#berthe">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="255" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="1128" unit="chars"/>
+                </sp>
+                <sp who="#dignant">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="109" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="526" unit="chars"/>
+                </sp>
+                <sp who="#colette">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="79" unit="chars"/>
+                </sp>
+                <sp who="#acante">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="50" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="236" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Acanthe, Colette.</head>
+                <sp who="#colette">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="307" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="1354" unit="chars"/>
+                </sp>
+                <sp who="#acante">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="450" unit="words"/>
+                    <amount n="61" unit="lines"/>
+                    <amount n="2052" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE I. Le Baillif, Philippe, son valet ; ensuite Colette.</head>
+                <sp who="#le_baillif">
+                    <amount n="20" unit="speech_acts"/>
+                    <amount n="533" unit="words"/>
+                    <amount n="92" unit="lines"/>
+                    <amount n="2497" unit="chars"/>
+                </sp>
+                <sp who="#colette">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="381" unit="words"/>
+                    <amount n="66" unit="lines"/>
+                    <amount n="1759" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II.</head>
+                <sp who="#colette">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="123" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Colette, Acanthe.</head>
+                <sp who="#colette">
+                    <amount n="22" unit="speech_acts"/>
+                    <amount n="320" unit="words"/>
+                    <amount n="64" unit="lines"/>
+                    <amount n="1403" unit="chars"/>
+                </sp>
+                <sp who="#acante">
+                    <amount n="21" unit="speech_acts"/>
+                    <amount n="866" unit="words"/>
+                    <amount n="126" unit="lines"/>
+                    <amount n="4003" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Acanthe, Colette, Berthe, Dignant, Mathurin.</head>
+                <sp who="#berthe">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="95" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="425" unit="chars"/>
+                </sp>
+                <sp who="#mathurin">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="60" unit="chars"/>
+                </sp>
+                <sp who="#acante">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="151" unit="chars"/>
+                </sp>
+                <sp who="#colette">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="125" unit="chars"/>
+                </sp>
+                <sp who="#dignant">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="128" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Les Précédents, Champagne.</head>
+                <sp who="#champagne">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="192" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="783" unit="chars"/>
+                </sp>
+                <sp who="#dignant">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="57" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="238" unit="chars"/>
+                </sp>
+                <sp who="#colette">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="162" unit="chars"/>
+                </sp>
+                <sp who="#acante">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="57" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="269" unit="chars"/>
+                </sp>
+                <sp who="#mathurin">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="50" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="209" unit="chars"/>
+                </sp>
+                <sp who="#berthe">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="80" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="394" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Le Chevalier, Champagne.</head>
+                <sp who="#champagne">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="232" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1080" unit="chars"/>
+                </sp>
+                <sp who="#le_chevalier">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="644" unit="words"/>
+                    <amount n="86" unit="lines"/>
+                    <amount n="2959" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I. Le Marquis, Le Chevalier.</head>
+                <sp who="#le_marquis">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="764" unit="words"/>
+                    <amount n="113" unit="lines"/>
+                    <amount n="3603" unit="chars"/>
+                </sp>
+                <sp who="#le_chevalier">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="389" unit="words"/>
+                    <amount n="66" unit="lines"/>
+                    <amount n="1774" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Le Marquis, Le Chavalier ; Le Baillif, à la tête des habitants.</head>
+                <sp who="#le_marquis">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="186" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="873" unit="chars"/>
+                </sp>
+                <sp who="#le_baillif">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="60" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="273" unit="chars"/>
+                </sp>
+                <sp who="#le_chevalier">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="85" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="362" unit="chars"/>
+                </sp>
+                <sp who="#mathurin">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="46" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="216" unit="chars"/>
+                </sp>
+                <sp who="#colette">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="80" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="329" unit="chars"/>
+                </sp>
+                <sp who="#acante">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="77" unit="chars"/>
+                </sp>
+                <sp who="#berthe">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="26" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Le Baillif, Les Précédents moins le Marquis et le Chevalier.</head>
+                <sp who="#mathurin">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="55" unit="chars"/>
+                </sp>
+                <sp who="#le_baillif">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="86" unit="chars"/>
+                </sp>
+                <sp who="#colette">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="140" unit="chars"/>
+                </sp>
+                <sp who="#berthe">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="148" unit="chars"/>
+                </sp>
+                <sp who="#dignant">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="133" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="588" unit="chars"/>
+                </sp>
+                <sp who="#acante">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="43" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="168" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Le Baillif, Mathurin, Acanthe.</head>
+                <sp who="#mathurin">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="147" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="660" unit="chars"/>
+                </sp>
+                <sp who="#le_baillif">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="204" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="988" unit="chars"/>
+                </sp>
+                <sp who="#acante">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="140" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V.</head>
+                <sp who="#acante">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="166" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="729" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Le Marquis, Acanthe.</head>
+                <sp who="#le_marquis">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="593" unit="words"/>
+                    <amount n="89" unit="lines"/>
+                    <amount n="2661" unit="chars"/>
+                </sp>
+                <sp who="#acante">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="568" unit="words"/>
+                    <amount n="84" unit="lines"/>
+                    <amount n="2600" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Le Marquis, Acanthe, Le Baillif, Mathurin.</head>
+                <sp who="#mathurin">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="59" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="250" unit="chars"/>
+                </sp>
+                <sp who="#acante">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="60" unit="chars"/>
+                </sp>
+                <sp who="#le_marquis">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="166" unit="chars"/>
+                </sp>
+                <sp who="#le_baillif">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="37" unit="chars"/>
+                </sp>
+                <sp who="#le_domestique">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="2" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="14" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Mathurin, Le Baillif.</head>
+                <sp who="#mathurin">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="161" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="723" unit="chars"/>
+                </sp>
+                <sp who="#le_baillif">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="49" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE I.</head>
+                <sp who="#le_marquis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="321" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="1284" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Le Marquis, un domestique.</head>
+                <sp who="#le_marquis">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="69" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="276" unit="chars"/>
+                </sp>
+                <sp who="#le_domestique">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="34" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Le Marquis, Dignant, Berthe, Mathurin.</head>
+                <sp who="#mathurin">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="118" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="471" unit="chars"/>
+                </sp>
+                <sp who="#le_marquis">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="211" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="848" unit="chars"/>
+                </sp>
+                <sp who="#berthe">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="95" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="382" unit="chars"/>
+                </sp>
+                <sp who="#dignant">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="122" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Le Marquis, sur le devant ; Dignant, au fond.</head>
+                <sp who="#le_marquis">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="373" unit="words"/>
+                    <amount n="52" unit="lines"/>
+                    <amount n="1515" unit="chars"/>
+                </sp>
+                <sp who="#dignant">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="150" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="658" unit="chars"/>
+                </sp>
+                <sp who="#le_domestique">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="108" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Le Marquis, Dignant, Dormène.</head>
+                <sp who="#le_marquis">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="90" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="380" unit="chars"/>
+                </sp>
+                <sp who="#dor_ne">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="107" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="455" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Le Marquis, Dormène, Dignant ; quelques domestique entrent  précipitamment avec Mathurin.</head>
+                <sp who="#mathurin">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="127" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="485" unit="chars"/>
+                </sp>
+                <sp who="#le_marquis">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="372" unit="words"/>
+                    <amount n="53" unit="lines"/>
+                    <amount n="1553" unit="chars"/>
+                </sp>
+                <sp who="#dor_ne">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="150" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="629" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Le Marquis, Le Chevalier. </head>
+                <sp who="#le_chevalier">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="689" unit="words"/>
+                    <amount n="98" unit="lines"/>
+                    <amount n="3198" unit="chars"/>
+                </sp>
+                <sp who="#le_marquis">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="179" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="861" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII.</head>
+                <sp who="#le_marquis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="186" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="772" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Le Marquis, Dormène.</head>
+                <sp who="#le_marquis">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="389" unit="words"/>
+                    <amount n="63" unit="lines"/>
+                    <amount n="1508" unit="chars"/>
+                </sp>
+                <sp who="#dor_ne">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="261" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="1057" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X.</head>
+                <sp who="#dor_ne">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="200" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="838" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE I.	Le marquis, Le Chevalier.</head>
+                <sp who="#le_marquis">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="237" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="1063" unit="chars"/>
+                </sp>
+                <sp who="#le_chevalier">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="61" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="298" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Le Marquis, Le Chevalier, Colette.</head>
+                <sp who="#le_marquis">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="91" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="415" unit="chars"/>
+                </sp>
+                <sp who="#colette">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="146" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="638" unit="chars"/>
+                </sp>
+                <sp who="#le_chevalier">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="34" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Acante, Colette.</head>
+                <sp who="#colette">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="298" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="1311" unit="chars"/>
+                </sp>
+                <sp who="#acante">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="138" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="634" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Acante, Colette, Le Chevalier.</head>
+                <sp who="#le_chevalier">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="197" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="880" unit="chars"/>
+                </sp>
+                <sp who="#colette">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="131" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="550" unit="chars"/>
+                </sp>
+                <sp who="#acante">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="145" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="648" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Acante, Le Chevalier, Dormène, Dignant.</head>
+                <sp who="#acante">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="251" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="1112" unit="chars"/>
+                </sp>
+                <sp who="#dignant">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="37" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="147" unit="chars"/>
+                </sp>
+                <sp who="#dor_ne">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="85" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="411" unit="chars"/>
+                </sp>
+                <sp who="#le_chevalier">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="50" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="204" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE DERNIÈRE. Acante, Dormène, Dignant, Le Chevalier, Le Marquis, au fond.</head>
+                <sp who="#le_marquis">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="465" unit="words"/>
+                    <amount n="75" unit="lines"/>
+                    <amount n="2188" unit="chars"/>
+                </sp>
+                <sp who="#le_chevalier">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="149" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="654" unit="chars"/>
+                </sp>
+                <sp who="#acante">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="149" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="592" unit="chars"/>
+                </sp>
+                <sp who="#dor_ne">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="54" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="247" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LES BONNES GENS</title>
+        <subtitle>PETITE PIÈCE EN UN ACTE, ET EN VERS.</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>(anonyme)</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/ANONYME_BONNESGENS.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>guillaume</name>
+            <alias xml:id="guillaume">
+                <name>guillaume</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>madam_guillaume</name>
+            <alias xml:id="madam_guillaume">
+                <name>madam_guillaume</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_roi</name>
+            <alias xml:id="l_roi">
+                <name>l_roi</name>
+            </alias>
+        </character>
+        <character>
+            <name>arlequin</name>
+            <alias xml:id="arlequin">
+                <name>arlequin</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>u_hussard</name>
+            <alias xml:id="u_hussard">
+                <name>u_hussard</name>
+            </alias>
+        </character>
+        <character>
+            <name>secon_hussard</name>
+            <alias xml:id="secon_hussard">
+                <name>secon_hussard</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head/>
+            <div>
+                <head>SCÈNE PREMIÈRE. Guillaume, Sa Femme.</head>
+                <sp who="#guillaume">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="642" unit="words"/>
+                    <amount n="82" unit="lines"/>
+                    <amount n="2916" unit="chars"/>
+                </sp>
+                <sp who="#madam_guillaume">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="376" unit="words"/>
+                    <amount n="45" unit="lines"/>
+                    <amount n="1642" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Le Roi, Guillaume, Sa Femme.</head>
+                <sp who="#l_roi">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="422" unit="words"/>
+                    <amount n="54" unit="lines"/>
+                    <amount n="2001" unit="chars"/>
+                </sp>
+                <sp who="#guillaume">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="193" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="878" unit="chars"/>
+                </sp>
+                <sp who="#madam_guillaume">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="137" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="672" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. </head>
+                <sp who="#madam_guillaume">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="267" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="1257" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Madame Guillaume, Arlequin, Capitaine de Hussards ; Deux Hussards.</head>
+                <sp who="#arlequin">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="718" unit="words"/>
+                    <amount n="104" unit="lines"/>
+                    <amount n="3407" unit="chars"/>
+                </sp>
+                <sp who="#u_hussard">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="113" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="546" unit="chars"/>
+                </sp>
+                <sp who="#madam_guillaume">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="258" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1159" unit="chars"/>
+                </sp>
+                <sp who="#secon_hussard">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="47" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V.</head>
+                <sp who="#madam_guillaume">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="54" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="230" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE DERNIÈRE. Le Roi, en habit de Paysan, Guillaume, Sa Femme.</head>
+                <sp who="#l_roi">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="77" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="370" unit="chars"/>
+                </sp>
+                <sp who="#madam_guillaume">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="101" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="419" unit="chars"/>
+                </sp>
+                <sp who="#guillaume">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="241" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

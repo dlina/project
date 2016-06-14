@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LE BARBIER DE SÉVILLE ou LES PRÉCAUTIONS INUTILES</title>
+        <subtitle>COMÉDIE en QUATRE ACTES</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>BEAUMARCHAIS, Pierre Augustin Caron de</author>
+        <date when="1775">1775</date>
+        <source>https://github.com/dramacode/theatre-classique/BEAUMARCHAIS_BARBIERDESEVILLE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>l_comte</name>
+            <alias xml:id="l_comte">
+                <name>l_comte</name>
+            </alias>
+        </character>
+        <character>
+            <name>figaro</name>
+            <alias xml:id="figaro">
+                <name>figaro</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>rosine</name>
+            <alias xml:id="rosine">
+                <name>rosine</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>bartholo</name>
+            <alias xml:id="bartholo">
+                <name>bartholo</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>_éveil_</name>
+            <alias xml:id="_veil_">
+                <name>_éveil_</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_jeunesse</name>
+            <alias xml:id="l_jeunesse">
+                <name>l_jeunesse</name>
+            </alias>
+        </character>
+        <character>
+            <name>bazile</name>
+            <alias xml:id="bazile">
+                <name>bazile</name>
+            </alias>
+        </character>
+        <character>
+            <name>tous</name>
+            <alias xml:id="tous">
+                <name>tous</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_notaire</name>
+            <alias xml:id="l_notaire">
+                <name>l_notaire</name>
+            </alias>
+        </character>
+        <character>
+            <name>_alcade</name>
+            <alias xml:id="_alcade">
+                <name>_alcade</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE I.</head>
+                <sp who="#l_comte">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="194" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="887" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Figaro, Le Comte, caché.</head>
+                <sp who="#figaro">
+                    <amount n="26" unit="speech_acts"/>
+                    <amount n="1150" unit="words"/>
+                    <amount n="145" unit="lines"/>
+                    <amount n="5201" unit="chars"/>
+                </sp>
+                <sp who="#l_comte">
+                    <amount n="26" unit="speech_acts"/>
+                    <amount n="339" unit="words"/>
+                    <amount n="101" unit="lines"/>
+                    <amount n="1455" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Bartholo, Rosine.</head>
+                <sp who="#rosine">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="140" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="631" unit="chars"/>
+                </sp>
+                <sp who="#bartholo">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="189" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="859" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Le Comte, Figaro.</head>
+                <sp who="#l_comte">
+                    <amount n="32" unit="speech_acts"/>
+                    <amount n="455" unit="words"/>
+                    <amount n="123" unit="lines"/>
+                    <amount n="2005" unit="chars"/>
+                </sp>
+                <sp who="#figaro">
+                    <amount n="32" unit="speech_acts"/>
+                    <amount n="704" unit="words"/>
+                    <amount n="122" unit="lines"/>
+                    <amount n="3119" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Le Comte et Figaro cachés ; Bartholo.</head>
+                <sp who="#bartholo">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="71" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="317" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Le Comte, Figaro.</head>
+                <sp who="#l_comte">
+                    <amount n="22" unit="speech_acts"/>
+                    <amount n="354" unit="words"/>
+                    <amount n="85" unit="lines"/>
+                    <amount n="1554" unit="chars"/>
+                </sp>
+                <sp who="#figaro">
+                    <amount n="22" unit="speech_acts"/>
+                    <amount n="453" unit="words"/>
+                    <amount n="92" unit="lines"/>
+                    <amount n="1975" unit="chars"/>
+                </sp>
+                <sp who="#rosine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="74" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE I.</head>
+                <sp who="#rosine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="130" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="580" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Rosine, Figaro.</head>
+                <sp who="#rosine">
+                    <amount n="24" unit="speech_acts"/>
+                    <amount n="414" unit="words"/>
+                    <amount n="97" unit="lines"/>
+                    <amount n="1761" unit="chars"/>
+                </sp>
+                <sp who="#figaro">
+                    <amount n="24" unit="speech_acts"/>
+                    <amount n="475" unit="words"/>
+                    <amount n="100" unit="lines"/>
+                    <amount n="2116" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III.</head>
+                <sp who="#rosine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="180" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Bartholo, Rosine.</head>
+                <sp who="#bartholo">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="385" unit="words"/>
+                    <amount n="52" unit="lines"/>
+                    <amount n="1649" unit="chars"/>
+                </sp>
+                <sp who="#rosine">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="182" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="829" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V.</head>
+                <sp who="#bartholo">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="88" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Bartholo, L'Eveillé.</head>
+                <sp who="#_veil_">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="90" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="328" unit="chars"/>
+                </sp>
+                <sp who="#bartholo">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="66" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="295" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Les acteurs précédents ; La Jeunesse arrive en vieillard avec une canne en béquille ; il éternue plusieurs fois.</head>
+                <sp who="#_veil_">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="41" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="159" unit="chars"/>
+                </sp>
+                <sp who="#bartholo">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="176" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="773" unit="chars"/>
+                </sp>
+                <sp who="#l_jeunesse">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="103" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="391" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Bartholo, Don Bazile ; Figaro, caché dans le cabinet, paraît de temps en temps, et les écoute.</head>
+                <sp who="#bartholo">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="176" unit="words"/>
+                    <amount n="50" unit="lines"/>
+                    <amount n="815" unit="chars"/>
+                </sp>
+                <sp who="#bazile">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="445" unit="words"/>
+                    <amount n="52" unit="lines"/>
+                    <amount n="2077" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX.</head>
+                <sp who="#figaro">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="89" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="368" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Rosine, accourant ; Figaro.</head>
+                <sp who="#rosine">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="54" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="242" unit="chars"/>
+                </sp>
+                <sp who="#figaro">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="77" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="376" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Bartholo, Rosine.</head>
+                <sp who="#rosine">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="229" unit="words"/>
+                    <amount n="52" unit="lines"/>
+                    <amount n="1022" unit="chars"/>
+                </sp>
+                <sp who="#bartholo">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="387" unit="words"/>
+                    <amount n="58" unit="lines"/>
+                    <amount n="1696" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII. Le Comte, Bartholo, Rosine.</head>
+                <sp who="#bartholo">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="61" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="239" unit="chars"/>
+                </sp>
+                <sp who="#l_comte">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="200" unit="chars"/>
+                </sp>
+                <sp who="#rosine">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="98" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIII. Le Comte, Bartholo.</head>
+                <sp who="#l_comte">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="317" unit="words"/>
+                    <amount n="64" unit="lines"/>
+                    <amount n="1353" unit="chars"/>
+                </sp>
+                <sp who="#bartholo">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="131" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="653" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIV. Rosine, Le Comte, Bartholo.</head>
+                <sp who="#rosine">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="84" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="355" unit="chars"/>
+                </sp>
+                <sp who="#l_comte">
+                    <amount n="20" unit="speech_acts"/>
+                    <amount n="466" unit="words"/>
+                    <amount n="101" unit="lines"/>
+                    <amount n="2023" unit="chars"/>
+                </sp>
+                <sp who="#bartholo">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="227" unit="words"/>
+                    <amount n="58" unit="lines"/>
+                    <amount n="1009" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XV. Bartholo, Rosine.</head>
+                <sp who="#bartholo">
+                    <amount n="37" unit="speech_acts"/>
+                    <amount n="523" unit="words"/>
+                    <amount n="136" unit="lines"/>
+                    <amount n="2357" unit="chars"/>
+                </sp>
+                <sp who="#rosine">
+                    <amount n="35" unit="speech_acts"/>
+                    <amount n="486" unit="words"/>
+                    <amount n="125" unit="lines"/>
+                    <amount n="2230" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVI.</head>
+                <sp who="#rosine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="129" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="549" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III </head>
+            <div>
+                <head>SCÈNE I.</head>
+                <sp who="#bartholo">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="83" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="332" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Bartholo, Le Comte, en bachelier.</head>
+                <sp who="#l_comte">
+                    <amount n="23" unit="speech_acts"/>
+                    <amount n="529" unit="words"/>
+                    <amount n="104" unit="lines"/>
+                    <amount n="2191" unit="chars"/>
+                </sp>
+                <sp who="#bartholo">
+                    <amount n="23" unit="speech_acts"/>
+                    <amount n="535" unit="words"/>
+                    <amount n="109" unit="lines"/>
+                    <amount n="2235" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III.</head>
+                <sp who="#l_comte">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="123" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="478" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Le Comte, Rosine, Bartholo.</head>
+                <sp who="#rosine">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="674" unit="words"/>
+                    <amount n="137" unit="lines"/>
+                    <amount n="2721" unit="chars"/>
+                </sp>
+                <sp who="#bartholo">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="401" unit="words"/>
+                    <amount n="69" unit="lines"/>
+                    <amount n="1662" unit="chars"/>
+                </sp>
+                <sp who="#l_comte">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="125" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="536" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Figaro, dans le fond Rosine, Bartholo, Le Comte.</head>
+                <sp who="#bartholo">
+                    <amount n="22" unit="speech_acts"/>
+                    <amount n="518" unit="words"/>
+                    <amount n="97" unit="lines"/>
+                    <amount n="2282" unit="chars"/>
+                </sp>
+                <sp who="#figaro">
+                    <amount n="22" unit="speech_acts"/>
+                    <amount n="526" unit="words"/>
+                    <amount n="102" unit="lines"/>
+                    <amount n="2262" unit="chars"/>
+                </sp>
+                <sp who="#rosine">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="164" unit="chars"/>
+                </sp>
+                <sp who="#l_comte">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="46" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Figaro, Le Comte, Rosine.</head>
+                <sp who="#figaro">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="27" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="116" unit="chars"/>
+                </sp>
+                <sp who="#rosine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="35" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Bartholo, Figaro, Le Comte, Rosine.</head>
+                <sp who="#bartholo">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="37" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="137" unit="chars"/>
+                </sp>
+                <sp who="#figaro">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="99" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Bartholo, Le Comte, Rosine.</head>
+                <sp who="#bartholo">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="67" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="321" unit="chars"/>
+                </sp>
+                <sp who="#l_comte">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="132" unit="chars"/>
+                </sp>
+                <sp who="#rosine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="72" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Le Comte, Rosine.</head>
+                <sp who="#l_comte">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="312" unit="chars"/>
+                </sp>
+                <sp who="#rosine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="16" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Rosine, Bartholo, Figaro, Le Comte.</head>
+                <sp who="#bartholo">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="124" unit="chars"/>
+                </sp>
+                <sp who="#figaro">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="172" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Les acteurs précédents, Don Bazile.</head>
+                <sp who="#rosine">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="43" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="179" unit="chars"/>
+                </sp>
+                <sp who="#l_comte">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="140" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="668" unit="chars"/>
+                </sp>
+                <sp who="#figaro">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="88" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="397" unit="chars"/>
+                </sp>
+                <sp who="#bartholo">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="172" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="727" unit="chars"/>
+                </sp>
+                <sp who="#bazile">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="193" unit="words"/>
+                    <amount n="61" unit="lines"/>
+                    <amount n="713" unit="chars"/>
+                </sp>
+                <sp who="#tous">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="45" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII. Les acteurs précédents, excepté Bazile.</head>
+                <sp who="#bartholo">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="91" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="401" unit="chars"/>
+                </sp>
+                <sp who="#rosine">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="79" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="342" unit="chars"/>
+                </sp>
+                <sp who="#l_comte">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="147" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="667" unit="chars"/>
+                </sp>
+                <sp who="#figaro">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="66" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="254" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIII. Bartholo, Figaro, Le Comte.</head>
+                <sp who="#bartholo">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="115" unit="chars"/>
+                </sp>
+                <sp who="#l_comte">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="25" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="97" unit="chars"/>
+                </sp>
+                <sp who="#figaro">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="133" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIV.</head>
+                <sp who="#bartholo">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="125" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="473" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE I. Bartholo, Don Bazile, une lanterne de papier à la main.</head>
+                <sp who="#bartholo">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="256" unit="words"/>
+                    <amount n="61" unit="lines"/>
+                    <amount n="1106" unit="chars"/>
+                </sp>
+                <sp who="#bazile">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="339" unit="words"/>
+                    <amount n="59" unit="lines"/>
+                    <amount n="1478" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II.</head>
+                <sp who="#rosine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="75" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="286" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Rosine, Bartholo.</head>
+                <sp who="#bartholo">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="365" unit="words"/>
+                    <amount n="64" unit="lines"/>
+                    <amount n="1649" unit="chars"/>
+                </sp>
+                <sp who="#rosine">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="190" unit="words"/>
+                    <amount n="64" unit="lines"/>
+                    <amount n="757" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV.</head>
+                <sp who="#rosine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="114" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="418" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Le Comte, Figaro enveloppé d'un manteau, paraît à la fenêtre. </head>
+                <sp who="#figaro">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="149" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="679" unit="chars"/>
+                </sp>
+                <sp who="#l_comte">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="86" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="407" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Le Comte, Rosine, Figaro.</head>
+                <sp who="#l_comte">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="241" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="1027" unit="chars"/>
+                </sp>
+                <sp who="#rosine">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="387" unit="words"/>
+                    <amount n="66" unit="lines"/>
+                    <amount n="1582" unit="chars"/>
+                </sp>
+                <sp who="#figaro">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="74" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="341" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Le Notaire, Don Bazile, Les acteurs précédents.</head>
+                <sp who="#figaro">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="124" unit="chars"/>
+                </sp>
+                <sp who="#l_comte">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="82" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="398" unit="chars"/>
+                </sp>
+                <sp who="#bazile">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="99" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="346" unit="chars"/>
+                </sp>
+                <sp who="#l_notaire">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="70" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="350" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Bartholo, un Alcade, des Alguazils, des Valets avec des flambeaux, et les Acteurs précédents.</head>
+                <sp who="#bartholo">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="239" unit="words"/>
+                    <amount n="60" unit="lines"/>
+                    <amount n="1012" unit="chars"/>
+                </sp>
+                <sp who="#l_notaire">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="198" unit="chars"/>
+                </sp>
+                <sp who="#bazile">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="69" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="338" unit="chars"/>
+                </sp>
+                <sp who="#_alcade">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="61" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="312" unit="chars"/>
+                </sp>
+                <sp who="#figaro">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="121" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="554" unit="chars"/>
+                </sp>
+                <sp who="#l_comte">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="143" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="663" unit="chars"/>
+                </sp>
+                <sp who="#rosine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="120" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

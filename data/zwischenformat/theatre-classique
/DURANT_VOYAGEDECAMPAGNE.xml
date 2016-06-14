@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>PROVERBE de VOYAGE DE CAMPAGNE</title>
+        <subtitle>Par Madame la Comtesse de M***</subtitle>
+        <subtitle>avec les comédies en proverbe de Madame D***</subtitle>
+        <genretitle>Proverbe</genretitle>
+        <author>DURANT, Catherine</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/DURANT_VOYAGEDECAMPAGNE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>catos</name>
+            <alias xml:id="catos">
+                <name>catos</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>champagne</name>
+            <alias xml:id="champagne">
+                <name>champagne</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>madame_de_vieillardis</name>
+            <alias xml:id="madame_de_vieillardis">
+                <name>madame_de_vieillardis</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_chevalier</name>
+            <alias xml:id="le_chevalier">
+                <name>le_chevalier</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head/>
+            <div>
+                <head>PROVERBE.</head>
+                <sp who="#catos">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="411" unit="words"/>
+                    <amount n="47" unit="lines"/>
+                    <amount n="1939" unit="chars"/>
+                </sp>
+                <sp who="#champagne">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="229" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="1124" unit="chars"/>
+                </sp>
+                <sp who="#madame_de_vieillardis">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="437" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="2010" unit="chars"/>
+                </sp>
+                <sp who="#le_chevalier">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="275" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="1274" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

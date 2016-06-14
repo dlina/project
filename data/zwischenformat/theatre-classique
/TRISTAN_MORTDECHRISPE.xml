@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LA MORT DE CHRISPE</title>
+        <subtitle>OU LES MALHEURS DOMESTIQUES DU GRAND CONSTANTIN</subtitle>
+        <subtitle>TRAGÉDIE</subtitle>
+        <genretitle>Tragédie</genretitle>
+        <author>TRISTAN L'HERMITE, François </author>
+        <date when="1644">1644</date>
+        <source>https://github.com/dramacode/theatre-classique/TRISTAN_MORTDECHRISPE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>fauste</name>
+            <alias xml:id="fauste">
+                <name>fauste</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>cor_lie</name>
+            <alias xml:id="cor_lie">
+                <name>cor_lie</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>chrispe</name>
+            <alias xml:id="chrispe">
+                <name>chrispe</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>constance</name>
+            <alias xml:id="constance">
+                <name>constance</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>constantin</name>
+            <alias xml:id="constantin">
+                <name>constantin</name>
+            </alias>
+        </character>
+        <character>
+            <name>lactance</name>
+            <alias xml:id="lactance">
+                <name>lactance</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>une_des_filles</name>
+            <alias xml:id="une_des_filles">
+                <name>une_des_filles</name>
+            </alias>
+        </character>
+        <character>
+            <name>_once</name>
+            <alias xml:id="_once">
+                <name>_once</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>capitaine_des_gardes</name>
+            <alias xml:id="capitaine_des_gardes">
+                <name>capitaine_des_gardes</name>
+            </alias>
+        </character>
+        <character>
+            <name>probe</name>
+            <alias xml:id="probe">
+                <name>probe</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE PREMIÈRE.</head>
+                <sp who="#fauste">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="582" unit="words"/>
+                    <amount n="63" unit="lines"/>
+                    <amount n="2865" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Cornélie, Fauste.</head>
+                <sp who="#cor_lie">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="58" unit="chars"/>
+                </sp>
+                <sp who="#fauste">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="144" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="668" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Fauste, Chrispe.</head>
+                <sp who="#fauste">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="422" unit="words"/>
+                    <amount n="63" unit="lines"/>
+                    <amount n="2096" unit="chars"/>
+                </sp>
+                <sp who="#chrispe">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="1799" unit="words"/>
+                    <amount n="205" unit="lines"/>
+                    <amount n="8926" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE PREMIÈRE.</head>
+                <sp who="#fauste">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="625" unit="words"/>
+                    <amount n="79" unit="lines"/>
+                    <amount n="3029" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCENE II. Faust, Cornelie.</head>
+                <sp who="#cor_lie">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="172" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="881" unit="chars"/>
+                </sp>
+                <sp who="#fauste">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="181" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="912" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Chrispe, Constance.</head>
+                <sp who="#chrispe">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="383" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="1988" unit="chars"/>
+                </sp>
+                <sp who="#constance">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="122" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="617" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Constance, Chrispe, Cornélie.</head>
+                <sp who="#constance">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="70" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="335" unit="chars"/>
+                </sp>
+                <sp who="#chrispe">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="49" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Constance, Chrispe.</head>
+                <sp who="#constance">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="219" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="1074" unit="chars"/>
+                </sp>
+                <sp who="#chrispe">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="235" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="1209" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Constance, Constantin, Chrispe.</head>
+                <sp who="#constance">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="310" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1595" unit="chars"/>
+                </sp>
+                <sp who="#constantin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="275" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="1306" unit="chars"/>
+                </sp>
+                <sp who="#chrispe">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="44" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Constantin, Chrispe.</head>
+                <sp who="#constantin">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="281" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="1352" unit="chars"/>
+                </sp>
+                <sp who="#chrispe">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="391" unit="words"/>
+                    <amount n="45" unit="lines"/>
+                    <amount n="1965" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Constantin, Lactance.</head>
+                <sp who="#constantin">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="563" unit="words"/>
+                    <amount n="66" unit="lines"/>
+                    <amount n="2800" unit="chars"/>
+                </sp>
+                <sp who="#lactance">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="514" unit="words"/>
+                    <amount n="57" unit="lines"/>
+                    <amount n="2459" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Fauste, Constantin.</head>
+                <sp who="#fauste">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="370" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="1815" unit="chars"/>
+                </sp>
+                <sp who="#constantin">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="123" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="657" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Fauste, Cornélie.	</head>
+                <sp who="#fauste">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="276" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="1295" unit="chars"/>
+                </sp>
+                <sp who="#cor_lie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="51" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Fauste, Chrispe, Cornélie.</head>
+                <sp who="#fauste">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="352" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="1654" unit="chars"/>
+                </sp>
+                <sp who="#chrispe">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="41" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="182" unit="chars"/>
+                </sp>
+                <sp who="#cor_lie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="2" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="8" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Cornélie, Chrispe.</head>
+                <sp who="#cor_lie">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="206" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="1035" unit="chars"/>
+                </sp>
+                <sp who="#chrispe">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="461" unit="words"/>
+                    <amount n="55" unit="lines"/>
+                    <amount n="2227" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Cornélie, Fauste.</head>
+                <sp who="#cor_lie">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="45" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="225" unit="chars"/>
+                </sp>
+                <sp who="#fauste">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="267" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="1268" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Constantin, Fauste.</head>
+                <sp who="#constantin">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="246" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="1289" unit="chars"/>
+                </sp>
+                <sp who="#fauste">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="778" unit="words"/>
+                    <amount n="92" unit="lines"/>
+                    <amount n="3902" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Chrispe, Fauste.</head>
+                <sp who="#chrispe">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="193" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="972" unit="chars"/>
+                </sp>
+                <sp who="#fauste">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="214" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="1001" unit="chars"/>
+                </sp>
+                <sp who="#cor_lie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="144" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Constance, Fauste.</head>
+                <sp who="#constance">
+                    <amount n="21" unit="speech_acts"/>
+                    <amount n="337" unit="words"/>
+                    <amount n="59" unit="lines"/>
+                    <amount n="1673" unit="chars"/>
+                </sp>
+                <sp who="#fauste">
+                    <amount n="25" unit="speech_acts"/>
+                    <amount n="1538" unit="words"/>
+                    <amount n="185" unit="lines"/>
+                    <amount n="7471" unit="chars"/>
+                </sp>
+                <sp who="#cor_lie">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="25" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="102" unit="chars"/>
+                </sp>
+                <sp who="#une_des_filles">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="40" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV.</head>
+                <sp who="#cor_lie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="67" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="323" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Léonce, Cornelie.</head>
+                <sp who="#_once">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="90" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="453" unit="chars"/>
+                </sp>
+                <sp who="#cor_lie">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="408" unit="words"/>
+                    <amount n="45" unit="lines"/>
+                    <amount n="2028" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE PREMIÈRE.</head>
+                <sp who="#fauste">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="411" unit="words"/>
+                    <amount n="51" unit="lines"/>
+                    <amount n="2060" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Constantin, Fauste.</head>
+                <sp who="#constantin">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="230" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="1187" unit="chars"/>
+                </sp>
+                <sp who="#fauste">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="319" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="1567" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Constantin, Fauste, Lactance, Un capitaine des gardes.</head>
+                <sp who="#lactance">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="118" unit="chars"/>
+                </sp>
+                <sp who="#constantin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="86" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Fauste, Capitaine des gardes.</head>
+                <sp who="#fauste">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="517" unit="words"/>
+                    <amount n="59" unit="lines"/>
+                    <amount n="2485" unit="chars"/>
+                </sp>
+                <sp who="#capitaine_des_gardes">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="478" unit="words"/>
+                    <amount n="53" unit="lines"/>
+                    <amount n="2219" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Cornélie, Fauste.</head>
+                <sp who="#cor_lie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="170" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="779" unit="chars"/>
+                </sp>
+                <sp who="#fauste">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="48" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="221" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Constantin, Fauste, Probe.</head>
+                <sp who="#constantin">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="477" unit="words"/>
+                    <amount n="57" unit="lines"/>
+                    <amount n="2320" unit="chars"/>
+                </sp>
+                <sp who="#fauste">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="152" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Constantin, Probe.</head>
+                <sp who="#constantin">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="61" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="295" unit="chars"/>
+                </sp>
+                <sp who="#probe">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="224" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="1105" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

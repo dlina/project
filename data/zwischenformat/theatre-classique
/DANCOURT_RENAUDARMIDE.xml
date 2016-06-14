@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>RENAUD ET ARMIDE</title>
+        <subtitle>COMÉDIE</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>DANCOURT, Florent CARTON dit</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/DANCOURT_RENAUDARMIDE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>monsieur_grognac</name>
+            <alias xml:id="monsieur_grognac">
+                <name>monsieur_grognac</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>lisette</name>
+            <alias xml:id="lisette">
+                <name>lisette</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>mimi</name>
+            <alias xml:id="mimi">
+                <name>mimi</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>madame_jaquinet</name>
+            <alias xml:id="madame_jaquinet">
+                <name>madame_jaquinet</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>jasmin</name>
+            <alias xml:id="jasmin">
+                <name>jasmin</name>
+            </alias>
+        </character>
+        <character>
+            <name>an_lique</name>
+            <alias xml:id="an_lique">
+                <name>an_lique</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>lolive</name>
+            <alias xml:id="lolive">
+                <name>lolive</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>clitandre</name>
+            <alias xml:id="clitandre">
+                <name>clitandre</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>monsieur_filassier</name>
+            <alias xml:id="monsieur_filassier">
+                <name>monsieur_filassier</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>monsieur_grognac__monsieur_filassier</name>
+            <alias xml:id="monsieur_grognac__monsieur_filassier">
+                <name>monsieur_grognac__monsieur_filassier</name>
+            </alias>
+        </character>
+        <character>
+            <name>lolive__lisette</name>
+            <alias xml:id="lolive__lisette">
+                <name>lolive__lisette</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head/>
+            <div>
+                <head>SCÈNE I.</head>
+                <sp who="#monsieur_grognac">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="81" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="358" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE I.. Monsieur Grognac, Lisette. </head>
+                <sp who="#lisette">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="417" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="1950" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_grognac">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="166" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="755" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III.</head>
+                <sp who="#lisette">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="175" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="809" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Mimi, Lisette. </head>
+                <sp who="#mimi">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="554" unit="words"/>
+                    <amount n="58" unit="lines"/>
+                    <amount n="2373" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="232" unit="words"/>
+                    <amount n="50" unit="lines"/>
+                    <amount n="1064" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Madame Jaquinet, Lisette, Mimi, Jasmin. </head>
+                <sp who="#madame_jaquinet">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="87" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="412" unit="chars"/>
+                </sp>
+                <sp who="#jasmin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="2" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="10" unit="chars"/>
+                </sp>
+                <sp who="#mimi">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="43" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="184" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Madame Jaquinet, Lisette. </head>
+                <sp who="#lisette">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="106" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="475" unit="chars"/>
+                </sp>
+                <sp who="#madame_jaquinet">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="349" unit="words"/>
+                    <amount n="47" unit="lines"/>
+                    <amount n="1533" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Monsieur Grognac, Madame Jaquinet, Lisette. </head>
+                <sp who="#monsieur_grognac">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="129" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="612" unit="chars"/>
+                </sp>
+                <sp who="#madame_jaquinet">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="67" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="74" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Madame Jaquinet, Lisette. </head>
+                <sp who="#madame_jaquinet">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="176" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="100" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Madame Jaquinet, Angélique, Lisette. </head>
+                <sp who="#an_lique">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="90" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="416" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="352" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="1585" unit="chars"/>
+                </sp>
+                <sp who="#madame_jaquinet">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="400" unit="words"/>
+                    <amount n="54" unit="lines"/>
+                    <amount n="1860" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Angélique, Lisette.</head>
+                <sp who="#an_lique">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="211" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="1037" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="321" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="1522" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Angélique, Lisette, Lolive. </head>
+                <sp who="#lolive">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="49" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="228" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="104" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="74" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII. Angélique, Clitandre, Lisette, Lolive. </head>
+                <sp who="#clitandre">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="87" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="394" unit="chars"/>
+                </sp>
+                <sp who="#lolive">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="186" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="825" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="198" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="869" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="67" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="322" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIII. Angélique, Clitandre, Mimi, Lisette, Lolive. </head>
+                <sp who="#mimi">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="163" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="698" unit="chars"/>
+                </sp>
+                <sp who="#clitandre">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="54" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="208" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="27" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="107" unit="chars"/>
+                </sp>
+                <sp who="#lolive">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="73" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIV. Angélique, Clitandre, Lisette, Lolive. </head>
+                <sp who="#an_lique">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="77" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="364" unit="chars"/>
+                </sp>
+                <sp who="#clitandre">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="89" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="398" unit="chars"/>
+                </sp>
+                <sp who="#lolive">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="491" unit="words"/>
+                    <amount n="48" unit="lines"/>
+                    <amount n="2358" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="133" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="604" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XV. Lisette, Lolive. </head>
+                <sp who="#lisette">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="194" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="875" unit="chars"/>
+                </sp>
+                <sp who="#lolive">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="171" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="789" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVI. Monsieur Filassier, Monsieur Grognac, Lisette, Lolive. </head>
+                <sp who="#monsieur_filassier">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="237" unit="words"/>
+                    <amount n="59" unit="lines"/>
+                    <amount n="1023" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="152" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="731" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_grognac">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="121" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="507" unit="chars"/>
+                </sp>
+                <sp who="#lolive">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="278" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="1251" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_grognac__monsieur_filassier">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="117" unit="chars"/>
+                </sp>
+                <sp who="#lolive__lisette">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="180" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVII. Monsieur Filassier, Monsieur Grognac,</head>
+                <sp who="#lolive">
+                    <amount n="25" unit="speech_acts"/>
+                    <amount n="832" unit="words"/>
+                    <amount n="105" unit="lines"/>
+                    <amount n="3716" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_filassier">
+                    <amount n="23" unit="speech_acts"/>
+                    <amount n="197" unit="words"/>
+                    <amount n="79" unit="lines"/>
+                    <amount n="944" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_grognac">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="108" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="528" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVIII. Monsieur Grognac, Monsieur Filassier, Lolive, Lisette. </head>
+                <sp who="#lisette">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="46" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="218" unit="chars"/>
+                </sp>
+                <sp who="#lolive">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="75" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_grognac">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="47" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIX. Monsieur Filassier, Lolive, Lisette. </head>
+                <sp who="#lisette">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="114" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="606" unit="chars"/>
+                </sp>
+                <sp who="#lolive">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="89" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="386" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_filassier">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="149" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XX. Monsieur Grognac, M. Filassier, Me. Jaquinet, Clitandre, Lisette, Lolive.</head>
+                <sp who="#monsieur_grognac">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="59" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="243" unit="chars"/>
+                </sp>
+                <sp who="#madame_jaquinet">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="149" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="660" unit="chars"/>
+                </sp>
+                <sp who="#lolive">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="88" unit="chars"/>
+                </sp>
+                <sp who="#clitandre">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="210" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_filassier">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="36" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXI. Monsieur Grognac, Monsieur Filassier, Clitandre, Lolive, Lisette.</head>
+                <sp who="#lisette">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="60" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="269" unit="chars"/>
+                </sp>
+                <sp who="#lolive">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="113" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="533" unit="chars"/>
+                </sp>
+                <sp who="#clitandre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="52" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_grognac__monsieur_filassier">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="33" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_filassier">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="138" unit="chars"/>
+                </sp>
+                <sp who="#lolive__lisette">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="50" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="215" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXII. M. Filassier, Monsieur Grognac, Angélique, Clitandre, Lisette, Lolive.</head>
+                <sp who="#an_lique">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="103" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_grognac">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="68" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="281" unit="chars"/>
+                </sp>
+                <sp who="#lolive">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="137" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="644" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_filassier">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="79" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="390" unit="chars"/>
+                </sp>
+                <sp who="#clitandre">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="148" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="84" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXIII. Madame Jaquinet, Lolive, Lisette. </head>
+                <sp who="#madame_jaquinet">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="164" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="672" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="89" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="382" unit="chars"/>
+                </sp>
+                <sp who="#lolive">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="57" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="242" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

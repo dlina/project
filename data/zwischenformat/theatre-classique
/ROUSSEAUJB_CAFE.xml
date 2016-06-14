@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LE CAFÉ</title>
+        <subtitle>COMÉDIE EN UN ACTE</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>ROUSSEAU, Jean Baptiste</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/ROUSSEAUJB_CAFE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>l_sourd_re</name>
+            <alias xml:id="l_sourd_re">
+                <name>l_sourd_re</name>
+            </alias>
+        </character>
+        <character>
+            <name>coronis</name>
+            <alias xml:id="coronis">
+                <name>coronis</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>carondas</name>
+            <alias xml:id="carondas">
+                <name>carondas</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_premie_joueur</name>
+            <alias xml:id="l_premie_joueur">
+                <name>l_premie_joueur</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_secon_joueur</name>
+            <alias xml:id="l_secon_joueur">
+                <name>l_secon_joueur</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_chevalier</name>
+            <alias xml:id="l_chevalier">
+                <name>l_chevalier</name>
+            </alias>
+        </character>
+        <character>
+            <name>_ab_</name>
+            <alias xml:id="_ab_">
+                <name>_ab_</name>
+            </alias>
+        </character>
+        <character>
+            <name>dorante</name>
+            <alias xml:id="dorante">
+                <name>dorante</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_f_che</name>
+            <alias xml:id="l_f_che">
+                <name>l_f_che</name>
+            </alias>
+        </character>
+        <character>
+            <name>jobelin</name>
+            <alias xml:id="jobelin">
+                <name>jobelin</name>
+            </alias>
+        </character>
+        <character>
+            <name>louison</name>
+            <alias xml:id="louison">
+                <name>louison</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>madam___me</name>
+            <alias xml:id="madam___me">
+                <name>madam___me</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_chevalier_coronis</name>
+            <alias xml:id="l_chevalier_coronis">
+                <name>l_chevalier_coronis</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head/>
+            <div>
+                <head>SCÈNE PREMIÈRE. La Sourdière, Coronis, Carondas, L'Abbé, Deux Joueurs.</head>
+                <sp who="#l_sourd_re">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="211" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1003" unit="chars"/>
+                </sp>
+                <sp who="#coronis">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="105" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="482" unit="chars"/>
+                </sp>
+                <sp who="#carondas">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="306" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="1573" unit="chars"/>
+                </sp>
+                <sp who="#l_premie_joueur">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="37" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="146" unit="chars"/>
+                </sp>
+                <sp who="#l_secon_joueur">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="123" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Le Chevalier, Coronis, La Sourdière, L'Abbé, Carondas, Les Joueurs.</head>
+                <sp who="#l_chevalier">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="128" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="533" unit="chars"/>
+                </sp>
+                <sp who="#carondas">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="102" unit="chars"/>
+                </sp>
+                <sp who="#_ab_">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="35" unit="chars"/>
+                </sp>
+                <sp who="#l_premie_joueur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="138" unit="chars"/>
+                </sp>
+                <sp who="#l_secon_joueur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="15" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. L'Abbé, Le Chavalier, Coronis, La Sourdière.</head>
+                <sp who="#_ab_">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="189" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="871" unit="chars"/>
+                </sp>
+                <sp who="#l_sourd_re">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="120" unit="chars"/>
+                </sp>
+                <sp who="#coronis">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="146" unit="chars"/>
+                </sp>
+                <sp who="#l_chevalier">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="42" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Coronis, Le Chavalier, Dorante.</head>
+                <sp who="#l_chevalier">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="79" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="320" unit="chars"/>
+                </sp>
+                <sp who="#coronis">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="133" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="621" unit="chars"/>
+                </sp>
+                <sp who="#dorante">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="269" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="1263" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. La Flèche, Dorante, Le Chevalier, Coronis.</head>
+                <sp who="#l_f_che">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="540" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="2653" unit="chars"/>
+                </sp>
+                <sp who="#dorante">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="60" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="262" unit="chars"/>
+                </sp>
+                <sp who="#l_chevalier">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="32" unit="chars"/>
+                </sp>
+                <sp who="#coronis">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="245" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Monsieur Jobelin, Le Chavalier, Coronis, Dorante.</head>
+                <sp who="#jobelin">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="66" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="308" unit="chars"/>
+                </sp>
+                <sp who="#l_chevalier">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="339" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="1577" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Louison, Dorante, Le Chavalier, Coronis, Jobelin.</head>
+                <sp who="#jobelin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="59" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="251" unit="chars"/>
+                </sp>
+                <sp who="#louison">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="24" unit="chars"/>
+                </sp>
+                <sp who="#dorante">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="110" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Dorante, Louison.</head>
+                <sp who="#dorante">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="168" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="775" unit="chars"/>
+                </sp>
+                <sp who="#louison">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="200" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="907" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Madame Jérôme, Louison.</head>
+                <sp who="#madam___me">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="346" unit="words"/>
+                    <amount n="45" unit="lines"/>
+                    <amount n="1593" unit="chars"/>
+                </sp>
+                <sp who="#louison">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="182" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="760" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Monsieur Jobelin, Madame Jérôme, Louison.</head>
+                <sp who="#madam___me">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="125" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="566" unit="chars"/>
+                </sp>
+                <sp who="#louison">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="46" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="198" unit="chars"/>
+                </sp>
+                <sp who="#jobelin">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="202" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="1040" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. La Sourdière, Jobelin.</head>
+                <sp who="#l_sourd_re">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="88" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="372" unit="chars"/>
+                </sp>
+                <sp who="#jobelin">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="106" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="464" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII. Jobelin, La Sourdière, La Flèche déguisé et contrefaisant l'ivre.</head>
+                <sp who="#l_f_che">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="706" unit="words"/>
+                    <amount n="86" unit="lines"/>
+                    <amount n="3214" unit="chars"/>
+                </sp>
+                <sp who="#jobelin">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="264" unit="words"/>
+                    <amount n="51" unit="lines"/>
+                    <amount n="1248" unit="chars"/>
+                </sp>
+                <sp who="#l_sourd_re">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="50" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="219" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIII. Le Chevalier, Coronis, La Sourdière.</head>
+                <sp who="#l_chevalier_coronis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="25" unit="chars"/>
+                </sp>
+                <sp who="#l_chevalier">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="389" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="1767" unit="chars"/>
+                </sp>
+                <sp who="#l_sourd_re">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="86" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="389" unit="chars"/>
+                </sp>
+                <sp who="#coronis">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="319" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="1494" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIV. Madame Jérome, Le Chevalier, Coronis, La Sourdière.</head>
+                <sp who="#madam___me">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="202" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="955" unit="chars"/>
+                </sp>
+                <sp who="#l_sourd_re">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="104" unit="chars"/>
+                </sp>
+                <sp who="#l_chevalier">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="231" unit="chars"/>
+                </sp>
+                <sp who="#coronis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="99" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XV. Jobelin, La Flèche, Mme Jérôme, Coronis, Le Chevalier, La Sourdière.</head>
+                <sp who="#coronis">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="67" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="312" unit="chars"/>
+                </sp>
+                <sp who="#l_f_che">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="144" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="643" unit="chars"/>
+                </sp>
+                <sp who="#jobelin">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="173" unit="chars"/>
+                </sp>
+                <sp who="#l_chevalier">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="47" unit="chars"/>
+                </sp>
+                <sp who="#l_sourd_re">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="40" unit="chars"/>
+                </sp>
+                <sp who="#madam___me">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="102" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVI. Dorante, L'Abbé, M~ Jérôme, Jobelin, La Flèche.</head>
+                <sp who="#dorante">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="25" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="108" unit="chars"/>
+                </sp>
+                <sp who="#l_f_che">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="181" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVII. Dorante, Jobelin, L'Abbé, Madame Jérôme.</head>
+                <sp who="#dorante">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="84" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="381" unit="chars"/>
+                </sp>
+                <sp who="#jobelin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="49" unit="chars"/>
+                </sp>
+                <sp who="#_ab_">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="144" unit="chars"/>
+                </sp>
+                <sp who="#madam___me">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="92" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVIII.  Dorante, L'Abbé, Madame Jérôme, Jobelin, La Flèche, en commissaire avec un faux nez.</head>
+                <sp who="#dorante">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="104" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="484" unit="chars"/>
+                </sp>
+                <sp who="#l_f_che">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="53" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="267" unit="chars"/>
+                </sp>
+                <sp who="#madam___me">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="73" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="368" unit="chars"/>
+                </sp>
+                <sp who="#jobelin">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="48" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="224" unit="chars"/>
+                </sp>
+                <sp who="#_ab_">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="149" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="685" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

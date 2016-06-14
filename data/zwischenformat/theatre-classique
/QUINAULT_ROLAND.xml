@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>ROLAND</title>
+        <subtitle>Tragédie en musique</subtitle>
+        <subtitle>Représentée devant S. M., à Versailles, le huitième janvier 1685</subtitle>
+        <genretitle>Opéra</genretitle>
+        <author>QUINAULT, Philippe</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/QUINAULT_ROLAND.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>_mogorgon</name>
+            <alias xml:id="_mogorgon">
+                <name>_mogorgon</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_choeur_des__es</name>
+            <alias xml:id="le_choeur_des__es">
+                <name>le_choeur_des__es</name>
+            </alias>
+        </character>
+        <character>
+            <name>la_principale__e</name>
+            <alias xml:id="la_principale__e">
+                <name>la_principale__e</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>_mogorgon__la_principale__e</name>
+            <alias xml:id="_mogorgon__la_principale__e">
+                <name>_mogorgon__la_principale__e</name>
+            </alias>
+        </character>
+        <character>
+            <name>_mogorgon__la_principale__e__les_choeurs</name>
+            <alias xml:id="_mogorgon__la_principale__e__les_choeurs">
+                <name>_mogorgon__la_principale__e__les_choeurs</name>
+            </alias>
+        </character>
+        <character>
+            <name>une__e</name>
+            <alias xml:id="une__e">
+                <name>une__e</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>an_lique</name>
+            <alias xml:id="an_lique">
+                <name>an_lique</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>temire</name>
+            <alias xml:id="temire">
+                <name>temire</name>
+            </alias>
+        </character>
+        <character>
+            <name>_dor</name>
+            <alias xml:id="_dor">
+                <name>_dor</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>temire__an_lique</name>
+            <alias xml:id="temire__an_lique">
+                <name>temire__an_lique</name>
+            </alias>
+        </character>
+        <character>
+            <name>ziliante</name>
+            <alias xml:id="ziliante">
+                <name>ziliante</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_choeur_des_insulaires</name>
+            <alias xml:id="le_choeur_des_insulaires">
+                <name>le_choeur_des_insulaires</name>
+            </alias>
+        </character>
+        <character>
+            <name>deux_insulaires</name>
+            <alias xml:id="deux_insulaires">
+                <name>deux_insulaires</name>
+            </alias>
+        </character>
+        <character>
+            <name>temire__suivants</name>
+            <alias xml:id="temire__suivants">
+                <name>temire__suivants</name>
+            </alias>
+        </character>
+        <character>
+            <name>roland</name>
+            <alias xml:id="roland">
+                <name>roland</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>choeur_des_amours</name>
+            <alias xml:id="choeur_des_amours">
+                <name>choeur_des_amours</name>
+            </alias>
+        </character>
+        <character>
+            <name>an_lique___dor__et_les_choeurs</name>
+            <alias xml:id="an_lique___dor__et_les_choeurs">
+                <name>an_lique___dor__et_les_choeurs</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_petit_choeur</name>
+            <alias xml:id="le_petit_choeur">
+                <name>le_petit_choeur</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_grand_choeur</name>
+            <alias xml:id="le_grand_choeur">
+                <name>le_grand_choeur</name>
+            </alias>
+        </character>
+        <character>
+            <name>_dor__an_lique</name>
+            <alias xml:id="_dor__an_lique">
+                <name>_dor__an_lique</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_choeur_de_catay</name>
+            <alias xml:id="le_choeur_de_catay">
+                <name>le_choeur_de_catay</name>
+            </alias>
+        </character>
+        <character>
+            <name>une_des_suivantes_d_an_lique</name>
+            <alias xml:id="une_des_suivantes_d_an_lique">
+                <name>une_des_suivantes_d_an_lique</name>
+            </alias>
+        </character>
+        <character>
+            <name>un_des_sujets_d_an_lique</name>
+            <alias xml:id="un_des_sujets_d_an_lique">
+                <name>un_des_sujets_d_an_lique</name>
+            </alias>
+        </character>
+        <character>
+            <name>astolfe</name>
+            <alias xml:id="astolfe">
+                <name>astolfe</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_choeur</name>
+            <alias xml:id="le_choeur">
+                <name>le_choeur</name>
+            </alias>
+        </character>
+        <character>
+            <name>coridon</name>
+            <alias xml:id="coridon">
+                <name>coridon</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>_lise</name>
+            <alias xml:id="_lise">
+                <name>_lise</name>
+            </alias>
+        </character>
+        <character>
+            <name>coridon___lise</name>
+            <alias xml:id="coridon___lise">
+                <name>coridon___lise</name>
+            </alias>
+        </character>
+        <character>
+            <name>tersandre</name>
+            <alias xml:id="tersandre">
+                <name>tersandre</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>coridon___lise__le_choeur</name>
+            <alias xml:id="coridon___lise__le_choeur">
+                <name>coridon___lise__le_choeur</name>
+            </alias>
+        </character>
+        <character>
+            <name>tersandre__coridon__an_liquee__le_choeur</name>
+            <alias xml:id="tersandre__coridon__an_liquee__le_choeur">
+                <name>tersandre__coridon__an_liquee__le_choeur</name>
+            </alias>
+        </character>
+        <character>
+            <name>logistille</name>
+            <alias xml:id="logistille">
+                <name>logistille</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>logistille__le_choeur_des__es</name>
+            <alias xml:id="logistille__le_choeur_des__es">
+                <name>logistille__le_choeur_des__es</name>
+            </alias>
+        </character>
+        <character>
+            <name>logistille__le_choeur_des_ombres_des__ros</name>
+            <alias xml:id="logistille__le_choeur_des_ombres_des__ros">
+                <name>logistille__le_choeur_des_ombres_des__ros</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_choeur_des_ombres_et_des__ros</name>
+            <alias xml:id="le_choeur_des_ombres_et_des__ros">
+                <name>le_choeur_des_ombres_et_des__ros</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_choeur_des__es__le_choeur_des_ombres_et_des__ros</name>
+            <alias xml:id="le_choeur_des__es__le_choeur_des_ombres_et_des__ros">
+                <name>le_choeur_des__es__le_choeur_des_ombres_et_des__ros</name>
+            </alias>
+        </character>
+        <character>
+            <name>la_gloire</name>
+            <alias xml:id="la_gloire">
+                <name>la_gloire</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>logistille_et_les_choeurs</name>
+            <alias xml:id="logistille_et_les_choeurs">
+                <name>logistille_et_les_choeurs</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>PROLOGUE</head>
+            <div>
+                <head/>
+                <sp who="#_mogorgon">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="180" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="898" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur_des__es">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="91" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="449" unit="chars"/>
+                </sp>
+                <sp who="#la_principale__e">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="162" unit="chars"/>
+                </sp>
+                <sp who="#_mogorgon__la_principale__e">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="135" unit="chars"/>
+                </sp>
+                <sp who="#_mogorgon__la_principale__e__les_choeurs">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="256" unit="chars"/>
+                </sp>
+                <sp who="#une__e">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="54" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="240" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE I.</head>
+                <sp who="#an_lique">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="72" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="362" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Angélique, Temire.</head>
+                <sp who="#temire">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="163" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="844" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="253" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="1128" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III.</head>
+                <sp who="#_dor">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="105" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="524" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCENE IV. Médor, Angélique, Temire.</head>
+                <sp who="#_dor">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="241" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1114" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="252" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="1161" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Angélique, Temire.</head>
+                <sp who="#an_lique">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="252" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="1158" unit="chars"/>
+                </sp>
+                <sp who="#temire">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="196" unit="chars"/>
+                </sp>
+                <sp who="#temire__an_lique">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="4" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="24" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Ziliante. Troupe d'insulaires orientaux.</head>
+                <sp who="#ziliante">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="110" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="568" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur_des_insulaires">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="204" unit="chars"/>
+                </sp>
+                <sp who="#deux_insulaires">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="103" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="554" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE I. Angélique, Temire, suite d'Angélique.</head>
+                <sp who="#temire">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="75" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="378" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="233" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1091" unit="chars"/>
+                </sp>
+                <sp who="#temire__suivants">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="62" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="288" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Roland, Angélique devenue invisible, Temire, Suite d'Angélique.</head>
+                <sp who="#roland">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="375" unit="words"/>
+                    <amount n="52" unit="lines"/>
+                    <amount n="1832" unit="chars"/>
+                </sp>
+                <sp who="#temire">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="157" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Angelique, Temire.</head>
+                <sp who="#temire">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="136" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="104" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="485" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Médor, Angélique, Temire.</head>
+                <sp who="#_dor">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="258" unit="words"/>
+                    <amount n="47" unit="lines"/>
+                    <amount n="1257" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="201" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="933" unit="chars"/>
+                </sp>
+                <sp who="#temire">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="23" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. L'Amour, troupe d'Amours, troupe de Sirènes, troupe de Dieux des eaux, troupe de Nymphes et de Sylvains, troupe d'Amants enchantés, et d'Amantes enchantées.</head>
+                <sp who="#choeur_des_amours">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="186" unit="chars"/>
+                </sp>
+                <sp who="#an_lique___dor__et_les_choeurs">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="97" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="473" unit="chars"/>
+                </sp>
+                <sp who="#le_petit_choeur">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="270" unit="chars"/>
+                </sp>
+                <sp who="#le_grand_choeur">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="57" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="303" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I. Médor, Temire.</head>
+                <sp who="#_dor">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="215" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="1022" unit="chars"/>
+                </sp>
+                <sp who="#temire">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="102" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="493" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Roland, Angélique.</head>
+                <sp who="#roland">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="362" unit="words"/>
+                    <amount n="54" unit="lines"/>
+                    <amount n="1766" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="182" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="952" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Angélique, Médor, Temire.</head>
+                <sp who="#_dor">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="53" unit="chars"/>
+                </sp>
+                <sp who="#temire">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="51" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="78" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Angélique, Médor.</head>
+                <sp who="#_dor">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="108" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="500" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="219" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="1071" unit="chars"/>
+                </sp>
+                <sp who="#_dor__an_lique">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="41" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="197" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Troupe de peuples de Catay, sujets d'Angélique, Angélique, Médor.</head>
+                <sp who="#an_lique">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="136" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Les peuples de Catay, sujets d'Angélique, rendent hommage à Médor.</head>
+                <sp who="#le_choeur_de_catay">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="310" unit="words"/>
+                    <amount n="51" unit="lines"/>
+                    <amount n="1576" unit="chars"/>
+                </sp>
+                <sp who="#une_des_suivantes_d_an_lique">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="80" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="429" unit="chars"/>
+                </sp>
+                <sp who="#un_des_sujets_d_an_lique">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="48" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="254" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE I. Roland, Astolfe.</head>
+                <sp who="#roland">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="307" unit="words"/>
+                    <amount n="45" unit="lines"/>
+                    <amount n="1475" unit="chars"/>
+                </sp>
+                <sp who="#astolfe">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="94" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="483" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II.</head>
+                <sp who="#roland">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="517" unit="words"/>
+                    <amount n="72" unit="lines"/>
+                    <amount n="2550" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Coridon, Bélise, Troupe de bergers et de bergères.</head>
+                <sp who="#le_choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="159" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="844" unit="chars"/>
+                </sp>
+                <sp who="#coridon">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="116" unit="chars"/>
+                </sp>
+                <sp who="#_lise">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="120" unit="chars"/>
+                </sp>
+                <sp who="#coridon___lise">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="50" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Roland, Coridon, Bélise, troupe de bergers et de bergères.</head>
+                <sp who="#coridon">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="152" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="783" unit="chars"/>
+                </sp>
+                <sp who="#_lise">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="181" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="870" unit="chars"/>
+                </sp>
+                <sp who="#roland">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="160" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Tersandre. Roland, Coridon, Belise, le Choeur.</head>
+                <sp who="#tersandre">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="284" unit="words"/>
+                    <amount n="56" unit="lines"/>
+                    <amount n="1498" unit="chars"/>
+                </sp>
+                <sp who="#coridon___lise__le_choeur">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="131" unit="chars"/>
+                </sp>
+                <sp who="#roland">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="121" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="614" unit="chars"/>
+                </sp>
+                <sp who="#coridon___lise">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="3" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="9" unit="chars"/>
+                </sp>
+                <sp who="#coridon">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="114" unit="chars"/>
+                </sp>
+                <sp who="#_lise">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="249" unit="chars"/>
+                </sp>
+                <sp who="#tersandre__coridon__an_liquee__le_choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="26" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII.</head>
+                <sp who="#roland">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="153" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="790" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE I. Astolfe, Logistille.</head>
+                <sp who="#astolfe">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="107" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="560" unit="chars"/>
+                </sp>
+                <sp who="#logistille">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="120" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="629" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Logistille, Roland endormi, Troupe de feés.</head>
+                <sp who="#logistille">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="113" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="615" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur_des__es">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="60" unit="chars"/>
+                </sp>
+                <sp who="#logistille__le_choeur_des__es">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="60" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Logistille, Troupe de Feés, Troupe d'Ombres de Héros.</head>
+                <sp who="#logistille">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="50" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="237" unit="chars"/>
+                </sp>
+                <sp who="#logistille__le_choeur_des_ombres_des__ros">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="55" unit="chars"/>
+                </sp>
+                <sp who="#roland">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="109" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="542" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur_des_ombres_et_des__ros">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="60" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur_des__es__le_choeur_des_ombres_et_des__ros">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="53" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. La Gloire, la Renommée, la Terreur, suite de la Gloire, Roland, Logistille, troupe de Feés, Troupe d'Ombres de Héros.</head>
+                <sp who="#la_gloire">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="228" unit="chars"/>
+                </sp>
+                <sp who="#logistille_et_les_choeurs">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="113" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

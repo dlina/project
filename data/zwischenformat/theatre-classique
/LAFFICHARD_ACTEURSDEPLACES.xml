@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LES ACTEURS DÉPLACÉS L'AMANT COMEDIEN</title>
+        <subtitle>COMÉDIE EN UN ACTE Avec un Prologue et un Divertissement.</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>L'AFFICHARD, Thomas</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/LAFFICHARD_ACTEURSDEPLACES.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>monsieur_de_mon_meny</name>
+            <alias xml:id="monsieur_de_mon_meny">
+                <name>monsieur_de_mon_meny</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_ville</name>
+            <alias xml:id="l_ville">
+                <name>l_ville</name>
+            </alias>
+        </character>
+        <character>
+            <name>la_folie</name>
+            <alias xml:id="la_folie">
+                <name>la_folie</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>monsieur_poisson</name>
+            <alias xml:id="monsieur_poisson">
+                <name>monsieur_poisson</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>madame_dangeville</name>
+            <alias xml:id="madame_dangeville">
+                <name>madame_dangeville</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>monsieu_d_l_thorill_re</name>
+            <alias xml:id="monsieu_d_l_thorill_re">
+                <name>monsieu_d_l_thorill_re</name>
+            </alias>
+        </character>
+        <character>
+            <name>mademoiselle_grandval</name>
+            <alias xml:id="mademoiselle_grandval">
+                <name>mademoiselle_grandval</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>monsieur_fierville</name>
+            <alias xml:id="monsieur_fierville">
+                <name>monsieur_fierville</name>
+            </alias>
+        </character>
+        <character>
+            <name>monsieur_fleury</name>
+            <alias xml:id="monsieur_fleury">
+                <name>monsieur_fleury</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_petit_ga_on</name>
+            <alias xml:id="le_petit_ga_on">
+                <name>le_petit_ga_on</name>
+            </alias>
+        </character>
+        <character>
+            <name>la_petite_fille</name>
+            <alias xml:id="la_petite_fille">
+                <name>la_petite_fille</name>
+            </alias>
+        </character>
+        <character>
+            <name>lucas</name>
+            <alias xml:id="lucas">
+                <name>lucas</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>lisette</name>
+            <alias xml:id="lisette">
+                <name>lisette</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>dorante</name>
+            <alias xml:id="dorante">
+                <name>dorante</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>monsieur_mondor</name>
+            <alias xml:id="monsieur_mondor">
+                <name>monsieur_mondor</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>madame_mondor</name>
+            <alias xml:id="madame_mondor">
+                <name>madame_mondor</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>lucile</name>
+            <alias xml:id="lucile">
+                <name>lucile</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_marquis</name>
+            <alias xml:id="le_marquis">
+                <name>le_marquis</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_lu</name>
+            <alias xml:id="l_lu">
+                <name>l_lu</name>
+            </alias>
+        </character>
+        <character>
+            <name>doris</name>
+            <alias xml:id="doris">
+                <name>doris</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>__las</name>
+            <alias xml:id="__las">
+                <name>__las</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>_da</name>
+            <alias xml:id="_da">
+                <name>_da</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>un_autre</name>
+            <alias xml:id="un_autre">
+                <name>un_autre</name>
+            </alias>
+        </character>
+        <character>
+            <name>mademoiselle_dangeville</name>
+            <alias xml:id="mademoiselle_dangeville">
+                <name>mademoiselle_dangeville</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>PROLOGUE</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. La Ville de Paris, Monsieur de Mont-Meny.</head>
+                <sp who="#monsieur_de_mon_meny">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="101" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="504" unit="chars"/>
+                </sp>
+                <sp who="#l_ville">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="103" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="489" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. La Folie, La Ville, Monsieur de Mont-Meny.</head>
+                <sp who="#la_folie">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="92" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="417" unit="chars"/>
+                </sp>
+                <sp who="#l_ville">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="112" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. La Folie, La Ville.</head>
+                <sp who="#la_folie">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="305" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="1474" unit="chars"/>
+                </sp>
+                <sp who="#l_ville">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="115" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="539" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Les Comédiens, La Folie.</head>
+                <sp who="#monsieur_de_mon_meny">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="78" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="402" unit="chars"/>
+                </sp>
+                <sp who="#la_folie">
+                    <amount n="21" unit="speech_acts"/>
+                    <amount n="592" unit="words"/>
+                    <amount n="83" unit="lines"/>
+                    <amount n="2827" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_poisson">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="67" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="314" unit="chars"/>
+                </sp>
+                <sp who="#madame_dangeville">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="60" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="292" unit="chars"/>
+                </sp>
+                <sp who="#monsieu_d_l_thorill_re">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="62" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="295" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_grandval">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="147" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="715" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_fierville">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="119" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="570" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_fleury">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="49" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="237" unit="chars"/>
+                </sp>
+                <sp who="#le_petit_ga_on">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="76" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="342" unit="chars"/>
+                </sp>
+                <sp who="#la_petite_fille">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="80" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="393" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>COMÉDIE</head>
+            <div>
+                <head>SCENE PREMIÈRE. Lisette, Lucas.</head>
+                <sp who="#lucas">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="596" unit="words"/>
+                    <amount n="58" unit="lines"/>
+                    <amount n="2811" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="135" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="602" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Dorante, Lisette, Lucas.</head>
+                <sp who="#lucas">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="132" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="622" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="105" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="524" unit="chars"/>
+                </sp>
+                <sp who="#dorante">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="217" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1015" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Monsieur Mondor, Madame Mondor, Lisette écoutant.</head>
+                <sp who="#monsieur_mondor">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="232" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="1093" unit="chars"/>
+                </sp>
+                <sp who="#madame_mondor">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="222" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="1024" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="146" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="676" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV.</head>
+                <sp who="#lisette">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="67" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="310" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Lucile, Lucas, Lisette.</head>
+                <sp who="#lucas">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="332" unit="words"/>
+                    <amount n="55" unit="lines"/>
+                    <amount n="1543" unit="chars"/>
+                </sp>
+                <sp who="#lucile">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="244" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="1124" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="187" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="921" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Dorante, Lucile, Lisette.</head>
+                <sp who="#lucile">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="53" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="237" unit="chars"/>
+                </sp>
+                <sp who="#dorante">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="71" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="351" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="60" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="278" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Monsieur Mondor, Madame Mondor, Dorante, Lucile, Lisette.</head>
+                <sp who="#lucas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="49" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="186" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="899" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_mondor">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="131" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="615" unit="chars"/>
+                </sp>
+                <sp who="#madame_mondor">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="41" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="205" unit="chars"/>
+                </sp>
+                <sp who="#dorante">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="60" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="251" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Monsieur Mondor, Madame Mondor, Lucile, Lisette.</head>
+                <sp who="#monsieur_mondor">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="51" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="241" unit="chars"/>
+                </sp>
+                <sp who="#madame_mondor">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="208" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="79" unit="chars"/>
+                </sp>
+                <sp who="#lucile">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="101" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Lucile, Lisette, Lucas.</head>
+                <sp who="#lucas">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="51" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="241" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="90" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="402" unit="chars"/>
+                </sp>
+                <sp who="#lucile">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="75" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Le Marquis, Lucile, Lisette, Lucas.</head>
+                <sp who="#le_marquis">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="170" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="808" unit="chars"/>
+                </sp>
+                <sp who="#lucas">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="41" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="195" unit="chars"/>
+                </sp>
+                <sp who="#lucile">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="25" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="134" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="158" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="681" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. L'Élu et les acteurs précédents.</head>
+                <sp who="#l_lu">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="352" unit="words"/>
+                    <amount n="64" unit="lines"/>
+                    <amount n="1543" unit="chars"/>
+                </sp>
+                <sp who="#lucas">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="114" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="510" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="493" unit="words"/>
+                    <amount n="72" unit="lines"/>
+                    <amount n="2265" unit="chars"/>
+                </sp>
+                <sp who="#le_marquis">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="227" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="1055" unit="chars"/>
+                </sp>
+                <sp who="#lucile">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="71" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="370" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII. Lucile, Lisette, Lucas.</head>
+                <sp who="#lisette">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="147" unit="chars"/>
+                </sp>
+                <sp who="#lucile">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="129" unit="chars"/>
+                </sp>
+                <sp who="#lucas">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="115" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIII. Monsieur Mondor, Madame Mondor, Lucile, Lucas.</head>
+                <sp who="#madame_mondor">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="135" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_mondor">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="152" unit="chars"/>
+                </sp>
+                <sp who="#lucas">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="187" unit="chars"/>
+                </sp>
+                <sp who="#lucile">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="92" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XV. LISETTE, les Acteurs précédents.</head>
+                <sp who="#lisette">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="143" unit="chars"/>
+                </sp>
+                <sp who="#lucas">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="87" unit="chars"/>
+                </sp>
+                <sp who="#lucile">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="26" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XV. Ménélas, on Dorante. Doris, et les acteurs précédents assis, Gardes.</head>
+                <sp who="#doris">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="246" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="1255" unit="chars"/>
+                </sp>
+                <sp who="#__las">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="302" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1386" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVI.</head>
+                <sp who="#__las">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="119" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="567" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII. Ménélas, Doris.</head>
+                <sp who="#__las">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="94" unit="chars"/>
+                </sp>
+                <sp who="#doris">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="49" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="205" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X.III. Léda, Ménélas, Doris.</head>
+                <sp who="#__las">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="276" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="1334" unit="chars"/>
+                </sp>
+                <sp who="#_da">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="654" unit="words"/>
+                    <amount n="79" unit="lines"/>
+                    <amount n="3229" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIX.</head>
+                <sp who="#__las">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="167" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="827" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XX ET DERNIÈRE. Le Marquis, L'Élu, et les Acteurs précédents.</head>
+                <sp who="#le_marquis">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="87" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="408" unit="chars"/>
+                </sp>
+                <sp who="#l_lu">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="129" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_mondor">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="35" unit="chars"/>
+                </sp>
+                <sp who="#lucas">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="61" unit="chars"/>
+                </sp>
+                <sp who="#dorante">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="49" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="238" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="163" unit="chars"/>
+                </sp>
+                <sp who="#madame_mondor">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="16" unit="chars"/>
+                </sp>
+                <sp who="#lucile">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="31" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>DIVERTISSEMENT.</head>
+                <sp who="#monsieur_poisson">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="59" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="291" unit="chars"/>
+                </sp>
+                <sp who="#un_autre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="160" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>VAUDEVILLE.</head>
+                <sp who="#un_autre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="69" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="340" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_dangeville">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="67" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="322" unit="chars"/>
+                </sp>
+                <sp who="#le_petit_ga_on">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="158" unit="chars"/>
+                </sp>
+                <sp who="#la_petite_fille">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="177" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="833" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_poisson">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="169" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

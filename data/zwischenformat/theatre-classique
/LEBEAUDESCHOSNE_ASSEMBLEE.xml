@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>L'ASSEMBLÉE</title>
+        <subtitle>comédie en un acte et en vers</subtitle>
+        <subtitle>Avec L'Apothéose de Molière Ballet Héroïque.</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>LEBEAU DE SCHOSME, Abbé Auguste-Théodore-Vincent  </author>
+        <date when="1773">1773</date>
+        <source>https://github.com/dramacode/theatre-classique/LEBEAUDESCHOSNE_ASSEMBLEE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>le_semainier</name>
+            <alias xml:id="le_semainier">
+                <name>le_semainier</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>robert</name>
+            <alias xml:id="robert">
+                <name>robert</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>madame_armand</name>
+            <alias xml:id="madame_armand">
+                <name>madame_armand</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>monsieur_mo_</name>
+            <alias xml:id="monsieur_mo_">
+                <name>monsieur_mo_</name>
+            </alias>
+        </character>
+        <character>
+            <name>monsieur_montvel</name>
+            <alias xml:id="monsieur_montvel">
+                <name>monsieur_montvel</name>
+            </alias>
+        </character>
+        <character>
+            <name>madame_p_ville</name>
+            <alias xml:id="madame_p_ville">
+                <name>madame_p_ville</name>
+            </alias>
+        </character>
+        <character>
+            <name>mademoiselle_hus</name>
+            <alias xml:id="mademoiselle_hus">
+                <name>mademoiselle_hus</name>
+            </alias>
+        </character>
+        <character>
+            <name>mademoiselle_fanier</name>
+            <alias xml:id="mademoiselle_fanier">
+                <name>mademoiselle_fanier</name>
+            </alias>
+        </character>
+        <character>
+            <name>mademoiselle_dugazon</name>
+            <alias xml:id="mademoiselle_dugazon">
+                <name>mademoiselle_dugazon</name>
+            </alias>
+        </character>
+        <character>
+            <name>mademoiselle_doligny</name>
+            <alias xml:id="mademoiselle_doligny">
+                <name>mademoiselle_doligny</name>
+            </alias>
+        </character>
+        <character>
+            <name>madame_mo_</name>
+            <alias xml:id="madame_mo_">
+                <name>madame_mo_</name>
+            </alias>
+        </character>
+        <character>
+            <name>mademoiselle_dumesnil</name>
+            <alias xml:id="mademoiselle_dumesnil">
+                <name>mademoiselle_dumesnil</name>
+            </alias>
+        </character>
+        <character>
+            <name>monsieur_bourette</name>
+            <alias xml:id="monsieur_bourette">
+                <name>monsieur_bourette</name>
+            </alias>
+        </character>
+        <character>
+            <name>monsieur_belmont</name>
+            <alias xml:id="monsieur_belmont">
+                <name>monsieur_belmont</name>
+            </alias>
+        </character>
+        <character>
+            <name>monsieur_belcourt</name>
+            <alias xml:id="monsieur_belcourt">
+                <name>monsieur_belcourt</name>
+            </alias>
+        </character>
+        <character>
+            <name>mademoiselle_sain_val</name>
+            <alias xml:id="mademoiselle_sain_val">
+                <name>mademoiselle_sain_val</name>
+            </alias>
+        </character>
+        <character>
+            <name>madame_vestris</name>
+            <alias xml:id="madame_vestris">
+                <name>madame_vestris</name>
+            </alias>
+        </character>
+        <character>
+            <name>monsieur_pontheuil</name>
+            <alias xml:id="monsieur_pontheuil">
+                <name>monsieur_pontheuil</name>
+            </alias>
+        </character>
+        <character>
+            <name>un_gagiste</name>
+            <alias xml:id="un_gagiste">
+                <name>un_gagiste</name>
+            </alias>
+        </character>
+        <character>
+            <name>madame_belcourt</name>
+            <alias xml:id="madame_belcourt">
+                <name>madame_belcourt</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_auteur</name>
+            <alias xml:id="l_auteur">
+                <name>l_auteur</name>
+            </alias>
+        </character>
+        <character>
+            <name>mademoisellle_doligny</name>
+            <alias xml:id="mademoisellle_doligny">
+                <name>mademoisellle_doligny</name>
+            </alias>
+        </character>
+        <character>
+            <name>monsieur_feuilli</name>
+            <alias xml:id="monsieur_feuilli">
+                <name>monsieur_feuilli</name>
+            </alias>
+        </character>
+        <character>
+            <name>madame_drouin</name>
+            <alias xml:id="madame_drouin">
+                <name>madame_drouin</name>
+            </alias>
+        </character>
+        <character>
+            <name>madame_bellecourt</name>
+            <alias xml:id="madame_bellecourt">
+                <name>madame_bellecourt</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_grand_p_tre</name>
+            <alias xml:id="le_grand_p_tre">
+                <name>le_grand_p_tre</name>
+            </alias>
+        </character>
+        <character>
+            <name>une_p_tresse</name>
+            <alias xml:id="une_p_tresse">
+                <name>une_p_tresse</name>
+            </alias>
+        </character>
+        <character>
+            <name>la_grande_p_tresse</name>
+            <alias xml:id="la_grande_p_tresse">
+                <name>la_grande_p_tresse</name>
+            </alias>
+        </character>
+        <character>
+            <name>p_tresse_d_apollon</name>
+            <alias xml:id="p_tresse_d_apollon">
+                <name>p_tresse_d_apollon</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head/>
+            <div>
+                <head>SCÈNE PREMIÈRE.</head>
+                <sp who="#le_semainier">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="124" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="631" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Le Semainier, Robert.</head>
+                <sp who="#robert">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="558" unit="words"/>
+                    <amount n="91" unit="lines"/>
+                    <amount n="2687" unit="chars"/>
+                </sp>
+                <sp who="#le_semainier">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="189" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="915" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Madame Armand, le Semainier.</head>
+                <sp who="#madame_armand">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="376" unit="words"/>
+                    <amount n="59" unit="lines"/>
+                    <amount n="1881" unit="chars"/>
+                </sp>
+                <sp who="#le_semainier">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="124" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="613" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Le Semainier, Robert, Acteurs et Actrices précédents.</head>
+                <sp who="#monsieur_mo_">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="28" unit="chars"/>
+                </sp>
+                <sp who="#le_semainier">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="73" unit="chars"/>
+                </sp>
+                <sp who="#robert">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="3" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="10" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Acteurs précédents, Le Semainier.</head>
+                <sp who="#le_semainier">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="87" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="423" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_mo_">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="57" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="278" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_montvel">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="87" unit="chars"/>
+                </sp>
+                <sp who="#madame_p_ville">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="173" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_hus">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="155" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_fanier">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="139" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_dugazon">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="55" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_doligny">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="72" unit="chars"/>
+                </sp>
+                <sp who="#madame_mo_">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="91" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_dumesnil">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="48" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="245" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_bourette">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="37" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="156" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_belmont">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="67" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_belcourt">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="202" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="909" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_sain_val">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="196" unit="words"/>
+                    <amount n="45" unit="lines"/>
+                    <amount n="983" unit="chars"/>
+                </sp>
+                <sp who="#madame_vestris">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="182" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="849" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_pontheuil">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="39" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Acteurs précédents, un Gagiste, l'Auteur.</head>
+                <sp who="#un_gagiste">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="3" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="16" unit="chars"/>
+                </sp>
+                <sp who="#madame_belcourt">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="102" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="516" unit="chars"/>
+                </sp>
+                <sp who="#le_semainier">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="43" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="231" unit="chars"/>
+                </sp>
+                <sp who="#l_auteur">
+                    <amount n="36" unit="speech_acts"/>
+                    <amount n="1616" unit="words"/>
+                    <amount n="253" unit="lines"/>
+                    <amount n="8020" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_hus">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="55" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_doligny">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="85" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="428" unit="chars"/>
+                </sp>
+                <sp who="#madame_p_ville">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="113" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="576" unit="chars"/>
+                </sp>
+                <sp who="#mademoisellle_doligny">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="81" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_dumesnil">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="100" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_montvel">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="240" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_sain_val">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="43" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_mo_">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="53" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="271" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_belcourt">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="82" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_feuilli">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="59" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_fanier">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="43" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="230" unit="chars"/>
+                </sp>
+                <sp who="#madame_drouin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="38" unit="chars"/>
+                </sp>
+                <sp who="#madame_bellecourt">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="3" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="11" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>L'APOTHÉOSE DE MOLIÈRE. Ballet héroïque.</head>
+                <sp who="#le_grand_p_tre">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="123" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="613" unit="chars"/>
+                </sp>
+                <sp who="#une_p_tresse">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="85" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="461" unit="chars"/>
+                </sp>
+                <sp who="#la_grande_p_tresse">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="95" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="507" unit="chars"/>
+                </sp>
+                <sp who="#p_tresse_d_apollon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="290" unit="words"/>
+                    <amount n="57" unit="lines"/>
+                    <amount n="1528" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

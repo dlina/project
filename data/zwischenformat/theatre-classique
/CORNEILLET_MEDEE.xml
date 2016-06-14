@@ -1,0 +1,882 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>MÉDÉE</title>
+        <subtitle>TRAGÉDIE EN MUSIQUE</subtitle>
+        <subtitle>représentée PAR L'ACADÉMIE ROYALE DE MUSIQUE.</subtitle>
+        <genretitle>Opéra</genretitle>
+        <author>CORNEILLE, Thomas</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/CORNEILLET_MEDEE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>un_chef_d_habitants</name>
+            <alias xml:id="un_chef_d_habitants">
+                <name>un_chef_d_habitants</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_choeur</name>
+            <alias xml:id="le_choeur">
+                <name>le_choeur</name>
+            </alias>
+        </character>
+        <character>
+            <name>deux_bergers__un_habitant</name>
+            <alias xml:id="deux_bergers__un_habitant">
+                <name>deux_bergers__un_habitant</name>
+            </alias>
+        </character>
+        <character>
+            <name>la_victoire</name>
+            <alias xml:id="la_victoire">
+                <name>la_victoire</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>bellone</name>
+            <alias xml:id="bellone">
+                <name>bellone</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>la_gloire</name>
+            <alias xml:id="la_gloire">
+                <name>la_gloire</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>berger</name>
+            <alias xml:id="berger">
+                <name>berger</name>
+            </alias>
+        </character>
+        <character>
+            <name>deu_bergeres</name>
+            <alias xml:id="deu_bergeres">
+                <name>deu_bergeres</name>
+            </alias>
+        </character>
+        <character>
+            <name>__e</name>
+            <alias xml:id="__e">
+                <name>__e</name>
+            </alias>
+        </character>
+        <character>
+            <name>_rine</name>
+            <alias xml:id="_rine">
+                <name>_rine</name>
+            </alias>
+        </character>
+        <character>
+            <name>jason</name>
+            <alias xml:id="jason">
+                <name>jason</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>arcas</name>
+            <alias xml:id="arcas">
+                <name>arcas</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_choeu_d_corinthiens</name>
+            <alias xml:id="le_choeu_d_corinthiens">
+                <name>le_choeu_d_corinthiens</name>
+            </alias>
+        </character>
+        <character>
+            <name>c_on</name>
+            <alias xml:id="c_on">
+                <name>c_on</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>oronte</name>
+            <alias xml:id="oronte">
+                <name>oronte</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>u_corinthien</name>
+            <alias xml:id="u_corinthien">
+                <name>u_corinthien</name>
+            </alias>
+        </character>
+        <character>
+            <name>u_corinthien_u_argien</name>
+            <alias xml:id="u_corinthien_u_argien">
+                <name>u_corinthien_u_argien</name>
+            </alias>
+        </character>
+        <character>
+            <name>creuse</name>
+            <alias xml:id="creuse">
+                <name>creuse</name>
+            </alias>
+        </character>
+        <character>
+            <name>jason_creuse</name>
+            <alias xml:id="jason_creuse">
+                <name>jason_creuse</name>
+            </alias>
+        </character>
+        <character>
+            <name>choeur_des_captifs</name>
+            <alias xml:id="choeur_des_captifs">
+                <name>choeur_des_captifs</name>
+            </alias>
+        </character>
+        <character>
+            <name>un_captif</name>
+            <alias xml:id="un_captif">
+                <name>un_captif</name>
+            </alias>
+        </character>
+        <character>
+            <name>amour</name>
+            <alias xml:id="amour">
+                <name>amour</name>
+            </alias>
+        </character>
+        <character>
+            <name>un_captive</name>
+            <alias xml:id="un_captive">
+                <name>un_captive</name>
+            </alias>
+        </character>
+        <character>
+            <name>trois_captifs</name>
+            <alias xml:id="trois_captifs">
+                <name>trois_captifs</name>
+            </alias>
+        </character>
+        <character>
+            <name>oronte_medee</name>
+            <alias xml:id="oronte_medee">
+                <name>oronte_medee</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_choeur_de__mons</name>
+            <alias xml:id="le_choeur_de__mons">
+                <name>le_choeur_de__mons</name>
+            </alias>
+        </character>
+        <character>
+            <name>cleone</name>
+            <alias xml:id="cleone">
+                <name>cleone</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_fan_me</name>
+            <alias xml:id="le_fan_me">
+                <name>le_fan_me</name>
+            </alias>
+        </character>
+        <character>
+            <name>fantome</name>
+            <alias xml:id="fantome">
+                <name>fantome</name>
+            </alias>
+        </character>
+        <character>
+            <name>deux_fan_mes</name>
+            <alias xml:id="deux_fan_mes">
+                <name>deux_fan_mes</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>PROLOGUE </head>
+            <div>
+                <head/>
+                <sp who="#un_chef_d_habitants">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="54" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="295" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="262" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="1325" unit="chars"/>
+                </sp>
+                <sp who="#deux_bergers__un_habitant">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="344" unit="chars"/>
+                </sp>
+                <sp who="#la_victoire">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="181" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="878" unit="chars"/>
+                </sp>
+                <sp who="#bellone">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="57" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="262" unit="chars"/>
+                </sp>
+                <sp who="#la_gloire">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="55" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="252" unit="chars"/>
+                </sp>
+                <sp who="#berger">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="53" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="279" unit="chars"/>
+                </sp>
+                <sp who="#deu_bergeres">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="215" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Médée, Nérine.</head>
+                <sp who="#__e">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="268" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="1200" unit="chars"/>
+                </sp>
+                <sp who="#_rine">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="135" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="696" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Médée, Jason, Nérine, Arcas.</head>
+                <sp who="#__e">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="196" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="936" unit="chars"/>
+                </sp>
+                <sp who="#jason">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="217" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="1068" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Jason, Arcas.</head>
+                <sp who="#jason">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="248" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1176" unit="chars"/>
+                </sp>
+                <sp who="#arcas">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="50" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="248" unit="chars"/>
+                </sp>
+                <sp who="#le_choeu_d_corinthiens">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="245" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Créon, Jason, Aarcas, Suite de Creon.</head>
+                <sp who="#c_on">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="37" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="179" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Créon, Jason, Oronte, Suite de Creon et d'Oronte.</head>
+                <sp who="#oronte">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="88" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="452" unit="chars"/>
+                </sp>
+                <sp who="#c_on">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="79" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="373" unit="chars"/>
+                </sp>
+                <sp who="#jason">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="100" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Créon, Jason, Oronte. Troupe de Corinthiens et d'Argiens.</head>
+                <sp who="#u_corinthien">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="225" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="98" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="473" unit="chars"/>
+                </sp>
+                <sp who="#oronte">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="187" unit="chars"/>
+                </sp>
+                <sp who="#u_corinthien_u_argien">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="71" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="361" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Créon, Médée, Nérine.</head>
+                <sp who="#c_on">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="362" unit="words"/>
+                    <amount n="54" unit="lines"/>
+                    <amount n="1756" unit="chars"/>
+                </sp>
+                <sp who="#__e">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="171" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="816" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Créon, Médée, Créüse, Cléone.</head>
+                <sp who="#__e">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="107" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="495" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Créon, Créüse, Cléone.</head>
+                <sp who="#c_on">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="75" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="349" unit="chars"/>
+                </sp>
+                <sp who="#creuse">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="61" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="282" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Créon, Jason, Créüse, Cléone.</head>
+                <sp who="#c_on">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="61" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="317" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Jason, Créüse, Cléone.</head>
+                <sp who="#jason">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="210" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="1020" unit="chars"/>
+                </sp>
+                <sp who="#creuse">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="152" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="755" unit="chars"/>
+                </sp>
+                <sp who="#jason_creuse">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="99" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Oronte, Créüse, Jason, Cléone.</head>
+                <sp who="#oronte">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="103" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="465" unit="chars"/>
+                </sp>
+                <sp who="#creuse">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="172" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCENE VII. Créüse, Jason, Oronte, Cléone.</head>
+                <sp who="#choeur_des_captifs">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="86" unit="chars"/>
+                </sp>
+                <sp who="#un_captif">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="68" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="316" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="177" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="824" unit="chars"/>
+                </sp>
+                <sp who="#amour">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="135" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="625" unit="chars"/>
+                </sp>
+                <sp who="#creuse">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="45" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="212" unit="chars"/>
+                </sp>
+                <sp who="#un_captive">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="84" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="352" unit="chars"/>
+                </sp>
+                <sp who="#trois_captifs">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="70" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="346" unit="chars"/>
+                </sp>
+                <sp who="#oronte">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="97" unit="chars"/>
+                </sp>
+                <sp who="#jason">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="81" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Oronte, Médée.</head>
+                <sp who="#oronte">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="200" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="937" unit="chars"/>
+                </sp>
+                <sp who="#__e">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="188" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="926" unit="chars"/>
+                </sp>
+                <sp who="#oronte_medee">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="79" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="407" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Médée, Jason.</head>
+                <sp who="#__e">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="279" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1295" unit="chars"/>
+                </sp>
+                <sp who="#jason">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="222" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="1058" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III.</head>
+                <sp who="#__e">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="169" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="841" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCENE IV. Médée, Nérine.</head>
+                <sp who="#__e">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="221" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1072" unit="chars"/>
+                </sp>
+                <sp who="#_rine">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="83" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="407" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V.</head>
+                <sp who="#__e">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="182" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="911" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur_de__mons">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="58" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="99" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="468" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Jason, Cléone.</head>
+                <sp who="#cleone">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="60" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="288" unit="chars"/>
+                </sp>
+                <sp who="#jason">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="89" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Créüse, Jason, Cléone.</head>
+                <sp who="#jason">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="148" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="747" unit="chars"/>
+                </sp>
+                <sp who="#creuse">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="129" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="655" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Oronte, Jason.</head>
+                <sp who="#oronte">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="122" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="565" unit="chars"/>
+                </sp>
+                <sp who="#jason">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="72" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="359" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Médée, Oronte, Nérine.</head>
+                <sp who="#oronte">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="87" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="402" unit="chars"/>
+                </sp>
+                <sp who="#__e">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="119" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="532" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Médée, Nérine.</head>
+                <sp who="#__e">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="100" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="492" unit="chars"/>
+                </sp>
+                <sp who="#_rine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="82" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Créon, Médée, Nérine, Gardes.</head>
+                <sp who="#c_on">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="127" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="634" unit="chars"/>
+                </sp>
+                <sp who="#__e">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="194" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="872" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Créon, Médée, fantômes et Gardes du Roi.</head>
+                <sp who="#__e">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="83" unit="chars"/>
+                </sp>
+                <sp who="#le_fan_me">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="62" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="82" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="398" unit="chars"/>
+                </sp>
+                <sp who="#fantome">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="122" unit="chars"/>
+                </sp>
+                <sp who="#c_on">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="87" unit="chars"/>
+                </sp>
+                <sp who="#deux_fan_mes">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="48" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="214" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Médée, Créon, Nérine.</head>
+                <sp who="#__e">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="71" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="328" unit="chars"/>
+                </sp>
+                <sp who="#c_on">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="81" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX.</head>
+                <sp who="#c_on">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="203" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="987" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE I. Médée, Nérine.</head>
+                <sp who="#_rine">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="90" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="422" unit="chars"/>
+                </sp>
+                <sp who="#__e">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="215" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="1009" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Créüse, Médée, Nérine.</head>
+                <sp who="#creuse">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="117" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="544" unit="chars"/>
+                </sp>
+                <sp who="#__e">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="160" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="733" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="165" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III.  Créüse, Médée, Nérine, Cléone, Choeur de Corinthiens.</head>
+                <sp who="#creuse">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="192" unit="chars"/>
+                </sp>
+                <sp who="#cleone">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="132" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="605" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="70" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="359" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Médée, Créüse, Nérine, Cléone.</head>
+                <sp who="#creuse">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="71" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="358" unit="chars"/>
+                </sp>
+                <sp who="#__e">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="68" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="339" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Créüse, Cléone.</head>
+                <sp who="#creuse">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="73" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="350" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Jason, Créüse, Cléone.</head>
+                <sp who="#jason">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="97" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="464" unit="chars"/>
+                </sp>
+                <sp who="#creuse">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="152" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="707" unit="chars"/>
+                </sp>
+                <sp who="#jason_creuse">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="37" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="185" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII.</head>
+                <sp who="#jason">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="51" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="218" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Médée, Jason.</head>
+                <sp who="#__e">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="101" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="479" unit="chars"/>
+                </sp>
+                <sp who="#jason">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="149" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

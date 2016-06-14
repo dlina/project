@@ -1,0 +1,921 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>ÉCOLE DES AMIS</title>
+        <subtitle>COMEDIE EN VERS, ET EN CINQ ACTES.</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>NIVELLE de la CHAUSSÉE, Pierre</author>
+        <date when="1747">1747</date>
+        <source>https://github.com/dramacode/theatre-classique/NIVELLE_ECOLEDESAMIS.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>clorine</name>
+            <alias xml:id="clorine">
+                <name>clorine</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>monrose</name>
+            <alias xml:id="monrose">
+                <name>monrose</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>aramont</name>
+            <alias xml:id="aramont">
+                <name>aramont</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>dornane</name>
+            <alias xml:id="dornane">
+                <name>dornane</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>ariste</name>
+            <alias xml:id="ariste">
+                <name>ariste</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>hortense</name>
+            <alias xml:id="hortense">
+                <name>hortense</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_valet</name>
+            <alias xml:id="l_valet">
+                <name>l_valet</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_garde</name>
+            <alias xml:id="l_garde">
+                <name>l_garde</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I </head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Monrose qui s'apprête à sortir, Clorine.</head>
+                <sp who="#clorine">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="123" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="548" unit="chars"/>
+                </sp>
+                <sp who="#monrose">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="250" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="1008" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. </head>
+                <sp who="#clorine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="199" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="885" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Aramont, Clorine.</head>
+                <sp who="#aramont">
+                    <amount n="26" unit="speech_acts"/>
+                    <amount n="888" unit="words"/>
+                    <amount n="114" unit="lines"/>
+                    <amount n="3842" unit="chars"/>
+                </sp>
+                <sp who="#clorine">
+                    <amount n="26" unit="speech_acts"/>
+                    <amount n="505" unit="words"/>
+                    <amount n="81" unit="lines"/>
+                    <amount n="2183" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCENE IV.</head>
+                <sp who="#aramont">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="51" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="233" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Aramont, Dornane.</head>
+                <sp who="#dornane">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="357" unit="words"/>
+                    <amount n="48" unit="lines"/>
+                    <amount n="1530" unit="chars"/>
+                </sp>
+                <sp who="#aramont">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="271" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1175" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCENE VI. Ariste sans être vu, Dornane, Aramont.</head>
+                <sp who="#aramont">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="83" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="358" unit="chars"/>
+                </sp>
+                <sp who="#dornane">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="214" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="909" unit="chars"/>
+                </sp>
+                <sp who="#ariste">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="138" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="637" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Monrose transporté de joie, Ariste, Aramont, Dornane.</head>
+                <sp who="#monrose">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="143" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="579" unit="chars"/>
+                </sp>
+                <sp who="#ariste">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="96" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="420" unit="chars"/>
+                </sp>
+                <sp who="#dornane">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="310" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="1297" unit="chars"/>
+                </sp>
+                <sp who="#aramont">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="21" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Monrose, Aramont, Dornane.</head>
+                <sp who="#monrose">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="131" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="594" unit="chars"/>
+                </sp>
+                <sp who="#dornane">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="238" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="1069" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Monrose, Aramont.</head>
+                <sp who="#aramont">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="107" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X.</head>
+                <sp who="#monrose">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="104" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCENE I. Ariste, Monrose.</head>
+                <sp who="#monrose">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="322" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="1389" unit="chars"/>
+                </sp>
+                <sp who="#ariste">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="953" unit="words"/>
+                    <amount n="107" unit="lines"/>
+                    <amount n="4313" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II.</head>
+                <sp who="#ariste">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="46" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="190" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCENE III. Ariste, Hortense.</head>
+                <sp who="#ariste">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="499" unit="words"/>
+                    <amount n="67" unit="lines"/>
+                    <amount n="2291" unit="chars"/>
+                </sp>
+                <sp who="#hortense">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="307" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="1348" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Hortense, Clorine.</head>
+                <sp who="#hortense">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="348" unit="words"/>
+                    <amount n="59" unit="lines"/>
+                    <amount n="1469" unit="chars"/>
+                </sp>
+                <sp who="#clorine">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="436" unit="words"/>
+                    <amount n="59" unit="lines"/>
+                    <amount n="1868" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Aramont, Hortense, Clorine.</head>
+                <sp who="#aramont">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="72" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="312" unit="chars"/>
+                </sp>
+                <sp who="#hortense">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="136" unit="chars"/>
+                </sp>
+                <sp who="#clorine">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="90" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Aramont, Clorine.</head>
+                <sp who="#clorine">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="59" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="273" unit="chars"/>
+                </sp>
+                <sp who="#aramont">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="300" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCENE VII.</head>
+                <sp who="#aramont">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="64" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="299" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Aramont, Dornane.</head>
+                <sp who="#dornane">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="198" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="839" unit="chars"/>
+                </sp>
+                <sp who="#aramont">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="212" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="918" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Aramont, Dornane, Monrose.</head>
+                <sp who="#dornane">
+                    <amount n="23" unit="speech_acts"/>
+                    <amount n="624" unit="words"/>
+                    <amount n="87" unit="lines"/>
+                    <amount n="2636" unit="chars"/>
+                </sp>
+                <sp who="#aramont">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="85" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="348" unit="chars"/>
+                </sp>
+                <sp who="#monrose">
+                    <amount n="20" unit="speech_acts"/>
+                    <amount n="505" unit="words"/>
+                    <amount n="73" unit="lines"/>
+                    <amount n="2145" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Aramont, Monrose.</head>
+                <sp who="#aramont">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="53" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="249" unit="chars"/>
+                </sp>
+                <sp who="#monrose">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="97" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="423" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI.</head>
+                <sp who="#aramont">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="58" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="284" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I. Ariste, Un Valet.</head>
+                <sp who="#ariste">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="74" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II.</head>
+                <sp who="#ariste">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="138" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="609" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Ariste, Monrose.</head>
+                <sp who="#ariste">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="419" unit="words"/>
+                    <amount n="51" unit="lines"/>
+                    <amount n="1843" unit="chars"/>
+                </sp>
+                <sp who="#monrose">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="384" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="1735" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV.</head>
+                <sp who="#monrose">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="57" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCENE V. Monrose, Clorine. </head>
+                <sp who="#clorine">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="128" unit="chars"/>
+                </sp>
+                <sp who="#monrose">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="125" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI.</head>
+                <sp who="#clorine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="98" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Hortense, Clorine.</head>
+                <sp who="#hortense">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="178" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="730" unit="chars"/>
+                </sp>
+                <sp who="#clorine">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="203" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="813" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII.</head>
+                <sp who="#hortense">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="94" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="386" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Hortense, Un Valet.</head>
+                <sp who="#l_valet">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="101" unit="chars"/>
+                </sp>
+                <sp who="#hortense">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="53" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X.</head>
+                <sp who="#hortense">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="101" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="474" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Hortense, Clorine. </head>
+                <sp who="#clorine">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="340" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="1413" unit="chars"/>
+                </sp>
+                <sp who="#hortense">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="149" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="695" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII. Hortense, Aramont.</head>
+                <sp who="#aramont">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="392" unit="words"/>
+                    <amount n="57" unit="lines"/>
+                    <amount n="1618" unit="chars"/>
+                </sp>
+                <sp who="#hortense">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="327" unit="words"/>
+                    <amount n="53" unit="lines"/>
+                    <amount n="1448" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIII. Hortense, Aramont, Clorine. </head>
+                <sp who="#clorine">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="115" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="443" unit="chars"/>
+                </sp>
+                <sp who="#hortense">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="180" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIV. Hortense, Aramont.</head>
+                <sp who="#aramont">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="203" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="867" unit="chars"/>
+                </sp>
+                <sp who="#hortense">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="374" unit="words"/>
+                    <amount n="48" unit="lines"/>
+                    <amount n="1657" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XV. Monrose, Hortense, Aramont. </head>
+                <sp who="#monrose">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="185" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="814" unit="chars"/>
+                </sp>
+                <sp who="#hortense">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="148" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="639" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVI. Monrose, Aramont.</head>
+                <sp who="#monrose">
+                    <amount n="35" unit="speech_acts"/>
+                    <amount n="585" unit="words"/>
+                    <amount n="102" unit="lines"/>
+                    <amount n="2462" unit="chars"/>
+                </sp>
+                <sp who="#aramont">
+                    <amount n="34" unit="speech_acts"/>
+                    <amount n="407" unit="words"/>
+                    <amount n="86" unit="lines"/>
+                    <amount n="1611" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVII.</head>
+                <sp who="#aramont">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="196" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE I. Aramont, Clorine.</head>
+                <sp who="#aramont">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="227" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="1016" unit="chars"/>
+                </sp>
+                <sp who="#clorine">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="111" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="438" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Hortense, Aramont.</head>
+                <sp who="#hortense">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="452" unit="words"/>
+                    <amount n="57" unit="lines"/>
+                    <amount n="2007" unit="chars"/>
+                </sp>
+                <sp who="#aramont">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="219" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="939" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III.</head>
+                <sp who="#aramont">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="112" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Monrose, Aramont.</head>
+                <sp who="#monrose">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="145" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="612" unit="chars"/>
+                </sp>
+                <sp who="#aramont">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="45" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Monrose, Aramont, Un Valet.</head>
+                <sp who="#l_valet">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="64" unit="chars"/>
+                </sp>
+                <sp who="#monrose">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="215" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="931" unit="chars"/>
+                </sp>
+                <sp who="#aramont">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="219" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="930" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Monrose, Aramont, Dornane.</head>
+                <sp who="#dornane">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="789" unit="words"/>
+                    <amount n="90" unit="lines"/>
+                    <amount n="3333" unit="chars"/>
+                </sp>
+                <sp who="#aramont">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="91" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="365" unit="chars"/>
+                </sp>
+                <sp who="#monrose">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="246" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="1011" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Monrose, Aramaont.</head>
+                <sp who="#monrose">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="274" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="1176" unit="chars"/>
+                </sp>
+                <sp who="#aramont">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="67" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="285" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Monrose, Aramont, Clorine.</head>
+                <sp who="#clorine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="123" unit="chars"/>
+                </sp>
+                <sp who="#monrose">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="31" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Aramont, Clorine.</head>
+                <sp who="#aramont">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="59" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="233" unit="chars"/>
+                </sp>
+                <sp who="#clorine">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="176" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="715" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Aramont, Monrose, Hortense.</head>
+                <sp who="#hortense">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="87" unit="chars"/>
+                </sp>
+                <sp who="#monrose">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="47" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Monrose, Hortense.</head>
+                <sp who="#hortense">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="502" unit="words"/>
+                    <amount n="60" unit="lines"/>
+                    <amount n="2180" unit="chars"/>
+                </sp>
+                <sp who="#monrose">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="534" unit="words"/>
+                    <amount n="63" unit="lines"/>
+                    <amount n="2338" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE I. Monrose, Aramont. </head>
+                <sp who="#monrose">
+                    <amount n="20" unit="speech_acts"/>
+                    <amount n="518" unit="words"/>
+                    <amount n="73" unit="lines"/>
+                    <amount n="2212" unit="chars"/>
+                </sp>
+                <sp who="#aramont">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="366" unit="words"/>
+                    <amount n="57" unit="lines"/>
+                    <amount n="1585" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Monrose, Aramont, Un Garde. </head>
+                <sp who="#monrose">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="41" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="172" unit="chars"/>
+                </sp>
+                <sp who="#l_garde">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="51" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="200" unit="chars"/>
+                </sp>
+                <sp who="#aramont">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="47" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Monrose, Aramaont.</head>
+                <sp who="#monrose">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="196" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="890" unit="chars"/>
+                </sp>
+                <sp who="#aramont">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="61" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="262" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Monrose, Aramont, Hortense, entre sans être vue. </head>
+                <sp who="#monrose">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="132" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="599" unit="chars"/>
+                </sp>
+                <sp who="#hortense">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="37" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="142" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCENE V. Monrose, Hortense.</head>
+                <sp who="#hortense">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="379" unit="words"/>
+                    <amount n="45" unit="lines"/>
+                    <amount n="1653" unit="chars"/>
+                </sp>
+                <sp who="#monrose">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="151" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="643" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Monrose, Aramont, Hortense, Clorine.</head>
+                <sp who="#aramont">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="113" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="449" unit="chars"/>
+                </sp>
+                <sp who="#monrose">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="39" unit="chars"/>
+                </sp>
+                <sp who="#clorine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="53" unit="chars"/>
+                </sp>
+                <sp who="#hortense">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="25" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="105" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Ariste, Monrose, Aramont, Hortense, Clorine, Le Garde.</head>
+                <sp who="#ariste">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="27" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="105" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE DERNIÈRE. Ariste, Monrose, Aramont, Hortense, Clorine.</head>
+                <sp who="#ariste">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="447" unit="words"/>
+                    <amount n="63" unit="lines"/>
+                    <amount n="1940" unit="chars"/>
+                </sp>
+                <sp who="#monrose">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="163" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="697" unit="chars"/>
+                </sp>
+                <sp who="#aramont">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="112" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="435" unit="chars"/>
+                </sp>
+                <sp who="#hortense">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="137" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="602" unit="chars"/>
+                </sp>
+                <sp who="#clorine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="4" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="19" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

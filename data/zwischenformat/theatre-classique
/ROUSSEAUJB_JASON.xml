@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>JASON, ou LA TOISON D'OR</title>
+        <subtitle>OPÉRA</subtitle>
+        <genretitle>Opéra</genretitle>
+        <author>ROUSSEAU, Jean Baptiste</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/ROUSSEAUJB_JASON.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>pan</name>
+            <alias xml:id="pan">
+                <name>pan</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_choeur</name>
+            <alias xml:id="le_choeur">
+                <name>le_choeur</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_paix</name>
+            <alias xml:id="l_paix">
+                <name>l_paix</name>
+            </alias>
+        </character>
+        <character>
+            <name>pan_paix</name>
+            <alias xml:id="pan_paix">
+                <name>pan_paix</name>
+            </alias>
+        </character>
+        <character>
+            <name>premie_berger</name>
+            <alias xml:id="premie_berger">
+                <name>premie_berger</name>
+            </alias>
+        </character>
+        <character>
+            <name>secon_berger</name>
+            <alias xml:id="secon_berger">
+                <name>secon_berger</name>
+            </alias>
+        </character>
+        <character>
+            <name>orp_e</name>
+            <alias xml:id="orp_e">
+                <name>orp_e</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>jason</name>
+            <alias xml:id="jason">
+                <name>jason</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>__e</name>
+            <alias xml:id="__e">
+                <name>__e</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>jason___e</name>
+            <alias xml:id="jason___e">
+                <name>jason___e</name>
+            </alias>
+        </character>
+        <character>
+            <name>combattants</name>
+            <alias xml:id="combattants">
+                <name>combattants</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_roi</name>
+            <alias xml:id="le_roi">
+                <name>le_roi</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_roi____e</name>
+            <alias xml:id="le_roi____e">
+                <name>le_roi____e</name>
+            </alias>
+        </character>
+        <character>
+            <name>jason____e</name>
+            <alias xml:id="jason____e">
+                <name>jason____e</name>
+            </alias>
+        </character>
+        <character>
+            <name>suivantes_de___e</name>
+            <alias xml:id="suivantes_de___e">
+                <name>suivantes_de___e</name>
+            </alias>
+        </character>
+        <character>
+            <name>_nus</name>
+            <alias xml:id="_nus">
+                <name>_nus</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>hypsipile</name>
+            <alias xml:id="hypsipile">
+                <name>hypsipile</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>neptune</name>
+            <alias xml:id="neptune">
+                <name>neptune</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>une___ide</name>
+            <alias xml:id="une___ide">
+                <name>une___ide</name>
+            </alias>
+        </character>
+        <character>
+            <name>jason_hypsipile_orp_e</name>
+            <alias xml:id="jason_hypsipile_orp_e">
+                <name>jason_hypsipile_orp_e</name>
+            </alias>
+        </character>
+        <character>
+            <name>hypsipile_jason_orp_e</name>
+            <alias xml:id="hypsipile_jason_orp_e">
+                <name>hypsipile_jason_orp_e</name>
+            </alias>
+        </character>
+        <character>
+            <name>_amour</name>
+            <alias xml:id="_amour">
+                <name>_amour</name>
+            </alias>
+        </character>
+        <character>
+            <name>u_plaisir</name>
+            <alias xml:id="u_plaisir">
+                <name>u_plaisir</name>
+            </alias>
+        </character>
+        <character>
+            <name>u_autr_plaisir</name>
+            <alias xml:id="u_autr_plaisir">
+                <name>u_autr_plaisir</name>
+            </alias>
+        </character>
+        <character>
+            <name>suivante_de_la_sibylle</name>
+            <alias xml:id="suivante_de_la_sibylle">
+                <name>suivante_de_la_sibylle</name>
+            </alias>
+        </character>
+        <character>
+            <name>suivantes_sibylle_choeur</name>
+            <alias xml:id="suivantes_sibylle_choeur">
+                <name>suivantes_sibylle_choeur</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_sibylle</name>
+            <alias xml:id="l_sibylle">
+                <name>l_sibylle</name>
+            </alias>
+        </character>
+        <character>
+            <name>jason_orp_e</name>
+            <alias xml:id="jason_orp_e">
+                <name>jason_orp_e</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>PROLOGUE</head>
+            <div>
+                <head/>
+                <sp who="#pan">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="300" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="1569" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="230" unit="chars"/>
+                </sp>
+                <sp who="#l_paix">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="69" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="392" unit="chars"/>
+                </sp>
+                <sp who="#pan_paix">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="158" unit="chars"/>
+                </sp>
+                <sp who="#premie_berger">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="165" unit="chars"/>
+                </sp>
+                <sp who="#secon_berger">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="37" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="166" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Jason, Orphée.</head>
+                <sp who="#orp_e">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="186" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="1012" unit="chars"/>
+                </sp>
+                <sp who="#jason">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="351" unit="words"/>
+                    <amount n="51" unit="lines"/>
+                    <amount n="1889" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Jason, Médée.</head>
+                <sp who="#jason">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="231" unit="chars"/>
+                </sp>
+                <sp who="#__e">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="111" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="522" unit="chars"/>
+                </sp>
+                <sp who="#jason___e">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="122" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Médée, Combattants derrière le théâtre.</head>
+                <sp who="#combattants">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="75" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="389" unit="chars"/>
+                </sp>
+                <sp who="#__e">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="107" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="538" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Médée, Le Roi.</head>
+                <sp who="#le_roi">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="58" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="302" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Le Roi, Médée, Jason, Suite de Roi, suite de Médée.</head>
+                <sp who="#jason">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="60" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="299" unit="chars"/>
+                </sp>
+                <sp who="#le_roi">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="54" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="278" unit="chars"/>
+                </sp>
+                <sp who="#le_roi____e">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="117" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="53" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="270" unit="chars"/>
+                </sp>
+                <sp who="#jason____e">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="208" unit="chars"/>
+                </sp>
+                <sp who="#suivantes_de___e">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="46" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="249" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE PREMIÈRE.</head>
+                <sp who="#jason">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="160" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="836" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Jason, Vénus sur son char.</head>
+                <sp who="#_nus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="220" unit="chars"/>
+                </sp>
+                <sp who="#jason">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="83" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Jason, Le Roi, Médée;</head>
+                <sp who="#le_roi">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="167" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="872" unit="chars"/>
+                </sp>
+                <sp who="#jason">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="191" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="973" unit="chars"/>
+                </sp>
+                <sp who="#__e">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="51" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Jason, Médée.</head>
+                <sp who="#jason">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="117" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="592" unit="chars"/>
+                </sp>
+                <sp who="#__e">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="251" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="1288" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V.</head>
+                <sp who="#jason">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="123" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="632" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI.</head>
+                <sp who="#hypsipile">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="143" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="747" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Hypsipyle, Neptune.</head>
+                <sp who="#neptune">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="108" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="549" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Hypsipyle, Troupe de Tritons et de Néréides.</head>
+                <sp who="#le_choeur">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="81" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="414" unit="chars"/>
+                </sp>
+                <sp who="#une___ide">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="170" unit="chars"/>
+                </sp>
+                <sp who="#hypsipile">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="48" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="239" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE PREMIÈRE.</head>
+                <sp who="#__e">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="119" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="627" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Médée, Hypsipyle.</head>
+                <sp who="#__e">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="159" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="818" unit="chars"/>
+                </sp>
+                <sp who="#hypsipile">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="229" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="1150" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III.</head>
+                <sp who="#hypsipile">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="48" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="266" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Hypsipyle, Jason, Orphée.</head>
+                <sp who="#jason">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="161" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="772" unit="chars"/>
+                </sp>
+                <sp who="#hypsipile">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="152" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="747" unit="chars"/>
+                </sp>
+                <sp who="#jason_hypsipile_orp_e">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="27" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="142" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Jason, Hypsipyle, Orphée, Médée.</head>
+                <sp who="#__e">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="81" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="418" unit="chars"/>
+                </sp>
+                <sp who="#jason_hypsipile_orp_e">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="68" unit="chars"/>
+                </sp>
+                <sp who="#jason">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="41" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="216" unit="chars"/>
+                </sp>
+                <sp who="#orp_e">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="91" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="436" unit="chars"/>
+                </sp>
+                <sp who="#hypsipile">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="48" unit="chars"/>
+                </sp>
+                <sp who="#hypsipile_jason_orp_e">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="87" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Jason, Hypsipyle, Orphée, L'Aamour sur un nuage.</head>
+                <sp who="#_amour">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="93" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="520" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Jason, Hypsipyle, Orphée, Troupe de Plaisirs.</head>
+                <sp who="#le_choeur">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="79" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="429" unit="chars"/>
+                </sp>
+                <sp who="#u_plaisir">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="151" unit="chars"/>
+                </sp>
+                <sp who="#u_autr_plaisir">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="37" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="186" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII.</head>
+                <sp who="#__e">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="171" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="887" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Troupe de suivante de la Sibylle.</head>
+                <sp who="#le_choeur">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="68" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="381" unit="chars"/>
+                </sp>
+                <sp who="#suivante_de_la_sibylle">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="45" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="231" unit="chars"/>
+                </sp>
+                <sp who="#suivantes_sibylle_choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="118" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="649" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Troupe, etc. Médée, Le Sibylle.</head>
+                <sp who="#__e">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="217" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="1142" unit="chars"/>
+                </sp>
+                <sp who="#l_sibylle">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="187" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="1002" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III.</head>
+                <sp who="#__e">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="53" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="314" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE PREMIÈRE.</head>
+                <sp who="#hypsipile">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="80" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="408" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Hypsipyle, Médée.</head>
+                <sp who="#__e">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="124" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="625" unit="chars"/>
+                </sp>
+                <sp who="#hypsipile">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="83" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="448" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III.</head>
+                <sp who="#__e">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="152" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="797" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Médée, Le Roi.</head>
+                <sp who="#le_roi">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="363" unit="chars"/>
+                </sp>
+                <sp who="#__e">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="97" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="513" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Jason, Orphée, et les Argonautes, Troupe de combattants sortis de la Terre.</head>
+                <sp who="#jason_orp_e">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="93" unit="chars"/>
+                </sp>
+                <sp who="#jason">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="91" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="93" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Jason, Médée, Les Aargonautes, troupe de combattants sortis de la terre.</head>
+                <sp who="#__e">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="100" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="479" unit="chars"/>
+                </sp>
+                <sp who="#jason">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="191" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="995" unit="chars"/>
+                </sp>
+                <sp who="#orp_e">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="27" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="151" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

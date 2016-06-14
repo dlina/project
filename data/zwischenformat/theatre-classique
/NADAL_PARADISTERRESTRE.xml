@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LE PARADIS TERRESTRE</title>
+        <subtitle>Imité de Milton, poète anglais.</subtitle>
+        <subtitle>Divertissement spirituel en un acte</subtitle>
+        <genretitle>Divertissement</genretitle>
+        <author>NADAL, Augustin</author>
+        <date when="1735">1735</date>
+        <source>https://github.com/dramacode/theatre-classique/NADAL_PARADISTERRESTRE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>l_narrateur</name>
+            <alias xml:id="l_narrateur">
+                <name>l_narrateur</name>
+            </alias>
+        </character>
+        <character>
+            <name>adam</name>
+            <alias xml:id="adam">
+                <name>adam</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>eve</name>
+            <alias xml:id="eve">
+                <name>eve</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>_ange</name>
+            <alias xml:id="_ange">
+                <name>_ange</name>
+            </alias>
+        </character>
+        <character>
+            <name>adam_et_eve</name>
+            <alias xml:id="adam_et_eve">
+                <name>adam_et_eve</name>
+            </alias>
+        </character>
+        <character>
+            <name>choeur</name>
+            <alias xml:id="choeur">
+                <name>choeur</name>
+                <sex>0</sex>
+            </alias>
+        </character>
+        <character>
+            <name>voi_d_choeur</name>
+            <alias xml:id="voi_d_choeur">
+                <name>voi_d_choeur</name>
+            </alias>
+        </character>
+        <character>
+            <name>adam_eve</name>
+            <alias xml:id="adam_eve">
+                <name>adam_eve</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head/>
+            <div>
+                <head>SCÈNE PREMIÈRE. Adam, Ève, Le Narrateur.</head>
+                <sp who="#l_narrateur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="197" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="979" unit="chars"/>
+                </sp>
+                <sp who="#adam">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="229" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="1131" unit="chars"/>
+                </sp>
+                <sp who="#eve">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="136" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="641" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Un Ange, Adam, Ève, Le Narrateur.</head>
+                <sp who="#eve">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="56" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="277" unit="chars"/>
+                </sp>
+                <sp who="#_ange">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="88" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="404" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Adam, Ève, Le Narrateur.</head>
+                <sp who="#adam">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="37" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="178" unit="chars"/>
+                </sp>
+                <sp who="#eve">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="111" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="495" unit="chars"/>
+                </sp>
+                <sp who="#adam_et_eve">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="127" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE I. et DENIÈRE. L'Ange, Choeur des Anges, plusieurs vois prises du Choeur des Anges, Adam, Ève, Le Narrateur.</head>
+                <sp who="#l_narrateur">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="46" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="235" unit="chars"/>
+                </sp>
+                <sp who="#_ange">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="155" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="778" unit="chars"/>
+                </sp>
+                <sp who="#choeur">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="62" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="310" unit="chars"/>
+                </sp>
+                <sp who="#voi_d_choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="103" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="526" unit="chars"/>
+                </sp>
+                <sp who="#adam_eve">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="41" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="216" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

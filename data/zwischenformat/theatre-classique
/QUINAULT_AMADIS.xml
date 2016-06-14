@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>AMADIS</title>
+        <subtitle>TRAGÉDIE en musique.</subtitle>
+        <genretitle>Tragédie en musique</genretitle>
+        <author>QUINAULT, Philippe</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/QUINAULT_AMADIS.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>urgande_et_alquif</name>
+            <alias xml:id="urgande_et_alquif">
+                <name>urgande_et_alquif</name>
+            </alias>
+        </character>
+        <character>
+            <name>les_suivants_d_alquif_et_les_suivantes_d_urgande</name>
+            <alias xml:id="les_suivants_d_alquif_et_les_suivantes_d_urgande">
+                <name>les_suivants_d_alquif_et_les_suivantes_d_urgande</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_choeur</name>
+            <alias xml:id="le_choeur">
+                <name>le_choeur</name>
+            </alias>
+        </character>
+        <character>
+            <name>urgande</name>
+            <alias xml:id="urgande">
+                <name>urgande</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>alquif</name>
+            <alias xml:id="alquif">
+                <name>alquif</name>
+            </alias>
+        </character>
+        <character>
+            <name>urgande_et_le_choeur</name>
+            <alias xml:id="urgande_et_le_choeur">
+                <name>urgande_et_le_choeur</name>
+            </alias>
+        </character>
+        <character>
+            <name>florestan</name>
+            <alias xml:id="florestan">
+                <name>florestan</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>amadis</name>
+            <alias xml:id="amadis">
+                <name>amadis</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>corisande</name>
+            <alias xml:id="corisande">
+                <name>corisande</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>corisande_et_florestan</name>
+            <alias xml:id="corisande_et_florestan">
+                <name>corisande_et_florestan</name>
+            </alias>
+        </character>
+        <character>
+            <name>oriane</name>
+            <alias xml:id="oriane">
+                <name>oriane</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>une_suivante_d_oriane</name>
+            <alias xml:id="une_suivante_d_oriane">
+                <name>une_suivante_d_oriane</name>
+            </alias>
+        </character>
+        <character>
+            <name>arcabonne</name>
+            <alias xml:id="arcabonne">
+                <name>arcabonne</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>arcalaüs</name>
+            <alias xml:id="arcalaüs">
+                <name>arcalaüs</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>arcabonne_et_arcalaüs</name>
+            <alias xml:id="arcabonne_et_arcalaüs">
+                <name>arcabonne_et_arcalaüs</name>
+            </alias>
+        </character>
+        <character>
+            <name>deux_ber_res__un_berger_et_choeur</name>
+            <alias xml:id="deux_ber_res__un_berger_et_choeur">
+                <name>deux_ber_res__un_berger_et_choeur</name>
+            </alias>
+        </character>
+        <character>
+            <name>choeur_des_captives_et_des_captifs</name>
+            <alias xml:id="choeur_des_captives_et_des_captifs">
+                <name>choeur_des_captives_et_des_captifs</name>
+            </alias>
+        </character>
+        <character>
+            <name>choeur_des_geoliers</name>
+            <alias xml:id="choeur_des_geoliers">
+                <name>choeur_des_geoliers</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_ombre_d_arda_canile</name>
+            <alias xml:id="l_ombre_d_arda_canile">
+                <name>l_ombre_d_arda_canile</name>
+            </alias>
+        </character>
+        <character>
+            <name>florestan__corisande__le_choeur</name>
+            <alias xml:id="florestan__corisande__le_choeur">
+                <name>florestan__corisande__le_choeur</name>
+            </alias>
+        </character>
+        <character>
+            <name>les_suivantes_d_urgande</name>
+            <alias xml:id="les_suivantes_d_urgande">
+                <name>les_suivantes_d_urgande</name>
+            </alias>
+        </character>
+        <character>
+            <name>oriane_et_amadis</name>
+            <alias xml:id="oriane_et_amadis">
+                <name>oriane_et_amadis</name>
+            </alias>
+        </character>
+        <character>
+            <name>corisande_et_le_choeur</name>
+            <alias xml:id="corisande_et_le_choeur">
+                <name>corisande_et_le_choeur</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>PROLOGUE</head>
+            <div>
+                <head>OUVERTURE.</head>
+                <sp who="#urgande_et_alquif">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="147" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="737" unit="chars"/>
+                </sp>
+                <sp who="#les_suivants_d_alquif_et_les_suivantes_d_urgande">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="35" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="100" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="491" unit="chars"/>
+                </sp>
+                <sp who="#urgande">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="156" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="787" unit="chars"/>
+                </sp>
+                <sp who="#alquif">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="74" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="359" unit="chars"/>
+                </sp>
+                <sp who="#urgande_et_le_choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="318" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Amadis, Florestan</head>
+                <sp who="#florestan">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="179" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="888" unit="chars"/>
+                </sp>
+                <sp who="#amadis">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="249" unit="words"/>
+                    <amount n="45" unit="lines"/>
+                    <amount n="1244" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Corisande, Florestan, Ritournelle.</head>
+                <sp who="#corisande">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="182" unit="chars"/>
+                </sp>
+                <sp who="#florestan">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="99" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="491" unit="chars"/>
+                </sp>
+                <sp who="#corisande_et_florestan">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="41" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="208" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Oriane, Florestan, Corisande.</head>
+                <sp who="#corisande">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="58" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="307" unit="chars"/>
+                </sp>
+                <sp who="#oriane">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="178" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="848" unit="chars"/>
+                </sp>
+                <sp who="#florestan">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="176" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Oriane, Florestan, Corisande, Troupe de combattants de deux différents partis, Nymphes de la suite d'Oriane, Peuples.</head>
+                <sp who="#une_suivante_d_oriane">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="213" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="37" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="188" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE PREMIÈRE.</head>
+                <sp who="#arcabonne">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="81" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="380" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Arcalaüs, Arcabonne.</head>
+                <sp who="#arcalaüs">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="126" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="664" unit="chars"/>
+                </sp>
+                <sp who="#arcabonne">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="283" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1334" unit="chars"/>
+                </sp>
+                <sp who="#arcabonne_et_arcalaüs">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="131" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III.</head>
+                <sp who="#arcalaüs">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="60" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="300" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV.</head>
+                <sp who="#amadis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="51" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="231" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Corisande, Amadis, Ritorunelle.</head>
+                <sp who="#corisande">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="98" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="498" unit="chars"/>
+                </sp>
+                <sp who="#amadis">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="57" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="302" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Arcalaüs, Suivants d'Arcalaüs, Amadis, Corisande.</head>
+                <sp who="#arcalaüs">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="84" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="402" unit="chars"/>
+                </sp>
+                <sp who="#amadis">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="27" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="131" unit="chars"/>
+                </sp>
+                <sp who="#corisande">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="93" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Amadis, Troupe de de Bergères et de Bergers.</head>
+                <sp who="#le_choeur">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="51" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="228" unit="chars"/>
+                </sp>
+                <sp who="#deux_ber_res__un_berger_et_choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="187" unit="chars"/>
+                </sp>
+                <sp who="#amadis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="67" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="324" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I. Florestan, enchaîné et enfermé dans un cachot ; Corisandre, enchaînée et enfermée dans un autre cachot, Troupe de captives et de captifs enfermés ; Troupe de Geôliers.</head>
+                <sp who="#choeur_des_captives_et_des_captifs">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="67" unit="chars"/>
+                </sp>
+                <sp who="#choeur_des_geoliers">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="56" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Arcabonne et les mêmes acteurs de la scène précédente.</head>
+                <sp who="#arcabonne">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="157" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="780" unit="chars"/>
+                </sp>
+                <sp who="#choeur_des_captives_et_des_captifs">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="82" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. L'Ombre d'Ardan-Canile et les Acteurs de la scène précédente.</head>
+                <sp who="#l_ombre_d_arda_canile">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="55" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="230" unit="chars"/>
+                </sp>
+                <sp who="#arcabonne">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="166" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Amadis enchaîné, Troupe de soldats, qui gardent Amadis,  et les acteurs de la scène précédente.</head>
+                <sp who="#arcabonne">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="120" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="553" unit="chars"/>
+                </sp>
+                <sp who="#amadis">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="201" unit="chars"/>
+                </sp>
+                <sp who="#florestan__corisande__le_choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="63" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="337" unit="chars"/>
+                </sp>
+                <sp who="#corisande">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="51" unit="chars"/>
+                </sp>
+                <sp who="#florestan">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="51" unit="chars"/>
+                </sp>
+                <sp who="#corisande_et_florestan">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="41" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="189" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE I. Arcalaüs, Arcabonne.</head>
+                <sp who="#arcalaüs">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="219" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="1092" unit="chars"/>
+                </sp>
+                <sp who="#arcabonne">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="187" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="865" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II.</head>
+                <sp who="#oriane">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="118" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="582" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Arcalaüs, Oriane.</head>
+                <sp who="#arcalaüs">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="74" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="353" unit="chars"/>
+                </sp>
+                <sp who="#oriane">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="149" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="688" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Oriane, Amadis  qui paraît mort.</head>
+                <sp who="#oriane">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="152" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="699" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. rcalaüs, Arcabonne, Amadis qui paraît mort, Oriane, évanouie.</head>
+                <sp who="#arcabonne_et_arcalaüs">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="90" unit="chars"/>
+                </sp>
+                <sp who="#arcabonne">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="55" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="287" unit="chars"/>
+                </sp>
+                <sp who="#arcalaüs">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="98" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Urgande, Troupe de suivantes d'Urgande, Arcalaüs, Arcabonne, Amadis qui paraît mort, Oriane évanouie.</head>
+                <sp who="#urgande">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="140" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="680" unit="chars"/>
+                </sp>
+                <sp who="#arcabonne_et_arcalaüs">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="86" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="424" unit="chars"/>
+                </sp>
+                <sp who="#les_suivantes_d_urgande">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="43" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="215" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE I. Urgande, Amadis.</head>
+                <sp who="#urgande">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="62" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="316" unit="chars"/>
+                </sp>
+                <sp who="#amadis">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="121" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="541" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Oriane, Amadis.</head>
+                <sp who="#oriane">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="179" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="828" unit="chars"/>
+                </sp>
+                <sp who="#oriane_et_amadis">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="152" unit="chars"/>
+                </sp>
+                <sp who="#amadis">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="209" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV ET DERNIÈRE. Amadis, Oriane, Urgande, Florestan, Corisande, Troupe de héros et d'héroïne.</head>
+                <sp who="#le_choeur">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="222" unit="chars"/>
+                </sp>
+                <sp who="#corisande_et_le_choeur">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="54" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="261" unit="chars"/>
+                </sp>
+                <sp who="#corisande">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="43" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="196" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

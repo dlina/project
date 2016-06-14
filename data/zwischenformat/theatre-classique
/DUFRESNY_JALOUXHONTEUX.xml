@@ -1,0 +1,842 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LE JALOUX HONTEUX</title>
+        <subtitle>COMÉDIE EN CINQ ACTES.</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>DUFRESNY, Charles Rivière</author>
+        <date when="1699">1699</date>
+        <source>https://github.com/dramacode/theatre-classique/DUFRESNY_JALOUXHONTEUX.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>monsieu_argan</name>
+            <alias xml:id="monsieu_argan">
+                <name>monsieu_argan</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>frontin</name>
+            <alias xml:id="frontin">
+                <name>frontin</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>lisette</name>
+            <alias xml:id="lisette">
+                <name>lisette</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>lucie</name>
+            <alias xml:id="lucie">
+                <name>lucie</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>la_p_sidente</name>
+            <alias xml:id="la_p_sidente">
+                <name>la_p_sidente</name>
+            </alias>
+        </character>
+        <character>
+            <name>hortence</name>
+            <alias xml:id="hortence">
+                <name>hortence</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>damis</name>
+            <alias xml:id="damis">
+                <name>damis</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>thibaut</name>
+            <alias xml:id="thibaut">
+                <name>thibaut</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_p_sident</name>
+            <alias xml:id="l_p_sident">
+                <name>l_p_sident</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE I. Monsieur Argan, Frontin.</head>
+                <sp who="#monsieu_argan">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="234" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="1143" unit="chars"/>
+                </sp>
+                <sp who="#frontin">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="374" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1837" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Monsieur Argan, Frontin, Lisette.</head>
+                <sp who="#monsieu_argan">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="106" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="549" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="289" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="1434" unit="chars"/>
+                </sp>
+                <sp who="#frontin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="286" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III.</head>
+                <sp who="#lisette">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="169" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="817" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Lucie, Lisette.</head>
+                <sp who="#lisette">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="441" unit="words"/>
+                    <amount n="74" unit="lines"/>
+                    <amount n="2143" unit="chars"/>
+                </sp>
+                <sp who="#lucie">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="412" unit="words"/>
+                    <amount n="59" unit="lines"/>
+                    <amount n="2037" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Lucie, Lisette, La Présidente avec un habit tout semblable à Lucie.</head>
+                <sp who="#lisette">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="420" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="2104" unit="chars"/>
+                </sp>
+                <sp who="#la_p_sidente">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="267" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="1348" unit="chars"/>
+                </sp>
+                <sp who="#lucie">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="80" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="422" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. La Présidente, Lucie, Lisette, Hortence, qui vient écouter la Présidente.</head>
+                <sp who="#lucie">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="275" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="61" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="312" unit="chars"/>
+                </sp>
+                <sp who="#la_p_sidente">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="131" unit="chars"/>
+                </sp>
+                <sp who="#hortence">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="183" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII.</head>
+                <sp who="#hortence">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="67" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="316" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Hortence, Damis.</head>
+                <sp who="#damis">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="45" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="221" unit="chars"/>
+                </sp>
+                <sp who="#hortence">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="84" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="356" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Thibaut, Damis.</head>
+                <sp who="#damis">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="194" unit="words"/>
+                    <amount n="55" unit="lines"/>
+                    <amount n="996" unit="chars"/>
+                </sp>
+                <sp who="#thibaut">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="470" unit="words"/>
+                    <amount n="54" unit="lines"/>
+                    <amount n="2042" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE I. Damis, Lisette.</head>
+                <sp who="#lisette">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="338" unit="words"/>
+                    <amount n="45" unit="lines"/>
+                    <amount n="1675" unit="chars"/>
+                </sp>
+                <sp who="#damis">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="198" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="877" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Lisette, Frontin.</head>
+                <sp who="#lisette">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="90" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="419" unit="chars"/>
+                </sp>
+                <sp who="#frontin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="110" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Lisette, Frontin, Hortence.</head>
+                <sp who="#hortence">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="43" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="63" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Hortence, Frontin.</head>
+                <sp who="#frontin">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="313" unit="words"/>
+                    <amount n="56" unit="lines"/>
+                    <amount n="1596" unit="chars"/>
+                </sp>
+                <sp who="#hortence">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="406" unit="words"/>
+                    <amount n="56" unit="lines"/>
+                    <amount n="1771" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Le Président, La Présidente, Hortence.</head>
+                <sp who="#l_p_sident">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="132" unit="chars"/>
+                </sp>
+                <sp who="#la_p_sidente">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="76" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Le Président, La Présidente.</head>
+                <sp who="#l_p_sident">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="548" unit="words"/>
+                    <amount n="73" unit="lines"/>
+                    <amount n="2742" unit="chars"/>
+                </sp>
+                <sp who="#la_p_sidente">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="348" unit="words"/>
+                    <amount n="56" unit="lines"/>
+                    <amount n="1786" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Le Président, La Présidente, Lucie.</head>
+                <sp who="#l_p_sident">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="406" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="1958" unit="chars"/>
+                </sp>
+                <sp who="#lucie">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="69" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="307" unit="chars"/>
+                </sp>
+                <sp who="#la_p_sidente">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="93" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="419" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII.</head>
+                <sp who="#l_p_sident">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="68" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="355" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Le Président, Thibaut.</head>
+                <sp who="#thibaut">
+                    <amount n="21" unit="speech_acts"/>
+                    <amount n="594" unit="words"/>
+                    <amount n="78" unit="lines"/>
+                    <amount n="2581" unit="chars"/>
+                </sp>
+                <sp who="#l_p_sident">
+                    <amount n="20" unit="speech_acts"/>
+                    <amount n="226" unit="words"/>
+                    <amount n="67" unit="lines"/>
+                    <amount n="1028" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I. Le Président, Monsieur Argan, La Présidente, Lucie, Lisette, Frontin.</head>
+                <sp who="#monsieu_argan">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="345" unit="chars"/>
+                </sp>
+                <sp who="#lucie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="56" unit="chars"/>
+                </sp>
+                <sp who="#l_p_sident">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="125" unit="chars"/>
+                </sp>
+                <sp who="#frontin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="32" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. La Présidente, Lucie, Lisette.</head>
+                <sp who="#lucie">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="133" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="590" unit="chars"/>
+                </sp>
+                <sp who="#la_p_sidente">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="88" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="446" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="196" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="947" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Lucie, Le Président.</head>
+                <sp who="#l_p_sident">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="520" unit="words"/>
+                    <amount n="59" unit="lines"/>
+                    <amount n="2494" unit="chars"/>
+                </sp>
+                <sp who="#lucie">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="408" unit="words"/>
+                    <amount n="57" unit="lines"/>
+                    <amount n="1966" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV.</head>
+                <sp who="#l_p_sident">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="202" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Le Président, Thibaut, Hortence.</head>
+                <sp who="#l_p_sident">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="89" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="427" unit="chars"/>
+                </sp>
+                <sp who="#hortence">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="361" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1582" unit="chars"/>
+                </sp>
+                <sp who="#thibaut">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="73" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="354" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI.</head>
+                <sp who="#hortence">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="175" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Hortence, Frontin.</head>
+                <sp who="#frontin">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="198" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="839" unit="chars"/>
+                </sp>
+                <sp who="#hortence">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="160" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="664" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE I.</head>
+                <sp who="#hortence">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="329" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1114" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Hortence, Le Président, Thibaut, Lisette.</head>
+                <sp who="#l_p_sident">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="125" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="563" unit="chars"/>
+                </sp>
+                <sp who="#thibaut">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="90" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="168" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="730" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Le Président, Hortence, Thibaut.</head>
+                <sp who="#l_p_sident">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="87" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="393" unit="chars"/>
+                </sp>
+                <sp who="#hortence">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="61" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="268" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Le Président, Thibaut.</head>
+                <sp who="#l_p_sident">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="140" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="640" unit="chars"/>
+                </sp>
+                <sp who="#thibaut">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="186" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V.</head>
+                <sp who="#l_p_sident">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="244" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="1093" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Le Président, La Présidente en écharpe.</head>
+                <sp who="#l_p_sident">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="205" unit="words"/>
+                    <amount n="50" unit="lines"/>
+                    <amount n="935" unit="chars"/>
+                </sp>
+                <sp who="#la_p_sidente">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="199" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="925" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Le Président, La Présidente, Damis de loin.</head>
+                <sp who="#la_p_sidente">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="82" unit="chars"/>
+                </sp>
+                <sp who="#l_p_sident">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="183" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Le Président, Damis.</head>
+                <sp who="#l_p_sident">
+                    <amount n="20" unit="speech_acts"/>
+                    <amount n="405" unit="words"/>
+                    <amount n="78" unit="lines"/>
+                    <amount n="1864" unit="chars"/>
+                </sp>
+                <sp who="#damis">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="493" unit="words"/>
+                    <amount n="69" unit="lines"/>
+                    <amount n="2427" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX.</head>
+                <sp who="#l_p_sident">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="73" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="296" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Le Président, Thibaut.</head>
+                <sp who="#thibaut">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="67" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="326" unit="chars"/>
+                </sp>
+                <sp who="#l_p_sident">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="176" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Le Président, Lisette.</head>
+                <sp who="#lisette">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="171" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="804" unit="chars"/>
+                </sp>
+                <sp who="#l_p_sident">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="158" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII.</head>
+                <sp who="#lisette">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="93" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="458" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE I. Le Président, Thibaut.</head>
+                <sp who="#l_p_sident">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="176" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="827" unit="chars"/>
+                </sp>
+                <sp who="#thibaut">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="97" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Thibaut, Hortence.</head>
+                <sp who="#hortence">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="198" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="925" unit="chars"/>
+                </sp>
+                <sp who="#thibaut">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="63" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="282" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Hortence, Frontin, Thibaut de loin qui les examine.</head>
+                <sp who="#frontin">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="154" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="732" unit="chars"/>
+                </sp>
+                <sp who="#hortence">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="121" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="557" unit="chars"/>
+                </sp>
+                <sp who="#thibaut">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="3" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="22" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Thibaut, Frontin, Lisette.</head>
+                <sp who="#thibaut">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="101" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="154" unit="chars"/>
+                </sp>
+                <sp who="#frontin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="56" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. La Présidente, Lucie, Lisette.</head>
+                <sp who="#la_p_sidente">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="105" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="497" unit="chars"/>
+                </sp>
+                <sp who="#lucie">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="136" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="651" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="213" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="1061" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI.</head>
+                <sp who="#lucie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="86" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="461" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Lucie, Lisette, Damis.</head>
+                <sp who="#damis">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="214" unit="words"/>
+                    <amount n="47" unit="lines"/>
+                    <amount n="1047" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="78" unit="chars"/>
+                </sp>
+                <sp who="#lucie">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="153" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="727" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Lucie, Damis, Le Président, Frontin.</head>
+                <sp who="#frontin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="99" unit="chars"/>
+                </sp>
+                <sp who="#l_p_sident">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="4" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="22" unit="chars"/>
+                </sp>
+                <sp who="#damis">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="110" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="481" unit="chars"/>
+                </sp>
+                <sp who="#lucie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="118" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Lisette, Lucie, Damis, Le Président, Frontin, Hortence, La Présidente.</head>
+                <sp who="#l_p_sident">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="159" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="717" unit="chars"/>
+                </sp>
+                <sp who="#lucie">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="46" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="210" unit="chars"/>
+                </sp>
+                <sp who="#damis">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="50" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="252" unit="chars"/>
+                </sp>
+                <sp who="#la_p_sidente">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="111" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="118" unit="chars"/>
+                </sp>
+                <sp who="#frontin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="98" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="464" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LE BAL</title>
+        <subtitle>COMÉDIE EN UN ACTE,</subtitle>
+        <subtitle>AVEC UN DIVERTISSEMENT</subtitle>
+        <subtitle>OEUVRES COMPLÈTES DE J. F. REGNARD NOUVELLE ÉDITION AVEC DES VARIANTES ET DES NOTES.</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>REGNARD, Jean-François</author>
+        <date when="1692">1692</date>
+        <source>https://github.com/dramacode/theatre-classique/REGNARD_BAL.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>merlin</name>
+            <alias xml:id="merlin">
+                <name>merlin</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>monsieu_grasset</name>
+            <alias xml:id="monsieu_grasset">
+                <name>monsieu_grasset</name>
+            </alias>
+        </character>
+        <character>
+            <name>monsieu_l_montagne</name>
+            <alias xml:id="monsieu_l_montagne">
+                <name>monsieu_l_montagne</name>
+            </alias>
+        </character>
+        <character>
+            <name>lisette</name>
+            <alias xml:id="lisette">
+                <name>lisette</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>gillette</name>
+            <alias xml:id="gillette">
+                <name>gillette</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>sotencour</name>
+            <alias xml:id="sotencour">
+                <name>sotencour</name>
+            </alias>
+        </character>
+        <character>
+            <name>mathie_crochet</name>
+            <alias xml:id="mathie_crochet">
+                <name>mathie_crochet</name>
+            </alias>
+        </character>
+        <character>
+            <name>_ronte</name>
+            <alias xml:id="_ronte">
+                <name>_ronte</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>_onore</name>
+            <alias xml:id="_onore">
+                <name>_onore</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>va_re</name>
+            <alias xml:id="va_re">
+                <name>va_re</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_baron</name>
+            <alias xml:id="l_baron">
+                <name>l_baron</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_masques</name>
+            <alias xml:id="le_masques">
+                <name>le_masques</name>
+            </alias>
+        </character>
+        <character>
+            <name>un_ber_re</name>
+            <alias xml:id="un_ber_re">
+                <name>un_ber_re</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_choeur</name>
+            <alias xml:id="l_choeur">
+                <name>l_choeur</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head/>
+            <div>
+                <head>SCÈNE I.</head>
+                <sp who="#merlin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="267" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="1221" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Merlin, M. Grasset, tenant un plat de rôt&#160;; M. La Montagne, tenant un panier de bouteilles.</head>
+                <sp who="#monsieu_grasset">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="115" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="520" unit="chars"/>
+                </sp>
+                <sp who="#monsieu_l_montagne">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="64" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="238" unit="chars"/>
+                </sp>
+                <sp who="#merlin">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="453" unit="words"/>
+                    <amount n="57" unit="lines"/>
+                    <amount n="2049" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. </head>
+                <sp who="#merlin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="124" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Lisette, Merlin.</head>
+                <sp who="#lisette">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="535" unit="words"/>
+                    <amount n="58" unit="lines"/>
+                    <amount n="2308" unit="chars"/>
+                </sp>
+                <sp who="#merlin">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="680" unit="words"/>
+                    <amount n="72" unit="lines"/>
+                    <amount n="3046" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V.</head>
+                <sp who="#lisette">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="175" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Gillette, Lisette.</head>
+                <sp who="#gillette">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="282" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="103" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Sotencour, Mathieu Crochet, en guêtres, un Valet, qui porte une lanterne et un sac.</head>
+                <sp who="#sotencour">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="438" unit="words"/>
+                    <amount n="45" unit="lines"/>
+                    <amount n="1899" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="216" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="1003" unit="chars"/>
+                </sp>
+                <sp who="#mathie_crochet">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="49" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="232" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Géronte, Léonore, Sotencour, Mathieu Crochet, Lisette.</head>
+                <sp who="#_ronte">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="60" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="256" unit="chars"/>
+                </sp>
+                <sp who="#sotencour">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="615" unit="words"/>
+                    <amount n="65" unit="lines"/>
+                    <amount n="2757" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="92" unit="chars"/>
+                </sp>
+                <sp who="#mathie_crochet">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="118" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="527" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Léonore, Lisette, regardant partir Mathieu Crochet.</head>
+                <sp who="#lisette">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="100" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="427" unit="chars"/>
+                </sp>
+                <sp who="#_onore">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="141" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Léonore, Lisette, Merlin, en maître de musique, avec des porteurs d'instruments dans l'un desquels est Valère.</head>
+                <sp who="#merlin">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="459" unit="words"/>
+                    <amount n="66" unit="lines"/>
+                    <amount n="1926" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="169" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="746" unit="chars"/>
+                </sp>
+                <sp who="#_onore">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="68" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="319" unit="chars"/>
+                </sp>
+                <sp who="#va_re">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="121" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="513" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Géronte, Sotencour, Lisette, Merlin, Valère, dans l'étui.</head>
+                <sp who="#merlin">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="344" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="1491" unit="chars"/>
+                </sp>
+                <sp who="#sotencour">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="301" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="1339" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="172" unit="chars"/>
+                </sp>
+                <sp who="#_ronte">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="12" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII. Sotencour, Lisette.</head>
+                <sp who="#sotencour">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="204" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="890" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="54" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="250" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIII. Le Baron d'Aubignac, Gascon&#160;; Lisette, Sotencour. </head>
+                <sp who="#l_baron">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="387" unit="words"/>
+                    <amount n="51" unit="lines"/>
+                    <amount n="1750" unit="chars"/>
+                </sp>
+                <sp who="#sotencour">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="246" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1071" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="60" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="260" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIV. Géronte, Sotencour, Lisette, Le Baron d'Aubignac.</head>
+                <sp who="#_ronte">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="97" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="423" unit="chars"/>
+                </sp>
+                <sp who="#l_baron">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="330" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="1485" unit="chars"/>
+                </sp>
+                <sp who="#sotencour">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="165" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="696" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XV. Géronte, Lisette, Sotencour.</head>
+                <sp who="#_ronte">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="56" unit="chars"/>
+                </sp>
+                <sp who="#sotencour">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="82" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="355" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="107" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVI. Mathieu Crochet, en habit de Cupidon, Géronte, Sotencour, Lisette, Léonore, couverte d'une grande mante de Taffetas, un masque à la main&#160;; une Troupe de différents Masques. </head>
+                <sp who="#mathie_crochet">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="27" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="101" unit="chars"/>
+                </sp>
+                <sp who="#sotencour">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="61" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="264" unit="chars"/>
+                </sp>
+                <sp who="#_onore">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="56" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="68" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="297" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVII. Merlin, Géronte, Léonore, Lisette, Le Baron d'Aubignac, Sotencour, Mathieu Crochet, et tous les Masques.</head>
+                <sp who="#merlin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="57" unit="chars"/>
+                </sp>
+                <sp who="#sotencour">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="49" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="226" unit="chars"/>
+                </sp>
+                <sp who="#mathie_crochet">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="207" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVIII. Gillette, Géronte, Sotencour, Merlin, Le Baron, et tous les Masques. </head>
+                <sp who="#gillette">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="110" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="498" unit="chars"/>
+                </sp>
+                <sp who="#_ronte">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="86" unit="chars"/>
+                </sp>
+                <sp who="#sotencour">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="56" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="243" unit="chars"/>
+                </sp>
+                <sp who="#merlin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="52" unit="chars"/>
+                </sp>
+                <sp who="#l_baron">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="95" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="453" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIX. Valère, Géronte, Sotencour, Mathieu Crochet, Merlin, Le Baron, et tous les Masques. </head>
+                <sp who="#va_re">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="77" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="336" unit="chars"/>
+                </sp>
+                <sp who="#_ronte">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="105" unit="chars"/>
+                </sp>
+                <sp who="#sotencour">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="187" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="801" unit="chars"/>
+                </sp>
+                <sp who="#mathie_crochet">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="26" unit="chars"/>
+                </sp>
+                <sp who="#merlin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="26" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XX. Léonore, Géronte, Valère, Lisette, Merlin, Le Baron, et tous les Masques.</head>
+                <sp who="#_onore">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="78" unit="chars"/>
+                </sp>
+                <sp who="#_ronte">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="273" unit="chars"/>
+                </sp>
+                <sp who="#va_re">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="13" unit="chars"/>
+                </sp>
+                <sp who="#merlin">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="192" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="788" unit="chars"/>
+                </sp>
+                <sp who="#l_baron">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="71" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="308" unit="chars"/>
+                </sp>
+                <sp who="#le_masques">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="27" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="103" unit="chars"/>
+                </sp>
+                <sp who="#un_ber_re">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="37" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="112" unit="chars"/>
+                </sp>
+                <sp who="#l_choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="37" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="112" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

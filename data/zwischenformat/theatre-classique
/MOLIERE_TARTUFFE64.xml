@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LE TARTUFFE ou L'HYPOCRITE</title>
+        <subtitle>COMÉDIE</subtitle>
+        <subtitle>[version de 1664 reconstruite par Georges Forestier et Isabelle Grellet]</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>MOLIÈRE</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/MOLIERE_TARTUFFE64.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>madame_pernelle</name>
+            <alias xml:id="madame_pernelle">
+                <name>madame_pernelle</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>elmire</name>
+            <alias xml:id="elmire">
+                <name>elmire</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>dorine</name>
+            <alias xml:id="dorine">
+                <name>dorine</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>damis</name>
+            <alias xml:id="damis">
+                <name>damis</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>c_ante</name>
+            <alias xml:id="c_ante">
+                <name>c_ante</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>orgon</name>
+            <alias xml:id="orgon">
+                <name>orgon</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>tartuffe</name>
+            <alias xml:id="tartuffe">
+                <name>tartuffe</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE PREMIER</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. MADAME Pernelle, et Flipotte sa Servante, ELMIRE, DORINE, DAMIS, CLEANTE.</head>
+                <sp who="#madame_pernelle">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="1027" unit="words"/>
+                    <amount n="109" unit="lines"/>
+                    <amount n="4514" unit="chars"/>
+                </sp>
+                <sp who="#elmire">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="45" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="178" unit="chars"/>
+                </sp>
+                <sp who="#dorine">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="553" unit="words"/>
+                    <amount n="63" unit="lines"/>
+                    <amount n="2625" unit="chars"/>
+                </sp>
+                <sp who="#damis">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="121" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="549" unit="chars"/>
+                </sp>
+                <sp who="#c_ante">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="106" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="501" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Cléante, Dorine.</head>
+                <sp who="#c_ante">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="41" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="191" unit="chars"/>
+                </sp>
+                <sp who="#dorine">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="427" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1869" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Elmire, Damis, Cléante, Dorine.</head>
+                <sp who="#elmire">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="182" unit="chars"/>
+                </sp>
+                <sp who="#c_ante">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="90" unit="chars"/>
+                </sp>
+                <sp who="#damis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="211" unit="chars"/>
+                </sp>
+                <sp who="#dorine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="3" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="10" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Orgon, Cléante, Dorine.</head>
+                <sp who="#orgon">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="89" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="409" unit="chars"/>
+                </sp>
+                <sp who="#c_ante">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="101" unit="chars"/>
+                </sp>
+                <sp who="#dorine">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="258" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1190" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Orgon, Cléante.</head>
+                <sp who="#c_ante">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="1144" unit="words"/>
+                    <amount n="135" unit="lines"/>
+                    <amount n="5327" unit="chars"/>
+                </sp>
+                <sp who="#orgon">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="645" unit="words"/>
+                    <amount n="81" unit="lines"/>
+                    <amount n="2863" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Damis, Dorine.</head>
+                <sp who="#damis">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="96" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="404" unit="chars"/>
+                </sp>
+                <sp who="#dorine">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="186" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="870" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Tartuffe, Laurent, Dorine.</head>
+                <sp who="#tartuffe">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="117" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="554" unit="chars"/>
+                </sp>
+                <sp who="#dorine">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="178" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="795" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Elmire, Tartuffe.</head>
+                <sp who="#tartuffe">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="1109" unit="words"/>
+                    <amount n="124" unit="lines"/>
+                    <amount n="5134" unit="chars"/>
+                </sp>
+                <sp who="#elmire">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="377" unit="words"/>
+                    <amount n="54" unit="lines"/>
+                    <amount n="1704" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. DAMIS, ELMIRE, TARTUFFE.</head>
+                <sp who="#damis">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="276" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="1264" unit="chars"/>
+                </sp>
+                <sp who="#elmire">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="282" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Orgon, Damis, Tartuffe, Elmire.</head>
+                <sp who="#damis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="127" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="577" unit="chars"/>
+                </sp>
+                <sp who="#elmire">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="79" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="353" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Orgon, Damis, Tartuffe.</head>
+                <sp who="#orgon">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="290" unit="words"/>
+                    <amount n="55" unit="lines"/>
+                    <amount n="1237" unit="chars"/>
+                </sp>
+                <sp who="#tartuffe">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="344" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1578" unit="chars"/>
+                </sp>
+                <sp who="#damis">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="73" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="253" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Orgon, Tartuffe.</head>
+                <sp who="#orgon">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="219" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="944" unit="chars"/>
+                </sp>
+                <sp who="#tartuffe">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="260" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="1188" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Cléante, Tartuffe.</head>
+                <sp who="#c_ante">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="521" unit="words"/>
+                    <amount n="59" unit="lines"/>
+                    <amount n="2489" unit="chars"/>
+                </sp>
+                <sp who="#tartuffe">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="347" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1542" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Elmire, Damis, Dorine, Cléante.</head>
+                <sp who="#dorine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="68" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="324" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Orgon, Elmire, Damis, Cléante, Dorine.</head>
+                <sp who="#orgon">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="228" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="995" unit="chars"/>
+                </sp>
+                <sp who="#damis">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="203" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="882" unit="chars"/>
+                </sp>
+                <sp who="#dorine">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="79" unit="chars"/>
+                </sp>
+                <sp who="#c_ante">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="55" unit="chars"/>
+                </sp>
+                <sp who="#elmire">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="352" unit="words"/>
+                    <amount n="47" unit="lines"/>
+                    <amount n="1661" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCENE IV. Elmire, Orgon.</head>
+                <sp who="#elmire">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="262" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="1215" unit="chars"/>
+                </sp>
+                <sp who="#orgon">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="27" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="138" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Tartuffe, Elmire, Orgon.</head>
+                <sp who="#tartuffe">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="682" unit="words"/>
+                    <amount n="71" unit="lines"/>
+                    <amount n="3137" unit="chars"/>
+                </sp>
+                <sp who="#elmire">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="906" unit="words"/>
+                    <amount n="100" unit="lines"/>
+                    <amount n="4203" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Orgon, Elmire.</head>
+                <sp who="#orgon">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="143" unit="chars"/>
+                </sp>
+                <sp who="#elmire">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="77" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="358" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Tartuffe, Elmire, Orgon.</head>
+                <sp who="#tartuffe">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="45" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="172" unit="chars"/>
+                </sp>
+                <sp who="#orgon">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="132" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="601" unit="chars"/>
+                </sp>
+                <sp who="#elmire">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="100" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Tartuffe, Elmire, Orgon, Damis, Cléante.</head>
+                <sp who="#damis">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="89" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="406" unit="chars"/>
+                </sp>
+                <sp who="#orgon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="55" unit="chars"/>
+                </sp>
+                <sp who="#c_ante">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="45" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="202" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX ET DERNIÈRE. Madame Pernelle, Elmire, Damis, Orgon, Cléante, Dorine.</head>
+                <sp who="#madame_pernelle">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="228" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="1051" unit="chars"/>
+                </sp>
+                <sp who="#orgon">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="375" unit="words"/>
+                    <amount n="51" unit="lines"/>
+                    <amount n="1665" unit="chars"/>
+                </sp>
+                <sp who="#dorine">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="121" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

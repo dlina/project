@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>CATON</title>
+        <subtitle>TRAGÉDIE</subtitle>
+        <genretitle>Tragédie</genretitle>
+        <author>BOYER, Abel</author>
+        <date when="1646">1646</date>
+        <source>https://github.com/dramacode/theatre-classique/BOYERA_CATON.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>portius</name>
+            <alias xml:id="portius">
+                <name>portius</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>marcus</name>
+            <alias xml:id="marcus">
+                <name>marcus</name>
+            </alias>
+        </character>
+        <character>
+            <name>sempronius</name>
+            <alias xml:id="sempronius">
+                <name>sempronius</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>syphax</name>
+            <alias xml:id="syphax">
+                <name>syphax</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>juba</name>
+            <alias xml:id="juba">
+                <name>juba</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>marcie</name>
+            <alias xml:id="marcie">
+                <name>marcie</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>lucie</name>
+            <alias xml:id="lucie">
+                <name>lucie</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>lucius</name>
+            <alias xml:id="lucius">
+                <name>lucius</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>caton</name>
+            <alias xml:id="caton">
+                <name>caton</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>decius</name>
+            <alias xml:id="decius">
+                <name>decius</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>che_revolte</name>
+            <alias xml:id="che_revolte">
+                <name>che_revolte</name>
+            </alias>
+        </character>
+        <character>
+            <name>premie_che_de_revoltes</name>
+            <alias xml:id="premie_che_de_revoltes">
+                <name>premie_che_de_revoltes</name>
+            </alias>
+        </character>
+        <character>
+            <name>secon_che_de_revoltes</name>
+            <alias xml:id="secon_che_de_revoltes">
+                <name>secon_che_de_revoltes</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Portius, Marcus.</head>
+                <sp who="#portius">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="656" unit="words"/>
+                    <amount n="48" unit="lines"/>
+                    <amount n="3236" unit="chars"/>
+                </sp>
+                <sp who="#marcus">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="651" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="3119" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Sempronius, Portius.</head>
+                <sp who="#sempronius">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="290" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="1454" unit="chars"/>
+                </sp>
+                <sp who="#portius">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="212" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="1001" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III.</head>
+                <sp who="#sempronius">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="160" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="761" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Syphax, Sempronius.</head>
+                <sp who="#syphax">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="179" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="895" unit="chars"/>
+                </sp>
+                <sp who="#sempronius">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="426" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="2065" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V.</head>
+                <sp who="#syphax">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="45" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="185" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Juba, Syphax.</head>
+                <sp who="#juba">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="905" unit="words"/>
+                    <amount n="72" unit="lines"/>
+                    <amount n="4579" unit="chars"/>
+                </sp>
+                <sp who="#syphax">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="952" unit="words"/>
+                    <amount n="82" unit="lines"/>
+                    <amount n="4631" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Juba, Marcie, Lucie.</head>
+                <sp who="#juba">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="211" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="1090" unit="chars"/>
+                </sp>
+                <sp who="#marcie">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="109" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="557" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Lucie, Marcie. </head>
+                <sp who="#lucie">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="452" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="2244" unit="chars"/>
+                </sp>
+                <sp who="#marcie">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="529" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="2626" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Le Sénat assemblé.</head>
+                <sp who="#sempronius">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="483" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="2373" unit="chars"/>
+                </sp>
+                <sp who="#lucius">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="365" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="1853" unit="chars"/>
+                </sp>
+                <sp who="#caton">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="1098" unit="words"/>
+                    <amount n="86" unit="lines"/>
+                    <amount n="5507" unit="chars"/>
+                </sp>
+                <sp who="#marcus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="54" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="239" unit="chars"/>
+                </sp>
+                <sp who="#decius">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="332" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="1598" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Caton, Juba.</head>
+                <sp who="#caton">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="353" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="1742" unit="chars"/>
+                </sp>
+                <sp who="#juba">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="460" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="2296" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Syphax, Juba.</head>
+                <sp who="#syphax">
+                    <amount n="23" unit="speech_acts"/>
+                    <amount n="939" unit="words"/>
+                    <amount n="103" unit="lines"/>
+                    <amount n="4747" unit="chars"/>
+                </sp>
+                <sp who="#juba">
+                    <amount n="23" unit="speech_acts"/>
+                    <amount n="592" unit="words"/>
+                    <amount n="85" unit="lines"/>
+                    <amount n="2925" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV.</head>
+                <sp who="#syphax">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="67" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="322" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Syphax, Sempronius.</head>
+                <sp who="#syphax">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="281" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="1382" unit="chars"/>
+                </sp>
+                <sp who="#sempronius">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="375" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="1877" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Marcus, Portius.</head>
+                <sp who="#marcus">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="579" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="2775" unit="chars"/>
+                </sp>
+                <sp who="#portius">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="240" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="1155" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Lucie, Portius.</head>
+                <sp who="#lucie">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="745" unit="words"/>
+                    <amount n="80" unit="lines"/>
+                    <amount n="3666" unit="chars"/>
+                </sp>
+                <sp who="#portius">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="766" unit="words"/>
+                    <amount n="69" unit="lines"/>
+                    <amount n="3732" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Marcus, Portius.</head>
+                <sp who="#marcus">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="285" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="1392" unit="chars"/>
+                </sp>
+                <sp who="#portius">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="119" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="531" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Sempronius, suivi des Chefs des Révoltés.</head>
+                <sp who="#sempronius">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="64" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="294" unit="chars"/>
+                </sp>
+                <sp who="#che_revolte">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="61" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="286" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Caton, Sempronius, Lucius, Portius, Marcus, Chefs des Révoltés.</head>
+                <sp who="#caton">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="594" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="2990" unit="chars"/>
+                </sp>
+                <sp who="#sempronius">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="205" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="1048" unit="chars"/>
+                </sp>
+                <sp who="#lucius">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="41" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="220" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Sempronius, les Chefs des Révoltés, Gardes. </head>
+                <sp who="#premie_che_de_revoltes">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="150" unit="chars"/>
+                </sp>
+                <sp who="#sempronius">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="119" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="578" unit="chars"/>
+                </sp>
+                <sp who="#secon_che_de_revoltes">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="112" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Syphax, Sempronius. </head>
+                <sp who="#syphax">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="165" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="870" unit="chars"/>
+                </sp>
+                <sp who="#sempronius">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="209" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="1009" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Lucie, Marcie. </head>
+                <sp who="#lucie">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="108" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="540" unit="chars"/>
+                </sp>
+                <sp who="#marcie">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="229" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="1124" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Sempronius habillé comme Juba, Gardes Numides.</head>
+                <sp who="#sempronius">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="167" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="789" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Juba, Sempronius, Gardes.</head>
+                <sp who="#juba">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="70" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="360" unit="chars"/>
+                </sp>
+                <sp who="#sempronius">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="92" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="437" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Lucie, Marcie.</head>
+                <sp who="#lucie">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="90" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="443" unit="chars"/>
+                </sp>
+                <sp who="#marcie">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="141" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="676" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Marcie, Lucie, Juba à côté du théâtre. </head>
+                <sp who="#marcie">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="495" unit="words"/>
+                    <amount n="69" unit="lines"/>
+                    <amount n="2449" unit="chars"/>
+                </sp>
+                <sp who="#juba">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="293" unit="words"/>
+                    <amount n="56" unit="lines"/>
+                    <amount n="1459" unit="chars"/>
+                </sp>
+                <sp who="#lucie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="189" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. </head>
+                <sp who="#juba">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="92" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="452" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Lucius, Caton.</head>
+                <sp who="#lucius">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="183" unit="chars"/>
+                </sp>
+                <sp who="#caton">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="218" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Caton, Portius, Lucius.</head>
+                <sp who="#caton">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="41" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="203" unit="chars"/>
+                </sp>
+                <sp who="#portius">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="110" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="512" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Caton, Lucius.</head>
+                <sp who="#caton">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="116" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="570" unit="chars"/>
+                </sp>
+                <sp who="#lucius">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="88" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="440" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Juba, Caton, Lucius. </head>
+                <sp who="#juba">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="79" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="418" unit="chars"/>
+                </sp>
+                <sp who="#caton">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="88" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="378" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Portius, Caton, Lucius, Juba.</head>
+                <sp who="#portius">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="155" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="737" unit="chars"/>
+                </sp>
+                <sp who="#caton">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="57" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="286" unit="chars"/>
+                </sp>
+                <sp who="#lucius">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="199" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII. Caton, Juba, Portius, Lucius, le corps de Marcus porté par des Soldats, Sénateurs, Suite. </head>
+                <sp who="#caton">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="875" unit="words"/>
+                    <amount n="73" unit="lines"/>
+                    <amount n="4172" unit="chars"/>
+                </sp>
+                <sp who="#juba">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="83" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="423" unit="chars"/>
+                </sp>
+                <sp who="#lucius">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="124" unit="chars"/>
+                </sp>
+                <sp who="#portius">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="86" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE PREMIÈRE.</head>
+                <sp who="#caton">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="443" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="2204" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Caton, Portius.</head>
+                <sp who="#caton">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="268" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1277" unit="chars"/>
+                </sp>
+                <sp who="#portius">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="160" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="755" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Portius, Marcie. </head>
+                <sp who="#portius">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="96" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="432" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. </head>
+                <sp who="#marcie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="56" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="302" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Lucie, Marcie. </head>
+                <sp who="#lucie">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="160" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="760" unit="chars"/>
+                </sp>
+                <sp who="#marcie">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="113" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="539" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Lucius, Marcie, Lucie.</head>
+                <sp who="#lucius">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="117" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="565" unit="chars"/>
+                </sp>
+                <sp who="#marcie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="68" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Juba, Lucie, Marcie. </head>
+                <sp who="#juba">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="72" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="370" unit="chars"/>
+                </sp>
+                <sp who="#lucius">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="202" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Lucius, Portius, Juba, Marcie, Lucie. </head>
+                <sp who="#portius">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="136" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="669" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Lucius, Marcie, Juba, Lucie. </head>
+                <sp who="#lucius">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="216" unit="chars"/>
+                </sp>
+                <sp who="#marcie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="149" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Portius, Lucius, Juba, Marcie, Lucie.</head>
+                <sp who="#portius">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="93" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="413" unit="chars"/>
+                </sp>
+                <sp who="#lucius">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="99" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Portius, Lucius, Juba, Marcie, Lucie.</head>
+                <sp who="#marcie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="27" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="145" unit="chars"/>
+                </sp>
+                <sp who="#juba">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="84" unit="chars"/>
+                </sp>
+                <sp who="#lucius">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="170" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="844" unit="chars"/>
+                </sp>
+                <sp who="#caton">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="264" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="1214" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

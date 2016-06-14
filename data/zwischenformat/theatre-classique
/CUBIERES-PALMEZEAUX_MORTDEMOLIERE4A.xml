@@ -1,0 +1,786 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LA MORT DE MOLIÈRE</title>
+        <subtitle>PIÈCE HISTORIQUE</subtitle>
+        <subtitle>EN QUATRE ACTES, EN VERS ET À SPECTACLE.</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>CUBIÈRES-PALMÉZEAUX, Michel de</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/CUBIERES-PALMEZEAUX_MORTDEMOLIERE4A.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>mol_re</name>
+            <alias xml:id="mol_re">
+                <name>mol_re</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>lesbin</name>
+            <alias xml:id="lesbin">
+                <name>lesbin</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>chapelle</name>
+            <alias xml:id="chapelle">
+                <name>chapelle</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>lafo_t</name>
+            <alias xml:id="lafo_t">
+                <name>lafo_t</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_ga_on</name>
+            <alias xml:id="le_ga_on">
+                <name>le_ga_on</name>
+            </alias>
+        </character>
+        <character>
+            <name>la_mol_re</name>
+            <alias xml:id="la_mol_re">
+                <name>la_mol_re</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>isabelle</name>
+            <alias xml:id="isabelle">
+                <name>isabelle</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>baron</name>
+            <alias xml:id="baron">
+                <name>baron</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_semainier</name>
+            <alias xml:id="le_semainier">
+                <name>le_semainier</name>
+            </alias>
+        </character>
+        <character>
+            <name>isabelle___an_lique</name>
+            <alias xml:id="isabelle___an_lique">
+                <name>isabelle___an_lique</name>
+            </alias>
+        </character>
+        <character>
+            <name>baron___c_ante</name>
+            <alias xml:id="baron___c_ante">
+                <name>baron___c_ante</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_docteur</name>
+            <alias xml:id="le_docteur">
+                <name>le_docteur</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_domestique</name>
+            <alias xml:id="le_domestique">
+                <name>le_domestique</name>
+            </alias>
+        </character>
+        <character>
+            <name>montausier</name>
+            <alias xml:id="montausier">
+                <name>montausier</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>pirlon</name>
+            <alias xml:id="pirlon">
+                <name>pirlon</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>mignard</name>
+            <alias xml:id="mignard">
+                <name>mignard</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>apollon</name>
+            <alias xml:id="apollon">
+                <name>apollon</name>
+            </alias>
+        </character>
+        <character>
+            <name>thalie</name>
+            <alias xml:id="thalie">
+                <name>thalie</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>melpo_ne</name>
+            <alias xml:id="melpo_ne">
+                <name>melpo_ne</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE PREMIÈRE.</head>
+                <sp who="#mol_re">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="217" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="934" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Molière, Lesbin.</head>
+                <sp who="#mol_re">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="52" unit="chars"/>
+                </sp>
+                <sp who="#lesbin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="16" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III.</head>
+                <sp who="#mol_re">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="324" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="1435" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Le même, Chapelle, fredonnant un air à boire.</head>
+                <sp who="#mol_re">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="312" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="1320" unit="chars"/>
+                </sp>
+                <sp who="#chapelle">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="433" unit="words"/>
+                    <amount n="55" unit="lines"/>
+                    <amount n="1939" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Les Précédents, Laforêt.</head>
+                <sp who="#lafo_t">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="236" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1109" unit="chars"/>
+                </sp>
+                <sp who="#mol_re">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="412" unit="words"/>
+                    <amount n="79" unit="lines"/>
+                    <amount n="1815" unit="chars"/>
+                </sp>
+                <sp who="#chapelle">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="108" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="449" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Molière, Chapelle.</head>
+                <sp who="#mol_re">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="370" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1780" unit="chars"/>
+                </sp>
+                <sp who="#chapelle">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="123" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="564" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Les Précédents, un Garçon de théâtre.</head>
+                <sp who="#le_ga_on">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="161" unit="chars"/>
+                </sp>
+                <sp who="#mol_re">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="174" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII.</head>
+                <sp who="#chapelle">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="55" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="229" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Chapelle, La Molière.</head>
+                <sp who="#la_mol_re">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="231" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="987" unit="chars"/>
+                </sp>
+                <sp who="#chapelle">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="358" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1545" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE  X.</head>
+                <sp who="#la_mol_re">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="60" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="263" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Le même, Isabelle.</head>
+                <sp who="#la_mol_re">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="492" unit="words"/>
+                    <amount n="59" unit="lines"/>
+                    <amount n="2147" unit="chars"/>
+                </sp>
+                <sp who="#isabelle">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="366" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="1592" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Molière, La Molière, Isabelle.</head>
+                <sp who="#mol_re">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="647" unit="words"/>
+                    <amount n="86" unit="lines"/>
+                    <amount n="2897" unit="chars"/>
+                </sp>
+                <sp who="#la_mol_re">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="417" unit="words"/>
+                    <amount n="64" unit="lines"/>
+                    <amount n="1912" unit="chars"/>
+                </sp>
+                <sp who="#isabelle">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="83" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="349" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Molière, Baron, Isabelle.</head>
+                <sp who="#mol_re">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="333" unit="words"/>
+                    <amount n="47" unit="lines"/>
+                    <amount n="1465" unit="chars"/>
+                </sp>
+                <sp who="#baron">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="243" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1011" unit="chars"/>
+                </sp>
+                <sp who="#isabelle">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="172" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Molière Isabelle.</head>
+                <sp who="#mol_re">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="188" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="820" unit="chars"/>
+                </sp>
+                <sp who="#isabelle">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="54" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="200" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Les précédents, Un semainier.</head>
+                <sp who="#le_semainier">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="72" unit="chars"/>
+                </sp>
+                <sp who="#mol_re">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="100" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Molière, Isabelle.</head>
+                <sp who="#isabelle">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="140" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="670" unit="chars"/>
+                </sp>
+                <sp who="#mol_re">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="374" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="1729" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Les précédents, Lesbin.</head>
+                <sp who="#lesbin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="38" unit="chars"/>
+                </sp>
+                <sp who="#mol_re">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="184" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="821" unit="chars"/>
+                </sp>
+                <sp who="#isabelle">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="30" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Les Précédents, Baron.</head>
+                <sp who="#baron">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="90" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="423" unit="chars"/>
+                </sp>
+                <sp who="#mol_re">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="117" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="572" unit="chars"/>
+                </sp>
+                <sp who="#isabelle___an_lique">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="190" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="866" unit="chars"/>
+                </sp>
+                <sp who="#baron___c_ante">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="178" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Baron, Isabelle.</head>
+                <sp who="#baron">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="231" unit="chars"/>
+                </sp>
+                <sp who="#isabelle">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="64" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="291" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Les précédents, La Docteur Mauvilain.</head>
+                <sp who="#le_docteur">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="226" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="931" unit="chars"/>
+                </sp>
+                <sp who="#isabelle">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="37" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="180" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Molière, Baron, Isabelle.</head>
+                <sp who="#mol_re">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="199" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="917" unit="chars"/>
+                </sp>
+                <sp who="#isabelle">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="16" unit="chars"/>
+                </sp>
+                <sp who="#baron">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="83" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="406" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Les précédents, Chapelle.</head>
+                <sp who="#chapelle">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="162" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="730" unit="chars"/>
+                </sp>
+                <sp who="#mol_re">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="143" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="625" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII.</head>
+                <sp who="#chapelle">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="45" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="202" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE PREMIÈRE.</head>
+                <sp who="#chapelle">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="95" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Chapelle, La Forêt.</head>
+                <sp who="#lafo_t">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="48" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="195" unit="chars"/>
+                </sp>
+                <sp who="#chapelle">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="233" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="982" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Les précédents, Baron, Isabelle.</head>
+                <sp who="#mol_re">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="237" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="988" unit="chars"/>
+                </sp>
+                <sp who="#chapelle">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="32" unit="chars"/>
+                </sp>
+                <sp who="#lafo_t">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="47" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Les précédents, La Docteur.</head>
+                <sp who="#le_docteur">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="318" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="1346" unit="chars"/>
+                </sp>
+                <sp who="#mol_re">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="453" unit="words"/>
+                    <amount n="57" unit="lines"/>
+                    <amount n="1976" unit="chars"/>
+                </sp>
+                <sp who="#isabelle">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="28" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V.</head>
+                <sp who="#baron">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="51" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="236" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Baron, Un domestique.</head>
+                <sp who="#le_domestique">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="71" unit="chars"/>
+                </sp>
+                <sp who="#baron">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="71" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="343" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Baron, Montausier.</head>
+                <sp who="#montausier">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="147" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="625" unit="chars"/>
+                </sp>
+                <sp who="#baron">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="85" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="360" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Les précédents, Pirlon.</head>
+                <sp who="#pirlon">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="407" unit="words"/>
+                    <amount n="50" unit="lines"/>
+                    <amount n="1764" unit="chars"/>
+                </sp>
+                <sp who="#baron">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="131" unit="chars"/>
+                </sp>
+                <sp who="#montausier">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="793" unit="words"/>
+                    <amount n="90" unit="lines"/>
+                    <amount n="3632" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Les précédents, Chapelle, Isabelle.</head>
+                <sp who="#baron">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="157" unit="chars"/>
+                </sp>
+                <sp who="#isabelle">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="72" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="296" unit="chars"/>
+                </sp>
+                <sp who="#chapelle">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="37" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="158" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Les précédents, Lesbin.</head>
+                <sp who="#lesbin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="86" unit="chars"/>
+                </sp>
+                <sp who="#isabelle">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="54" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="228" unit="chars"/>
+                </sp>
+                <sp who="#chapelle">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="101" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI.</head>
+                <sp who="#isabelle">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="163" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="704" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII. La Molière, Isabelle.</head>
+                <sp who="#la_mol_re">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="102" unit="chars"/>
+                </sp>
+                <sp who="#isabelle">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="47" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIII. Les précédents, Chapelle, Baron, Plusieurs acteurs de la troupe de Molière.</head>
+                <sp who="#chapelle">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="48" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="196" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIV. Chapelle et les acteurs.</head>
+                <sp who="#chapelle">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="93" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="414" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV ou APOTHÉOSE DE MOLIÈRE.</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Chapelle, Montausier, Baron.</head>
+                <sp who="#chapelle">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="309" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="1470" unit="chars"/>
+                </sp>
+                <sp who="#montausier">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="27" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="117" unit="chars"/>
+                </sp>
+                <sp who="#baron">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="162" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="800" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Les précédents, Mignard.</head>
+                <sp who="#mignard">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="249" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1232" unit="chars"/>
+                </sp>
+                <sp who="#chapelle">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="281" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="1367" unit="chars"/>
+                </sp>
+                <sp who="#apollon">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="295" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="1455" unit="chars"/>
+                </sp>
+                <sp who="#thalie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="57" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="249" unit="chars"/>
+                </sp>
+                <sp who="#melpo_ne">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="48" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="246" unit="chars"/>
+                </sp>
+                <sp who="#montausier">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="60" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="267" unit="chars"/>
+                </sp>
+                <sp who="#baron">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="49" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="248" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

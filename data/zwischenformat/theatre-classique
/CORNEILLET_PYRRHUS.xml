@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>PYRRHUS, ROI d'ÉPIRE</title>
+        <subtitle>TRAGÉDIE</subtitle>
+        <genretitle>Tragédie</genretitle>
+        <author>CORNEILLE, Thomas</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/CORNEILLET_PYRRHUS.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>antigone</name>
+            <alias xml:id="antigone">
+                <name>antigone</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>camille</name>
+            <alias xml:id="camille">
+                <name>camille</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>pyrrhus</name>
+            <alias xml:id="pyrrhus">
+                <name>pyrrhus</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>deidamie</name>
+            <alias xml:id="deidamie">
+                <name>deidamie</name>
+            </alias>
+        </character>
+        <character>
+            <name>neree</name>
+            <alias xml:id="neree">
+                <name>neree</name>
+            </alias>
+        </character>
+        <character>
+            <name>hippias</name>
+            <alias xml:id="hippias">
+                <name>hippias</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>androclide</name>
+            <alias xml:id="androclide">
+                <name>androclide</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>neoptolemus</name>
+            <alias xml:id="neoptolemus">
+                <name>neoptolemus</name>
+            </alias>
+        </character>
+        <character>
+            <name>gelon</name>
+            <alias xml:id="gelon">
+                <name>gelon</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Antigone, Camille. </head>
+                <sp who="#antigone">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="564" unit="words"/>
+                    <amount n="60" unit="lines"/>
+                    <amount n="2572" unit="chars"/>
+                </sp>
+                <sp who="#camille">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="259" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="1142" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Antigone, Pyrrhus se croyant Hippias, Camille. </head>
+                <sp who="#antigone">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="252" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="1110" unit="chars"/>
+                </sp>
+                <sp who="#pyrrhus">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="593" unit="words"/>
+                    <amount n="65" unit="lines"/>
+                    <amount n="2683" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Pyrrhus se croyant Hippias, Déidamie, Nérée. </head>
+                <sp who="#pyrrhus">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="180" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="804" unit="chars"/>
+                </sp>
+                <sp who="#deidamie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="190" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Déidamie, Nérée. </head>
+                <sp who="#neree">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="283" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1332" unit="chars"/>
+                </sp>
+                <sp who="#deidamie">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="510" unit="words"/>
+                    <amount n="57" unit="lines"/>
+                    <amount n="2295" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Déidamie, Hippias se croyant Pyrrhus. </head>
+                <sp who="#hippias">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="854" unit="words"/>
+                    <amount n="89" unit="lines"/>
+                    <amount n="3709" unit="chars"/>
+                </sp>
+                <sp who="#deidamie">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="326" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="1395" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Déidamie, Androclide.</head>
+                <sp who="#deidamie">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="348" unit="words"/>
+                    <amount n="50" unit="lines"/>
+                    <amount n="1525" unit="chars"/>
+                </sp>
+                <sp who="#androclide">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="695" unit="words"/>
+                    <amount n="82" unit="lines"/>
+                    <amount n="3054" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Néoptolémus, Gélon.</head>
+                <sp who="#neoptolemus">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="599" unit="words"/>
+                    <amount n="61" unit="lines"/>
+                    <amount n="2652" unit="chars"/>
+                </sp>
+                <sp who="#gelon">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="360" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="1660" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Néoptolémus, Déidamie, Gélon.</head>
+                <sp who="#deidamie">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="530" unit="words"/>
+                    <amount n="59" unit="lines"/>
+                    <amount n="2449" unit="chars"/>
+                </sp>
+                <sp who="#neoptolemus">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="624" unit="words"/>
+                    <amount n="68" unit="lines"/>
+                    <amount n="2840" unit="chars"/>
+                </sp>
+                <sp who="#gelon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="44" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Néoptolémus, Déidamie, Androclide, Gélon, Suite</head>
+                <sp who="#androclide">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="112" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="513" unit="chars"/>
+                </sp>
+                <sp who="#neoptolemus">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="395" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="1705" unit="chars"/>
+                </sp>
+                <sp who="#deidamie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="142" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Déidamie, Androclide.</head>
+                <sp who="#deidamie">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="409" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="1777" unit="chars"/>
+                </sp>
+                <sp who="#androclide">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="259" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="1119" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Antigone, Androclide. </head>
+                <sp who="#antigone">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="358" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="1534" unit="chars"/>
+                </sp>
+                <sp who="#androclide">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="692" unit="words"/>
+                    <amount n="73" unit="lines"/>
+                    <amount n="3103" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Antigone, Pyrrhus se </head>
+                <sp who="#antigone">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="584" unit="words"/>
+                    <amount n="63" unit="lines"/>
+                    <amount n="2689" unit="chars"/>
+                </sp>
+                <sp who="#pyrrhus">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="302" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="1356" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Néoptolémus, Pyrrhus se croyant Hippias, Antigone, Gélon. </head>
+                <sp who="#antigone">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="566" unit="words"/>
+                    <amount n="63" unit="lines"/>
+                    <amount n="2561" unit="chars"/>
+                </sp>
+                <sp who="#neoptolemus">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="295" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="1291" unit="chars"/>
+                </sp>
+                <sp who="#pyrrhus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="55" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="248" unit="chars"/>
+                </sp>
+                <sp who="#gelon">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="117" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Néoptolémus, Pyrrhus se croyant Hippias, Gélon.</head>
+                <sp who="#neoptolemus">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="162" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="713" unit="chars"/>
+                </sp>
+                <sp who="#gelon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="45" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="200" unit="chars"/>
+                </sp>
+                <sp who="#pyrrhus">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="104" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="459" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Néoptolémus, Pyrrhus se croyant Hippias, Androclide, Gélon.</head>
+                <sp who="#neoptolemus">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="191" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="916" unit="chars"/>
+                </sp>
+                <sp who="#androclide">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="493" unit="words"/>
+                    <amount n="55" unit="lines"/>
+                    <amount n="2211" unit="chars"/>
+                </sp>
+                <sp who="#pyrrhus">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="314" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="1374" unit="chars"/>
+                </sp>
+                <sp who="#gelon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="37" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Néoptolémus, Pyrrhus se croyant Hippias, Déidamie, Androclide, Gélon. </head>
+                <sp who="#neoptolemus">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="200" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="913" unit="chars"/>
+                </sp>
+                <sp who="#deidamie">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="160" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="714" unit="chars"/>
+                </sp>
+                <sp who="#androclide">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="125" unit="chars"/>
+                </sp>
+                <sp who="#pyrrhus">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="95" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Pyrrhus se croyant Hippias, Déidamie. </head>
+                <sp who="#pyrrhus">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="418" unit="words"/>
+                    <amount n="62" unit="lines"/>
+                    <amount n="1824" unit="chars"/>
+                </sp>
+                <sp who="#deidamie">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="499" unit="words"/>
+                    <amount n="70" unit="lines"/>
+                    <amount n="2265" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Déidamie, Hippias se croyant Pyrrhus. </head>
+                <sp who="#hippias">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="1071" unit="words"/>
+                    <amount n="113" unit="lines"/>
+                    <amount n="4812" unit="chars"/>
+                </sp>
+                <sp who="#deidamie">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="537" unit="words"/>
+                    <amount n="66" unit="lines"/>
+                    <amount n="2441" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Déidamie, Androclide, Hippias. </head>
+                <sp who="#hippias">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="270" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="1170" unit="chars"/>
+                </sp>
+                <sp who="#androclide">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="285" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="1306" unit="chars"/>
+                </sp>
+                <sp who="#deidamie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="100" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Néoptolémus, Déidamie, Gélon, Androclide, Hippias, Suite.</head>
+                <sp who="#androclide">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="136" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="626" unit="chars"/>
+                </sp>
+                <sp who="#neoptolemus">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="397" unit="words"/>
+                    <amount n="48" unit="lines"/>
+                    <amount n="1797" unit="chars"/>
+                </sp>
+                <sp who="#deidamie">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="327" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="1491" unit="chars"/>
+                </sp>
+                <sp who="#gelon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="185" unit="chars"/>
+                </sp>
+                <sp who="#hippias">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="225" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="984" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Néoptolémus, Androclide, Gélon. </head>
+                <sp who="#neoptolemus">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="490" unit="words"/>
+                    <amount n="56" unit="lines"/>
+                    <amount n="2110" unit="chars"/>
+                </sp>
+                <sp who="#androclide">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="246" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="1110" unit="chars"/>
+                </sp>
+                <sp who="#gelon">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="103" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="453" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Néoptolémus, Déidamie. </head>
+                <sp who="#neoptolemus">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="340" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="1599" unit="chars"/>
+                </sp>
+                <sp who="#deidamie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="188" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="860" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Néoptolémus, Déidamie, Camille. </head>
+                <sp who="#camille">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="154" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="691" unit="chars"/>
+                </sp>
+                <sp who="#deidamie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="45" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="180" unit="chars"/>
+                </sp>
+                <sp who="#neoptolemus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="25" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="116" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Néoptolémus, Antigone, Déidamie, Camille. </head>
+                <sp who="#neoptolemus">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="173" unit="chars"/>
+                </sp>
+                <sp who="#antigone">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="474" unit="words"/>
+                    <amount n="51" unit="lines"/>
+                    <amount n="2223" unit="chars"/>
+                </sp>
+                <sp who="#deidamie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="137" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Néoptolémus, Pyrrhus, Déidamie, Antigone, Camille, Suite.</head>
+                <sp who="#neoptolemus">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="111" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="478" unit="chars"/>
+                </sp>
+                <sp who="#pyrrhus">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="200" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="897" unit="chars"/>
+                </sp>
+                <sp who="#deidamie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="118" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="527" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Néoptolémus, Pyrrhus, Déidamie, Antigone, Androclide, Camille, Suite. </head>
+                <sp who="#neoptolemus">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="349" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="1501" unit="chars"/>
+                </sp>
+                <sp who="#androclide">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="503" unit="words"/>
+                    <amount n="57" unit="lines"/>
+                    <amount n="2228" unit="chars"/>
+                </sp>
+                <sp who="#deidamie">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="97" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="418" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Néoptolémus, Pyrrhus, Déidamie, Antigone, Hippias, Camille, Gélon. </head>
+                <sp who="#gelon">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="344" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="1540" unit="chars"/>
+                </sp>
+                <sp who="#neoptolemus">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="554" unit="words"/>
+                    <amount n="69" unit="lines"/>
+                    <amount n="2585" unit="chars"/>
+                </sp>
+                <sp who="#hippias">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="217" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="926" unit="chars"/>
+                </sp>
+                <sp who="#deidamie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="78" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="299" unit="chars"/>
+                </sp>
+                <sp who="#antigone">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="45" unit="chars"/>
+                </sp>
+                <sp who="#pyrrhus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="48" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="211" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

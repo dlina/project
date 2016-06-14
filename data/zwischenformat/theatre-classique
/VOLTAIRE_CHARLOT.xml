@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>CHARLOT OU LA COMTESSE DE GIVRY.</title>
+        <subtitle>PIÈCE DRAMATIQUE</subtitle>
+        <genretitle>Pièce dramatique</genretitle>
+        <author>VOLTAIRE</author>
+        <date when="1743">1743</date>
+        <source>https://github.com/dramacode/theatre-classique/VOLTAIRE_CHARLOT.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>intendant</name>
+            <alias xml:id="intendant">
+                <name>intendant</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_courrier</name>
+            <alias xml:id="l_courrier">
+                <name>l_courrier</name>
+            </alias>
+        </character>
+        <character>
+            <name>babet</name>
+            <alias xml:id="babet">
+                <name>babet</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>madam_aubonne</name>
+            <alias xml:id="madam_aubonne">
+                <name>madam_aubonne</name>
+            </alias>
+        </character>
+        <character>
+            <name>tou_ensemble</name>
+            <alias xml:id="tou_ensemble">
+                <name>tou_ensemble</name>
+            </alias>
+        </character>
+        <character>
+            <name>guillot</name>
+            <alias xml:id="guillot">
+                <name>guillot</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_marquis</name>
+            <alias xml:id="l_marquis">
+                <name>l_marquis</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_comtesse</name>
+            <alias xml:id="l_comtesse">
+                <name>l_comtesse</name>
+            </alias>
+        </character>
+        <character>
+            <name>charlot</name>
+            <alias xml:id="charlot">
+                <name>charlot</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>domestiques</name>
+            <alias xml:id="domestiques">
+                <name>domestiques</name>
+                <sex>0</sex>
+            </alias>
+        </character>
+        <character>
+            <name>julie</name>
+            <alias xml:id="julie">
+                <name>julie</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>_intendant</name>
+            <alias xml:id="_intendant">
+                <name>_intendant</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_peuple</name>
+            <alias xml:id="l_peuple">
+                <name>l_peuple</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_roi</name>
+            <alias xml:id="l_roi">
+                <name>l_roi</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE I. L'Intendant de la maison est à une table, un Courrier en bottes, à côté ; Madame Aubonne, nourrice, coud, et Babet file à un rouet ; une Servante prend des mesures avec une aune, une autre balaye.</head>
+                <sp who="#intendant">
+                    <amount n="20" unit="speech_acts"/>
+                    <amount n="545" unit="words"/>
+                    <amount n="76" unit="lines"/>
+                    <amount n="2165" unit="chars"/>
+                </sp>
+                <sp who="#l_courrier">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="73" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="290" unit="chars"/>
+                </sp>
+                <sp who="#babet">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="120" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="507" unit="chars"/>
+                </sp>
+                <sp who="#madam_aubonne">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="85" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="361" unit="chars"/>
+                </sp>
+                <sp who="#tou_ensemble">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="29" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Les Précédents, Guilot, accourant. </head>
+                <sp who="#guillot">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="285" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="1111" unit="chars"/>
+                </sp>
+                <sp who="#madam_aubonne">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="87" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="362" unit="chars"/>
+                </sp>
+                <sp who="#babet">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="79" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="336" unit="chars"/>
+                </sp>
+                <sp who="#intendant">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="176" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="755" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Les Précédents, Le Marquis. </head>
+                <sp who="#l_marquis">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="244" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="982" unit="chars"/>
+                </sp>
+                <sp who="#guillot">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="67" unit="chars"/>
+                </sp>
+                <sp who="#babet">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="53" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="201" unit="chars"/>
+                </sp>
+                <sp who="#madam_aubonne">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="80" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="349" unit="chars"/>
+                </sp>
+                <sp who="#intendant">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="57" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="251" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Les précédents, La Comtesse.</head>
+                <sp who="#l_comtesse">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="172" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="735" unit="chars"/>
+                </sp>
+                <sp who="#madam_aubonne">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="48" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="201" unit="chars"/>
+                </sp>
+                <sp who="#l_marquis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="21" unit="chars"/>
+                </sp>
+                <sp who="#intendant">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="94" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. La Comtese, Le Marquis. </head>
+                <sp who="#l_comtesse">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="615" unit="words"/>
+                    <amount n="69" unit="lines"/>
+                    <amount n="2673" unit="chars"/>
+                </sp>
+                <sp who="#l_marquis">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="287" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1145" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. La Comtesse, Le Marquis, Charlot. </head>
+                <sp who="#l_comtesse">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="127" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="533" unit="chars"/>
+                </sp>
+                <sp who="#l_marquis">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="53" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="189" unit="chars"/>
+                </sp>
+                <sp who="#charlot">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="282" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="1236" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII.  Plusieurs Domestiques en livrée, et d'autres gens entrent en foule ; Guillot, Babet, sont des premiers ; Julie, Madame Aubonne, 
+dans le fond elles arrivent plus lentement ; La Comtesse est sur le devant du théâtre avec Le Marquis et Charlot. </head>
+                <sp who="#guillot">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="64" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="253" unit="chars"/>
+                </sp>
+                <sp who="#domestiques">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="15" unit="chars"/>
+                </sp>
+                <sp who="#babet">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="67" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="246" unit="chars"/>
+                </sp>
+                <sp who="#l_comtesse">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="193" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="800" unit="chars"/>
+                </sp>
+                <sp who="#julie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="37" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="137" unit="chars"/>
+                </sp>
+                <sp who="#_intendant">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="135" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="621" unit="chars"/>
+                </sp>
+                <sp who="#intendant">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="4" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="10" unit="chars"/>
+                </sp>
+                <sp who="#l_marquis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="37" unit="chars"/>
+                </sp>
+                <sp who="#madam_aubonne">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="182" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE I. Julie, Madame Aubonne, Charlot. </head>
+                <sp who="#julie">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="473" unit="words"/>
+                    <amount n="52" unit="lines"/>
+                    <amount n="2030" unit="chars"/>
+                </sp>
+                <sp who="#charlot">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="80" unit="chars"/>
+                </sp>
+                <sp who="#madam_aubonne">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="157" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="670" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Julie, Madame Aubonne, Charlot. </head>
+                <sp who="#charlot">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="176" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="715" unit="chars"/>
+                </sp>
+                <sp who="#julie">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="569" unit="words"/>
+                    <amount n="73" unit="lines"/>
+                    <amount n="2212" unit="chars"/>
+                </sp>
+                <sp who="#madam_aubonne">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="176" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="692" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Julie, Charlot, Le Marquis entre, et les voit danser, pendant que Madame Aubonne est assise et s'occupe à coudre. </head>
+                <sp who="#l_marquis">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="240" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="957" unit="chars"/>
+                </sp>
+                <sp who="#charlot">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="218" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="916" unit="chars"/>
+                </sp>
+                <sp who="#julie">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="160" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="673" unit="chars"/>
+                </sp>
+                <sp who="#madam_aubonne">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="149" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="567" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Julie, Madame Aubonne. </head>
+                <sp who="#madam_aubonne">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="172" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="727" unit="chars"/>
+                </sp>
+                <sp who="#julie">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="95" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="361" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Julie, Madame Aubonne, Babet. </head>
+                <sp who="#babet">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="216" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="945" unit="chars"/>
+                </sp>
+                <sp who="#madam_aubonne">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="112" unit="chars"/>
+                </sp>
+                <sp who="#julie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="40" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Julie, Madame Aubonne, Babet, Guillot. </head>
+                <sp who="#guillot">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="174" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="730" unit="chars"/>
+                </sp>
+                <sp who="#babet">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="52" unit="chars"/>
+                </sp>
+                <sp who="#madam_aubonne">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="58" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="215" unit="chars"/>
+                </sp>
+                <sp who="#julie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="144" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Les précédents, L'intendant. </head>
+                <sp who="#intendant">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="245" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="1009" unit="chars"/>
+                </sp>
+                <sp who="#madam_aubonne">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="160" unit="chars"/>
+                </sp>
+                <sp who="#julie">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="85" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="373" unit="chars"/>
+                </sp>
+                <sp who="#babet">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="122" unit="chars"/>
+                </sp>
+                <sp who="#guillot">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="78" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="298" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I. L'Intendant, Babet, Guillot, Troupe de gardes, Charlot, au milieu d'eux. </head>
+                <sp who="#charlot">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="275" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="1174" unit="chars"/>
+                </sp>
+                <sp who="#intendant">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="271" unit="chars"/>
+                </sp>
+                <sp who="#guillot">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="87" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="357" unit="chars"/>
+                </sp>
+                <sp who="#babet">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="61" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="254" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Julie, L'Intendant. </head>
+                <sp who="#julie">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="233" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="972" unit="chars"/>
+                </sp>
+                <sp who="#intendant">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="131" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="593" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Julie, L'Intendant, Babet. </head>
+                <sp who="#babet">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="158" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="636" unit="chars"/>
+                </sp>
+                <sp who="#julie">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="134" unit="chars"/>
+                </sp>
+                <sp who="#intendant">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="75" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Les Précédents, La Comtesse soutenue par deux suivantes. </head>
+                <sp who="#l_comtesse">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="307" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="1235" unit="chars"/>
+                </sp>
+                <sp who="#intendant">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="45" unit="chars"/>
+                </sp>
+                <sp who="#julie">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="127" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="530" unit="chars"/>
+                </sp>
+                <sp who="#l_peuple">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="51" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Les Précédents, Madame Aubonne. </head>
+                <sp who="#madam_aubonne">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="327" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="1394" unit="chars"/>
+                </sp>
+                <sp who="#l_comtesse">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="58" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="273" unit="chars"/>
+                </sp>
+                <sp who="#julie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="71" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Les Précédents, Le Roi et toute sa cour, Charlot. </head>
+                <sp who="#l_roi">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="154" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="643" unit="chars"/>
+                </sp>
+                <sp who="#l_comtesse">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="46" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>OEDIPE ROI Traduction nouvelle de Leconte de Lisle</title>
+        <subtitle>TRAGÉDIE</subtitle>
+        <genretitle>Tragédie</genretitle>
+        <author>SOPHOCLE</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/SOPHOCLE_OEDIPEROI.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>oedipe</name>
+            <alias xml:id="oedipe">
+                <name>oedipe</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_sacrificateur</name>
+            <alias xml:id="le_sacrificateur">
+                <name>le_sacrificateur</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>c_on</name>
+            <alias xml:id="c_on">
+                <name>c_on</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_choeur</name>
+            <alias xml:id="le_choeur">
+                <name>le_choeur</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>ti_sias</name>
+            <alias xml:id="ti_sias">
+                <name>ti_sias</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>jocaste</name>
+            <alias xml:id="jocaste">
+                <name>jocaste</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_messager</name>
+            <alias xml:id="le_messager">
+                <name>le_messager</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_serviteur</name>
+            <alias xml:id="le_serviteur">
+                <name>le_serviteur</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>OEDIPE ROI</head>
+            <div>
+                <head>Oedipe, Le Sacrificateur.</head>
+                <sp who="#oedipe">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="363" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="1711" unit="chars"/>
+                </sp>
+                <sp who="#le_sacrificateur">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="493" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="2357" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>Oedipe, Le Sacrificateur, Créon.</head>
+                <sp who="#oedipe">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="371" unit="words"/>
+                    <amount n="57" unit="lines"/>
+                    <amount n="1767" unit="chars"/>
+                </sp>
+                <sp who="#le_sacrificateur">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="63" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="306" unit="chars"/>
+                </sp>
+                <sp who="#c_on">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="287" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1351" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>Le Choeur, Oedipe.</head>
+                <sp who="#le_choeur">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="468" unit="words"/>
+                    <amount n="47" unit="lines"/>
+                    <amount n="2245" unit="chars"/>
+                </sp>
+                <sp who="#oedipe">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="653" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="3117" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>Oeidpe, Tirésias.</head>
+                <sp who="#oedipe">
+                    <amount n="27" unit="speech_acts"/>
+                    <amount n="921" unit="words"/>
+                    <amount n="115" unit="lines"/>
+                    <amount n="4270" unit="chars"/>
+                </sp>
+                <sp who="#ti_sias">
+                    <amount n="27" unit="speech_acts"/>
+                    <amount n="1009" unit="words"/>
+                    <amount n="125" unit="lines"/>
+                    <amount n="4655" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="41" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="213" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>Le Choeur, Créon.</head>
+                <sp who="#le_choeur">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="461" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="2158" unit="chars"/>
+                </sp>
+                <sp who="#c_on">
+                    <amount n="27" unit="speech_acts"/>
+                    <amount n="759" unit="words"/>
+                    <amount n="110" unit="lines"/>
+                    <amount n="3478" unit="chars"/>
+                </sp>
+                <sp who="#oedipe">
+                    <amount n="24" unit="speech_acts"/>
+                    <amount n="427" unit="words"/>
+                    <amount n="85" unit="lines"/>
+                    <amount n="1963" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head/>
+                <sp who="#jocaste">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="89" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="417" unit="chars"/>
+                </sp>
+                <sp who="#c_on">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="109" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="481" unit="chars"/>
+                </sp>
+                <sp who="#oedipe">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="120" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="527" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="128" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="608" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>Le Choeur, Jocaste.</head>
+                <sp who="#le_choeur">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="259" unit="chars"/>
+                </sp>
+                <sp who="#jocaste">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="114" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head/>
+                <sp who="#oedipe">
+                    <amount n="22" unit="speech_acts"/>
+                    <amount n="1036" unit="words"/>
+                    <amount n="104" unit="lines"/>
+                    <amount n="4753" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="93" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="419" unit="chars"/>
+                </sp>
+                <sp who="#jocaste">
+                    <amount n="21" unit="speech_acts"/>
+                    <amount n="641" unit="words"/>
+                    <amount n="83" unit="lines"/>
+                    <amount n="2974" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>La Choeur, Jocaste.</head>
+                <sp who="#le_choeur">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="361" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="1808" unit="chars"/>
+                </sp>
+                <sp who="#jocaste">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="253" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="1220" unit="chars"/>
+                </sp>
+                <sp who="#le_messager">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="118" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="536" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head/>
+                <sp who="#oedipe">
+                    <amount n="42" unit="speech_acts"/>
+                    <amount n="693" unit="words"/>
+                    <amount n="146" unit="lines"/>
+                    <amount n="3308" unit="chars"/>
+                </sp>
+                <sp who="#jocaste">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="265" unit="words"/>
+                    <amount n="45" unit="lines"/>
+                    <amount n="1218" unit="chars"/>
+                </sp>
+                <sp who="#le_messager">
+                    <amount n="29" unit="speech_acts"/>
+                    <amount n="334" unit="words"/>
+                    <amount n="91" unit="lines"/>
+                    <amount n="1579" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="108" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>Le Choeur, Oedipe, Le Message, Le Serviteur</head>
+                <sp who="#le_choeur">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="199" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="951" unit="chars"/>
+                </sp>
+                <sp who="#oedipe">
+                    <amount n="26" unit="speech_acts"/>
+                    <amount n="477" unit="words"/>
+                    <amount n="98" unit="lines"/>
+                    <amount n="2221" unit="chars"/>
+                </sp>
+                <sp who="#le_messager">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="130" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="585" unit="chars"/>
+                </sp>
+                <sp who="#le_serviteur">
+                    <amount n="25" unit="speech_acts"/>
+                    <amount n="325" unit="words"/>
+                    <amount n="88" unit="lines"/>
+                    <amount n="1437" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>Le Choeur, Le Messager.</head>
+                <sp who="#le_choeur">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="324" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1477" unit="chars"/>
+                </sp>
+                <sp who="#le_messager">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="726" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="3497" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>Le Choeur, Oedipe.</head>
+                <sp who="#le_choeur">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="232" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="1075" unit="chars"/>
+                </sp>
+                <sp who="#oedipe">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="832" unit="words"/>
+                    <amount n="74" unit="lines"/>
+                    <amount n="3713" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>Oedipe, Créon.</head>
+                <sp who="#oedipe">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="865" unit="words"/>
+                    <amount n="82" unit="lines"/>
+                    <amount n="3949" unit="chars"/>
+                </sp>
+                <sp who="#c_on">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="273" unit="words"/>
+                    <amount n="48" unit="lines"/>
+                    <amount n="1286" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="80" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="395" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

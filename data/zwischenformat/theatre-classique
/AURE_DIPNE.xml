@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>DIPNÉ, INFANTE D'IRLANDE.  TRAGÉDIE</title>
+        <subtitle>DÉDIÉE À MADAME ÉLÉONOR DE ROHAM, ABBESSE DE L'ABBAYE ROYALE DE MALNOÜE.</subtitle>
+        <genretitle>Tragédie</genretitle>
+        <author>AURE, François d'</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/AURE_DIPNE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>trophime</name>
+            <alias xml:id="trophime">
+                <name>trophime</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>argante</name>
+            <alias xml:id="argante">
+                <name>argante</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>armide</name>
+            <alias xml:id="armide">
+                <name>armide</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>gerberne</name>
+            <alias xml:id="gerberne">
+                <name>gerberne</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>premier_larron</name>
+            <alias xml:id="premier_larron">
+                <name>premier_larron</name>
+            </alias>
+        </character>
+        <character>
+            <name>second_larron</name>
+            <alias xml:id="second_larron">
+                <name>second_larron</name>
+            </alias>
+        </character>
+        <character>
+            <name>dip_</name>
+            <alias xml:id="dip_">
+                <name>dip_</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>ambrokele</name>
+            <alias xml:id="ambrokele">
+                <name>ambrokele</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>gelase</name>
+            <alias xml:id="gelase">
+                <name>gelase</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>_arque</name>
+            <alias xml:id="_arque">
+                <name>_arque</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>antelme</name>
+            <alias xml:id="antelme">
+                <name>antelme</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>indulphe</name>
+            <alias xml:id="indulphe">
+                <name>indulphe</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>lugtace</name>
+            <alias xml:id="lugtace">
+                <name>lugtace</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_roi</name>
+            <alias xml:id="le_roi">
+                <name>le_roi</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>mogale</name>
+            <alias xml:id="mogale">
+                <name>mogale</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE I.</head>
+                <sp who="#trophime">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="248" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="1144" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Argante, Trophime.</head>
+                <sp who="#argante">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="895" unit="words"/>
+                    <amount n="97" unit="lines"/>
+                    <amount n="4175" unit="chars"/>
+                </sp>
+                <sp who="#trophime">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="284" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1254" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Armide, Argante, Trophime.</head>
+                <sp who="#armide">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="733" unit="words"/>
+                    <amount n="87" unit="lines"/>
+                    <amount n="3472" unit="chars"/>
+                </sp>
+                <sp who="#argante">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="1049" unit="words"/>
+                    <amount n="119" unit="lines"/>
+                    <amount n="4800" unit="chars"/>
+                </sp>
+                <sp who="#trophime">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="191" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="893" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Gerberne, Armide.</head>
+                <sp who="#gerberne">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="351" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="1676" unit="chars"/>
+                </sp>
+                <sp who="#armide">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="71" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="324" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Armide, Gerberne, Deux Larrons les mains liées, avec chacun une Corbeille suspendue aux bras.</head>
+                <sp who="#premier_larron">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="385" unit="words"/>
+                    <amount n="50" unit="lines"/>
+                    <amount n="1843" unit="chars"/>
+                </sp>
+                <sp who="#second_larron">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="93" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="443" unit="chars"/>
+                </sp>
+                <sp who="#armide">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="102" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="435" unit="chars"/>
+                </sp>
+                <sp who="#gerberne">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="77" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="349" unit="chars"/>
+                </sp>
+                <sp who="#trophime">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="175" unit="chars"/>
+                </sp>
+                <sp who="#argante">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="94" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE I. Dipné Infante, Ambrokele Nourrice.</head>
+                <sp who="#dip_">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="246" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="1122" unit="chars"/>
+                </sp>
+                <sp who="#ambrokele">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="439" unit="words"/>
+                    <amount n="62" unit="lines"/>
+                    <amount n="2058" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II.</head>
+                <sp who="#dip_">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="448" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="2003" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Gélase, Dipné.</head>
+                <sp who="#gelase">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="531" unit="words"/>
+                    <amount n="63" unit="lines"/>
+                    <amount n="2463" unit="chars"/>
+                </sp>
+                <sp who="#dip_">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="140" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="634" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV.</head>
+                <sp who="#dip_">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="472" unit="words"/>
+                    <amount n="45" unit="lines"/>
+                    <amount n="2097" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Dipné, Ambrokele.</head>
+                <sp who="#ambrokele">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="449" unit="words"/>
+                    <amount n="71" unit="lines"/>
+                    <amount n="1992" unit="chars"/>
+                </sp>
+                <sp who="#dip_">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="589" unit="words"/>
+                    <amount n="83" unit="lines"/>
+                    <amount n="2636" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Gerberne, Gélase,  Dipné, Ambrokele.</head>
+                <sp who="#gerberne">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="488" unit="words"/>
+                    <amount n="56" unit="lines"/>
+                    <amount n="2211" unit="chars"/>
+                </sp>
+                <sp who="#gelase">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="103" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="443" unit="chars"/>
+                </sp>
+                <sp who="#dip_">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="37" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="168" unit="chars"/>
+                </sp>
+                <sp who="#ambrokele">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="48" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="211" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I. Néarque, Trophime.</head>
+                <sp who="#_arque">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="665" unit="words"/>
+                    <amount n="78" unit="lines"/>
+                    <amount n="3049" unit="chars"/>
+                </sp>
+                <sp who="#trophime">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="305" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="1287" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Trophime, Antelme. </head>
+                <sp who="#trophime">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="165" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="740" unit="chars"/>
+                </sp>
+                <sp who="#antelme">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="317" unit="words"/>
+                    <amount n="50" unit="lines"/>
+                    <amount n="1484" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Indulphe, Antelme, Trophime.</head>
+                <sp who="#indulphe">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="1253" unit="words"/>
+                    <amount n="142" unit="lines"/>
+                    <amount n="5821" unit="chars"/>
+                </sp>
+                <sp who="#antelme">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="37" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="180" unit="chars"/>
+                </sp>
+                <sp who="#trophime">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="207" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="949" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Indulphe, Lugtace, Trophime, Antelme.</head>
+                <sp who="#indulphe">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="125" unit="chars"/>
+                </sp>
+                <sp who="#lugtace">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="371" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="1693" unit="chars"/>
+                </sp>
+                <sp who="#trophime">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="155" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="727" unit="chars"/>
+                </sp>
+                <sp who="#antelme">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="99" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="448" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Néarque, Armide, Trophime, Antelme.</head>
+                <sp who="#_arque">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="309" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="1365" unit="chars"/>
+                </sp>
+                <sp who="#armide">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="119" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="517" unit="chars"/>
+                </sp>
+                <sp who="#trophime">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="62" unit="chars"/>
+                </sp>
+                <sp who="#antelme">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="65" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Néarque, Trophime.</head>
+                <sp who="#_arque">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="700" unit="words"/>
+                    <amount n="73" unit="lines"/>
+                    <amount n="3056" unit="chars"/>
+                </sp>
+                <sp who="#trophime">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="148" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="659" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE I. Le Roi, Mogale.</head>
+                <sp who="#le_roi">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="455" unit="words"/>
+                    <amount n="47" unit="lines"/>
+                    <amount n="2135" unit="chars"/>
+                </sp>
+                <sp who="#mogale">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="452" unit="words"/>
+                    <amount n="51" unit="lines"/>
+                    <amount n="2068" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Le Roi, Néarque, Mogale.</head>
+                <sp who="#le_roi">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="54" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="227" unit="chars"/>
+                </sp>
+                <sp who="#_arque">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="235" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="1068" unit="chars"/>
+                </sp>
+                <sp who="#mogale">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="125" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Le Roi, Indulphe, Lugtace, Mogale, Néarque.</head>
+                <sp who="#le_roi">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="272" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="1186" unit="chars"/>
+                </sp>
+                <sp who="#indulphe">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="146" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="693" unit="chars"/>
+                </sp>
+                <sp who="#_arque">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="43" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="202" unit="chars"/>
+                </sp>
+                <sp who="#lugtace">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="93" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="419" unit="chars"/>
+                </sp>
+                <sp who="#mogale">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="89" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Mogale, Indulphe, Lugtace.</head>
+                <sp who="#mogale">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="453" unit="words"/>
+                    <amount n="53" unit="lines"/>
+                    <amount n="2055" unit="chars"/>
+                </sp>
+                <sp who="#lugtace">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="168" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="749" unit="chars"/>
+                </sp>
+                <sp who="#indulphe">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="76" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="347" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Mogale, Argante, Trophime, Indulphe, Lugtace.</head>
+                <sp who="#mogale">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="493" unit="words"/>
+                    <amount n="64" unit="lines"/>
+                    <amount n="2184" unit="chars"/>
+                </sp>
+                <sp who="#argante">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="274" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="1224" unit="chars"/>
+                </sp>
+                <sp who="#trophime">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="149" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="686" unit="chars"/>
+                </sp>
+                <sp who="#indulphe">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="296" unit="chars"/>
+                </sp>
+                <sp who="#lugtace">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="193" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="933" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE I.</head>
+                <sp who="#dip_">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="570" unit="words"/>
+                    <amount n="93" unit="lines"/>
+                    <amount n="2536" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Le Roi, Dipné.</head>
+                <sp who="#le_roi">
+                    <amount n="27" unit="speech_acts"/>
+                    <amount n="805" unit="words"/>
+                    <amount n="107" unit="lines"/>
+                    <amount n="3422" unit="chars"/>
+                </sp>
+                <sp who="#dip_">
+                    <amount n="27" unit="speech_acts"/>
+                    <amount n="476" unit="words"/>
+                    <amount n="77" unit="lines"/>
+                    <amount n="2028" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Gerberne, Dipné, Le Roi. </head>
+                <sp who="#gerberne">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="512" unit="words"/>
+                    <amount n="66" unit="lines"/>
+                    <amount n="2271" unit="chars"/>
+                </sp>
+                <sp who="#dip_">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="180" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="761" unit="chars"/>
+                </sp>
+                <sp who="#le_roi">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="336" unit="words"/>
+                    <amount n="54" unit="lines"/>
+                    <amount n="1514" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Mogale, Dipné, Le Roi.</head>
+                <sp who="#mogale">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="221" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="995" unit="chars"/>
+                </sp>
+                <sp who="#dip_">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="141" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="557" unit="chars"/>
+                </sp>
+                <sp who="#le_roi">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="515" unit="words"/>
+                    <amount n="68" unit="lines"/>
+                    <amount n="2251" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Ambrokele, Gélase, Le Roi, Mogale.</head>
+                <sp who="#ambrokele">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="78" unit="chars"/>
+                </sp>
+                <sp who="#gelase">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="89" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="413" unit="chars"/>
+                </sp>
+                <sp who="#le_roi">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="276" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="1226" unit="chars"/>
+                </sp>
+                <sp who="#mogale">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="175" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Dipné en une nuée de gloire, Le Roi, Gélase.</head>
+                <sp who="#dip_">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="230" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1016" unit="chars"/>
+                </sp>
+                <sp who="#le_roi">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="151" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="636" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

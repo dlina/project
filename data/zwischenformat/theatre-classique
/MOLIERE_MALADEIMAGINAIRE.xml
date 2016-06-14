@@ -1,0 +1,1351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LE MALADE IMAGINAIRE</title>
+        <subtitle>COMÉDIE MÊLÉE DE MUSIQUE ET DE DANSES </subtitle>
+        <subtitle>Corrigée sur l'original de l'auteur, de toutes les fausse additions et suppositions des scènes entières, faites dans les éditions précédentes.</subtitle>
+        <subtitle>Représenté pour la première fois, sur le Théâtre de la Salle du Palais-Royal, le dixième Février 1673 par la Troupe du Roi.</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>MOLIÈRE</author>
+        <date when="1673">1673</date>
+        <source>https://github.com/dramacode/theatre-classique/MOLIERE_MALADEIMAGINAIRE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>flore</name>
+            <alias xml:id="flore">
+                <name>flore</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>cli_ne_et_daph_</name>
+            <alias xml:id="cli_ne_et_daph_">
+                <name>cli_ne_et_daph_</name>
+            </alias>
+        </character>
+        <character>
+            <name>tircis_dorilas</name>
+            <alias xml:id="tircis_dorilas">
+                <name>tircis_dorilas</name>
+            </alias>
+        </character>
+        <character>
+            <name>tircis</name>
+            <alias xml:id="tircis">
+                <name>tircis</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>dorilas</name>
+            <alias xml:id="dorilas">
+                <name>dorilas</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>tircis_et_dorilas</name>
+            <alias xml:id="tircis_et_dorilas">
+                <name>tircis_et_dorilas</name>
+            </alias>
+        </character>
+        <character>
+            <name>cli_ne</name>
+            <alias xml:id="cli_ne">
+                <name>cli_ne</name>
+            </alias>
+        </character>
+        <character>
+            <name>daph_</name>
+            <alias xml:id="daph_">
+                <name>daph_</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>tous</name>
+            <alias xml:id="tous">
+                <name>tous</name>
+            </alias>
+        </character>
+        <character>
+            <name>tou_deux</name>
+            <alias xml:id="tou_deux">
+                <name>tou_deux</name>
+            </alias>
+        </character>
+        <character>
+            <name>pan</name>
+            <alias xml:id="pan">
+                <name>pan</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>flore_et_pan</name>
+            <alias xml:id="flore_et_pan">
+                <name>flore_et_pan</name>
+            </alias>
+        </character>
+        <character>
+            <name>les_quatre_amants</name>
+            <alias xml:id="les_quatre_amants">
+                <name>les_quatre_amants</name>
+            </alias>
+        </character>
+        <character>
+            <name>bergere</name>
+            <alias xml:id="bergere">
+                <name>bergere</name>
+            </alias>
+        </character>
+        <character>
+            <name>argan</name>
+            <alias xml:id="argan">
+                <name>argan</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>toinette</name>
+            <alias xml:id="toinette">
+                <name>toinette</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>an_lique</name>
+            <alias xml:id="an_lique">
+                <name>an_lique</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>_line</name>
+            <alias xml:id="_line">
+                <name>_line</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_notaire</name>
+            <alias xml:id="l_notaire">
+                <name>l_notaire</name>
+            </alias>
+        </character>
+        <character>
+            <name>polichinelle</name>
+            <alias xml:id="polichinelle">
+                <name>polichinelle</name>
+            </alias>
+        </character>
+        <character>
+            <name>une_vieille</name>
+            <alias xml:id="une_vieille">
+                <name>une_vieille</name>
+            </alias>
+        </character>
+        <character>
+            <name>archers</name>
+            <alias xml:id="archers">
+                <name>archers</name>
+            </alias>
+        </character>
+        <character>
+            <name>c_ante</name>
+            <alias xml:id="c_ante">
+                <name>c_ante</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>monsieur_diafoirus</name>
+            <alias xml:id="monsieur_diafoirus">
+                <name>monsieur_diafoirus</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>thomas_diafoirus</name>
+            <alias xml:id="thomas_diafoirus">
+                <name>thomas_diafoirus</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>louison</name>
+            <alias xml:id="louison">
+                <name>louison</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>_ralde</name>
+            <alias xml:id="_ralde">
+                <name>_ralde</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>prem_re_femme_more</name>
+            <alias xml:id="prem_re_femme_more">
+                <name>prem_re_femme_more</name>
+            </alias>
+        </character>
+        <character>
+            <name>seconde_femme_more</name>
+            <alias xml:id="seconde_femme_more">
+                <name>seconde_femme_more</name>
+            </alias>
+        </character>
+        <character>
+            <name>trois_me_femme_more</name>
+            <alias xml:id="trois_me_femme_more">
+                <name>trois_me_femme_more</name>
+            </alias>
+        </character>
+        <character>
+            <name>quatr_me_femme_more</name>
+            <alias xml:id="quatr_me_femme_more">
+                <name>quatr_me_femme_more</name>
+            </alias>
+        </character>
+        <character>
+            <name>ensemble_des_femmes_mores</name>
+            <alias xml:id="ensemble_des_femmes_mores">
+                <name>ensemble_des_femmes_mores</name>
+            </alias>
+        </character>
+        <character>
+            <name>monsieu_fleurant</name>
+            <alias xml:id="monsieu_fleurant">
+                <name>monsieu_fleurant</name>
+            </alias>
+        </character>
+        <character>
+            <name>monsieu_purgon</name>
+            <alias xml:id="monsieu_purgon">
+                <name>monsieu_purgon</name>
+            </alias>
+        </character>
+        <character>
+            <name>__line</name>
+            <alias xml:id="__line">
+                <name>__line</name>
+            </alias>
+        </character>
+        <character>
+            <name>praeses</name>
+            <alias xml:id="praeses">
+                <name>praeses</name>
+            </alias>
+        </character>
+        <character>
+            <name>primus_doctor</name>
+            <alias xml:id="primus_doctor">
+                <name>primus_doctor</name>
+            </alias>
+        </character>
+        <character>
+            <name>bachelierus</name>
+            <alias xml:id="bachelierus">
+                <name>bachelierus</name>
+            </alias>
+        </character>
+        <character>
+            <name>chorus</name>
+            <alias xml:id="chorus">
+                <name>chorus</name>
+            </alias>
+        </character>
+        <character>
+            <name>secundus_doctor</name>
+            <alias xml:id="secundus_doctor">
+                <name>secundus_doctor</name>
+            </alias>
+        </character>
+        <character>
+            <name>tertius_doctor</name>
+            <alias xml:id="tertius_doctor">
+                <name>tertius_doctor</name>
+            </alias>
+        </character>
+        <character>
+            <name>quintus_doctor</name>
+            <alias xml:id="quintus_doctor">
+                <name>quintus_doctor</name>
+            </alias>
+        </character>
+        <character>
+            <name>chirurgus</name>
+            <alias xml:id="chirurgus">
+                <name>chirurgus</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>LE PROLOGUE</head>
+            <div>
+                <head>ÉGLOGUE EN MUSIQUE ET EN DANSE. Flore, Pan, Climène, Daphné, Tircis, Dorilas, deux Zéphirs, troupe de Bergères et de Bergers. </head>
+                <sp who="#flore">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="305" unit="chars"/>
+                </sp>
+                <sp who="#cli_ne_et_daph_">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="197" unit="chars"/>
+                </sp>
+                <sp who="#tircis_dorilas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="32" unit="chars"/>
+                </sp>
+                <sp who="#tircis">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="93" unit="chars"/>
+                </sp>
+                <sp who="#dorilas">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="96" unit="chars"/>
+                </sp>
+                <sp who="#tircis_et_dorilas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="54" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>ENTRÉE de BALLET.</head>
+                <sp who="#cli_ne">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="72" unit="chars"/>
+                </sp>
+                <sp who="#daph_">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="63" unit="chars"/>
+                </sp>
+                <sp who="#dorilas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="34" unit="chars"/>
+                </sp>
+                <sp who="#cli_ne_et_daph_">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="31" unit="chars"/>
+                </sp>
+                <sp who="#flore">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="58" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="258" unit="chars"/>
+                </sp>
+                <sp who="#tous">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="59" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="252" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>AUTRE ENTRÉE DE BALLET.</head>
+                <sp who="#flore">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="97" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="417" unit="chars"/>
+                </sp>
+                <sp who="#tous">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="69" unit="chars"/>
+                </sp>
+                <sp who="#cli_ne">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="51" unit="chars"/>
+                </sp>
+                <sp who="#daph_">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="53" unit="chars"/>
+                </sp>
+                <sp who="#tircis">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="76" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="324" unit="chars"/>
+                </sp>
+                <sp who="#dorilas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="26" unit="chars"/>
+                </sp>
+                <sp who="#tou_deux">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="70" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>BALLET.</head>
+                <sp who="#dorilas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="207" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>BALLET.</head>
+                <sp who="#tircis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="53" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="240" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>BALLET.</head>
+                <sp who="#dorilas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="51" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="227" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>BALLET.</head>
+                <sp who="#pan">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="188" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="873" unit="chars"/>
+                </sp>
+                <sp who="#tous">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="64" unit="chars"/>
+                </sp>
+                <sp who="#flore">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="37" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="186" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>ENTRÉE DE BALLET.</head>
+                <sp who="#cli_ne_et_daph_">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="65" unit="chars"/>
+                </sp>
+                <sp who="#tircis_et_dorilas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="53" unit="chars"/>
+                </sp>
+                <sp who="#flore_et_pan">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="98" unit="chars"/>
+                </sp>
+                <sp who="#les_quatre_amants">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="49" unit="chars"/>
+                </sp>
+                <sp who="#tous">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="46" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="200" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>DERNIÈRE ET GRANDRE ENTRÉE DE BALLET.</head>
+            </div>
+        </div>
+        <div>
+            <head>AUTRE PROLOGUE</head>
+            <div>
+                <head>***</head>
+                <sp who="#bergere">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="159" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="735" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE I.</head>
+                <sp who="#argan">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="998" unit="words"/>
+                    <amount n="56" unit="lines"/>
+                    <amount n="4511" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Toinette, Argan.</head>
+                <sp who="#toinette">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="266" unit="words"/>
+                    <amount n="55" unit="lines"/>
+                    <amount n="1094" unit="chars"/>
+                </sp>
+                <sp who="#argan">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="264" unit="words"/>
+                    <amount n="59" unit="lines"/>
+                    <amount n="1092" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Angélique, Toinette, Argan.</head>
+                <sp who="#argan">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="136" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="29" unit="chars"/>
+                </sp>
+                <sp who="#toinette">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="74" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Angélique, Toinette.</head>
+                <sp who="#an_lique">
+                    <amount n="20" unit="speech_acts"/>
+                    <amount n="351" unit="words"/>
+                    <amount n="65" unit="lines"/>
+                    <amount n="1664" unit="chars"/>
+                </sp>
+                <sp who="#toinette">
+                    <amount n="20" unit="speech_acts"/>
+                    <amount n="229" unit="words"/>
+                    <amount n="62" unit="lines"/>
+                    <amount n="933" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Argan, Angélique, Toinette.</head>
+                <sp who="#argan">
+                    <amount n="59" unit="speech_acts"/>
+                    <amount n="1015" unit="words"/>
+                    <amount n="204" unit="lines"/>
+                    <amount n="4338" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="224" unit="words"/>
+                    <amount n="59" unit="lines"/>
+                    <amount n="928" unit="chars"/>
+                </sp>
+                <sp who="#toinette">
+                    <amount n="41" unit="speech_acts"/>
+                    <amount n="655" unit="words"/>
+                    <amount n="138" unit="lines"/>
+                    <amount n="2799" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Béline, Angélique, Toinette, Argan.</head>
+                <sp who="#argan">
+                    <amount n="22" unit="speech_acts"/>
+                    <amount n="299" unit="words"/>
+                    <amount n="75" unit="lines"/>
+                    <amount n="1207" unit="chars"/>
+                </sp>
+                <sp who="#_line">
+                    <amount n="23" unit="speech_acts"/>
+                    <amount n="428" unit="words"/>
+                    <amount n="85" unit="lines"/>
+                    <amount n="1809" unit="chars"/>
+                </sp>
+                <sp who="#toinette">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="126" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="583" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Le Notaire, Béline, Argan.</head>
+                <sp who="#argan">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="309" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="1352" unit="chars"/>
+                </sp>
+                <sp who="#_line">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="219" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="878" unit="chars"/>
+                </sp>
+                <sp who="#l_notaire">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="423" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="2064" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Angélique, Toinette.</head>
+                <sp who="#toinette">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="209" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="1010" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="67" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="298" unit="chars"/>
+                </sp>
+                <sp who="#_line">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="3" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="11" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>PREMIER INTERMÈDE</head>
+            <div>
+                <head>***</head>
+                <sp who="#polichinelle">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="828" unit="words"/>
+                    <amount n="150" unit="lines"/>
+                    <amount n="3164" unit="chars"/>
+                </sp>
+                <sp who="#une_vieille">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="143" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="566" unit="chars"/>
+                </sp>
+                <sp who="#archers">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="72" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="243" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>ENTRÉE DE BALLET.</head>
+                <sp who="#polichinelle">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="189" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="805" unit="chars"/>
+                </sp>
+                <sp who="#archers">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="69" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>BALLET.</head>
+                <sp who="#polichinelle">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="192" unit="words"/>
+                    <amount n="55" unit="lines"/>
+                    <amount n="773" unit="chars"/>
+                </sp>
+                <sp who="#archers">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="244" unit="words"/>
+                    <amount n="63" unit="lines"/>
+                    <amount n="940" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>BALLET.</head>
+                <sp who="#polichinelle">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="60" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="230" unit="chars"/>
+                </sp>
+                <sp who="#archers">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="241" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>BALLET.</head>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE I. Toinette, Cléante.</head>
+                <sp who="#toinette">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="153" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="679" unit="chars"/>
+                </sp>
+                <sp who="#c_ante">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="78" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="368" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Argan, Toinette, Cléante.</head>
+                <sp who="#argan">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="153" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="595" unit="chars"/>
+                </sp>
+                <sp who="#toinette">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="204" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="850" unit="chars"/>
+                </sp>
+                <sp who="#c_ante">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="110" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="494" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Argan, Angélique, Cléante.</head>
+                <sp who="#argan">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="220" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="93" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="414" unit="chars"/>
+                </sp>
+                <sp who="#c_ante">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="57" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="254" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Toinette, Cléante, Angélique, Argan.</head>
+                <sp who="#toinette">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="97" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="417" unit="chars"/>
+                </sp>
+                <sp who="#argan">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="74" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="313" unit="chars"/>
+                </sp>
+                <sp who="#c_ante">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="166" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Monsieur Diafoirus, Thomas Diafoirus, Argan, Angélique, Cléante, Toinette.</head>
+                <sp who="#argan">
+                    <amount n="28" unit="speech_acts"/>
+                    <amount n="414" unit="words"/>
+                    <amount n="100" unit="lines"/>
+                    <amount n="1758" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_diafoirus">
+                    <amount n="22" unit="speech_acts"/>
+                    <amount n="795" unit="words"/>
+                    <amount n="87" unit="lines"/>
+                    <amount n="3787" unit="chars"/>
+                </sp>
+                <sp who="#thomas_diafoirus">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="443" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="2239" unit="chars"/>
+                </sp>
+                <sp who="#toinette">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="151" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="749" unit="chars"/>
+                </sp>
+                <sp who="#c_ante">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="1075" unit="words"/>
+                    <amount n="75" unit="lines"/>
+                    <amount n="5106" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="198" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="783" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Béline, Argan, Toinette, Angélique, Monsieur Diafoirus, Thomas Diafoirus</head>
+                <sp who="#argan">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="240" unit="words"/>
+                    <amount n="50" unit="lines"/>
+                    <amount n="999" unit="chars"/>
+                </sp>
+                <sp who="#thomas_diafoirus">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="292" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="1387" unit="chars"/>
+                </sp>
+                <sp who="#_line">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="211" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="984" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_diafoirus">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="193" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="860" unit="chars"/>
+                </sp>
+                <sp who="#toinette">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="98" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="451" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="625" unit="words"/>
+                    <amount n="58" unit="lines"/>
+                    <amount n="2897" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Béline, Argan.</head>
+                <sp who="#_line">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="70" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="323" unit="chars"/>
+                </sp>
+                <sp who="#argan">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="132" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Louison, Argan.</head>
+                <sp who="#louison">
+                    <amount n="35" unit="speech_acts"/>
+                    <amount n="484" unit="words"/>
+                    <amount n="116" unit="lines"/>
+                    <amount n="1815" unit="chars"/>
+                </sp>
+                <sp who="#argan">
+                    <amount n="35" unit="speech_acts"/>
+                    <amount n="523" unit="words"/>
+                    <amount n="145" unit="lines"/>
+                    <amount n="2026" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Béralde, Argan.</head>
+                <sp who="#_ralde">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="153" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="686" unit="chars"/>
+                </sp>
+                <sp who="#argan">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="73" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="318" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>SECOND INTERMÈDE</head>
+            <div>
+                <head>***</head>
+                <sp who="#prem_re_femme_more">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="156" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="684" unit="chars"/>
+                </sp>
+                <sp who="#seconde_femme_more">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="102" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="442" unit="chars"/>
+                </sp>
+                <sp who="#trois_me_femme_more">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="121" unit="chars"/>
+                </sp>
+                <sp who="#quatr_me_femme_more">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="161" unit="chars"/>
+                </sp>
+                <sp who="#ensemble_des_femmes_mores">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="37" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="155" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>ENTRÉE DE BALLET.</head>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I. Béralde, Argan, Toinette.</head>
+                <sp who="#_ralde">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="145" unit="chars"/>
+                </sp>
+                <sp who="#toinette">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="109" unit="chars"/>
+                </sp>
+                <sp who="#argan">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="64" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Béralde, Toinette.</head>
+                <sp who="#toinette">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="136" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="655" unit="chars"/>
+                </sp>
+                <sp who="#_ralde">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="77" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Argan, Béralde. </head>
+                <sp who="#_ralde">
+                    <amount n="30" unit="speech_acts"/>
+                    <amount n="1643" unit="words"/>
+                    <amount n="110" unit="lines"/>
+                    <amount n="7738" unit="chars"/>
+                </sp>
+                <sp who="#argan">
+                    <amount n="29" unit="speech_acts"/>
+                    <amount n="681" unit="words"/>
+                    <amount n="97" unit="lines"/>
+                    <amount n="3083" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Monsieur Fleurant, une seringue à la main ; Argan, Béralde.</head>
+                <sp who="#argan">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="128" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="538" unit="chars"/>
+                </sp>
+                <sp who="#_ralde">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="123" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="569" unit="chars"/>
+                </sp>
+                <sp who="#monsieu_fleurant">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="140" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="694" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Monsieur Purgon, Argan, Béralde, Toinette.</head>
+                <sp who="#monsieu_purgon">
+                    <amount n="28" unit="speech_acts"/>
+                    <amount n="572" unit="words"/>
+                    <amount n="91" unit="lines"/>
+                    <amount n="2816" unit="chars"/>
+                </sp>
+                <sp who="#argan">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="114" unit="words"/>
+                    <amount n="58" unit="lines"/>
+                    <amount n="402" unit="chars"/>
+                </sp>
+                <sp who="#toinette">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="51" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="186" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Argan, Béralde.</head>
+                <sp who="#argan">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="83" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="342" unit="chars"/>
+                </sp>
+                <sp who="#_ralde">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="231" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="1049" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Toinette, Argan, Béralde.</head>
+                <sp who="#toinette">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="66" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="304" unit="chars"/>
+                </sp>
+                <sp who="#argan">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="50" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="209" unit="chars"/>
+                </sp>
+                <sp who="#_ralde">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="116" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Toinette, en médecin ; Argan, Béralde. </head>
+                <sp who="#toinette">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="56" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="271" unit="chars"/>
+                </sp>
+                <sp who="#argan">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="173" unit="chars"/>
+                </sp>
+                <sp who="#_ralde">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="192" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Toinette, Argan, Béralde.</head>
+                <sp who="#toinette">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="55" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="252" unit="chars"/>
+                </sp>
+                <sp who="#argan">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="57" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="237" unit="chars"/>
+                </sp>
+                <sp who="#_ralde">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="27" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="131" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Toinette, en médecin ; Argan, Béralde. </head>
+                <sp who="#toinette">
+                    <amount n="32" unit="speech_acts"/>
+                    <amount n="858" unit="words"/>
+                    <amount n="122" unit="lines"/>
+                    <amount n="3883" unit="chars"/>
+                </sp>
+                <sp who="#argan">
+                    <amount n="33" unit="speech_acts"/>
+                    <amount n="307" unit="words"/>
+                    <amount n="102" unit="lines"/>
+                    <amount n="1297" unit="chars"/>
+                </sp>
+                <sp who="#_ralde">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="94" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Toinette, Argan, Béralde.</head>
+                <sp who="#toinette">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="254" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="1083" unit="chars"/>
+                </sp>
+                <sp who="#argan">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="156" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="718" unit="chars"/>
+                </sp>
+                <sp who="#_ralde">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="139" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="669" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII. Béline, Toinette, Argan, Béralde.</head>
+                <sp who="#toinette">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="173" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="745" unit="chars"/>
+                </sp>
+                <sp who="#_line">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="239" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="1066" unit="chars"/>
+                </sp>
+                <sp who="#argan">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="62" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="276" unit="chars"/>
+                </sp>
+                <sp who="#__line">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="3" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="7" unit="chars"/>
+                </sp>
+                <sp who="#_ralde">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="36" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIII. Angélique, Argan, Toinette, Béralde.</head>
+                <sp who="#toinette">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="55" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="222" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="94" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="421" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIV et dernière. Cléante, Angélique, Argan, Toinette, Béralde.</head>
+                <sp who="#c_ante">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="179" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="850" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="256" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="1104" unit="chars"/>
+                </sp>
+                <sp who="#argan">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="152" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="617" unit="chars"/>
+                </sp>
+                <sp who="#_ralde">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="356" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="1624" unit="chars"/>
+                </sp>
+                <sp who="#toinette">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="79" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="349" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>TROISIÈME INTERMÈDE</head>
+            <div>
+                <head>ENTRÉE DE BALLET.</head>
+                <sp who="#praeses">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="378" unit="words"/>
+                    <amount n="83" unit="lines"/>
+                    <amount n="1783" unit="chars"/>
+                </sp>
+                <sp who="#primus_doctor">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="43" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="205" unit="chars"/>
+                </sp>
+                <sp who="#bachelierus">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="90" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="408" unit="chars"/>
+                </sp>
+                <sp who="#chorus">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="97" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="386" unit="chars"/>
+                </sp>
+                <sp who="#secundus_doctor">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="220" unit="chars"/>
+                </sp>
+                <sp who="#tertius_doctor">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="140" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="706" unit="chars"/>
+                </sp>
+                <sp who="#quintus_doctor">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="70" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>ENTRÉE DE BALLET.</head>
+                <sp who="#bachelierus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="154" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="669" unit="chars"/>
+                </sp>
+                <sp who="#chorus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="145" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>ENTRÉE DE BALLET.</head>
+                <sp who="#chirurgus">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="51" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="253" unit="chars"/>
+                </sp>
+                <sp who="#chorus">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="73" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="283" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>DERNIÈRE ENTRÉE DE BALLET.</head>
+            </div>
+        </div>
+    </text>
+</play>

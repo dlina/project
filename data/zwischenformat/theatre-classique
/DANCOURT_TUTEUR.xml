@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LE TUTEUR</title>
+        <subtitle>COMÉDIE</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>DANCOURT, Florent CARTON dit</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/DANCOURT_TUTEUR.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>lucas</name>
+            <alias xml:id="lucas">
+                <name>lucas</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>lisette</name>
+            <alias xml:id="lisette">
+                <name>lisette</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>an_lique</name>
+            <alias xml:id="an_lique">
+                <name>an_lique</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>monsieur_bernard</name>
+            <alias xml:id="monsieur_bernard">
+                <name>monsieur_bernard</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_olive</name>
+            <alias xml:id="l_olive">
+                <name>l_olive</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>dorante</name>
+            <alias xml:id="dorante">
+                <name>dorante</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>monsieur_bernard_lucas</name>
+            <alias xml:id="monsieur_bernard_lucas">
+                <name>monsieur_bernard_lucas</name>
+            </alias>
+        </character>
+        <character>
+            <name>maturine</name>
+            <alias xml:id="maturine">
+                <name>maturine</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_chevalier</name>
+            <alias xml:id="le_chevalier">
+                <name>le_chevalier</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head/>
+            <div>
+                <head>SCÈNE I.</head>
+                <sp who="#lucas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="236" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="1143" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Lucas, Lisette.</head>
+                <sp who="#lisette">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="238" unit="words"/>
+                    <amount n="50" unit="lines"/>
+                    <amount n="1195" unit="chars"/>
+                </sp>
+                <sp who="#lucas">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="454" unit="words"/>
+                    <amount n="56" unit="lines"/>
+                    <amount n="2000" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III.</head>
+                <sp who="#lisette">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="175" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Angélique, Lisette.</head>
+                <sp who="#an_lique">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="289" unit="words"/>
+                    <amount n="65" unit="lines"/>
+                    <amount n="1422" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="922" unit="words"/>
+                    <amount n="78" unit="lines"/>
+                    <amount n="4377" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Angélique, Lisette, Lucas.</head>
+                <sp who="#lucas">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="273" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="1300" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="199" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="216" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Angélique, Lisette, Lucas, Monsieur Bernard.</head>
+                <sp who="#monsieur_bernard">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="295" unit="words"/>
+                    <amount n="56" unit="lines"/>
+                    <amount n="1462" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="83" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="421" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="256" unit="words"/>
+                    <amount n="45" unit="lines"/>
+                    <amount n="1186" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Monsieur Bernard, Lucas.</head>
+                <sp who="#monsieur_bernard">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="148" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="742" unit="chars"/>
+                </sp>
+                <sp who="#lucas">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="491" unit="words"/>
+                    <amount n="50" unit="lines"/>
+                    <amount n="2265" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Monsieur Bernard, L’Olive, Lucas.</head>
+                <sp who="#monsieur_bernard">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="160" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="687" unit="chars"/>
+                </sp>
+                <sp who="#l_olive">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="114" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="537" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Lucas, l’Olive.</head>
+                <sp who="#lucas">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="329" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="1521" unit="chars"/>
+                </sp>
+                <sp who="#l_olive">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="121" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="563" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X.</head>
+                <sp who="#l_olive">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="201" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Dorante, l’Olive.</head>
+                <sp who="#dorante">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="157" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="756" unit="chars"/>
+                </sp>
+                <sp who="#l_olive">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="417" unit="words"/>
+                    <amount n="50" unit="lines"/>
+                    <amount n="2038" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII. L’Olive, Lisette.</head>
+                <sp who="#lisette">
+                    <amount n="22" unit="speech_acts"/>
+                    <amount n="234" unit="words"/>
+                    <amount n="67" unit="lines"/>
+                    <amount n="1241" unit="chars"/>
+                </sp>
+                <sp who="#l_olive">
+                    <amount n="22" unit="speech_acts"/>
+                    <amount n="326" unit="words"/>
+                    <amount n="72" unit="lines"/>
+                    <amount n="1631" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIII. Angélique, Lisette.</head>
+                <sp who="#an_lique">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="102" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="516" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="103" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="451" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIV. Dorante, l’Olive, Angélique, Lisette.</head>
+                <sp who="#an_lique">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="70" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="346" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="149" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="703" unit="chars"/>
+                </sp>
+                <sp who="#l_olive">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="86" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="391" unit="chars"/>
+                </sp>
+                <sp who="#dorante">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="172" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="833" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XV. Angélique, Lisette.</head>
+                <sp who="#lisette">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="100" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="467" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="166" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVI. Angélique, Lisette, Monsieur Bernard, Lucas.</head>
+                <sp who="#monsieur_bernard">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="106" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="511" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="59" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="287" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="56" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="282" unit="chars"/>
+                </sp>
+                <sp who="#lucas">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="124" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="590" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVII. Dorante, l’Olive.</head>
+                <sp who="#dorante">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="116" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="556" unit="chars"/>
+                </sp>
+                <sp who="#l_olive">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="161" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="791" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVIII. Dorante, l’Olive, Angélique, Lisette, Monsieur Bernard, Lucas.</head>
+                <sp who="#an_lique">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="299" unit="words"/>
+                    <amount n="58" unit="lines"/>
+                    <amount n="1450" unit="chars"/>
+                </sp>
+                <sp who="#dorante">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="73" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_bernard">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="192" unit="words"/>
+                    <amount n="63" unit="lines"/>
+                    <amount n="939" unit="chars"/>
+                </sp>
+                <sp who="#l_olive">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="62" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="281" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="204" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="966" unit="chars"/>
+                </sp>
+                <sp who="#lucas">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="134" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="613" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIX. Angélique, Dorante, Lisette, l’Olive.</head>
+                <sp who="#lisette">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="77" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="368" unit="chars"/>
+                </sp>
+                <sp who="#l_olive">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="68" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="320" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="111" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="566" unit="chars"/>
+                </sp>
+                <sp who="#dorante">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="127" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="679" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XX. Angélique, Lisette.</head>
+                <sp who="#an_lique">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="249" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="114" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="532" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_bernard_lucas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="28" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_bernard">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="24" unit="chars"/>
+                </sp>
+                <sp who="#lucas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="20" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXI. Dorante, Monsieur Bernard, Angélique, Lucas, Lisette.</head>
+                <sp who="#dorante">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="194" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_bernard">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="47" unit="chars"/>
+                </sp>
+                <sp who="#lucas">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="51" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="223" unit="chars"/>
+                </sp>
+                <sp who="#l_olive">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="121" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXII. Dorante, Lucas, Monsieur Bernard, Maturine, Angélique, Lisette, l’Olive.</head>
+                <sp who="#maturine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="84" unit="chars"/>
+                </sp>
+                <sp who="#dorante">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="37" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="178" unit="chars"/>
+                </sp>
+                <sp who="#lucas">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="70" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="315" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_bernard">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="112" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="543" unit="chars"/>
+                </sp>
+                <sp who="#l_olive">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="86" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="46" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="227" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXIII. Monsieur Bernard, Le Chevalier, Angélique, Dorante, l’Olive, Lisette, Lucas.</head>
+                <sp who="#lisette">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="107" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="522" unit="chars"/>
+                </sp>
+                <sp who="#le_chevalier">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="161" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="780" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_bernard">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="86" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="439" unit="chars"/>
+                </sp>
+                <sp who="#l_olive">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="86" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="417" unit="chars"/>
+                </sp>
+                <sp who="#lucas">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="63" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="302" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="64" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="300" unit="chars"/>
+                </sp>
+                <sp who="#dorante">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="175" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

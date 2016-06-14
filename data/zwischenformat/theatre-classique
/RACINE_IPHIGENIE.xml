@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>IPHIGÉNIE</title>
+        <subtitle>TRAGÉDIE</subtitle>
+        <genretitle>Tragédie</genretitle>
+        <author>RACINE, Jean</author>
+        <date when="1674">1674</date>
+        <source>https://github.com/dramacode/theatre-classique/RACINE_IPHIGENIE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>agamemnon</name>
+            <alias xml:id="agamemnon">
+                <name>agamemnon</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>arcas</name>
+            <alias xml:id="arcas">
+                <name>arcas</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>achille</name>
+            <alias xml:id="achille">
+                <name>achille</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>ulysse</name>
+            <alias xml:id="ulysse">
+                <name>ulysse</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>eurybate</name>
+            <alias xml:id="eurybate">
+                <name>eurybate</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>eriphile</name>
+            <alias xml:id="eriphile">
+                <name>eriphile</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>doris</name>
+            <alias xml:id="doris">
+                <name>doris</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>iphi_nie</name>
+            <alias xml:id="iphi_nie">
+                <name>iphi_nie</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>clytemnestre</name>
+            <alias xml:id="clytemnestre">
+                <name>clytemnestre</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>aegine</name>
+            <alias xml:id="aegine">
+                <name>aegine</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Agamemnon, Arcas.</head>
+                <sp who="#agamemnon">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="1204" unit="words"/>
+                    <amount n="129" unit="lines"/>
+                    <amount n="5738" unit="chars"/>
+                </sp>
+                <sp who="#arcas">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="383" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="1945" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Agamemnon, Achille, Ulysse.</head>
+                <sp who="#agamemnon">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="390" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="1880" unit="chars"/>
+                </sp>
+                <sp who="#achille">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="653" unit="words"/>
+                    <amount n="73" unit="lines"/>
+                    <amount n="3206" unit="chars"/>
+                </sp>
+                <sp who="#ulysse">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="130" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="662" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Agamemnon, Ulysse.</head>
+                <sp who="#ulysse">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="454" unit="words"/>
+                    <amount n="47" unit="lines"/>
+                    <amount n="2198" unit="chars"/>
+                </sp>
+                <sp who="#agamemnon">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="168" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="841" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Agamemnon, Ulysse, Eurybate.</head>
+                <sp who="#eurybate">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="190" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="919" unit="chars"/>
+                </sp>
+                <sp who="#agamemnon">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="125" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Agamemnon, Ulysse.</head>
+                <sp who="#agamemnon">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="134" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="666" unit="chars"/>
+                </sp>
+                <sp who="#ulysse">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="191" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="934" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Eriphile, Doris.</head>
+                <sp who="#eriphile">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="925" unit="words"/>
+                    <amount n="103" unit="lines"/>
+                    <amount n="4415" unit="chars"/>
+                </sp>
+                <sp who="#doris">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="477" unit="words"/>
+                    <amount n="53" unit="lines"/>
+                    <amount n="2242" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Agamemnon, Iphigénie, Eriphile, Doris.</head>
+                <sp who="#iphi_nie">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="348" unit="words"/>
+                    <amount n="52" unit="lines"/>
+                    <amount n="1779" unit="chars"/>
+                </sp>
+                <sp who="#agamemnon">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="124" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="550" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Iphigénie, Eriphile, Doris.</head>
+                <sp who="#iphi_nie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="365" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="1754" unit="chars"/>
+                </sp>
+                <sp who="#eriphile">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="93" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="480" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Clytemnestre, Eriphile, Doris.</head>
+                <sp who="#clytemnestre">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="323" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="1500" unit="chars"/>
+                </sp>
+                <sp who="#eriphile">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="2" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="16" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Iphigénie, Eriphile, Doris.</head>
+                <sp who="#iphi_nie">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="482" unit="words"/>
+                    <amount n="55" unit="lines"/>
+                    <amount n="2301" unit="chars"/>
+                </sp>
+                <sp who="#eriphile">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="169" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="828" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Achille, Eriphile, Doris.</head>
+                <sp who="#achille">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="45" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="206" unit="chars"/>
+                </sp>
+                <sp who="#iphi_nie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="92" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Achille, Eriphile, Doris.</head>
+                <sp who="#achille">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="208" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="990" unit="chars"/>
+                </sp>
+                <sp who="#eriphile">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="61" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="282" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Eriphile, Doris.</head>
+                <sp who="#eriphile">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="120" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="538" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Agamemnon, Clytemnestre.</head>
+                <sp who="#clytemnestre">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="271" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1305" unit="chars"/>
+                </sp>
+                <sp who="#agamemnon">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="258" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1204" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II.</head>
+                <sp who="#clytemnestre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="117" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="555" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Achille, Clytemnestre.</head>
+                <sp who="#achille">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="198" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="943" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Achille, Clytemnestre, Iphigénie, Eriphile, Doris, AEgine.</head>
+                <sp who="#achille">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="74" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="337" unit="chars"/>
+                </sp>
+                <sp who="#iphi_nie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="214" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="1090" unit="chars"/>
+                </sp>
+                <sp who="#eriphile">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="159" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="749" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Clytemnestre, Achille, Iphigénie, Eriphile, Arcas, AEgine, Doris.</head>
+                <sp who="#arcas">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="196" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="890" unit="chars"/>
+                </sp>
+                <sp who="#achille">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="49" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="228" unit="chars"/>
+                </sp>
+                <sp who="#clytemnestre">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="279" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1323" unit="chars"/>
+                </sp>
+                <sp who="#iphi_nie">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="111" unit="chars"/>
+                </sp>
+                <sp who="#eriphile">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="27" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Achille, Iphigénie.</head>
+                <sp who="#achille">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="580" unit="words"/>
+                    <amount n="61" unit="lines"/>
+                    <amount n="2666" unit="chars"/>
+                </sp>
+                <sp who="#iphi_nie">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="436" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="2085" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Clytemnestre, Iphigénie, Achille, AEgine.</head>
+                <sp who="#clytemnestre">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="72" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="310" unit="chars"/>
+                </sp>
+                <sp who="#achille">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="170" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="762" unit="chars"/>
+                </sp>
+                <sp who="#iphi_nie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="162" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="781" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Eriphile, Doris.</head>
+                <sp who="#doris">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="85" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="397" unit="chars"/>
+                </sp>
+                <sp who="#eriphile">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="526" unit="words"/>
+                    <amount n="57" unit="lines"/>
+                    <amount n="2459" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Clytemnestre, AEgine.</head>
+                <sp who="#clytemnestre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="106" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="470" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Agamemnon, Clytemnestre, AEgine.</head>
+                <sp who="#agamemnon">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="102" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="472" unit="chars"/>
+                </sp>
+                <sp who="#clytemnestre">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="184" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Iphigénie, Agamemnon, Clytemnestre, AEgine.</head>
+                <sp who="#clytemnestre">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="694" unit="words"/>
+                    <amount n="73" unit="lines"/>
+                    <amount n="3307" unit="chars"/>
+                </sp>
+                <sp who="#agamemnon">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="328" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="1530" unit="chars"/>
+                </sp>
+                <sp who="#iphi_nie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="466" unit="words"/>
+                    <amount n="48" unit="lines"/>
+                    <amount n="2167" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V.</head>
+                <sp who="#agamemnon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="62" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="300" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Achille, Agamemnon.</head>
+                <sp who="#achille">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="674" unit="words"/>
+                    <amount n="75" unit="lines"/>
+                    <amount n="3193" unit="chars"/>
+                </sp>
+                <sp who="#agamemnon">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="373" unit="words"/>
+                    <amount n="45" unit="lines"/>
+                    <amount n="1791" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII.</head>
+                <sp who="#agamemnon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="73" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="358" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Agamemnon, Eurybate, Gardes.</head>
+                <sp who="#eurybate">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="2" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="10" unit="chars"/>
+                </sp>
+                <sp who="#agamemnon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="276" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="1361" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Agamemnon, Gardes.</head>
+                <sp who="#agamemnon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="61" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="305" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Agamemnon, Clytemnestre, Iphigénie, Eriphile, Eurybate, Doris, Gardes.</head>
+                <sp who="#agamemnon">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="175" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="815" unit="chars"/>
+                </sp>
+                <sp who="#clytemnestre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="4" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="15" unit="chars"/>
+                </sp>
+                <sp who="#iphi_nie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="16" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Eriphile, Doris.</head>
+                <sp who="#eriphile">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="59" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="262" unit="chars"/>
+                </sp>
+                <sp who="#doris">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="25" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Iphignéie, AEgine.</head>
+                <sp who="#iphi_nie">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="224" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="1028" unit="chars"/>
+                </sp>
+                <sp who="#aegine">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="67" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Achille, Iphigénie.</head>
+                <sp who="#achille">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="525" unit="words"/>
+                    <amount n="59" unit="lines"/>
+                    <amount n="2529" unit="chars"/>
+                </sp>
+                <sp who="#iphi_nie">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="465" unit="words"/>
+                    <amount n="52" unit="lines"/>
+                    <amount n="2173" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Clytemnestre, AEgine, Eurybate, Gardes.</head>
+                <sp who="#clytemnestre">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="100" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="458" unit="chars"/>
+                </sp>
+                <sp who="#eurybate">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="176" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="835" unit="chars"/>
+                </sp>
+                <sp who="#iphi_nie">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="257" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="1262" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Clytemnestre, AEgine, Gardes.</head>
+                <sp who="#clytemnestre">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="306" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="1386" unit="chars"/>
+                </sp>
+                <sp who="#aegine">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="54" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="272" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Clytemnestre, AEgine, Arcas, Gardes.</head>
+                <sp who="#arcas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="157" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="746" unit="chars"/>
+                </sp>
+                <sp who="#clytemnestre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="48" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="203" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE DERNIÈRE. Ulysse, Arcas, AEgine, Gardes.</head>
+                <sp who="#ulysse">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="694" unit="words"/>
+                    <amount n="76" unit="lines"/>
+                    <amount n="3385" unit="chars"/>
+                </sp>
+                <sp who="#clytemnestre">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="58" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="254" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>ENDYMION</title>
+        <subtitle>PASTORALE HÉROÏQUE EN CINQ ACTES</subtitle>
+        <subtitle>PAR L'ACADÉMIE ROYALE DE MUSIQUE</subtitle>
+        <genretitle>Pastorale héroïque</genretitle>
+        <author>FONTENELLE, Bernard le Bouvier ou le Bouyer de</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/FONTENELLE_ENDYMION.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>lycoris</name>
+            <alias xml:id="lycoris">
+                <name>lycoris</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_satyre</name>
+            <alias xml:id="le_satyre">
+                <name>le_satyre</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_satyre__lycoris</name>
+            <alias xml:id="le_satyre__lycoris">
+                <name>le_satyre__lycoris</name>
+            </alias>
+        </character>
+        <character>
+            <name>pan</name>
+            <alias xml:id="pan">
+                <name>pan</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>diane</name>
+            <alias xml:id="diane">
+                <name>diane</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>is_ne</name>
+            <alias xml:id="is_ne">
+                <name>is_ne</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>diane__lycoris</name>
+            <alias xml:id="diane__lycoris">
+                <name>diane__lycoris</name>
+            </alias>
+        </character>
+        <character>
+            <name>c_ur_de_nymphes</name>
+            <alias xml:id="c_ur_de_nymphes">
+                <name>c_ur_de_nymphes</name>
+            </alias>
+        </character>
+        <character>
+            <name>une_nymphe</name>
+            <alias xml:id="une_nymphe">
+                <name>une_nymphe</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>c_ur_des_nymphes</name>
+            <alias xml:id="c_ur_des_nymphes">
+                <name>c_ur_des_nymphes</name>
+            </alias>
+        </character>
+        <character>
+            <name>les_nymphes</name>
+            <alias xml:id="les_nymphes">
+                <name>les_nymphes</name>
+            </alias>
+        </character>
+        <character>
+            <name>la_nymphe</name>
+            <alias xml:id="la_nymphe">
+                <name>la_nymphe</name>
+            </alias>
+        </character>
+        <character>
+            <name>ensemble</name>
+            <alias xml:id="ensemble">
+                <name>ensemble</name>
+            </alias>
+        </character>
+        <character>
+            <name>endymion</name>
+            <alias xml:id="endymion">
+                <name>endymion</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>eurilas</name>
+            <alias xml:id="eurilas">
+                <name>eurilas</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>premier_berger</name>
+            <alias xml:id="premier_berger">
+                <name>premier_berger</name>
+            </alias>
+        </character>
+        <character>
+            <name>une_ber_re</name>
+            <alias xml:id="une_ber_re">
+                <name>une_ber_re</name>
+            </alias>
+        </character>
+        <character>
+            <name>une_ber_re__un_berger__eurilas</name>
+            <alias xml:id="une_ber_re__un_berger__eurilas">
+                <name>une_ber_re__un_berger__eurilas</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_c_ur</name>
+            <alias xml:id="le_c_ur">
+                <name>le_c_ur</name>
+            </alias>
+        </character>
+        <character>
+            <name>endymion__eurilas</name>
+            <alias xml:id="endymion__eurilas">
+                <name>endymion__eurilas</name>
+            </alias>
+        </character>
+        <character>
+            <name>une_dryade</name>
+            <alias xml:id="une_dryade">
+                <name>une_dryade</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>la_dryade</name>
+            <alias xml:id="la_dryade">
+                <name>la_dryade</name>
+            </alias>
+        </character>
+        <character>
+            <name>une_heure</name>
+            <alias xml:id="une_heure">
+                <name>une_heure</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>danse_des_heures</name>
+            <alias xml:id="danse_des_heures">
+                <name>danse_des_heures</name>
+            </alias>
+        </character>
+        <character>
+            <name>c_ur_des_heures</name>
+            <alias xml:id="c_ur_des_heures">
+                <name>c_ur_des_heures</name>
+            </alias>
+        </character>
+        <character>
+            <name>une_des_heures</name>
+            <alias xml:id="une_des_heures">
+                <name>une_des_heures</name>
+            </alias>
+        </character>
+        <character>
+            <name>troupe_d_amours</name>
+            <alias xml:id="troupe_d_amours">
+                <name>troupe_d_amours</name>
+            </alias>
+        </character>
+        <character>
+            <name>deux_amours</name>
+            <alias xml:id="deux_amours">
+                <name>deux_amours</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>deux_autres_amours</name>
+            <alias xml:id="deux_autres_amours">
+                <name>deux_autres_amours</name>
+            </alias>
+        </character>
+        <character>
+            <name>diane__endymion</name>
+            <alias xml:id="diane__endymion">
+                <name>diane__endymion</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_amour</name>
+            <alias xml:id="l_amour">
+                <name>l_amour</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>c_ur_des_amours</name>
+            <alias xml:id="c_ur_des_amours">
+                <name>c_ur_des_amours</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Pan, Lycoris, Un Satyre.</head>
+                <sp who="#lycoris">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="269" unit="chars"/>
+                </sp>
+                <sp who="#le_satyre">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="190" unit="chars"/>
+                </sp>
+                <sp who="#le_satyre__lycoris">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="168" unit="chars"/>
+                </sp>
+                <sp who="#pan">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="339" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Diane, Lycoris.</head>
+                <sp who="#lycoris">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="58" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="282" unit="chars"/>
+                </sp>
+                <sp who="#diane">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="130" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Diane, Lycoris, Ismène.</head>
+                <sp who="#is_ne">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="180" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="886" unit="chars"/>
+                </sp>
+                <sp who="#diane">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="88" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="475" unit="chars"/>
+                </sp>
+                <sp who="#diane__lycoris">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="62" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Diane, Ismène, Nymphes de Diane.</head>
+                <sp who="#c_ur_de_nymphes">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="48" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="229" unit="chars"/>
+                </sp>
+                <sp who="#une_nymphe">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="72" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="381" unit="chars"/>
+                </sp>
+                <sp who="#diane">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="94" unit="chars"/>
+                </sp>
+                <sp who="#c_ur_des_nymphes">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="53" unit="chars"/>
+                </sp>
+                <sp who="#les_nymphes">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="53" unit="chars"/>
+                </sp>
+                <sp who="#la_nymphe">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="70" unit="chars"/>
+                </sp>
+                <sp who="#ensemble">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="54" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Diane, Lycoris.</head>
+                <sp who="#diane">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="195" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="930" unit="chars"/>
+                </sp>
+                <sp who="#lycoris">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="62" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="290" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Endymion, Eurilas.</head>
+                <sp who="#endymion">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="221" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="1029" unit="chars"/>
+                </sp>
+                <sp who="#eurilas">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="148" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="706" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Endymion, Troupe de bergers et de bergères.</head>
+                <sp who="#endymion">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="99" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="513" unit="chars"/>
+                </sp>
+                <sp who="#premier_berger">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="43" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="206" unit="chars"/>
+                </sp>
+                <sp who="#une_ber_re">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="178" unit="chars"/>
+                </sp>
+                <sp who="#une_ber_re__un_berger__eurilas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="163" unit="chars"/>
+                </sp>
+                <sp who="#le_c_ur">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="86" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="419" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Diane, Lycoris, Endymion, Bergers.</head>
+                <sp who="#diane">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="90" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="444" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Diane, Lycoris.</head>
+                <sp who="#lycoris">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="66" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="335" unit="chars"/>
+                </sp>
+                <sp who="#diane">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="64" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="296" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Pan, Endymion, Eurilas, Un Satyre.</head>
+                <sp who="#pan">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="176" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="880" unit="chars"/>
+                </sp>
+                <sp who="#endymion__eurilas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="41" unit="chars"/>
+                </sp>
+                <sp who="#le_satyre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="71" unit="chars"/>
+                </sp>
+                <sp who="#endymion">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="64" unit="chars"/>
+                </sp>
+                <sp who="#eurilas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="41" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="190" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Endymion, Eurilas.</head>
+                <sp who="#endymion">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="214" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="1058" unit="chars"/>
+                </sp>
+                <sp who="#eurilas">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="54" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="274" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Diane, Endymion.</head>
+                <sp who="#endymion">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="120" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="581" unit="chars"/>
+                </sp>
+                <sp who="#diane">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="54" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="264" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV.</head>
+                <sp who="#diane">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="169" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="811" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Diane, Pan, Faunes, Sylvains et Dryades.</head>
+                <sp who="#pan">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="144" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="712" unit="chars"/>
+                </sp>
+                <sp who="#le_c_ur">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="188" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="870" unit="chars"/>
+                </sp>
+                <sp who="#une_dryade">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="187" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="936" unit="chars"/>
+                </sp>
+                <sp who="#la_dryade">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="95" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="434" unit="chars"/>
+                </sp>
+                <sp who="#diane">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="54" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="260" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Pan, Faunes, Sylvains, Le Satyre.</head>
+                <sp who="#pan">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="58" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="318" unit="chars"/>
+                </sp>
+                <sp who="#le_satyre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="37" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="184" unit="chars"/>
+                </sp>
+                <sp who="#ensemble">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="212" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE PREMIÈRE.</head>
+                <sp who="#is_ne">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="120" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="634" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Diane, Lycoris, Ismène.</head>
+                <sp who="#diane">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="98" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="460" unit="chars"/>
+                </sp>
+                <sp who="#is_ne">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="62" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="262" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Diane, Lycoris.</head>
+                <sp who="#lycoris">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="104" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="534" unit="chars"/>
+                </sp>
+                <sp who="#diane">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="149" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="691" unit="chars"/>
+                </sp>
+                <sp who="#diane__lycoris">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="143" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Diane, Endymion.</head>
+                <sp who="#diane">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="140" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="707" unit="chars"/>
+                </sp>
+                <sp who="#endymion">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="235" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="1172" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Diane, Endymion, Les Heures.</head>
+                <sp who="#une_heure">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="150" unit="chars"/>
+                </sp>
+                <sp who="#diane">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="73" unit="chars"/>
+                </sp>
+                <sp who="#danse_des_heures">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="28" unit="chars"/>
+                </sp>
+                <sp who="#c_ur_des_heures">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="142" unit="chars"/>
+                </sp>
+                <sp who="#une_des_heures">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="99" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="505" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI.</head>
+                <sp who="#endymion">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="135" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="686" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE PREMIÈRE.	Endymion endormi, troupe d'Amours.</head>
+                <sp who="#troupe_d_amours">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="43" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="203" unit="chars"/>
+                </sp>
+                <sp who="#deux_amours">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="120" unit="chars"/>
+                </sp>
+                <sp who="#deux_autres_amours">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="148" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II.</head>
+                <sp who="#diane">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="215" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="983" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Diane, Endymion.</head>
+                <sp who="#endymion">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="200" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="890" unit="chars"/>
+                </sp>
+                <sp who="#diane">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="130" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="657" unit="chars"/>
+                </sp>
+                <sp who="#diane__endymion">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="125" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. L'Amour, Diane, Endymion.</head>
+                <sp who="#l_amour">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="72" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="347" unit="chars"/>
+                </sp>
+                <sp who="#diane">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="241" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V et DERNIÈRE. L'Amour, Diane, Endymion, Troupe d'Amours, de Jeux, et de Plaisirs.</head>
+                <sp who="#l_amour">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="74" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="372" unit="chars"/>
+                </sp>
+                <sp who="#c_ur_des_amours">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="168" unit="chars"/>
+                </sp>
+                <sp who="#diane">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="86" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="434" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

@@ -1,0 +1,1116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>SYLVANIRE</title>
+        <subtitle>ou la MORTE VIVE</subtitle>
+        <subtitle>FABLE BOCAGÈRE</subtitle>
+        <genretitle>Pastorale héroïque</genretitle>
+        <author>URFÉ, Honoré d'</author>
+        <date when="1627">1627</date>
+        <source>https://github.com/dramacode/theatre-classique/URFE_SYLVANIRE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>fortune</name>
+            <alias xml:id="fortune">
+                <name>fortune</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>aglante</name>
+            <alias xml:id="aglante">
+                <name>aglante</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>hylas</name>
+            <alias xml:id="hylas">
+                <name>hylas</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>menandre</name>
+            <alias xml:id="menandre">
+                <name>menandre</name>
+            </alias>
+        </character>
+        <character>
+            <name>lerice</name>
+            <alias xml:id="lerice">
+                <name>lerice</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>sylvanire</name>
+            <alias xml:id="sylvanire">
+                <name>sylvanire</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>fossinde</name>
+            <alias xml:id="fossinde">
+                <name>fossinde</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>adraste</name>
+            <alias xml:id="adraste">
+                <name>adraste</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>choeur</name>
+            <alias xml:id="choeur">
+                <name>choeur</name>
+                <sex>0</sex>
+            </alias>
+        </character>
+        <character>
+            <name>satyre</name>
+            <alias xml:id="satyre">
+                <name>satyre</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>tirinte</name>
+            <alias xml:id="tirinte">
+                <name>tirinte</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>alciron</name>
+            <alias xml:id="alciron">
+                <name>alciron</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>echo</name>
+            <alias xml:id="echo">
+                <name>echo</name>
+            </alias>
+        </character>
+        <character>
+            <name>aglante_tirinte</name>
+            <alias xml:id="aglante_tirinte">
+                <name>aglante_tirinte</name>
+            </alias>
+        </character>
+        <character>
+            <name>messager</name>
+            <alias xml:id="messager">
+                <name>messager</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>PROLOGUE</head>
+            <div>
+                <head/>
+                <sp who="#fortune">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="1162" unit="words"/>
+                    <amount n="221" unit="lines"/>
+                    <amount n="5705" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE I. Aglante, Hylas.</head>
+                <sp who="#aglante">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="697" unit="words"/>
+                    <amount n="148" unit="lines"/>
+                    <amount n="3395" unit="chars"/>
+                </sp>
+                <sp who="#hylas">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="1061" unit="words"/>
+                    <amount n="204" unit="lines"/>
+                    <amount n="5148" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Ménandre, Lerice.</head>
+                <sp who="#menandre">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="168" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="812" unit="chars"/>
+                </sp>
+                <sp who="#lerice">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="304" unit="words"/>
+                    <amount n="65" unit="lines"/>
+                    <amount n="1453" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Aglante, Hylas.</head>
+                <sp who="#aglante">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="414" unit="words"/>
+                    <amount n="77" unit="lines"/>
+                    <amount n="2023" unit="chars"/>
+                </sp>
+                <sp who="#hylas">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="363" unit="words"/>
+                    <amount n="75" unit="lines"/>
+                    <amount n="1765" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Aglante Hylas Sylvanire</head>
+                <sp who="#aglante">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="412" unit="words"/>
+                    <amount n="88" unit="lines"/>
+                    <amount n="2004" unit="chars"/>
+                </sp>
+                <sp who="#hylas">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="68" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="292" unit="chars"/>
+                </sp>
+                <sp who="#sylvanire">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="241" unit="words"/>
+                    <amount n="55" unit="lines"/>
+                    <amount n="1196" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Aglante Hylas</head>
+                <sp who="#aglante">
+                    <amount n="20" unit="speech_acts"/>
+                    <amount n="807" unit="words"/>
+                    <amount n="173" unit="lines"/>
+                    <amount n="3809" unit="chars"/>
+                </sp>
+                <sp who="#hylas">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="1265" unit="words"/>
+                    <amount n="252" unit="lines"/>
+                    <amount n="6107" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI.</head>
+                <sp who="#hylas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="424" unit="words"/>
+                    <amount n="82" unit="lines"/>
+                    <amount n="2181" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Sylvanire Fossinde Hylas</head>
+                <sp who="#sylvanire">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="634" unit="words"/>
+                    <amount n="128" unit="lines"/>
+                    <amount n="3070" unit="chars"/>
+                </sp>
+                <sp who="#fossinde">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="79" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="341" unit="chars"/>
+                </sp>
+                <sp who="#hylas">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="720" unit="words"/>
+                    <amount n="144" unit="lines"/>
+                    <amount n="3536" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Fossinde Sylvanire</head>
+                <sp who="#fossinde">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="411" unit="words"/>
+                    <amount n="79" unit="lines"/>
+                    <amount n="1994" unit="chars"/>
+                </sp>
+                <sp who="#sylvanire">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="110" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="554" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Adraste fol, Sylvanire, Fossinde.</head>
+                <sp who="#adraste">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="480" unit="words"/>
+                    <amount n="101" unit="lines"/>
+                    <amount n="2230" unit="chars"/>
+                </sp>
+                <sp who="#sylvanire">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="169" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="725" unit="chars"/>
+                </sp>
+                <sp who="#fossinde">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="202" unit="words"/>
+                    <amount n="51" unit="lines"/>
+                    <amount n="928" unit="chars"/>
+                </sp>
+                <sp who="#choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="183" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="859" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE I.</head>
+                <sp who="#satyre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="1307" unit="words"/>
+                    <amount n="224" unit="lines"/>
+                    <amount n="6403" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II.</head>
+                <sp who="#sylvanire">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="693" unit="words"/>
+                    <amount n="127" unit="lines"/>
+                    <amount n="3368" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Tirinte, Sylvanire.</head>
+                <sp who="#tirinte">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="905" unit="words"/>
+                    <amount n="189" unit="lines"/>
+                    <amount n="4442" unit="chars"/>
+                </sp>
+                <sp who="#sylvanire">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="454" unit="words"/>
+                    <amount n="103" unit="lines"/>
+                    <amount n="2252" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Ménandre, Tirinte, Alciron</head>
+                <sp who="#menandre">
+                    <amount n="32" unit="speech_acts"/>
+                    <amount n="1465" unit="words"/>
+                    <amount n="305" unit="lines"/>
+                    <amount n="7210" unit="chars"/>
+                </sp>
+                <sp who="#tirinte">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="74" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="345" unit="chars"/>
+                </sp>
+                <sp who="#alciron">
+                    <amount n="23" unit="speech_acts"/>
+                    <amount n="1081" unit="words"/>
+                    <amount n="237" unit="lines"/>
+                    <amount n="5506" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Alciron, Tirinte.</head>
+                <sp who="#alciron">
+                    <amount n="27" unit="speech_acts"/>
+                    <amount n="955" unit="words"/>
+                    <amount n="199" unit="lines"/>
+                    <amount n="4607" unit="chars"/>
+                </sp>
+                <sp who="#tirinte">
+                    <amount n="26" unit="speech_acts"/>
+                    <amount n="1124" unit="words"/>
+                    <amount n="213" unit="lines"/>
+                    <amount n="5340" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Sylvanire, Fossinde.</head>
+                <sp who="#sylvanire">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="378" unit="words"/>
+                    <amount n="71" unit="lines"/>
+                    <amount n="1811" unit="chars"/>
+                </sp>
+                <sp who="#fossinde">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="132" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="646" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Fossinde, Echo.</head>
+                <sp who="#fossinde">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="475" unit="words"/>
+                    <amount n="81" unit="lines"/>
+                    <amount n="2356" unit="chars"/>
+                </sp>
+                <sp who="#echo">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="113" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Satyre, Fossinde.</head>
+                <sp who="#satyre">
+                    <amount n="37" unit="speech_acts"/>
+                    <amount n="1754" unit="words"/>
+                    <amount n="323" unit="lines"/>
+                    <amount n="8384" unit="chars"/>
+                </sp>
+                <sp who="#fossinde">
+                    <amount n="36" unit="speech_acts"/>
+                    <amount n="916" unit="words"/>
+                    <amount n="183" unit="lines"/>
+                    <amount n="4201" unit="chars"/>
+                </sp>
+                <sp who="#choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="182" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="918" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I. Hylas, Aglante.</head>
+                <sp who="#hylas">
+                    <amount n="30" unit="speech_acts"/>
+                    <amount n="1073" unit="words"/>
+                    <amount n="216" unit="lines"/>
+                    <amount n="5091" unit="chars"/>
+                </sp>
+                <sp who="#aglante">
+                    <amount n="29" unit="speech_acts"/>
+                    <amount n="866" unit="words"/>
+                    <amount n="194" unit="lines"/>
+                    <amount n="4227" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Hylas, Sylvanire, Fossinde, Aglante.</head>
+                <sp who="#hylas">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="287" unit="words"/>
+                    <amount n="67" unit="lines"/>
+                    <amount n="1347" unit="chars"/>
+                </sp>
+                <sp who="#sylvanire">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="432" unit="words"/>
+                    <amount n="84" unit="lines"/>
+                    <amount n="1991" unit="chars"/>
+                </sp>
+                <sp who="#fossinde">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="81" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="397" unit="chars"/>
+                </sp>
+                <sp who="#aglante">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="810" unit="words"/>
+                    <amount n="159" unit="lines"/>
+                    <amount n="3900" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Ménandre, Lerice, Sylvanire, Fossinde.</head>
+                <sp who="#sylvanire">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="344" unit="words"/>
+                    <amount n="67" unit="lines"/>
+                    <amount n="1571" unit="chars"/>
+                </sp>
+                <sp who="#menandre">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="1394" unit="words"/>
+                    <amount n="257" unit="lines"/>
+                    <amount n="6743" unit="chars"/>
+                </sp>
+                <sp who="#lerice">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="250" unit="words"/>
+                    <amount n="54" unit="lines"/>
+                    <amount n="1227" unit="chars"/>
+                </sp>
+                <sp who="#fossinde">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="235" unit="words"/>
+                    <amount n="48" unit="lines"/>
+                    <amount n="1136" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Fossinde, Ménandre, Lerice.</head>
+                <sp who="#fossinde">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="596" unit="words"/>
+                    <amount n="128" unit="lines"/>
+                    <amount n="2846" unit="chars"/>
+                </sp>
+                <sp who="#menandre">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="625" unit="words"/>
+                    <amount n="132" unit="lines"/>
+                    <amount n="2980" unit="chars"/>
+                </sp>
+                <sp who="#lerice">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="71" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="317" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Tirinte, Alciron.</head>
+                <sp who="#tirinte">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="66" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="346" unit="chars"/>
+                </sp>
+                <sp who="#alciron">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="311" unit="words"/>
+                    <amount n="66" unit="lines"/>
+                    <amount n="1520" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI.</head>
+                <sp who="#tirinte">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="295" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="1379" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Sylvanire, Fossinde, Tirinte.</head>
+                <sp who="#sylvanire">
+                    <amount n="23" unit="speech_acts"/>
+                    <amount n="365" unit="words"/>
+                    <amount n="88" unit="lines"/>
+                    <amount n="1651" unit="chars"/>
+                </sp>
+                <sp who="#fossinde">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="250" unit="words"/>
+                    <amount n="63" unit="lines"/>
+                    <amount n="1119" unit="chars"/>
+                </sp>
+                <sp who="#tirinte">
+                    <amount n="31" unit="speech_acts"/>
+                    <amount n="639" unit="words"/>
+                    <amount n="154" unit="lines"/>
+                    <amount n="3064" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII.</head>
+                <sp who="#fossinde">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="208" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="1034" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Fossinde, Satyre.</head>
+                <sp who="#fossinde">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="154" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="723" unit="chars"/>
+                </sp>
+                <sp who="#satyre">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="265" unit="words"/>
+                    <amount n="52" unit="lines"/>
+                    <amount n="1208" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Adraste, Fossinde, Satyre.</head>
+                <sp who="#adraste">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="289" unit="words"/>
+                    <amount n="58" unit="lines"/>
+                    <amount n="1288" unit="chars"/>
+                </sp>
+                <sp who="#fossinde">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="112" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="491" unit="chars"/>
+                </sp>
+                <sp who="#satyre">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="173" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="766" unit="chars"/>
+                </sp>
+                <sp who="#choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="136" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="700" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE I. Aglante, Tirinte, Hylas.</head>
+                <sp who="#aglante">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="577" unit="words"/>
+                    <amount n="110" unit="lines"/>
+                    <amount n="2837" unit="chars"/>
+                </sp>
+                <sp who="#tirinte">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="366" unit="words"/>
+                    <amount n="75" unit="lines"/>
+                    <amount n="1804" unit="chars"/>
+                </sp>
+                <sp who="#hylas">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="433" unit="words"/>
+                    <amount n="94" unit="lines"/>
+                    <amount n="1973" unit="chars"/>
+                </sp>
+                <sp who="#aglante_tirinte">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="4" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="14" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Hylas, Aglante, Tirinte, Fossinde.</head>
+                <sp who="#hylas">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="48" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="213" unit="chars"/>
+                </sp>
+                <sp who="#aglante">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="66" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="301" unit="chars"/>
+                </sp>
+                <sp who="#fossinde">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="311" unit="words"/>
+                    <amount n="58" unit="lines"/>
+                    <amount n="1451" unit="chars"/>
+                </sp>
+                <sp who="#tirinte">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="164" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Le messager, Aglante, Tirinte, Hylas.</head>
+                <sp who="#messager">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="421" unit="words"/>
+                    <amount n="88" unit="lines"/>
+                    <amount n="1969" unit="chars"/>
+                </sp>
+                <sp who="#aglante">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="101" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="458" unit="chars"/>
+                </sp>
+                <sp who="#tirinte">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="61" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="302" unit="chars"/>
+                </sp>
+                <sp who="#hylas">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="150" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV.</head>
+                <sp who="#hylas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="593" unit="words"/>
+                    <amount n="102" unit="lines"/>
+                    <amount n="2875" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Ménandre, Lerice, Hylas, Sylvanire, Le messager, Aglante.</head>
+                <sp who="#menandre">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="68" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="316" unit="chars"/>
+                </sp>
+                <sp who="#sylvanire">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="135" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="606" unit="chars"/>
+                </sp>
+                <sp who="#lerice">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="27" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="132" unit="chars"/>
+                </sp>
+                <sp who="#messager">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="71" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="314" unit="chars"/>
+                </sp>
+                <sp who="#hylas">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="142" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="641" unit="chars"/>
+                </sp>
+                <sp who="#aglante">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="152" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Aglante, Sylvanire, Ménandre, Lerice.</head>
+                <sp who="#aglante">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="642" unit="words"/>
+                    <amount n="124" unit="lines"/>
+                    <amount n="2981" unit="chars"/>
+                </sp>
+                <sp who="#sylvanire">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="962" unit="words"/>
+                    <amount n="170" unit="lines"/>
+                    <amount n="4486" unit="chars"/>
+                </sp>
+                <sp who="#menandre">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="430" unit="words"/>
+                    <amount n="93" unit="lines"/>
+                    <amount n="2040" unit="chars"/>
+                </sp>
+                <sp who="#lerice">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="197" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="883" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII.</head>
+                <sp who="#fossinde">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="307" unit="words"/>
+                    <amount n="54" unit="lines"/>
+                    <amount n="1456" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Tirinte, Fossinde.</head>
+                <sp who="#tirinte">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="312" unit="words"/>
+                    <amount n="69" unit="lines"/>
+                    <amount n="1395" unit="chars"/>
+                </sp>
+                <sp who="#fossinde">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="302" unit="words"/>
+                    <amount n="69" unit="lines"/>
+                    <amount n="1360" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX.</head>
+                <sp who="#tirinte">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="126" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="634" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Le messager, Tirinte.</head>
+                <sp who="#messager">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="644" unit="words"/>
+                    <amount n="121" unit="lines"/>
+                    <amount n="3044" unit="chars"/>
+                </sp>
+                <sp who="#tirinte">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="204" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="973" unit="chars"/>
+                </sp>
+                <sp who="#choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="227" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="1106" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE I.</head>
+                <sp who="#aglante">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="1240" unit="words"/>
+                    <amount n="228" unit="lines"/>
+                    <amount n="5887" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Aglante, Echo.</head>
+                <sp who="#aglante">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="226" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="1061" unit="chars"/>
+                </sp>
+                <sp who="#echo">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="53" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Tirinte, Alciron.</head>
+                <sp who="#tirinte">
+                    <amount n="22" unit="speech_acts"/>
+                    <amount n="424" unit="words"/>
+                    <amount n="94" unit="lines"/>
+                    <amount n="2024" unit="chars"/>
+                </sp>
+                <sp who="#alciron">
+                    <amount n="22" unit="speech_acts"/>
+                    <amount n="1611" unit="words"/>
+                    <amount n="308" unit="lines"/>
+                    <amount n="7716" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Sylvanire, Tirinte.</head>
+                <sp who="#sylvanire">
+                    <amount n="30" unit="speech_acts"/>
+                    <amount n="902" unit="words"/>
+                    <amount n="196" unit="lines"/>
+                    <amount n="4277" unit="chars"/>
+                </sp>
+                <sp who="#tirinte">
+                    <amount n="29" unit="speech_acts"/>
+                    <amount n="820" unit="words"/>
+                    <amount n="173" unit="lines"/>
+                    <amount n="3791" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Aglante, Sylvanire, Tirinte.</head>
+                <sp who="#aglante">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="88" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="414" unit="chars"/>
+                </sp>
+                <sp who="#sylvanire">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="54" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="255" unit="chars"/>
+                </sp>
+                <sp who="#tirinte">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="23" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Le choeur des bergers, Aglante, Tirinte, Sylvanire.</head>
+                <sp who="#choeur">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="290" unit="chars"/>
+                </sp>
+                <sp who="#aglante">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="147" unit="chars"/>
+                </sp>
+                <sp who="#tirinte">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="70" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="318" unit="chars"/>
+                </sp>
+                <sp who="#sylvanire">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="107" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="499" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Lerice, Ménandre, Fossinde, Aglante, Tirinte, Hylas, Sylvanire, Le choeur des bergers. </head>
+                <sp who="#lerice">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="59" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="253" unit="chars"/>
+                </sp>
+                <sp who="#menandre">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="111" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="497" unit="chars"/>
+                </sp>
+                <sp who="#sylvanire">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="133" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="630" unit="chars"/>
+                </sp>
+                <sp who="#aglante">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="251" unit="chars"/>
+                </sp>
+                <sp who="#fossinde">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="276" unit="words"/>
+                    <amount n="57" unit="lines"/>
+                    <amount n="1330" unit="chars"/>
+                </sp>
+                <sp who="#hylas">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="109" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="508" unit="chars"/>
+                </sp>
+                <sp who="#choeur">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="71" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="378" unit="chars"/>
+                </sp>
+                <sp who="#tirinte">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="278" unit="words"/>
+                    <amount n="56" unit="lines"/>
+                    <amount n="1297" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Lerice, Aglante, Sylvanire, Ménandre.</head>
+                <sp who="#lerice">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="180" unit="chars"/>
+                </sp>
+                <sp who="#aglante">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="323" unit="words"/>
+                    <amount n="62" unit="lines"/>
+                    <amount n="1494" unit="chars"/>
+                </sp>
+                <sp who="#menandre">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="147" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="671" unit="chars"/>
+                </sp>
+                <sp who="#sylvanire">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="54" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Ménandre, Lerice, Sylvanire.</head>
+                <sp who="#menandre">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="802" unit="words"/>
+                    <amount n="146" unit="lines"/>
+                    <amount n="3668" unit="chars"/>
+                </sp>
+                <sp who="#lerice">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="185" unit="chars"/>
+                </sp>
+                <sp who="#sylvanire">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="46" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X.</head>
+                <sp who="#aglante">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="332" unit="words"/>
+                    <amount n="60" unit="lines"/>
+                    <amount n="1554" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Sylvanire, Aglante.</head>
+                <sp who="#sylvanire">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="397" unit="words"/>
+                    <amount n="78" unit="lines"/>
+                    <amount n="1921" unit="chars"/>
+                </sp>
+                <sp who="#aglante">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="358" unit="words"/>
+                    <amount n="79" unit="lines"/>
+                    <amount n="1794" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII. Alciron, Sylvanire, Aglante.</head>
+                <sp who="#alciron">
+                    <amount n="25" unit="speech_acts"/>
+                    <amount n="2777" unit="words"/>
+                    <amount n="541" unit="lines"/>
+                    <amount n="13618" unit="chars"/>
+                </sp>
+                <sp who="#sylvanire">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="205" unit="words"/>
+                    <amount n="57" unit="lines"/>
+                    <amount n="991" unit="chars"/>
+                </sp>
+                <sp who="#aglante">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="101" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="490" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE DERNIÈRE. Sylvanire, Aglante, Ménandre, Lerice, Fossinde, Alciron, Tirinte, Hylas.</head>
+                <sp who="#sylvanire">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="140" unit="chars"/>
+                </sp>
+                <sp who="#aglante">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="181" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="913" unit="chars"/>
+                </sp>
+                <sp who="#menandre">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="143" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="671" unit="chars"/>
+                </sp>
+                <sp who="#lerice">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="27" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="133" unit="chars"/>
+                </sp>
+                <sp who="#fossinde">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="233" unit="chars"/>
+                </sp>
+                <sp who="#alciron">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="22" unit="chars"/>
+                </sp>
+                <sp who="#tirinte">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="239" unit="chars"/>
+                </sp>
+                <sp who="#hylas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="51" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="246" unit="chars"/>
+                </sp>
+                <sp who="#choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="79" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="374" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

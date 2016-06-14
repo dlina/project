@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>ARIANE</title>
+        <subtitle>TRAGÉDIE</subtitle>
+        <genretitle>Tragédie</genretitle>
+        <author>CORNEILLE, Thomas</author>
+        <date when="1672">1672</date>
+        <source>https://github.com/dramacode/theatre-classique/CORNEILLET_ARIANE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>oenarus</name>
+            <alias xml:id="oenarus">
+                <name>oenarus</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>arcas</name>
+            <alias xml:id="arcas">
+                <name>arcas</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>pirithous</name>
+            <alias xml:id="pirithous">
+                <name>pirithous</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>thesee</name>
+            <alias xml:id="thesee">
+                <name>thesee</name>
+            </alias>
+        </character>
+        <character>
+            <name>phedre</name>
+            <alias xml:id="phedre">
+                <name>phedre</name>
+            </alias>
+        </character>
+        <character>
+            <name>nerine</name>
+            <alias xml:id="nerine">
+                <name>nerine</name>
+            </alias>
+        </character>
+        <character>
+            <name>ariane</name>
+            <alias xml:id="ariane">
+                <name>ariane</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. OEnarus, Arcas.</head>
+                <sp who="#oenarus">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="754" unit="words"/>
+                    <amount n="85" unit="lines"/>
+                    <amount n="3773" unit="chars"/>
+                </sp>
+                <sp who="#arcas">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="272" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="1456" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. OEnarus, Thésée, Pirithoüs, Arcas.</head>
+                <sp who="#oenarus">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="198" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="924" unit="chars"/>
+                </sp>
+                <sp who="#pirithous">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="150" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="773" unit="chars"/>
+                </sp>
+                <sp who="#thesee">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="75" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="329" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Pirithoüs, Thésée.</head>
+                <sp who="#pirithous">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="351" unit="words"/>
+                    <amount n="50" unit="lines"/>
+                    <amount n="1801" unit="chars"/>
+                </sp>
+                <sp who="#thesee">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="823" unit="words"/>
+                    <amount n="98" unit="lines"/>
+                    <amount n="4058" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Thésée, Phèdre.</head>
+                <sp who="#thesee">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="484" unit="words"/>
+                    <amount n="60" unit="lines"/>
+                    <amount n="2473" unit="chars"/>
+                </sp>
+                <sp who="#phedre">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="575" unit="words"/>
+                    <amount n="68" unit="lines"/>
+                    <amount n="2849" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Ariane, Nérine. </head>
+                <sp who="#nerine">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="138" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="680" unit="chars"/>
+                </sp>
+                <sp who="#ariane">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="344" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="1840" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. OEnarus, Ariane, Nérine.</head>
+                <sp who="#oenarus">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="594" unit="words"/>
+                    <amount n="65" unit="lines"/>
+                    <amount n="2893" unit="chars"/>
+                </sp>
+                <sp who="#ariane">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="189" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="878" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. OEnarus, Thésée, Ariane, Nérine.</head>
+                <sp who="#oenarus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="236" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="1173" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Thésée, Ariane, Nérine.</head>
+                <sp who="#thesee">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="232" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="1014" unit="chars"/>
+                </sp>
+                <sp who="#ariane">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="259" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="1263" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Ariane, Pirithoüs, Nérine.</head>
+                <sp who="#ariane">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="393" unit="words"/>
+                    <amount n="50" unit="lines"/>
+                    <amount n="1923" unit="chars"/>
+                </sp>
+                <sp who="#pirithous">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="303" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="1412" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Ariane, Nérine.</head>
+                <sp who="#ariane">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="232" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="1089" unit="chars"/>
+                </sp>
+                <sp who="#nerine">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="41" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="205" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Ariane, Phèdre, Nérine.</head>
+                <sp who="#ariane">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="566" unit="words"/>
+                    <amount n="62" unit="lines"/>
+                    <amount n="2773" unit="chars"/>
+                </sp>
+                <sp who="#phedre">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="61" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="263" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Pirithoüs, Phèdre.</head>
+                <sp who="#pirithous">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="281" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="1399" unit="chars"/>
+                </sp>
+                <sp who="#phedre">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="349" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="1737" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Ariane, Pirithoüs, Phèdre, Nérine.</head>
+                <sp who="#ariane">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="218" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="1063" unit="chars"/>
+                </sp>
+                <sp who="#phedre">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="112" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="549" unit="chars"/>
+                </sp>
+                <sp who="#pirithous">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="74" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="325" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Ariane, Pirithoüs, Nérine.</head>
+                <sp who="#pirithous">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="233" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="1142" unit="chars"/>
+                </sp>
+                <sp who="#ariane">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="262" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="1322" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Ariane, Thésée, Nérine. </head>
+                <sp who="#ariane">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="1360" unit="words"/>
+                    <amount n="146" unit="lines"/>
+                    <amount n="6429" unit="chars"/>
+                </sp>
+                <sp who="#thesee">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="512" unit="words"/>
+                    <amount n="59" unit="lines"/>
+                    <amount n="2406" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Ariane, Nérine.</head>
+                <sp who="#ariane">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="245" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1192" unit="chars"/>
+                </sp>
+                <sp who="#nerine">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="63" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="330" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. OEnarus, Phèdre.</head>
+                <sp who="#oenarus">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="242" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="1160" unit="chars"/>
+                </sp>
+                <sp who="#phedre">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="189" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="922" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. OEnarus, Ariane, Phèdre, Nérine.</head>
+                <sp who="#oenarus">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="148" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="650" unit="chars"/>
+                </sp>
+                <sp who="#ariane">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="677" unit="words"/>
+                    <amount n="70" unit="lines"/>
+                    <amount n="3188" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Ariane, Phèdre. </head>
+                <sp who="#phedre">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="182" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="930" unit="chars"/>
+                </sp>
+                <sp who="#ariane">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="972" unit="words"/>
+                    <amount n="109" unit="lines"/>
+                    <amount n="4696" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Ariane, Thésée, Phèdre, Nérine. </head>
+                <sp who="#ariane">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="239" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="1122" unit="chars"/>
+                </sp>
+                <sp who="#thesee">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="23" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Phèdre, Thésée. </head>
+                <sp who="#thesee">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="388" unit="words"/>
+                    <amount n="51" unit="lines"/>
+                    <amount n="1958" unit="chars"/>
+                </sp>
+                <sp who="#phedre">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="532" unit="words"/>
+                    <amount n="62" unit="lines"/>
+                    <amount n="2583" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Ariane, Nérine.</head>
+                <sp who="#nerine">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="182" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="860" unit="chars"/>
+                </sp>
+                <sp who="#ariane">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="301" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="1595" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Ariane, Pirithoüs.</head>
+                <sp who="#ariane">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="223" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="1164" unit="chars"/>
+                </sp>
+                <sp who="#pirithous">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="95" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="432" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Ariane, Pirithoüs, Nérine.</head>
+                <sp who="#ariane">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="191" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="950" unit="chars"/>
+                </sp>
+                <sp who="#nerine">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="174" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Ariane, Pirithoüs, Arcas, Nérine</head>
+                <sp who="#arcas">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="137" unit="chars"/>
+                </sp>
+                <sp who="#ariane">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="114" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="557" unit="chars"/>
+                </sp>
+                <sp who="#thesee">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="247" unit="chars"/>
+                </sp>
+                <sp who="#pirithous">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="110" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Ariane, Nérine.</head>
+                <sp who="#ariane">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="739" unit="words"/>
+                    <amount n="80" unit="lines"/>
+                    <amount n="3590" unit="chars"/>
+                </sp>
+                <sp who="#nerine">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="55" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="292" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. OEnarus, Ariane, Pirithoüs, Nérine, Arcas. </head>
+                <sp who="#oenarus">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="116" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="569" unit="chars"/>
+                </sp>
+                <sp who="#ariane">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="405" unit="words"/>
+                    <amount n="50" unit="lines"/>
+                    <amount n="2013" unit="chars"/>
+                </sp>
+                <sp who="#pirithous">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="22" unit="chars"/>
+                </sp>
+                <sp who="#nerine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="4" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="26" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

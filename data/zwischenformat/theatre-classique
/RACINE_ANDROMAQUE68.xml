@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>ANDROMAQUE</title>
+        <subtitle>TRAGÉDIE</subtitle>
+        <genretitle>Tragédie</genretitle>
+        <author>RACINE, Jean</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/RACINE_ANDROMAQUE68.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>oreste</name>
+            <alias xml:id="oreste">
+                <name>oreste</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>pylade</name>
+            <alias xml:id="pylade">
+                <name>pylade</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>pyrrhus</name>
+            <alias xml:id="pyrrhus">
+                <name>pyrrhus</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>p_nix</name>
+            <alias xml:id="p_nix">
+                <name>p_nix</name>
+            </alias>
+        </character>
+        <character>
+            <name>andromaque</name>
+            <alias xml:id="andromaque">
+                <name>andromaque</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>hermione</name>
+            <alias xml:id="hermione">
+                <name>hermione</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>c_one</name>
+            <alias xml:id="c_one">
+                <name>c_one</name>
+            </alias>
+        </character>
+        <character>
+            <name>_phise</name>
+            <alias xml:id="_phise">
+                <name>_phise</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Oreste, Pylade.</head>
+                <sp who="#oreste">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="824" unit="words"/>
+                    <amount n="92" unit="lines"/>
+                    <amount n="3989" unit="chars"/>
+                </sp>
+                <sp who="#pylade">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="549" unit="words"/>
+                    <amount n="64" unit="lines"/>
+                    <amount n="2714" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Pyrrhus, Oreste, Phnix.</head>
+                <sp who="#oreste">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="409" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="1974" unit="chars"/>
+                </sp>
+                <sp who="#pyrrhus">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="643" unit="words"/>
+                    <amount n="69" unit="lines"/>
+                    <amount n="3102" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Pyrrhus, Phnix.</head>
+                <sp who="#p_nix">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="37" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="163" unit="chars"/>
+                </sp>
+                <sp who="#pyrrhus">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="64" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="322" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Pyrrhus, Andromque, Céphise.</head>
+                <sp who="#pyrrhus">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="721" unit="words"/>
+                    <amount n="82" unit="lines"/>
+                    <amount n="3461" unit="chars"/>
+                </sp>
+                <sp who="#andromaque">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="546" unit="words"/>
+                    <amount n="64" unit="lines"/>
+                    <amount n="2656" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Hermione, Cléone.</head>
+                <sp who="#hermione">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="673" unit="words"/>
+                    <amount n="75" unit="lines"/>
+                    <amount n="3119" unit="chars"/>
+                </sp>
+                <sp who="#c_one">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="259" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="1260" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Hermione, Oreste, Cléone.</head>
+                <sp who="#hermione">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="516" unit="words"/>
+                    <amount n="66" unit="lines"/>
+                    <amount n="2571" unit="chars"/>
+                </sp>
+                <sp who="#oreste">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="610" unit="words"/>
+                    <amount n="73" unit="lines"/>
+                    <amount n="2895" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III.</head>
+                <sp who="#oreste">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="147" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="671" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Pyrrhus, Oreste, Phnix.</head>
+                <sp who="#pyrrhus">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="180" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="848" unit="chars"/>
+                </sp>
+                <sp who="#oreste">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="105" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Pyrrhus, Phnix.</head>
+                <sp who="#pyrrhus">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="603" unit="words"/>
+                    <amount n="73" unit="lines"/>
+                    <amount n="2871" unit="chars"/>
+                </sp>
+                <sp who="#p_nix">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="283" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="1338" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Oreste, Pylade.</head>
+                <sp who="#pylade">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="361" unit="words"/>
+                    <amount n="50" unit="lines"/>
+                    <amount n="1772" unit="chars"/>
+                </sp>
+                <sp who="#oreste">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="589" unit="words"/>
+                    <amount n="71" unit="lines"/>
+                    <amount n="2792" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Hermione, Oreste, Cléone.</head>
+                <sp who="#oreste">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="152" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="682" unit="chars"/>
+                </sp>
+                <sp who="#hermione">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="145" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="676" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Hermione, Cléone.</head>
+                <sp who="#hermione">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="191" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="952" unit="chars"/>
+                </sp>
+                <sp who="#c_one">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="71" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="330" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Andromaque, Hermione, Cléone, Céphise.</head>
+                <sp who="#andromaque">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="232" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="1085" unit="chars"/>
+                </sp>
+                <sp who="#hermione">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="62" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="294" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Andromaque, Céphise.</head>
+                <sp who="#andromaque">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="45" unit="chars"/>
+                </sp>
+                <sp who="#_phise">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="126" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Pyrrhus, Andromaque, Phnix, Céphise.</head>
+                <sp who="#pyrrhus">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="165" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="777" unit="chars"/>
+                </sp>
+                <sp who="#p_nix">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="66" unit="chars"/>
+                </sp>
+                <sp who="#andromaque">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="366" unit="words"/>
+                    <amount n="51" unit="lines"/>
+                    <amount n="1796" unit="chars"/>
+                </sp>
+                <sp who="#_phise">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="78" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Pyrrhus, Andromaque, Céphise.</head>
+                <sp who="#pyrrhus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="316" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="1442" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Andromaque, Céphise.</head>
+                <sp who="#_phise">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="173" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="819" unit="chars"/>
+                </sp>
+                <sp who="#andromaque">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="568" unit="words"/>
+                    <amount n="65" unit="lines"/>
+                    <amount n="2648" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Andromaque, Céphise.</head>
+                <sp who="#_phise">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="250" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="1168" unit="chars"/>
+                </sp>
+                <sp who="#andromaque">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="596" unit="words"/>
+                    <amount n="63" unit="lines"/>
+                    <amount n="2699" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Hermione, Cléone.</head>
+                <sp who="#c_one">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="171" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="792" unit="chars"/>
+                </sp>
+                <sp who="#hermione">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="24" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Oreste, Hermione, Cléone.</head>
+                <sp who="#oreste">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="493" unit="words"/>
+                    <amount n="61" unit="lines"/>
+                    <amount n="2309" unit="chars"/>
+                </sp>
+                <sp who="#hermione">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="633" unit="words"/>
+                    <amount n="76" unit="lines"/>
+                    <amount n="3016" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Hermione, Cléone.</head>
+                <sp who="#c_one">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="147" unit="chars"/>
+                </sp>
+                <sp who="#hermione">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="190" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="842" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Pyrrhus, Hermione, Phnix.</head>
+                <sp who="#pyrrhus">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="481" unit="words"/>
+                    <amount n="51" unit="lines"/>
+                    <amount n="2334" unit="chars"/>
+                </sp>
+                <sp who="#hermione">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="622" unit="words"/>
+                    <amount n="65" unit="lines"/>
+                    <amount n="3003" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. PYRRHUS, PHNIX.</head>
+                <sp who="#p_nix">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="233" unit="chars"/>
+                </sp>
+                <sp who="#pyrrhus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="45" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE PREMIÈRE.</head>
+                <sp who="#hermione">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="380" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="1764" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Hermione, Cléone.</head>
+                <sp who="#hermione">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="331" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="1563" unit="chars"/>
+                </sp>
+                <sp who="#c_one">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="308" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1428" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Oreste, Andromaque, Hermione, Cléone, Céphise, Soldats d'Oreste.</head>
+                <sp who="#oreste">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="454" unit="words"/>
+                    <amount n="53" unit="lines"/>
+                    <amount n="2202" unit="chars"/>
+                </sp>
+                <sp who="#hermione">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="350" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="1667" unit="chars"/>
+                </sp>
+                <sp who="#andromaque">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="247" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="1216" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Oreste, Soldats d'Oreste.</head>
+                <sp who="#oreste">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="193" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="880" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Oreste, Pylade, Soldats d'Oreste.</head>
+                <sp who="#pylade">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="293" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1465" unit="chars"/>
+                </sp>
+                <sp who="#oreste">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="370" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="1748" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

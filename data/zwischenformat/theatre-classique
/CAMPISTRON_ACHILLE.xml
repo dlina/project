@@ -1,0 +1,866 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>ACHILLE ET POLIXÈNE</title>
+        <subtitle>TRAGÉDIE EN MUSIQUE</subtitle>
+        <subtitle>representée par l'Academie royale de musique.</subtitle>
+        <genretitle>Tragédie en musique</genretitle>
+        <author>CAMPISTRON, Jean Galbert de</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/CAMPISTRON_ACHILLE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>mercure</name>
+            <alias xml:id="mercure">
+                <name>mercure</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>melpo_ne</name>
+            <alias xml:id="melpo_ne">
+                <name>melpo_ne</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>thalie</name>
+            <alias xml:id="thalie">
+                <name>thalie</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>terpsicore</name>
+            <alias xml:id="terpsicore">
+                <name>terpsicore</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>melpo_ne_thalie_terpsicore</name>
+            <alias xml:id="melpo_ne_thalie_terpsicore">
+                <name>melpo_ne_thalie_terpsicore</name>
+            </alias>
+        </character>
+        <character>
+            <name>melpo_me_terpsicore</name>
+            <alias xml:id="melpo_me_terpsicore">
+                <name>melpo_me_terpsicore</name>
+            </alias>
+        </character>
+        <character>
+            <name>choeur_de__nies</name>
+            <alias xml:id="choeur_de__nies">
+                <name>choeur_de__nies</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_choeur</name>
+            <alias xml:id="le_choeur">
+                <name>le_choeur</name>
+            </alias>
+        </character>
+        <character>
+            <name>jupiter</name>
+            <alias xml:id="jupiter">
+                <name>jupiter</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>melpo_ne__thalie__terpsicore</name>
+            <alias xml:id="melpo_ne__thalie__terpsicore">
+                <name>melpo_ne__thalie__terpsicore</name>
+            </alias>
+        </character>
+        <character>
+            <name>patrocle</name>
+            <alias xml:id="patrocle">
+                <name>patrocle</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>achille</name>
+            <alias xml:id="achille">
+                <name>achille</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>dio_de</name>
+            <alias xml:id="dio_de">
+                <name>dio_de</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>_nus</name>
+            <alias xml:id="_nus">
+                <name>_nus</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>une_des_g_ces</name>
+            <alias xml:id="une_des_g_ces">
+                <name>une_des_g_ces</name>
+            </alias>
+        </character>
+        <character>
+            <name>un_plaisir</name>
+            <alias xml:id="un_plaisir">
+                <name>un_plaisir</name>
+            </alias>
+        </character>
+        <character>
+            <name>deux_g_ces_et_un_plaisir</name>
+            <alias xml:id="deux_g_ces_et_un_plaisir">
+                <name>deux_g_ces_et_un_plaisir</name>
+            </alias>
+        </character>
+        <character>
+            <name>arcas</name>
+            <alias xml:id="arcas">
+                <name>arcas</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>achille__arcas</name>
+            <alias xml:id="achille__arcas">
+                <name>achille__arcas</name>
+            </alias>
+        </character>
+        <character>
+            <name>agamemnon</name>
+            <alias xml:id="agamemnon">
+                <name>agamemnon</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>capitaines_grecs</name>
+            <alias xml:id="capitaines_grecs">
+                <name>capitaines_grecs</name>
+            </alias>
+        </character>
+        <character>
+            <name>priam</name>
+            <alias xml:id="priam">
+                <name>priam</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>priam__andromaque__poli_ne</name>
+            <alias xml:id="priam__andromaque__poli_ne">
+                <name>priam__andromaque__poli_ne</name>
+            </alias>
+        </character>
+        <character>
+            <name>andromaque</name>
+            <alias xml:id="andromaque">
+                <name>andromaque</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>poli_ne</name>
+            <alias xml:id="poli_ne">
+                <name>poli_ne</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>briseis</name>
+            <alias xml:id="briseis">
+                <name>briseis</name>
+            </alias>
+        </character>
+        <character>
+            <name>junon</name>
+            <alias xml:id="junon">
+                <name>junon</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>un_berger</name>
+            <alias xml:id="un_berger">
+                <name>un_berger</name>
+            </alias>
+        </character>
+        <character>
+            <name>un_berger_et_une_ber_re</name>
+            <alias xml:id="un_berger_et_une_ber_re">
+                <name>un_berger_et_une_ber_re</name>
+            </alias>
+        </character>
+        <character>
+            <name>trois_bergers</name>
+            <alias xml:id="trois_bergers">
+                <name>trois_bergers</name>
+            </alias>
+        </character>
+        <character>
+            <name>un_troyen</name>
+            <alias xml:id="un_troyen">
+                <name>un_troyen</name>
+            </alias>
+        </character>
+        <character>
+            <name>une_troyenne</name>
+            <alias xml:id="une_troyenne">
+                <name>une_troyenne</name>
+            </alias>
+        </character>
+        <character>
+            <name>deux_troyens</name>
+            <alias xml:id="deux_troyens">
+                <name>deux_troyens</name>
+            </alias>
+        </character>
+        <character>
+            <name>une_autre_troyenne</name>
+            <alias xml:id="une_autre_troyenne">
+                <name>une_autre_troyenne</name>
+            </alias>
+        </character>
+        <character>
+            <name>priam__achille_et_poli_ne</name>
+            <alias xml:id="priam__achille_et_poli_ne">
+                <name>priam__achille_et_poli_ne</name>
+            </alias>
+        </character>
+        <character>
+            <name>un_grec</name>
+            <alias xml:id="un_grec">
+                <name>un_grec</name>
+            </alias>
+        </character>
+        <character>
+            <name>un_grec_et_deux_troyennes</name>
+            <alias xml:id="un_grec_et_deux_troyennes">
+                <name>un_grec_et_deux_troyennes</name>
+            </alias>
+        </character>
+        <character>
+            <name>achille__poli_ne</name>
+            <alias xml:id="achille__poli_ne">
+                <name>achille__poli_ne</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>PROLOGUE</head>
+            <div>
+                <head>Mercure, Melpomène, Terpsicore, Thalie, Mercure.</head>
+                <sp who="#mercure">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="131" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="702" unit="chars"/>
+                </sp>
+                <sp who="#melpo_ne">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="56" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="285" unit="chars"/>
+                </sp>
+                <sp who="#thalie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="60" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="331" unit="chars"/>
+                </sp>
+                <sp who="#terpsicore">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="142" unit="chars"/>
+                </sp>
+                <sp who="#melpo_ne_thalie_terpsicore">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="90" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="438" unit="chars"/>
+                </sp>
+                <sp who="#melpo_me_terpsicore">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="118" unit="chars"/>
+                </sp>
+                <sp who="#choeur_de__nies">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="25" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="133" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="48" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="255" unit="chars"/>
+                </sp>
+                <sp who="#jupiter">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="102" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="514" unit="chars"/>
+                </sp>
+                <sp who="#melpo_ne__thalie__terpsicore">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="27" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="153" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Achille, Patrocle.</head>
+                <sp who="#patrocle">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="346" unit="words"/>
+                    <amount n="45" unit="lines"/>
+                    <amount n="1688" unit="chars"/>
+                </sp>
+                <sp who="#achille">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="200" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="1007" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II.</head>
+                <sp who="#achille">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="103" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="501" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Achille, Diomède.</head>
+                <sp who="#dio_de">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="163" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="812" unit="chars"/>
+                </sp>
+                <sp who="#achille">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="161" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="823" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Vénus, Achille.</head>
+                <sp who="#_nus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="64" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="314" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Achille, Les Grâces, les Plaisirs.</head>
+                <sp who="#une_des_g_ces">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="250" unit="chars"/>
+                </sp>
+                <sp who="#un_plaisir">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="49" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="252" unit="chars"/>
+                </sp>
+                <sp who="#deux_g_ces_et_un_plaisir">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="45" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="243" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Achille, les Grâces, les Plaisirs, Arcas.</head>
+                <sp who="#arcas">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="47" unit="chars"/>
+                </sp>
+                <sp who="#achille">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="37" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="186" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCENE VII. Achille, Arcas.</head>
+                <sp who="#achille__arcas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="89" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="440" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Agamemnon, Ddiomède.</head>
+                <sp who="#dio_de">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="130" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="710" unit="chars"/>
+                </sp>
+                <sp who="#agamemnon">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="129" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="676" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Achille, Chefs et Soldats grecs.</head>
+                <sp who="#le_choeur">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="174" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="928" unit="chars"/>
+                </sp>
+                <sp who="#capitaines_grecs">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="202" unit="chars"/>
+                </sp>
+                <sp who="#achille">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="176" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Arcas, Priam, Andromaque, Polixène.</head>
+                <sp who="#arcas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="164" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Priam, Andromaque, Polixène.</head>
+                <sp who="#priam">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="186" unit="chars"/>
+                </sp>
+                <sp who="#priam__andromaque__poli_ne">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="60" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Achille, Arcas, Priam, Andromaque, Polixène.</head>
+                <sp who="#priam">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="126" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="637" unit="chars"/>
+                </sp>
+                <sp who="#achille">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="156" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="769" unit="chars"/>
+                </sp>
+                <sp who="#andromaque">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="157" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="726" unit="chars"/>
+                </sp>
+                <sp who="#poli_ne">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="62" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="337" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I.</head>
+                <sp who="#achille">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="123" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="595" unit="chars"/>
+                </sp>
+                <sp who="#arcas">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="146" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. </head>
+                <sp who="#achille">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="230" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Achille, Agamemnon.</head>
+                <sp who="#agamemnon">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="94" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="457" unit="chars"/>
+                </sp>
+                <sp who="#achille">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="172" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Achille, Briseis, Agamemnon, Diomède.</head>
+                <sp who="#achille">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="43" unit="chars"/>
+                </sp>
+                <sp who="#agamemnon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="168" unit="chars"/>
+                </sp>
+                <sp who="#dio_de">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="190" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Achille, Briséis. </head>
+                <sp who="#briseis">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="209" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="1010" unit="chars"/>
+                </sp>
+                <sp who="#achille">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="136" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="670" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI.</head>
+                <sp who="#briseis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="155" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="772" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Junon, Briséis.</head>
+                <sp who="#junon">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="159" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="794" unit="chars"/>
+                </sp>
+                <sp who="#briseis">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="104" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII.</head>
+                <sp who="#briseis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="103" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="508" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Troupe de Bergers et des Bergères.</head>
+                <sp who="#un_berger">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="139" unit="chars"/>
+                </sp>
+                <sp who="#un_berger_et_une_ber_re">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="55" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="299" unit="chars"/>
+                </sp>
+                <sp who="#trois_bergers">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="134" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="87" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="452" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE I.</head>
+                <sp who="#poli_ne">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="280" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="1359" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Polixène, Andromaque.</head>
+                <sp who="#andromaque">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="303" unit="words"/>
+                    <amount n="45" unit="lines"/>
+                    <amount n="1496" unit="chars"/>
+                </sp>
+                <sp who="#poli_ne">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="260" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III.</head>
+                <sp who="#poli_ne">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="103" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="524" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Priam, Polixène, Arcas, Suite de Priam et d'Arcas.</head>
+                <sp who="#priam">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="136" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="674" unit="chars"/>
+                </sp>
+                <sp who="#arcas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="61" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="266" unit="chars"/>
+                </sp>
+                <sp who="#poli_ne">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="86" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Polixène, Arcas, Troupe de Troyens et de Troyenne.</head>
+                <sp who="#un_troyen">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="66" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="327" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="98" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="482" unit="chars"/>
+                </sp>
+                <sp who="#une_troyenne">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="55" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="289" unit="chars"/>
+                </sp>
+                <sp who="#deux_troyens">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="99" unit="chars"/>
+                </sp>
+                <sp who="#une_autre_troyenne">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="93" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE I.</head>
+                <sp who="#achille">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="247" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Achille, Arcas, Polixène, Choeur de Grecs de la suite d'Achille, Choeur de Troyens et de filles troyennes qui suivent Priam et Polixène.
+</head>
+                <sp who="#achille">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="116" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="568" unit="chars"/>
+                </sp>
+                <sp who="#poli_ne">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="152" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Achille, Priam, Polixène, Arbas, Troupe de Grecs, de Troyens et de Troyennes.</head>
+                <sp who="#priam">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="68" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="345" unit="chars"/>
+                </sp>
+                <sp who="#priam__achille_et_poli_ne">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="116" unit="chars"/>
+                </sp>
+                <sp who="#achille">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="135" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="41" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="209" unit="chars"/>
+                </sp>
+                <sp who="#un_grec">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="43" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="210" unit="chars"/>
+                </sp>
+                <sp who="#un_grec_et_deux_troyennes">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="165" unit="chars"/>
+                </sp>
+                <sp who="#achille__poli_ne">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="25" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="136" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. </head>
+                <sp who="#briseis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="90" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="431" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Briséis, Choeur de Grecs, qui sortent en désordre du temple d'Apollon, Arcas.</head>
+                <sp who="#le_choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="58" unit="chars"/>
+                </sp>
+                <sp who="#briseis">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="147" unit="chars"/>
+                </sp>
+                <sp who="#arcas">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="88" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Polixène, Briseis.</head>
+                <sp who="#poli_ne">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="67" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="332" unit="chars"/>
+                </sp>
+                <sp who="#briseis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="49" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="245" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE DERNIÈRE.</head>
+                <sp who="#poli_ne">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="358" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="1613" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

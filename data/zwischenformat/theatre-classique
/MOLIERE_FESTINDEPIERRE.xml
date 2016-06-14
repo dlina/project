@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LE FESTIN DE PIERRE</title>
+        <subtitle>COMÉDIE</subtitle>
+        <subtitle>Édition nouvelle et toute différente de celle qui a paru jusqu'à présent.</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>MOLIERE</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/MOLIERE_FESTINDEPIERRE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>sganarelle</name>
+            <alias xml:id="sganarelle">
+                <name>sganarelle</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>gusman</name>
+            <alias xml:id="gusman">
+                <name>gusman</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>don_juan</name>
+            <alias xml:id="don_juan">
+                <name>don_juan</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>dona_elvire</name>
+            <alias xml:id="dona_elvire">
+                <name>dona_elvire</name>
+            </alias>
+        </character>
+        <character>
+            <name>charlotte</name>
+            <alias xml:id="charlotte">
+                <name>charlotte</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>pierrot</name>
+            <alias xml:id="pierrot">
+                <name>pierrot</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>mathurine</name>
+            <alias xml:id="mathurine">
+                <name>mathurine</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>la_ra_e</name>
+            <alias xml:id="la_ra_e">
+                <name>la_ra_e</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_pauvre</name>
+            <alias xml:id="le_pauvre">
+                <name>le_pauvre</name>
+            </alias>
+        </character>
+        <character>
+            <name>don_carlos</name>
+            <alias xml:id="don_carlos">
+                <name>don_carlos</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>don_alonse</name>
+            <alias xml:id="don_alonse">
+                <name>don_alonse</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>la_violette</name>
+            <alias xml:id="la_violette">
+                <name>la_violette</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>monsieur_dimanche</name>
+            <alias xml:id="monsieur_dimanche">
+                <name>monsieur_dimanche</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>don_louis</name>
+            <alias xml:id="don_louis">
+                <name>don_louis</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>ragotin</name>
+            <alias xml:id="ragotin">
+                <name>ragotin</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>la_statue</name>
+            <alias xml:id="la_statue">
+                <name>la_statue</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_spectre</name>
+            <alias xml:id="le_spectre">
+                <name>le_spectre</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. SGANARELLE, GUSMAN.</head>
+                <sp who="#sganarelle">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="884" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="4126" unit="chars"/>
+                </sp>
+                <sp who="#gusman">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="208" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="1063" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Don Juan, Sganarelle.</head>
+                <sp who="#don_juan">
+                    <amount n="27" unit="speech_acts"/>
+                    <amount n="1046" unit="words"/>
+                    <amount n="88" unit="lines"/>
+                    <amount n="5090" unit="chars"/>
+                </sp>
+                <sp who="#sganarelle">
+                    <amount n="26" unit="speech_acts"/>
+                    <amount n="759" unit="words"/>
+                    <amount n="82" unit="lines"/>
+                    <amount n="3524" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Dona Elvire, Don Juan, Sganarelle.</head>
+                <sp who="#dona_elvire">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="712" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="3459" unit="chars"/>
+                </sp>
+                <sp who="#don_juan">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="320" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="1509" unit="chars"/>
+                </sp>
+                <sp who="#sganarelle">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="96" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="437" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE I. Charlotte, Pierrot.</head>
+                <sp who="#charlotte">
+                    <amount n="23" unit="speech_acts"/>
+                    <amount n="290" unit="words"/>
+                    <amount n="72" unit="lines"/>
+                    <amount n="1228" unit="chars"/>
+                </sp>
+                <sp who="#pierrot">
+                    <amount n="23" unit="speech_acts"/>
+                    <amount n="1378" unit="words"/>
+                    <amount n="72" unit="lines"/>
+                    <amount n="6217" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Don Juan, Sganarelle, Charlotte.</head>
+                <sp who="#don_juan">
+                    <amount n="22" unit="speech_acts"/>
+                    <amount n="933" unit="words"/>
+                    <amount n="88" unit="lines"/>
+                    <amount n="4304" unit="chars"/>
+                </sp>
+                <sp who="#sganarelle">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="108" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="505" unit="chars"/>
+                </sp>
+                <sp who="#charlotte">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="335" unit="words"/>
+                    <amount n="56" unit="lines"/>
+                    <amount n="1537" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Don Juan, Sganarelle, Pierrot, Charlotte.</head>
+                <sp who="#pierrot">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="276" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="1246" unit="chars"/>
+                </sp>
+                <sp who="#don_juan">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="85" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="373" unit="chars"/>
+                </sp>
+                <sp who="#charlotte">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="95" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="414" unit="chars"/>
+                </sp>
+                <sp who="#sganarelle">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="158" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Don Juan, Mathurine, Charlotte, Sganarelle.</head>
+                <sp who="#sganarelle">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="214" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="999" unit="chars"/>
+                </sp>
+                <sp who="#mathurine">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="151" unit="words"/>
+                    <amount n="54" unit="lines"/>
+                    <amount n="708" unit="chars"/>
+                </sp>
+                <sp who="#don_juan">
+                    <amount n="21" unit="speech_acts"/>
+                    <amount n="389" unit="words"/>
+                    <amount n="79" unit="lines"/>
+                    <amount n="1886" unit="chars"/>
+                </sp>
+                <sp who="#charlotte">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="147" unit="words"/>
+                    <amount n="51" unit="lines"/>
+                    <amount n="678" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Don Juan, La Ramée, Charlotte, Mathurine, Sganarelle.</head>
+                <sp who="#la_ra_e">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="77" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="385" unit="chars"/>
+                </sp>
+                <sp who="#don_juan">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="107" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="509" unit="chars"/>
+                </sp>
+                <sp who="#sganarelle">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="193" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I. Don Juan, Sganarelle.</head>
+                <sp who="#sganarelle">
+                    <amount n="22" unit="speech_acts"/>
+                    <amount n="961" unit="words"/>
+                    <amount n="78" unit="lines"/>
+                    <amount n="4419" unit="chars"/>
+                </sp>
+                <sp who="#don_juan">
+                    <amount n="21" unit="speech_acts"/>
+                    <amount n="250" unit="words"/>
+                    <amount n="65" unit="lines"/>
+                    <amount n="1155" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Don Juan, Sganarelle, un Pauvre.</head>
+                <sp who="#sganarelle">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="53" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="215" unit="chars"/>
+                </sp>
+                <sp who="#le_pauvre">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="178" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="834" unit="chars"/>
+                </sp>
+                <sp who="#don_juan">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="226" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="949" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Don Juan, Don Carlos, Sganarelle.</head>
+                <sp who="#sganarelle">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="155" unit="chars"/>
+                </sp>
+                <sp who="#don_carlos">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="585" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="2810" unit="chars"/>
+                </sp>
+                <sp who="#don_juan">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="297" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="1455" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Don Alonse, et trois Suivants, Don Carlos, Don Juan, Sganarelle.</head>
+                <sp who="#don_alonse">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="128" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="611" unit="chars"/>
+                </sp>
+                <sp who="#don_juan">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="169" unit="chars"/>
+                </sp>
+                <sp who="#don_carlos">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="465" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="2222" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Don Juan, Sganarelle.</head>
+                <sp who="#don_juan">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="417" unit="words"/>
+                    <amount n="60" unit="lines"/>
+                    <amount n="1941" unit="chars"/>
+                </sp>
+                <sp who="#sganarelle">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="308" unit="words"/>
+                    <amount n="62" unit="lines"/>
+                    <amount n="1412" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV.</head>
+            <div>
+                <head>SCÈNE I. Don Juan, Sganarelle.</head>
+                <sp who="#don_juan">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="103" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="494" unit="chars"/>
+                </sp>
+                <sp who="#sganarelle">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="105" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="474" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Don Juan, La Violette, Sganarelle.</head>
+                <sp who="#la_violette">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="41" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="189" unit="chars"/>
+                </sp>
+                <sp who="#sganarelle">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="41" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="204" unit="chars"/>
+                </sp>
+                <sp who="#don_juan">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="46" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="225" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Don Juan, Monsieur Dimanche, Sganarelle, Suite.</head>
+                <sp who="#don_juan">
+                    <amount n="28" unit="speech_acts"/>
+                    <amount n="489" unit="words"/>
+                    <amount n="87" unit="lines"/>
+                    <amount n="2281" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_dimanche">
+                    <amount n="37" unit="speech_acts"/>
+                    <amount n="387" unit="words"/>
+                    <amount n="120" unit="lines"/>
+                    <amount n="1594" unit="chars"/>
+                </sp>
+                <sp who="#sganarelle">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="140" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="668" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Don Louis, Don Juan, Sganarelle, La Violette.</head>
+                <sp who="#la_violette">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="38" unit="chars"/>
+                </sp>
+                <sp who="#don_juan">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="140" unit="chars"/>
+                </sp>
+                <sp who="#don_louis">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="597" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="2952" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Don Juan, Sganarelle.</head>
+                <sp who="#don_juan">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="51" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="232" unit="chars"/>
+                </sp>
+                <sp who="#sganarelle">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="130" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="616" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Don Juan, Dona Elvire, Ragotin, Sganarelle.</head>
+                <sp who="#ragotin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="55" unit="chars"/>
+                </sp>
+                <sp who="#don_juan">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="43" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="186" unit="chars"/>
+                </sp>
+                <sp who="#sganarelle">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="59" unit="chars"/>
+                </sp>
+                <sp who="#dona_elvire">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="689" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="3321" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Don Juan, Sganarelle, Suite.</head>
+                <sp who="#don_juan">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="218" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1039" unit="chars"/>
+                </sp>
+                <sp who="#sganarelle">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="149" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="672" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Don Juan, La Statue du Commandeur, Sganarelle, Suite.</head>
+                <sp who="#don_juan">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="75" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="350" unit="chars"/>
+                </sp>
+                <sp who="#sganarelle">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="136" unit="chars"/>
+                </sp>
+                <sp who="#la_statue">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="161" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE I. Don Louis, Don Juan, Sganarelle.</head>
+                <sp who="#don_louis">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="196" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="983" unit="chars"/>
+                </sp>
+                <sp who="#don_juan">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="226" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="1082" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Don Juan, Sganarelle.</head>
+                <sp who="#sganarelle">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="449" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="2053" unit="chars"/>
+                </sp>
+                <sp who="#don_juan">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="732" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="3714" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Don Carlos, Don Juan, Sganarelle.</head>
+                <sp who="#don_carlos">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="262" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="1270" unit="chars"/>
+                </sp>
+                <sp who="#don_juan">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="306" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="1461" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Don Juan, Sganarelle.</head>
+                <sp who="#sganarelle">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="82" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="413" unit="chars"/>
+                </sp>
+                <sp who="#don_juan">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="182" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Don Juan, un Spectre en femme voilée, Sganarelle.</head>
+                <sp who="#le_spectre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="124" unit="chars"/>
+                </sp>
+                <sp who="#sganarelle">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="43" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="214" unit="chars"/>
+                </sp>
+                <sp who="#don_juan">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="75" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="336" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. La Statue, Don Juan, Sganarelle.</head>
+                <sp who="#la_statue">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="224" unit="chars"/>
+                </sp>
+                <sp who="#don_juan">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="130" unit="chars"/>
+                </sp>
+                <sp who="#sganarelle">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="66" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="293" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

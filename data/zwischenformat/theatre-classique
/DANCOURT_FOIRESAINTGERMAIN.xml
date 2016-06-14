@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LA FOIRE SAINT GERMAIN</title>
+        <subtitle>COMÉDIE</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>DANCOURT, Florent CARTON dit</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/DANCOURT_FOIRESAINTGERMAIN.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>mademoiselle_mousset</name>
+            <alias xml:id="mademoiselle_mousset">
+                <name>mademoiselle_mousset</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>mimi</name>
+            <alias xml:id="mimi">
+                <name>mimi</name>
+            </alias>
+        </character>
+        <character>
+            <name>lolotte</name>
+            <alias xml:id="lolotte">
+                <name>lolotte</name>
+            </alias>
+        </character>
+        <character>
+            <name>manon</name>
+            <alias xml:id="manon">
+                <name>manon</name>
+            </alias>
+        </character>
+        <character>
+            <name>lorange</name>
+            <alias xml:id="lorange">
+                <name>lorange</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>urbine</name>
+            <alias xml:id="urbine">
+                <name>urbine</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_chevalier</name>
+            <alias xml:id="le_chevalier">
+                <name>le_chevalier</name>
+            </alias>
+        </character>
+        <character>
+            <name>clitandre</name>
+            <alias xml:id="clitandre">
+                <name>clitandre</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_breton</name>
+            <alias xml:id="le_breton">
+                <name>le_breton</name>
+            </alias>
+        </character>
+        <character>
+            <name>an_lique</name>
+            <alias xml:id="an_lique">
+                <name>an_lique</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>madame_isaac</name>
+            <alias xml:id="madame_isaac">
+                <name>madame_isaac</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>jasmin</name>
+            <alias xml:id="jasmin">
+                <name>jasmin</name>
+            </alias>
+        </character>
+        <character>
+            <name>monsieur_farfadel</name>
+            <alias xml:id="monsieur_farfadel">
+                <name>monsieur_farfadel</name>
+            </alias>
+        </character>
+        <character>
+            <name>mademoiselle_de_kermorin</name>
+            <alias xml:id="mademoiselle_de_kermorin">
+                <name>mademoiselle_de_kermorin</name>
+            </alias>
+        </character>
+        <character>
+            <name>marotte</name>
+            <alias xml:id="marotte">
+                <name>marotte</name>
+            </alias>
+        </character>
+        <character>
+            <name>madame_bardoux</name>
+            <alias xml:id="madame_bardoux">
+                <name>madame_bardoux</name>
+            </alias>
+        </character>
+        <character>
+            <name>farfadel</name>
+            <alias xml:id="farfadel">
+                <name>farfadel</name>
+            </alias>
+        </character>
+        <character>
+            <name>mademoiselle_de_kermonin_et_marotte</name>
+            <alias xml:id="mademoiselle_de_kermonin_et_marotte">
+                <name>mademoiselle_de_kermonin_et_marotte</name>
+            </alias>
+        </character>
+        <character>
+            <name>tous</name>
+            <alias xml:id="tous">
+                <name>tous</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head/>
+            <div>
+                <head>SCÈNE I. Mademoiselle Mousset, Lorange, Mesdemoiselles Manon, Mimi, Lolotte dans leurs boutiques.</head>
+                <sp who="#mademoiselle_mousset">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="111" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="551" unit="chars"/>
+                </sp>
+                <sp who="#mimi">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="80" unit="chars"/>
+                </sp>
+                <sp who="#lolotte">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="202" unit="chars"/>
+                </sp>
+                <sp who="#manon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="213" unit="chars"/>
+                </sp>
+                <sp who="#lorange">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="84" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE I.. Le Chevalier, Urbine.</head>
+                <sp who="#urbine">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="187" unit="chars"/>
+                </sp>
+                <sp who="#le_chevalier">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="274" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="1257" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Mademoiselle Mousset, Le Chevalier, Urbine.</head>
+                <sp who="#mademoiselle_mousset">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="120" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="594" unit="chars"/>
+                </sp>
+                <sp who="#le_chevalier">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="311" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="1466" unit="chars"/>
+                </sp>
+                <sp who="#urbine">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="64" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="310" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV.</head>
+                <sp who="#mademoiselle_mousset">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="106" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Mademoiselle Mousset, Lorange en Arménien.</head>
+                <sp who="#lorange">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="304" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1444" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_mousset">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="191" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="910" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Clitandre, Mademoiselle Mousset, Lorange.</head>
+                <sp who="#clitandre">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="94" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="446" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_mousset">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="69" unit="chars"/>
+                </sp>
+                <sp who="#lorange">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="127" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Clitandre, Le Breton, Mademoiselle Mousset, Lorange.</head>
+                <sp who="#clitandre">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="284" unit="words"/>
+                    <amount n="59" unit="lines"/>
+                    <amount n="1365" unit="chars"/>
+                </sp>
+                <sp who="#le_breton">
+                    <amount n="20" unit="speech_acts"/>
+                    <amount n="468" unit="words"/>
+                    <amount n="67" unit="lines"/>
+                    <amount n="2180" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_mousset">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="131" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="669" unit="chars"/>
+                </sp>
+                <sp who="#lorange">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="122" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="643" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Clitandre, Mademoiselle Mousset, Lorange, Le Breton, Angélique, Madame Isaac.</head>
+                <sp who="#lorange">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="203" unit="chars"/>
+                </sp>
+                <sp who="#clitandre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="2" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="21" unit="chars"/>
+                </sp>
+                <sp who="#le_breton">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="173" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_mousset">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="47" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Angélique, Madame Isaac, Mademoiselle Mousset, Le Breton.</head>
+                <sp who="#an_lique">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="58" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="256" unit="chars"/>
+                </sp>
+                <sp who="#madame_isaac">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="104" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="513" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_mousset">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="27" unit="chars"/>
+                </sp>
+                <sp who="#le_breton">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="94" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Angélique, Madame Isaac, Mdemoiselle Mousset, Le Breton, Lorange, Jasmin.</head>
+                <sp who="#lorange">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="46" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="223" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="112" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="516" unit="chars"/>
+                </sp>
+                <sp who="#madame_isaac">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="128" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="589" unit="chars"/>
+                </sp>
+                <sp who="#le_breton">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="218" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_mousset">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="25" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="130" unit="chars"/>
+                </sp>
+                <sp who="#jasmin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="48" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Angélique, Mademoiselle Mousset, Lorange, Le Breton, Jasmin.</head>
+                <sp who="#lorange">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="113" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="497" unit="chars"/>
+                </sp>
+                <sp who="#le_breton">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="328" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="78" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="384" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_mousset">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="73" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="355" unit="chars"/>
+                </sp>
+                <sp who="#jasmin">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="156" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII. Mademoiselle Mousset, Angélique.</head>
+                <sp who="#an_lique">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="97" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_mousset">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="181" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIII. Clitandre, Angélique, Mademoiselle Mousset.</head>
+                <sp who="#clitandre">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="180" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="889" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_mousset">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="161" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="781" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="196" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="984" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIV. Clitandre, Mademoiselle Mousset.</head>
+                <sp who="#mademoiselle_mousset">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="96" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="486" unit="chars"/>
+                </sp>
+                <sp who="#clitandre">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="59" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="266" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XV.</head>
+                <sp who="#mademoiselle_mousset">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="25" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="137" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVI. Monsieur Farfadel, Mademoiselle Mousset.</head>
+                <sp who="#monsieur_farfadel">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="469" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="2158" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_mousset">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="121" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="560" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVII.</head>
+                <sp who="#mademoiselle_mousset">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="41" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="235" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVIII. Mademoiselle Mousset, Lorange, Le Breton.</head>
+                <sp who="#le_breton">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="207" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="1103" unit="chars"/>
+                </sp>
+                <sp who="#lorange">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="152" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="742" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_mousset">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="189" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="927" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIX. Mademoiselle Mousset, Lorange.</head>
+                <sp who="#mademoiselle_mousset">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="159" unit="chars"/>
+                </sp>
+                <sp who="#lorange">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="169" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XX. Mademoiselle De Kermonin, Lorange, Mademoiselle Mousset.</head>
+                <sp who="#mademoiselle_de_kermorin">
+                    <amount n="20" unit="speech_acts"/>
+                    <amount n="365" unit="words"/>
+                    <amount n="77" unit="lines"/>
+                    <amount n="1648" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_mousset">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="153" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="790" unit="chars"/>
+                </sp>
+                <sp who="#lorange">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="240" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="1095" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXI. Mademoiselle Mousset, Mademoiselle De Kermonin, Marotte, Lorange.</head>
+                <sp who="#marotte">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="259" unit="words"/>
+                    <amount n="45" unit="lines"/>
+                    <amount n="1230" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_mousset">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="89" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="444" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_de_kermorin">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="97" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="501" unit="chars"/>
+                </sp>
+                <sp who="#lorange">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="54" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="251" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXII. Le Breton, Mademoiselle Mousset, MMademoiselle De Kermonin, Marotte, Lorange.</head>
+                <sp who="#le_breton">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="155" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="746" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_de_kermorin">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="133" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_mousset">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="93" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="483" unit="chars"/>
+                </sp>
+                <sp who="#lorange">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="184" unit="chars"/>
+                </sp>
+                <sp who="#marotte">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="161" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXIII. Le Chevalier, Urbine, Mademoiselle Mousset, Le Breton, Mademoiselle De Kermonin, Marotte, Lorange.</head>
+                <sp who="#urbine">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="56" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="274" unit="chars"/>
+                </sp>
+                <sp who="#le_chevalier">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="346" unit="words"/>
+                    <amount n="54" unit="lines"/>
+                    <amount n="1630" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_mousset">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="211" unit="chars"/>
+                </sp>
+                <sp who="#lorange">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="190" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="905" unit="chars"/>
+                </sp>
+                <sp who="#le_breton">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="116" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="559" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_de_kermorin">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="158" unit="chars"/>
+                </sp>
+                <sp who="#marotte">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="27" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="120" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXIV. Le Chevalier, Mademoiselle Mousset.</head>
+                <sp who="#le_chevalier">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="259" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="1209" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_mousset">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="84" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="416" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXV. Madame Bardoux, Le Chevalier, Mademoiselle Mousset.</head>
+                <sp who="#madame_bardoux">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="255" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="1316" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_mousset">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="75" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="384" unit="chars"/>
+                </sp>
+                <sp who="#le_chevalier">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="490" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="2413" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXVI. Clitandre, Le Chevalier, Madame Bardoux, Mademoiselle Mousset.</head>
+                <sp who="#clitandre">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="46" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="213" unit="chars"/>
+                </sp>
+                <sp who="#le_chevalier">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="134" unit="chars"/>
+                </sp>
+                <sp who="#madame_bardoux">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="72" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXVII. Clitandre, Le Chevalier, Madame Bardoux.</head>
+                <sp who="#madame_bardoux">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="173" unit="chars"/>
+                </sp>
+                <sp who="#le_chevalier">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="203" unit="chars"/>
+                </sp>
+                <sp who="#clitandre">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="45" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXVIII. Clitandre, Le Chevalier, Madame Bardoux, Angélique, Monsieur Farfadel.</head>
+                <sp who="#monsieur_farfadel">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="156" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="73" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="337" unit="chars"/>
+                </sp>
+                <sp who="#le_chevalier">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="150" unit="chars"/>
+                </sp>
+                <sp who="#madame_bardoux">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="177" unit="chars"/>
+                </sp>
+                <sp who="#clitandre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="4" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="26" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXIX. Clitandre, Le Chevalier, Madame Bardoux, Angélique, Monsieur Farfadel, Lorange, Le Breton.</head>
+                <sp who="#le_breton">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="324" unit="chars"/>
+                </sp>
+                <sp who="#clitandre">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="62" unit="chars"/>
+                </sp>
+                <sp who="#le_chevalier">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="71" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="322" unit="chars"/>
+                </sp>
+                <sp who="#lorange">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="116" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_farfadel">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="63" unit="chars"/>
+                </sp>
+                <sp who="#madame_bardoux">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="68" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXX. Clitandre, Angélique, Le Chevalier, Madame Bardoux, Monsieur Farfadel, Lorange, Le Breton, Mademoiselle Mousset.</head>
+                <sp who="#mademoiselle_mousset">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="110" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="531" unit="chars"/>
+                </sp>
+                <sp who="#le_breton">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="50" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="263" unit="chars"/>
+                </sp>
+                <sp who="#lorange">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="333" unit="chars"/>
+                </sp>
+                <sp who="#farfadel">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="93" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="403" unit="chars"/>
+                </sp>
+                <sp who="#clitandre">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="47" unit="chars"/>
+                </sp>
+                <sp who="#le_chevalier">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="256" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="1219" unit="chars"/>
+                </sp>
+                <sp who="#madame_bardoux">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="194" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_de_kermorin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="51" unit="chars"/>
+                </sp>
+                <sp who="#urbine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="41" unit="chars"/>
+                </sp>
+                <sp who="#marotte">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="68" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_farfadel">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="104" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_de_kermonin_et_marotte">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="3" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="20" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>DIVERTISSEMENT.</head>
+                <sp who="#le_breton">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="323" unit="words"/>
+                    <amount n="52" unit="lines"/>
+                    <amount n="1453" unit="chars"/>
+                </sp>
+                <sp who="#tous">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="164" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="767" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

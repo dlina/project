@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>ANTIGONE</title>
+        <subtitle>TRAGÉDIE</subtitle>
+        <genretitle>Tragédie</genretitle>
+        <author>ROTROU, Jean</author>
+        <date when="1638">1638</date>
+        <source>https://github.com/dramacode/theatre-classique/ROTROU_ANTIGONE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>jocaste</name>
+            <alias xml:id="jocaste">
+                <name>jocaste</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>is_ne</name>
+            <alias xml:id="is_ne">
+                <name>is_ne</name>
+            </alias>
+        </character>
+        <character>
+            <name>antigone</name>
+            <alias xml:id="antigone">
+                <name>antigone</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>eteocle</name>
+            <alias xml:id="eteocle">
+                <name>eteocle</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>c_on</name>
+            <alias xml:id="c_on">
+                <name>c_on</name>
+            </alias>
+        </character>
+        <character>
+            <name>_mon</name>
+            <alias xml:id="_mon">
+                <name>_mon</name>
+            </alias>
+        </character>
+        <character>
+            <name>page</name>
+            <alias xml:id="page">
+                <name>page</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>polynice</name>
+            <alias xml:id="polynice">
+                <name>polynice</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>adraste</name>
+            <alias xml:id="adraste">
+                <name>adraste</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>argie</name>
+            <alias xml:id="argie">
+                <name>argie</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>adraste_</name>
+            <alias xml:id="adraste_">
+                <name>adraste_</name>
+            </alias>
+        </character>
+        <character>
+            <name>n1e_capitaine</name>
+            <alias xml:id="n1e_capitaine">
+                <name>n1e_capitaine</name>
+            </alias>
+        </character>
+        <character>
+            <name>n2n_capitaine</name>
+            <alias xml:id="n2n_capitaine">
+                <name>n2n_capitaine</name>
+            </alias>
+        </character>
+        <character>
+            <name>menette</name>
+            <alias xml:id="menette">
+                <name>menette</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>c_odamas</name>
+            <alias xml:id="c_odamas">
+                <name>c_odamas</name>
+            </alias>
+        </character>
+        <character>
+            <name>éphise</name>
+            <alias xml:id="éphise">
+                <name>éphise</name>
+            </alias>
+        </character>
+        <character>
+            <name>capitaine</name>
+            <alias xml:id="capitaine">
+                <name>capitaine</name>
+            </alias>
+        </character>
+        <character>
+            <name>tyresie</name>
+            <alias xml:id="tyresie">
+                <name>tyresie</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE I. Jocaste, Ismène.</head>
+                <sp who="#jocaste">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="162" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="729" unit="chars"/>
+                </sp>
+                <sp who="#is_ne">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="3" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="18" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Jocaste, Ismène, Antigone.</head>
+                <sp who="#antigone">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="486" unit="words"/>
+                    <amount n="51" unit="lines"/>
+                    <amount n="2225" unit="chars"/>
+                </sp>
+                <sp who="#jocaste">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="84" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="412" unit="chars"/>
+                </sp>
+                <sp who="#is_ne">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="91" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Jocaste, Ismène, Antigone, Étéocle, Créon, Hémon ; deux capitaines.</head>
+                <sp who="#eteocle">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="320" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1530" unit="chars"/>
+                </sp>
+                <sp who="#jocaste">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="171" unit="chars"/>
+                </sp>
+                <sp who="#c_on">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="135" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="675" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Antigone, Hémon.</head>
+                <sp who="#antigone">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="366" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="1806" unit="chars"/>
+                </sp>
+                <sp who="#_mon">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="531" unit="words"/>
+                    <amount n="57" unit="lines"/>
+                    <amount n="2476" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Antigone, Hémon, un page.</head>
+                <sp who="#page">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="52" unit="chars"/>
+                </sp>
+                <sp who="#_mon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="46" unit="chars"/>
+                </sp>
+                <sp who="#antigone">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="96" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Polynice, sous une tente ; Adraste, Argie.</head>
+                <sp who="#polynice">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="841" unit="words"/>
+                    <amount n="89" unit="lines"/>
+                    <amount n="3936" unit="chars"/>
+                </sp>
+                <sp who="#adraste">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="55" unit="chars"/>
+                </sp>
+                <sp who="#argie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="73" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="338" unit="chars"/>
+                </sp>
+                <sp who="#adraste_">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="114" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="539" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE I. Polynice, l'épée à la main, au pied des purs de Thèbes ; deux capitaines grecs.</head>
+                <sp who="#polynice">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="138" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="620" unit="chars"/>
+                </sp>
+                <sp who="#n1e_capitaine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="141" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Polynice, l'épée à la main, au pied des murs de Thèbes ; deux capitaines grecs; Antigone, en haut des murs.</head>
+                <sp who="#antigone">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="592" unit="words"/>
+                    <amount n="62" unit="lines"/>
+                    <amount n="2806" unit="chars"/>
+                </sp>
+                <sp who="#polynice">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="239" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="1112" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Polynice, deux capitaines grecs; Antigone, Étéocle, Créon.</head>
+                <sp who="#eteocle">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="166" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="736" unit="chars"/>
+                </sp>
+                <sp who="#antigone">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="99" unit="chars"/>
+                </sp>
+                <sp who="#polynice">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="58" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="289" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Jocaste, Créon, Hémon, Deux capitaines, Étéocle, Polynice.</head>
+                <sp who="#c_on">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="196" unit="chars"/>
+                </sp>
+                <sp who="#_mon">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="101" unit="chars"/>
+                </sp>
+                <sp who="#n2n_capitaine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="49" unit="chars"/>
+                </sp>
+                <sp who="#jocaste">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="1367" unit="words"/>
+                    <amount n="155" unit="lines"/>
+                    <amount n="6509" unit="chars"/>
+                </sp>
+                <sp who="#polynice">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="467" unit="words"/>
+                    <amount n="66" unit="lines"/>
+                    <amount n="2179" unit="chars"/>
+                </sp>
+                <sp who="#eteocle">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="156" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="763" unit="chars"/>
+                </sp>
+                <sp who="#n1e_capitaine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="25" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I.</head>
+                <sp who="#antigone">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="175" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="805" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Hémon, Antigone.</head>
+                <sp who="#antigone">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="175" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="776" unit="chars"/>
+                </sp>
+                <sp who="#_mon">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="758" unit="words"/>
+                    <amount n="83" unit="lines"/>
+                    <amount n="3538" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Ismène, Antigone.</head>
+                <sp who="#is_ne">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="76" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="393" unit="chars"/>
+                </sp>
+                <sp who="#antigone">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="45" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="193" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Les mêmes, Hémon.</head>
+                <sp who="#_mon">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="108" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="552" unit="chars"/>
+                </sp>
+                <sp who="#antigone">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="113" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="517" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Antigone, Ismène.</head>
+                <sp who="#antigone">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="625" unit="words"/>
+                    <amount n="81" unit="lines"/>
+                    <amount n="2980" unit="chars"/>
+                </sp>
+                <sp who="#is_ne">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="429" unit="words"/>
+                    <amount n="61" unit="lines"/>
+                    <amount n="2090" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Argie, Ménette, une lanterne à la main sur les remparts où s'est donné le combat.</head>
+                <sp who="#menette">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="73" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="353" unit="chars"/>
+                </sp>
+                <sp who="#argie">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="365" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="1717" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Les mêmes, Antigone.</head>
+                <sp who="#menette">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="49" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="260" unit="chars"/>
+                </sp>
+                <sp who="#antigone">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="235" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="1063" unit="chars"/>
+                </sp>
+                <sp who="#argie">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="373" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="1668" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE I. Créon, Cléodamas, Éphise.</head>
+                <sp who="#c_on">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="573" unit="words"/>
+                    <amount n="65" unit="lines"/>
+                    <amount n="2770" unit="chars"/>
+                </sp>
+                <sp who="#c_odamas">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="109" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="559" unit="chars"/>
+                </sp>
+                <sp who="#éphise">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="185" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="919" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Les mêmes, Un Capitaine.</head>
+                <sp who="#capitaine">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="108" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="545" unit="chars"/>
+                </sp>
+                <sp who="#c_on">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="143" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="716" unit="chars"/>
+                </sp>
+                <sp who="#éphise">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="91" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Les mêmes, Antigone, Argie, Ménette, Gardes.</head>
+                <sp who="#c_on">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="439" unit="words"/>
+                    <amount n="62" unit="lines"/>
+                    <amount n="2149" unit="chars"/>
+                </sp>
+                <sp who="#antigone">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="412" unit="words"/>
+                    <amount n="52" unit="lines"/>
+                    <amount n="1927" unit="chars"/>
+                </sp>
+                <sp who="#argie">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="228" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1063" unit="chars"/>
+                </sp>
+                <sp who="#menette">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="48" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="198" unit="chars"/>
+                </sp>
+                <sp who="#éphise">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="96" unit="chars"/>
+                </sp>
+                <sp who="#c_odamas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="78" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Les mêmes, Ismène.</head>
+                <sp who="#éphise">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="42" unit="chars"/>
+                </sp>
+                <sp who="#c_on">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="156" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="746" unit="chars"/>
+                </sp>
+                <sp who="#is_ne">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="226" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1048" unit="chars"/>
+                </sp>
+                <sp who="#antigone">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="167" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="714" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Créon, Éphise, Cléodamas ; ensuite Hémon.</head>
+                <sp who="#éphise">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="120" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="575" unit="chars"/>
+                </sp>
+                <sp who="#c_on">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="567" unit="words"/>
+                    <amount n="80" unit="lines"/>
+                    <amount n="2748" unit="chars"/>
+                </sp>
+                <sp who="#_mon">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="585" unit="words"/>
+                    <amount n="76" unit="lines"/>
+                    <amount n="2742" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE I.</head>
+                <sp who="#_mon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="238" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="1192" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Éphise, Hémon.</head>
+                <sp who="#éphise">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="200" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="932" unit="chars"/>
+                </sp>
+                <sp who="#_mon">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="344" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="1659" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III.</head>
+                <sp who="#_mon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="231" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="1131" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Créon, Éphise.</head>
+                <sp who="#c_on">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="114" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="545" unit="chars"/>
+                </sp>
+                <sp who="#éphise">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="196" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Les mêmes, Tyrésie, précédé par un guide ; Cléodamas.</head>
+                <sp who="#c_odamas">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="27" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="132" unit="chars"/>
+                </sp>
+                <sp who="#éphise">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="99" unit="chars"/>
+                </sp>
+                <sp who="#tyresie">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="631" unit="words"/>
+                    <amount n="79" unit="lines"/>
+                    <amount n="3084" unit="chars"/>
+                </sp>
+                <sp who="#c_on">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="216" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="1070" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Créon, Éphise, Cléodamas.</head>
+                <sp who="#éphise">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="64" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="301" unit="chars"/>
+                </sp>
+                <sp who="#c_on">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="124" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="580" unit="chars"/>
+                </sp>
+                <sp who="#c_odamas">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="135" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Les même, un Capitaine.</head>
+                <sp who="#capitaine">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="70" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="307" unit="chars"/>
+                </sp>
+                <sp who="#c_on">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="165" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Hémon, près du corps d'Antigone, dans le tombeau de la roche ; Ismène.</head>
+                <sp who="#_mon">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="390" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="1802" unit="chars"/>
+                </sp>
+                <sp who="#is_ne">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="142" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="675" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Les mêmes, Créon, Éphise, Cléodamas.</head>
+                <sp who="#c_on">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="96" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="425" unit="chars"/>
+                </sp>
+                <sp who="#_mon">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="278" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1318" unit="chars"/>
+                </sp>
+                <sp who="#éphise">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="92" unit="chars"/>
+                </sp>
+                <sp who="#c_odamas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="94" unit="chars"/>
+                </sp>
+                <sp who="#is_ne">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="97" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

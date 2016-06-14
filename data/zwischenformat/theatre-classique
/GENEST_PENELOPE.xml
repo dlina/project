@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>PÉNÉLOPE</title>
+        <subtitle>TRAGÉDIE EN CINQ ACTES.</subtitle>
+        <genretitle>Tragédie</genretitle>
+        <author>GENEST, Claude-Charles</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/GENEST_PENELOPE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>penelope</name>
+            <alias xml:id="penelope">
+                <name>penelope</name>
+            </alias>
+        </character>
+        <character>
+            <name>eurinome</name>
+            <alias xml:id="eurinome">
+                <name>eurinome</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>ericlee</name>
+            <alias xml:id="ericlee">
+                <name>ericlee</name>
+            </alias>
+        </character>
+        <character>
+            <name>eumee</name>
+            <alias xml:id="eumee">
+                <name>eumee</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>eurimaque</name>
+            <alias xml:id="eurimaque">
+                <name>eurimaque</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>antinous</name>
+            <alias xml:id="antinous">
+                <name>antinous</name>
+            </alias>
+        </character>
+        <character>
+            <name>arcas</name>
+            <alias xml:id="arcas">
+                <name>arcas</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>iphise</name>
+            <alias xml:id="iphise">
+                <name>iphise</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>argine</name>
+            <alias xml:id="argine">
+                <name>argine</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>telemaque</name>
+            <alias xml:id="telemaque">
+                <name>telemaque</name>
+            </alias>
+        </character>
+        <character>
+            <name>ulysse</name>
+            <alias xml:id="ulysse">
+                <name>ulysse</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE I. </head>
+                <sp who="#penelope">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="368" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1791" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Pénélope, Ériclée, Eurinome.</head>
+                <sp who="#eurinome">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="59" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="293" unit="chars"/>
+                </sp>
+                <sp who="#penelope">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="172" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="775" unit="chars"/>
+                </sp>
+                <sp who="#ericlee">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="82" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="420" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Pénélope, Eumée, Ériclée, Eurinome.</head>
+                <sp who="#eumee">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="393" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="1916" unit="chars"/>
+                </sp>
+                <sp who="#penelope">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="169" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="789" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Pénélope, Antinoüs, Eurimaque, Eumée, Ériclée, Eurinome, Arcas.</head>
+                <sp who="#eurimaque">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="535" unit="words"/>
+                    <amount n="64" unit="lines"/>
+                    <amount n="2586" unit="chars"/>
+                </sp>
+                <sp who="#penelope">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="496" unit="words"/>
+                    <amount n="61" unit="lines"/>
+                    <amount n="2390" unit="chars"/>
+                </sp>
+                <sp who="#ericlee">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="3" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="18" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Antinoüs, Pénélope, Ériclée, Eurinome, Arcas.</head>
+                <sp who="#antinous">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="4" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="10" unit="chars"/>
+                </sp>
+                <sp who="#penelope">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="81" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Antinoüs, Arcas.</head>
+                <sp who="#antinous">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="411" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="1927" unit="chars"/>
+                </sp>
+                <sp who="#arcas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="63" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="301" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE I. Iphise, Argine. </head>
+                <sp who="#iphise">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="401" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="1918" unit="chars"/>
+                </sp>
+                <sp who="#argine">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="169" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="788" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Eurimaque, Antinoüs, Iphise, Argine. </head>
+                <sp who="#eurimaque">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="188" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Eurimaque, Antinoüs.</head>
+                <sp who="#antinous">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="407" unit="words"/>
+                    <amount n="48" unit="lines"/>
+                    <amount n="2055" unit="chars"/>
+                </sp>
+                <sp who="#eurimaque">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="132" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="667" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Arcas, Eurimque, Antinoüs.</head>
+                <sp who="#arcas">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="159" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="713" unit="chars"/>
+                </sp>
+                <sp who="#antinous">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="108" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="527" unit="chars"/>
+                </sp>
+                <sp who="#eurimaque">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="184" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Télémaque, Eumée, Eurimaque, Antinoüs, Arcas.</head>
+                <sp who="#eurimaque">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="58" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="291" unit="chars"/>
+                </sp>
+                <sp who="#telemaque">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="209" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="1003" unit="chars"/>
+                </sp>
+                <sp who="#antinous">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="113" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="591" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈINE VI. Télémaque, Eurimaque, Eumée. </head>
+                <sp who="#telemaque">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="88" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="445" unit="chars"/>
+                </sp>
+                <sp who="#eurimaque">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="207" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="961" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Télémaque, Eumée.</head>
+                <sp who="#telemaque">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="164" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="776" unit="chars"/>
+                </sp>
+                <sp who="#eumee">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="71" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="372" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Télémaque, Iphise.</head>
+                <sp who="#telemaque">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="219" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="1019" unit="chars"/>
+                </sp>
+                <sp who="#iphise">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="146" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="684" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Pénélope, Télémaque, Ériclée, Eumée. </head>
+                <sp who="#penelope">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="270" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="1308" unit="chars"/>
+                </sp>
+                <sp who="#telemaque">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="322" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1590" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Pénélope, Ériclée. </head>
+                <sp who="#penelope">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="223" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="1070" unit="chars"/>
+                </sp>
+                <sp who="#ericlee">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="111" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="538" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I. </head>
+                <sp who="#ulysse">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="213" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="1054" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Ulysse, Eumée. </head>
+                <sp who="#eumee">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="803" unit="words"/>
+                    <amount n="101" unit="lines"/>
+                    <amount n="3924" unit="chars"/>
+                </sp>
+                <sp who="#ulysse">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="935" unit="words"/>
+                    <amount n="118" unit="lines"/>
+                    <amount n="4526" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Télémaque, Ulysse, Eumée.</head>
+                <sp who="#eumee">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="114" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="550" unit="chars"/>
+                </sp>
+                <sp who="#telemaque">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="325" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="1534" unit="chars"/>
+                </sp>
+                <sp who="#ulysse">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="197" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="922" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Iphise, Télémaque.</head>
+                <sp who="#iphise">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="303" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="1530" unit="chars"/>
+                </sp>
+                <sp who="#telemaque">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="69" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="342" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. </head>
+                <sp who="#telemaque">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="266" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="1299" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV </head>
+            <div>
+                <head>SCÈNE I. Pénélope, Ériclée. </head>
+                <sp who="#ericlee">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="85" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="400" unit="chars"/>
+                </sp>
+                <sp who="#penelope">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="274" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1357" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE I.. Eurimaque, Pénélope, Ériclée. </head>
+                <sp who="#eurimaque">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="621" unit="words"/>
+                    <amount n="73" unit="lines"/>
+                    <amount n="3051" unit="chars"/>
+                </sp>
+                <sp who="#penelope">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="152" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="753" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Pénélope, Ériclée. </head>
+                <sp who="#penelope">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="180" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="893" unit="chars"/>
+                </sp>
+                <sp who="#ericlee">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="40" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Télémaque, Pénélope, Ériclée. </head>
+                <sp who="#telemaque">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="105" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="467" unit="chars"/>
+                </sp>
+                <sp who="#penelope">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="149" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="689" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Télémaque, Ériclée. </head>
+                <sp who="#telemaque">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="34" unit="chars"/>
+                </sp>
+                <sp who="#ericlee">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="90" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="465" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. </head>
+                <sp who="#telemaque">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="49" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="221" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Ulysse, Télémaque, Eumée.</head>
+                <sp who="#ulysse">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="595" unit="words"/>
+                    <amount n="68" unit="lines"/>
+                    <amount n="2874" unit="chars"/>
+                </sp>
+                <sp who="#telemaque">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="518" unit="words"/>
+                    <amount n="60" unit="lines"/>
+                    <amount n="2513" unit="chars"/>
+                </sp>
+                <sp who="#eumee">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="29" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Ulysse, Eumée.</head>
+                <sp who="#ulysse">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="289" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1391" unit="chars"/>
+                </sp>
+                <sp who="#eumee">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="47" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE I. Pénélope, Eumée, Ériclée. </head>
+                <sp who="#eumee">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="131" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="629" unit="chars"/>
+                </sp>
+                <sp who="#penelope">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="245" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="1098" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Pénélope, Ériclée. </head>
+                <sp who="#penelope">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="369" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="1790" unit="chars"/>
+                </sp>
+                <sp who="#ericlee">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="111" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Ulysse, Pénélope. </head>
+                <sp who="#ulysse">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="381" unit="words"/>
+                    <amount n="52" unit="lines"/>
+                    <amount n="1803" unit="chars"/>
+                </sp>
+                <sp who="#penelope">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="374" unit="words"/>
+                    <amount n="53" unit="lines"/>
+                    <amount n="1866" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Eurimaque, Pénélope, Ériclée. </head>
+                <sp who="#ericlee">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="81" unit="chars"/>
+                </sp>
+                <sp who="#eurimaque">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="215" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="1010" unit="chars"/>
+                </sp>
+                <sp who="#penelope">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="53" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Pénélope, Ériclée. </head>
+                <sp who="#penelope">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="246" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="1134" unit="chars"/>
+                </sp>
+                <sp who="#ericlee">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="42" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Iphise, Pénélope, Ériclée. </head>
+                <sp who="#iphise">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="157" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="687" unit="chars"/>
+                </sp>
+                <sp who="#penelope">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="109" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Pénélope, Ériclée, Eurinome. </head>
+                <sp who="#penelope">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="64" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="266" unit="chars"/>
+                </sp>
+                <sp who="#eurinome">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="146" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="632" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Télémaque, Pénélope, Ériglée, Eurinome. </head>
+                <sp who="#penelope">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="69" unit="chars"/>
+                </sp>
+                <sp who="#telemaque">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="465" unit="words"/>
+                    <amount n="48" unit="lines"/>
+                    <amount n="2129" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Eumée, Télémaque, Pénélope, Ériclée, Eurinome. </head>
+                <sp who="#eumee">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="48" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="246" unit="chars"/>
+                </sp>
+                <sp who="#telemaque">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="72" unit="chars"/>
+                </sp>
+                <sp who="#penelope">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="225" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

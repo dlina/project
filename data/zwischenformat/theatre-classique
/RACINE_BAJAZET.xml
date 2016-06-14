@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>BAJAZET</title>
+        <subtitle>TRAGÉDIE</subtitle>
+        <genretitle>Tragédie</genretitle>
+        <author>RACINE, Jean</author>
+        <date when="1672">1672</date>
+        <source>https://github.com/dramacode/theatre-classique/RACINE_BAJAZET.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>acomat</name>
+            <alias xml:id="acomat">
+                <name>acomat</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>osmin</name>
+            <alias xml:id="osmin">
+                <name>osmin</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>roxane</name>
+            <alias xml:id="roxane">
+                <name>roxane</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>atalide</name>
+            <alias xml:id="atalide">
+                <name>atalide</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>z_re</name>
+            <alias xml:id="z_re">
+                <name>z_re</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>bajazet</name>
+            <alias xml:id="bajazet">
+                <name>bajazet</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>zatime</name>
+            <alias xml:id="zatime">
+                <name>zatime</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Acomat, Osmin.</head>
+                <sp who="#acomat">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="1412" unit="words"/>
+                    <amount n="159" unit="lines"/>
+                    <amount n="6880" unit="chars"/>
+                </sp>
+                <sp who="#osmin">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="645" unit="words"/>
+                    <amount n="81" unit="lines"/>
+                    <amount n="3267" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Roxane, Atalide, Zatime, Zaïre, Acomat, Osmin.</head>
+                <sp who="#acomat">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="422" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="2119" unit="chars"/>
+                </sp>
+                <sp who="#roxane">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="64" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="294" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Roxane, Atalide, Zatime, Zaïre.</head>
+                <sp who="#roxane">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="620" unit="words"/>
+                    <amount n="68" unit="lines"/>
+                    <amount n="2906" unit="chars"/>
+                </sp>
+                <sp who="#atalide">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="142" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="683" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Atalide, Zaïre.</head>
+                <sp who="#atalide">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="742" unit="words"/>
+                    <amount n="81" unit="lines"/>
+                    <amount n="3528" unit="chars"/>
+                </sp>
+                <sp who="#z_re">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="118" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="585" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Bajazet, Roxane.</head>
+                <sp who="#roxane">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="1035" unit="words"/>
+                    <amount n="114" unit="lines"/>
+                    <amount n="4862" unit="chars"/>
+                </sp>
+                <sp who="#bajazet">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="420" unit="words"/>
+                    <amount n="52" unit="lines"/>
+                    <amount n="2041" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Roxane, Acomat, Bajazet.</head>
+                <sp who="#roxane">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="45" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="206" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Bajazet, Acomat.</head>
+                <sp who="#acomat">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="413" unit="words"/>
+                    <amount n="57" unit="lines"/>
+                    <amount n="2038" unit="chars"/>
+                </sp>
+                <sp who="#bajazet">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="428" unit="words"/>
+                    <amount n="54" unit="lines"/>
+                    <amount n="1967" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Bajazet, Atalide, Acomat.</head>
+                <sp who="#acomat">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="51" unit="chars"/>
+                </sp>
+                <sp who="#atalide">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="211" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Bajazet, Atalide.</head>
+                <sp who="#bajazet">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="633" unit="words"/>
+                    <amount n="73" unit="lines"/>
+                    <amount n="2989" unit="chars"/>
+                </sp>
+                <sp who="#atalide">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="668" unit="words"/>
+                    <amount n="75" unit="lines"/>
+                    <amount n="3134" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE PREMIERE. Atalide, Zaïre.</head>
+                <sp who="#atalide">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="365" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="1596" unit="chars"/>
+                </sp>
+                <sp who="#z_re">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="174" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="810" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Atalide, Acomat, Zaïre.</head>
+                <sp who="#acomat">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="501" unit="words"/>
+                    <amount n="58" unit="lines"/>
+                    <amount n="2412" unit="chars"/>
+                </sp>
+                <sp who="#atalide">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="55" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="273" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Atalide, Zaïre.</head>
+                <sp who="#atalide">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="389" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="1882" unit="chars"/>
+                </sp>
+                <sp who="#z_re">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="27" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="99" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Bajazet, Atalide, Zaïre.</head>
+                <sp who="#bajazet">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="501" unit="words"/>
+                    <amount n="54" unit="lines"/>
+                    <amount n="2366" unit="chars"/>
+                </sp>
+                <sp who="#atalide">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="200" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="970" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Bajazet, Roxane, Atalide.</head>
+                <sp who="#roxane">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="136" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="646" unit="chars"/>
+                </sp>
+                <sp who="#bajazet">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="62" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="277" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Roxane, Atalide.</head>
+                <sp who="#roxane">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="236" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="1087" unit="chars"/>
+                </sp>
+                <sp who="#atalide">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="90" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="438" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII.</head>
+                <sp who="#roxane">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="308" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="1534" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Roxane, Zatime.</head>
+                <sp who="#zatime">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="123" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="584" unit="chars"/>
+                </sp>
+                <sp who="#roxane">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="139" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="670" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE PREMIERE. Atalide, Zaïre.</head>
+                <sp who="#atalide">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="338" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1598" unit="chars"/>
+                </sp>
+                <sp who="#z_re">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="70" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="316" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Roxane, Atalide, Zatime, Zaïre.</head>
+                <sp who="#roxane">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="49" unit="chars"/>
+                </sp>
+                <sp who="#atalide">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="43" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Roxane, Atalide, Zatime.</head>
+                <sp who="#roxane">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="206" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="925" unit="chars"/>
+                </sp>
+                <sp who="#atalide">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="244" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="1120" unit="chars"/>
+                </sp>
+                <sp who="#zatime">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="40" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV.</head>
+                <sp who="#roxane">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="397" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="1941" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Roxane, Zatime.</head>
+                <sp who="#roxane">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="603" unit="words"/>
+                    <amount n="64" unit="lines"/>
+                    <amount n="2769" unit="chars"/>
+                </sp>
+                <sp who="#zatime">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="226" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="1075" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Roxane, Acomat, Osmin.</head>
+                <sp who="#acomat">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="171" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="820" unit="chars"/>
+                </sp>
+                <sp who="#roxane">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="164" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="782" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Acomat, Osmin.</head>
+                <sp who="#acomat">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="517" unit="words"/>
+                    <amount n="59" unit="lines"/>
+                    <amount n="2398" unit="chars"/>
+                </sp>
+                <sp who="#osmin">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="136" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="622" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE PREMIÈRE.</head>
+                <sp who="#atalide">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="219" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="1018" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Roxane, Atalide, Zatime.</head>
+                <sp who="#roxane">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="90" unit="chars"/>
+                </sp>
+                <sp who="#atalide">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="32" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Roxane, Zatime.</head>
+                <sp who="#roxane">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="125" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="571" unit="chars"/>
+                </sp>
+                <sp who="#zatime">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="172" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Bajazet, Roxane.</head>
+                <sp who="#roxane">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="429" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="1956" unit="chars"/>
+                </sp>
+                <sp who="#bajazet">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="530" unit="words"/>
+                    <amount n="62" unit="lines"/>
+                    <amount n="2557" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Roxane, Zatime.</head>
+                <sp who="#roxane">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="196" unit="chars"/>
+                </sp>
+                <sp who="#zatime">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="183" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Roxane, Atalide.</head>
+                <sp who="#atalide">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="510" unit="words"/>
+                    <amount n="50" unit="lines"/>
+                    <amount n="2318" unit="chars"/>
+                </sp>
+                <sp who="#roxane">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="60" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="266" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Roxane, Atalide, Zatime.</head>
+                <sp who="#zatime">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="57" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="270" unit="chars"/>
+                </sp>
+                <sp who="#roxane">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="25" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="102" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Atalide, Zatime.</head>
+                <sp who="#atalide">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="175" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="799" unit="chars"/>
+                </sp>
+                <sp who="#zatime">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="140" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Atalide, Acomat, Zatime.</head>
+                <sp who="#acomat">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="88" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="405" unit="chars"/>
+                </sp>
+                <sp who="#atalide">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="75" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Atalide, Acomat, Zatime, Zaïre.</head>
+                <sp who="#z_re">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="58" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="278" unit="chars"/>
+                </sp>
+                <sp who="#atalide">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="138" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Atalide, Acomat, Zaïre, Osmin.</head>
+                <sp who="#acomat">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="177" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="888" unit="chars"/>
+                </sp>
+                <sp who="#osmin">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="259" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="1270" unit="chars"/>
+                </sp>
+                <sp who="#atalide">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="19" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE DERNIÈRE. Atalide, Zaïre.</head>
+                <sp who="#atalide">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="299" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="1354" unit="chars"/>
+                </sp>
+                <sp who="#z_re">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="25" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="98" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

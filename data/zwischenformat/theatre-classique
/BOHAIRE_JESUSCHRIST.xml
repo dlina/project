@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>JÉSUS-CHRIST</title>
+        <subtitle>OU LA VÉRITABLE RELIGION.</subtitle>
+        <subtitle>TRAGÉDIE</subtitle>
+        <genretitle>Tragédie</genretitle>
+        <author>BOHAIRE-DUTHEIL, Nicolas de</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/BOHAIRE_JESUSCHRIST.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>c_phe</name>
+            <alias xml:id="c_phe">
+                <name>c_phe</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>pilate</name>
+            <alias xml:id="pilate">
+                <name>pilate</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>madeleine</name>
+            <alias xml:id="madeleine">
+                <name>madeleine</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>_sus</name>
+            <alias xml:id="_sus">
+                <name>_sus</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>u_docteur</name>
+            <alias xml:id="u_docteur">
+                <name>u_docteur</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_bourgeois</name>
+            <alias xml:id="l_bourgeois">
+                <name>l_bourgeois</name>
+            </alias>
+        </character>
+        <character>
+            <name>u_p_tre</name>
+            <alias xml:id="u_p_tre">
+                <name>u_p_tre</name>
+            </alias>
+        </character>
+        <character>
+            <name>_line</name>
+            <alias xml:id="_line">
+                <name>_line</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>u_autr_docteur</name>
+            <alias xml:id="u_autr_docteur">
+                <name>u_autr_docteur</name>
+            </alias>
+        </character>
+        <character>
+            <name>u__gociant</name>
+            <alias xml:id="u__gociant">
+                <name>u__gociant</name>
+            </alias>
+        </character>
+        <character>
+            <name>u_bourgeois</name>
+            <alias xml:id="u_bourgeois">
+                <name>u_bourgeois</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_femme</name>
+            <alias xml:id="l_femme">
+                <name>l_femme</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_disciple</name>
+            <alias xml:id="l_disciple">
+                <name>l_disciple</name>
+            </alias>
+        </character>
+        <character>
+            <name>pierre</name>
+            <alias xml:id="pierre">
+                <name>pierre</name>
+            </alias>
+        </character>
+        <character>
+            <name>u_disciple</name>
+            <alias xml:id="u_disciple">
+                <name>u_disciple</name>
+            </alias>
+        </character>
+        <character>
+            <name>judas</name>
+            <alias xml:id="judas">
+                <name>judas</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_docteur</name>
+            <alias xml:id="l_docteur">
+                <name>l_docteur</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_peuple</name>
+            <alias xml:id="l_peuple">
+                <name>l_peuple</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_p_tre</name>
+            <alias xml:id="l_p_tre">
+                <name>l_p_tre</name>
+            </alias>
+        </character>
+        <character>
+            <name>u_membr_d_l_suit_d_c_phe</name>
+            <alias xml:id="u_membr_d_l_suit_d_c_phe">
+                <name>u_membr_d_l_suit_d_c_phe</name>
+            </alias>
+        </character>
+        <character>
+            <name>_u__eux</name>
+            <alias xml:id="_u__eux">
+                <name>_u__eux</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Pilate, Caïphe.</head>
+                <sp who="#c_phe">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="312" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="1519" unit="chars"/>
+                </sp>
+                <sp who="#pilate">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="567" unit="words"/>
+                    <amount n="55" unit="lines"/>
+                    <amount n="2522" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II.</head>
+                <sp who="#madeleine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="157" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="744" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. La Précédente ; JESUS, DISCIPLES, PEUPLE, PRETRES, DOCTEURS. </head>
+                <sp who="#madeleine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="11" unit="chars"/>
+                </sp>
+                <sp who="#_sus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="121" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="505" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Les Précédents, excepté Madeleine.</head>
+                <sp who="#u_docteur">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="97" unit="chars"/>
+                </sp>
+                <sp who="#_sus">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="216" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="1034" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Les Précédents ; Un Bourgeois.</head>
+                <sp who="#l_bourgeois">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="62" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="281" unit="chars"/>
+                </sp>
+                <sp who="#_sus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="23" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Il reste deux Prêtres.</head>
+                <sp who="#u_p_tre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="55" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="246" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Madeleine, Zéline.</head>
+                <sp who="#madeleine">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="291" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="1295" unit="chars"/>
+                </sp>
+                <sp who="#_line">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="91" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="450" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Plusieurs Prêtres et Docteurs.</head>
+                <sp who="#u_p_tre">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="276" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="1312" unit="chars"/>
+                </sp>
+                <sp who="#u_docteur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="171" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="781" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Les Précédents, Pilate.</head>
+                <sp who="#u_docteur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="41" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="190" unit="chars"/>
+                </sp>
+                <sp who="#pilate">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="63" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="294" unit="chars"/>
+                </sp>
+                <sp who="#u_autr_docteur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="131" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="679" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Les Précédents, Plusieurs négacients. </head>
+                <sp who="#u__gociant">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="162" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="740" unit="chars"/>
+                </sp>
+                <sp who="#pilate">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="154" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="692" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Les Précédents, excepté Pilate.</head>
+                <sp who="#u__gociant">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="92" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="439" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Troupe de peuple, Bourgeois et Négociants armés.</head>
+                <sp who="#u__gociant">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="60" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="286" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II.</head>
+                <sp who="#_sus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="212" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="984" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Les Précédents : Une Femme, Troupe de Bourgeois.</head>
+                <sp who="#u_bourgeois">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="60" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="236" unit="chars"/>
+                </sp>
+                <sp who="#_sus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="114" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV.</head>
+                <sp who="#_sus">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="181" unit="chars"/>
+                </sp>
+                <sp who="#l_femme">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="109" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Les Précédents, excepté la Femme.</head>
+                <sp who="#_sus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="267" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="1295" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Les Précédents, Un Discipline.</head>
+                <sp who="#l_disciple">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="48" unit="chars"/>
+                </sp>
+                <sp who="#_sus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="150" unit="chars"/>
+                </sp>
+                <sp who="#pierre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="107" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Pierre, Un Autre Disciple.</head>
+                <sp who="#l_disciple">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="41" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="194" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Les Précédents, Pilate.</head>
+                <sp who="#pilate">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="493" unit="words"/>
+                    <amount n="48" unit="lines"/>
+                    <amount n="2153" unit="chars"/>
+                </sp>
+                <sp who="#pierre">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="272" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="1208" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Caïphe, Prêtres et Docteurs.</head>
+                <sp who="#u_p_tre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="88" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="458" unit="chars"/>
+                </sp>
+                <sp who="#c_phe">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="157" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="709" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Les précédents, Un Autre Prêtre, déguisé.</head>
+                <sp who="#u_p_tre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="96" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="393" unit="chars"/>
+                </sp>
+                <sp who="#c_phe">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="194" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Jésus, Disciples.</head>
+                <sp who="#_sus">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="183" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="769" unit="chars"/>
+                </sp>
+                <sp who="#pierre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="61" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="283" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII. Jésus, Caïphe.</head>
+                <sp who="#c_phe">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="401" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1808" unit="chars"/>
+                </sp>
+                <sp who="#_sus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="580" unit="words"/>
+                    <amount n="58" unit="lines"/>
+                    <amount n="2579" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIII.</head>
+                <sp who="#c_phe">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="46" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="183" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCENE XIV.</head>
+                <sp who="#pilate">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="694" unit="words"/>
+                    <amount n="71" unit="lines"/>
+                    <amount n="3292" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Les Disciples de Jésus.</head>
+                <sp who="#u_disciple">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="50" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="210" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Les Précédents, Jésus.</head>
+                <sp who="#_sus">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="310" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="1238" unit="chars"/>
+                </sp>
+                <sp who="#judas">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="162" unit="chars"/>
+                </sp>
+                <sp who="#pierre">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="55" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="212" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Les Précédents, Les Princes des Prêtres, Les Docteurs.</head>
+                <sp who="#u_docteur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="91" unit="chars"/>
+                </sp>
+                <sp who="#_sus">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="463" unit="words"/>
+                    <amount n="51" unit="lines"/>
+                    <amount n="2128" unit="chars"/>
+                </sp>
+                <sp who="#l_docteur">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="190" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Les Précédents, excepté Jésus et ses Disciples.</head>
+                <sp who="#u_disciple">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="190" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="894" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Les Précédents : Caïphe.</head>
+                <sp who="#c_phe">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="104" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="451" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Les précédents, Jésus et Suite.</head>
+                <sp who="#c_phe">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="135" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="625" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Les Précédents, Pilate et Suite.</head>
+                <sp who="#pilate">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="262" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1127" unit="chars"/>
+                </sp>
+                <sp who="#c_phe">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="57" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="227" unit="chars"/>
+                </sp>
+                <sp who="#_sus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="30" unit="chars"/>
+                </sp>
+                <sp who="#l_peuple">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="168" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCENE VIII.</head>
+                <sp who="#pilate">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="120" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Pilate, Judas.</head>
+                <sp who="#judas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="78" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="338" unit="chars"/>
+                </sp>
+                <sp who="#pilate">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="94" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X.</head>
+                <sp who="#u_bourgeois">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="260" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="1287" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Prêtres, Soldats, Peuple, Madeleine.</head>
+                <sp who="#u_p_tre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="161" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="604" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII.</head>
+                <sp who="#madeleine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="382" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1708" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIII. Madeleine, Pierre.</head>
+                <sp who="#madeleine">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="123" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="537" unit="chars"/>
+                </sp>
+                <sp who="#pierre">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="158" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIV.</head>
+                <sp who="#pilate">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="232" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XV. Pilate, Un Bourgeois.</head>
+                <sp who="#u_bourgeois">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="258" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="1302" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Quelques Bourgeois.</head>
+                <sp who="#u_bourgeois">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="181" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="884" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Jésus, Peuple, Soldats.</head>
+                <sp who="#_sus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="86" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="401" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Les Précédents, Pilate à la tête d'un groupe de Romains et bourgeois armés.</head>
+                <sp who="#pilate">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="333" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1577" unit="chars"/>
+                </sp>
+                <sp who="#u_disciple">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="92" unit="chars"/>
+                </sp>
+                <sp who="#l_peuple">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="45" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Les Précédents, Madeleine.</head>
+                <sp who="#madeleine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="417" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="1901" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Les Précédents, Caïphe, Suite.</head>
+                <sp who="#madeleine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="27" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="144" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Les Précédents, Un Prêtre.</head>
+                <sp who="#l_p_tre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="112" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="573" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Les Précédents, Pierre.</head>
+                <sp who="#pilate">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="693" unit="words"/>
+                    <amount n="72" unit="lines"/>
+                    <amount n="3314" unit="chars"/>
+                </sp>
+                <sp who="#madeleine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="62" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="295" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Caïphe et suite.</head>
+                <sp who="#u_membr_d_l_suit_d_c_phe">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="71" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="350" unit="chars"/>
+                </sp>
+                <sp who="#c_phe">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="101" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE I. Disciples, et suite.</head>
+                <sp who="#pierre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="123" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="607" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Les Précédents, Jésus, sur le nuage vers le milieu de la scène.</head>
+                <sp who="#_sus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="119" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="564" unit="chars"/>
+                </sp>
+                <sp who="#pierre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="155" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="756" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Plusieurs Prêtres et Docteurs.</head>
+                <sp who="#u_docteur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="158" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="768" unit="chars"/>
+                </sp>
+                <sp who="#u_p_tre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="161" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="829" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV.</head>
+                <sp who="#madeleine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="159" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="756" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Madeleine, Jésus sans se faire connaître.</head>
+                <sp who="#_sus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="136" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="671" unit="chars"/>
+                </sp>
+                <sp who="#madeleine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="162" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="681" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI.</head>
+                <sp who="#madeleine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="53" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="261" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Caïphe, Pilate.</head>
+                <sp who="#c_phe">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="236" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="1234" unit="chars"/>
+                </sp>
+                <sp who="#pilate">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="597" unit="words"/>
+                    <amount n="67" unit="lines"/>
+                    <amount n="2940" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Peuple, Disciples, et suite de Jésus.</head>
+                <sp who="#_u__eux">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="114" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="572" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX ET DERNIÈRE. Les précédents ; Tonnerre, Nuag portant Jésus.</head>
+                <sp who="#_sus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="282" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1388" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

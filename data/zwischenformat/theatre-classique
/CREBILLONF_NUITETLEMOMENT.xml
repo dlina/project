@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LA NUIT ET LE MOMENT OU LES MATINES DE CYTHÈRE</title>
+        <subtitle>DIALOGUE</subtitle>
+        <genretitle>Dialogue</genretitle>
+        <author>CRÉBILLON, Claude-Prosper Jolyot de, fils</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/CREBILLONF_NUITETLEMOMENT.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>cidalise</name>
+            <alias xml:id="cidalise">
+                <name>cidalise</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>clitandre</name>
+            <alias xml:id="clitandre">
+                <name>clitandre</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>justine</name>
+            <alias xml:id="justine">
+                <name>justine</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>DIALOGUE.</head>
+            <div>
+                <head>Cidalise, Clitandre.</head>
+                <sp who="#cidalise">
+                    <amount n="299" unit="speech_acts"/>
+                    <amount n="8942" unit="words"/>
+                    <amount n="1244" unit="lines"/>
+                    <amount n="44140" unit="chars"/>
+                </sp>
+                <sp who="#clitandre">
+                    <amount n="298" unit="speech_acts"/>
+                    <amount n="23264" unit="words"/>
+                    <amount n="1577" unit="lines"/>
+                    <amount n="116151" unit="chars"/>
+                </sp>
+                <sp who="#justine">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="84" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

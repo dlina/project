@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LES CURIEUX DE COMPIÈGNE</title>
+        <subtitle>COMÉDIE EN UN ACTE</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>DANCOURT, Florent CARTON dit</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/DANCOURT_CURIEUX.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>le_chevalier</name>
+            <alias xml:id="le_chevalier">
+                <name>le_chevalier</name>
+            </alias>
+        </character>
+        <character>
+            <name>frontin</name>
+            <alias xml:id="frontin">
+                <name>frontin</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>clitandre</name>
+            <alias xml:id="clitandre">
+                <name>clitandre</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>madame_pinuin</name>
+            <alias xml:id="madame_pinuin">
+                <name>madame_pinuin</name>
+            </alias>
+        </character>
+        <character>
+            <name>guillaume</name>
+            <alias xml:id="guillaume">
+                <name>guillaume</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>madame_robin</name>
+            <alias xml:id="madame_robin">
+                <name>madame_robin</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>madame_valentin</name>
+            <alias xml:id="madame_valentin">
+                <name>madame_valentin</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>an_lique</name>
+            <alias xml:id="an_lique">
+                <name>an_lique</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>monsieur_mouflard</name>
+            <alias xml:id="monsieur_mouflard">
+                <name>monsieur_mouflard</name>
+            </alias>
+        </character>
+        <character>
+            <name>monsieur_valentin</name>
+            <alias xml:id="monsieur_valentin">
+                <name>monsieur_valentin</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>fuzillard</name>
+            <alias xml:id="fuzillard">
+                <name>fuzillard</name>
+            </alias>
+        </character>
+        <character>
+            <name>monsieur_touvenel</name>
+            <alias xml:id="monsieur_touvenel">
+                <name>monsieur_touvenel</name>
+            </alias>
+        </character>
+        <character>
+            <name>mademoiselle_gesmarres</name>
+            <alias xml:id="mademoiselle_gesmarres">
+                <name>mademoiselle_gesmarres</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head/>
+            <div>
+                <head>SCÈNE I.</head>
+                <sp who="#le_chevalier">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="113" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="551" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Frontin, Le Chevalier.</head>
+                <sp who="#frontin">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="321" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="1648" unit="chars"/>
+                </sp>
+                <sp who="#le_chevalier">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="385" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="1815" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Clitandre, Le Chevalier, Frontin.</head>
+                <sp who="#clitandre">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="136" unit="words"/>
+                    <amount n="47" unit="lines"/>
+                    <amount n="671" unit="chars"/>
+                </sp>
+                <sp who="#le_chevalier">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="344" unit="words"/>
+                    <amount n="60" unit="lines"/>
+                    <amount n="1639" unit="chars"/>
+                </sp>
+                <sp who="#frontin">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="330" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="1670" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Le Chevalier, Madame Pinuin.</head>
+                <sp who="#le_chevalier">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="389" unit="words"/>
+                    <amount n="54" unit="lines"/>
+                    <amount n="1850" unit="chars"/>
+                </sp>
+                <sp who="#madame_pinuin">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="236" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="1158" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V.</head>
+                <sp who="#madame_pinuin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="59" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="271" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Guillaume, Madame Pinuin.</head>
+                <sp who="#guillaume">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="879" unit="words"/>
+                    <amount n="70" unit="lines"/>
+                    <amount n="4393" unit="chars"/>
+                </sp>
+                <sp who="#madame_pinuin">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="414" unit="words"/>
+                    <amount n="54" unit="lines"/>
+                    <amount n="2035" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Frontin, Madame Pinuin, Guillaume.</head>
+                <sp who="#frontin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="112" unit="chars"/>
+                </sp>
+                <sp who="#guillaume">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="136" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="650" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Frontin, Madame Pinuin.</head>
+                <sp who="#frontin">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="566" unit="words"/>
+                    <amount n="50" unit="lines"/>
+                    <amount n="2750" unit="chars"/>
+                </sp>
+                <sp who="#madame_pinuin">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="173" unit="words"/>
+                    <amount n="47" unit="lines"/>
+                    <amount n="869" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Frontin, Madame Robin, Madame Pinuin.</head>
+                <sp who="#madame_robin">
+                    <amount n="22" unit="speech_acts"/>
+                    <amount n="587" unit="words"/>
+                    <amount n="101" unit="lines"/>
+                    <amount n="2781" unit="chars"/>
+                </sp>
+                <sp who="#frontin">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="164" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="739" unit="chars"/>
+                </sp>
+                <sp who="#madame_pinuin">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="212" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1039" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Frontin, Madame Pinuin.</head>
+                <sp who="#frontin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="91" unit="chars"/>
+                </sp>
+                <sp who="#madame_pinuin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="198" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Le Chevalier, Frontin, Madame Pinuin.</head>
+                <sp who="#le_chevalier">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="110" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="495" unit="chars"/>
+                </sp>
+                <sp who="#frontin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="45" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="224" unit="chars"/>
+                </sp>
+                <sp who="#madame_pinuin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="61" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="331" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII. Madame Pinuin, Frontin.</head>
+                <sp who="#madame_pinuin">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="68" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="370" unit="chars"/>
+                </sp>
+                <sp who="#frontin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="295" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIII. Madame Valentin, Madame Pinuin, Angélique.</head>
+                <sp who="#madame_valentin">
+                    <amount n="26" unit="speech_acts"/>
+                    <amount n="508" unit="words"/>
+                    <amount n="100" unit="lines"/>
+                    <amount n="2341" unit="chars"/>
+                </sp>
+                <sp who="#madame_pinuin">
+                    <amount n="24" unit="speech_acts"/>
+                    <amount n="519" unit="words"/>
+                    <amount n="87" unit="lines"/>
+                    <amount n="2657" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="299" unit="words"/>
+                    <amount n="54" unit="lines"/>
+                    <amount n="1465" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIV. Madame Valentin, Angélique.</head>
+                <sp who="#madame_valentin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="53" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="242" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="131" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XV. Monsieur Mouflard, Madame Valentin, Angélique.</head>
+                <sp who="#monsieur_mouflard">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="509" unit="words"/>
+                    <amount n="64" unit="lines"/>
+                    <amount n="2479" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="132" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="728" unit="chars"/>
+                </sp>
+                <sp who="#madame_valentin">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="85" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="399" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVI. Madame Valentin, Angélique.</head>
+                <sp who="#madame_valentin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="66" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="309" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="4" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="16" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVII. Monsieur Valentin, Madame Valentin, Angélique, Frontin.</head>
+                <sp who="#monsieur_valentin">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="330" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="1456" unit="chars"/>
+                </sp>
+                <sp who="#frontin">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="239" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="1170" unit="chars"/>
+                </sp>
+                <sp who="#madame_valentin">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="79" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="394" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="4" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="20" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVIII. Monsieur Valentin, Madame Valentin, Guillaume, Frontin, Angélique.</head>
+                <sp who="#guillaume">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="159" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="738" unit="chars"/>
+                </sp>
+                <sp who="#frontin">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="102" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="481" unit="chars"/>
+                </sp>
+                <sp who="#madame_valentin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="166" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="34" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_valentin">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="55" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="246" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIX. Madame Valentin, Monsieur Valentin, Le Chevalier, Frontin,  Guillaume, Fuzillard,  quatre soldats avec des pertuisanes.</head>
+                <sp who="#le_chevalier">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="198" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="995" unit="chars"/>
+                </sp>
+                <sp who="#guillaume">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="144" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_valentin">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="166" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="784" unit="chars"/>
+                </sp>
+                <sp who="#frontin">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="72" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="351" unit="chars"/>
+                </sp>
+                <sp who="#fuzillard">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="101" unit="chars"/>
+                </sp>
+                <sp who="#madame_valentin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="54" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="26" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XX. Monsieur Valentin, Madame Valentin, Angélique, Guillaume, Le Chevalier.</head>
+                <sp who="#monsieur_valentin">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="55" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="280" unit="chars"/>
+                </sp>
+                <sp who="#madame_valentin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="76" unit="chars"/>
+                </sp>
+                <sp who="#le_chevalier">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="50" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="216" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXI. Monsieur Mouflard, Clitandre.</head>
+                <sp who="#monsieur_mouflard">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="95" unit="chars"/>
+                </sp>
+                <sp who="#clitandre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="46" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXII. Frontin, Monsieur Valentin, Monsieur Mouflard, Le Chevalier, Guillaume, Clitandre, Madame Valentin, Angélique.</head>
+                <sp who="#frontin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="214" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_valentin">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="54" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="284" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_mouflard">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="87" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="409" unit="chars"/>
+                </sp>
+                <sp who="#le_chevalier">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="254" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1185" unit="chars"/>
+                </sp>
+                <sp who="#guillaume">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="107" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="525" unit="chars"/>
+                </sp>
+                <sp who="#clitandre">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="55" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="266" unit="chars"/>
+                </sp>
+                <sp who="#madame_valentin">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="156" unit="chars"/>
+                </sp>
+                <sp who="#an_lique">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="140" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXIII. Le Chevalier, Madame Pinuin, Guillaume, Madame Robin, Monsieur Mouflard, etc.</head>
+                <sp who="#le_chevalier">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="219" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="1065" unit="chars"/>
+                </sp>
+                <sp who="#madame_pinuin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="70" unit="chars"/>
+                </sp>
+                <sp who="#guillaume">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="115" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="562" unit="chars"/>
+                </sp>
+                <sp who="#madame_robin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="79" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_mouflard">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="77" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="335" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>DIVERTISSEMENT DES CURIEUX DE COMPIÈGNE.</head>
+                <sp who="#monsieur_touvenel">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="165" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="767" unit="chars"/>
+                </sp>
+                <sp who="#madame_robin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="83" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="343" unit="chars"/>
+                </sp>
+                <sp who="#le_chevalier">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="160" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="707" unit="chars"/>
+                </sp>
+                <sp who="#guillaume">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="73" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="336" unit="chars"/>
+                </sp>
+                <sp who="#mademoiselle_gesmarres">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="157" unit="chars"/>
+                </sp>
+                <sp who="#frontin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="148" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

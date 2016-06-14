@@ -1,0 +1,792 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>SAMSON</title>
+        <subtitle>Tragédie en cinq actes et un Prologue.</subtitle>
+        <genretitle>Opéra</genretitle>
+        <author>VOLTAIRE, François-Marie AROUET de</author>
+        <date when="1743">1743</date>
+        <source>https://github.com/dramacode/theatre-classique/VOLTAIRE_SAMSON.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>la_volup_</name>
+            <alias xml:id="la_volup_">
+                <name>la_volup_</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_choeur</name>
+            <alias xml:id="le_choeur">
+                <name>le_choeur</name>
+            </alias>
+        </character>
+        <character>
+            <name>bacchus</name>
+            <alias xml:id="bacchus">
+                <name>bacchus</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>hercule</name>
+            <alias xml:id="hercule">
+                <name>hercule</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>ensemble</name>
+            <alias xml:id="ensemble">
+                <name>ensemble</name>
+            </alias>
+        </character>
+        <character>
+            <name>un_amour</name>
+            <alias xml:id="un_amour">
+                <name>un_amour</name>
+            </alias>
+        </character>
+        <character>
+            <name>la_vertu</name>
+            <alias xml:id="la_vertu">
+                <name>la_vertu</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>choeu_de_suivant_d_l_vertu</name>
+            <alias xml:id="choeu_de_suivant_d_l_vertu">
+                <name>choeu_de_suivant_d_l_vertu</name>
+            </alias>
+        </character>
+        <character>
+            <name>deux_coryp_es</name>
+            <alias xml:id="deux_coryp_es">
+                <name>deux_coryp_es</name>
+            </alias>
+        </character>
+        <character>
+            <name>un_coryp_e</name>
+            <alias xml:id="un_coryp_e">
+                <name>un_coryp_e</name>
+            </alias>
+        </character>
+        <character>
+            <name>secon_coryp_e</name>
+            <alias xml:id="secon_coryp_e">
+                <name>secon_coryp_e</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_gran_p_tre</name>
+            <alias xml:id="l_gran_p_tre">
+                <name>l_gran_p_tre</name>
+            </alias>
+        </character>
+        <character>
+            <name>samson</name>
+            <alias xml:id="samson">
+                <name>samson</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>choeu_de_fille_israelites</name>
+            <alias xml:id="choeu_de_fille_israelites">
+                <name>choeu_de_fille_israelites</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_roi</name>
+            <alias xml:id="le_roi">
+                <name>le_roi</name>
+            </alias>
+        </character>
+        <character>
+            <name>un_philistin</name>
+            <alias xml:id="un_philistin">
+                <name>un_philistin</name>
+            </alias>
+        </character>
+        <character>
+            <name>choeur_des_philistins</name>
+            <alias xml:id="choeur_des_philistins">
+                <name>choeur_des_philistins</name>
+            </alias>
+        </character>
+        <character>
+            <name>les__breux</name>
+            <alias xml:id="les__breux">
+                <name>les__breux</name>
+            </alias>
+        </character>
+        <character>
+            <name>dalila</name>
+            <alias xml:id="dalila">
+                <name>dalila</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>oracle</name>
+            <alias xml:id="oracle">
+                <name>oracle</name>
+            </alias>
+        </character>
+        <character>
+            <name>choeu_de_filles</name>
+            <alias xml:id="choeu_de_filles">
+                <name>choeu_de_filles</name>
+            </alias>
+        </character>
+        <character>
+            <name>choeu_de_p_tress_d__nus</name>
+            <alias xml:id="choeu_de_p_tress_d__nus">
+                <name>choeu_de_p_tress_d__nus</name>
+            </alias>
+        </character>
+        <character>
+            <name>fille_d_gaza</name>
+            <alias xml:id="fille_d_gaza">
+                <name>fille_d_gaza</name>
+            </alias>
+        </character>
+        <character>
+            <name>choeur_des_filles_de_gaza</name>
+            <alias xml:id="choeur_des_filles_de_gaza">
+                <name>choeur_des_filles_de_gaza</name>
+            </alias>
+        </character>
+        <character>
+            <name>deu__breux</name>
+            <alias xml:id="deu__breux">
+                <name>deu__breux</name>
+            </alias>
+        </character>
+        <character>
+            <name>samson_dalila</name>
+            <alias xml:id="samson_dalila">
+                <name>samson_dalila</name>
+            </alias>
+        </character>
+        <character>
+            <name>guerriers</name>
+            <alias xml:id="guerriers">
+                <name>guerriers</name>
+            </alias>
+        </character>
+        <character>
+            <name>une_p_tresse</name>
+            <alias xml:id="une_p_tresse">
+                <name>une_p_tresse</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_grand_p_tre_des_philistins</name>
+            <alias xml:id="le_grand_p_tre_des_philistins">
+                <name>le_grand_p_tre_des_philistins</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_philistins</name>
+            <alias xml:id="le_philistins">
+                <name>le_philistins</name>
+            </alias>
+        </character>
+        <character>
+            <name>samson_deu_coryp_es</name>
+            <alias xml:id="samson_deu_coryp_es">
+                <name>samson_deu_coryp_es</name>
+            </alias>
+        </character>
+        <character>
+            <name>choeur_d_isr_lites</name>
+            <alias xml:id="choeur_d_isr_lites">
+                <name>choeur_d_isr_lites</name>
+            </alias>
+        </character>
+        <character>
+            <name>choeur_de_philistins</name>
+            <alias xml:id="choeur_de_philistins">
+                <name>choeur_de_philistins</name>
+            </alias>
+        </character>
+        <character>
+            <name>un_p_tresse</name>
+            <alias xml:id="un_p_tresse">
+                <name>un_p_tresse</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>PROLOGUE</head>
+            <div>
+                <head>LA VOLUPTE, sur son trône, entourée des PLAISIRS et des AMOURS.</head>
+                <sp who="#la_volup_">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="126" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="623" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="77" unit="chars"/>
+                </sp>
+                <sp who="#bacchus">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="89" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="456" unit="chars"/>
+                </sp>
+                <sp who="#hercule">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="66" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="318" unit="chars"/>
+                </sp>
+                <sp who="#ensemble">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="167" unit="chars"/>
+                </sp>
+                <sp who="#un_amour">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="117" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="573" unit="chars"/>
+                </sp>
+                <sp who="#la_vertu">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="154" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="712" unit="chars"/>
+                </sp>
+                <sp who="#choeu_de_suivant_d_l_vertu">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="64" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE I.</head>
+                <sp who="#deux_coryp_es">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="165" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="151" unit="chars"/>
+                </sp>
+                <sp who="#un_coryp_e">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="130" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="674" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II.</head>
+                <sp who="#secon_coryp_e">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="227" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="43" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="221" unit="chars"/>
+                </sp>
+                <sp who="#l_gran_p_tre">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="72" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="352" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Samson entre, couvert d'une peau de lion ; Les Personnages de la scène précédente.</head>
+                <sp who="#samson">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="115" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="560" unit="chars"/>
+                </sp>
+                <sp who="#l_gran_p_tre">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="165" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="56" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Samson, Les Israélites.</head>
+                <sp who="#samson">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="251" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="1219" unit="chars"/>
+                </sp>
+                <sp who="#choeu_de_fille_israelites">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="79" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="52" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE I.</head>
+                <sp who="#le_roi">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="129" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="633" unit="chars"/>
+                </sp>
+                <sp who="#un_philistin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="73" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="315" unit="chars"/>
+                </sp>
+                <sp who="#choeur_des_philistins">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="69" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Le Roi, Les Philistins autour de lui ; Samson, suivi des Hébreux, portant dans unemain une massue, et dans l'autre une branche d'olivier.</head>
+                <sp who="#samson">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="268" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="1258" unit="chars"/>
+                </sp>
+                <sp who="#choeur_des_philistins">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="101" unit="chars"/>
+                </sp>
+                <sp who="#le_roi">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="134" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="656" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="67" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="318" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Samson, Choeur d'Israélites.</head>
+                <sp who="#samson">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="37" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="169" unit="chars"/>
+                </sp>
+                <sp who="#les__breux">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="117" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="586" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="143" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I. Le Roi, Dalila, Oracle, Prêtresse de Vénus, Choeur.</head>
+                <sp who="#le_roi">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="46" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="227" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="37" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="182" unit="chars"/>
+                </sp>
+                <sp who="#l_gran_p_tre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="98" unit="chars"/>
+                </sp>
+                <sp who="#dalila">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="121" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="626" unit="chars"/>
+                </sp>
+                <sp who="#oracle">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="161" unit="chars"/>
+                </sp>
+                <sp who="#choeu_de_filles">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="52" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II.</head>
+                <sp who="#samson">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="106" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="514" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE I.I. Dalila, Samson, Choeur des Prêteses de Vénus, revenant sur la scène.</head>
+                <sp who="#choeu_de_p_tress_d__nus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="81" unit="chars"/>
+                </sp>
+                <sp who="#fille_d_gaza">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="79" unit="chars"/>
+                </sp>
+                <sp who="#dalila">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="293" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="1420" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="40" unit="chars"/>
+                </sp>
+                <sp who="#samson">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="168" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="830" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Les Précédents, Les Hébreux.</head>
+                <sp who="#les__breux">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="61" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="286" unit="chars"/>
+                </sp>
+                <sp who="#samson">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="123" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="557" unit="chars"/>
+                </sp>
+                <sp who="#choeur_des_filles_de_gaza">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="225" unit="chars"/>
+                </sp>
+                <sp who="#dalila">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="151" unit="chars"/>
+                </sp>
+                <sp who="#deu__breux">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="134" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V.</head>
+                <sp who="#dalila">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="145" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="673" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE I. Le Grand-Prêtre, Dalila.</head>
+                <sp who="#l_gran_p_tre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="51" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="235" unit="chars"/>
+                </sp>
+                <sp who="#dalila">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="142" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II.</head>
+                <sp who="#dalila">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="72" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="347" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Samson, Dalila.</head>
+                <sp who="#samson">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="105" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="484" unit="chars"/>
+                </sp>
+                <sp who="#dalila">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="105" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="475" unit="chars"/>
+                </sp>
+                <sp who="#samson_dalila">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="153" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Samson, Dalila, Cchoeur des différents peuples, de guerriers, de pasteurs.</head>
+                <sp who="#dalila">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="193" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="895" unit="chars"/>
+                </sp>
+                <sp who="#guerriers">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="156" unit="chars"/>
+                </sp>
+                <sp who="#une_p_tresse">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="82" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="395" unit="chars"/>
+                </sp>
+                <sp who="#samson">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="243" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="1114" unit="chars"/>
+                </sp>
+                <sp who="#samson_dalila">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="141" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Les Philistins, Samson, Dalila. </head>
+                <sp who="#le_grand_p_tre_des_philistins">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="27" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="120" unit="chars"/>
+                </sp>
+                <sp who="#dalila">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="92" unit="chars"/>
+                </sp>
+                <sp who="#samson">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="76" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="311" unit="chars"/>
+                </sp>
+                <sp who="#le_philistins">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="133" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI.</head>
+                <sp who="#dalila">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="106" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="523" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="53" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE I. Samson, enchaîné ; Gardes.</head>
+                <sp who="#samson">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="97" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="452" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Samson, Choeur d'Hébreux.</head>
+                <sp who="#le_choeur">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="169" unit="chars"/>
+                </sp>
+                <sp who="#samson">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="319" unit="chars"/>
+                </sp>
+                <sp who="#samson_deu_coryp_es">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="170" unit="chars"/>
+                </sp>
+                <sp who="#un_coryp_e">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="180" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Le Roi, Choeur de PhIlistins, Samson, Choeur d'Hébreux.</head>
+                <sp who="#le_roi">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="62" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="290" unit="chars"/>
+                </sp>
+                <sp who="#choeur_des_philistins">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="25" unit="chars"/>
+                </sp>
+                <sp who="#choeur_d_isr_lites">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="33" unit="chars"/>
+                </sp>
+                <sp who="#samson">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="25" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="95" unit="chars"/>
+                </sp>
+                <sp who="#choeur_de_philistins">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="101" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Samson, Les Israélites, Le Roi, Les Prêtresses de Vénus, Les Prêtres de Mars.</head>
+                <sp who="#un_p_tresse">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="99" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="494" unit="chars"/>
+                </sp>
+                <sp who="#le_roi">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="169" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="825" unit="chars"/>
+                </sp>
+                <sp who="#samson">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="185" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="896" unit="chars"/>
+                </sp>
+                <sp who="#choeur_de_philistins">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="76" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="50" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

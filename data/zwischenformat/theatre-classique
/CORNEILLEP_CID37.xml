@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LE CID</title>
+        <subtitle>TRAGI-COMÉDIE</subtitle>
+        <genretitle>Tragi-comédie</genretitle>
+        <author>CORNEILLE, Pierre</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/CORNEILLEP_CID37.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>elvire</name>
+            <alias xml:id="elvire">
+                <name>elvire</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_comte</name>
+            <alias xml:id="le_comte">
+                <name>le_comte</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>chi_ne</name>
+            <alias xml:id="chi_ne">
+                <name>chi_ne</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_infante</name>
+            <alias xml:id="l_infante">
+                <name>l_infante</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>_onor</name>
+            <alias xml:id="_onor">
+                <name>_onor</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>page</name>
+            <alias xml:id="page">
+                <name>page</name>
+            </alias>
+        </character>
+        <character>
+            <name>don_diegue</name>
+            <alias xml:id="don_diegue">
+                <name>don_diegue</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>don_rodrigue</name>
+            <alias xml:id="don_rodrigue">
+                <name>don_rodrigue</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>don_arias</name>
+            <alias xml:id="don_arias">
+                <name>don_arias</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>don_fernand</name>
+            <alias xml:id="don_fernand">
+                <name>don_fernand</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>don_sanche</name>
+            <alias xml:id="don_sanche">
+                <name>don_sanche</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>don_alonse</name>
+            <alias xml:id="don_alonse">
+                <name>don_alonse</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Le Comte, Elvire.</head>
+                <sp who="#elvire">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="92" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="470" unit="chars"/>
+                </sp>
+                <sp who="#le_comte">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="219" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="1053" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Chimène, Elvire</head>
+                <sp who="#elvire">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="96" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="505" unit="chars"/>
+                </sp>
+                <sp who="#chi_ne">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="85" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="415" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. L'Infante, Léonor, Le page.</head>
+                <sp who="#l_infante">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="616" unit="words"/>
+                    <amount n="75" unit="lines"/>
+                    <amount n="2986" unit="chars"/>
+                </sp>
+                <sp who="#_onor">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="249" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="1243" unit="chars"/>
+                </sp>
+                <sp who="#page">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="47" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Le Comte, Don Diègue.</head>
+                <sp who="#le_comte">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="613" unit="words"/>
+                    <amount n="75" unit="lines"/>
+                    <amount n="2997" unit="chars"/>
+                </sp>
+                <sp who="#don_diegue">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="331" unit="words"/>
+                    <amount n="52" unit="lines"/>
+                    <amount n="1625" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V.</head>
+                <sp who="#don_diegue">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="276" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="1322" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Don Diègue, Don Rodrigue.</head>
+                <sp who="#don_diegue">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="285" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1306" unit="chars"/>
+                </sp>
+                <sp who="#don_rodrigue">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="133" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII.</head>
+                <sp who="#don_rodrigue">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="457" unit="words"/>
+                    <amount n="69" unit="lines"/>
+                    <amount n="2300" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Don Arias, Le Comte.</head>
+                <sp who="#le_comte">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="232" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="1108" unit="chars"/>
+                </sp>
+                <sp who="#don_arias">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="266" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1336" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Le Comte, Don Rodrigue.</head>
+                <sp who="#don_rodrigue">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="222" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1061" unit="chars"/>
+                </sp>
+                <sp who="#le_comte">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="270" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="1304" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. L'Infante, Chimène, Léonor.</head>
+                <sp who="#l_infante">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="248" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="1252" unit="chars"/>
+                </sp>
+                <sp who="#chi_ne">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="345" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="1630" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. L'Infante, Chimène, Léonor, Le page.</head>
+                <sp who="#l_infante">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="50" unit="chars"/>
+                </sp>
+                <sp who="#page">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="27" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="116" unit="chars"/>
+                </sp>
+                <sp who="#chi_ne">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="128" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. L'Infante, Léonor.</head>
+                <sp who="#l_infante">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="422" unit="words"/>
+                    <amount n="48" unit="lines"/>
+                    <amount n="2066" unit="chars"/>
+                </sp>
+                <sp who="#_onor">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="95" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="465" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Don Fernand, Don Arias, Don Sanche.</head>
+                <sp who="#don_fernand">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="650" unit="words"/>
+                    <amount n="78" unit="lines"/>
+                    <amount n="3171" unit="chars"/>
+                </sp>
+                <sp who="#don_arias">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="75" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="410" unit="chars"/>
+                </sp>
+                <sp who="#don_sanche">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="170" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="811" unit="chars"/>
+                </sp>
+                <sp who="#don_alonse">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="161" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Don Fernand, Don Diègue, Chimène, Don Sanche, Don Arias, Don Alonse.</head>
+                <sp who="#chi_ne">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="447" unit="words"/>
+                    <amount n="60" unit="lines"/>
+                    <amount n="2147" unit="chars"/>
+                </sp>
+                <sp who="#don_diegue">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="407" unit="words"/>
+                    <amount n="52" unit="lines"/>
+                    <amount n="1920" unit="chars"/>
+                </sp>
+                <sp who="#don_fernand">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="121" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="584" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I. Don Rodrigue, Elvire.</head>
+                <sp who="#elvire">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="174" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="861" unit="chars"/>
+                </sp>
+                <sp who="#don_rodrigue">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="134" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="611" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Don Sanche, Chimène, Elvire.</head>
+                <sp who="#don_sanche">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="150" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="731" unit="chars"/>
+                </sp>
+                <sp who="#chi_ne">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="41" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="198" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Chimène, Elvire.</head>
+                <sp who="#chi_ne">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="466" unit="words"/>
+                    <amount n="56" unit="lines"/>
+                    <amount n="2176" unit="chars"/>
+                </sp>
+                <sp who="#elvire">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="105" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="514" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Don Rodrigue, Chimène, Elvire.</head>
+                <sp who="#don_rodrigue">
+                    <amount n="22" unit="speech_acts"/>
+                    <amount n="752" unit="words"/>
+                    <amount n="106" unit="lines"/>
+                    <amount n="3605" unit="chars"/>
+                </sp>
+                <sp who="#chi_ne">
+                    <amount n="23" unit="speech_acts"/>
+                    <amount n="749" unit="words"/>
+                    <amount n="104" unit="lines"/>
+                    <amount n="3460" unit="chars"/>
+                </sp>
+                <sp who="#elvire">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="49" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V.</head>
+                <sp who="#don_diegue">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="236" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="1131" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Don Diègue, Don Rodrigue.</head>
+                <sp who="#don_diegue">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="516" unit="words"/>
+                    <amount n="57" unit="lines"/>
+                    <amount n="2472" unit="chars"/>
+                </sp>
+                <sp who="#don_rodrigue">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="237" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="1144" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Chimène, Elvire.</head>
+                <sp who="#chi_ne">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="234" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="1169" unit="chars"/>
+                </sp>
+                <sp who="#elvire">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="192" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="965" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. L'Infante, Chimène, Léonor, Elvire.</head>
+                <sp who="#l_infante">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="374" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="1813" unit="chars"/>
+                </sp>
+                <sp who="#chi_ne">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="350" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="1710" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Le Roi, Don Diègue, Don Arias, Don Rodrigue, Don Sanche.</head>
+                <sp who="#don_fernand">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="285" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="1400" unit="chars"/>
+                </sp>
+                <sp who="#don_rodrigue">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="869" unit="words"/>
+                    <amount n="94" unit="lines"/>
+                    <amount n="4305" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Le Roi, Don Diègue, Don Rodrigue, Don Arias, Don Alonse, Don Sanche.</head>
+                <sp who="#don_alonse">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="43" unit="chars"/>
+                </sp>
+                <sp who="#don_fernand">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="57" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="264" unit="chars"/>
+                </sp>
+                <sp who="#don_diegue">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="44" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Don Fernand, Don Diègue, Don Arias, Don Sanche, Don Alonse, Chimène, Elvire.</head>
+                <sp who="#don_fernand">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="500" unit="words"/>
+                    <amount n="66" unit="lines"/>
+                    <amount n="2422" unit="chars"/>
+                </sp>
+                <sp who="#don_diegue">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="239" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="1140" unit="chars"/>
+                </sp>
+                <sp who="#chi_ne">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="480" unit="words"/>
+                    <amount n="55" unit="lines"/>
+                    <amount n="2240" unit="chars"/>
+                </sp>
+                <sp who="#don_sanche">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="188" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Don Rodrigue, Chimène.</head>
+                <sp who="#chi_ne">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="415" unit="words"/>
+                    <amount n="48" unit="lines"/>
+                    <amount n="1996" unit="chars"/>
+                </sp>
+                <sp who="#don_rodrigue">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="570" unit="words"/>
+                    <amount n="63" unit="lines"/>
+                    <amount n="2699" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II.</head>
+                <sp who="#l_infante">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="266" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="1288" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. L'Infante, Léonor.</head>
+                <sp who="#l_infante">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="213" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="1085" unit="chars"/>
+                </sp>
+                <sp who="#_onor">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="234" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="1187" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Chimène, Elvire.</head>
+                <sp who="#chi_ne">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="368" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1667" unit="chars"/>
+                </sp>
+                <sp who="#elvire">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="243" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="1182" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Don Sanche, Chimène, Elvire.</head>
+                <sp who="#don_sanche">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="115" unit="chars"/>
+                </sp>
+                <sp who="#chi_ne">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="301" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="1427" unit="chars"/>
+                </sp>
+                <sp who="#elvire">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="23" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Le Roi, Don Diègue, Don Arias, Don Sanche, Don Alonse, Chimène, Elvire.</head>
+                <sp who="#chi_ne">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="181" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="828" unit="chars"/>
+                </sp>
+                <sp who="#don_diegue">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="92" unit="chars"/>
+                </sp>
+                <sp who="#don_fernand">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="122" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="566" unit="chars"/>
+                </sp>
+                <sp who="#don_sanche">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="166" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="817" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Le Roi, Don Diègue, Don Arias, Don Rodrigue, Don ALonse, Don Sanche, L'Infante, Chimène, Léonor, Elvire.</head>
+                <sp who="#l_infante">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="101" unit="chars"/>
+                </sp>
+                <sp who="#don_rodrigue">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="315" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="1543" unit="chars"/>
+                </sp>
+                <sp who="#chi_ne">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="114" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="549" unit="chars"/>
+                </sp>
+                <sp who="#don_fernand">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="230" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="1137" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

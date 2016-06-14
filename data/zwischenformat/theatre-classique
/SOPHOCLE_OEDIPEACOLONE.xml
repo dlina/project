@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>OEDIPE À COLONE Traduction nouvelle de Leconte de Lisle</title>
+        <subtitle>TRAGÉDIE</subtitle>
+        <genretitle>Tragédie</genretitle>
+        <author>SOPHOCLE</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/SOPHOCLE_OEDIPEACOLONE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>oedipe</name>
+            <alias xml:id="oedipe">
+                <name>oedipe</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>antigone</name>
+            <alias xml:id="antigone">
+                <name>antigone</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_tranger</name>
+            <alias xml:id="l_tranger">
+                <name>l_tranger</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_choeur</name>
+            <alias xml:id="le_choeur">
+                <name>le_choeur</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>is_ne</name>
+            <alias xml:id="is_ne">
+                <name>is_ne</name>
+            </alias>
+        </character>
+        <character>
+            <name>t__e</name>
+            <alias xml:id="t__e">
+                <name>t__e</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>c_on</name>
+            <alias xml:id="c_on">
+                <name>c_on</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>polynice</name>
+            <alias xml:id="polynice">
+                <name>polynice</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_messager</name>
+            <alias xml:id="le_messager">
+                <name>le_messager</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>OEDIPE À COLONE.</head>
+            <div>
+                <head>Oedipe, Antigone, L'Étranger.</head>
+                <sp who="#oedipe">
+                    <amount n="22" unit="speech_acts"/>
+                    <amount n="706" unit="words"/>
+                    <amount n="83" unit="lines"/>
+                    <amount n="3408" unit="chars"/>
+                </sp>
+                <sp who="#antigone">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="210" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="933" unit="chars"/>
+                </sp>
+                <sp who="#l_tranger">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="315" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="1473" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>Le Choeur, Oedipe, Antigone.</head>
+                <sp who="#le_choeur">
+                    <amount n="28" unit="speech_acts"/>
+                    <amount n="701" unit="words"/>
+                    <amount n="126" unit="lines"/>
+                    <amount n="3134" unit="chars"/>
+                </sp>
+                <sp who="#oedipe">
+                    <amount n="31" unit="speech_acts"/>
+                    <amount n="686" unit="words"/>
+                    <amount n="113" unit="lines"/>
+                    <amount n="3162" unit="chars"/>
+                </sp>
+                <sp who="#antigone">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="318" unit="words"/>
+                    <amount n="45" unit="lines"/>
+                    <amount n="1454" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>Oedipe, Antigone, Le Choeur, Ismène.</head>
+                <sp who="#oedipe">
+                    <amount n="37" unit="speech_acts"/>
+                    <amount n="1079" unit="words"/>
+                    <amount n="145" unit="lines"/>
+                    <amount n="5088" unit="chars"/>
+                </sp>
+                <sp who="#antigone">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="141" unit="chars"/>
+                </sp>
+                <sp who="#is_ne">
+                    <amount n="27" unit="speech_acts"/>
+                    <amount n="573" unit="words"/>
+                    <amount n="93" unit="lines"/>
+                    <amount n="2755" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="263" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1290" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>Le Choeur, Oedipe.</head>
+                <sp who="#le_choeur">
+                    <amount n="20" unit="speech_acts"/>
+                    <amount n="148" unit="words"/>
+                    <amount n="67" unit="lines"/>
+                    <amount n="679" unit="chars"/>
+                </sp>
+                <sp who="#oedipe">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="218" unit="words"/>
+                    <amount n="69" unit="lines"/>
+                    <amount n="930" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>Thésée, Oedipe, Le Choeur.</head>
+                <sp who="#t__e">
+                    <amount n="26" unit="speech_acts"/>
+                    <amount n="647" unit="words"/>
+                    <amount n="95" unit="lines"/>
+                    <amount n="3026" unit="chars"/>
+                </sp>
+                <sp who="#oedipe">
+                    <amount n="25" unit="speech_acts"/>
+                    <amount n="551" unit="words"/>
+                    <amount n="91" unit="lines"/>
+                    <amount n="2556" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="91" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>Le Choeur, Antigone, Oedipe, Thésée, Créon.</head>
+                <sp who="#le_choeur">
+                    <amount n="22" unit="speech_acts"/>
+                    <amount n="627" unit="words"/>
+                    <amount n="90" unit="lines"/>
+                    <amount n="2990" unit="chars"/>
+                </sp>
+                <sp who="#antigone">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="74" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="342" unit="chars"/>
+                </sp>
+                <sp who="#oedipe">
+                    <amount n="27" unit="speech_acts"/>
+                    <amount n="1362" unit="words"/>
+                    <amount n="127" unit="lines"/>
+                    <amount n="6361" unit="chars"/>
+                </sp>
+                <sp who="#c_on">
+                    <amount n="33" unit="speech_acts"/>
+                    <amount n="976" unit="words"/>
+                    <amount n="121" unit="lines"/>
+                    <amount n="4625" unit="chars"/>
+                </sp>
+                <sp who="#t__e">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="729" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="3426" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>Le Choeur, Oedipe, Antigone.</head>
+                <sp who="#le_choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="344" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="1749" unit="chars"/>
+                </sp>
+                <sp who="#oedipe">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="153" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="700" unit="chars"/>
+                </sp>
+                <sp who="#antigone">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="94" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="429" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>Oedipe, Thésée, Antigone.</head>
+                <sp who="#oedipe">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="409" unit="words"/>
+                    <amount n="50" unit="lines"/>
+                    <amount n="1805" unit="chars"/>
+                </sp>
+                <sp who="#t__e">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="374" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="1672" unit="chars"/>
+                </sp>
+                <sp who="#antigone">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="243" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="1148" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>Le Choeur, Épode, Antigone, Oedipe.</head>
+                <sp who="#le_choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="247" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="1168" unit="chars"/>
+                </sp>
+                <sp who="#antigone">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="168" unit="chars"/>
+                </sp>
+                <sp who="#oedipe">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="3" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="14" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>Polynice, Antigone, Oedipe, Le Choeur.</head>
+                <sp who="#polynice">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="1303" unit="words"/>
+                    <amount n="86" unit="lines"/>
+                    <amount n="5885" unit="chars"/>
+                </sp>
+                <sp who="#antigone">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="204" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="947" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="244" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="1135" unit="chars"/>
+                </sp>
+                <sp who="#oedipe">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="616" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="2956" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>Le Choeur, Thésée, Oedipe.</head>
+                <sp who="#le_choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="66" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="275" unit="chars"/>
+                </sp>
+                <sp who="#t__e">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="116" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="542" unit="chars"/>
+                </sp>
+                <sp who="#oedipe">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="470" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="2152" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>Le Choeur, Le Messager, Antigone, Ismène.</head>
+                <sp who="#le_choeur">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="297" unit="words"/>
+                    <amount n="63" unit="lines"/>
+                    <amount n="1454" unit="chars"/>
+                </sp>
+                <sp who="#le_messager">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="873" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="4051" unit="chars"/>
+                </sp>
+                <sp who="#antigone">
+                    <amount n="20" unit="speech_acts"/>
+                    <amount n="357" unit="words"/>
+                    <amount n="78" unit="lines"/>
+                    <amount n="1675" unit="chars"/>
+                </sp>
+                <sp who="#is_ne">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="93" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="427" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>Thésée, Antigone, Ismène, Le Choeur.</head>
+                <sp who="#t__e">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="144" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="665" unit="chars"/>
+                </sp>
+                <sp who="#antigone">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="68" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="328" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="97" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

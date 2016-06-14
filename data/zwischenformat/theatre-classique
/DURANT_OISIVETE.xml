@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>OISIVITÉ EST MÈRE DE TOUS LES VICES</title>
+        <subtitle>PROVERBE</subtitle>
+        <genretitle>Proverbe</genretitle>
+        <author>DURANT, Catherine</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/DURANT_OISIVETE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>mademoiselle_d_alrane</name>
+            <alias xml:id="mademoiselle_d_alrane">
+                <name>mademoiselle_d_alrane</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>catos</name>
+            <alias xml:id="catos">
+                <name>catos</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>colas</name>
+            <alias xml:id="colas">
+                <name>colas</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head/>
+            <div>
+                <head>SCÈNE PREMIÈRE. Mademoiselle d'Alrane, Catos.</head>
+                <sp who="#mademoiselle_d_alrane">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="579" unit="words"/>
+                    <amount n="52" unit="lines"/>
+                    <amount n="2722" unit="chars"/>
+                </sp>
+                <sp who="#catos">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="583" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="2769" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. </head>
+                <sp who="#mademoiselle_d_alrane">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="116" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="523" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Mademoiselle d'Alrane, Catos, Colas.</head>
+                <sp who="#mademoiselle_d_alrane">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="291" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="1290" unit="chars"/>
+                </sp>
+                <sp who="#colas">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="233" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="1061" unit="chars"/>
+                </sp>
+                <sp who="#catos">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="70" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="295" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

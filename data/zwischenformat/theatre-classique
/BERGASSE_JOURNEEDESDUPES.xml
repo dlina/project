@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LA JOURNÉE DES DUPES</title>
+        <subtitle>PIÈCE TRAGI-POLITI-COMIQUE</subtitle>
+        <subtitle>REPRÉSENTÉ SUR LE THÉÂTRE NATIONAL PAR LES GRANDS COMÉDIENS DE LA PATRIE.</subtitle>
+        <genretitle>Tragi-comédie</genretitle>
+        <author>BERGASSE, Nicolas ; CHASTENET de PUYSÉGUR, Armand-Marie-Jacques.</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/BERGASSE_JOURNEEDESDUPES.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>bimeaura</name>
+            <alias xml:id="bimeaura">
+                <name>bimeaura</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>precheillar</name>
+            <alias xml:id="precheillar">
+                <name>precheillar</name>
+            </alias>
+        </character>
+        <character>
+            <name>deux_sentinelles</name>
+            <alias xml:id="deux_sentinelles">
+                <name>deux_sentinelles</name>
+            </alias>
+        </character>
+        <character>
+            <name>une_poissarde</name>
+            <alias xml:id="une_poissarde">
+                <name>une_poissarde</name>
+            </alias>
+        </character>
+        <character>
+            <name>les_deux_sentinelles</name>
+            <alias xml:id="les_deux_sentinelles">
+                <name>les_deux_sentinelles</name>
+            </alias>
+        </character>
+        <character>
+            <name>les_poissardes</name>
+            <alias xml:id="les_poissardes">
+                <name>les_poissardes</name>
+            </alias>
+        </character>
+        <character>
+            <name>une_autre_poissarde</name>
+            <alias xml:id="une_autre_poissarde">
+                <name>une_autre_poissarde</name>
+            </alias>
+        </character>
+        <character>
+            <name>toutes_les_poissardes</name>
+            <alias xml:id="toutes_les_poissardes">
+                <name>toutes_les_poissardes</name>
+            </alias>
+        </character>
+        <character>
+            <name>un_homme_de_la_troupe</name>
+            <alias xml:id="un_homme_de_la_troupe">
+                <name>un_homme_de_la_troupe</name>
+            </alias>
+        </character>
+        <character>
+            <name>la_peyrouse</name>
+            <alias xml:id="la_peyrouse">
+                <name>la_peyrouse</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>un_homme_du_peuple</name>
+            <alias xml:id="un_homme_du_peuple">
+                <name>un_homme_du_peuple</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_peuple</name>
+            <alias xml:id="le_peuple">
+                <name>le_peuple</name>
+            </alias>
+        </character>
+        <character>
+            <name>monsieur_gard_rue</name>
+            <alias xml:id="monsieur_gard_rue">
+                <name>monsieur_gard_rue</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>un_grenadier</name>
+            <alias xml:id="un_grenadier">
+                <name>un_grenadier</name>
+            </alias>
+        </character>
+        <character>
+            <name>o_paria</name>
+            <alias xml:id="o_paria">
+                <name>o_paria</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>yetafet</name>
+            <alias xml:id="yetafet">
+                <name>yetafet</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>laibil</name>
+            <alias xml:id="laibil">
+                <name>laibil</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_confident</name>
+            <alias xml:id="le_confident">
+                <name>le_confident</name>
+            </alias>
+        </character>
+        <character>
+            <name>la_m_tresse</name>
+            <alias xml:id="la_m_tresse">
+                <name>la_m_tresse</name>
+            </alias>
+        </character>
+        <character>
+            <name>un_de_la_troupe</name>
+            <alias xml:id="un_de_la_troupe">
+                <name>un_de_la_troupe</name>
+            </alias>
+        </character>
+        <character>
+            <name>guillaume</name>
+            <alias xml:id="guillaume">
+                <name>guillaume</name>
+            </alias>
+        </character>
+        <character>
+            <name>montmici</name>
+            <alias xml:id="montmici">
+                <name>montmici</name>
+            </alias>
+        </character>
+        <character>
+            <name>catepane</name>
+            <alias xml:id="catepane">
+                <name>catepane</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>almenandre</name>
+            <alias xml:id="almenandre">
+                <name>almenandre</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>mola</name>
+            <alias xml:id="mola">
+                <name>mola</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>pecheillar</name>
+            <alias xml:id="pecheillar">
+                <name>pecheillar</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>mounier</name>
+            <alias xml:id="mounier">
+                <name>mounier</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Bimeaura, Pecheillar.</head>
+                <sp who="#bimeaura">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="1269" unit="words"/>
+                    <amount n="51" unit="lines"/>
+                    <amount n="6299" unit="chars"/>
+                </sp>
+                <sp who="#precheillar">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="135" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="635" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Bimeaura, Pecheillar, une Patrouille de la Garde Nationale, du Peuple. </head>
+                <sp who="#deux_sentinelles">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="3" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="11" unit="chars"/>
+                </sp>
+                <sp who="#une_poissarde">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="266" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1239" unit="chars"/>
+                </sp>
+                <sp who="#les_deux_sentinelles">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="24" unit="chars"/>
+                </sp>
+                <sp who="#les_poissardes">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="182" unit="chars"/>
+                </sp>
+                <sp who="#bimeaura">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="229" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="1097" unit="chars"/>
+                </sp>
+                <sp who="#une_autre_poissarde">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="92" unit="chars"/>
+                </sp>
+                <sp who="#toutes_les_poissardes">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="60" unit="chars"/>
+                </sp>
+                <sp who="#un_homme_de_la_troupe">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="113" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. La Peyrouse, O Paria,  quelques gens du Peuple.</head>
+                <sp who="#la_peyrouse">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="263" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="1436" unit="chars"/>
+                </sp>
+                <sp who="#un_homme_du_peuple">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="94" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Le Peyrouse, O Paria, Le Peuple, Monsieur Garde-Rue, Soldats.</head>
+                <sp who="#le_peuple">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="116" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="463" unit="chars"/>
+                </sp>
+                <sp who="#la_peyrouse">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="190" unit="words"/>
+                    <amount n="50" unit="lines"/>
+                    <amount n="945" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_gard_rue">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="485" unit="words"/>
+                    <amount n="65" unit="lines"/>
+                    <amount n="2283" unit="chars"/>
+                </sp>
+                <sp who="#un_grenadier">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="64" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="224" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. </head>
+                <sp who="#o_paria">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="115" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="519" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. </head>
+                <sp who="#yetafet">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="263" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="1151" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Yetafet, Laibil.</head>
+                <sp who="#laibil">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="25" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="110" unit="chars"/>
+                </sp>
+                <sp who="#yetafet">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="180" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="864" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III.</head>
+                <sp who="#laibil">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="170" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Laibil, La Payrouse, O Paria, Le Peuple, La Garde.</head>
+                <sp who="#le_peuple">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="403" unit="words"/>
+                    <amount n="61" unit="lines"/>
+                    <amount n="1786" unit="chars"/>
+                </sp>
+                <sp who="#laibil">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="224" unit="words"/>
+                    <amount n="54" unit="lines"/>
+                    <amount n="1082" unit="chars"/>
+                </sp>
+                <sp who="#la_peyrouse">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="195" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="830" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Laibil, Le Peuple.</head>
+                <sp who="#le_peuple">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="99" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="443" unit="chars"/>
+                </sp>
+                <sp who="#laibil">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="156" unit="chars"/>
+                </sp>
+                <sp who="#le_confident">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="79" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. YETAFET, LAIBIL, LE PEUPLE. </head>
+                <sp who="#le_peuple">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="58" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="266" unit="chars"/>
+                </sp>
+                <sp who="#yetafet">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="62" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="300" unit="chars"/>
+                </sp>
+                <sp who="#laibil">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="29" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I.</head>
+                <sp who="#la_peyrouse">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="94" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="428" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. LA PEYROUSE, LA MAITRESSE DE L'HOTEL.</head>
+                <sp who="#la_peyrouse">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="292" unit="words"/>
+                    <amount n="64" unit="lines"/>
+                    <amount n="1383" unit="chars"/>
+                </sp>
+                <sp who="#la_m_tresse">
+                    <amount n="20" unit="speech_acts"/>
+                    <amount n="694" unit="words"/>
+                    <amount n="91" unit="lines"/>
+                    <amount n="3120" unit="chars"/>
+                </sp>
+                <sp who="#le_peuple">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="118" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. La Peyrouse, La Maîtresse, Le Peuple.</head>
+                <sp who="#le_peuple">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="80" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="276" unit="chars"/>
+                </sp>
+                <sp who="#la_m_tresse">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="80" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="368" unit="chars"/>
+                </sp>
+                <sp who="#la_peyrouse">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="149" unit="chars"/>
+                </sp>
+                <sp who="#un_homme_du_peuple">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="51" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="224" unit="chars"/>
+                </sp>
+                <sp who="#un_de_la_troupe">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="166" unit="chars"/>
+                </sp>
+                <sp who="#guillaume">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="176" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV.</head>
+                <sp who="#la_m_tresse">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="114" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="418" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Bimeaura, La Maîtresse.</head>
+                <sp who="#bimeaura">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="77" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="321" unit="chars"/>
+                </sp>
+                <sp who="#la_m_tresse">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="142" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="589" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI.</head>
+                <sp who="#bimeaura">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="83" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="344" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Bimeaira, Montmicy, Catapane, Almenandre, Mola entrent successivement.</head>
+                <sp who="#montmici">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="68" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="333" unit="chars"/>
+                </sp>
+                <sp who="#bimeaura">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="294" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="1411" unit="chars"/>
+                </sp>
+                <sp who="#catepane">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="96" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="464" unit="chars"/>
+                </sp>
+                <sp who="#almenandre">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="58" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="277" unit="chars"/>
+                </sp>
+                <sp who="#mola">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="194" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Montmici, Catepane, Almenandre, Mola.</head>
+                <sp who="#montmici">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="152" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="696" unit="chars"/>
+                </sp>
+                <sp who="#catepane">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="103" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="457" unit="chars"/>
+                </sp>
+                <sp who="#mola">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="329" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="1579" unit="chars"/>
+                </sp>
+                <sp who="#almenandre">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="191" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="920" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Bimeaura, Precheillar.</head>
+                <sp who="#bimeaura">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="120" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="523" unit="chars"/>
+                </sp>
+                <sp who="#pecheillar">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="326" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="1630" unit="chars"/>
+                </sp>
+                <sp who="#precheillar">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="82" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Mounier, Bimeaura, Peycheillar.</head>
+                <sp who="#mounier">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="724" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="3730" unit="chars"/>
+                </sp>
+                <sp who="#bimeaura">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="94" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="499" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Mounier, Yetafet.</head>
+                <sp who="#mounier">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="197" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="974" unit="chars"/>
+                </sp>
+                <sp who="#yetafet">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="142" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV.</head>
+                <sp who="#yetafet">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="257" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. La Peyrouse, Yefatet.</head>
+                <sp who="#la_peyrouse">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="186" unit="chars"/>
+                </sp>
+                <sp who="#yetafet">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="56" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="288" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI.</head>
+                <sp who="#la_peyrouse">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="124" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. LA PEYROUSE, O PARIA.</head>
+                <sp who="#o_paria">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="56" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="270" unit="chars"/>
+                </sp>
+                <sp who="#la_peyrouse">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="58" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="297" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

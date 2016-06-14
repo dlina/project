@@ -1,0 +1,892 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>L'HOMME DU JOUR</title>
+        <subtitle>COMÉDIE</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>BOISSY, Louis de</author>
+        <date when="1732">1732</date>
+        <source>https://github.com/dramacode/theatre-classique/BOISSY_HOMMEDUJOUR.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>lisette</name>
+            <alias xml:id="lisette">
+                <name>lisette</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>celiante</name>
+            <alias xml:id="celiante">
+                <name>celiante</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>la_comtesse</name>
+            <alias xml:id="la_comtesse">
+                <name>la_comtesse</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_marquis</name>
+            <alias xml:id="le_marquis">
+                <name>le_marquis</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_baron</name>
+            <alias xml:id="le_baron">
+                <name>le_baron</name>
+            </alias>
+        </character>
+        <character>
+            <name>champagne</name>
+            <alias xml:id="champagne">
+                <name>champagne</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>lucile</name>
+            <alias xml:id="lucile">
+                <name>lucile</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>monsieur_de_forlis</name>
+            <alias xml:id="monsieur_de_forlis">
+                <name>monsieur_de_forlis</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_laquais</name>
+            <alias xml:id="l_laquais">
+                <name>l_laquais</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE I. Céliante, Lisette.</head>
+                <sp who="#lisette">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="946" unit="words"/>
+                    <amount n="107" unit="lines"/>
+                    <amount n="4101" unit="chars"/>
+                </sp>
+                <sp who="#celiante">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="333" unit="words"/>
+                    <amount n="51" unit="lines"/>
+                    <amount n="1405" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Céliante, La Comtesse, Le Marquis, Lisette. </head>
+                <sp who="#la_comtesse">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="46" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="198" unit="chars"/>
+                </sp>
+                <sp who="#celiante">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="81" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. La Comtesse, Céliante, Le Marquis.</head>
+                <sp who="#la_comtesse">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="265" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="1134" unit="chars"/>
+                </sp>
+                <sp who="#le_marquis">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="92" unit="chars"/>
+                </sp>
+                <sp who="#celiante">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="134" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="605" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. La Comtesse, Céliante, Le Marquis, Lisette. </head>
+                <sp who="#la_comtesse">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="139" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="59" unit="chars"/>
+                </sp>
+                <sp who="#celiante">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="110" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. La Comtesse, Le Marquis. </head>
+                <sp who="#la_comtesse">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="96" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="418" unit="chars"/>
+                </sp>
+                <sp who="#le_marquis">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="55" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="199" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Le Comtesse, Le Marquis, Le Baron. </head>
+                <sp who="#la_comtesse">
+                    <amount n="28" unit="speech_acts"/>
+                    <amount n="813" unit="words"/>
+                    <amount n="111" unit="lines"/>
+                    <amount n="3534" unit="chars"/>
+                </sp>
+                <sp who="#le_baron">
+                    <amount n="21" unit="speech_acts"/>
+                    <amount n="378" unit="words"/>
+                    <amount n="62" unit="lines"/>
+                    <amount n="1594" unit="chars"/>
+                </sp>
+                <sp who="#le_marquis">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="179" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="746" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Le Baron, Le Marquis. </head>
+                <sp who="#le_marquis">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="807" unit="words"/>
+                    <amount n="90" unit="lines"/>
+                    <amount n="3511" unit="chars"/>
+                </sp>
+                <sp who="#le_baron">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="926" unit="words"/>
+                    <amount n="100" unit="lines"/>
+                    <amount n="4036" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE I. Le Marquis, Champagne. </head>
+                <sp who="#le_marquis">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="558" unit="words"/>
+                    <amount n="67" unit="lines"/>
+                    <amount n="2500" unit="chars"/>
+                </sp>
+                <sp who="#champagne">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="218" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="900" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Le Marquis, Le Baron. </head>
+                <sp who="#le_baron">
+                    <amount n="30" unit="speech_acts"/>
+                    <amount n="732" unit="words"/>
+                    <amount n="108" unit="lines"/>
+                    <amount n="3289" unit="chars"/>
+                </sp>
+                <sp who="#le_marquis">
+                    <amount n="29" unit="speech_acts"/>
+                    <amount n="673" unit="words"/>
+                    <amount n="99" unit="lines"/>
+                    <amount n="2881" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Le Baron, Le Marquis, Lucile.</head>
+                <sp who="#le_marquis">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="414" unit="words"/>
+                    <amount n="62" unit="lines"/>
+                    <amount n="1733" unit="chars"/>
+                </sp>
+                <sp who="#lucile">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="73" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="264" unit="chars"/>
+                </sp>
+                <sp who="#le_baron">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="236" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="1052" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Le Baron, Lucile. </head>
+                <sp who="#le_baron">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="467" unit="words"/>
+                    <amount n="66" unit="lines"/>
+                    <amount n="2077" unit="chars"/>
+                </sp>
+                <sp who="#lucile">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="115" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="446" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Lucile, Céliante, Le Baron.</head>
+                <sp who="#le_baron">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="49" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="203" unit="chars"/>
+                </sp>
+                <sp who="#lucile">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="91" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Céliante, Le Baron. </head>
+                <sp who="#celiante">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="370" unit="words"/>
+                    <amount n="48" unit="lines"/>
+                    <amount n="1650" unit="chars"/>
+                </sp>
+                <sp who="#le_baron">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="148" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="668" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII.</head>
+                <sp who="#le_baron">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="61" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="273" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Le Baron, Lisette.</head>
+                <sp who="#lisette">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="60" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="232" unit="chars"/>
+                </sp>
+                <sp who="#le_baron">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="83" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="368" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. </head>
+                <sp who="#le_baron">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="233" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Le Baron, Monsieur De Forlis.</head>
+                <sp who="#le_baron">
+                    <amount n="26" unit="speech_acts"/>
+                    <amount n="443" unit="words"/>
+                    <amount n="77" unit="lines"/>
+                    <amount n="1890" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_de_forlis">
+                    <amount n="26" unit="speech_acts"/>
+                    <amount n="1008" unit="words"/>
+                    <amount n="126" unit="lines"/>
+                    <amount n="4358" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I. Le Baron, Le Marquis.</head>
+                <sp who="#le_baron">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="959" unit="words"/>
+                    <amount n="110" unit="lines"/>
+                    <amount n="4333" unit="chars"/>
+                </sp>
+                <sp who="#le_marquis">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="676" unit="words"/>
+                    <amount n="83" unit="lines"/>
+                    <amount n="2949" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. </head>
+                <sp who="#le_marquis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="162" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="734" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Lucile, Le Baron,  Le Marquis.</head>
+                <sp who="#le_baron">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="183" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="799" unit="chars"/>
+                </sp>
+                <sp who="#lucile">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="109" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="457" unit="chars"/>
+                </sp>
+                <sp who="#le_marquis">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="167" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="766" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Le Baron, Le Marquis, Monsieur De Forlis.</head>
+                <sp who="#monsieur_de_forlis">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="78" unit="chars"/>
+                </sp>
+                <sp who="#le_baron">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="30" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Le Baron, Le Marquis, Monsieur De Forlis, La Comtesse.</head>
+                <sp who="#la_comtesse">
+                    <amount n="21" unit="speech_acts"/>
+                    <amount n="535" unit="words"/>
+                    <amount n="74" unit="lines"/>
+                    <amount n="2394" unit="chars"/>
+                </sp>
+                <sp who="#le_baron">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="75" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="301" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_de_forlis">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="251" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="1175" unit="chars"/>
+                </sp>
+                <sp who="#le_marquis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="46" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE I. Céliante, Monsieur De Forlis. </head>
+                <sp who="#celiante">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="58" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="260" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_de_forlis">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="597" unit="words"/>
+                    <amount n="60" unit="lines"/>
+                    <amount n="2627" unit="chars"/>
+                </sp>
+                <sp who="#le_baron">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="48" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Monsieur De Forlis, Le Baron.</head>
+                <sp who="#le_baron">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="251" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="1071" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_de_forlis">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="570" unit="words"/>
+                    <amount n="72" unit="lines"/>
+                    <amount n="2575" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Monsieur De Forlis, Céliante.</head>
+                <sp who="#celiante">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="100" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_de_forlis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="155" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV.</head>
+                <sp who="#celiante">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="90" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Céliante, Lisette.</head>
+                <sp who="#lisette">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="338" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="1493" unit="chars"/>
+                </sp>
+                <sp who="#celiante">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="59" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="249" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI.</head>
+                <sp who="#lucile">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="288" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="1305" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Lucile, Le Baron.</head>
+                <sp who="#le_baron">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="149" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="665" unit="chars"/>
+                </sp>
+                <sp who="#lucile">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="91" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="372" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Le Baron, Le Marquis, Lucile.</head>
+                <sp who="#le_marquis">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="110" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="466" unit="chars"/>
+                </sp>
+                <sp who="#le_baron">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="782" unit="words"/>
+                    <amount n="79" unit="lines"/>
+                    <amount n="3369" unit="chars"/>
+                </sp>
+                <sp who="#lucile">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="48" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="210" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Le Baron, Le Marquis, Lucile, Lisette.</head>
+                <sp who="#lisette">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="176" unit="chars"/>
+                </sp>
+                <sp who="#le_baron">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="43" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Les Aacteurs Précédents, Un Laquais.</head>
+                <sp who="#l_laquais">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="89" unit="chars"/>
+                </sp>
+                <sp who="#le_baron">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="26" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Le Baron, Le Marquis, Lucile, Lisette.</head>
+                <sp who="#le_marquis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="26" unit="chars"/>
+                </sp>
+                <sp who="#le_baron">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="54" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="234" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII. Le Marquis, Lucile, Lisette.</head>
+                <sp who="#lisette">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="114" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="515" unit="chars"/>
+                </sp>
+                <sp who="#lucile">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="55" unit="chars"/>
+                </sp>
+                <sp who="#le_marquis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="3" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="7" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIII. Le Marquis, Lucile.</head>
+                <sp who="#le_marquis">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="267" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1219" unit="chars"/>
+                </sp>
+                <sp who="#lucile">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="557" unit="words"/>
+                    <amount n="61" unit="lines"/>
+                    <amount n="2426" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIV. Le Marquis, Lucile, Lisette.</head>
+                <sp who="#lisette">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="133" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="607" unit="chars"/>
+                </sp>
+                <sp who="#lucile">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="27" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="105" unit="chars"/>
+                </sp>
+                <sp who="#le_marquis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="20" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XV. Le Marquis, Lisette.</head>
+                <sp who="#le_marquis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="41" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="143" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVI. Le Marquis, Monsieur de Forlis.</head>
+                <sp who="#monsieur_de_forlis">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="270" unit="chars"/>
+                </sp>
+                <sp who="#le_marquis">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="50" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="215" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVII.</head>
+                <sp who="#le_marquis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="90" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="382" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE I. Lucile, Lisette.</head>
+                <sp who="#lisette">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="121" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="576" unit="chars"/>
+                </sp>
+                <sp who="#lucile">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="82" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="343" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Le Baron, Lucile, La Comtesse.</head>
+                <sp who="#la_comtesse">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="364" unit="words"/>
+                    <amount n="47" unit="lines"/>
+                    <amount n="1659" unit="chars"/>
+                </sp>
+                <sp who="#le_baron">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="190" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="819" unit="chars"/>
+                </sp>
+                <sp who="#lucile">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="68" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="311" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Le Baron, La Comtesse.</head>
+                <sp who="#la_comtesse">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="219" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="1005" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV.</head>
+                <sp who="#le_baron">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="87" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="379" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Le Baron, Monsieur de Forlis.</head>
+                <sp who="#le_baron">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="233" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="998" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_de_forlis">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="439" unit="words"/>
+                    <amount n="56" unit="lines"/>
+                    <amount n="2001" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Le Baron, Monsieur de Forlis, Lisette. </head>
+                <sp who="#monsieur_de_forlis">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="82" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="18" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Le Baron, Monsieur De Forlis.</head>
+                <sp who="#le_baron">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="42" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_de_forlis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="98" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Le Baron, Le Marquis, Monsieur De Forlis.</head>
+                <sp who="#le_marquis">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="86" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="410" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_de_forlis">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="85" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="379" unit="chars"/>
+                </sp>
+                <sp who="#le_baron">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="133" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Le Baron, Monsieur De Forlis, Le Maquis, La Comtesse.</head>
+                <sp who="#la_comtesse">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="108" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_de_forlis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="28" unit="chars"/>
+                </sp>
+                <sp who="#le_baron">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="48" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Le Baron, Monsieur De Forlis, Le Marquis, La Comtesse, Lucile, Lisette. </head>
+                <sp who="#monsieur_de_forlis">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="204" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="878" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="70" unit="chars"/>
+                </sp>
+                <sp who="#le_baron">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="235" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="1015" unit="chars"/>
+                </sp>
+                <sp who="#le_marquis">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="58" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="254" unit="chars"/>
+                </sp>
+                <sp who="#la_comtesse">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="236" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1000" unit="chars"/>
+                </sp>
+                <sp who="#lucile">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="54" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="203" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Le Baron, La Comtesse. </head>
+                <sp who="#la_comtesse">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="186" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

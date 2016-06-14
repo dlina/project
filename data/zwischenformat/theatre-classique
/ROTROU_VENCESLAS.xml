@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>VENCESLAS</title>
+        <subtitle>TRAGI-COMÉDIE</subtitle>
+        <genretitle>Tragi-comédie</genretitle>
+        <author>ROTROU, Jean</author>
+        <date when="1648">1648</date>
+        <source>https://github.com/dramacode/theatre-classique/ROTROU_VENCESLAS.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>venceslas</name>
+            <alias xml:id="venceslas">
+                <name>venceslas</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>alexandre</name>
+            <alias xml:id="alexandre">
+                <name>alexandre</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>ladislas</name>
+            <alias xml:id="ladislas">
+                <name>ladislas</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_prince</name>
+            <alias xml:id="l_prince">
+                <name>l_prince</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_roi</name>
+            <alias xml:id="l_roi">
+                <name>l_roi</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_duc</name>
+            <alias xml:id="l_duc">
+                <name>l_duc</name>
+            </alias>
+        </character>
+        <character>
+            <name>octave</name>
+            <alias xml:id="octave">
+                <name>octave</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>theodore</name>
+            <alias xml:id="theodore">
+                <name>theodore</name>
+            </alias>
+        </character>
+        <character>
+            <name>cassandre</name>
+            <alias xml:id="cassandre">
+                <name>cassandre</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>leonor</name>
+            <alias xml:id="leonor">
+                <name>leonor</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Venceslas, Ladislas, Alexandre, Gardes.</head>
+                <sp who="#venceslas">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="849" unit="words"/>
+                    <amount n="83" unit="lines"/>
+                    <amount n="3750" unit="chars"/>
+                </sp>
+                <sp who="#alexandre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="49" unit="chars"/>
+                </sp>
+                <sp who="#ladislas">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="1036" unit="words"/>
+                    <amount n="101" unit="lines"/>
+                    <amount n="4631" unit="chars"/>
+                </sp>
+                <sp who="#l_prince">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="262" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="1116" unit="chars"/>
+                </sp>
+                <sp who="#l_roi">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="756" unit="words"/>
+                    <amount n="78" unit="lines"/>
+                    <amount n="3364" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Alexandre, Le Roi, Le Prince.</head>
+                <sp who="#alexandre">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="161" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="674" unit="chars"/>
+                </sp>
+                <sp who="#l_roi">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="177" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="794" unit="chars"/>
+                </sp>
+                <sp who="#l_prince">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="191" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Le Roi, Le Prince.</head>
+                <sp who="#l_roi">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="89" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="407" unit="chars"/>
+                </sp>
+                <sp who="#l_prince">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="132" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="604" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Le duc de Curlande, La Roi, Alexandre, Le Prince, Octave.</head>
+                <sp who="#l_roi">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="251" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="1128" unit="chars"/>
+                </sp>
+                <sp who="#l_prince">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="76" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="325" unit="chars"/>
+                </sp>
+                <sp who="#l_duc">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="116" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="477" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Le Roi, Le Prince, Octave.</head>
+                <sp who="#l_roi">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="59" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="242" unit="chars"/>
+                </sp>
+                <sp who="#l_prince">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="154" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Le Prince, Octave.</head>
+                <sp who="#octave">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="84" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="389" unit="chars"/>
+                </sp>
+                <sp who="#l_prince">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="176" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="767" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Théodore, infante, Casssandre.</head>
+                <sp who="#theodore">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="158" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="669" unit="chars"/>
+                </sp>
+                <sp who="#cassandre">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="537" unit="words"/>
+                    <amount n="57" unit="lines"/>
+                    <amount n="2393" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Le Prince, Théodore, Cassandre.</head>
+                <sp who="#l_prince">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="1006" unit="words"/>
+                    <amount n="100" unit="lines"/>
+                    <amount n="4467" unit="chars"/>
+                </sp>
+                <sp who="#cassandre">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="501" unit="words"/>
+                    <amount n="58" unit="lines"/>
+                    <amount n="2246" unit="chars"/>
+                </sp>
+                <sp who="#theodore">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="61" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="306" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Le Prince, Théodore.</head>
+                <sp who="#l_prince">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="624" unit="words"/>
+                    <amount n="74" unit="lines"/>
+                    <amount n="3021" unit="chars"/>
+                </sp>
+                <sp who="#theodore">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="109" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="504" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV.</head>
+                <sp who="#theodore">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="319" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1662" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Léonor, suivante, Théodore.</head>
+                <sp who="#leonor">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="38" unit="chars"/>
+                </sp>
+                <sp who="#theodore">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="107" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="550" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Alexandre, Théodore, Léonor.</head>
+                <sp who="#alexandre">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="306" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="1532" unit="chars"/>
+                </sp>
+                <sp who="#theodore">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="139" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I. Le Duc de Cueilland, favori.</head>
+                <sp who="#l_duc">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="206" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="1095" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Alexandre, Le Duc, Alexandre.</head>
+                <sp who="#alexandre">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="608" unit="words"/>
+                    <amount n="73" unit="lines"/>
+                    <amount n="3009" unit="chars"/>
+                </sp>
+                <sp who="#l_duc">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="725" unit="words"/>
+                    <amount n="85" unit="lines"/>
+                    <amount n="3512" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Cassandre, Alexandre, Le Duc.</head>
+                <sp who="#cassandre">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="209" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="1026" unit="chars"/>
+                </sp>
+                <sp who="#alexandre">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="100" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="499" unit="chars"/>
+                </sp>
+                <sp who="#l_duc">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="182" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Le Prince, Alexandre, Cassandre, Le Duc.</head>
+                <sp who="#l_prince">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="463" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="2198" unit="chars"/>
+                </sp>
+                <sp who="#cassandre">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="79" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="385" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Le Prince, Le Duc.</head>
+                <sp who="#l_prince">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="230" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="1105" unit="chars"/>
+                </sp>
+                <sp who="#l_duc">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="141" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="705" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Le Roi, Le Prince, Le Duc Gardes.</head>
+                <sp who="#l_roi">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="274" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="1316" unit="chars"/>
+                </sp>
+                <sp who="#l_prince">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="194" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="918" unit="chars"/>
+                </sp>
+                <sp who="#l_duc">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="119" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="557" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Le roi, Le Duc, Gardes.</head>
+                <sp who="#l_roi">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="94" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="481" unit="chars"/>
+                </sp>
+                <sp who="#l_duc">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="152" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE I. Théodore, Léonor.</head>
+                <sp who="#theodore">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="244" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="1105" unit="chars"/>
+                </sp>
+                <sp who="#leonor">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="149" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="788" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Octave, le Prince, Théodore, Léonor.</head>
+                <sp who="#octave">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="98" unit="chars"/>
+                </sp>
+                <sp who="#theodore">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="136" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="668" unit="chars"/>
+                </sp>
+                <sp who="#l_prince">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="595" unit="words"/>
+                    <amount n="68" unit="lines"/>
+                    <amount n="2776" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Le Prince, Octave.</head>
+                <sp who="#octave">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="194" unit="chars"/>
+                </sp>
+                <sp who="#l_prince">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="126" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Le Roi, Gardes, Le Prince, Octave.</head>
+                <sp who="#l_roi">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="324" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="1489" unit="chars"/>
+                </sp>
+                <sp who="#l_prince">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="113" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="516" unit="chars"/>
+                </sp>
+                <sp who="#octave">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="4" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="21" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Le Duc, Le Roi, Le Prince, Octave, Gardes.</head>
+                <sp who="#l_duc">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="94" unit="chars"/>
+                </sp>
+                <sp who="#l_prince">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="74" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="349" unit="chars"/>
+                </sp>
+                <sp who="#l_roi">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="71" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="367" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Cassandre, Le Roi, Le Prince, Le Duc, Octave, Gardes.</head>
+                <sp who="#cassandre">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="1151" unit="words"/>
+                    <amount n="117" unit="lines"/>
+                    <amount n="5151" unit="chars"/>
+                </sp>
+                <sp who="#l_roi">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="206" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="949" unit="chars"/>
+                </sp>
+                <sp who="#l_prince">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="335" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="1510" unit="chars"/>
+                </sp>
+                <sp who="#octave">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="4" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="23" unit="chars"/>
+                </sp>
+                <sp who="#l_duc">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="2" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="11" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Le Roi, Cassandre, Octave, Gardes.</head>
+                <sp who="#l_roi">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="82" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="347" unit="chars"/>
+                </sp>
+                <sp who="#cassandre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="244" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE I. Théodore, Léonor.</head>
+                <sp who="#theodore">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="167" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="735" unit="chars"/>
+                </sp>
+                <sp who="#leonor">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="55" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="234" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Le Duc, Léonor. </head>
+                <sp who="#l_duc">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="312" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="1353" unit="chars"/>
+                </sp>
+                <sp who="#theodore">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="288" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="1303" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Le Roi, Le Duc, Gardes.</head>
+                <sp who="#l_roi">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="146" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="641" unit="chars"/>
+                </sp>
+                <sp who="#l_duc">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="103" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Le Roi, Le Prince.</head>
+                <sp who="#l_prince">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="401" unit="words"/>
+                    <amount n="45" unit="lines"/>
+                    <amount n="1763" unit="chars"/>
+                </sp>
+                <sp who="#l_roi">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="304" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="1413" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Le Roi, Gardes.</head>
+                <sp who="#l_roi">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="114" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="481" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Théodore, Cassandre, Léonor, Le Roi, Gardes.</head>
+                <sp who="#theodore">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="257" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="1144" unit="chars"/>
+                </sp>
+                <sp who="#cassandre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="212" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="938" unit="chars"/>
+                </sp>
+                <sp who="#l_roi">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="214" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="938" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Le Duc, Le Roi, Théodore, Cassandre, Léonor, Gardes.</head>
+                <sp who="#l_roi">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="57" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="230" unit="chars"/>
+                </sp>
+                <sp who="#l_duc">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="218" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="935" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Octave, Le Roi, Le Duc, Théodore, Cassandre, Léonor, Gardes.</head>
+                <sp who="#octave">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="120" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="514" unit="chars"/>
+                </sp>
+                <sp who="#l_roi">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="45" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="189" unit="chars"/>
+                </sp>
+                <sp who="#leonor">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="23" unit="chars"/>
+                </sp>
+                <sp who="#theodore">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="24" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE DERNIÈRE. Le Prince, Le Roi, Le Duc, Théodore, Cassandre, Léonor, Gardes.</head>
+                <sp who="#l_prince">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="450" unit="words"/>
+                    <amount n="54" unit="lines"/>
+                    <amount n="1941" unit="chars"/>
+                </sp>
+                <sp who="#l_roi">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="483" unit="words"/>
+                    <amount n="54" unit="lines"/>
+                    <amount n="2120" unit="chars"/>
+                </sp>
+                <sp who="#l_duc">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="121" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="565" unit="chars"/>
+                </sp>
+                <sp who="#theodore">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="142" unit="chars"/>
+                </sp>
+                <sp who="#cassandre">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="182" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

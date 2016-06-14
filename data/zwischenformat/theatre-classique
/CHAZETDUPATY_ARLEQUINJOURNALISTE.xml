@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>ARLEQUIN JOURNALISTE</title>
+        <subtitle>COMÉDIE EN UN ACTE ET EN PROSE</subtitle>
+        <subtitle>MÊLÉE DE VAUDEVILLES.</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>CHAZET, DUPATY</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/CHAZETDUPATY_ARLEQUINJOURNALISTE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>les_deux_colporteurs</name>
+            <alias xml:id="les_deux_colporteurs">
+                <name>les_deux_colporteurs</name>
+            </alias>
+        </character>
+        <character>
+            <name>premier_colporteur</name>
+            <alias xml:id="premier_colporteur">
+                <name>premier_colporteur</name>
+            </alias>
+        </character>
+        <character>
+            <name>second_colporteur</name>
+            <alias xml:id="second_colporteur">
+                <name>second_colporteur</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_colporteur</name>
+            <alias xml:id="le_colporteur">
+                <name>le_colporteur</name>
+            </alias>
+        </character>
+        <character>
+            <name>delphine</name>
+            <alias xml:id="delphine">
+                <name>delphine</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>arlequin</name>
+            <alias xml:id="arlequin">
+                <name>arlequin</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>la_ronde</name>
+            <alias xml:id="la_ronde">
+                <name>la_ronde</name>
+            </alias>
+        </character>
+        <character>
+            <name>arlequin__delphine</name>
+            <alias xml:id="arlequin__delphine">
+                <name>arlequin__delphine</name>
+            </alias>
+        </character>
+        <character>
+            <name>gilles</name>
+            <alias xml:id="gilles">
+                <name>gilles</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>balourd</name>
+            <alias xml:id="balourd">
+                <name>balourd</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>arlequin__l_imprimeur__le_colporteur</name>
+            <alias xml:id="arlequin__l_imprimeur__le_colporteur">
+                <name>arlequin__l_imprimeur__le_colporteur</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_imprimeur</name>
+            <alias xml:id="l_imprimeur">
+                <name>l_imprimeur</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_prote</name>
+            <alias xml:id="le_prote">
+                <name>le_prote</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_imprimeur__le_prote__le_colporteur</name>
+            <alias xml:id="l_imprimeur__le_prote__le_colporteur">
+                <name>l_imprimeur__le_prote__le_colporteur</name>
+            </alias>
+        </character>
+        <character>
+            <name>ensemble</name>
+            <alias xml:id="ensemble">
+                <name>ensemble</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE UNIQUE</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Deux Colporteurs.</head>
+                <sp who="#les_deux_colporteurs">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="135" unit="chars"/>
+                </sp>
+                <sp who="#premier_colporteur">
+                    <amount n="20" unit="speech_acts"/>
+                    <amount n="300" unit="words"/>
+                    <amount n="77" unit="lines"/>
+                    <amount n="1177" unit="chars"/>
+                </sp>
+                <sp who="#second_colporteur">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="158" unit="words"/>
+                    <amount n="48" unit="lines"/>
+                    <amount n="629" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Le Colporteur, Delphine.</head>
+                <sp who="#le_colporteur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="113" unit="chars"/>
+                </sp>
+                <sp who="#delphine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="31" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. </head>
+                <sp who="#le_colporteur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="43" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="226" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Le Colporteur, Delphine.</head>
+                <sp who="#le_colporteur">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="219" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="870" unit="chars"/>
+                </sp>
+                <sp who="#delphine">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="73" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. </head>
+                <sp who="#arlequin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="112" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="507" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Arlequin, Delphine.</head>
+                <sp who="#arlequin">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="548" unit="words"/>
+                    <amount n="73" unit="lines"/>
+                    <amount n="2111" unit="chars"/>
+                </sp>
+                <sp who="#delphine">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="128" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="470" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Delphine, La Ronde.</head>
+                <sp who="#la_ronde">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="326" unit="words"/>
+                    <amount n="57" unit="lines"/>
+                    <amount n="1295" unit="chars"/>
+                </sp>
+                <sp who="#delphine">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="123" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Arlequin, Delphine, La Ronde, dans son bureau. </head>
+                <sp who="#arlequin">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="103" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="347" unit="chars"/>
+                </sp>
+                <sp who="#delphine">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="74" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="237" unit="chars"/>
+                </sp>
+                <sp who="#la_ronde">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="112" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="466" unit="chars"/>
+                </sp>
+                <sp who="#arlequin__delphine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="126" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. </head>
+                <sp who="#la_ronde">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="148" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="571" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. La Ronde, Gilles.</head>
+                <sp who="#gilles">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="366" unit="words"/>
+                    <amount n="73" unit="lines"/>
+                    <amount n="1478" unit="chars"/>
+                </sp>
+                <sp who="#la_ronde">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="127" unit="words"/>
+                    <amount n="51" unit="lines"/>
+                    <amount n="589" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Gilles, Arlequin, Le Ronde, Delphine.</head>
+                <sp who="#arlequin">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="80" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="298" unit="chars"/>
+                </sp>
+                <sp who="#delphine">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="27" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="92" unit="chars"/>
+                </sp>
+                <sp who="#gilles">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="233" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="962" unit="chars"/>
+                </sp>
+                <sp who="#la_ronde">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="136" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="547" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCENE XII. </head>
+                <sp who="#gilles">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="171" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIII. Arlequin, Gilles.</head>
+                <sp who="#arlequin">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="420" unit="words"/>
+                    <amount n="65" unit="lines"/>
+                    <amount n="1775" unit="chars"/>
+                </sp>
+                <sp who="#gilles">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="197" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="794" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCENE XIV. ARLEQUIN, GILLES, BALOURD.</head>
+                <sp who="#gilles">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="149" unit="words"/>
+                    <amount n="62" unit="lines"/>
+                    <amount n="550" unit="chars"/>
+                </sp>
+                <sp who="#balourd">
+                    <amount n="21" unit="speech_acts"/>
+                    <amount n="340" unit="words"/>
+                    <amount n="80" unit="lines"/>
+                    <amount n="1294" unit="chars"/>
+                </sp>
+                <sp who="#arlequin">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="218" unit="words"/>
+                    <amount n="60" unit="lines"/>
+                    <amount n="845" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XV. Arlequin, Gilles.</head>
+                <sp who="#arlequin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="54" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="217" unit="chars"/>
+                </sp>
+                <sp who="#gilles">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="135" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVI. </head>
+                <sp who="#gilles">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="63" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="236" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVII. Arlequin, Le Prote, L'Imprimeur, LE Colporteur.</head>
+                <sp who="#arlequin">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="74" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="304" unit="chars"/>
+                </sp>
+                <sp who="#arlequin__l_imprimeur__le_colporteur">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="97" unit="chars"/>
+                </sp>
+                <sp who="#l_imprimeur">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="118" unit="chars"/>
+                </sp>
+                <sp who="#le_prote">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="155" unit="chars"/>
+                </sp>
+                <sp who="#le_colporteur">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="25" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="106" unit="chars"/>
+                </sp>
+                <sp who="#l_imprimeur__le_prote__le_colporteur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="84" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVIII. Arlequin, Delphine.</head>
+                <sp who="#delphine">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="328" unit="words"/>
+                    <amount n="81" unit="lines"/>
+                    <amount n="1365" unit="chars"/>
+                </sp>
+                <sp who="#arlequin">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="715" unit="words"/>
+                    <amount n="130" unit="lines"/>
+                    <amount n="3011" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCENE XIX. Arlequin, Gilles.</head>
+                <sp who="#gilles">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="162" unit="chars"/>
+                </sp>
+                <sp who="#arlequin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="86" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XX. Le Prote, Gilles.</head>
+                <sp who="#le_prote">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="104" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="421" unit="chars"/>
+                </sp>
+                <sp who="#gilles">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="70" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="253" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXI. Gilles, L'Imprimeur.</head>
+                <sp who="#l_imprimeur">
+                    <amount n="29" unit="speech_acts"/>
+                    <amount n="158" unit="words"/>
+                    <amount n="76" unit="lines"/>
+                    <amount n="435" unit="chars"/>
+                </sp>
+                <sp who="#gilles">
+                    <amount n="29" unit="speech_acts"/>
+                    <amount n="214" unit="words"/>
+                    <amount n="84" unit="lines"/>
+                    <amount n="695" unit="chars"/>
+                </sp>
+                <sp who="#ensemble">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="34" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXII. Gillles, Le Colporteur.</head>
+                <sp who="#le_colporteur">
+                    <amount n="25" unit="speech_acts"/>
+                    <amount n="276" unit="words"/>
+                    <amount n="82" unit="lines"/>
+                    <amount n="1151" unit="chars"/>
+                </sp>
+                <sp who="#gilles">
+                    <amount n="24" unit="speech_acts"/>
+                    <amount n="170" unit="words"/>
+                    <amount n="77" unit="lines"/>
+                    <amount n="609" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXIII. </head>
+                <sp who="#gilles">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="81" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="334" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXIV. Arlequin, Gilles.</head>
+                <sp who="#arlequin">
+                    <amount n="26" unit="speech_acts"/>
+                    <amount n="241" unit="words"/>
+                    <amount n="81" unit="lines"/>
+                    <amount n="898" unit="chars"/>
+                </sp>
+                <sp who="#gilles">
+                    <amount n="26" unit="speech_acts"/>
+                    <amount n="212" unit="words"/>
+                    <amount n="88" unit="lines"/>
+                    <amount n="835" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXV. Arlequin, Delphine.</head>
+                <sp who="#arlequin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="59" unit="chars"/>
+                </sp>
+                <sp who="#delphine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="41" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXVI. Arlequin, Gilles.</head>
+                <sp who="#gilles">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="211" unit="words"/>
+                    <amount n="50" unit="lines"/>
+                    <amount n="884" unit="chars"/>
+                </sp>
+                <sp who="#arlequin">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="56" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="183" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXVII. Arlequin, Delphine, Gilles.</head>
+                <sp who="#delphine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="3" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="15" unit="chars"/>
+                </sp>
+                <sp who="#gilles">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="127" unit="chars"/>
+                </sp>
+                <sp who="#arlequin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="39" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXVIII. Arlequin, Delphine, Gilles, La Ronde. </head>
+                <sp who="#la_ronde">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="105" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="479" unit="chars"/>
+                </sp>
+                <sp who="#arlequin">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="124" unit="chars"/>
+                </sp>
+                <sp who="#gilles">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="67" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="222" unit="chars"/>
+                </sp>
+                <sp who="#delphine">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="151" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCENE XXIX. Les Précédents, Le Colporteur, Le Prote, L'Imprimeur. </head>
+                <sp who="#le_prote">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="46" unit="chars"/>
+                </sp>
+                <sp who="#gilles">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="81" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="275" unit="chars"/>
+                </sp>
+                <sp who="#l_imprimeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="21" unit="chars"/>
+                </sp>
+                <sp who="#delphine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="4" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="18" unit="chars"/>
+                </sp>
+                <sp who="#le_colporteur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="73" unit="chars"/>
+                </sp>
+                <sp who="#arlequin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="41" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="188" unit="chars"/>
+                </sp>
+                <sp who="#la_ronde">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="86" unit="chars"/>
+                </sp>
+                <sp who="#arlequin__delphine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="18" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>VAUDEVILLE. </head>
+                <sp who="#delphine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="74" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="345" unit="chars"/>
+                </sp>
+                <sp who="#gilles">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="54" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="263" unit="chars"/>
+                </sp>
+                <sp who="#le_colporteur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="59" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="266" unit="chars"/>
+                </sp>
+                <sp who="#arlequin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="55" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="259" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

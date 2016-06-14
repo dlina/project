@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>L'INDISCRET</title>
+        <subtitle>COMÉDIE EN UN ACTE</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>VOLTAIRE</author>
+        <date when="1738">1738</date>
+        <source>https://github.com/dramacode/theatre-classique/VOLTAIRE_INDISCRET.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>eup_mie</name>
+            <alias xml:id="eup_mie">
+                <name>eup_mie</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>damis</name>
+            <alias xml:id="damis">
+                <name>damis</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>trasimon</name>
+            <alias xml:id="trasimon">
+                <name>trasimon</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>u_laquais</name>
+            <alias xml:id="u_laquais">
+                <name>u_laquais</name>
+            </alias>
+        </character>
+        <character>
+            <name>clitandre</name>
+            <alias xml:id="clitandre">
+                <name>clitandre</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>pasquin</name>
+            <alias xml:id="pasquin">
+                <name>pasquin</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>hortense</name>
+            <alias xml:id="hortense">
+                <name>hortense</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>_rine</name>
+            <alias xml:id="_rine">
+                <name>_rine</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head/>
+            <div>
+                <head>SCÈNE I. Euphémie, Damis.</head>
+                <sp who="#eup_mie">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="911" unit="words"/>
+                    <amount n="93" unit="lines"/>
+                    <amount n="3905" unit="chars"/>
+                </sp>
+                <sp who="#damis">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="378" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="1564" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II.</head>
+                <sp who="#damis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="270" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="1138" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Damis, Trasimon.</head>
+                <sp who="#damis">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="459" unit="words"/>
+                    <amount n="53" unit="lines"/>
+                    <amount n="1849" unit="chars"/>
+                </sp>
+                <sp who="#trasimon">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="217" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="886" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Damis, Trasimon, Plusieurs Laquais.</head>
+                <sp who="#u_laquais">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="3" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="15" unit="chars"/>
+                </sp>
+                <sp who="#damis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="56" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="226" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Damis, Trasimon, Clitandre, Pasquin.</head>
+                <sp who="#clitandre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="48" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="178" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Damis, Trasimon, Clitandre.</head>
+                <sp who="#damis">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="628" unit="words"/>
+                    <amount n="78" unit="lines"/>
+                    <amount n="2582" unit="chars"/>
+                </sp>
+                <sp who="#clitandre">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="122" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="506" unit="chars"/>
+                </sp>
+                <sp who="#trasimon">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="123" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="505" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Damis, Clitandre.</head>
+                <sp who="#damis">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="473" unit="words"/>
+                    <amount n="52" unit="lines"/>
+                    <amount n="1991" unit="chars"/>
+                </sp>
+                <sp who="#clitandre">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="206" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII.</head>
+                <sp who="#clitandre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="169" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="714" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Clitandre, Pasquin.</head>
+                <sp who="#clitandre">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="310" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="1258" unit="chars"/>
+                </sp>
+                <sp who="#pasquin">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="291" unit="words"/>
+                    <amount n="45" unit="lines"/>
+                    <amount n="1221" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Hortense, Nérine.</head>
+                <sp who="#hortense">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="279" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="1126" unit="chars"/>
+                </sp>
+                <sp who="#_rine">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="129" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Hortense, Nérine, Pasquin.</head>
+                <sp who="#pasquin">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="113" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="441" unit="chars"/>
+                </sp>
+                <sp who="#hortense">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="144" unit="chars"/>
+                </sp>
+                <sp who="#_rine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="25" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII. Hortense, Nérine, Damis, Pasquin.</head>
+                <sp who="#damis">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="208" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="841" unit="chars"/>
+                </sp>
+                <sp who="#pasquin">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="236" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="1062" unit="chars"/>
+                </sp>
+                <sp who="#hortense">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="109" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="487" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIII. Hortense, Damis, Nérine.</head>
+                <sp who="#hortense">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="175" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="713" unit="chars"/>
+                </sp>
+                <sp who="#damis">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="170" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="735" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIV. Hortense, Damis, Clitandre, Nérine, Pasquin.</head>
+                <sp who="#damis">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="62" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="240" unit="chars"/>
+                </sp>
+                <sp who="#hortense">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="72" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XV. Damis, Clitandre, Pasquin.</head>
+                <sp who="#damis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="43" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="154" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVI. Clitandre, Pasquin.</head>
+                <sp who="#clitandre">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="114" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="486" unit="chars"/>
+                </sp>
+                <sp who="#pasquin">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="79" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="330" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVII. Clitandre, Damis, Pasquin.</head>
+                <sp who="#damis">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="137" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="564" unit="chars"/>
+                </sp>
+                <sp who="#clitandre">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="134" unit="chars"/>
+                </sp>
+                <sp who="#pasquin">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="76" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="338" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVIII. Hortense, un masque à la main et en domino ; Trasimon, Nérine.</head>
+                <sp who="#trasimon">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="95" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="419" unit="chars"/>
+                </sp>
+                <sp who="#hortense">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="233" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="1021" unit="chars"/>
+                </sp>
+                <sp who="#_rine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="73" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIX.</head>
+                <sp who="#hortense">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="72" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="294" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XX. Hortense, en domino et masquée ; Damis.</head>
+                <sp who="#damis">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="556" unit="words"/>
+                    <amount n="66" unit="lines"/>
+                    <amount n="2340" unit="chars"/>
+                </sp>
+                <sp who="#hortense">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="365" unit="words"/>
+                    <amount n="53" unit="lines"/>
+                    <amount n="1649" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXI. Hortense, Damis, Trasimon, Clitendre.</head>
+                <sp who="#hortense">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="140" unit="chars"/>
+                </sp>
+                <sp who="#clitandre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="90" unit="chars"/>
+                </sp>
+                <sp who="#trasimon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="146" unit="chars"/>
+                </sp>
+                <sp who="#damis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="46" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

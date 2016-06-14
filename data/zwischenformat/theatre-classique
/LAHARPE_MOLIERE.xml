@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>MOLIÈRE A LA NOUVELLE SALLE</title>
+        <subtitle>OU LES AUDIENCES DE THALIE.</subtitle>
+        <subtitle>COMÉDIE EN UN ACTE ET EN VERS LIBRES</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>LA HARPE, Jean-François de</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/LAHARPE_MOLIERE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>thalie</name>
+            <alias xml:id="thalie">
+                <name>thalie</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>melpo_ne</name>
+            <alias xml:id="melpo_ne">
+                <name>melpo_ne</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>mol_re</name>
+            <alias xml:id="mol_re">
+                <name>mol_re</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>monsieur_baptiste</name>
+            <alias xml:id="monsieur_baptiste">
+                <name>monsieur_baptiste</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>monsieur_misogramme</name>
+            <alias xml:id="monsieur_misogramme">
+                <name>monsieur_misogramme</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>monsieur_claque</name>
+            <alias xml:id="monsieur_claque">
+                <name>monsieur_claque</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_vaudeville</name>
+            <alias xml:id="le_vaudeville">
+                <name>le_vaudeville</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>la_muse_du_drame</name>
+            <alias xml:id="la_muse_du_drame">
+                <name>la_muse_du_drame</name>
+            </alias>
+        </character>
+        <character>
+            <name>apollon</name>
+            <alias xml:id="apollon">
+                <name>apollon</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head/>
+            <div>
+                <head>SCÈNE PREMIÈRE. Melpomène, Thalie, Molière.</head>
+                <sp who="#thalie">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="432" unit="words"/>
+                    <amount n="67" unit="lines"/>
+                    <amount n="2067" unit="chars"/>
+                </sp>
+                <sp who="#melpo_ne">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="716" unit="words"/>
+                    <amount n="92" unit="lines"/>
+                    <amount n="3573" unit="chars"/>
+                </sp>
+                <sp who="#mol_re">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="776" unit="words"/>
+                    <amount n="87" unit="lines"/>
+                    <amount n="3703" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Thalie, Molière.</head>
+                <sp who="#mol_re">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="849" unit="words"/>
+                    <amount n="85" unit="lines"/>
+                    <amount n="4102" unit="chars"/>
+                </sp>
+                <sp who="#thalie">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="786" unit="words"/>
+                    <amount n="90" unit="lines"/>
+                    <amount n="3653" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III.</head>
+                <sp who="#mol_re">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="170" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Molière, Monsieur Baptiste.</head>
+                <sp who="#monsieur_baptiste">
+                    <amount n="22" unit="speech_acts"/>
+                    <amount n="1088" unit="words"/>
+                    <amount n="137" unit="lines"/>
+                    <amount n="4993" unit="chars"/>
+                </sp>
+                <sp who="#mol_re">
+                    <amount n="21" unit="speech_acts"/>
+                    <amount n="290" unit="words"/>
+                    <amount n="62" unit="lines"/>
+                    <amount n="1344" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V.</head>
+                <sp who="#mol_re">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="51" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="204" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Molière, Monsieur Misogramme.</head>
+                <sp who="#monsieur_misogramme">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="1699" unit="words"/>
+                    <amount n="190" unit="lines"/>
+                    <amount n="7704" unit="chars"/>
+                </sp>
+                <sp who="#mol_re">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="285" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1325" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII.</head>
+                <sp who="#mol_re">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="71" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="360" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Molière, Monsieur Claque.</head>
+                <sp who="#monsieur_claque">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="1202" unit="words"/>
+                    <amount n="150" unit="lines"/>
+                    <amount n="5301" unit="chars"/>
+                </sp>
+                <sp who="#mol_re">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="160" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="685" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE I..</head>
+                <sp who="#mol_re">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="49" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="222" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Molière, Le Vaudeville.</head>
+                <sp who="#le_vaudeville">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="275" unit="words"/>
+                    <amount n="50" unit="lines"/>
+                    <amount n="1358" unit="chars"/>
+                </sp>
+                <sp who="#mol_re">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="283" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="1325" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Molière, Le Vaudeville, Le Muse du Drame.</head>
+                <sp who="#mol_re">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="594" unit="words"/>
+                    <amount n="78" unit="lines"/>
+                    <amount n="2684" unit="chars"/>
+                </sp>
+                <sp who="#la_muse_du_drame">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="507" unit="words"/>
+                    <amount n="72" unit="lines"/>
+                    <amount n="2289" unit="chars"/>
+                </sp>
+                <sp who="#le_vaudeville">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="41" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII et dernière.</head>
+                <sp who="#apollon">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="357" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="1651" unit="chars"/>
+                </sp>
+                <sp who="#mol_re">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="126" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="605" unit="chars"/>
+                </sp>
+                <sp who="#thalie">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="93" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="417" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_misogramme">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="167" unit="chars"/>
+                </sp>
+                <sp who="#melpo_ne">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="167" unit="chars"/>
+                </sp>
+                <sp who="#la_muse_du_drame">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="191" unit="chars"/>
+                </sp>
+                <sp who="#le_vaudeville">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="160" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

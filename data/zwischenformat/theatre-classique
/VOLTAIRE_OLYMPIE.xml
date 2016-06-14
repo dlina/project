@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>OLYMPIE</title>
+        <subtitle>TRAGÉDIE EN CINQ ACTES </subtitle>
+        <genretitle>Tragédie</genretitle>
+        <author>VOLTAIRE</author>
+        <date when="1751">1751</date>
+        <source>https://github.com/dramacode/theatre-classique/VOLTAIRE_OLYMPIE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>cassandre</name>
+            <alias xml:id="cassandre">
+                <name>cassandre</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>sos_ne</name>
+            <alias xml:id="sos_ne">
+                <name>sos_ne</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>antigone</name>
+            <alias xml:id="antigone">
+                <name>antigone</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>hermas</name>
+            <alias xml:id="hermas">
+                <name>hermas</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>olympie</name>
+            <alias xml:id="olympie">
+                <name>olympie</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>_h_rophante</name>
+            <alias xml:id="_h_rophante">
+                <name>_h_rophante</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>un_p_tresse</name>
+            <alias xml:id="un_p_tresse">
+                <name>un_p_tresse</name>
+            </alias>
+        </character>
+        <character>
+            <name>statira</name>
+            <alias xml:id="statira">
+                <name>statira</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_p_tre</name>
+            <alias xml:id="l_p_tre">
+                <name>l_p_tre</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_p_tresse</name>
+            <alias xml:id="l_p_tresse">
+                <name>l_p_tresse</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_p_tress_in_rieure</name>
+            <alias xml:id="l_p_tress_in_rieure">
+                <name>l_p_tress_in_rieure</name>
+            </alias>
+        </character>
+        <character>
+            <name>tou_ensemble</name>
+            <alias xml:id="tou_ensemble">
+                <name>tou_ensemble</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_p_tres</name>
+            <alias xml:id="le_p_tres">
+                <name>le_p_tres</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE I. Cassandre, Sostène.</head>
+                <sp who="#cassandre">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="441" unit="words"/>
+                    <amount n="47" unit="lines"/>
+                    <amount n="1958" unit="chars"/>
+                </sp>
+                <sp who="#sos_ne">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="243" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="1116" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Cassandre, Sostène, Antigone, Hermas.</head>
+                <sp who="#antigone">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="1121" unit="words"/>
+                    <amount n="125" unit="lines"/>
+                    <amount n="5149" unit="chars"/>
+                </sp>
+                <sp who="#cassandre">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="537" unit="words"/>
+                    <amount n="72" unit="lines"/>
+                    <amount n="2279" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Antigone, Hermas, dans le péristyle. </head>
+                <sp who="#hermas">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="66" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="336" unit="chars"/>
+                </sp>
+                <sp who="#antigone">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="216" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="988" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Cassandre, Olympie.</head>
+                <sp who="#cassandre">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="288" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="1311" unit="chars"/>
+                </sp>
+                <sp who="#olympie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="132" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="571" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Antigone, Hermas, dans le péristyle. </head>
+                <sp who="#antigone">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="448" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="1942" unit="chars"/>
+                </sp>
+                <sp who="#hermas">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="229" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="1061" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE I. L'Hiéronphante, les Prêtres, Les Prêtresses.</head>
+                <sp who="#_h_rophante">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="209" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="972" unit="chars"/>
+                </sp>
+                <sp who="#un_p_tresse">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="55" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="234" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. L'Hiérophante, Prêtres, Prêtresses, Statira.</head>
+                <sp who="#_h_rophante">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="529" unit="words"/>
+                    <amount n="68" unit="lines"/>
+                    <amount n="2348" unit="chars"/>
+                </sp>
+                <sp who="#statira">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="886" unit="words"/>
+                    <amount n="103" unit="lines"/>
+                    <amount n="3990" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Statira, Olympie.</head>
+                <sp who="#statira">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="478" unit="words"/>
+                    <amount n="55" unit="lines"/>
+                    <amount n="2054" unit="chars"/>
+                </sp>
+                <sp who="#olympie">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="377" unit="words"/>
+                    <amount n="47" unit="lines"/>
+                    <amount n="1626" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Statira, Olympie, L'Hiérophante. </head>
+                <sp who="#_h_rophante">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="157" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="730" unit="chars"/>
+                </sp>
+                <sp who="#statira">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="201" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="860" unit="chars"/>
+                </sp>
+                <sp who="#olympie">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="200" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="834" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Statira, Olympie, L'Hiérophante, un prêtre.</head>
+                <sp who="#l_p_tre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="142" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="675" unit="chars"/>
+                </sp>
+                <sp who="#_h_rophante">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="166" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="710" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Statira, Olympie.</head>
+                <sp who="#statira">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="139" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="616" unit="chars"/>
+                </sp>
+                <sp who="#olympie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="157" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I. Cassandre, Sostène, dans le péristyle.</head>
+                <sp who="#cassandre">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="456" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="2013" unit="chars"/>
+                </sp>
+                <sp who="#sos_ne">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="86" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="369" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Cassandre, Sostène, L'Hiérophante sortant du temple.</head>
+                <sp who="#cassandre">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="183" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="801" unit="chars"/>
+                </sp>
+                <sp who="#_h_rophante">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="210" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="960" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Cassandre; Sostène, Statira, Olympie.</head>
+                <sp who="#cassandre">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="670" unit="words"/>
+                    <amount n="67" unit="lines"/>
+                    <amount n="2821" unit="chars"/>
+                </sp>
+                <sp who="#olympie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="137" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="629" unit="chars"/>
+                </sp>
+                <sp who="#statira">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="383" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="1653" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Statira, Olympie.</head>
+                <sp who="#statira">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="132" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="592" unit="chars"/>
+                </sp>
+                <sp who="#olympie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="163" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="762" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Statira, Olympie, Antigone. </head>
+                <sp who="#antigone">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="389" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="1769" unit="chars"/>
+                </sp>
+                <sp who="#statira">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="289" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="1272" unit="chars"/>
+                </sp>
+                <sp who="#olympie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="185" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="816" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Statira, Olympie.</head>
+                <sp who="#statira">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="365" unit="words"/>
+                    <amount n="53" unit="lines"/>
+                    <amount n="1514" unit="chars"/>
+                </sp>
+                <sp who="#olympie">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="505" unit="words"/>
+                    <amount n="66" unit="lines"/>
+                    <amount n="2125" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE I. Antigone, Hermas, dans le péristyle. </head>
+                <sp who="#hermas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="86" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="392" unit="chars"/>
+                </sp>
+                <sp who="#antigone">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="17" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Antigone, Hermas, Cassandre, Sostène.</head>
+                <sp who="#cassandre">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="255" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="1055" unit="chars"/>
+                </sp>
+                <sp who="#antigone">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="306" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="1378" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Cassandre, Antigone, Hermas, Sostène ; l'Hiérophante sort du temple  précipitamment, avec les Prêtres et les Initiés, qui se jettent avec une foule de peuple entre Cassandre et Antigone, et les désarment.</head>
+                <sp who="#_h_rophante">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="310" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1376" unit="chars"/>
+                </sp>
+                <sp who="#cassandre">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="71" unit="chars"/>
+                </sp>
+                <sp who="#antigone">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="71" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="309" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Cassandre, Sostène, dans le péristyle.</head>
+                <sp who="#cassandre">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="295" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="1301" unit="chars"/>
+                </sp>
+                <sp who="#sos_ne">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="170" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="743" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Cassandre, Olympie.</head>
+                <sp who="#olympie">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="460" unit="words"/>
+                    <amount n="56" unit="lines"/>
+                    <amount n="1906" unit="chars"/>
+                </sp>
+                <sp who="#cassandre">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="457" unit="words"/>
+                    <amount n="55" unit="lines"/>
+                    <amount n="1971" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Cassandre, Olympie, Sostène.</head>
+                <sp who="#sos_ne">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="64" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="290" unit="chars"/>
+                </sp>
+                <sp who="#cassandre">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="57" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="228" unit="chars"/>
+                </sp>
+                <sp who="#olympie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="75" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. </head>
+                <sp who="#olympie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="277" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="1178" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Olympie, L'Hiérophante, Prêtres, Prêtresses.</head>
+                <sp who="#olympie">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="143" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="593" unit="chars"/>
+                </sp>
+                <sp who="#_h_rophante">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="385" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="1649" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE I. Antigone, Hermas, dans le péristyle. </head>
+                <sp who="#hermas">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="274" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="1274" unit="chars"/>
+                </sp>
+                <sp who="#antigone">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="199" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="846" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE I. Antigone, Hermas, L'Hiérophante, Prêtres, s'avançant lentement ; Olympie, soutenue par les prêtresses ; elle est en deuil.</head>
+                <sp who="#hermas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="41" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="192" unit="chars"/>
+                </sp>
+                <sp who="#antigone">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="159" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="710" unit="chars"/>
+                </sp>
+                <sp who="#olympie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="27" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="104" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Olympie, L'HHiérophante, Prêtres, Prêtresses.</head>
+                <sp who="#olympie">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="512" unit="words"/>
+                    <amount n="59" unit="lines"/>
+                    <amount n="2244" unit="chars"/>
+                </sp>
+                <sp who="#_h_rophante">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="516" unit="words"/>
+                    <amount n="58" unit="lines"/>
+                    <amount n="2269" unit="chars"/>
+                </sp>
+                <sp who="#l_p_tresse">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="3" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="10" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Olympie, sur le devant ; Les Prêtresses, en demi-cercle au fond. </head>
+                <sp who="#olympie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="87" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="372" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Olympie, Cassandre, Les Prêtresses.</head>
+                <sp who="#cassandre">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="180" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="768" unit="chars"/>
+                </sp>
+                <sp who="#olympie">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="69" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="321" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Olympie, Cassandre, Antigone, Prêtresses.</head>
+                <sp who="#antigone">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="211" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="931" unit="chars"/>
+                </sp>
+                <sp who="#olympie">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="353" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="1468" unit="chars"/>
+                </sp>
+                <sp who="#cassandre">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="204" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Olympie, Cassandre, Antigone, L'Hiérophante, Prêtres, Prêtresses.</head>
+                <sp who="#l_p_tress_in_rieure">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="29" unit="chars"/>
+                </sp>
+                <sp who="#olympie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="222" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="888" unit="chars"/>
+                </sp>
+                <sp who="#cassandre">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="90" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="409" unit="chars"/>
+                </sp>
+                <sp who="#tou_ensemble">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="3" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="8" unit="chars"/>
+                </sp>
+                <sp who="#le_p_tres">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="4" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="10" unit="chars"/>
+                </sp>
+                <sp who="#antigone">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="63" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="316" unit="chars"/>
+                </sp>
+                <sp who="#_h_rophante">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="110" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

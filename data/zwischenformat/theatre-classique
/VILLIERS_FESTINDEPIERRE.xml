@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LE FESTIN DE PIERRE</title>
+        <subtitle>ou LE FILS CRIMINEL</subtitle>
+        <subtitle>TRAGI-COMÉDIE</subtitle>
+        <genretitle>Tragi-comédie</genretitle>
+        <author>VILLIERS, Claude DESCHAMPS de</author>
+        <date when="1732">1732</date>
+        <source>https://github.com/dramacode/theatre-classique/VILLIERS_FESTINDEPIERRE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>amarille</name>
+            <alias xml:id="amarille">
+                <name>amarille</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>lucile</name>
+            <alias xml:id="lucile">
+                <name>lucile</name>
+            </alias>
+        </character>
+        <character>
+            <name>do_philippe</name>
+            <alias xml:id="do_philippe">
+                <name>do_philippe</name>
+            </alias>
+        </character>
+        <character>
+            <name>do_juan</name>
+            <alias xml:id="do_juan">
+                <name>do_juan</name>
+            </alias>
+        </character>
+        <character>
+            <name>do_alvaros</name>
+            <alias xml:id="do_alvaros">
+                <name>do_alvaros</name>
+            </alias>
+        </character>
+        <character>
+            <name>philipin</name>
+            <alias xml:id="philipin">
+                <name>philipin</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>phlippin</name>
+            <alias xml:id="phlippin">
+                <name>phlippin</name>
+            </alias>
+        </character>
+        <character>
+            <name>do__dre</name>
+            <alias xml:id="do__dre">
+                <name>do__dre</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_p__t</name>
+            <alias xml:id="l_p__t">
+                <name>l_p__t</name>
+            </alias>
+        </character>
+        <character>
+            <name>archer</name>
+            <alias xml:id="archer">
+                <name>archer</name>
+            </alias>
+        </character>
+        <character>
+            <name>u__lerin</name>
+            <alias xml:id="u__lerin">
+                <name>u__lerin</name>
+            </alias>
+        </character>
+        <character>
+            <name>l__lerin</name>
+            <alias xml:id="l__lerin">
+                <name>l__lerin</name>
+            </alias>
+        </character>
+        <character>
+            <name>phi_mon</name>
+            <alias xml:id="phi_mon">
+                <name>phi_mon</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>_linde</name>
+            <alias xml:id="_linde">
+                <name>_linde</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>oriane</name>
+            <alias xml:id="oriane">
+                <name>oriane</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>_ombre</name>
+            <alias xml:id="_ombre">
+                <name>_ombre</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I </head>
+            <div>
+                <head>SCÈNE I. Amarille, Lucie.</head>
+                <sp who="#amarille">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="300" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="1250" unit="chars"/>
+                </sp>
+                <sp who="#lucile">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="386" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="1695" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Don Philippe, Amarille, Lucie.</head>
+                <sp who="#do_philippe">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="495" unit="words"/>
+                    <amount n="51" unit="lines"/>
+                    <amount n="2246" unit="chars"/>
+                </sp>
+                <sp who="#amarille">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="429" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="1856" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Don Juan, Don Philippe, Amarille.</head>
+                <sp who="#do_juan">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="284" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="1267" unit="chars"/>
+                </sp>
+                <sp who="#do_philippe">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="66" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="301" unit="chars"/>
+                </sp>
+                <sp who="#amarille">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="101" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Don Alvaros, Philipin.</head>
+                <sp who="#do_alvaros">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="352" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="1608" unit="chars"/>
+                </sp>
+                <sp who="#philipin">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="240" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="1049" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Don Juan, Don Alvaros, Philipin.</head>
+                <sp who="#do_juan">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="595" unit="words"/>
+                    <amount n="77" unit="lines"/>
+                    <amount n="2677" unit="chars"/>
+                </sp>
+                <sp who="#do_alvaros">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="752" unit="words"/>
+                    <amount n="84" unit="lines"/>
+                    <amount n="3399" unit="chars"/>
+                </sp>
+                <sp who="#philipin">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="146" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="569" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE I.</head>
+                <sp who="#phlippin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="84" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Aamrille, Don Pèdre, Don Juan, Philipin, Valets.</head>
+                <sp who="#amarille">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="262" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="1094" unit="chars"/>
+                </sp>
+                <sp who="#philipin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="65" unit="chars"/>
+                </sp>
+                <sp who="#do__dre">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="183" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="772" unit="chars"/>
+                </sp>
+                <sp who="#do_juan">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="177" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Don Philippe, Amarille.</head>
+                <sp who="#do_philippe">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="216" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="885" unit="chars"/>
+                </sp>
+                <sp who="#amarille">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="84" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="337" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. </head>
+                <sp who="#philipin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="244" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="999" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Don Juan, Philipin.</head>
+                <sp who="#do_juan">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="221" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="894" unit="chars"/>
+                </sp>
+                <sp who="#philipin">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="326" unit="words"/>
+                    <amount n="51" unit="lines"/>
+                    <amount n="1323" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Amarille, Le Prévôt, Les Archers.</head>
+                <sp who="#l_p__t">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="632" unit="words"/>
+                    <amount n="68" unit="lines"/>
+                    <amount n="2819" unit="chars"/>
+                </sp>
+                <sp who="#amarille">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="126" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="566" unit="chars"/>
+                </sp>
+                <sp who="#archer">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="67" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="276" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Philipin, Le Prévôt, Les Archers.</head>
+                <sp who="#philipin">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="297" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="1249" unit="chars"/>
+                </sp>
+                <sp who="#l_p__t">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="103" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="418" unit="chars"/>
+                </sp>
+                <sp who="#archer">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="56" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I.</head>
+                <sp who="#u__lerin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="310" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="1403" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Don Juan, Philippin.</head>
+                <sp who="#philipin">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="672" unit="words"/>
+                    <amount n="84" unit="lines"/>
+                    <amount n="2937" unit="chars"/>
+                </sp>
+                <sp who="#do_juan">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="354" unit="words"/>
+                    <amount n="55" unit="lines"/>
+                    <amount n="1535" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Un Pélerin, Don Juan, Philipin.</head>
+                <sp who="#do_juan">
+                    <amount n="21" unit="speech_acts"/>
+                    <amount n="314" unit="words"/>
+                    <amount n="54" unit="lines"/>
+                    <amount n="1383" unit="chars"/>
+                </sp>
+                <sp who="#philipin">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="319" unit="words"/>
+                    <amount n="47" unit="lines"/>
+                    <amount n="1332" unit="chars"/>
+                </sp>
+                <sp who="#l__lerin">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="406" unit="words"/>
+                    <amount n="53" unit="lines"/>
+                    <amount n="1891" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV.</head>
+                <sp who="#do_philippe">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="206" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="907" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Don Juan, Don Philippe.</head>
+                <sp who="#do_juan">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="375" unit="words"/>
+                    <amount n="55" unit="lines"/>
+                    <amount n="1605" unit="chars"/>
+                </sp>
+                <sp who="#do_philippe">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="366" unit="words"/>
+                    <amount n="51" unit="lines"/>
+                    <amount n="1499" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE I. Philémon, Macette.</head>
+                <sp who="#phi_mon">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="355" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="1556" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Don Juan, Philipin.</head>
+                <sp who="#do_juan">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="447" unit="words"/>
+                    <amount n="66" unit="lines"/>
+                    <amount n="1954" unit="chars"/>
+                </sp>
+                <sp who="#phi_mon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="103" unit="chars"/>
+                </sp>
+                <sp who="#philipin">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="345" unit="words"/>
+                    <amount n="53" unit="lines"/>
+                    <amount n="1468" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Philémon, Philipin, Don Juan.</head>
+                <sp who="#phi_mon">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="136" unit="chars"/>
+                </sp>
+                <sp who="#philipin">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="128" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Bélinde, Oriane.</head>
+                <sp who="#_linde">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="428" unit="words"/>
+                    <amount n="60" unit="lines"/>
+                    <amount n="1821" unit="chars"/>
+                </sp>
+                <sp who="#oriane">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="575" unit="words"/>
+                    <amount n="69" unit="lines"/>
+                    <amount n="2421" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Don Juan, Philipin, Bélinde, Oriane.</head>
+                <sp who="#do_juan">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="263" unit="words"/>
+                    <amount n="45" unit="lines"/>
+                    <amount n="1142" unit="chars"/>
+                </sp>
+                <sp who="#philipin">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="175" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="735" unit="chars"/>
+                </sp>
+                <sp who="#oriane">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="68" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="279" unit="chars"/>
+                </sp>
+                <sp who="#_linde">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="58" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="238" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Oriane, Philipin.</head>
+                <sp who="#oriane">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="222" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="961" unit="chars"/>
+                </sp>
+                <sp who="#philipin">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="497" unit="words"/>
+                    <amount n="57" unit="lines"/>
+                    <amount n="2165" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Don Juan, Philipin.</head>
+                <sp who="#do_juan">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="173" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="764" unit="chars"/>
+                </sp>
+                <sp who="#philipin">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="92" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Don Juan, Philipin.</head>
+                <sp who="#philipin">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="360" unit="words"/>
+                    <amount n="57" unit="lines"/>
+                    <amount n="1465" unit="chars"/>
+                </sp>
+                <sp who="#do_juan">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="341" unit="words"/>
+                    <amount n="57" unit="lines"/>
+                    <amount n="1470" unit="chars"/>
+                </sp>
+                <sp who="#_ombre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="3" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="6" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE I. Don Juan, Philipin.</head>
+                <sp who="#do_juan">
+                    <amount n="23" unit="speech_acts"/>
+                    <amount n="385" unit="words"/>
+                    <amount n="69" unit="lines"/>
+                    <amount n="1660" unit="chars"/>
+                </sp>
+                <sp who="#philipin">
+                    <amount n="23" unit="speech_acts"/>
+                    <amount n="663" unit="words"/>
+                    <amount n="94" unit="lines"/>
+                    <amount n="2872" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. L'Ombre, Don Juan, Philipin.</head>
+                <sp who="#do_juan">
+                    <amount n="24" unit="speech_acts"/>
+                    <amount n="604" unit="words"/>
+                    <amount n="85" unit="lines"/>
+                    <amount n="2496" unit="chars"/>
+                </sp>
+                <sp who="#philipin">
+                    <amount n="21" unit="speech_acts"/>
+                    <amount n="417" unit="words"/>
+                    <amount n="66" unit="lines"/>
+                    <amount n="1728" unit="chars"/>
+                </sp>
+                <sp who="#_ombre">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="500" unit="words"/>
+                    <amount n="65" unit="lines"/>
+                    <amount n="2232" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Philipin, Macette, Le Marié, Le Mariée, Philémon.</head>
+                <sp who="#phi_mon">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="260" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="1050" unit="chars"/>
+                </sp>
+                <sp who="#philipin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="180" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Don Juan, Philipin, Philémon, Macette, Le Marié, La Mariée.</head>
+                <sp who="#do_juan">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="25" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="96" unit="chars"/>
+                </sp>
+                <sp who="#phi_mon">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="103" unit="chars"/>
+                </sp>
+                <sp who="#philipin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="110" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Philémon, Macette, Philipin.</head>
+                <sp who="#phi_mon">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="211" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="947" unit="chars"/>
+                </sp>
+                <sp who="#philipin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="48" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="220" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Don Juan, Philipin.</head>
+                <sp who="#philipin">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="209" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="867" unit="chars"/>
+                </sp>
+                <sp who="#do_juan">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="95" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="381" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. L'Ombre, Don Juan, Philipin.</head>
+                <sp who="#_ombre">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="511" unit="words"/>
+                    <amount n="57" unit="lines"/>
+                    <amount n="2292" unit="chars"/>
+                </sp>
+                <sp who="#philipin">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="46" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="189" unit="chars"/>
+                </sp>
+                <sp who="#do_juan">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="362" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="1520" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE DERNIÈRE. Philémon, Macette, Philipin.</head>
+                <sp who="#phi_mon">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="109" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="510" unit="chars"/>
+                </sp>
+                <sp who="#philipin">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="259" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="1109" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

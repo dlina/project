@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>RICHARD COEUR DE LION</title>
+        <subtitle>COMÉDIE EN TROIS ACTES.</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>SEDAINE, Michel-Jean</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/SEDAINE_RICHARD.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>choeur_de_paysans</name>
+            <alias xml:id="choeur_de_paysans">
+                <name>choeur_de_paysans</name>
+            </alias>
+        </character>
+        <character>
+            <name>colette</name>
+            <alias xml:id="colette">
+                <name>colette</name>
+            </alias>
+        </character>
+        <character>
+            <name>autre_troupe_de_paysans</name>
+            <alias xml:id="autre_troupe_de_paysans">
+                <name>autre_troupe_de_paysans</name>
+            </alias>
+        </character>
+        <character>
+            <name>mathurin</name>
+            <alias xml:id="mathurin">
+                <name>mathurin</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>la_vieille_femme</name>
+            <alias xml:id="la_vieille_femme">
+                <name>la_vieille_femme</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>blondel</name>
+            <alias xml:id="blondel">
+                <name>blondel</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>antonio</name>
+            <alias xml:id="antonio">
+                <name>antonio</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>williams</name>
+            <alias xml:id="williams">
+                <name>williams</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>guillot</name>
+            <alias xml:id="guillot">
+                <name>guillot</name>
+            </alias>
+        </character>
+        <character>
+            <name>laurette</name>
+            <alias xml:id="laurette">
+                <name>laurette</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>blondel__laurette</name>
+            <alias xml:id="blondel__laurette">
+                <name>blondel__laurette</name>
+            </alias>
+        </character>
+        <character>
+            <name>marguerite</name>
+            <alias xml:id="marguerite">
+                <name>marguerite</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>un_premier_domestique</name>
+            <alias xml:id="un_premier_domestique">
+                <name>un_premier_domestique</name>
+            </alias>
+        </character>
+        <character>
+            <name>un_domestique</name>
+            <alias xml:id="un_domestique">
+                <name>un_domestique</name>
+            </alias>
+        </character>
+        <character>
+            <name>un_autre_domestique</name>
+            <alias xml:id="un_autre_domestique">
+                <name>un_autre_domestique</name>
+            </alias>
+        </character>
+        <character>
+            <name>un_officier_de_la_comtesse</name>
+            <alias xml:id="un_officier_de_la_comtesse">
+                <name>un_officier_de_la_comtesse</name>
+            </alias>
+        </character>
+        <character>
+            <name>_atrix</name>
+            <alias xml:id="_atrix">
+                <name>_atrix</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>florestan</name>
+            <alias xml:id="florestan">
+                <name>florestan</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>richard</name>
+            <alias xml:id="richard">
+                <name>richard</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>blondel_et_richard</name>
+            <alias xml:id="blondel_et_richard">
+                <name>blondel_et_richard</name>
+            </alias>
+        </character>
+        <character>
+            <name>les_soldats</name>
+            <alias xml:id="les_soldats">
+                <name>les_soldats</name>
+            </alias>
+        </character>
+        <character>
+            <name>les_officiers_et_les_soldats</name>
+            <alias xml:id="les_officiers_et_les_soldats">
+                <name>les_officiers_et_les_soldats</name>
+            </alias>
+        </character>
+        <character>
+            <name>un_soldat</name>
+            <alias xml:id="un_soldat">
+                <name>un_soldat</name>
+            </alias>
+        </character>
+        <character>
+            <name>les_deux_hommes</name>
+            <alias xml:id="les_deux_hommes">
+                <name>les_deux_hommes</name>
+            </alias>
+        </character>
+        <character>
+            <name>la_comtesse</name>
+            <alias xml:id="la_comtesse">
+                <name>la_comtesse</name>
+            </alias>
+        </character>
+        <character>
+            <name>le___chal</name>
+            <alias xml:id="le___chal">
+                <name>le___chal</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>les_chevaliers</name>
+            <alias xml:id="les_chevaliers">
+                <name>les_chevaliers</name>
+            </alias>
+        </character>
+        <character>
+            <name>les_chevaliers__williams___atrix_et_la_comtesse</name>
+            <alias xml:id="les_chevaliers__williams___atrix_et_la_comtesse">
+                <name>les_chevaliers__williams___atrix_et_la_comtesse</name>
+            </alias>
+        </character>
+        <character>
+            <name>un_paysan</name>
+            <alias xml:id="un_paysan">
+                <name>un_paysan</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_choeur</name>
+            <alias xml:id="le_choeur">
+                <name>le_choeur</name>
+            </alias>
+        </character>
+        <character>
+            <name>la_comtesse__richard__blondel__williams__florestan__les_chevaliers</name>
+            <alias xml:id="la_comtesse__richard__blondel__williams__florestan__les_chevaliers">
+                <name>la_comtesse__richard__blondel__williams__florestan__les_chevaliers</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_choeur__richard__la_comtesse__florestan__williams__les_chevalier_</name>
+            <alias xml:id="le_choeur__richard__la_comtesse__florestan__williams__les_chevalier_">
+                <name>le_choeur__richard__la_comtesse__florestan__williams__les_chevalier_</name>
+            </alias>
+        </character>
+        <character>
+            <name>laurette__les_femmes_de_la_comtesse__les_paysans</name>
+            <alias xml:id="laurette__les_femmes_de_la_comtesse__les_paysans">
+                <name>laurette__les_femmes_de_la_comtesse__les_paysans</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>PROLOGUE.</head>
+                <sp who="#choeur_de_paysans">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="51" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="257" unit="chars"/>
+                </sp>
+                <sp who="#colette">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="85" unit="chars"/>
+                </sp>
+                <sp who="#autre_troupe_de_paysans">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="138" unit="chars"/>
+                </sp>
+                <sp who="#mathurin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="85" unit="chars"/>
+                </sp>
+                <sp who="#la_vieille_femme">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="82" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE I. Blondel, Antonio.</head>
+                <sp who="#blondel">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="200" unit="words"/>
+                    <amount n="53" unit="lines"/>
+                    <amount n="818" unit="chars"/>
+                </sp>
+                <sp who="#antonio">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="374" unit="words"/>
+                    <amount n="60" unit="lines"/>
+                    <amount n="1564" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II.</head>
+                <sp who="#blondel">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="241" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="1143" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Blondel, Williams, Guillot, ensuite Laurette.</head>
+                <sp who="#williams">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="122" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="551" unit="chars"/>
+                </sp>
+                <sp who="#guillot">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="159" unit="chars"/>
+                </sp>
+                <sp who="#blondel">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="101" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="399" unit="chars"/>
+                </sp>
+                <sp who="#laurette">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="48" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Williams, Blondel.</head>
+                <sp who="#williams">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="81" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="341" unit="chars"/>
+                </sp>
+                <sp who="#blondel">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="73" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="311" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Williams, Blondel, Antonio.</head>
+                <sp who="#antonio">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="150" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="621" unit="chars"/>
+                </sp>
+                <sp who="#blondel">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="244" unit="words"/>
+                    <amount n="65" unit="lines"/>
+                    <amount n="1079" unit="chars"/>
+                </sp>
+                <sp who="#williams">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="263" unit="words"/>
+                    <amount n="62" unit="lines"/>
+                    <amount n="1115" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Blondel, Laurette, Antonio. </head>
+                <sp who="#laurette">
+                    <amount n="21" unit="speech_acts"/>
+                    <amount n="479" unit="words"/>
+                    <amount n="87" unit="lines"/>
+                    <amount n="1943" unit="chars"/>
+                </sp>
+                <sp who="#blondel">
+                    <amount n="22" unit="speech_acts"/>
+                    <amount n="346" unit="words"/>
+                    <amount n="77" unit="lines"/>
+                    <amount n="1618" unit="chars"/>
+                </sp>
+                <sp who="#antonio">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="86" unit="chars"/>
+                </sp>
+                <sp who="#blondel__laurette">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="37" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="172" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Marguerite, Comtesse de Flandre et d'Artois ; Blondel.</head>
+                <sp who="#blondel">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="204" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="932" unit="chars"/>
+                </sp>
+                <sp who="#marguerite">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="66" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="286" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII.</head>
+                <sp who="#un_premier_domestique">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="65" unit="chars"/>
+                </sp>
+                <sp who="#blondel">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="222" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="1070" unit="chars"/>
+                </sp>
+                <sp who="#antonio">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="3" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="10" unit="chars"/>
+                </sp>
+                <sp who="#un_domestique">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="56" unit="chars"/>
+                </sp>
+                <sp who="#un_autre_domestique">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="45" unit="chars"/>
+                </sp>
+                <sp who="#un_officier_de_la_comtesse">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="53" unit="chars"/>
+                </sp>
+                <sp who="#_atrix">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="54" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE I. Le Roi Richard, Florestan.</head>
+                <sp who="#florestan">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="72" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="277" unit="chars"/>
+                </sp>
+                <sp who="#richard">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="102" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II.</head>
+                <sp who="#richard">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="132" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="610" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Richard, Blondel, Antonio.</head>
+                <sp who="#blondel">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="117" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="508" unit="chars"/>
+                </sp>
+                <sp who="#antonio">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="229" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Richard, sur sa terrasse ; Blondel monte et s'arrange sur le parapet.</head>
+                <sp who="#richard">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="123" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="582" unit="chars"/>
+                </sp>
+                <sp who="#blondel">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="115" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="550" unit="chars"/>
+                </sp>
+                <sp who="#blondel_et_richard">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="138" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Richard, Blondel, des Soldats.</head>
+                <sp who="#les_soldats">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="84" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="380" unit="chars"/>
+                </sp>
+                <sp who="#blondel">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="82" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="412" unit="chars"/>
+                </sp>
+                <sp who="#les_officiers_et_les_soldats">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="51" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="248" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Les Précédents, Florestan, Gouverneur. </head>
+                <sp who="#un_soldat">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="30" unit="chars"/>
+                </sp>
+                <sp who="#blondel">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="272" unit="words"/>
+                    <amount n="48" unit="lines"/>
+                    <amount n="1246" unit="chars"/>
+                </sp>
+                <sp who="#florestan">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="134" unit="words"/>
+                    <amount n="50" unit="lines"/>
+                    <amount n="534" unit="chars"/>
+                </sp>
+                <sp who="#les_soldats">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="102" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Les Précédents, Antonio.</head>
+                <sp who="#antonio">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="55" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="229" unit="chars"/>
+                </sp>
+                <sp who="#les_soldats">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="173" unit="chars"/>
+                </sp>
+                <sp who="#blondel">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="25" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="111" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I. Blondel, Deux hommes de la Comtesse.</head>
+                <sp who="#blondel">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="123" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="458" unit="chars"/>
+                </sp>
+                <sp who="#les_deux_hommes">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="125" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="508" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. La Comtesse, Sire Williams, Les Chevaliers, Le Sénéchal, La dame de compagnie.</head>
+                <sp who="#la_comtesse">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="104" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="490" unit="chars"/>
+                </sp>
+                <sp who="#williams">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="55" unit="chars"/>
+                </sp>
+                <sp who="#le___chal">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="85" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Les Précédents, Béatrix, Dame suivante.</head>
+                <sp who="#_atrix">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="73" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="308" unit="chars"/>
+                </sp>
+                <sp who="#la_comtesse">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="142" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Les Précédents, Blondel.</head>
+                <sp who="#la_comtesse">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="207" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="901" unit="chars"/>
+                </sp>
+                <sp who="#blondel">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="244" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="1078" unit="chars"/>
+                </sp>
+                <sp who="#les_chevaliers">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="241" unit="chars"/>
+                </sp>
+                <sp who="#les_chevaliers__williams___atrix_et_la_comtesse">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="119" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Blondel, Le Comtesse, Sire Williams, Les Chevaliers</head>
+                <sp who="#la_comtesse">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="78" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="341" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Blondel, Williams, Le Sénéchal, Deux chevaliers.</head>
+                <sp who="#le___chal">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="79" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="368" unit="chars"/>
+                </sp>
+                <sp who="#blondel">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="339" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1560" unit="chars"/>
+                </sp>
+                <sp who="#williams">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="99" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="404" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI..</head>
+                <sp who="#blondel">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="154" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI.I. Williams, Laurette, Des Domestiques.</head>
+                <sp who="#williams">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="43" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="210" unit="chars"/>
+                </sp>
+                <sp who="#laurette">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="153" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Les Précédents, Blondel. </head>
+                <sp who="#blondel">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="71" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="335" unit="chars"/>
+                </sp>
+                <sp who="#laurette">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="123" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="538" unit="chars"/>
+                </sp>
+                <sp who="#williams">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="140" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Williams, Laurette, Antonio.</head>
+                <sp who="#un_paysan">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="156" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="642" unit="chars"/>
+                </sp>
+                <sp who="#florestan">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="155" unit="chars"/>
+                </sp>
+                <sp who="#williams">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="21" unit="chars"/>
+                </sp>
+                <sp who="#les_chevaliers">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="107" unit="chars"/>
+                </sp>
+                <sp who="#richard">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="92" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="417" unit="chars"/>
+                </sp>
+                <sp who="#marguerite">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="100" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="462" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="66" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="297" unit="chars"/>
+                </sp>
+                <sp who="#la_comtesse__richard__blondel__williams__florestan__les_chevaliers">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="54" unit="chars"/>
+                </sp>
+                <sp who="#blondel">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="27" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="132" unit="chars"/>
+                </sp>
+                <sp who="#le_choeur__richard__la_comtesse__florestan__williams__les_chevalier_">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="138" unit="chars"/>
+                </sp>
+                <sp who="#laurette__les_femmes_de_la_comtesse__les_paysans">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="138" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

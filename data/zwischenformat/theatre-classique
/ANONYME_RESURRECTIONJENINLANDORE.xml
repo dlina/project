@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>FARCE NOUVELLE TRÈS BONNE ET FORT JOYEUSE DE LA RESURRECTION DE JENIN LANDORE</title>
+        <subtitle>À quatre personnages, c'est à savoir</subtitle>
+        <genretitle>Farce</genretitle>
+        <author>Anonyme</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/ANONYME_RESURRECTIONJENINLANDORE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>la_femme</name>
+            <alias xml:id="la_femme">
+                <name>la_femme</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_cu_</name>
+            <alias xml:id="le_cu_">
+                <name>le_cu_</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_clerc</name>
+            <alias xml:id="le_clerc">
+                <name>le_clerc</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>jenin</name>
+            <alias xml:id="jenin">
+                <name>jenin</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head/>
+            <div>
+                <head/>
+                <sp who="#la_femme">
+                    <amount n="22" unit="speech_acts"/>
+                    <amount n="280" unit="words"/>
+                    <amount n="65" unit="lines"/>
+                    <amount n="1269" unit="chars"/>
+                </sp>
+                <sp who="#le_cu_">
+                    <amount n="21" unit="speech_acts"/>
+                    <amount n="256" unit="words"/>
+                    <amount n="58" unit="lines"/>
+                    <amount n="1202" unit="chars"/>
+                </sp>
+                <sp who="#le_clerc">
+                    <amount n="20" unit="speech_acts"/>
+                    <amount n="165" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="762" unit="chars"/>
+                </sp>
+                <sp who="#jenin">
+                    <amount n="52" unit="speech_acts"/>
+                    <amount n="1283" unit="words"/>
+                    <amount n="229" unit="lines"/>
+                    <amount n="5830" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

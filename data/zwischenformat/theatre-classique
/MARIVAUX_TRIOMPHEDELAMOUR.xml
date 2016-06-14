@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LE TRIOMPHE DE L'AMOUR</title>
+        <subtitle>COMÉDIE.</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>MARIVAUX</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/MARIVAUX_TRIOMPHEDELAMOUR.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>phocion</name>
+            <alias xml:id="phocion">
+                <name>phocion</name>
+            </alias>
+        </character>
+        <character>
+            <name>hermidas</name>
+            <alias xml:id="hermidas">
+                <name>hermidas</name>
+            </alias>
+        </character>
+        <character>
+            <name>arlequin</name>
+            <alias xml:id="arlequin">
+                <name>arlequin</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>dimas</name>
+            <alias xml:id="dimas">
+                <name>dimas</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>agis</name>
+            <alias xml:id="agis">
+                <name>agis</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>_ontine</name>
+            <alias xml:id="_ontine">
+                <name>_ontine</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>hermocrate</name>
+            <alias xml:id="hermocrate">
+                <name>hermocrate</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>phocio_agis</name>
+            <alias xml:id="phocio_agis">
+                <name>phocio_agis</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Léonide, sous le nom de Phocion ; Corine, sous le nom d'Hermidas.</head>
+                <sp who="#phocion">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="1196" unit="words"/>
+                    <amount n="74" unit="lines"/>
+                    <amount n="5556" unit="chars"/>
+                </sp>
+                <sp who="#hermidas">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="579" unit="words"/>
+                    <amount n="58" unit="lines"/>
+                    <amount n="2787" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Arlequin, sans être vu d'abord ; Phocion, Hermidas.</head>
+                <sp who="#arlequin">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="364" unit="words"/>
+                    <amount n="60" unit="lines"/>
+                    <amount n="1617" unit="chars"/>
+                </sp>
+                <sp who="#hermidas">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="263" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1210" unit="chars"/>
+                </sp>
+                <sp who="#phocion">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="82" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="372" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Hermidas, Phocion, Arlequin, Dimas, jardinier.</head>
+                <sp who="#dimas">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="183" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="807" unit="chars"/>
+                </sp>
+                <sp who="#arlequin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="104" unit="chars"/>
+                </sp>
+                <sp who="#phocion">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="115" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Agis, Dimas, Hermidas, Phocion, Arlequin.</head>
+                <sp who="#agis">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="214" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="1067" unit="chars"/>
+                </sp>
+                <sp who="#dimas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="68" unit="chars"/>
+                </sp>
+                <sp who="#phocion">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="219" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="1020" unit="chars"/>
+                </sp>
+                <sp who="#arlequin">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="45" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="200" unit="chars"/>
+                </sp>
+                <sp who="#hermidas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="38" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Phocion, Agis, Hermidas, Dimas, Léontine, Arlequin.</head>
+                <sp who="#dimas">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="138" unit="chars"/>
+                </sp>
+                <sp who="#_ontine">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="197" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="973" unit="chars"/>
+                </sp>
+                <sp who="#phocion">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="200" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="985" unit="chars"/>
+                </sp>
+                <sp who="#arlequin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="64" unit="chars"/>
+                </sp>
+                <sp who="#agis">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="51" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="246" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Léontine, Phocion.</head>
+                <sp who="#phocion">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="1112" unit="words"/>
+                    <amount n="72" unit="lines"/>
+                    <amount n="5288" unit="chars"/>
+                </sp>
+                <sp who="#_ontine">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="424" unit="words"/>
+                    <amount n="72" unit="lines"/>
+                    <amount n="1952" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Hermocrate, Agis, Phocion, Léontine, Arlequin.</head>
+                <sp who="#hermocrate">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="63" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="315" unit="chars"/>
+                </sp>
+                <sp who="#agis">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="25" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="113" unit="chars"/>
+                </sp>
+                <sp who="#arlequin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="37" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="177" unit="chars"/>
+                </sp>
+                <sp who="#_ontine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="93" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="412" unit="chars"/>
+                </sp>
+                <sp who="#phocion">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="152" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Hermocrate, Phocion.</head>
+                <sp who="#hermocrate">
+                    <amount n="25" unit="speech_acts"/>
+                    <amount n="549" unit="words"/>
+                    <amount n="80" unit="lines"/>
+                    <amount n="2573" unit="chars"/>
+                </sp>
+                <sp who="#phocion">
+                    <amount n="24" unit="speech_acts"/>
+                    <amount n="1249" unit="words"/>
+                    <amount n="112" unit="lines"/>
+                    <amount n="5761" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Hermocrate, Dimas.</head>
+                <sp who="#hermocrate">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="84" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="394" unit="chars"/>
+                </sp>
+                <sp who="#dimas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="86" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Arlequin, Dimas.</head>
+                <sp who="#dimas">
+                    <amount n="25" unit="speech_acts"/>
+                    <amount n="632" unit="words"/>
+                    <amount n="103" unit="lines"/>
+                    <amount n="2817" unit="chars"/>
+                </sp>
+                <sp who="#arlequin">
+                    <amount n="24" unit="speech_acts"/>
+                    <amount n="263" unit="words"/>
+                    <amount n="78" unit="lines"/>
+                    <amount n="1198" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Arlequin, Dimas, Phocion, Hermidas.</head>
+                <sp who="#hermidas">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="290" unit="chars"/>
+                </sp>
+                <sp who="#dimas">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="96" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="438" unit="chars"/>
+                </sp>
+                <sp who="#arlequin">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="106" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="438" unit="chars"/>
+                </sp>
+                <sp who="#phocion">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="280" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="1290" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Agis, Phocion.</head>
+                <sp who="#agis">
+                    <amount n="21" unit="speech_acts"/>
+                    <amount n="802" unit="words"/>
+                    <amount n="71" unit="lines"/>
+                    <amount n="3740" unit="chars"/>
+                </sp>
+                <sp who="#phocion">
+                    <amount n="20" unit="speech_acts"/>
+                    <amount n="734" unit="words"/>
+                    <amount n="74" unit="lines"/>
+                    <amount n="3322" unit="chars"/>
+                </sp>
+                <sp who="#phocio_agis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="2" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="5" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Phocion, Arlequin, Hermidas.</head>
+                <sp who="#arlequin">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="62" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="306" unit="chars"/>
+                </sp>
+                <sp who="#hermidas">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="56" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="257" unit="chars"/>
+                </sp>
+                <sp who="#phocion">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="296" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Phocion, Léontine.</head>
+                <sp who="#phocion">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="321" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1421" unit="chars"/>
+                </sp>
+                <sp who="#_ontine">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="227" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="1062" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Phocion, Léontine, Arlequin.</head>
+                <sp who="#phocion">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="75" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="333" unit="chars"/>
+                </sp>
+                <sp who="#arlequin">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="487" unit="words"/>
+                    <amount n="53" unit="lines"/>
+                    <amount n="1925" unit="chars"/>
+                </sp>
+                <sp who="#_ontine">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="115" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="512" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Hermidas, Léontine, Phocion.</head>
+                <sp who="#hermidas">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="54" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="262" unit="chars"/>
+                </sp>
+                <sp who="#phocion">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="151" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="657" unit="chars"/>
+                </sp>
+                <sp who="#_ontine">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="147" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="667" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Hermidas, Phocion, Dimas.</head>
+                <sp who="#dimas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="171" unit="chars"/>
+                </sp>
+                <sp who="#phocion">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="68" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Hermocrate, Dimas.</head>
+                <sp who="#hermocrate">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="150" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="643" unit="chars"/>
+                </sp>
+                <sp who="#dimas">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="624" unit="words"/>
+                    <amount n="66" unit="lines"/>
+                    <amount n="2674" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Phocion, Dimas.</head>
+                <sp who="#phocion">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="100" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="460" unit="chars"/>
+                </sp>
+                <sp who="#dimas">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="99" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="412" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Agis, Phocion.</head>
+                <sp who="#agis">
+                    <amount n="20" unit="speech_acts"/>
+                    <amount n="372" unit="words"/>
+                    <amount n="66" unit="lines"/>
+                    <amount n="1725" unit="chars"/>
+                </sp>
+                <sp who="#phocion">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="493" unit="words"/>
+                    <amount n="68" unit="lines"/>
+                    <amount n="2152" unit="chars"/>
+                </sp>
+                <sp who="#dimas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="17" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII. Phocion, Hermocrate, Dimas.</head>
+                <sp who="#dimas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="72" unit="chars"/>
+                </sp>
+                <sp who="#phocion">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="461" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="2179" unit="chars"/>
+                </sp>
+                <sp who="#hermocrate">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="396" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="1821" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIII. Arlequin, Hermidas, Phocion, Hermocrate.</head>
+                <sp who="#hermidas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="86" unit="chars"/>
+                </sp>
+                <sp who="#arlequin">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="255" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="1193" unit="chars"/>
+                </sp>
+                <sp who="#hermocrate">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="51" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="229" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIV. Hermocrate, Phocion, Hermidas.</head>
+                <sp who="#hermocrate">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="158" unit="words"/>
+                    <amount n="52" unit="lines"/>
+                    <amount n="748" unit="chars"/>
+                </sp>
+                <sp who="#hermidas">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="109" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="514" unit="chars"/>
+                </sp>
+                <sp who="#phocion">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="187" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="912" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XV. Hermocrate, Agis, Phocion.</head>
+                <sp who="#agis">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="104" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="520" unit="chars"/>
+                </sp>
+                <sp who="#hermocrate">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="101" unit="chars"/>
+                </sp>
+                <sp who="#phocion">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="51" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVI. Phocion, Hermocrate.</head>
+                <sp who="#hermocrate">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="94" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="429" unit="chars"/>
+                </sp>
+                <sp who="#phocion">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="164" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="694" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVII. Hermocrate, Léontine.</head>
+                <sp who="#_ontine">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="338" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="1492" unit="chars"/>
+                </sp>
+                <sp who="#hermocrate">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="235" unit="words"/>
+                    <amount n="47" unit="lines"/>
+                    <amount n="1013" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III </head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Phocion, Hermidas.</head>
+                <sp who="#phocion">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="265" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="1206" unit="chars"/>
+                </sp>
+                <sp who="#hermidas">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="114" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="514" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Léontine, Phocion.</head>
+                <sp who="#_ontine">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="230" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="1042" unit="chars"/>
+                </sp>
+                <sp who="#phocion">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="106" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="479" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Hermocrate, Phocion.</head>
+                <sp who="#phocion">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="207" unit="words"/>
+                    <amount n="48" unit="lines"/>
+                    <amount n="980" unit="chars"/>
+                </sp>
+                <sp who="#hermocrate">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="339" unit="words"/>
+                    <amount n="45" unit="lines"/>
+                    <amount n="1570" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Phocion, Arlequin, Dimas.</head>
+                <sp who="#phocion">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="209" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="973" unit="chars"/>
+                </sp>
+                <sp who="#arlequin">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="153" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="723" unit="chars"/>
+                </sp>
+                <sp who="#dimas">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="180" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="873" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Phocion, Agis.</head>
+                <sp who="#phocion">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="217" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="931" unit="chars"/>
+                </sp>
+                <sp who="#agis">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="184" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="846" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI.</head>
+                <sp who="#agis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="124" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Hermocrate, Agis.</head>
+                <sp who="#hermocrate">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="585" unit="words"/>
+                    <amount n="57" unit="lines"/>
+                    <amount n="2546" unit="chars"/>
+                </sp>
+                <sp who="#agis">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="149" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="701" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Léontine, Hermocrate, Agis.</head>
+                <sp who="#agis">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="168" unit="chars"/>
+                </sp>
+                <sp who="#_ontine">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="283" unit="words"/>
+                    <amount n="57" unit="lines"/>
+                    <amount n="1266" unit="chars"/>
+                </sp>
+                <sp who="#hermocrate">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="294" unit="words"/>
+                    <amount n="53" unit="lines"/>
+                    <amount n="1302" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Agis, Phocion.</head>
+                <sp who="#agis">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="191" unit="words"/>
+                    <amount n="48" unit="lines"/>
+                    <amount n="828" unit="chars"/>
+                </sp>
+                <sp who="#phocion">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="308" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="1422" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Léontine, Hermocrate, Phocion, Agis.</head>
+                <sp who="#hermocrate">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="147" unit="chars"/>
+                </sp>
+                <sp who="#phocion">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="167" unit="chars"/>
+                </sp>
+                <sp who="#_ontine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="36" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE DERNIÈRE. Hermidas, Dimas, Arlequin, et le reste des acteurs.</head>
+                <sp who="#dimas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="142" unit="chars"/>
+                </sp>
+                <sp who="#hermidas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="28" unit="chars"/>
+                </sp>
+                <sp who="#phocion">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="150" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="694" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

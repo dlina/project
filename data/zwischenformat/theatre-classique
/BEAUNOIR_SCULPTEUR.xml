@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LE SCULPTEUR</title>
+        <subtitle>OU LA FEMME COMME IL Y EN A PEU</subtitle>
+        <subtitle>COMÉDIE EN DEUX ACTES, EN PROSE</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>BEAUNOIR, Alexandre-Louis-Bertrand Robineau dit de</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/BEAUNOIR_SCULPTEUR.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>madame_caquet</name>
+            <alias xml:id="madame_caquet">
+                <name>madame_caquet</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>susanne</name>
+            <alias xml:id="susanne">
+                <name>susanne</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_doux</name>
+            <alias xml:id="le_doux">
+                <name>le_doux</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_ab_</name>
+            <alias xml:id="l_ab_">
+                <name>l_ab_</name>
+            </alias>
+        </character>
+        <character>
+            <name>mademoiselle_des_bri_es</name>
+            <alias xml:id="mademoiselle_des_bri_es">
+                <name>mademoiselle_des_bri_es</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>_carre</name>
+            <alias xml:id="_carre">
+                <name>_carre</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>du_ciseau</name>
+            <alias xml:id="du_ciseau">
+                <name>du_ciseau</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_comte</name>
+            <alias xml:id="le_comte">
+                <name>le_comte</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Madame Caquet, Suzanne.</head>
+                <sp who="#madame_caquet">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="1008" unit="words"/>
+                    <amount n="79" unit="lines"/>
+                    <amount n="4840" unit="chars"/>
+                </sp>
+                <sp who="#susanne">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="289" unit="words"/>
+                    <amount n="58" unit="lines"/>
+                    <amount n="1394" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II.</head>
+                <sp who="#susanne">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="190" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="892" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Suzanne, Le Doux.</head>
+                <sp who="#le_doux">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="363" unit="words"/>
+                    <amount n="63" unit="lines"/>
+                    <amount n="1729" unit="chars"/>
+                </sp>
+                <sp who="#susanne">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="304" unit="words"/>
+                    <amount n="63" unit="lines"/>
+                    <amount n="1429" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Susanne, Le Doux, L'Abbé Rémifa.</head>
+                <sp who="#l_ab_">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="668" unit="words"/>
+                    <amount n="104" unit="lines"/>
+                    <amount n="3155" unit="chars"/>
+                </sp>
+                <sp who="#le_doux">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="75" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="318" unit="chars"/>
+                </sp>
+                <sp who="#susanne">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="78" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="421" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Le Doux, Susanne, L'Abbé Rémifa, Mademoielle des Brisées.</head>
+                <sp who="#mademoiselle_des_bri_es">
+                    <amount n="36" unit="speech_acts"/>
+                    <amount n="483" unit="words"/>
+                    <amount n="124" unit="lines"/>
+                    <amount n="2264" unit="chars"/>
+                </sp>
+                <sp who="#l_ab_">
+                    <amount n="32" unit="speech_acts"/>
+                    <amount n="447" unit="words"/>
+                    <amount n="113" unit="lines"/>
+                    <amount n="2211" unit="chars"/>
+                </sp>
+                <sp who="#le_doux">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="87" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="401" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Le Doux, Susanne.</head>
+                <sp who="#le_doux">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="340" unit="words"/>
+                    <amount n="59" unit="lines"/>
+                    <amount n="1621" unit="chars"/>
+                </sp>
+                <sp who="#susanne">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="296" unit="words"/>
+                    <amount n="58" unit="lines"/>
+                    <amount n="1492" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Bécarre, déjà un peu gris, mais pas trop&#160;; Susanne, Le Doux.</head>
+                <sp who="#_carre">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="292" unit="words"/>
+                    <amount n="68" unit="lines"/>
+                    <amount n="1204" unit="chars"/>
+                </sp>
+                <sp who="#susanne">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="182" unit="words"/>
+                    <amount n="48" unit="lines"/>
+                    <amount n="918" unit="chars"/>
+                </sp>
+                <sp who="#le_doux">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="48" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="224" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Le Doux, Bécarre.</head>
+                <sp who="#_carre">
+                    <amount n="31" unit="speech_acts"/>
+                    <amount n="432" unit="words"/>
+                    <amount n="101" unit="lines"/>
+                    <amount n="1925" unit="chars"/>
+                </sp>
+                <sp who="#le_doux">
+                    <amount n="31" unit="speech_acts"/>
+                    <amount n="244" unit="words"/>
+                    <amount n="97" unit="lines"/>
+                    <amount n="1117" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Bécarre, Le Doux, Du Ciseau.</head>
+                <sp who="#du_ciseau">
+                    <amount n="21" unit="speech_acts"/>
+                    <amount n="497" unit="words"/>
+                    <amount n="84" unit="lines"/>
+                    <amount n="2326" unit="chars"/>
+                </sp>
+                <sp who="#le_doux">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="160" unit="words"/>
+                    <amount n="60" unit="lines"/>
+                    <amount n="736" unit="chars"/>
+                </sp>
+                <sp who="#_carre">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="183" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="830" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE PREMIÈRE.</head>
+                <sp who="#susanne">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="99" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="432" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Madame Caquet, Susanne.</head>
+                <sp who="#madame_caquet">
+                    <amount n="25" unit="speech_acts"/>
+                    <amount n="738" unit="words"/>
+                    <amount n="96" unit="lines"/>
+                    <amount n="3461" unit="chars"/>
+                </sp>
+                <sp who="#susanne">
+                    <amount n="24" unit="speech_acts"/>
+                    <amount n="304" unit="words"/>
+                    <amount n="78" unit="lines"/>
+                    <amount n="1348" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Le Doux, Bécarre, Du Ciseau, Madame Caquet, Susanne.</head>
+                <sp who="#susanne">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="177" unit="chars"/>
+                </sp>
+                <sp who="#le_doux">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="103" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="459" unit="chars"/>
+                </sp>
+                <sp who="#du_ciseau">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="33" unit="chars"/>
+                </sp>
+                <sp who="#_carre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="38" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Madame Caquet, Susanne, Bécarre, Du Ciseau.</head>
+                <sp who="#madame_caquet">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="82" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="403" unit="chars"/>
+                </sp>
+                <sp who="#susanne">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="55" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="256" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. SUSANNE, DU CISEAU, BÉCARRE.</head>
+                <sp who="#susanne">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="146" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="714" unit="chars"/>
+                </sp>
+                <sp who="#_carre">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="218" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="925" unit="chars"/>
+                </sp>
+                <sp who="#du_ciseau">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="143" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="589" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Bécarre, Du Ciseau.</head>
+                <sp who="#du_ciseau">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="123" unit="words"/>
+                    <amount n="53" unit="lines"/>
+                    <amount n="598" unit="chars"/>
+                </sp>
+                <sp who="#_carre">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="68" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="267" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Les Précédents, Le Comte d'Artiphile.</head>
+                <sp who="#le_comte">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="101" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="472" unit="chars"/>
+                </sp>
+                <sp who="#_carre">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="126" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="563" unit="chars"/>
+                </sp>
+                <sp who="#du_ciseau">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="180" unit="words"/>
+                    <amount n="51" unit="lines"/>
+                    <amount n="864" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII.</head>
+                <sp who="#le_comte">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="139" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="685" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Le Comte, Susanne.</head>
+                <sp who="#susanne">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="801" unit="words"/>
+                    <amount n="83" unit="lines"/>
+                    <amount n="3727" unit="chars"/>
+                </sp>
+                <sp who="#le_comte">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="242" unit="words"/>
+                    <amount n="54" unit="lines"/>
+                    <amount n="1142" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X et DERNIÈRE. Les Précédents, Le Doux.</head>
+                <sp who="#susanne">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="153" unit="chars"/>
+                </sp>
+                <sp who="#le_doux">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="79" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="338" unit="chars"/>
+                </sp>
+                <sp who="#le_comte">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="229" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="1140" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LE NOUVEAU FESTIN DE PIERRE OU L'ATHÉE FOUDROYÉ</title>
+        <subtitle>TRAGI-COMÉDIE</subtitle>
+        <subtitle>Représenté sur le Théâtre Royal du Marais.</subtitle>
+        <genretitle>Tragi-comédie</genretitle>
+        <author>ROSIMOND, Jean-Baptiste du Mesnil dit Claude La Rose</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/ROSIMOND_FESTINDEPIERRE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>carrille</name>
+            <alias xml:id="carrille">
+                <name>carrille</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>_onor</name>
+            <alias xml:id="_onor">
+                <name>_onor</name>
+            </alias>
+        </character>
+        <character>
+            <name>don_juan</name>
+            <alias xml:id="don_juan">
+                <name>don_juan</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>don_lope</name>
+            <alias xml:id="don_lope">
+                <name>don_lope</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>don_felix</name>
+            <alias xml:id="don_felix">
+                <name>don_felix</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>paquette</name>
+            <alias xml:id="paquette">
+                <name>paquette</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>ormin</name>
+            <alias xml:id="ormin">
+                <name>ormin</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>thomasse</name>
+            <alias xml:id="thomasse">
+                <name>thomasse</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>une_voix</name>
+            <alias xml:id="une_voix">
+                <name>une_voix</name>
+            </alias>
+        </character>
+        <character>
+            <name>don_gaspard</name>
+            <alias xml:id="don_gaspard">
+                <name>don_gaspard</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_p_vot</name>
+            <alias xml:id="le_p_vot">
+                <name>le_p_vot</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_ombre</name>
+            <alias xml:id="l_ombre">
+                <name>l_ombre</name>
+            </alias>
+        </character>
+        <character>
+            <name>thomas</name>
+            <alias xml:id="thomas">
+                <name>thomas</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>rollin</name>
+            <alias xml:id="rollin">
+                <name>rollin</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>amarille</name>
+            <alias xml:id="amarille">
+                <name>amarille</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>n_re_voix</name>
+            <alias xml:id="n_re_voix">
+                <name>n_re_voix</name>
+            </alias>
+        </character>
+        <character>
+            <name>n_me_voix</name>
+            <alias xml:id="n_me_voix">
+                <name>n_me_voix</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE I. Carrille, Léonor.</head>
+                <sp who="#carrille">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="524" unit="words"/>
+                    <amount n="61" unit="lines"/>
+                    <amount n="2395" unit="chars"/>
+                </sp>
+                <sp who="#_onor">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="241" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="1108" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Don Juan, Carrille.</head>
+                <sp who="#don_juan">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="600" unit="words"/>
+                    <amount n="80" unit="lines"/>
+                    <amount n="2720" unit="chars"/>
+                </sp>
+                <sp who="#carrille">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="276" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="1243" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Léonor, Don Juan, Carrille.</head>
+                <sp who="#_onor">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="352" unit="words"/>
+                    <amount n="48" unit="lines"/>
+                    <amount n="1579" unit="chars"/>
+                </sp>
+                <sp who="#don_juan">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="297" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="1329" unit="chars"/>
+                </sp>
+                <sp who="#carrille">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="66" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="298" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Don Juan, Carille.</head>
+                <sp who="#don_juan">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="78" unit="chars"/>
+                </sp>
+                <sp who="#carrille">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="142" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="633" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCENE V. Don Juan, Carrille, Don Lope, Don Felix.</head>
+                <sp who="#don_juan">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="242" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="1122" unit="chars"/>
+                </sp>
+                <sp who="#don_lope">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="206" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="980" unit="chars"/>
+                </sp>
+                <sp who="#don_felix">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="116" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="534" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Carille, Don Juan, Don Lope, Don Felix.</head>
+                <sp who="#carrille">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="256" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="1090" unit="chars"/>
+                </sp>
+                <sp who="#don_lope">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="127" unit="chars"/>
+                </sp>
+                <sp who="#don_felix">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="112" unit="chars"/>
+                </sp>
+                <sp who="#don_juan">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="86" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE I. Carrille, à la nage, Paquette sortant du logis d'Ormin.</head>
+                <sp who="#carrille">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="137" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="570" unit="chars"/>
+                </sp>
+                <sp who="#paquette">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="77" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="341" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Ormin, Paquette, Carille entrant à la maison, Thomasse.</head>
+                <sp who="#ormin">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="407" unit="words"/>
+                    <amount n="57" unit="lines"/>
+                    <amount n="1797" unit="chars"/>
+                </sp>
+                <sp who="#paquette">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="66" unit="chars"/>
+                </sp>
+                <sp who="#thomasse">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="105" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="398" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Carrille, Don Juan, Thomasse.</head>
+                <sp who="#carrille">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="158" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="662" unit="chars"/>
+                </sp>
+                <sp who="#don_juan">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="152" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="651" unit="chars"/>
+                </sp>
+                <sp who="#thomasse">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="160" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="696" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Don Juan, Thomasse, Paquette, Carrille.</head>
+                <sp who="#don_juan">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="275" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1193" unit="chars"/>
+                </sp>
+                <sp who="#thomasse">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="137" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="616" unit="chars"/>
+                </sp>
+                <sp who="#carrille">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="66" unit="chars"/>
+                </sp>
+                <sp who="#paquette">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="221" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="969" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Carrille, Paquette, Thomasse.</head>
+                <sp who="#carrille">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="239" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="1057" unit="chars"/>
+                </sp>
+                <sp who="#paquette">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="91" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="387" unit="chars"/>
+                </sp>
+                <sp who="#thomasse">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="179" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Don Felix, Don Juan, Carrille.</head>
+                <sp who="#don_felix">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="195" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="880" unit="chars"/>
+                </sp>
+                <sp who="#don_juan">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="270" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1235" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII.</head>
+                <sp who="#carrille">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="297" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="1274" unit="chars"/>
+                </sp>
+                <sp who="#une_voix">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="25" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Don Felix emportant une femme voilée, Don Juan, Carrille.</head>
+                <sp who="#don_juan">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="173" unit="chars"/>
+                </sp>
+                <sp who="#don_felix">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="80" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Carrille sortant de son coin, Don Juan.</head>
+                <sp who="#carrille">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="266" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="1209" unit="chars"/>
+                </sp>
+                <sp who="#don_juan">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="244" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="1087" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I. Carrille armé, Don Juan.</head>
+                <sp who="#carrille">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="207" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="864" unit="chars"/>
+                </sp>
+                <sp who="#don_juan">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="87" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="396" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Don Juan, Thomasse, Paquette, Carrille.</head>
+                <sp who="#don_juan">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="228" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1053" unit="chars"/>
+                </sp>
+                <sp who="#thomasse">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="37" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="172" unit="chars"/>
+                </sp>
+                <sp who="#paquette">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="75" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="379" unit="chars"/>
+                </sp>
+                <sp who="#carrille">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="114" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="510" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Don Juan, Carrille.</head>
+                <sp who="#don_juan">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="149" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="647" unit="chars"/>
+                </sp>
+                <sp who="#carrille">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="179" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCENE IV. Don Lope, Don Felix, Don Juan, Don Gaspard, Carrille.</head>
+                <sp who="#don_lope">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="92" unit="chars"/>
+                </sp>
+                <sp who="#don_gaspard">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="341" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="1560" unit="chars"/>
+                </sp>
+                <sp who="#don_juan">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="252" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="1153" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Don Lope, Don Juan, Don Felix, Carrille.</head>
+                <sp who="#don_lope">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="142" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="615" unit="chars"/>
+                </sp>
+                <sp who="#don_juan">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="86" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="391" unit="chars"/>
+                </sp>
+                <sp who="#don_felix">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="95" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="432" unit="chars"/>
+                </sp>
+                <sp who="#carrille">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="109" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Don Juan, Don Lope, Don Felix, Carrille, Le Prévôt et ses gens.</head>
+                <sp who="#le_p_vot">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="195" unit="chars"/>
+                </sp>
+                <sp who="#carrille">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="54" unit="chars"/>
+                </sp>
+                <sp who="#don_juan">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="81" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="380" unit="chars"/>
+                </sp>
+                <sp who="#don_felix">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="25" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="124" unit="chars"/>
+                </sp>
+                <sp who="#don_lope">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="43" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Don Juan, Carrille.</head>
+                <sp who="#don_juan">
+                    <amount n="22" unit="speech_acts"/>
+                    <amount n="495" unit="words"/>
+                    <amount n="86" unit="lines"/>
+                    <amount n="2163" unit="chars"/>
+                </sp>
+                <sp who="#carrille">
+                    <amount n="22" unit="speech_acts"/>
+                    <amount n="622" unit="words"/>
+                    <amount n="89" unit="lines"/>
+                    <amount n="2686" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE I. Don Juan, Don Lope, Don Felix, Carrille.</head>
+                <sp who="#don_juan">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="149" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="651" unit="chars"/>
+                </sp>
+                <sp who="#don_lope">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="79" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="369" unit="chars"/>
+                </sp>
+                <sp who="#don_felix">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="68" unit="chars"/>
+                </sp>
+                <sp who="#carrille">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="251" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="1099" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Don Juan, Don Lope, Don Felix.</head>
+                <sp who="#don_juan">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="386" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="1793" unit="chars"/>
+                </sp>
+                <sp who="#don_lope">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="204" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="957" unit="chars"/>
+                </sp>
+                <sp who="#don_felix">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="93" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="431" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Carrile, Don Juan, Don Lope, Don Felix.</head>
+                <sp who="#carrille">
+                    <amount n="23" unit="speech_acts"/>
+                    <amount n="253" unit="words"/>
+                    <amount n="62" unit="lines"/>
+                    <amount n="956" unit="chars"/>
+                </sp>
+                <sp who="#don_juan">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="137" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="596" unit="chars"/>
+                </sp>
+                <sp who="#don_felix">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="46" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="189" unit="chars"/>
+                </sp>
+                <sp who="#don_lope">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="157" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Don Juan, Don Lope, Don Felix, Carrille, L'Ombre.</head>
+                <sp who="#don_juan">
+                    <amount n="28" unit="speech_acts"/>
+                    <amount n="404" unit="words"/>
+                    <amount n="75" unit="lines"/>
+                    <amount n="1695" unit="chars"/>
+                </sp>
+                <sp who="#l_ombre">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="403" unit="words"/>
+                    <amount n="57" unit="lines"/>
+                    <amount n="1787" unit="chars"/>
+                </sp>
+                <sp who="#don_felix">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="123" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="553" unit="chars"/>
+                </sp>
+                <sp who="#don_lope">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="105" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="447" unit="chars"/>
+                </sp>
+                <sp who="#carrille">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="323" unit="words"/>
+                    <amount n="59" unit="lines"/>
+                    <amount n="1487" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE I. Thomas, Don Juan, Rollin, Amarille.</head>
+                <sp who="#thomas">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="79" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="339" unit="chars"/>
+                </sp>
+                <sp who="#don_juan">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="80" unit="chars"/>
+                </sp>
+                <sp who="#rollin">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="87" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="374" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Carrille, Rollin, Thomas.</head>
+                <sp who="#carrille">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="186" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="817" unit="chars"/>
+                </sp>
+                <sp who="#rollin">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="101" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="427" unit="chars"/>
+                </sp>
+                <sp who="#thomas">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="49" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Don Juan, Rollin, Thomas, Carrille.</head>
+                <sp who="#don_juan">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="110" unit="chars"/>
+                </sp>
+                <sp who="#rollin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="4" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="25" unit="chars"/>
+                </sp>
+                <sp who="#carrille">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="97" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="434" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Amarille, Don Juan, Carrille.</head>
+                <sp who="#amarille">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="160" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="730" unit="chars"/>
+                </sp>
+                <sp who="#don_juan">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="45" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="179" unit="chars"/>
+                </sp>
+                <sp who="#carrille">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="134" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="590" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Don Juan, Carrille.</head>
+                <sp who="#carrille">
+                    <amount n="20" unit="speech_acts"/>
+                    <amount n="503" unit="words"/>
+                    <amount n="69" unit="lines"/>
+                    <amount n="2205" unit="chars"/>
+                </sp>
+                <sp who="#don_juan">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="528" unit="words"/>
+                    <amount n="72" unit="lines"/>
+                    <amount n="2363" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Deux Voix aux deux côtés du théâtre, Carrille, Don Juan.</head>
+                <sp who="#n_re_voix">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="60" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="262" unit="chars"/>
+                </sp>
+                <sp who="#don_juan">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="111" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="462" unit="chars"/>
+                </sp>
+                <sp who="#n_me_voix">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="97" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="286" unit="chars"/>
+                </sp>
+                <sp who="#carrille">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="81" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="366" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE DERNIÈRE. L'Ombre, Carrille, Don Juan.</head>
+                <sp who="#carrille">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="63" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="296" unit="chars"/>
+                </sp>
+                <sp who="#l_ombre">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="142" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="656" unit="chars"/>
+                </sp>
+                <sp who="#don_juan">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="312" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="1400" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

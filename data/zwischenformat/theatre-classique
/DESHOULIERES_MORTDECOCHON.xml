@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LA MORT DE COCHON</title>
+        <subtitle>Chien de M. le Maréchal de Vivonne</subtitle>
+        <subtitle>TRAGEDIE</subtitle>
+        <genretitle>Tragédie</genretitle>
+        <author>DESHOULIÈRES, Antoinette du Ligier de la Garde</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/DESHOULIERES_MORTDECOCHON.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>mimy</name>
+            <alias xml:id="mimy">
+                <name>mimy</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>marmuse</name>
+            <alias xml:id="marmuse">
+                <name>marmuse</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>cafar</name>
+            <alias xml:id="cafar">
+                <name>cafar</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>choeur_de_chats</name>
+            <alias xml:id="choeur_de_chats">
+                <name>choeur_de_chats</name>
+            </alias>
+        </character>
+        <character>
+            <name>grisette</name>
+            <alias xml:id="grisette">
+                <name>grisette</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_amour</name>
+            <alias xml:id="l_amour">
+                <name>l_amour</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head/>
+            <div>
+                <head>SCÈNE PREMIÈRE. Mimy, Marmuse, Choeur de chats du voisinage.</head>
+                <sp who="#mimy">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="100" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="500" unit="chars"/>
+                </sp>
+                <sp who="#marmuse">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="78" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="361" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Mimy, Marmuse, Cafar, Choeur de chats du voisinage.</head>
+                <sp who="#cafar">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="209" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="1060" unit="chars"/>
+                </sp>
+                <sp who="#marmuse">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="235" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="1143" unit="chars"/>
+                </sp>
+                <sp who="#mimy">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="128" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="652" unit="chars"/>
+                </sp>
+                <sp who="#choeur_de_chats">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="78" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Grisette, Mimy, Marmuse, Cafar, Choeur de chats du voisinage.</head>
+                <sp who="#grisette">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="277" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="1346" unit="chars"/>
+                </sp>
+                <sp who="#choeur_de_chats">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="58" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="286" unit="chars"/>
+                </sp>
+                <sp who="#marmuse">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="312" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="1485" unit="chars"/>
+                </sp>
+                <sp who="#mimy">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="92" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="425" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. L'Amour, Mimy, Marmuse, Choeur de Chats.</head>
+                <sp who="#l_amour">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="160" unit="chars"/>
+                </sp>
+                <sp who="#choeur_de_chats">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="49" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LE MÉDECIN VOLANT</title>
+        <subtitle>COMÉDIE</subtitle>
+        <genretitle>Farce</genretitle>
+        <author>MOLIERE</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/MOLIERE_MEDECINVOLANT.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>valere</name>
+            <alias xml:id="valere">
+                <name>valere</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>sabine</name>
+            <alias xml:id="sabine">
+                <name>sabine</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>sganarelle</name>
+            <alias xml:id="sganarelle">
+                <name>sganarelle</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>gorgibus</name>
+            <alias xml:id="gorgibus">
+                <name>gorgibus</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>gro_rene</name>
+            <alias xml:id="gro_rene">
+                <name>gro_rene</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>lucile</name>
+            <alias xml:id="lucile">
+                <name>lucile</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>avocat</name>
+            <alias xml:id="avocat">
+                <name>avocat</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head/>
+            <div>
+                <head>SCÈNE I. Valère, Sabine.</head>
+                <sp who="#valere">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="136" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="604" unit="chars"/>
+                </sp>
+                <sp who="#sabine">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="227" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="1117" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Valère, Sganarelle.</head>
+                <sp who="#sabine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="43" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="168" unit="chars"/>
+                </sp>
+                <sp who="#sganarelle">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="360" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="1577" unit="chars"/>
+                </sp>
+                <sp who="#valere">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="264" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="1140" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Gorgibus, Gros-René.</head>
+                <sp who="#gorgibus">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="160" unit="chars"/>
+                </sp>
+                <sp who="#gro_rene">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="158" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="753" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Sabine, Gorgibus, Sganarelle.</head>
+                <sp who="#sabine">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="155" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="633" unit="chars"/>
+                </sp>
+                <sp who="#gorgibus">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="105" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="468" unit="chars"/>
+                </sp>
+                <sp who="#sganarelle">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="494" unit="words"/>
+                    <amount n="45" unit="lines"/>
+                    <amount n="2210" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Lucile, Sabine, Gorgibus, Sganarelle.</head>
+                <sp who="#sganarelle">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="242" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="1062" unit="chars"/>
+                </sp>
+                <sp who="#lucile">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="32" unit="chars"/>
+                </sp>
+                <sp who="#gorgibus">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="48" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="198" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI.</head>
+                <sp who="#avocat">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="49" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="212" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Gorgibus, L'Avocat.</head>
+                <sp who="#gorgibus">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="81" unit="chars"/>
+                </sp>
+                <sp who="#avocat">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="43" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="209" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Gorgibus, L'Avocat, Sganarelle.</head>
+                <sp who="#gorgibus">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="172" unit="chars"/>
+                </sp>
+                <sp who="#sganarelle">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="136" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="589" unit="chars"/>
+                </sp>
+                <sp who="#avocat">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="344" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="1783" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX.</head>
+                <sp who="#valere">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="53" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="222" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Sganarelle, Valère.</head>
+                <sp who="#sganarelle">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="120" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="557" unit="chars"/>
+                </sp>
+                <sp who="#valere">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="25" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="87" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Sganarelle, Gorgibus.</head>
+                <sp who="#gorgibus">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="85" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="339" unit="chars"/>
+                </sp>
+                <sp who="#sganarelle">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="156" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="757" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII. Sganarelle, Gorgibus.</head>
+                <sp who="#sganarelle">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="149" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="690" unit="chars"/>
+                </sp>
+                <sp who="#gorgibus">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="139" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="604" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIII. Valère, Sganarelle.</head>
+                <sp who="#valere">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="45" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="184" unit="chars"/>
+                </sp>
+                <sp who="#sganarelle">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="170" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIV. Gorgibus, Sganarelle.</head>
+                <sp who="#gorgibus">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="87" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="387" unit="chars"/>
+                </sp>
+                <sp who="#sganarelle">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="231" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="1046" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XV. Gros-René, Gorgibus, Sganarelle.</head>
+                <sp who="#gro_rene">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="175" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="738" unit="chars"/>
+                </sp>
+                <sp who="#gorgibus">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="301" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="1308" unit="chars"/>
+                </sp>
+                <sp who="#sganarelle">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="643" unit="words"/>
+                    <amount n="58" unit="lines"/>
+                    <amount n="2828" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVI ET DERNIÈRE. Valère, Lucile, Gorgibus, Sganarelle.</head>
+                <sp who="#sganarelle">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="31" unit="chars"/>
+                </sp>
+                <sp who="#gorgibus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="158" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

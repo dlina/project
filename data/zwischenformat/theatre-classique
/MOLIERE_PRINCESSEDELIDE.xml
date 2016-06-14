@@ -1,0 +1,887 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LA PRINCESSE D'ÉLIDE</title>
+        <subtitle>COMÉDIE GALANTE mêlée de musique et d'entrées de ballet par la Troupe de Monsieur, frère unique du Roi </subtitle>
+        <genretitle>Comédie galante</genretitle>
+        <author>Molière</author>
+        <date when="1664">1664</date>
+        <source>https://github.com/dramacode/theatre-classique/MOLIERE_PRINCESSEDELIDE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>l_aurore</name>
+            <alias xml:id="l_aurore">
+                <name>l_aurore</name>
+            </alias>
+        </character>
+        <character>
+            <name>troi_valets</name>
+            <alias xml:id="troi_valets">
+                <name>troi_valets</name>
+            </alias>
+        </character>
+        <character>
+            <name>premie_valet</name>
+            <alias xml:id="premie_valet">
+                <name>premie_valet</name>
+            </alias>
+        </character>
+        <character>
+            <name>deux_m_valet</name>
+            <alias xml:id="deux_m_valet">
+                <name>deux_m_valet</name>
+            </alias>
+        </character>
+        <character>
+            <name>trois_m_valet</name>
+            <alias xml:id="trois_m_valet">
+                <name>trois_m_valet</name>
+            </alias>
+        </character>
+        <character>
+            <name>lyciscas</name>
+            <alias xml:id="lyciscas">
+                <name>lyciscas</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>musiciens</name>
+            <alias xml:id="musiciens">
+                <name>musiciens</name>
+            </alias>
+        </character>
+        <character>
+            <name>ier_musicien</name>
+            <alias xml:id="ier_musicien">
+                <name>ier_musicien</name>
+            </alias>
+        </character>
+        <character>
+            <name>i_me_musicien</name>
+            <alias xml:id="i_me_musicien">
+                <name>i_me_musicien</name>
+            </alias>
+        </character>
+        <character>
+            <name>ii_me_musicien</name>
+            <alias xml:id="ii_me_musicien">
+                <name>ii_me_musicien</name>
+            </alias>
+        </character>
+        <character>
+            <name>ii_me__musicien</name>
+            <alias xml:id="ii_me__musicien">
+                <name>ii_me__musicien</name>
+            </alias>
+        </character>
+        <character>
+            <name>ensemble</name>
+            <alias xml:id="ensemble">
+                <name>ensemble</name>
+            </alias>
+        </character>
+        <character>
+            <name>arbate</name>
+            <alias xml:id="arbate">
+                <name>arbate</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>euryale</name>
+            <alias xml:id="euryale">
+                <name>euryale</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>moron</name>
+            <alias xml:id="moron">
+                <name>moron</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>aristo_ne</name>
+            <alias xml:id="aristo_ne">
+                <name>aristo_ne</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>t_ocle</name>
+            <alias xml:id="t_ocle">
+                <name>t_ocle</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>la_princesse</name>
+            <alias xml:id="la_princesse">
+                <name>la_princesse</name>
+            </alias>
+        </character>
+        <character>
+            <name>aglante</name>
+            <alias xml:id="aglante">
+                <name>aglante</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>cynthie</name>
+            <alias xml:id="cynthie">
+                <name>cynthie</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>lycas</name>
+            <alias xml:id="lycas">
+                <name>lycas</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>iphitas</name>
+            <alias xml:id="iphitas">
+                <name>iphitas</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>aristo_me</name>
+            <alias xml:id="aristo_me">
+                <name>aristo_me</name>
+            </alias>
+        </character>
+        <character>
+            <name>philis</name>
+            <alias xml:id="philis">
+                <name>philis</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>satyre</name>
+            <alias xml:id="satyre">
+                <name>satyre</name>
+            </alias>
+        </character>
+        <character>
+            <name>tircis</name>
+            <alias xml:id="tircis">
+                <name>tircis</name>
+            </alias>
+        </character>
+        <character>
+            <name>cly_ne</name>
+            <alias xml:id="cly_ne">
+                <name>cly_ne</name>
+            </alias>
+        </character>
+        <character>
+            <name>cly_ne_philis</name>
+            <alias xml:id="cly_ne_philis">
+                <name>cly_ne_philis</name>
+            </alias>
+        </character>
+        <character>
+            <name>choeur</name>
+            <alias xml:id="choeur">
+                <name>choeur</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>PREMIER INTERMÈDE</head>
+            <div>
+                <head>SCÈNE I. Aurore, Lycisias, et plusieurs autres Valets de chiens, endormis et couchés sur l'herbe.</head>
+                <sp who="#l_aurore">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="110" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="496" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Lyciscas, et plusieurs valets de chiens, endormis  ; Trois valets de chiens, chantants, réveillés par le récit de l'Aurore.</head>
+                <sp who="#troi_valets">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="92" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="375" unit="chars"/>
+                </sp>
+                <sp who="#premie_valet">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="53" unit="chars"/>
+                </sp>
+                <sp who="#deux_m_valet">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="43" unit="chars"/>
+                </sp>
+                <sp who="#trois_m_valet">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="89" unit="chars"/>
+                </sp>
+                <sp who="#lyciscas">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="395" unit="words"/>
+                    <amount n="75" unit="lines"/>
+                    <amount n="1569" unit="chars"/>
+                </sp>
+                <sp who="#musiciens">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="108" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="406" unit="chars"/>
+                </sp>
+                <sp who="#ier_musicien">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="24" unit="chars"/>
+                </sp>
+                <sp who="#i_me_musicien">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="24" unit="chars"/>
+                </sp>
+                <sp who="#ii_me_musicien">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="3" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="12" unit="chars"/>
+                </sp>
+                <sp who="#ii_me__musicien">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="12" unit="chars"/>
+                </sp>
+                <sp who="#ensemble">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="26" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE I </head>
+            <div>
+                <head>SCÈNE I. Euryale, Arbate.</head>
+                <sp who="#arbate">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="745" unit="words"/>
+                    <amount n="76" unit="lines"/>
+                    <amount n="3439" unit="chars"/>
+                </sp>
+                <sp who="#euryale">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="1010" unit="words"/>
+                    <amount n="99" unit="lines"/>
+                    <amount n="4437" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Moron, Arbate, Euryale.</head>
+                <sp who="#moron">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="1019" unit="words"/>
+                    <amount n="112" unit="lines"/>
+                    <amount n="4501" unit="chars"/>
+                </sp>
+                <sp who="#euryale">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="82" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="324" unit="chars"/>
+                </sp>
+                <sp who="#arbate">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="45" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="182" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. La Princesse et sa suite, Aristomène, Théocle, Euryale, Arbate, Moron.</head>
+                <sp who="#aristo_ne">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="97" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="474" unit="chars"/>
+                </sp>
+                <sp who="#t_ocle">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="92" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="400" unit="chars"/>
+                </sp>
+                <sp who="#la_princesse">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="276" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="1177" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Euryale, Moron, Arbate.</head>
+                <sp who="#moron">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="55" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="256" unit="chars"/>
+                </sp>
+                <sp who="#arbate">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="59" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="260" unit="chars"/>
+                </sp>
+                <sp who="#euryale">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="112" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="487" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>DEUXIÈME INTERMÈDE</head>
+            <div>
+                <head>SCÈNE I.</head>
+                <sp who="#moron">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="191" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="706" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Un Ours, Moron.</head>
+                <sp who="#moron">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="375" unit="words"/>
+                    <amount n="57" unit="lines"/>
+                    <amount n="1457" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE I. La Princesse, Aglante, Cynthie.</head>
+                <sp who="#la_princesse">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="432" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="2143" unit="chars"/>
+                </sp>
+                <sp who="#aglante">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="185" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="874" unit="chars"/>
+                </sp>
+                <sp who="#cynthie">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="272" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="1300" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Moron, La Princesse, Aglante, Cynthie, Philis.</head>
+                <sp who="#aglante">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="99" unit="chars"/>
+                </sp>
+                <sp who="#la_princesse">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="49" unit="chars"/>
+                </sp>
+                <sp who="#moron">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="144" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="638" unit="chars"/>
+                </sp>
+                <sp who="#cynthie">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="25" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="90" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Lycas, La Princesse, Aglante, Cynthie, Philis, Moron. </head>
+                <sp who="#lycas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="129" unit="chars"/>
+                </sp>
+                <sp who="#la_princesse">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="140" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Le Prince, Euryale, Aristomène, Théocle, La Princesse, Aglante, Cynthie, Philis, Moron.</head>
+                <sp who="#la_princesse">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="277" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="1327" unit="chars"/>
+                </sp>
+                <sp who="#iphitas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="299" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="1424" unit="chars"/>
+                </sp>
+                <sp who="#t_ocle">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="191" unit="chars"/>
+                </sp>
+                <sp who="#aristo_me">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="51" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="261" unit="chars"/>
+                </sp>
+                <sp who="#euryale">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="64" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="297" unit="chars"/>
+                </sp>
+                <sp who="#aglante">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="39" unit="chars"/>
+                </sp>
+                <sp who="#moron">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="54" unit="chars"/>
+                </sp>
+                <sp who="#cynthie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="55" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="285" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>TROISIÈME INTERMÈDE</head>
+            <div>
+                <head>SCÈNE I. Moron, Philis.</head>
+                <sp who="#moron">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="202" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="800" unit="chars"/>
+                </sp>
+                <sp who="#philis">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="145" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="600" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Satyre, Moron </head>
+                <sp who="#satyre">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="196" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="745" unit="chars"/>
+                </sp>
+                <sp who="#moron">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="95" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="364" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III.</head>
+            <div>
+                <head>SCÈNE I. La Princesse, Aglante, Cynthie, Philis.</head>
+                <sp who="#cynthie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="104" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="475" unit="chars"/>
+                </sp>
+                <sp who="#la_princesse">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="37" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="177" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Euryale, Moron, Arbate.</head>
+                <sp who="#euryale">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="237" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="1184" unit="chars"/>
+                </sp>
+                <sp who="#moron">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="136" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="670" unit="chars"/>
+                </sp>
+                <sp who="#arbate">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="69" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. La Princesse, Moron.</head>
+                <sp who="#la_princesse">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="168" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="714" unit="chars"/>
+                </sp>
+                <sp who="#moron">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="179" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="756" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. La Princesse, Euryale, Moron, Arbate.</head>
+                <sp who="#moron">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="80" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="342" unit="chars"/>
+                </sp>
+                <sp who="#la_princesse">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="239" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="1077" unit="chars"/>
+                </sp>
+                <sp who="#euryale">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="299" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="1394" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. La Princesse, Moron, Philis, Tircis.</head>
+                <sp who="#moron">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="127" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="494" unit="chars"/>
+                </sp>
+                <sp who="#la_princesse">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="206" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="971" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>QUATRIÈME  INTERMÈDE</head>
+            <div>
+                <head>SCÈNE I. Philis, Tircis.</head>
+                <sp who="#philis">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="78" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="343" unit="chars"/>
+                </sp>
+                <sp who="#tircis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="41" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="162" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Moron, Philis, Tircis.</head>
+                <sp who="#moron">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="318" unit="words"/>
+                    <amount n="58" unit="lines"/>
+                    <amount n="1288" unit="chars"/>
+                </sp>
+                <sp who="#philis">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="203" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="868" unit="chars"/>
+                </sp>
+                <sp who="#tircis">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="85" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="366" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE I. Euryale, La Princesse, Moron.</head>
+                <sp who="#la_princesse">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="329" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="1603" unit="chars"/>
+                </sp>
+                <sp who="#euryale">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="333" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="1536" unit="chars"/>
+                </sp>
+                <sp who="#moron">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="62" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="237" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. La Princesse, Moron.</head>
+                <sp who="#la_princesse">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="54" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="231" unit="chars"/>
+                </sp>
+                <sp who="#moron">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="107" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. La Princesse, Aglante, Moron.</head>
+                <sp who="#la_princesse">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="132" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="604" unit="chars"/>
+                </sp>
+                <sp who="#aglante">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="64" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="301" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Aristomène, Moron, La Princesse, Aglante.</head>
+                <sp who="#aristo_ne">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="98" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="466" unit="chars"/>
+                </sp>
+                <sp who="#la_princesse">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="110" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="482" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. La Princesse, Aglante, Moron.</head>
+                <sp who="#la_princesse">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="116" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="512" unit="chars"/>
+                </sp>
+                <sp who="#aglante">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="52" unit="chars"/>
+                </sp>
+                <sp who="#moron">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="93" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="375" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI.</head>
+                <sp who="#la_princesse">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="272" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="1230" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>CINQUIÈME INTERMÈDE</head>
+            <div>
+                <head>SCÈNE I.</head>
+                <sp who="#la_princesse">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="211" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. La Princesse, Climène, Philis. </head>
+                <sp who="#cly_ne">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="82" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="384" unit="chars"/>
+                </sp>
+                <sp who="#philis">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="102" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="468" unit="chars"/>
+                </sp>
+                <sp who="#cly_ne_philis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="65" unit="chars"/>
+                </sp>
+                <sp who="#la_princesse">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="149" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE I. Le Prince, Euryale, Moron, Aglante, Cynthie.</head>
+                <sp who="#moron">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="41" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="193" unit="chars"/>
+                </sp>
+                <sp who="#iphitas">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="69" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="301" unit="chars"/>
+                </sp>
+                <sp who="#euryale">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="59" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="249" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. La Princesse, Le Prince, Euryale, Aglante, Cynthie, Moron.</head>
+                <sp who="#la_princesse">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="468" unit="words"/>
+                    <amount n="59" unit="lines"/>
+                    <amount n="2025" unit="chars"/>
+                </sp>
+                <sp who="#iphitas">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="253" unit="words"/>
+                    <amount n="48" unit="lines"/>
+                    <amount n="1062" unit="chars"/>
+                </sp>
+                <sp who="#euryale">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="255" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="1246" unit="chars"/>
+                </sp>
+                <sp who="#moron">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="105" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Aristomène, Théocle, Le Prince, La Princesse, Aglante, Cynthie, Moron.</head>
+                <sp who="#iphitas">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="159" unit="chars"/>
+                </sp>
+                <sp who="#aristo_ne">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="197" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Philis, Aristomène, Théocle, Le Prince, La Princesse, Aglante, Cynthie, Moron </head>
+                <sp who="#philis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="59" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="310" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>SIXIÈME INTERMÈDE</head>
+            <div>
+                <head>CHOEUR de pasteurs et de bergères qui dansent.</head>
+                <sp who="#choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="122" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="490" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

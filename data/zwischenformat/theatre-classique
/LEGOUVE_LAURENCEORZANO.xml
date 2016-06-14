@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LAURENCE ET ORZANO</title>
+        <subtitle>TRAGÉDIE EN CINQ ACTES ET EN VERS.</subtitle>
+        <genretitle>Tragédie</genretitle>
+        <author>LEGOUVÉ, Gabriel</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/LEGOUVE_LAURENCEORZANO.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>ziani</name>
+            <alias xml:id="ziani">
+                <name>ziani</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>gradonigue</name>
+            <alias xml:id="gradonigue">
+                <name>gradonigue</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>montano</name>
+            <alias xml:id="montano">
+                <name>montano</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>laurence</name>
+            <alias xml:id="laurence">
+                <name>laurence</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_messager</name>
+            <alias xml:id="le_messager">
+                <name>le_messager</name>
+            </alias>
+        </character>
+        <character>
+            <name>lucile</name>
+            <alias xml:id="lucile">
+                <name>lucile</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>orzano</name>
+            <alias xml:id="orzano">
+                <name>orzano</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_officier</name>
+            <alias xml:id="l_officier">
+                <name>l_officier</name>
+            </alias>
+        </character>
+        <character>
+            <name>quirini</name>
+            <alias xml:id="quirini">
+                <name>quirini</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_vieillard</name>
+            <alias xml:id="le_vieillard">
+                <name>le_vieillard</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_commandant</name>
+            <alias xml:id="le_commandant">
+                <name>le_commandant</name>
+            </alias>
+        </character>
+        <character>
+            <name>quirini_et_gradonigue</name>
+            <alias xml:id="quirini_et_gradonigue">
+                <name>quirini_et_gradonigue</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Gradonigue, Ziani.</head>
+                <sp who="#ziani">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="633" unit="words"/>
+                    <amount n="67" unit="lines"/>
+                    <amount n="2985" unit="chars"/>
+                </sp>
+                <sp who="#gradonigue">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="110" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="508" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Gradonigue, Montano.</head>
+                <sp who="#gradonigue">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="355" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="1644" unit="chars"/>
+                </sp>
+                <sp who="#montano">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="143" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="710" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Gradonigue, Laurence.</head>
+                <sp who="#gradonigue">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="306" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="1373" unit="chars"/>
+                </sp>
+                <sp who="#laurence">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="59" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Gradonigue, Laurence, Un Messager.</head>
+                <sp who="#le_messager">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="56" unit="chars"/>
+                </sp>
+                <sp who="#gradonigue">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="161" unit="chars"/>
+                </sp>
+                <sp who="#laurence">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="53" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V.</head>
+                <sp who="#laurence">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="148" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="719" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Laurence, Lucile.</head>
+                <sp who="#lucile">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="249" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1179" unit="chars"/>
+                </sp>
+                <sp who="#laurence">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="1250" unit="words"/>
+                    <amount n="132" unit="lines"/>
+                    <amount n="5732" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Laurence, Gradonigue.</head>
+                <sp who="#laurence">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="204" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="980" unit="chars"/>
+                </sp>
+                <sp who="#gradonigue">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="601" unit="words"/>
+                    <amount n="66" unit="lines"/>
+                    <amount n="2693" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII.</head>
+                <sp who="#laurence">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="236" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="1077" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Laurence, Lucile.</head>
+                <sp who="#lucile">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="110" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="546" unit="chars"/>
+                </sp>
+                <sp who="#laurence">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="58" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="215" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Orzano, Ziani.</head>
+                <sp who="#ziani">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="273" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="1255" unit="chars"/>
+                </sp>
+                <sp who="#orzano">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="577" unit="words"/>
+                    <amount n="63" unit="lines"/>
+                    <amount n="2687" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Orzano, Laurence.</head>
+                <sp who="#orzano">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="592" unit="words"/>
+                    <amount n="65" unit="lines"/>
+                    <amount n="2837" unit="chars"/>
+                </sp>
+                <sp who="#laurence">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="428" unit="words"/>
+                    <amount n="51" unit="lines"/>
+                    <amount n="2042" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III.</head>
+                <sp who="#orzano">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="179" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="837" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Montano, Un Officier du Conseil des Dix.</head>
+                <sp who="#montano">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="96" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="441" unit="chars"/>
+                </sp>
+                <sp who="#l_officier">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="126" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="600" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Quirini, Montano.</head>
+                <sp who="#quirini">
+                    <amount n="21" unit="speech_acts"/>
+                    <amount n="1535" unit="words"/>
+                    <amount n="174" unit="lines"/>
+                    <amount n="7007" unit="chars"/>
+                </sp>
+                <sp who="#montano">
+                    <amount n="20" unit="speech_acts"/>
+                    <amount n="400" unit="words"/>
+                    <amount n="67" unit="lines"/>
+                    <amount n="1871" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE PREMIÈRE.</head>
+                <sp who="#laurence">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="277" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="1253" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Laurence, Lucile.</head>
+                <sp who="#lucile">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="178" unit="chars"/>
+                </sp>
+                <sp who="#laurence">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="169" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Laurence, Lucile, Le Vieillard.</head>
+                <sp who="#laurence">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="55" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="249" unit="chars"/>
+                </sp>
+                <sp who="#le_vieillard">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="123" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="528" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Laurence, Lucile.</head>
+                <sp who="#laurence">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="531" unit="words"/>
+                    <amount n="60" unit="lines"/>
+                    <amount n="2403" unit="chars"/>
+                </sp>
+                <sp who="#lucile">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="43" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="187" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Laurence, Lucle, Montano.</head>
+                <sp who="#montano">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="90" unit="chars"/>
+                </sp>
+                <sp who="#laurence">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="4" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="22" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Laurence, Montano.</head>
+                <sp who="#laurence">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="441" unit="words"/>
+                    <amount n="64" unit="lines"/>
+                    <amount n="1991" unit="chars"/>
+                </sp>
+                <sp who="#montano">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="209" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="909" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII.</head>
+                <sp who="#laurence">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="58" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="216" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Laurence, Orsano, Ziani, Gradonigue.</head>
+                <sp who="#orzano">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="184" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="857" unit="chars"/>
+                </sp>
+                <sp who="#laurence">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="109" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="458" unit="chars"/>
+                </sp>
+                <sp who="#gradonigue">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="51" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="214" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Orzano, Ziani.</head>
+                <sp who="#ziani">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="190" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="855" unit="chars"/>
+                </sp>
+                <sp who="#orzano">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="675" unit="words"/>
+                    <amount n="72" unit="lines"/>
+                    <amount n="2994" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE PREMIÈRE.</head>
+                <sp who="#quirini">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="240" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="1082" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Orzano, Ziani.</head>
+                <sp who="#ziani">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="181" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="805" unit="chars"/>
+                </sp>
+                <sp who="#orzano">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="279" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="1340" unit="chars"/>
+                </sp>
+                <sp who="#quirini">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="23" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Quirini, Orzano.</head>
+                <sp who="#quirini">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="205" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="896" unit="chars"/>
+                </sp>
+                <sp who="#orzano">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="257" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="1159" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV.</head>
+                <sp who="#quirini">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="133" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Quirini, Montano, Laurence.</head>
+                <sp who="#montano">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="73" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="288" unit="chars"/>
+                </sp>
+                <sp who="#quirini">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="312" unit="words"/>
+                    <amount n="51" unit="lines"/>
+                    <amount n="1338" unit="chars"/>
+                </sp>
+                <sp who="#laurence">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="316" unit="words"/>
+                    <amount n="52" unit="lines"/>
+                    <amount n="1378" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Les Précédents, Soldats du Conseil des Dix.</head>
+                <sp who="#le_commandant">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="141" unit="chars"/>
+                </sp>
+                <sp who="#quirini">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="83" unit="chars"/>
+                </sp>
+                <sp who="#laurence">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="29" unit="chars"/>
+                </sp>
+                <sp who="#montano">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="200" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="885" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Ziani, Laurence.</head>
+                <sp who="#laurence">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="190" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="840" unit="chars"/>
+                </sp>
+                <sp who="#ziani">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="112" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="508" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II.</head>
+                <sp who="#ziani">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="126" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Ziani, Orzano.</head>
+                <sp who="#ziani">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="150" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="640" unit="chars"/>
+                </sp>
+                <sp who="#orzano">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="116" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="478" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV.</head>
+                <sp who="#orzano">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="208" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="877" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Orzano, Laurence.</head>
+                <sp who="#orzano">
+                    <amount n="20" unit="speech_acts"/>
+                    <amount n="748" unit="words"/>
+                    <amount n="96" unit="lines"/>
+                    <amount n="3227" unit="chars"/>
+                </sp>
+                <sp who="#laurence">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="389" unit="words"/>
+                    <amount n="61" unit="lines"/>
+                    <amount n="1638" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI.</head>
+                <sp who="#laurence">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="183" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="888" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Laurence, Lucile.</head>
+                <sp who="#lucile">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="124" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="597" unit="chars"/>
+                </sp>
+                <sp who="#laurence">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="97" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Laurence, Gradonigue.</head>
+                <sp who="#laurence">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="46" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="204" unit="chars"/>
+                </sp>
+                <sp who="#gradonigue">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="141" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="643" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Laurence, Orzano, Gradonigue.</head>
+                <sp who="#laurence">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="121" unit="chars"/>
+                </sp>
+                <sp who="#orzano">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="345" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="1511" unit="chars"/>
+                </sp>
+                <sp who="#gradonigue">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="94" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

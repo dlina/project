@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>OTHON</title>
+        <subtitle>TRAGÉDIE</subtitle>
+        <genretitle>Tragédie</genretitle>
+        <author>CORNEILLE, Pierre CORNEILLE, Pierre</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/CORNEILLEP_OTHON.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>albin</name>
+            <alias xml:id="albin">
+                <name>albin</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>othon</name>
+            <alias xml:id="othon">
+                <name>othon</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>vinius</name>
+            <alias xml:id="vinius">
+                <name>vinius</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>plautine</name>
+            <alias xml:id="plautine">
+                <name>plautine</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>flavie</name>
+            <alias xml:id="flavie">
+                <name>flavie</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>martian</name>
+            <alias xml:id="martian">
+                <name>martian</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>lacus</name>
+            <alias xml:id="lacus">
+                <name>lacus</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>camille</name>
+            <alias xml:id="camille">
+                <name>camille</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>albiane</name>
+            <alias xml:id="albiane">
+                <name>albiane</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>galba</name>
+            <alias xml:id="galba">
+                <name>galba</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>rutile</name>
+            <alias xml:id="rutile">
+                <name>rutile</name>
+            </alias>
+        </character>
+        <character>
+            <name>atticus</name>
+            <alias xml:id="atticus">
+                <name>atticus</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>fl6ao</name>
+            <alias xml:id="fl6ao">
+                <name>fl6ao</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE I. Othon, Albin.</head>
+                <sp who="#albin">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="356" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="1671" unit="chars"/>
+                </sp>
+                <sp who="#othon">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="746" unit="words"/>
+                    <amount n="87" unit="lines"/>
+                    <amount n="3703" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Vinius, Othon.</head>
+                <sp who="#vinius">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="971" unit="words"/>
+                    <amount n="110" unit="lines"/>
+                    <amount n="4621" unit="chars"/>
+                </sp>
+                <sp who="#othon">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="403" unit="words"/>
+                    <amount n="50" unit="lines"/>
+                    <amount n="1894" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Plautine, Othon, Vinius.</head>
+                <sp who="#plautine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="110" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="544" unit="chars"/>
+                </sp>
+                <sp who="#othon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="192" unit="chars"/>
+                </sp>
+                <sp who="#vinius">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="225" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="1057" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Othon, Plautine.</head>
+                <sp who="#othon">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="224" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="1129" unit="chars"/>
+                </sp>
+                <sp who="#plautine">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="537" unit="words"/>
+                    <amount n="63" unit="lines"/>
+                    <amount n="2678" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE I. Plautine, Flavie.</head>
+                <sp who="#plautine">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="241" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="1178" unit="chars"/>
+                </sp>
+                <sp who="#flavie">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="476" unit="words"/>
+                    <amount n="63" unit="lines"/>
+                    <amount n="2502" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Martian, Flavie, Plautine.</head>
+                <sp who="#plautine">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="343" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="1692" unit="chars"/>
+                </sp>
+                <sp who="#martian">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="620" unit="words"/>
+                    <amount n="76" unit="lines"/>
+                    <amount n="2995" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Plautine, Lacus, Martian, Flavie.</head>
+                <sp who="#lacus">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="167" unit="chars"/>
+                </sp>
+                <sp who="#plautine">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="142" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="747" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Lacus, Martian.</head>
+                <sp who="#lacus">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="822" unit="words"/>
+                    <amount n="89" unit="lines"/>
+                    <amount n="3930" unit="chars"/>
+                </sp>
+                <sp who="#martian">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="200" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="968" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Camille, Lacus, Martian, Albiane.</head>
+                <sp who="#camille">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="519" unit="words"/>
+                    <amount n="66" unit="lines"/>
+                    <amount n="2434" unit="chars"/>
+                </sp>
+                <sp who="#martian">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="87" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="432" unit="chars"/>
+                </sp>
+                <sp who="#lacus">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="145" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="678" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Lacus, Martian.</head>
+                <sp who="#martian">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="86" unit="chars"/>
+                </sp>
+                <sp who="#lacus">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="234" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Camille, Albiane.</head>
+                <sp who="#camille">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="229" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1068" unit="chars"/>
+                </sp>
+                <sp who="#albiane">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="567" unit="words"/>
+                    <amount n="75" unit="lines"/>
+                    <amount n="2791" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Albin, Camille.</head>
+                <sp who="#albin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="187" unit="chars"/>
+                </sp>
+                <sp who="#camille">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="80" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Galba, Camille, Albiane.</head>
+                <sp who="#galba">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="665" unit="words"/>
+                    <amount n="74" unit="lines"/>
+                    <amount n="3203" unit="chars"/>
+                </sp>
+                <sp who="#camille">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="819" unit="words"/>
+                    <amount n="90" unit="lines"/>
+                    <amount n="3953" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Galba, Othon, Camille, Albin, Albiane.</head>
+                <sp who="#galba">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="211" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="1020" unit="chars"/>
+                </sp>
+                <sp who="#othon">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="74" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="354" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Othon, Camille, Albin, Albiane.</head>
+                <sp who="#camille">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="579" unit="words"/>
+                    <amount n="63" unit="lines"/>
+                    <amount n="2682" unit="chars"/>
+                </sp>
+                <sp who="#othon">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="673" unit="words"/>
+                    <amount n="76" unit="lines"/>
+                    <amount n="3222" unit="chars"/>
+                </sp>
+                <sp who="#albin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="50" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE I. Othon, Plautine.</head>
+                <sp who="#plautine">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="478" unit="words"/>
+                    <amount n="59" unit="lines"/>
+                    <amount n="2295" unit="chars"/>
+                </sp>
+                <sp who="#othon">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="451" unit="words"/>
+                    <amount n="59" unit="lines"/>
+                    <amount n="2159" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Vinius, Othon, Plautine.</head>
+                <sp who="#othon">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="180" unit="chars"/>
+                </sp>
+                <sp who="#vinius">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="287" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1460" unit="chars"/>
+                </sp>
+                <sp who="#plautine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="27" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Vinius, Plautine.</head>
+                <sp who="#vinius">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="368" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="1772" unit="chars"/>
+                </sp>
+                <sp who="#plautine">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="237" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="1143" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Camille, Plautine, Albiane.</head>
+                <sp who="#camille">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="259" unit="words"/>
+                    <amount n="45" unit="lines"/>
+                    <amount n="1238" unit="chars"/>
+                </sp>
+                <sp who="#plautine">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="378" unit="words"/>
+                    <amount n="58" unit="lines"/>
+                    <amount n="1852" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Camille, Martian, Albiane.</head>
+                <sp who="#camille">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="277" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="1374" unit="chars"/>
+                </sp>
+                <sp who="#martian">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="206" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="966" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Camille, Albiane.</head>
+                <sp who="#albiane">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="97" unit="chars"/>
+                </sp>
+                <sp who="#camille">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="101" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="475" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Camille, Rutile, Albiane.</head>
+                <sp who="#rutile">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="93" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="446" unit="chars"/>
+                </sp>
+                <sp who="#camille">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="56" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="308" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Galba, Camille, Rutile, Albiane.</head>
+                <sp who="#galba">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="241" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="1167" unit="chars"/>
+                </sp>
+                <sp who="#camille">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="199" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="999" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Galba, Camille, Lacus, Vinius, Albiane.</head>
+                <sp who="#galba">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="177" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="915" unit="chars"/>
+                </sp>
+                <sp who="#vinius">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="441" unit="words"/>
+                    <amount n="54" unit="lines"/>
+                    <amount n="2259" unit="chars"/>
+                </sp>
+                <sp who="#lacus">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="350" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="1771" unit="chars"/>
+                </sp>
+                <sp who="#camille">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="77" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="355" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Galba, Camille, Vinius, Lacus, Plautine, Rutile, Albiane.</head>
+                <sp who="#plautine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="43" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="205" unit="chars"/>
+                </sp>
+                <sp who="#galba">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="188" unit="chars"/>
+                </sp>
+                <sp who="#rutile">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="165" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Martian, Galba, Atticus, Vinius, Camille.</head>
+                <sp who="#martian">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="100" unit="chars"/>
+                </sp>
+                <sp who="#galba">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="106" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="519" unit="chars"/>
+                </sp>
+                <sp who="#atticus">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="198" unit="chars"/>
+                </sp>
+                <sp who="#vinius">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="146" unit="chars"/>
+                </sp>
+                <sp who="#camille">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="136" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Martian, Plautine, Atticus, Soldats.</head>
+                <sp who="#plautine">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="275" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="1365" unit="chars"/>
+                </sp>
+                <sp who="#martian">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="125" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="611" unit="chars"/>
+                </sp>
+                <sp who="#atticus">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="302" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1421" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Plautine, Flavie.</head>
+                <sp who="#flavie">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="300" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="1420" unit="chars"/>
+                </sp>
+                <sp who="#plautine">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="77" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="389" unit="chars"/>
+                </sp>
+                <sp who="#fl6ao">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="96" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Othon, Plautine, Flavie.</head>
+                <sp who="#othon">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="127" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="578" unit="chars"/>
+                </sp>
+                <sp who="#plautine">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="108" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="507" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Othon, Albin.</head>
+                <sp who="#albin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="130" unit="chars"/>
+                </sp>
+                <sp who="#othon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="76" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="385" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

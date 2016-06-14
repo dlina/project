@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LA DISPUTE</title>
+        <subtitle>COMÉDIE en un acte, en prose.</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>MARIVAUX</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/MARIVAUX_DISPUTE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>hermiane</name>
+            <alias xml:id="hermiane">
+                <name>hermiane</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_prince</name>
+            <alias xml:id="l_prince">
+                <name>l_prince</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>carise</name>
+            <alias xml:id="carise">
+                <name>carise</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>egle</name>
+            <alias xml:id="egle">
+                <name>egle</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>azor</name>
+            <alias xml:id="azor">
+                <name>azor</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>mesrou</name>
+            <alias xml:id="mesrou">
+                <name>mesrou</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>adine</name>
+            <alias xml:id="adine">
+                <name>adine</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>mesrin</name>
+            <alias xml:id="mesrin">
+                <name>mesrin</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>carise_mesrou</name>
+            <alias xml:id="carise_mesrou">
+                <name>carise_mesrou</name>
+            </alias>
+        </character>
+        <character>
+            <name>meslis</name>
+            <alias xml:id="meslis">
+                <name>meslis</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>dina</name>
+            <alias xml:id="dina">
+                <name>dina</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head/>
+            <div>
+                <head>SCÈNE PREMIÈRE. Le prince, Hermiane, Carise, Mesrou.</head>
+                <sp who="#hermiane">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="216" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="1113" unit="chars"/>
+                </sp>
+                <sp who="#l_prince">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="425" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="2014" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Hermiane, Le Prince.</head>
+                <sp who="#hermiane">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="39" unit="chars"/>
+                </sp>
+                <sp who="#l_prince">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="297" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="1428" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Carise, Eglé.</head>
+                <sp who="#carise">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="100" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="481" unit="chars"/>
+                </sp>
+                <sp who="#egle">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="220" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="972" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Eglé, Azor.</head>
+                <sp who="#egle">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="325" unit="words"/>
+                    <amount n="74" unit="lines"/>
+                    <amount n="1380" unit="chars"/>
+                </sp>
+                <sp who="#azor">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="192" unit="words"/>
+                    <amount n="50" unit="lines"/>
+                    <amount n="840" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Mesrou, Carise, Eglé.</head>
+                <sp who="#egle">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="151" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="655" unit="chars"/>
+                </sp>
+                <sp who="#carise">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="49" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="232" unit="chars"/>
+                </sp>
+                <sp who="#mesrou">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="184" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Carise, Eglé, Mesrou, Azor.</head>
+                <sp who="#azor">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="207" unit="words"/>
+                    <amount n="48" unit="lines"/>
+                    <amount n="860" unit="chars"/>
+                </sp>
+                <sp who="#egle">
+                    <amount n="23" unit="speech_acts"/>
+                    <amount n="562" unit="words"/>
+                    <amount n="90" unit="lines"/>
+                    <amount n="2478" unit="chars"/>
+                </sp>
+                <sp who="#mesrou">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="143" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="676" unit="chars"/>
+                </sp>
+                <sp who="#carise">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="201" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="961" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Azor, Eglé.</head>
+                <sp who="#egle">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="263" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="1133" unit="chars"/>
+                </sp>
+                <sp who="#azor">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="207" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="906" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII.</head>
+                <sp who="#egle">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="93" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="394" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX.  Eglé, Adine.</head>
+                <sp who="#egle">
+                    <amount n="20" unit="speech_acts"/>
+                    <amount n="425" unit="words"/>
+                    <amount n="74" unit="lines"/>
+                    <amount n="1890" unit="chars"/>
+                </sp>
+                <sp who="#adine">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="406" unit="words"/>
+                    <amount n="81" unit="lines"/>
+                    <amount n="1764" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Carise, Adine, Eglé.</head>
+                <sp who="#carise">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="75" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="416" unit="chars"/>
+                </sp>
+                <sp who="#adine">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="99" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="414" unit="chars"/>
+                </sp>
+                <sp who="#egle">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="133" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="567" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Adine, Carise.</head>
+                <sp who="#carise">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="156" unit="chars"/>
+                </sp>
+                <sp who="#adine">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="150" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII. Mesrin, Carise, Adine.</head>
+                <sp who="#adine">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="424" unit="words"/>
+                    <amount n="63" unit="lines"/>
+                    <amount n="1838" unit="chars"/>
+                </sp>
+                <sp who="#mesrin">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="134" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="576" unit="chars"/>
+                </sp>
+                <sp who="#carise">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="166" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIII. Mesrin, Azor.</head>
+                <sp who="#mesrin">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="306" unit="words"/>
+                    <amount n="52" unit="lines"/>
+                    <amount n="1343" unit="chars"/>
+                </sp>
+                <sp who="#azor">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="191" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="749" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIV. Azor, Mesrin, Eglé.</head>
+                <sp who="#egle">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="172" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="725" unit="chars"/>
+                </sp>
+                <sp who="#mesrin">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="75" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="305" unit="chars"/>
+                </sp>
+                <sp who="#azor">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="231" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1018" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XV. Carise, Eglé.</head>
+                <sp who="#carise">
+                    <amount n="27" unit="speech_acts"/>
+                    <amount n="325" unit="words"/>
+                    <amount n="86" unit="lines"/>
+                    <amount n="1581" unit="chars"/>
+                </sp>
+                <sp who="#egle">
+                    <amount n="26" unit="speech_acts"/>
+                    <amount n="719" unit="words"/>
+                    <amount n="95" unit="lines"/>
+                    <amount n="3177" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVI. Mesrou, Mesrin, Eglé, Carise.</head>
+                <sp who="#mesrou">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="178" unit="chars"/>
+                </sp>
+                <sp who="#carise">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="91" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="417" unit="chars"/>
+                </sp>
+                <sp who="#mesrin">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="99" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="424" unit="chars"/>
+                </sp>
+                <sp who="#egle">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="206" unit="words"/>
+                    <amount n="47" unit="lines"/>
+                    <amount n="880" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVII. Mesrin, Eglé, Carise, Azor, Mesrou.</head>
+                <sp who="#mesrou">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="3" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="12" unit="chars"/>
+                </sp>
+                <sp who="#mesrin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="65" unit="chars"/>
+                </sp>
+                <sp who="#carise">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="69" unit="chars"/>
+                </sp>
+                <sp who="#egle">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="60" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="248" unit="chars"/>
+                </sp>
+                <sp who="#azor">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="213" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVIII. Mesrou, Carise, Eglé, Mesrin</head>
+                <sp who="#mesrin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="99" unit="chars"/>
+                </sp>
+                <sp who="#egle">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="148" unit="chars"/>
+                </sp>
+                <sp who="#carise_mesrou">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="23" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIX. Mesrou, Carise, Eglé, Mesrin, Adine, Azor.</head>
+                <sp who="#adine">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="53" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="239" unit="chars"/>
+                </sp>
+                <sp who="#egle">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="112" unit="chars"/>
+                </sp>
+                <sp who="#mesrin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="58" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE DERNIÈRE. Mesrou, Carise, Eglé, Mesrin, Le Prince, Hermiane, Adine, Meslis, Dina, Azor.</head>
+                <sp who="#hermiane">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="97" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="458" unit="chars"/>
+                </sp>
+                <sp who="#egle">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="139" unit="chars"/>
+                </sp>
+                <sp who="#carise">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="84" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="391" unit="chars"/>
+                </sp>
+                <sp who="#meslis">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="78" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="323" unit="chars"/>
+                </sp>
+                <sp who="#dina">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="124" unit="chars"/>
+                </sp>
+                <sp who="#l_prince">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="86" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="370" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

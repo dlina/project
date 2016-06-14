@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>CLÉAGÉNOR et DORISTÉE</title>
+        <subtitle>TRAGI-COMÉDIE</subtitle>
+        <genretitle>Pastorale</genretitle>
+        <author>ROTROU, Jean</author>
+        <date when="1637">1637</date>
+        <source>https://github.com/dramacode/theatre-classique/ROTROU_CLEAGENOR.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>c_a_nor</name>
+            <alias xml:id="c_a_nor">
+                <name>c_a_nor</name>
+            </alias>
+        </character>
+        <character>
+            <name>t_andre</name>
+            <alias xml:id="t_andre">
+                <name>t_andre</name>
+            </alias>
+        </character>
+        <character>
+            <name>doris_e</name>
+            <alias xml:id="doris_e">
+                <name>doris_e</name>
+            </alias>
+        </character>
+        <character>
+            <name>ozanor</name>
+            <alias xml:id="ozanor">
+                <name>ozanor</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>premier_voleur</name>
+            <alias xml:id="premier_voleur">
+                <name>premier_voleur</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>deuxieme_voleur</name>
+            <alias xml:id="deuxieme_voleur">
+                <name>deuxieme_voleur</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>premier_archer</name>
+            <alias xml:id="premier_archer">
+                <name>premier_archer</name>
+            </alias>
+        </character>
+        <character>
+            <name>deuxieme_archer</name>
+            <alias xml:id="deuxieme_archer">
+                <name>deuxieme_archer</name>
+            </alias>
+        </character>
+        <character>
+            <name>philemond</name>
+            <alias xml:id="philemond">
+                <name>philemond</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>suite_de_theandre</name>
+            <alias xml:id="suite_de_theandre">
+                <name>suite_de_theandre</name>
+            </alias>
+        </character>
+        <character>
+            <name>conseiller</name>
+            <alias xml:id="conseiller">
+                <name>conseiller</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>dorante</name>
+            <alias xml:id="dorante">
+                <name>dorante</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>diane</name>
+            <alias xml:id="diane">
+                <name>diane</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>philacte</name>
+            <alias xml:id="philacte">
+                <name>philacte</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE I.</head>
+                <sp who="#c_a_nor">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="188" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="927" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Théandre, Cléagénor.</head>
+                <sp who="#t_andre">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="256" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="1221" unit="chars"/>
+                </sp>
+                <sp who="#c_a_nor">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="1014" unit="words"/>
+                    <amount n="127" unit="lines"/>
+                    <amount n="5005" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Ozanor, Doristée, Cléagénor.</head>
+                <sp who="#doris_e">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="1104" unit="words"/>
+                    <amount n="137" unit="lines"/>
+                    <amount n="5466" unit="chars"/>
+                </sp>
+                <sp who="#c_a_nor">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="295" unit="words"/>
+                    <amount n="51" unit="lines"/>
+                    <amount n="1464" unit="chars"/>
+                </sp>
+                <sp who="#ozanor">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="202" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="998" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Deux Voleurs, Doristée.</head>
+                <sp who="#premier_voleur">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="84" unit="chars"/>
+                </sp>
+                <sp who="#deuxieme_voleur">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="69" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="315" unit="chars"/>
+                </sp>
+                <sp who="#doris_e">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="139" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="632" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V.</head>
+                <sp who="#c_a_nor">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="86" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="422" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Les Archers, Cléagénor.</head>
+                <sp who="#premier_archer">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="216" unit="chars"/>
+                </sp>
+                <sp who="#c_a_nor">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="54" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="241" unit="chars"/>
+                </sp>
+                <sp who="#deuxieme_archer">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="46" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE I. Les deux Voleurs, Doristée, sous le nom de Philemond. </head>
+                <sp who="#premier_voleur">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="395" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="1889" unit="chars"/>
+                </sp>
+                <sp who="#philemond">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="317" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="1625" unit="chars"/>
+                </sp>
+                <sp who="#deuxieme_voleur">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="30" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Théandre, Philemond, Les Voleurs.</head>
+                <sp who="#suite_de_theandre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="45" unit="chars"/>
+                </sp>
+                <sp who="#philemond">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="398" unit="words"/>
+                    <amount n="54" unit="lines"/>
+                    <amount n="1944" unit="chars"/>
+                </sp>
+                <sp who="#t_andre">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="160" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="747" unit="chars"/>
+                </sp>
+                <sp who="#premier_voleur">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="39" unit="chars"/>
+                </sp>
+                <sp who="#deuxieme_voleur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="2" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="13" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III . Cléagénor, Le Conseiller. </head>
+                <sp who="#c_a_nor">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="414" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="2045" unit="chars"/>
+                </sp>
+                <sp who="#conseiller">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="150" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="755" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Dorante, Diane. </head>
+                <sp who="#dorante">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="398" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="1900" unit="chars"/>
+                </sp>
+                <sp who="#diane">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="97" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="503" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Dorante, Diane, Théandre, Philémond.</head>
+                <sp who="#t_andre">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="56" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="259" unit="chars"/>
+                </sp>
+                <sp who="#diane">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="26" unit="chars"/>
+                </sp>
+                <sp who="#dorante">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="166" unit="chars"/>
+                </sp>
+                <sp who="#philemond">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="45" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="207" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I. Dorante, Diane.</head>
+                <sp who="#dorante">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="488" unit="words"/>
+                    <amount n="62" unit="lines"/>
+                    <amount n="2476" unit="chars"/>
+                </sp>
+                <sp who="#diane">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="258" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1279" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Dorante, Diane, Philemond.</head>
+                <sp who="#dorante">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="121" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="604" unit="chars"/>
+                </sp>
+                <sp who="#philemond">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="141" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="641" unit="chars"/>
+                </sp>
+                <sp who="#diane">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="106" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="541" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Diane, Dorante, Philemond.</head>
+                <sp who="#diane">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="78" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="395" unit="chars"/>
+                </sp>
+                <sp who="#dorante">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="166" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV.</head>
+                <sp who="#philemond">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="101" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="563" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Philemond, Théandre.</head>
+                <sp who="#t_andre">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="147" unit="chars"/>
+                </sp>
+                <sp who="#philemond">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="281" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="1428" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Théandre, Philemond.</head>
+                <sp who="#t_andre">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="709" unit="words"/>
+                    <amount n="91" unit="lines"/>
+                    <amount n="3572" unit="chars"/>
+                </sp>
+                <sp who="#philemond">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="518" unit="words"/>
+                    <amount n="69" unit="lines"/>
+                    <amount n="2628" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE I.</head>
+                <sp who="#diane">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="291" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="1502" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Diane, Philemond.</head>
+                <sp who="#philemond">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="540" unit="words"/>
+                    <amount n="77" unit="lines"/>
+                    <amount n="2733" unit="chars"/>
+                </sp>
+                <sp who="#diane">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="525" unit="words"/>
+                    <amount n="73" unit="lines"/>
+                    <amount n="2596" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Dorante, Philemond.</head>
+                <sp who="#dorante">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="730" unit="words"/>
+                    <amount n="94" unit="lines"/>
+                    <amount n="3642" unit="chars"/>
+                </sp>
+                <sp who="#philemond">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="538" unit="words"/>
+                    <amount n="75" unit="lines"/>
+                    <amount n="2741" unit="chars"/>
+                </sp>
+                <sp who="#t_andre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="93" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Dorante, Théandre, Philemond.</head>
+                <sp who="#t_andre">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="574" unit="words"/>
+                    <amount n="73" unit="lines"/>
+                    <amount n="2847" unit="chars"/>
+                </sp>
+                <sp who="#dorante">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="42" unit="chars"/>
+                </sp>
+                <sp who="#philemond">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="290" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1521" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE I. Dorante sortant par un côté et Philemond par l'autre. </head>
+                <sp who="#dorante">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="414" unit="words"/>
+                    <amount n="64" unit="lines"/>
+                    <amount n="2108" unit="chars"/>
+                </sp>
+                <sp who="#philemond">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="508" unit="words"/>
+                    <amount n="73" unit="lines"/>
+                    <amount n="2535" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Diane, Philemond.</head>
+                <sp who="#diane">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="157" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="779" unit="chars"/>
+                </sp>
+                <sp who="#philemond">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="230" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1137" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Théandre, Dorante, Philemond, Diane, Philacte.</head>
+                <sp who="#t_andre">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="425" unit="words"/>
+                    <amount n="61" unit="lines"/>
+                    <amount n="2024" unit="chars"/>
+                </sp>
+                <sp who="#dorante">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="108" unit="chars"/>
+                </sp>
+                <sp who="#philemond">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="217" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="1084" unit="chars"/>
+                </sp>
+                <sp who="#philacte">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="414" unit="words"/>
+                    <amount n="55" unit="lines"/>
+                    <amount n="2119" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Théandre, Philacte, Dorante.</head>
+                <sp who="#dorante">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="417" unit="words"/>
+                    <amount n="50" unit="lines"/>
+                    <amount n="2051" unit="chars"/>
+                </sp>
+                <sp who="#t_andre">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="207" unit="chars"/>
+                </sp>
+                <sp who="#philacte">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="74" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="374" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Diane, Dorante, Philacte, Théandre.</head>
+                <sp who="#diane">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="165" unit="chars"/>
+                </sp>
+                <sp who="#t_andre">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="171" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="886" unit="chars"/>
+                </sp>
+                <sp who="#philacte">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="3" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="22" unit="chars"/>
+                </sp>
+                <sp who="#dorante">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="3" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="22" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Cléagénor, Dorante, Diane, Théandre, Philacte.</head>
+                <sp who="#c_a_nor">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="566" unit="words"/>
+                    <amount n="70" unit="lines"/>
+                    <amount n="2680" unit="chars"/>
+                </sp>
+                <sp who="#t_andre">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="265" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="1285" unit="chars"/>
+                </sp>
+                <sp who="#dorante">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="45" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Cléagénor, Doristée, Théandre, Dorante, Diane, Philacte.</head>
+                <sp who="#doris_e">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="97" unit="chars"/>
+                </sp>
+                <sp who="#c_a_nor">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="84" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="408" unit="chars"/>
+                </sp>
+                <sp who="#t_andre">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="69" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="360" unit="chars"/>
+                </sp>
+                <sp who="#diane">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="41" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="205" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>TAMERLAN</title>
+        <subtitle>TRAGÉDIE</subtitle>
+        <subtitle>REPRÉSENTÉE PAR L'ILLUSTRE THÉÂTRE.</subtitle>
+        <genretitle>Tragédie</genretitle>
+        <author>MAGNON, Jean</author>
+        <date when="1645">1645</date>
+        <source>https://github.com/dramacode/theatre-classique/MAGNON_TAMERLAN.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>dorize</name>
+            <alias xml:id="dorize">
+                <name>dorize</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>roxalie</name>
+            <alias xml:id="roxalie">
+                <name>roxalie</name>
+            </alias>
+        </character>
+        <character>
+            <name>t_mir</name>
+            <alias xml:id="t_mir">
+                <name>t_mir</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>indarthize</name>
+            <alias xml:id="indarthize">
+                <name>indarthize</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>tamerlan</name>
+            <alias xml:id="tamerlan">
+                <name>tamerlan</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>bajazet</name>
+            <alias xml:id="bajazet">
+                <name>bajazet</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>_lim</name>
+            <alias xml:id="_lim">
+                <name>_lim</name>
+            </alias>
+        </character>
+        <character>
+            <name>zilim</name>
+            <alias xml:id="zilim">
+                <name>zilim</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>orcazie</name>
+            <alias xml:id="orcazie">
+                <name>orcazie</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>mansor</name>
+            <alias xml:id="mansor">
+                <name>mansor</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_soldat</name>
+            <alias xml:id="l_soldat">
+                <name>l_soldat</name>
+            </alias>
+        </character>
+        <character>
+            <name>u_garde</name>
+            <alias xml:id="u_garde">
+                <name>u_garde</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Rosalie, Dorize.</head>
+                <sp who="#dorize">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="94" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="450" unit="chars"/>
+                </sp>
+                <sp who="#roxalie">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="620" unit="words"/>
+                    <amount n="70" unit="lines"/>
+                    <amount n="3037" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Roxalie, Thémir.</head>
+                <sp who="#t_mir">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="229" unit="words"/>
+                    <amount n="48" unit="lines"/>
+                    <amount n="1118" unit="chars"/>
+                </sp>
+                <sp who="#roxalie">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="476" unit="words"/>
+                    <amount n="71" unit="lines"/>
+                    <amount n="2311" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Thémir, Indarthize.</head>
+                <sp who="#indarthize">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="197" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="983" unit="chars"/>
+                </sp>
+                <sp who="#t_mir">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="556" unit="words"/>
+                    <amount n="77" unit="lines"/>
+                    <amount n="2773" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Tamerlan, Thémir, Indhartize.</head>
+                <sp who="#tamerlan">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="422" unit="words"/>
+                    <amount n="59" unit="lines"/>
+                    <amount n="2088" unit="chars"/>
+                </sp>
+                <sp who="#t_mir">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="67" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="301" unit="chars"/>
+                </sp>
+                <sp who="#indarthize">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="276" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1279" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Bajazet, Sélim.</head>
+                <sp who="#bajazet">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="628" unit="words"/>
+                    <amount n="81" unit="lines"/>
+                    <amount n="3131" unit="chars"/>
+                </sp>
+                <sp who="#_lim">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="120" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="571" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Bajazet, Zilim, Sélim.</head>
+                <sp who="#bajazet">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="119" unit="chars"/>
+                </sp>
+                <sp who="#zilim">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="46" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="212" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Tamerlan, Bajazet, Sélim, Zilim, Gardes.</head>
+                <sp who="#tamerlan">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="477" unit="words"/>
+                    <amount n="70" unit="lines"/>
+                    <amount n="2269" unit="chars"/>
+                </sp>
+                <sp who="#bajazet">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="445" unit="words"/>
+                    <amount n="65" unit="lines"/>
+                    <amount n="2148" unit="chars"/>
+                </sp>
+                <sp who="#zilim">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="116" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="529" unit="chars"/>
+                </sp>
+                <sp who="#_lim">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="4" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="20" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Tamerlan, Bajazet, Orcazie, Sélim, Zilim, Gardes.</head>
+                <sp who="#tamerlan">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="99" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="505" unit="chars"/>
+                </sp>
+                <sp who="#orcazie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="88" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="403" unit="chars"/>
+                </sp>
+                <sp who="#bajazet">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="52" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Orcazie, Bajazet, Sélim.</head>
+                <sp who="#orcazie">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="162" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="789" unit="chars"/>
+                </sp>
+                <sp who="#bajazet">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="549" unit="words"/>
+                    <amount n="71" unit="lines"/>
+                    <amount n="2754" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Zilim, de surcroît.</head>
+                <sp who="#zilim">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="190" unit="chars"/>
+                </sp>
+                <sp who="#bajazet">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="248" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="1169" unit="chars"/>
+                </sp>
+                <sp who="#orcazie">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="202" unit="chars"/>
+                </sp>
+                <sp who="#_lim">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="46" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Tamerlan, Mansor.</head>
+                <sp who="#tamerlan">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="45" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="229" unit="chars"/>
+                </sp>
+                <sp who="#mansor">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="529" unit="words"/>
+                    <amount n="62" unit="lines"/>
+                    <amount n="2681" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II.</head>
+                <sp who="#tamerlan">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="104" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="507" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Indarthize, Tamerlan.</head>
+                <sp who="#indarthize">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="302" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="1521" unit="chars"/>
+                </sp>
+                <sp who="#tamerlan">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="93" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="459" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Tamerlan, Orcazie.</head>
+                <sp who="#tamerlan">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="464" unit="words"/>
+                    <amount n="59" unit="lines"/>
+                    <amount n="2210" unit="chars"/>
+                </sp>
+                <sp who="#orcazie">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="268" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1307" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Tamerlan, Roxalie, Orcazie.</head>
+                <sp who="#tamerlan">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="97" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="489" unit="chars"/>
+                </sp>
+                <sp who="#roxalie">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="373" unit="words"/>
+                    <amount n="45" unit="lines"/>
+                    <amount n="1728" unit="chars"/>
+                </sp>
+                <sp who="#orcazie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="116" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Tamerlan, Orcazie.</head>
+                <sp who="#tamerlan">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="92" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="464" unit="chars"/>
+                </sp>
+                <sp who="#orcazie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="4" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="22" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Tamerlan, Orcazie, Thémir.</head>
+                <sp who="#tamerlan">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="401" unit="words"/>
+                    <amount n="65" unit="lines"/>
+                    <amount n="1888" unit="chars"/>
+                </sp>
+                <sp who="#t_mir">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="140" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="608" unit="chars"/>
+                </sp>
+                <sp who="#orcazie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="113" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE PREMIERE. Indarthize, Orcazie.</head>
+                <sp who="#indarthize">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="208" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="1023" unit="chars"/>
+                </sp>
+                <sp who="#orcazie">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="173" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="839" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Orcazie, Roxalie, Indarthize.</head>
+                <sp who="#orcazie">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="59" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="299" unit="chars"/>
+                </sp>
+                <sp who="#roxalie">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="895" unit="words"/>
+                    <amount n="98" unit="lines"/>
+                    <amount n="4306" unit="chars"/>
+                </sp>
+                <sp who="#indarthize">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="69" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Thémir, Indarthize, Orcazie, Roxalie.</head>
+                <sp who="#t_mir">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="127" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="627" unit="chars"/>
+                </sp>
+                <sp who="#indarthize">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="76" unit="chars"/>
+                </sp>
+                <sp who="#orcazie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="40" unit="chars"/>
+                </sp>
+                <sp who="#roxalie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="80" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Un Sorldat de Bajazet, de surcroît.</head>
+                <sp who="#l_soldat">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="173" unit="chars"/>
+                </sp>
+                <sp who="#t_mir">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="50" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="243" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Tamerlan, de surcroît, suivi de ses Lieutenants.</head>
+                <sp who="#tamerlan">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="149" unit="chars"/>
+                </sp>
+                <sp who="#t_mir">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="205" unit="chars"/>
+                </sp>
+                <sp who="#indarthize">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="46" unit="chars"/>
+                </sp>
+                <sp who="#orcazie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="47" unit="chars"/>
+                </sp>
+                <sp who="#roxalie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="85" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Tamerlan, Thémir.</head>
+                <sp who="#tamerlan">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="345" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1620" unit="chars"/>
+                </sp>
+                <sp who="#t_mir">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="75" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Sélim, de surcroît.</head>
+                <sp who="#_lim">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="62" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="288" unit="chars"/>
+                </sp>
+                <sp who="#tamerlan">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="66" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Bajazet, de surcroît.</head>
+                <sp who="#tamerlan">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="462" unit="words"/>
+                    <amount n="68" unit="lines"/>
+                    <amount n="2158" unit="chars"/>
+                </sp>
+                <sp who="#bajazet">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="339" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="1677" unit="chars"/>
+                </sp>
+                <sp who="#_lim">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="41" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="198" unit="chars"/>
+                </sp>
+                <sp who="#t_mir">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="94" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="426" unit="chars"/>
+                </sp>
+                <sp who="#zilim">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="43" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Bajazet, suivi des Gardes de Tamerlan.</head>
+                <sp who="#bajazet">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="649" unit="words"/>
+                    <amount n="69" unit="lines"/>
+                    <amount n="3051" unit="chars"/>
+                </sp>
+                <sp who="#u_garde">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="81" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Bajazet, Sélim, Zilim.</head>
+                <sp who="#bajazet">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="254" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1199" unit="chars"/>
+                </sp>
+                <sp who="#_lim">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="577" unit="words"/>
+                    <amount n="62" unit="lines"/>
+                    <amount n="2644" unit="chars"/>
+                </sp>
+                <sp who="#zilim">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="261" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Zilim, Bajazet.</head>
+                <sp who="#zilim">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="147" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="668" unit="chars"/>
+                </sp>
+                <sp who="#bajazet">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="201" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="933" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV.</head>
+                <sp who="#bajazet">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="153" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="714" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Bajazet, Orcazie.</head>
+                <sp who="#bajazet">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="236" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="1059" unit="chars"/>
+                </sp>
+                <sp who="#orcazie">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="659" unit="words"/>
+                    <amount n="75" unit="lines"/>
+                    <amount n="2957" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE DERNIÈRE. Tamerlan, Bajazet, Orcazie.</head>
+                <sp who="#tamerlan">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="167" unit="chars"/>
+                </sp>
+                <sp who="#bajazet">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="41" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="207" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

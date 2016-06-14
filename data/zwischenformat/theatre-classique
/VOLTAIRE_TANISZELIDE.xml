@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>TANIS ET ZÉLIDE</title>
+        <subtitle>ou les ROIS PASTEURS</subtitle>
+        <subtitle>TRAGÉDIE pour être mise en Musique.</subtitle>
+        <genretitle>Tragédie en musique</genretitle>
+        <author>VOLTAIRE</author>
+        <date when="1733">1733</date>
+        <source>https://github.com/dramacode/theatre-classique/VOLTAIRE_TANISZELIDE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>zelide</name>
+            <alias xml:id="zelide">
+                <name>zelide</name>
+            </alias>
+        </character>
+        <character>
+            <name>panope</name>
+            <alias xml:id="panope">
+                <name>panope</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>choeur</name>
+            <alias xml:id="choeur">
+                <name>choeur</name>
+                <sex>0</sex>
+            </alias>
+        </character>
+        <character>
+            <name>bergere</name>
+            <alias xml:id="bergere">
+                <name>bergere</name>
+            </alias>
+        </character>
+        <character>
+            <name>berger</name>
+            <alias xml:id="berger">
+                <name>berger</name>
+            </alias>
+        </character>
+        <character>
+            <name>bergers</name>
+            <alias xml:id="bergers">
+                <name>bergers</name>
+                <sex>0</sex>
+            </alias>
+        </character>
+        <character>
+            <name>tanis</name>
+            <alias xml:id="tanis">
+                <name>tanis</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>phanor</name>
+            <alias xml:id="phanor">
+                <name>phanor</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_choeu_de_bergers</name>
+            <alias xml:id="l_choeu_de_bergers">
+                <name>l_choeu_de_bergers</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_choeu_de_bergeres</name>
+            <alias xml:id="l_choeu_de_bergeres">
+                <name>l_choeu_de_bergeres</name>
+            </alias>
+        </character>
+        <character>
+            <name>pretr__isis</name>
+            <alias xml:id="pretr__isis">
+                <name>pretr__isis</name>
+            </alias>
+        </character>
+        <character>
+            <name>cleofis</name>
+            <alias xml:id="cleofis">
+                <name>cleofis</name>
+            </alias>
+        </character>
+        <character>
+            <name>isis_osiris</name>
+            <alias xml:id="isis_osiris">
+                <name>isis_osiris</name>
+            </alias>
+        </character>
+        <character>
+            <name>tanis_zelide</name>
+            <alias xml:id="tanis_zelide">
+                <name>tanis_zelide</name>
+            </alias>
+        </character>
+        <character>
+            <name>gran_choeur</name>
+            <alias xml:id="gran_choeur">
+                <name>gran_choeur</name>
+            </alias>
+        </character>
+        <character>
+            <name>tanis_choeur</name>
+            <alias xml:id="tanis_choeur">
+                <name>tanis_choeur</name>
+            </alias>
+        </character>
+        <character>
+            <name>oroes</name>
+            <alias xml:id="oroes">
+                <name>oroes</name>
+            </alias>
+        </character>
+        <character>
+            <name>choeu_mages</name>
+            <alias xml:id="choeu_mages">
+                <name>choeu_mages</name>
+            </alias>
+        </character>
+        <character>
+            <name>mages</name>
+            <alias xml:id="mages">
+                <name>mages</name>
+                <sex>0</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE I. Zélide, Panope.</head>
+                <sp who="#zelide">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="164" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="739" unit="chars"/>
+                </sp>
+                <sp who="#panope">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="127" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="574" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Zélide, Panope, les Bergers, armés de lances, entrent avec les bergères, qui portent des houlettes et des instruments  de musique champêtre.</head>
+                <sp who="#choeur">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="70" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="302" unit="chars"/>
+                </sp>
+                <sp who="#bergere">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="54" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="225" unit="chars"/>
+                </sp>
+                <sp who="#berger">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="90" unit="chars"/>
+                </sp>
+                <sp who="#zelide">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="119" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="581" unit="chars"/>
+                </sp>
+                <sp who="#bergers">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="61" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="288" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Zélide, Tanis, Le Choeur.</head>
+                <sp who="#tanis">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="155" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="715" unit="chars"/>
+                </sp>
+                <sp who="#zelide">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="156" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Zélide, Tanis, Phanor, Le Choeur, Suite de Phanor.</head>
+                <sp who="#phanor">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="60" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="261" unit="chars"/>
+                </sp>
+                <sp who="#tanis">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="96" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="414" unit="chars"/>
+                </sp>
+                <sp who="#zelide">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="126" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Zélide, Phanor.</head>
+                <sp who="#phanor">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="168" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="747" unit="chars"/>
+                </sp>
+                <sp who="#zelide">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="100" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="483" unit="chars"/>
+                </sp>
+                <sp who="#choeur">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="104" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI.</head>
+                <sp who="#zelide">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="98" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="412" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE I. Le Prêtre d'Isis, Tanis, Cléofis, Choeur de Bergers et de Bergères.</head>
+                <sp who="#l_choeu_de_bergers">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="37" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="184" unit="chars"/>
+                </sp>
+                <sp who="#l_choeu_de_bergeres">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="75" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="326" unit="chars"/>
+                </sp>
+                <sp who="#pretr__isis">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="98" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="460" unit="chars"/>
+                </sp>
+                <sp who="#bergere">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="71" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="338" unit="chars"/>
+                </sp>
+                <sp who="#choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="23" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Tanis, Cléofis.</head>
+                <sp who="#cleofis">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="45" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="190" unit="chars"/>
+                </sp>
+                <sp who="#tanis">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="205" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="884" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Isis et Osiris, dans le nuage ; Tanois, Cléofis.</head>
+                <sp who="#isis_osiris">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="156" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Tanis, Cléofis.</head>
+                <sp who="#tanis">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="66" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="308" unit="chars"/>
+                </sp>
+                <sp who="#cleofis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="37" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Tanis, Zélide.</head>
+                <sp who="#tanis">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="197" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="833" unit="chars"/>
+                </sp>
+                <sp who="#zelide">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="175" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="739" unit="chars"/>
+                </sp>
+                <sp who="#tanis_zelide">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="164" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Zélide, Tanis, Phanor.</head>
+                <sp who="#phanor">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="159" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="684" unit="chars"/>
+                </sp>
+                <sp who="#tanis">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="70" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="298" unit="chars"/>
+                </sp>
+                <sp who="#zelide">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="100" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="437" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Zélide, Tanis, Phanor, Choeur de Bergers.</head>
+                <sp who="#bergers">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="127" unit="chars"/>
+                </sp>
+                <sp who="#zelide">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="63" unit="chars"/>
+                </sp>
+                <sp who="#phanor">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="80" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Zélide, Tanis, Choeur des bergers.</head>
+                <sp who="#choeur">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="51" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="227" unit="chars"/>
+                </sp>
+                <sp who="#tanis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="114" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I.</head>
+                <sp who="#tanis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="146" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="668" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Tanis, Choeur des Bergers.</head>
+                <sp who="#choeur">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="41" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="191" unit="chars"/>
+                </sp>
+                <sp who="#tanis">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="100" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="432" unit="chars"/>
+                </sp>
+                <sp who="#gran_choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="59" unit="chars"/>
+                </sp>
+                <sp who="#berger">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="107" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="456" unit="chars"/>
+                </sp>
+                <sp who="#bergere">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="171" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Tanis, Cléofis, Les Bergers.</head>
+                <sp who="#cleofis">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="153" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="694" unit="chars"/>
+                </sp>
+                <sp who="#tanis_choeur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="40" unit="chars"/>
+                </sp>
+                <sp who="#tanis">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="225" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="965" unit="chars"/>
+                </sp>
+                <sp who="#choeur">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="114" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE I. Otoès, Chef des mages, Choeur des mages.</head>
+                <sp who="#oroes">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="238" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="1104" unit="chars"/>
+                </sp>
+                <sp who="#choeu_mages">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="170" unit="chars"/>
+                </sp>
+                <sp who="#choeur">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="54" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="240" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Otoès, Phanor, Les mages, Suite de Phanor.</head>
+                <sp who="#phanor">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="90" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="386" unit="chars"/>
+                </sp>
+                <sp who="#oroes">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="27" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="137" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Phanor, Suite.</head>
+                <sp who="#phanor">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="112" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="517" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Otoès, Zélide, Les Mages.</head>
+                <sp who="#zelide">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="37" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="172" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Otoès, Zélide, Tanis, Les mages.</head>
+                <sp who="#tanis">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="88" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="379" unit="chars"/>
+                </sp>
+                <sp who="#zelide">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="60" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="249" unit="chars"/>
+                </sp>
+                <sp who="#tanis_zelide">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="123" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Phanor, Les précédents.</head>
+                <sp who="#oroes">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="137" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="570" unit="chars"/>
+                </sp>
+                <sp who="#tanis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="48" unit="chars"/>
+                </sp>
+                <sp who="#zelide">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="36" unit="chars"/>
+                </sp>
+                <sp who="#phanor">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="48" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Tanis, Zélide, Gardes.</head>
+                <sp who="#tanis">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="166" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="749" unit="chars"/>
+                </sp>
+                <sp who="#choeur">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="60" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="259" unit="chars"/>
+                </sp>
+                <sp who="#zelide">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="139" unit="chars"/>
+                </sp>
+                <sp who="#tanis_zelide">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="165" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE I. Zélide, Tanis.</head>
+                <sp who="#zelide">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="230" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="970" unit="chars"/>
+                </sp>
+                <sp who="#tanis">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="184" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="796" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Tanis, Zélide, Otoès, Les mages, Le peuple.</head>
+                <sp who="#oroes">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="118" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="563" unit="chars"/>
+                </sp>
+                <sp who="#tanis">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="133" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="591" unit="chars"/>
+                </sp>
+                <sp who="#mages">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="59" unit="chars"/>
+                </sp>
+                <sp who="#choeur">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="103" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Les Précédents, Les Bergers.</head>
+                <sp who="#tanis">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="99" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="437" unit="chars"/>
+                </sp>
+                <sp who="#choeur">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="301" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

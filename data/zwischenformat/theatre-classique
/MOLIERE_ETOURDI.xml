@@ -1,0 +1,936 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>L'ÉTOURDI</title>
+        <subtitle>ou LES CONTRE-TEMPS</subtitle>
+        <subtitle>COMÉDIE</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>MOLIÈRE</author>
+        <date when="1655">1655</date>
+        <source>https://github.com/dramacode/theatre-classique/MOLIERE_ETOURDI.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>_lie</name>
+            <alias xml:id="_lie">
+                <name>_lie</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>mascarille</name>
+            <alias xml:id="mascarille">
+                <name>mascarille</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>trufaldin</name>
+            <alias xml:id="trufaldin">
+                <name>trufaldin</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>anselme</name>
+            <alias xml:id="anselme">
+                <name>anselme</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>pandolfe</name>
+            <alias xml:id="pandolfe">
+                <name>pandolfe</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>hippolyte</name>
+            <alias xml:id="hippolyte">
+                <name>hippolyte</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>_andre</name>
+            <alias xml:id="_andre">
+                <name>_andre</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_courrier</name>
+            <alias xml:id="l_courrier">
+                <name>l_courrier</name>
+            </alias>
+        </character>
+        <character>
+            <name>ergaste</name>
+            <alias xml:id="ergaste">
+                <name>ergaste</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>andres</name>
+            <alias xml:id="andres">
+                <name>andres</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>and_s</name>
+            <alias xml:id="and_s">
+                <name>and_s</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE PREMIÈRE.</head>
+                <sp who="#_lie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="59" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="285" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Lélie, Mascarille.</head>
+                <sp who="#_lie">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="389" unit="words"/>
+                    <amount n="63" unit="lines"/>
+                    <amount n="1760" unit="chars"/>
+                </sp>
+                <sp who="#mascarille">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="677" unit="words"/>
+                    <amount n="95" unit="lines"/>
+                    <amount n="3264" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Lélie, Célie, Mascarille, Trufaldin.</head>
+                <sp who="#_lie">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="121" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="576" unit="chars"/>
+                </sp>
+                <sp who="#mascarille">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="48" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="208" unit="chars"/>
+                </sp>
+                <sp who="#trufaldin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="2" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="8" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Trufaldin, Célie, Mascarille, Lélie.</head>
+                <sp who="#trufaldin">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="96" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="459" unit="chars"/>
+                </sp>
+                <sp who="#_lie">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="318" unit="words"/>
+                    <amount n="45" unit="lines"/>
+                    <amount n="1513" unit="chars"/>
+                </sp>
+                <sp who="#mascarille">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="353" unit="words"/>
+                    <amount n="52" unit="lines"/>
+                    <amount n="1709" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Anselme, Mascarille.</head>
+                <sp who="#anselme">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="346" unit="words"/>
+                    <amount n="61" unit="lines"/>
+                    <amount n="1587" unit="chars"/>
+                </sp>
+                <sp who="#mascarille">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="261" unit="words"/>
+                    <amount n="50" unit="lines"/>
+                    <amount n="1120" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Lélie, Anselme, Mascarille.</head>
+                <sp who="#_lie">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="83" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="339" unit="chars"/>
+                </sp>
+                <sp who="#anselme">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="50" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="229" unit="chars"/>
+                </sp>
+                <sp who="#mascarille">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="255" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="1172" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Pandolfe, Mascarille.</head>
+                <sp who="#pandolfe">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="134" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="634" unit="chars"/>
+                </sp>
+                <sp who="#mascarille">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="535" unit="words"/>
+                    <amount n="70" unit="lines"/>
+                    <amount n="2608" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Hippolyte, Mascarille.</head>
+                <sp who="#hippolyte">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="311" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="1430" unit="chars"/>
+                </sp>
+                <sp who="#mascarille">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="385" unit="words"/>
+                    <amount n="47" unit="lines"/>
+                    <amount n="1817" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Lélie, Mascarille.</head>
+                <sp who="#_lie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="130" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="602" unit="chars"/>
+                </sp>
+                <sp who="#mascarille">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="85" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="435" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Lélie, Mascarille.</head>
+                <sp who="#mascarille">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="326" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1565" unit="chars"/>
+                </sp>
+                <sp who="#_lie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="118" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="545" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Mascarille, Anselme.</head>
+                <sp who="#mascarille">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="286" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="1318" unit="chars"/>
+                </sp>
+                <sp who="#anselme">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="67" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="310" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Anselme, Mascarille, Lélie.</head>
+                <sp who="#anselme">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="254" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="1205" unit="chars"/>
+                </sp>
+                <sp who="#mascarille">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="133" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="639" unit="chars"/>
+                </sp>
+                <sp who="#_lie">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="40" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Anselme, Pandolfe.</head>
+                <sp who="#anselme">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="394" unit="words"/>
+                    <amount n="50" unit="lines"/>
+                    <amount n="1837" unit="chars"/>
+                </sp>
+                <sp who="#pandolfe">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="203" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="1031" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Lélie, Anselme.</head>
+                <sp who="#_lie">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="76" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="368" unit="chars"/>
+                </sp>
+                <sp who="#anselme">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="198" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="943" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Mascarille, Lélie.</head>
+                <sp who="#mascarille">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="210" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="940" unit="chars"/>
+                </sp>
+                <sp who="#_lie">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="229" unit="words"/>
+                    <amount n="45" unit="lines"/>
+                    <amount n="1087" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Lélie, Mascarille, Trufaldin.</head>
+                <sp who="#_lie">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="225" unit="chars"/>
+                </sp>
+                <sp who="#mascarille">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="399" unit="words"/>
+                    <amount n="53" unit="lines"/>
+                    <amount n="1765" unit="chars"/>
+                </sp>
+                <sp who="#trufaldin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="50" unit="chars"/>
+                </sp>
+                <sp who="#_andre">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="343" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="1594" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Hippolyte, Léandre, Mascarille.</head>
+                <sp who="#hippolyte">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="176" unit="chars"/>
+                </sp>
+                <sp who="#_andre">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="114" unit="chars"/>
+                </sp>
+                <sp who="#mascarille">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="100" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="468" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Mascarille, Trufaldin</head>
+                <sp who="#mascarille">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="65" unit="chars"/>
+                </sp>
+                <sp who="#trufaldin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="25" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="108" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. La Courrier, Trufaldin, Mascarille.</head>
+                <sp who="#l_courrier">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="160" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="754" unit="chars"/>
+                </sp>
+                <sp who="#trufaldin">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="142" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="685" unit="chars"/>
+                </sp>
+                <sp who="#mascarille">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="68" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="322" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Mascarille, Lélie.</head>
+                <sp who="#mascarille">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="253" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="1159" unit="chars"/>
+                </sp>
+                <sp who="#_lie">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="408" unit="words"/>
+                    <amount n="51" unit="lines"/>
+                    <amount n="1972" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE PREMIÈRE.</head>
+                <sp who="#mascarille">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="349" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1656" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Mascarille, Léandre.</head>
+                <sp who="#mascarille">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="282" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="1306" unit="chars"/>
+                </sp>
+                <sp who="#_andre">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="284" unit="words"/>
+                    <amount n="45" unit="lines"/>
+                    <amount n="1332" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Lélie, Léandre.</head>
+                <sp who="#_lie">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="202" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1004" unit="chars"/>
+                </sp>
+                <sp who="#_andre">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="209" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="975" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Lélie, Mascarille, Léandre.</head>
+                <sp who="#_lie">
+                    <amount n="23" unit="speech_acts"/>
+                    <amount n="427" unit="words"/>
+                    <amount n="68" unit="lines"/>
+                    <amount n="1858" unit="chars"/>
+                </sp>
+                <sp who="#mascarille">
+                    <amount n="21" unit="speech_acts"/>
+                    <amount n="649" unit="words"/>
+                    <amount n="91" unit="lines"/>
+                    <amount n="3053" unit="chars"/>
+                </sp>
+                <sp who="#_andre">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="165" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="759" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Ergaste, Mascarille.</head>
+                <sp who="#ergaste">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="102" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="505" unit="chars"/>
+                </sp>
+                <sp who="#mascarille">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="287" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="1329" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Lélie, Ergaste.</head>
+                <sp who="#_lie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="114" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="535" unit="chars"/>
+                </sp>
+                <sp who="#ergaste">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="67" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="322" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Trufaldin, Lélie.</head>
+                <sp who="#trufaldin">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="56" unit="chars"/>
+                </sp>
+                <sp who="#_lie">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="111" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="534" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Trufaldin, Lélie.</head>
+                <sp who="#trufaldin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="155" unit="chars"/>
+                </sp>
+                <sp who="#_lie">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="206" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="984" unit="chars"/>
+                </sp>
+                <sp who="#mascarille">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="183" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Léandre, Trufaldin.</head>
+                <sp who="#_andre">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="142" unit="chars"/>
+                </sp>
+                <sp who="#trufaldin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="94" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="426" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Mascarille, Lélie.</head>
+                <sp who="#mascarille">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="1005" unit="words"/>
+                    <amount n="120" unit="lines"/>
+                    <amount n="4871" unit="chars"/>
+                </sp>
+                <sp who="#_lie">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="285" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="1255" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Trufaldin, Mascarille, Lélie.</head>
+                <sp who="#trufaldin">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="213" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="999" unit="chars"/>
+                </sp>
+                <sp who="#mascarille">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="320" unit="words"/>
+                    <amount n="50" unit="lines"/>
+                    <amount n="1523" unit="chars"/>
+                </sp>
+                <sp who="#_lie">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="107" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="463" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Anselme, Léandre</head>
+                <sp who="#anselme">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="367" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="1825" unit="chars"/>
+                </sp>
+                <sp who="#_andre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="304" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Mascarille, Lélie.</head>
+                <sp who="#mascarille">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="416" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="1992" unit="chars"/>
+                </sp>
+                <sp who="#_lie">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="90" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="440" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Mascarille, Trufaldin, Lélie.</head>
+                <sp who="#mascarille">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="122" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="550" unit="chars"/>
+                </sp>
+                <sp who="#trufaldin">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="284" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="1315" unit="chars"/>
+                </sp>
+                <sp who="#_lie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="43" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Trufaldin, Mascarille, Lélie.</head>
+                <sp who="#trufaldin">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="200" unit="chars"/>
+                </sp>
+                <sp who="#mascarille">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="440" unit="words"/>
+                    <amount n="64" unit="lines"/>
+                    <amount n="2149" unit="chars"/>
+                </sp>
+                <sp who="#_lie">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="169" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="775" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Ergaste, Mascarille.</head>
+                <sp who="#ergaste">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="325" unit="chars"/>
+                </sp>
+                <sp who="#mascarille">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="236" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="1175" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Mascarille, Ergaste.</head>
+                <sp who="#mascarille">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="202" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="952" unit="chars"/>
+                </sp>
+                <sp who="#ergaste">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="128" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="614" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Andrès, Célie.</head>
+                <sp who="#andres">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="313" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="1591" unit="chars"/>
+                </sp>
+                <sp who="#_lie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="74" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="363" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Andrès, Mascarille.</head>
+                <sp who="#andres">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="68" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="318" unit="chars"/>
+                </sp>
+                <sp who="#mascarille">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="157" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="711" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Lélie, Andrès. </head>
+                <sp who="#_lie">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="237" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="1126" unit="chars"/>
+                </sp>
+                <sp who="#andres">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="130" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="621" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Mascarille, Lélie.</head>
+                <sp who="#mascarille">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="159" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="790" unit="chars"/>
+                </sp>
+                <sp who="#_lie">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="158" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="754" unit="chars"/>
+                </sp>
+                <sp who="#andres">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="90" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Andrès, Lélie, Mascarille.</head>
+                <sp who="#andres">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="94" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="431" unit="chars"/>
+                </sp>
+                <sp who="#_lie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="85" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="410" unit="chars"/>
+                </sp>
+                <sp who="#mascarille">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="124" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="576" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Célie, Mascarille.</head>
+                <sp who="#_lie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="211" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="1018" unit="chars"/>
+                </sp>
+                <sp who="#mascarille">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="62" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="286" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Hippolyte, Célie.</head>
+                <sp who="#hippolyte">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="241" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="1202" unit="chars"/>
+                </sp>
+                <sp who="#_lie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="91" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="476" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Mascarille, Célie, Hyppolyte.</head>
+                <sp who="#mascarille">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="897" unit="words"/>
+                    <amount n="98" unit="lines"/>
+                    <amount n="4412" unit="chars"/>
+                </sp>
+                <sp who="#_lie">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="76" unit="chars"/>
+                </sp>
+                <sp who="#hippolyte">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="116" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Trufaldin, Célie, Hippolyte, Andrès.</head>
+                <sp who="#trufaldin">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="43" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="197" unit="chars"/>
+                </sp>
+                <sp who="#_lie">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="78" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="397" unit="chars"/>
+                </sp>
+                <sp who="#hippolyte">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="95" unit="chars"/>
+                </sp>
+                <sp who="#_andre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="140" unit="chars"/>
+                </sp>
+                <sp who="#and_s">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="37" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="188" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Mascarille, Lélie, Trufaldin, Pandolfe, Andrès.</head>
+                <sp who="#mascarille">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="145" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="714" unit="chars"/>
+                </sp>
+                <sp who="#_lie">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="119" unit="chars"/>
+                </sp>
+                <sp who="#trufaldin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="50" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="220" unit="chars"/>
+                </sp>
+                <sp who="#pandolfe">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="22" unit="chars"/>
+                </sp>
+                <sp who="#andres">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="45" unit="chars"/>
+                </sp>
+                <sp who="#anselme">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="4" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="15" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

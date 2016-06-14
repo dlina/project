@@ -1,0 +1,842 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>MONSIEUR DE POURCEAUGNAC</title>
+        <subtitle>COMÉDIE</subtitle>
+        <subtitle>FAITE A CHAMBORD</subtitle>
+        <subtitle>pour le Divertissement du Roi</subtitle>
+        <genretitle>Comédie-ballet</genretitle>
+        <author>Molière</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/MOLIERE_MONSIEURPOURCEAUGNAC.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>premier_voix</name>
+            <alias xml:id="premier_voix">
+                <name>premier_voix</name>
+            </alias>
+        </character>
+        <character>
+            <name>deuxiem_voix</name>
+            <alias xml:id="deuxiem_voix">
+                <name>deuxiem_voix</name>
+            </alias>
+        </character>
+        <character>
+            <name>troisiem_voix</name>
+            <alias xml:id="troisiem_voix">
+                <name>troisiem_voix</name>
+            </alias>
+        </character>
+        <character>
+            <name>troi_voi_ensemble</name>
+            <alias xml:id="troi_voi_ensemble">
+                <name>troi_voi_ensemble</name>
+            </alias>
+        </character>
+        <character>
+            <name>julie</name>
+            <alias xml:id="julie">
+                <name>julie</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>eraste</name>
+            <alias xml:id="eraste">
+                <name>eraste</name>
+            </alias>
+        </character>
+        <character>
+            <name>nerine</name>
+            <alias xml:id="nerine">
+                <name>nerine</name>
+            </alias>
+        </character>
+        <character>
+            <name>sbrigani</name>
+            <alias xml:id="sbrigani">
+                <name>sbrigani</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>monsieu_d_pourceaugnac</name>
+            <alias xml:id="monsieu_d_pourceaugnac">
+                <name>monsieu_d_pourceaugnac</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>_apothicaire</name>
+            <alias xml:id="_apothicaire">
+                <name>_apothicaire</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_paysan</name>
+            <alias xml:id="l_paysan">
+                <name>l_paysan</name>
+            </alias>
+        </character>
+        <character>
+            <name>premie_medecin</name>
+            <alias xml:id="premie_medecin">
+                <name>premie_medecin</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_paysanne</name>
+            <alias xml:id="l_paysanne">
+                <name>l_paysanne</name>
+            </alias>
+        </character>
+        <character>
+            <name>secon_medecin</name>
+            <alias xml:id="secon_medecin">
+                <name>secon_medecin</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>deu_musiciens</name>
+            <alias xml:id="deu_musiciens">
+                <name>deu_musiciens</name>
+            </alias>
+        </character>
+        <character>
+            <name>premie_musicien</name>
+            <alias xml:id="premie_musicien">
+                <name>premie_musicien</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>secon_musicien</name>
+            <alias xml:id="secon_musicien">
+                <name>secon_musicien</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>oronte</name>
+            <alias xml:id="oronte">
+                <name>oronte</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>lucette</name>
+            <alias xml:id="lucette">
+                <name>lucette</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>jeanet_fanchon_madelaine</name>
+            <alias xml:id="jeanet_fanchon_madelaine">
+                <name>jeanet_fanchon_madelaine</name>
+            </alias>
+        </character>
+        <character>
+            <name>avoca_trainant</name>
+            <alias xml:id="avoca_trainant">
+                <name>avoca_trainant</name>
+            </alias>
+        </character>
+        <character>
+            <name>avoca_bredouilleur</name>
+            <alias xml:id="avoca_bredouilleur">
+                <name>avoca_bredouilleur</name>
+            </alias>
+        </character>
+        <character>
+            <name>premie_suisse</name>
+            <alias xml:id="premie_suisse">
+                <name>premie_suisse</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>secon_suisse</name>
+            <alias xml:id="secon_suisse">
+                <name>secon_suisse</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>_exempt</name>
+            <alias xml:id="_exempt">
+                <name>_exempt</name>
+            </alias>
+        </character>
+        <character>
+            <name>un_egyptienne</name>
+            <alias xml:id="un_egyptienne">
+                <name>un_egyptienne</name>
+            </alias>
+        </character>
+        <character>
+            <name>choeu_de_musiciens</name>
+            <alias xml:id="choeu_de_musiciens">
+                <name>choeu_de_musiciens</name>
+            </alias>
+        </character>
+        <character>
+            <name>u_egyptien</name>
+            <alias xml:id="u_egyptien">
+                <name>u_egyptien</name>
+            </alias>
+        </character>
+        <character>
+            <name>egyptien_egyptienne</name>
+            <alias xml:id="egyptien_egyptienne">
+                <name>egyptien_egyptienne</name>
+            </alias>
+        </character>
+        <character>
+            <name>u_musicien</name>
+            <alias xml:id="u_musicien">
+                <name>u_musicien</name>
+            </alias>
+        </character>
+        <character>
+            <name>tou_ensemble</name>
+            <alias xml:id="tou_ensemble">
+                <name>tou_ensemble</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>PROLOGUE</head>
+            <div>
+                <head>OUVERTURE.</head>
+                <sp who="#premier_voix">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="58" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="282" unit="chars"/>
+                </sp>
+                <sp who="#deuxiem_voix">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="253" unit="chars"/>
+                </sp>
+                <sp who="#troisiem_voix">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="137" unit="chars"/>
+                </sp>
+                <sp who="#troi_voi_ensemble">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="54" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="279" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE I. Julie, Eraste, Nérine.</head>
+                <sp who="#julie">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="105" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="497" unit="chars"/>
+                </sp>
+                <sp who="#eraste">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="161" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="820" unit="chars"/>
+                </sp>
+                <sp who="#nerine">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="243" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="1148" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Sbrigani, Julie, Eraste, Nérine.</head>
+                <sp who="#sbrigani">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="321" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="1530" unit="chars"/>
+                </sp>
+                <sp who="#eraste">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="131" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="582" unit="chars"/>
+                </sp>
+                <sp who="#nerine">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="132" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="612" unit="chars"/>
+                </sp>
+                <sp who="#julie">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="108" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="544" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Monsieur de Pourceaugnac se tourne du côté d'où il vient, comme parlant à des gens qui le suivent, Sbrigani.</head>
+                <sp who="#monsieu_d_pourceaugnac">
+                    <amount n="33" unit="speech_acts"/>
+                    <amount n="289" unit="words"/>
+                    <amount n="113" unit="lines"/>
+                    <amount n="1196" unit="chars"/>
+                </sp>
+                <sp who="#sbrigani">
+                    <amount n="33" unit="speech_acts"/>
+                    <amount n="439" unit="words"/>
+                    <amount n="105" unit="lines"/>
+                    <amount n="2070" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Eraste, Sbrigani, Monsieur de Pourceaugnac. </head>
+                <sp who="#eraste">
+                    <amount n="39" unit="speech_acts"/>
+                    <amount n="593" unit="words"/>
+                    <amount n="146" unit="lines"/>
+                    <amount n="2687" unit="chars"/>
+                </sp>
+                <sp who="#monsieu_d_pourceaugnac">
+                    <amount n="36" unit="speech_acts"/>
+                    <amount n="366" unit="words"/>
+                    <amount n="125" unit="lines"/>
+                    <amount n="1658" unit="chars"/>
+                </sp>
+                <sp who="#sbrigani">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="73" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="356" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. L'Apothicaire, Eraste.</head>
+                <sp who="#eraste">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="142" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="665" unit="chars"/>
+                </sp>
+                <sp who="#_apothicaire">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="519" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="2329" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Premier Médecin, Un Paysan, Une Paysanne, Eraste, L'Apothicaire.</head>
+                <sp who="#l_paysan">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="190" unit="chars"/>
+                </sp>
+                <sp who="#premie_medecin">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="209" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="940" unit="chars"/>
+                </sp>
+                <sp who="#l_paysanne">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="27" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="115" unit="chars"/>
+                </sp>
+                <sp who="#_apothicaire">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="48" unit="chars"/>
+                </sp>
+                <sp who="#eraste">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="49" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="226" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Monsieur de Pourceaugnac, Eraste, Premier Médecin, L'Apothicaire.</head>
+                <sp who="#eraste">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="111" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="529" unit="chars"/>
+                </sp>
+                <sp who="#premie_medecin">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="57" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="265" unit="chars"/>
+                </sp>
+                <sp who="#monsieu_d_pourceaugnac">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="87" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="380" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Premier Médecin, Second Médecin, Monsieur de Pourceaugnac, L'Apothicaire</head>
+                <sp who="#premie_medecin">
+                    <amount n="21" unit="speech_acts"/>
+                    <amount n="1110" unit="words"/>
+                    <amount n="75" unit="lines"/>
+                    <amount n="5786" unit="chars"/>
+                </sp>
+                <sp who="#monsieu_d_pourceaugnac">
+                    <amount n="20" unit="speech_acts"/>
+                    <amount n="235" unit="words"/>
+                    <amount n="70" unit="lines"/>
+                    <amount n="1082" unit="chars"/>
+                </sp>
+                <sp who="#secon_medecin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="355" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="1682" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE I..</head>
+                <sp who="#monsieu_d_pourceaugnac">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="133" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Deux Musiciens italiens en médecins grotesques suivis de Huit Matassins, chantent ces paroles soutenues de la symphonie d'un mélange d'instruments.</head>
+                <sp who="#deu_musiciens">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="183" unit="chars"/>
+                </sp>
+                <sp who="#premie_musicien">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="140" unit="chars"/>
+                </sp>
+                <sp who="#secon_musicien">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="179" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. L'Apothicaire, Monsieur de Pourceaugnac.</head>
+                <sp who="#_apothicaire">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="150" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="687" unit="chars"/>
+                </sp>
+                <sp who="#monsieu_d_pourceaugnac">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="89" unit="chars"/>
+                </sp>
+                <sp who="#deu_musiciens">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="184" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE I. Sbrigani, Premier Médecin.</head>
+                <sp who="#premie_medecin">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="139" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="664" unit="chars"/>
+                </sp>
+                <sp who="#sbrigani">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="151" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="726" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Oronte, Premier Médecin.</head>
+                <sp who="#premie_medecin">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="296" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="1333" unit="chars"/>
+                </sp>
+                <sp who="#oronte">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="88" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="343" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Sbrigani, en marchand flamand, Oronte.</head>
+                <sp who="#sbrigani">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="338" unit="words"/>
+                    <amount n="48" unit="lines"/>
+                    <amount n="1651" unit="chars"/>
+                </sp>
+                <sp who="#oronte">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="92" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="403" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Monsieur de Pourceaugnac, Sbrigani.</head>
+                <sp who="#monsieu_d_pourceaugnac">
+                    <amount n="23" unit="speech_acts"/>
+                    <amount n="472" unit="words"/>
+                    <amount n="91" unit="lines"/>
+                    <amount n="2061" unit="chars"/>
+                </sp>
+                <sp who="#sbrigani">
+                    <amount n="23" unit="speech_acts"/>
+                    <amount n="540" unit="words"/>
+                    <amount n="85" unit="lines"/>
+                    <amount n="2426" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Oronte, Monsieur de Pourceaugnac.</head>
+                <sp who="#monsieu_d_pourceaugnac">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="49" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="255" unit="chars"/>
+                </sp>
+                <sp who="#oronte">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="232" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Julie, Oronte, Monsieur de Pourceaugnac.</head>
+                <sp who="#julie">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="157" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="672" unit="chars"/>
+                </sp>
+                <sp who="#oronte">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="352" unit="words"/>
+                    <amount n="62" unit="lines"/>
+                    <amount n="1535" unit="chars"/>
+                </sp>
+                <sp who="#monsieu_d_pourceaugnac">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="190" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="899" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Lucette, Oronte, Monsieur de Pourceaugnac.</head>
+                <sp who="#lucette">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="384" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="1866" unit="chars"/>
+                </sp>
+                <sp who="#monsieu_d_pourceaugnac">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="147" unit="chars"/>
+                </sp>
+                <sp who="#oronte">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="84" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Nérine, en Picarde, Lucette, Oronte, Monsieur de Pourceaugnac</head>
+                <sp who="#nerine">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="257" unit="words"/>
+                    <amount n="52" unit="lines"/>
+                    <amount n="1118" unit="chars"/>
+                </sp>
+                <sp who="#monsieu_d_pourceaugnac">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="183" unit="chars"/>
+                </sp>
+                <sp who="#oronte">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="101" unit="chars"/>
+                </sp>
+                <sp who="#lucette">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="255" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="1150" unit="chars"/>
+                </sp>
+                <sp who="#jeanet_fanchon_madelaine">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="68" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX.</head>
+                <sp who="#sbrigani">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="148" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Monsieur de Pourceaugnac, Sbrigani.</head>
+                <sp who="#monsieu_d_pourceaugnac">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="301" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1476" unit="chars"/>
+                </sp>
+                <sp who="#sbrigani">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="183" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="887" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Sbrigani, Monsieur de Pourceaugnac, Deux Avocats musiciens, dont l'un parle fort lentement, et l'autre fort vite accompagnés de deux Procureurs et de deux Sergents.</head>
+                <sp who="#avoca_trainant">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="46" unit="chars"/>
+                </sp>
+                <sp who="#avoca_bredouilleur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="136" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="619" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I. Eraste, Sbrigani.</head>
+                <sp who="#sbrigani">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="173" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="777" unit="chars"/>
+                </sp>
+                <sp who="#eraste">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="85" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Monsieur de Pourceaugnac, en femme, Sbrigani.</head>
+                <sp who="#sbrigani">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="304" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="1372" unit="chars"/>
+                </sp>
+                <sp who="#monsieu_d_pourceaugnac">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="233" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1082" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Deux Suisses, Monsieur de Pourceaugnac.</head>
+                <sp who="#premie_suisse">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="156" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="736" unit="chars"/>
+                </sp>
+                <sp who="#secon_suisse">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="99" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="424" unit="chars"/>
+                </sp>
+                <sp who="#monsieu_d_pourceaugnac">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="54" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="234" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Un Exempt, deux Archers, Premier et Second suisses, Monsieur de Pourceaugnac.</head>
+                <sp who="#_exempt">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="128" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="569" unit="chars"/>
+                </sp>
+                <sp who="#premie_suisse">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="34" unit="chars"/>
+                </sp>
+                <sp who="#secon_suisse">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="47" unit="chars"/>
+                </sp>
+                <sp who="#monsieu_d_pourceaugnac">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="171" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. L'Exempt, Archers, Sbrigani, Monsieur de Pourceaugnac.</head>
+                <sp who="#sbrigani">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="196" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="823" unit="chars"/>
+                </sp>
+                <sp who="#monsieu_d_pourceaugnac">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="122" unit="chars"/>
+                </sp>
+                <sp who="#_exempt">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="82" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="349" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Oronte, Sbrigani.</head>
+                <sp who="#sbrigani">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="95" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="443" unit="chars"/>
+                </sp>
+                <sp who="#oronte">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="25" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="117" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Eraste, Julie, Sbrigani, Oronte.</head>
+                <sp who="#eraste">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="561" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="2713" unit="chars"/>
+                </sp>
+                <sp who="#oronte">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="196" unit="words"/>
+                    <amount n="45" unit="lines"/>
+                    <amount n="829" unit="chars"/>
+                </sp>
+                <sp who="#julie">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="103" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="464" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Plusieurs masques de toutes les manières, dont les uns occupent plusieurs balcons, et les autres sont dans la place, qui, par plusieurs chansons et diverses danses et jeux, cherchent à se donner des plaisirs innocents.</head>
+                <sp who="#un_egyptienne">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="101" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="443" unit="chars"/>
+                </sp>
+                <sp who="#choeu_de_musiciens">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="67" unit="chars"/>
+                </sp>
+                <sp who="#u_egyptien">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="54" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="239" unit="chars"/>
+                </sp>
+                <sp who="#egyptien_egyptienne">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="179" unit="chars"/>
+                </sp>
+                <sp who="#u_musicien">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="97" unit="chars"/>
+                </sp>
+                <sp who="#tou_ensemble">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="67" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

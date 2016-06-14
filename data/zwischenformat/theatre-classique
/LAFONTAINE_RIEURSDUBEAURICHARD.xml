@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LES RIEURS DU BEAU-RICHARD</title>
+        <subtitle>BALLET</subtitle>
+        <genretitle>Ballet</genretitle>
+        <author>LA FONTAINE, Jean de</author>
+        <date when="1659">1659</date>
+        <source>https://github.com/dramacode/theatre-classique/LAFONTAINE_RIEURSDUBEAURICHARD.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>rieur</name>
+            <alias xml:id="rieur">
+                <name>rieur</name>
+            </alias>
+        </character>
+        <character>
+            <name>marchand</name>
+            <alias xml:id="marchand">
+                <name>marchand</name>
+            </alias>
+        </character>
+        <character>
+            <name>cribleurs</name>
+            <alias xml:id="cribleurs">
+                <name>cribleurs</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_marchand</name>
+            <alias xml:id="le_marchand">
+                <name>le_marchand</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_savetier</name>
+            <alias xml:id="le_savetier">
+                <name>le_savetier</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_notaire</name>
+            <alias xml:id="l_notaire">
+                <name>l_notaire</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_meunier</name>
+            <alias xml:id="l_meunier">
+                <name>l_meunier</name>
+            </alias>
+        </character>
+        <character>
+            <name>_ane</name>
+            <alias xml:id="_ane">
+                <name>_ane</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_femme</name>
+            <alias xml:id="l_femme">
+                <name>l_femme</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_patissier</name>
+            <alias xml:id="l_patissier">
+                <name>l_patissier</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head/>
+            <div>
+                <head>PROLOGUE.</head>
+                <sp who="#rieur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="322" unit="words"/>
+                    <amount n="50" unit="lines"/>
+                    <amount n="1534" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>PREMIÈRE ENTRÉE.</head>
+                <sp who="#marchand">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="137" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SECONDE ENTRÉE. Le Marchand, deux Cribleurs.</head>
+                <sp who="#cribleurs">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="234" unit="chars"/>
+                </sp>
+                <sp who="#le_marchand">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="30" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>TROISIÈME ENTRÉE. Le Marchand, un Savetier. </head>
+                <sp who="#le_savetier">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="57" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="246" unit="chars"/>
+                </sp>
+                <sp who="#le_marchand">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="72" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="337" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>QUATRIÈME ENTRÉE. Le Marchand, un Notaire ; le Savetier, vers la fin.
+</head>
+                <sp who="#l_notaire">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="132" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="600" unit="chars"/>
+                </sp>
+                <sp who="#le_savetier">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="49" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="209" unit="chars"/>
+                </sp>
+                <sp who="#le_marchand">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="89" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="400" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>CINQUIÈME ENTRÉE. Un Meunier, et son âne.</head>
+                <sp who="#l_meunier">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="132" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="608" unit="chars"/>
+                </sp>
+                <sp who="#_ane">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="58" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SIXIÈME ENTRÉE. La Femme du Savetier entre d'abord seule, et ensuite le Marchand de blé. </head>
+                <sp who="#l_femme">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="100" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="450" unit="chars"/>
+                </sp>
+                <sp who="#le_marchand">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="109" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="492" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SEPTIÈME ENTRÉE. La Femme et le Marchand tous deux dans la boutique, et un Pâtissier qui apporte la collation.</head>
+                <sp who="#l_patissier">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="176" unit="chars"/>
+                </sp>
+                <sp who="#le_marchand">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="64" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="267" unit="chars"/>
+                </sp>
+                <sp who="#l_femme">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="62" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="246" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>HUITIÈME ENTRÉE.</head>
+                <sp who="#le_savetier">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="180" unit="chars"/>
+                </sp>
+                <sp who="#le_marchand">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="53" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

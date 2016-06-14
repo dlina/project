@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>NANINE</title>
+        <subtitle>COMÉDIE EN TROIS ACTES</subtitle>
+        <subtitle>EN VERS DE DIX SYLLABES</subtitle>
+        <subtitle>Donnée par l'Auteur</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>VOLTAIRE</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/VOLTAIRE_NANINE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>l_baronne</name>
+            <alias xml:id="l_baronne">
+                <name>l_baronne</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_comte</name>
+            <alias xml:id="l_comte">
+                <name>l_comte</name>
+            </alias>
+        </character>
+        <character>
+            <name>blaise</name>
+            <alias xml:id="blaise">
+                <name>blaise</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>nanine</name>
+            <alias xml:id="nanine">
+                <name>nanine</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>germon</name>
+            <alias xml:id="germon">
+                <name>germon</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>marin</name>
+            <alias xml:id="marin">
+                <name>marin</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_marquise</name>
+            <alias xml:id="l_marquise">
+                <name>l_marquise</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_paysan</name>
+            <alias xml:id="l_paysan">
+                <name>l_paysan</name>
+            </alias>
+        </character>
+        <character>
+            <name>philipp_hombert</name>
+            <alias xml:id="philipp_hombert">
+                <name>philipp_hombert</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE I. Le Comte D'Olban, La Baronne de L'Orme.</head>
+                <sp who="#l_baronne">
+                    <amount n="22" unit="speech_acts"/>
+                    <amount n="631" unit="words"/>
+                    <amount n="102" unit="lines"/>
+                    <amount n="2929" unit="chars"/>
+                </sp>
+                <sp who="#l_comte">
+                    <amount n="22" unit="speech_acts"/>
+                    <amount n="678" unit="words"/>
+                    <amount n="104" unit="lines"/>
+                    <amount n="3064" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Le Comte, La Baronne, Blaise.</head>
+                <sp who="#l_comte">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="128" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="505" unit="chars"/>
+                </sp>
+                <sp who="#blaise">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="223" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="948" unit="chars"/>
+                </sp>
+                <sp who="#l_baronne">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="77" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. La Baronne, Blaise.</head>
+                <sp who="#l_baronne">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="128" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="546" unit="chars"/>
+                </sp>
+                <sp who="#blaise">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="123" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="537" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV.</head>
+                <sp who="#l_baronne">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="170" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="835" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. La Baronne, Nanine.</head>
+                <sp who="#nanine">
+                    <amount n="20" unit="speech_acts"/>
+                    <amount n="358" unit="words"/>
+                    <amount n="72" unit="lines"/>
+                    <amount n="1668" unit="chars"/>
+                </sp>
+                <sp who="#l_baronne">
+                    <amount n="20" unit="speech_acts"/>
+                    <amount n="613" unit="words"/>
+                    <amount n="98" unit="lines"/>
+                    <amount n="2752" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI.</head>
+                <sp who="#nanine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="171" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="820" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Le Comte, Nanine, un laquais.</head>
+                <sp who="#l_comte">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="474" unit="words"/>
+                    <amount n="70" unit="lines"/>
+                    <amount n="2156" unit="chars"/>
+                </sp>
+                <sp who="#nanine">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="316" unit="words"/>
+                    <amount n="50" unit="lines"/>
+                    <amount n="1410" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Le Comte, Nanine, Germon.</head>
+                <sp who="#germon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="36" unit="chars"/>
+                </sp>
+                <sp who="#l_comte">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="57" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="255" unit="chars"/>
+                </sp>
+                <sp who="#nanine">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="48" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="195" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Le Comte, Germon.</head>
+                <sp who="#l_comte">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="302" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="1397" unit="chars"/>
+                </sp>
+                <sp who="#germon">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="96" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE I. Le Comte, Marin.</head>
+                <sp who="#l_comte">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="239" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="1034" unit="chars"/>
+                </sp>
+                <sp who="#marin">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="63" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="307" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Le Comte, Germon.</head>
+                <sp who="#l_comte">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="313" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="1375" unit="chars"/>
+                </sp>
+                <sp who="#germon">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="58" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="253" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Le Comte, Nanine.</head>
+                <sp who="#l_comte">
+                    <amount n="20" unit="speech_acts"/>
+                    <amount n="484" unit="words"/>
+                    <amount n="81" unit="lines"/>
+                    <amount n="2181" unit="chars"/>
+                </sp>
+                <sp who="#nanine">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="518" unit="words"/>
+                    <amount n="85" unit="lines"/>
+                    <amount n="2326" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV.</head>
+                <sp who="#nanine">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="180" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="798" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Nanine, Blaise.</head>
+                <sp who="#blaise">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="190" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="792" unit="chars"/>
+                </sp>
+                <sp who="#nanine">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="193" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="838" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. La Baronne, Blaise.</head>
+                <sp who="#blaise">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="109" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="441" unit="chars"/>
+                </sp>
+                <sp who="#l_baronne">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="96" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="429" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII.</head>
+                <sp who="#l_baronne">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="220" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="1016" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Le Comte, La Baronne.</head>
+                <sp who="#l_baronne">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="176" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="795" unit="chars"/>
+                </sp>
+                <sp who="#l_comte">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="56" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="268" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Le Comte, La Baronne, Germon.</head>
+                <sp who="#germon">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="71" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="320" unit="chars"/>
+                </sp>
+                <sp who="#l_baronne">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="82" unit="chars"/>
+                </sp>
+                <sp who="#l_comte">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="196" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Le Comte, La Baronne.</head>
+                <sp who="#l_baronne">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="109" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="533" unit="chars"/>
+                </sp>
+                <sp who="#l_comte">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="96" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="401" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. La Marquise, Le Comte, La Baronne.</head>
+                <sp who="#l_comte">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="200" unit="chars"/>
+                </sp>
+                <sp who="#l_marquise">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="59" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="255" unit="chars"/>
+                </sp>
+                <sp who="#l_baronne">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="119" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII. La Marquise, Le Comte.</head>
+                <sp who="#l_marquise">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="253" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="1131" unit="chars"/>
+                </sp>
+                <sp who="#l_comte">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="60" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIII. La Marquise, Le Comte, Germon.</head>
+                <sp who="#germon">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="114" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="550" unit="chars"/>
+                </sp>
+                <sp who="#l_comte">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="101" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="429" unit="chars"/>
+                </sp>
+                <sp who="#l_marquise">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="369" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="1706" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I. Nanine, vêtue en paysanne ; Germon.</head>
+                <sp who="#germon">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="227" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1064" unit="chars"/>
+                </sp>
+                <sp who="#nanine">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="166" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="652" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Le Comte, Germon.</head>
+                <sp who="#l_comte">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="224" unit="words"/>
+                    <amount n="51" unit="lines"/>
+                    <amount n="1015" unit="chars"/>
+                </sp>
+                <sp who="#germon">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="274" unit="words"/>
+                    <amount n="50" unit="lines"/>
+                    <amount n="1215" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III.</head>
+                <sp who="#l_comte">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="90" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="368" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Le Comte, La Baronne, La Marquise.</head>
+                <sp who="#l_marquise">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="242" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1028" unit="chars"/>
+                </sp>
+                <sp who="#l_comte">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="46" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="191" unit="chars"/>
+                </sp>
+                <sp who="#l_baronne">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="162" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Le Comte, La Marquise, La Baronne ; Marin, en bottes.</head>
+                <sp who="#marin">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="182" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="845" unit="chars"/>
+                </sp>
+                <sp who="#l_marquise">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="106" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="496" unit="chars"/>
+                </sp>
+                <sp who="#l_baronne">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="171" unit="chars"/>
+                </sp>
+                <sp who="#l_comte">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="147" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Le Comte, La Marquise, La Baronne, Le Paysan.</head>
+                <sp who="#l_marquise">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="202" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="902" unit="chars"/>
+                </sp>
+                <sp who="#l_paysan">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="436" unit="words"/>
+                    <amount n="64" unit="lines"/>
+                    <amount n="1995" unit="chars"/>
+                </sp>
+                <sp who="#l_comte">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="359" unit="words"/>
+                    <amount n="65" unit="lines"/>
+                    <amount n="1623" unit="chars"/>
+                </sp>
+                <sp who="#l_baronne">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="199" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="902" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Le Comte, La Marquise, Philippe Hombert.</head>
+                <sp who="#l_comte">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="107" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="495" unit="chars"/>
+                </sp>
+                <sp who="#l_marquise">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="51" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Le Comte, La Marquise, Nanine, Philippe Hombert.</head>
+                <sp who="#l_comte">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="269" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1179" unit="chars"/>
+                </sp>
+                <sp who="#l_marquise">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="111" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="485" unit="chars"/>
+                </sp>
+                <sp who="#nanine">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="135" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="595" unit="chars"/>
+                </sp>
+                <sp who="#philipp_hombert">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="48" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="212" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

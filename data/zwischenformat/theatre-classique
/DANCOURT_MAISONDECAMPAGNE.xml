@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LA MAISON DE CAMPAGNE</title>
+        <subtitle>COMÉDIE</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>DANCOURT, Florent CARTON dit</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/DANCOURT_MAISONDECAMPAGNE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>lisette</name>
+            <alias xml:id="lisette">
+                <name>lisette</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>éraste</name>
+            <alias xml:id="éraste">
+                <name>éraste</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>la_f_che</name>
+            <alias xml:id="la_f_che">
+                <name>la_f_che</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>mariane</name>
+            <alias xml:id="mariane">
+                <name>mariane</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>monsieur_bernard</name>
+            <alias xml:id="monsieur_bernard">
+                <name>monsieur_bernard</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>thibaut</name>
+            <alias xml:id="thibaut">
+                <name>thibaut</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_soldat</name>
+            <alias xml:id="le_soldat">
+                <name>le_soldat</name>
+            </alias>
+        </character>
+        <character>
+            <name>monsieur_griffard</name>
+            <alias xml:id="monsieur_griffard">
+                <name>monsieur_griffard</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_marquis</name>
+            <alias xml:id="le_marquis">
+                <name>le_marquis</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_baron</name>
+            <alias xml:id="le_baron">
+                <name>le_baron</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>madam_bernard</name>
+            <alias xml:id="madam_bernard">
+                <name>madam_bernard</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_cousin</name>
+            <alias xml:id="le_cousin">
+                <name>le_cousin</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_cousine</name>
+            <alias xml:id="l_cousine">
+                <name>l_cousine</name>
+            </alias>
+        </character>
+        <character>
+            <name>nicole</name>
+            <alias xml:id="nicole">
+                <name>nicole</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>dorante</name>
+            <alias xml:id="dorante">
+                <name>dorante</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>premie_houbereau</name>
+            <alias xml:id="premie_houbereau">
+                <name>premie_houbereau</name>
+            </alias>
+        </character>
+        <character>
+            <name>deux_m_houbereau</name>
+            <alias xml:id="deux_m_houbereau">
+                <name>deux_m_houbereau</name>
+            </alias>
+        </character>
+        <character>
+            <name>trois_m_houbereau</name>
+            <alias xml:id="trois_m_houbereau">
+                <name>trois_m_houbereau</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head/>
+            <div>
+                <head>SCÈNE I. Éraste, La Flèche, Lisette.</head>
+                <sp who="#lisette">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="474" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="2157" unit="chars"/>
+                </sp>
+                <sp who="#éraste">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="127" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="605" unit="chars"/>
+                </sp>
+                <sp who="#la_f_che">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="205" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="908" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Lisette, Mariane.</head>
+                <sp who="#lisette">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="192" unit="chars"/>
+                </sp>
+                <sp who="#mariane">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="45" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="208" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Mariane, Éraste, Lisette, La Flèche.</head>
+                <sp who="#mariane">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="152" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="739" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="91" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="381" unit="chars"/>
+                </sp>
+                <sp who="#éraste">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="202" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="926" unit="chars"/>
+                </sp>
+                <sp who="#la_f_che">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="123" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE I.. Monsieur Bernard, Thibaut.</head>
+                <sp who="#monsieur_bernard">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="192" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="828" unit="chars"/>
+                </sp>
+                <sp who="#thibaut">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="387" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="1799" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Monsieur Bernard, Thibaut, Lisette.</head>
+                <sp who="#lisette">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="142" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="655" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_bernard">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="126" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="565" unit="chars"/>
+                </sp>
+                <sp who="#thibaut">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="79" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Monsieur Bernard, Thibaut, Un Soldat.</head>
+                <sp who="#le_soldat">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="83" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="385" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_bernard">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="124" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="519" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Monsieur Bernard, Monsieur Griffard.</head>
+                <sp who="#monsieur_griffard">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="257" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="1201" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_bernard">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="268" unit="words"/>
+                    <amount n="48" unit="lines"/>
+                    <amount n="1160" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Monsieur Bernanrd, Le Marquis, Monsieur Griffard.</head>
+                <sp who="#le_marquis">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="227" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="1024" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_bernard">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="91" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="380" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Thibaut, Monsieur Bernard, Le Marquis, Monsieur Griffard.</head>
+                <sp who="#thibaut">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="175" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_bernard">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="2" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="12" unit="chars"/>
+                </sp>
+                <sp who="#le_marquis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="20" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Monsieur Bernard, La Marquis, Le Baron, Thibaut, Monsieur Griffard.</head>
+                <sp who="#le_baron">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="77" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="387" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_bernard">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="107" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="451" unit="chars"/>
+                </sp>
+                <sp who="#thibaut">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="82" unit="chars"/>
+                </sp>
+                <sp who="#le_marquis">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="216" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="997" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_griffard">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="40" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Monsieur Bernard, Madame Bernard, Le Marquis, Le Baron, Monsieur Griffard.</head>
+                <sp who="#le_marquis">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="87" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="342" unit="chars"/>
+                </sp>
+                <sp who="#le_baron">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="94" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="448" unit="chars"/>
+                </sp>
+                <sp who="#madam_bernard">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="105" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_bernard">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="75" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="332" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X.I. Monsieur et Madame Bernard, Le Marquis, Le Barono, Thibaut, Monsieur Griffard.</head>
+                <sp who="#thibaut">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="69" unit="chars"/>
+                </sp>
+                <sp who="#le_baron">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="67" unit="chars"/>
+                </sp>
+                <sp who="#le_marquis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="49" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIII. Monsieur et Madame Bernard, Le Marquis. </head>
+                <sp who="#monsieur_bernard">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="164" unit="chars"/>
+                </sp>
+                <sp who="#madam_bernard">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="163" unit="chars"/>
+                </sp>
+                <sp who="#le_marquis">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="139" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="612" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIV. Monsieur et Madame Bernard.</head>
+                <sp who="#madam_bernard">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="120" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="611" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_bernard">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="110" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="478" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XV. Monsieur et Madame Bernard, Lisette.</head>
+                <sp who="#lisette">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="48" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="228" unit="chars"/>
+                </sp>
+                <sp who="#madam_bernard">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="54" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="273" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_bernard">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="137" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVI. Monsieur et Madame Bernard, Le Cousin, La Cousine.</head>
+                <sp who="#le_cousin">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="208" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="956" unit="chars"/>
+                </sp>
+                <sp who="#madam_bernard">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="97" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_bernard">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="36" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="151" unit="chars"/>
+                </sp>
+                <sp who="#l_cousine">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="45" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="210" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVII.</head>
+                <sp who="#monsieur_bernard">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="139" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="597" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVIII. Monsieur Bernard, Thibaut.</head>
+                <sp who="#thibaut">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="334" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="1472" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_bernard">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="50" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="212" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIX. Monsieur Bernard, Nicole.</head>
+                <sp who="#nicole">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="136" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="624" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_bernard">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="48" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="204" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XX. Monsieur Bernard, Thibaut, Nicole.</head>
+                <sp who="#thibaut">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="42" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="187" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_bernard">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="67" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXI. Monsieur Bernard, Thibaut, Nicole,  Monsieur Griffard.</head>
+                <sp who="#monsieur_griffard">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="172" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="766" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_bernard">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="181" unit="words"/>
+                    <amount n="48" unit="lines"/>
+                    <amount n="808" unit="chars"/>
+                </sp>
+                <sp who="#thibaut">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="87" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXII. Monsieur Bernanrd, Lisette, Monsieur Griffard.</head>
+                <sp who="#lisette">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="241" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_bernard">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="207" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXIII. Mariane, Lisette.</head>
+                <sp who="#lisette">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="117" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="527" unit="chars"/>
+                </sp>
+                <sp who="#mariane">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="86" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="388" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXIV. Mariane, Le Cousin, Lisette.</head>
+                <sp who="#le_cousin">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="420" unit="words"/>
+                    <amount n="52" unit="lines"/>
+                    <amount n="1809" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="67" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="304" unit="chars"/>
+                </sp>
+                <sp who="#mariane">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="91" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="371" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXV. Thibaut, Lisette.</head>
+                <sp who="#thibaut">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="128" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="563" unit="chars"/>
+                </sp>
+                <sp who="#lisette">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="172" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXVI. Monsieur Bernard, Thibaud, Monsieur Griffard.</head>
+                <sp who="#monsieur_griffard">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="31" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_bernard">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="88" unit="chars"/>
+                </sp>
+                <sp who="#thibaut">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="61" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="277" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXVII. Monsieur Bernard, Dorante, Thibaut,  Monsieur Griffard.</head>
+                <sp who="#monsieur_bernard">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="153" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="683" unit="chars"/>
+                </sp>
+                <sp who="#dorante">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="167" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="849" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXVIII. Dorante, Thibaut.</head>
+                <sp who="#thibaut">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="69" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="301" unit="chars"/>
+                </sp>
+                <sp who="#dorante">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="53" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="255" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXIX. Dorante, Trois houbereaux, Thibaut.</head>
+                <sp who="#dorante">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="93" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="434" unit="chars"/>
+                </sp>
+                <sp who="#premie_houbereau">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="149" unit="chars"/>
+                </sp>
+                <sp who="#deux_m_houbereau">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="68" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="296" unit="chars"/>
+                </sp>
+                <sp who="#trois_m_houbereau">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="116" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXX. Monsieur Bernard, habillé en cuisinier, Dorante, Les trois houbereaux, Monsieur Griffard</head>
+                <sp who="#monsieur_bernard">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="138" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="643" unit="chars"/>
+                </sp>
+                <sp who="#dorante">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="147" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="611" unit="chars"/>
+                </sp>
+                <sp who="#premie_houbereau">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="63" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="321" unit="chars"/>
+                </sp>
+                <sp who="#deux_m_houbereau">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="34" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="166" unit="chars"/>
+                </sp>
+                <sp who="#trois_m_houbereau">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="86" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_griffard">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="27" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXXI. Monsieur Bernard, Monsieur Griffard.</head>
+                <sp who="#monsieur_griffard">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="48" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="217" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_bernard">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="33" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="163" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXXII. Lisette, La Flèche, Monsieur Bernard, Monsieur Griffard.</head>
+                <sp who="#lisette">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="139" unit="chars"/>
+                </sp>
+                <sp who="#la_f_che">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="113" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="522" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_bernard">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="45" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="221" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXXIII. Monsieur et Madame Bernard, La Flèche.;</head>
+                <sp who="#madam_bernard">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="89" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="429" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_bernard">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="56" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="250" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XXXIV. Monsieur et Madmame Bernard, Éraste, La Flèche, Monsieur Griffard.</head>
+                <sp who="#éraste">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="174" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="843" unit="chars"/>
+                </sp>
+                <sp who="#monsieur_bernard">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="88" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="365" unit="chars"/>
+                </sp>
+                <sp who="#madam_bernard">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="65" unit="chars"/>
+                </sp>
+                <sp who="#la_f_che">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="131" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

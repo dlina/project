@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LE PHILINTE DE MOLIÈRE</title>
+        <subtitle>ou La suite du Misanthrope </subtitle>
+        <subtitle>COMÉDIE EN CINQ ACTES, EN VERS.</subtitle>
+        <subtitle>représentée pour la première fois à Paris en 1790.</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>FABRE D'EGLANTINE, Jean-François-Nazaire Fabre dit</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/FABREDEGLANTINE_PHILINTEDEMOLIERE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>philinte</name>
+            <alias xml:id="philinte">
+                <name>philinte</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>éliante</name>
+            <alias xml:id="éliante">
+                <name>éliante</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>dubois</name>
+            <alias xml:id="dubois">
+                <name>dubois</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>alceste</name>
+            <alias xml:id="alceste">
+                <name>alceste</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>l_avocat</name>
+            <alias xml:id="l_avocat">
+                <name>l_avocat</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_procureur</name>
+            <alias xml:id="le_procureur">
+                <name>le_procureur</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_commissaire</name>
+            <alias xml:id="le_commissaire">
+                <name>le_commissaire</name>
+            </alias>
+        </character>
+        <character>
+            <name>l_huissier</name>
+            <alias xml:id="l_huissier">
+                <name>l_huissier</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE I. Éliante, Pphilinte.</head>
+                <sp who="#philinte">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="491" unit="words"/>
+                    <amount n="64" unit="lines"/>
+                    <amount n="2257" unit="chars"/>
+                </sp>
+                <sp who="#éliante">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="231" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1096" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Éliante, Dubois, Philinte.</head>
+                <sp who="#dubois">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="397" unit="words"/>
+                    <amount n="48" unit="lines"/>
+                    <amount n="1647" unit="chars"/>
+                </sp>
+                <sp who="#philinte">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="175" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="793" unit="chars"/>
+                </sp>
+                <sp who="#éliante">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="90" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="452" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Éliante, Alceste, Philinte.</head>
+                <sp who="#philinte">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="140" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="669" unit="chars"/>
+                </sp>
+                <sp who="#éliante">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="43" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="222" unit="chars"/>
+                </sp>
+                <sp who="#alceste">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="399" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="1962" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Éliante, Dubois, Alceste, Philinte.</head>
+                <sp who="#dubois">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="40" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="140" unit="chars"/>
+                </sp>
+                <sp who="#alceste">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="113" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="476" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Éliante, Alceste, Philinte.</head>
+                <sp who="#philinte">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="160" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="689" unit="chars"/>
+                </sp>
+                <sp who="#alceste">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="998" unit="words"/>
+                    <amount n="116" unit="lines"/>
+                    <amount n="4710" unit="chars"/>
+                </sp>
+                <sp who="#éliante">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="60" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="265" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Éliante, Alceste, Dubois, Philinte.</head>
+                <sp who="#alceste">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="167" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="727" unit="chars"/>
+                </sp>
+                <sp who="#dubois">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="335" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="1471" unit="chars"/>
+                </sp>
+                <sp who="#éliante">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="4" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="15" unit="chars"/>
+                </sp>
+                <sp who="#philinte">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="55" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="242" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE I. Dubois, L'Avocat.</head>
+                <sp who="#dubois">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="51" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="235" unit="chars"/>
+                </sp>
+                <sp who="#l_avocat">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="164" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II.</head>
+                <sp who="#l_avocat">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="281" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="1295" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Dubois, Alceste, L'Avocat.</head>
+                <sp who="#alceste">
+                    <amount n="23" unit="speech_acts"/>
+                    <amount n="478" unit="words"/>
+                    <amount n="76" unit="lines"/>
+                    <amount n="2158" unit="chars"/>
+                </sp>
+                <sp who="#l_avocat">
+                    <amount n="22" unit="speech_acts"/>
+                    <amount n="1064" unit="words"/>
+                    <amount n="137" unit="lines"/>
+                    <amount n="4997" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Alceste, L'Avocat, Dubois.</head>
+                <sp who="#alceste">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="192" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Dubois, L'Avocat.</head>
+                <sp who="#dubois">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="262" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1159" unit="chars"/>
+                </sp>
+                <sp who="#l_avocat">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="126" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="536" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Dubois, Alceste, Philinte.</head>
+                <sp who="#philinte">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="43" unit="chars"/>
+                </sp>
+                <sp who="#dubois">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="21" unit="chars"/>
+                </sp>
+                <sp who="#alceste">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="37" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Alceste, Philinte.</head>
+                <sp who="#alceste">
+                    <amount n="19" unit="speech_acts"/>
+                    <amount n="1114" unit="words"/>
+                    <amount n="139" unit="lines"/>
+                    <amount n="5407" unit="chars"/>
+                </sp>
+                <sp who="#philinte">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="739" unit="words"/>
+                    <amount n="94" unit="lines"/>
+                    <amount n="3282" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Alceste, L'Avocat, Philinte.</head>
+                <sp who="#alceste">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="230" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="1034" unit="chars"/>
+                </sp>
+                <sp who="#l_avocat">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="281" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="1336" unit="chars"/>
+                </sp>
+                <sp who="#philinte">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="276" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="1330" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Alceste, Philinte.</head>
+                <sp who="#philinte">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="60" unit="chars"/>
+                </sp>
+                <sp who="#alceste">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="108" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="513" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I. Éliante, Philinte.</head>
+                <sp who="#philinte">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="557" unit="words"/>
+                    <amount n="67" unit="lines"/>
+                    <amount n="2581" unit="chars"/>
+                </sp>
+                <sp who="#éliante">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="188" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="888" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II.</head>
+                <sp who="#éliante">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="80" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="393" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Alceste, Éliante.</head>
+                <sp who="#éliante">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="107" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="419" unit="chars"/>
+                </sp>
+                <sp who="#alceste">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="233" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="1103" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV.</head>
+                <sp who="#alceste">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="182" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Alceste, Le Procureur.</head>
+                <sp who="#alceste">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="215" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="973" unit="chars"/>
+                </sp>
+                <sp who="#le_procureur">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="483" unit="words"/>
+                    <amount n="62" unit="lines"/>
+                    <amount n="2191" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Alceste, Dubois, Le Procureur, Laquais.</head>
+                <sp who="#alceste">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="114" unit="chars"/>
+                </sp>
+                <sp who="#le_procureur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="28" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Les Précédents, Philinte.</head>
+                <sp who="#philinte">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="98" unit="chars"/>
+                </sp>
+                <sp who="#le_procureur">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="28" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Alceste, Philinte, Le Procureur.</head>
+                <sp who="#le_procureur">
+                    <amount n="22" unit="speech_acts"/>
+                    <amount n="302" unit="words"/>
+                    <amount n="62" unit="lines"/>
+                    <amount n="1348" unit="chars"/>
+                </sp>
+                <sp who="#philinte">
+                    <amount n="25" unit="speech_acts"/>
+                    <amount n="581" unit="words"/>
+                    <amount n="87" unit="lines"/>
+                    <amount n="2483" unit="chars"/>
+                </sp>
+                <sp who="#alceste">
+                    <amount n="20" unit="speech_acts"/>
+                    <amount n="564" unit="words"/>
+                    <amount n="87" unit="lines"/>
+                    <amount n="2606" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Alceste, Philinte.</head>
+                <sp who="#philinte">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="68" unit="chars"/>
+                </sp>
+                <sp who="#alceste">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="120" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="542" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE I. Alceste, se levant et s'asseyant avec inquiétude ; Dubois.</head>
+                <sp who="#dubois">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="318" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="1385" unit="chars"/>
+                </sp>
+                <sp who="#alceste">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="100" unit="words"/>
+                    <amount n="27" unit="lines"/>
+                    <amount n="444" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Éliante, Alceste, Philinte.</head>
+                <sp who="#alceste">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="126" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="583" unit="chars"/>
+                </sp>
+                <sp who="#philinte">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="48" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="223" unit="chars"/>
+                </sp>
+                <sp who="#éliante">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="205" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="997" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Éliante, Alceste, Philinte, Dubois.</head>
+                <sp who="#dubois">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="25" unit="chars"/>
+                </sp>
+                <sp who="#alceste">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="20" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Eliante, Alceste, Philinte.</head>
+                <sp who="#alceste">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="43" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="217" unit="chars"/>
+                </sp>
+                <sp who="#philinte">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="31" unit="chars"/>
+                </sp>
+                <sp who="#éliante">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="4" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="14" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Alceste, L'Avocat, Philinte.</head>
+                <sp who="#l_avocat">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="325" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1596" unit="chars"/>
+                </sp>
+                <sp who="#alceste">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="253" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1288" unit="chars"/>
+                </sp>
+                <sp who="#philinte">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="112" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="562" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Alceste, L'Avacat, Philinte, Dubois.</head>
+                <sp who="#dubois">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="39" unit="chars"/>
+                </sp>
+                <sp who="#l_avocat">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="58" unit="chars"/>
+                </sp>
+                <sp who="#alceste">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="49" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="237" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. L'Avocat, Philinte, Dubois.</head>
+                <sp who="#philinte">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="93" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. L'Avocat, Le Procureur.</head>
+                <sp who="#le_procureur">
+                    <amount n="21" unit="speech_acts"/>
+                    <amount n="512" unit="words"/>
+                    <amount n="75" unit="lines"/>
+                    <amount n="2304" unit="chars"/>
+                </sp>
+                <sp who="#l_avocat">
+                    <amount n="20" unit="speech_acts"/>
+                    <amount n="237" unit="words"/>
+                    <amount n="48" unit="lines"/>
+                    <amount n="986" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX.</head>
+                <sp who="#l_avocat">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="58" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="271" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Alceste, L'Avocat, Philinte.</head>
+                <sp who="#l_avocat">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="99" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="533" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Alceste, L'Avocat, Philinte, Dubois.</head>
+                <sp who="#dubois">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="110" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="511" unit="chars"/>
+                </sp>
+                <sp who="#alceste">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="189" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII. Alceste, Un Commissaire, Un Huissier, L'Avocat, Philinte, Un Garde du commerce, Recors, Dubois. </head>
+                <sp who="#alceste">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="176" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="775" unit="chars"/>
+                </sp>
+                <sp who="#le_commissaire">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="202" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="968" unit="chars"/>
+                </sp>
+                <sp who="#philinte">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="74" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="334" unit="chars"/>
+                </sp>
+                <sp who="#l_avocat">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="193" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="867" unit="chars"/>
+                </sp>
+                <sp who="#l_huissier">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="323" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="1500" unit="chars"/>
+                </sp>
+                <sp who="#dubois">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="25" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE I. Éliante, Philinte.</head>
+                <sp who="#philinte">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="702" unit="words"/>
+                    <amount n="81" unit="lines"/>
+                    <amount n="3435" unit="chars"/>
+                </sp>
+                <sp who="#éliante">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="514" unit="words"/>
+                    <amount n="61" unit="lines"/>
+                    <amount n="2386" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Éliante, L'Avocat, Philinte.</head>
+                <sp who="#éliante">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="46" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="197" unit="chars"/>
+                </sp>
+                <sp who="#l_avocat">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="416" unit="words"/>
+                    <amount n="49" unit="lines"/>
+                    <amount n="2033" unit="chars"/>
+                </sp>
+                <sp who="#philinte">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="56" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Éliante, Philinte, L'Avocat, Alceste.</head>
+                <sp who="#éliante">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="171" unit="chars"/>
+                </sp>
+                <sp who="#philinte">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="27" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="80" unit="chars"/>
+                </sp>
+                <sp who="#alceste">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="925" unit="words"/>
+                    <amount n="108" unit="lines"/>
+                    <amount n="4297" unit="chars"/>
+                </sp>
+                <sp who="#l_avocat">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="43" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="161" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Éliante, Philinte.</head>
+                <sp who="#éliante">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="159" unit="chars"/>
+                </sp>
+                <sp who="#philinte">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="3" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="11" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

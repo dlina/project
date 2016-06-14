@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LES FILLES À MARIER</title>
+        <subtitle>COMÉDIE EN UN ACTE EN VERS.</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>GUIBERT, Elisabeth</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/GUIBERT_FILLESAMARIER.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>cathis_lolotte</name>
+            <alias xml:id="cathis_lolotte">
+                <name>cathis_lolotte</name>
+            </alias>
+        </character>
+        <character>
+            <name>broton</name>
+            <alias xml:id="broton">
+                <name>broton</name>
+            </alias>
+        </character>
+        <character>
+            <name>lolotte</name>
+            <alias xml:id="lolotte">
+                <name>lolotte</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>cathis</name>
+            <alias xml:id="cathis">
+                <name>cathis</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>victoire</name>
+            <alias xml:id="victoire">
+                <name>victoire</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>babot</name>
+            <alias xml:id="babot">
+                <name>babot</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>_andre</name>
+            <alias xml:id="_andre">
+                <name>_andre</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>clorinde</name>
+            <alias xml:id="clorinde">
+                <name>clorinde</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>damis</name>
+            <alias xml:id="damis">
+                <name>damis</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>champagne</name>
+            <alias xml:id="champagne">
+                <name>champagne</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head/>
+            <div>
+                <head>SCÈNE PREMIÈRE. Monsieur Broton, Cathis, Victoire, Lolotte.</head>
+                <sp who="#cathis_lolotte">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="3" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="11" unit="chars"/>
+                </sp>
+                <sp who="#broton">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="546" unit="words"/>
+                    <amount n="59" unit="lines"/>
+                    <amount n="2538" unit="chars"/>
+                </sp>
+                <sp who="#lolotte">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="38" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="187" unit="chars"/>
+                </sp>
+                <sp who="#cathis">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="110" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="494" unit="chars"/>
+                </sp>
+                <sp who="#victoire">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="201" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCENE II. VICTOIRE, BABOT.</head>
+                <sp who="#babot">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="121" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="520" unit="chars"/>
+                </sp>
+                <sp who="#victoire">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="111" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="467" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCENE III. VICTOIRE, LEANDRE, BABOT.</head>
+                <sp who="#_andre">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="85" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="405" unit="chars"/>
+                </sp>
+                <sp who="#victoire">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="121" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="530" unit="chars"/>
+                </sp>
+                <sp who="#babot">
+                    <amount n="14" unit="speech_acts"/>
+                    <amount n="382" unit="words"/>
+                    <amount n="60" unit="lines"/>
+                    <amount n="1718" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Clorinde, Damis, Léandre, Babot.</head>
+                <sp who="#babot">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="165" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="728" unit="chars"/>
+                </sp>
+                <sp who="#_andre">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="129" unit="chars"/>
+                </sp>
+                <sp who="#clorinde">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="55" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="210" unit="chars"/>
+                </sp>
+                <sp who="#damis">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="27" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="120" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCENE V. DAMIS, CLORINDE.</head>
+                <sp who="#damis">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="85" unit="chars"/>
+                </sp>
+                <sp who="#clorinde">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="109" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCENE VI. CLORINDE, DAMIS, CATHIS, LOLOTTE.</head>
+                <sp who="#clorinde">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="234" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="1065" unit="chars"/>
+                </sp>
+                <sp who="#cathis">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="46" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="182" unit="chars"/>
+                </sp>
+                <sp who="#damis">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="68" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="260" unit="chars"/>
+                </sp>
+                <sp who="#lolotte">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="50" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Clorinde, Damis, Cathis, Lolotte, Broton.</head>
+                <sp who="#broton">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="100" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="349" unit="chars"/>
+                </sp>
+                <sp who="#damis">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="74" unit="chars"/>
+                </sp>
+                <sp who="#clorinde">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="52" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="245" unit="chars"/>
+                </sp>
+                <sp who="#cathis">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="48" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Broton, Cathis, Lolotte.</head>
+                <sp who="#cathis">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="30" unit="chars"/>
+                </sp>
+                <sp who="#broton">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="87" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="379" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Cathis, Lolotte, Babot.</head>
+                <sp who="#babot">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="223" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="1029" unit="chars"/>
+                </sp>
+                <sp who="#cathis">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="43" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="184" unit="chars"/>
+                </sp>
+                <sp who="#lolotte">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="206" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Broton, Léandre, Cathis, Lootte, Babot. </head>
+                <sp who="#broton">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="187" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="831" unit="chars"/>
+                </sp>
+                <sp who="#_andre">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="118" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="540" unit="chars"/>
+                </sp>
+                <sp who="#cathis">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="150" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="683" unit="chars"/>
+                </sp>
+                <sp who="#babot">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="67" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="304" unit="chars"/>
+                </sp>
+                <sp who="#lolotte">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="145" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XI. Cathis, Lolotte, Babot.</head>
+                <sp who="#lolotte">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="80" unit="chars"/>
+                </sp>
+                <sp who="#babot">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="4" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="18" unit="chars"/>
+                </sp>
+                <sp who="#cathis">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="82" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XII. Victoire, Babot.</head>
+                <sp who="#victoire">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="57" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="279" unit="chars"/>
+                </sp>
+                <sp who="#babot">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="109" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="514" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCENE XIII. Victoire, Babot, Broton, Lolotte, Cathis.</head>
+                <sp who="#broton">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="158" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="726" unit="chars"/>
+                </sp>
+                <sp who="#cathis">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="86" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="374" unit="chars"/>
+                </sp>
+                <sp who="#lolotte">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="132" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="605" unit="chars"/>
+                </sp>
+                <sp who="#babot">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="3" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="12" unit="chars"/>
+                </sp>
+                <sp who="#victoire">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="16" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="68" unit="chars"/>
+                </sp>
+                <sp who="#cathis_lolotte">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="24" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="100" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIV. Broton, Léandre, Babot.</head>
+                <sp who="#_andre">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="54" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="243" unit="chars"/>
+                </sp>
+                <sp who="#broton">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="82" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="379" unit="chars"/>
+                </sp>
+                <sp who="#babot">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="114" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XV. Victoire, Léandre, Broton, Babot.</head>
+                <sp who="#victoire">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="68" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="328" unit="chars"/>
+                </sp>
+                <sp who="#babot">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="80" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="361" unit="chars"/>
+                </sp>
+                <sp who="#broton">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="91" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="397" unit="chars"/>
+                </sp>
+                <sp who="#_andre">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="84" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="378" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVI. Broton, Cathis, Lolotte.</head>
+                <sp who="#cathis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="72" unit="chars"/>
+                </sp>
+                <sp who="#broton">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="46" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="198" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVII. Lolotte, Cathis, Babot, Champagne, en Marchand de poudre et de rubans.</head>
+                <sp who="#champagne">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="142" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="650" unit="chars"/>
+                </sp>
+                <sp who="#cathis">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="44" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="217" unit="chars"/>
+                </sp>
+                <sp who="#babot">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="113" unit="words"/>
+                    <amount n="25" unit="lines"/>
+                    <amount n="481" unit="chars"/>
+                </sp>
+                <sp who="#lolotte">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="57" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XVIII. Léandre, Baabot, Champagne.</head>
+                <sp who="#babot">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="106" unit="words"/>
+                    <amount n="22" unit="lines"/>
+                    <amount n="504" unit="chars"/>
+                </sp>
+                <sp who="#_andre">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="123" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="567" unit="chars"/>
+                </sp>
+                <sp who="#champagne">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="63" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="291" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XIX. Broton, Léandre, Babot, Champagne.</head>
+                <sp who="#_andre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="76" unit="chars"/>
+                </sp>
+                <sp who="#babot">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="4" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="21" unit="chars"/>
+                </sp>
+                <sp who="#broton">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="108" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE XX et dernière. Tous les acteurs.</head>
+                <sp who="#clorinde">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="87" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="357" unit="chars"/>
+                </sp>
+                <sp who="#babot">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="181" unit="chars"/>
+                </sp>
+                <sp who="#_andre">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="66" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="307" unit="chars"/>
+                </sp>
+                <sp who="#broton">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="92" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="393" unit="chars"/>
+                </sp>
+                <sp who="#damis">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="47" unit="chars"/>
+                </sp>
+                <sp who="#lolotte">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="61" unit="chars"/>
+                </sp>
+                <sp who="#cathis">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="25" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="107" unit="chars"/>
+                </sp>
+                <sp who="#champagne">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="46" unit="chars"/>
+                </sp>
+                <sp who="#victoire">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="95" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

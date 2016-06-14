@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LES PHILOSOPHES DE BOIS</title>
+        <subtitle>COMÉDIE en un ACTE et en VERS</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>POINSINET de SIVRY, Louis</author>
+        <date when="1755">1755</date>
+        <source>https://github.com/dramacode/theatre-classique/POINSINET_PHILOSOPHESDEBOIS.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>monsieu_fagot</name>
+            <alias xml:id="monsieu_fagot">
+                <name>monsieu_fagot</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>monsieu_sapin</name>
+            <alias xml:id="monsieu_sapin">
+                <name>monsieu_sapin</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>polichinelle</name>
+            <alias xml:id="polichinelle">
+                <name>polichinelle</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>dame_gigogne</name>
+            <alias xml:id="dame_gigogne">
+                <name>dame_gigogne</name>
+            </alias>
+        </character>
+        <character>
+            <name>arlequin</name>
+            <alias xml:id="arlequin">
+                <name>arlequin</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>gille</name>
+            <alias xml:id="gille">
+                <name>gille</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>dam_gigogne</name>
+            <alias xml:id="dam_gigogne">
+                <name>dam_gigogne</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>tous</name>
+            <alias xml:id="tous">
+                <name>tous</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head/>
+            <div>
+                <head>SCÈNE PREMIÈRE. Monsieur Fagot, Monsieur Sapin.</head>
+                <sp who="#monsieu_fagot">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="225" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="1062" unit="chars"/>
+                </sp>
+                <sp who="#monsieu_sapin">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="134" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="656" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Monsieur Sapin, Monsieur Fagot, Polichinelle.</head>
+                <sp who="#monsieu_fagot">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="271" unit="words"/>
+                    <amount n="43" unit="lines"/>
+                    <amount n="1297" unit="chars"/>
+                </sp>
+                <sp who="#polichinelle">
+                    <amount n="18" unit="speech_acts"/>
+                    <amount n="369" unit="words"/>
+                    <amount n="60" unit="lines"/>
+                    <amount n="1632" unit="chars"/>
+                </sp>
+                <sp who="#monsieu_sapin">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="136" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="648" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. </head>
+                <sp who="#dame_gigogne">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="120" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="597" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCENE IV. Dame Gigogne, Polichinelle.</head>
+                <sp who="#dame_gigogne">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="115" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="532" unit="chars"/>
+                </sp>
+                <sp who="#polichinelle">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="78" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="336" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V.</head>
+                <sp who="#polichinelle">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="59" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="304" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI.</head>
+                <sp who="#arlequin">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="76" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="381" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Arlequin, Gille.</head>
+                <sp who="#arlequin">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="304" unit="words"/>
+                    <amount n="48" unit="lines"/>
+                    <amount n="1456" unit="chars"/>
+                </sp>
+                <sp who="#gille">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="213" unit="words"/>
+                    <amount n="35" unit="lines"/>
+                    <amount n="990" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Arlequin, Gille, Polichinelle.</head>
+                <sp who="#polichinelle">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="71" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="319" unit="chars"/>
+                </sp>
+                <sp who="#arlequin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="9" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="49" unit="chars"/>
+                </sp>
+                <sp who="#gille">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="67" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Monsieur Sapin, Polichinelle.</head>
+                <sp who="#monsieu_sapin">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="302" unit="chars"/>
+                </sp>
+                <sp who="#polichinelle">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="11" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="44" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X et dernière. Dame Gigogne, à quatre pattes, les acteurs précédents.</head>
+                <sp who="#polichinelle">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="196" unit="words"/>
+                    <amount n="38" unit="lines"/>
+                    <amount n="909" unit="chars"/>
+                </sp>
+                <sp who="#dam_gigogne">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="368" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="1675" unit="chars"/>
+                </sp>
+                <sp who="#monsieu_sapin">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="120" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>VAUDEVILLE.</head>
+                <sp who="#tous">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="298" unit="words"/>
+                    <amount n="47" unit="lines"/>
+                    <amount n="1501" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

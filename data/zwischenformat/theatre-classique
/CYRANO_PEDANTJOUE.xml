@@ -1,0 +1,914 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>LE PÉDANT JOUÉ</title>
+        <subtitle>COMÉDIE</subtitle>
+        <genretitle>Comédie</genretitle>
+        <author>CYRANO, Hercule Savinien, dit CYRANO de BERGERAC</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/CYRANO_PEDANTJOUE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>granger</name>
+            <alias xml:id="granger">
+                <name>granger</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>chasteaufort</name>
+            <alias xml:id="chasteaufort">
+                <name>chasteaufort</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>paquier</name>
+            <alias xml:id="paquier">
+                <name>paquier</name>
+            </alias>
+        </character>
+        <character>
+            <name>charlot</name>
+            <alias xml:id="charlot">
+                <name>charlot</name>
+            </alias>
+        </character>
+        <character>
+            <name>fleury</name>
+            <alias xml:id="fleury">
+                <name>fleury</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>un_cuistre</name>
+            <alias xml:id="un_cuistre">
+                <name>un_cuistre</name>
+            </alias>
+        </character>
+        <character>
+            <name>corbineli</name>
+            <alias xml:id="corbineli">
+                <name>corbineli</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>gareau</name>
+            <alias xml:id="gareau">
+                <name>gareau</name>
+            </alias>
+        </character>
+        <character>
+            <name>manon</name>
+            <alias xml:id="manon">
+                <name>manon</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>genevote</name>
+            <alias xml:id="genevote">
+                <name>genevote</name>
+            </alias>
+        </character>
+        <character>
+            <name>granger_le_jeune</name>
+            <alias xml:id="granger_le_jeune">
+                <name>granger_le_jeune</name>
+            </alias>
+        </character>
+        <character>
+            <name>la_tremblaye</name>
+            <alias xml:id="la_tremblaye">
+                <name>la_tremblaye</name>
+            </alias>
+        </character>
+        <character>
+            <name>corbinelli</name>
+            <alias xml:id="corbinelli">
+                <name>corbinelli</name>
+            </alias>
+        </character>
+        <character>
+            <name>granger_le__re</name>
+            <alias xml:id="granger_le__re">
+                <name>granger_le__re</name>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Granger, Chasteaufort.</head>
+                <sp who="#granger">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="1689" unit="words"/>
+                    <amount n="131" unit="lines"/>
+                    <amount n="8372" unit="chars"/>
+                </sp>
+                <sp who="#chasteaufort">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="1521" unit="words"/>
+                    <amount n="48" unit="lines"/>
+                    <amount n="7226" unit="chars"/>
+                </sp>
+                <sp who="#paquier">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="32" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="150" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Granger, Paquier.</head>
+                <sp who="#granger">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="372" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="1673" unit="chars"/>
+                </sp>
+                <sp who="#paquier">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="88" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="407" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III.</head>
+                <sp who="#granger">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="307" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="1475" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Charlot, Paquier.</head>
+                <sp who="#charlot">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="106" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="452" unit="chars"/>
+                </sp>
+                <sp who="#paquier">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="194" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="839" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Granger, harlot, Paquier.</head>
+                <sp who="#granger">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="242" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="1220" unit="chars"/>
+                </sp>
+                <sp who="#charlot">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="122" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="602" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Granger, Fleury, Paquier.</head>
+                <sp who="#fleury">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="27" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="131" unit="chars"/>
+                </sp>
+                <sp who="#granger">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="149" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="694" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Charlot, Fleury, Granger, Cuistres.</head>
+                <sp who="#charlot">
+                    <amount n="10" unit="speech_acts"/>
+                    <amount n="245" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="1123" unit="chars"/>
+                </sp>
+                <sp who="#fleury">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="22" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="87" unit="chars"/>
+                </sp>
+                <sp who="#granger">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="408" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1920" unit="chars"/>
+                </sp>
+                <sp who="#un_cuistre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="45" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. </head>
+                <sp who="#charlot">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="54" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="306" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. cobbineli, Charlot.</head>
+                <sp who="#corbineli">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="132" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="605" unit="chars"/>
+                </sp>
+                <sp who="#charlot">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="93" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE PREMIÈRE.</head>
+                <sp who="#chasteaufort">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="235" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="1046" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Gareau, Chasteaufort.</head>
+                <sp who="#gareau">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="1895" unit="words"/>
+                    <amount n="150" unit="lines"/>
+                    <amount n="8416" unit="chars"/>
+                </sp>
+                <sp who="#chasteaufort">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="1037" unit="words"/>
+                    <amount n="88" unit="lines"/>
+                    <amount n="4827" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Granger, Gareau, Manon, Fleury.</head>
+                <sp who="#manon">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="313" unit="chars"/>
+                </sp>
+                <sp who="#gareau">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="1441" unit="words"/>
+                    <amount n="68" unit="lines"/>
+                    <amount n="6623" unit="chars"/>
+                </sp>
+                <sp who="#granger">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="390" unit="words"/>
+                    <amount n="39" unit="lines"/>
+                    <amount n="1889" unit="chars"/>
+                </sp>
+                <sp who="#fleury">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="19" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="90" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Corbineli, Granger, Paquier.</head>
+                <sp who="#corbineli">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="862" unit="words"/>
+                    <amount n="71" unit="lines"/>
+                    <amount n="4209" unit="chars"/>
+                </sp>
+                <sp who="#granger">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="643" unit="words"/>
+                    <amount n="83" unit="lines"/>
+                    <amount n="2838" unit="chars"/>
+                </sp>
+                <sp who="#paquier">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="159" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="810" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Paquier, Corbineli.</head>
+                <sp who="#paquier">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="64" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="301" unit="chars"/>
+                </sp>
+                <sp who="#corbineli">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="21" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="93" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Granger, Corbineli, Paquier.</head>
+                <sp who="#granger">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="10" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="40" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Crobineli, Charlot.</head>
+                <sp who="#corbineli">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="74" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="321" unit="chars"/>
+                </sp>
+                <sp who="#charlot">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="93" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="488" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Granger, Paquier.</head>
+                <sp who="#granger">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="356" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="1756" unit="chars"/>
+                </sp>
+                <sp who="#paquier">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="208" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="1091" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Paquier, Genevote.</head>
+                <sp who="#paquier">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="733" unit="words"/>
+                    <amount n="60" unit="lines"/>
+                    <amount n="3409" unit="chars"/>
+                </sp>
+                <sp who="#genevote">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="321" unit="words"/>
+                    <amount n="40" unit="lines"/>
+                    <amount n="1540" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Chasteaufort, Paquier.</head>
+                <sp who="#chasteaufort">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="566" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="2604" unit="chars"/>
+                </sp>
+                <sp who="#paquier">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="37" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="173" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Granger, Paquier.</head>
+                <sp who="#paquier">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="930" unit="words"/>
+                    <amount n="41" unit="lines"/>
+                    <amount n="4385" unit="chars"/>
+                </sp>
+                <sp who="#granger">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="66" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="305" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCENE II. Granger, Paquier, Genevote.</head>
+                <sp who="#granger">
+                    <amount n="17" unit="speech_acts"/>
+                    <amount n="1893" unit="words"/>
+                    <amount n="92" unit="lines"/>
+                    <amount n="9185" unit="chars"/>
+                </sp>
+                <sp who="#genevote">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="1390" unit="words"/>
+                    <amount n="88" unit="lines"/>
+                    <amount n="6497" unit="chars"/>
+                </sp>
+                <sp who="#paquier">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="152" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Genevote, La Tramblayre, Granger le jeune, Corbineli.</head>
+                <sp who="#genevote">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="80" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="379" unit="chars"/>
+                </sp>
+                <sp who="#granger_le_jeune">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="25" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. La Tremblaye, Corbineli.</head>
+                <sp who="#la_tremblaye">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="25" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="116" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. La Tremblaye, Manon, Corbineli.</head>
+                <sp who="#la_tremblaye">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="153" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="719" unit="chars"/>
+                </sp>
+                <sp who="#corbineli">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="51" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="248" unit="chars"/>
+                </sp>
+                <sp who="#manon">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="62" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Granger, Paquier, Corbineli.</head>
+                <sp who="#granger">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="417" unit="words"/>
+                    <amount n="57" unit="lines"/>
+                    <amount n="1916" unit="chars"/>
+                </sp>
+                <sp who="#paquier">
+                    <amount n="13" unit="speech_acts"/>
+                    <amount n="590" unit="words"/>
+                    <amount n="77" unit="lines"/>
+                    <amount n="2670" unit="chars"/>
+                </sp>
+                <sp who="#corbinelli">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="277" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="1281" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. La Tremblaye, Granger, Paquier, Chasteaufort. </head>
+                <sp who="#la_tremblaye">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="180" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="836" unit="chars"/>
+                </sp>
+                <sp who="#paquier">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="50" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="233" unit="chars"/>
+                </sp>
+                <sp who="#granger">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="100" unit="words"/>
+                    <amount n="15" unit="lines"/>
+                    <amount n="524" unit="chars"/>
+                </sp>
+                <sp who="#chasteaufort">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="760" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="3375" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Manon, Granger, Paquier, La Tremblaye, Chasteaufort.</head>
+                <sp who="#manon">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="424" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="1982" unit="chars"/>
+                </sp>
+                <sp who="#granger">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="153" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="717" unit="chars"/>
+                </sp>
+                <sp who="#chasteaufort">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="71" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="267" unit="chars"/>
+                </sp>
+                <sp who="#la_tremblaye">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="35" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="182" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Granger, Paquier, Corbineli.</head>
+                <sp who="#granger">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="629" unit="words"/>
+                    <amount n="33" unit="lines"/>
+                    <amount n="3039" unit="chars"/>
+                </sp>
+                <sp who="#corbineli">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="161" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="782" unit="chars"/>
+                </sp>
+                <sp who="#paquier">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="240" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="1155" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Granger le jeune, Ggranger, Corbineli, Paquier.</head>
+                <sp who="#corbineli">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="247" unit="words"/>
+                    <amount n="20" unit="lines"/>
+                    <amount n="1203" unit="chars"/>
+                </sp>
+                <sp who="#granger">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="21" unit="chars"/>
+                </sp>
+                <sp who="#granger_le_jeune">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="8" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="35" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Granger, Corbineli, Paquier.</head>
+                <sp who="#corbineli">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="102" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="473" unit="chars"/>
+                </sp>
+                <sp who="#paquier">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="30" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="129" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. La Tremblaye, Granger, Corbineli, Paquier.</head>
+                <sp who="#la_tremblaye">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="60" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="275" unit="chars"/>
+                </sp>
+                <sp who="#granger">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="393" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="2009" unit="chars"/>
+                </sp>
+                <sp who="#corbineli">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="257" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="1197" unit="chars"/>
+                </sp>
+                <sp who="#paquier">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="117" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="552" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Granger le jeune, Granger le père, La Tremblaye, Corbineli, Paquier.</head>
+                <sp who="#granger_le_jeune">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="745" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="3260" unit="chars"/>
+                </sp>
+                <sp who="#granger">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="134" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="625" unit="chars"/>
+                </sp>
+                <sp who="#paquier">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="25" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="105" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. La Tremblaye, Granger le jeune.</head>
+                <sp who="#la_tremblaye">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="56" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="261" unit="chars"/>
+                </sp>
+                <sp who="#granger_le_jeune">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="17" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="84" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE PREMIÈRE. Granger, Paquier.</head>
+                <sp who="#granger">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="176" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="819" unit="chars"/>
+                </sp>
+                <sp who="#paquier">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="200" unit="words"/>
+                    <amount n="18" unit="lines"/>
+                    <amount n="1019" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Corbineli, Granger, Pasquier.</head>
+                <sp who="#corbineli">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="114" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="524" unit="chars"/>
+                </sp>
+                <sp who="#granger">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="199" unit="words"/>
+                    <amount n="14" unit="lines"/>
+                    <amount n="991" unit="chars"/>
+                </sp>
+                <sp who="#paquier">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="13" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="59" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Genevote, Granger, Paquier, Corbineli. </head>
+                <sp who="#granger">
+                    <amount n="11" unit="speech_acts"/>
+                    <amount n="450" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="2135" unit="chars"/>
+                </sp>
+                <sp who="#genevote">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="204" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="958" unit="chars"/>
+                </sp>
+                <sp who="#corbineli">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="242" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="1195" unit="chars"/>
+                </sp>
+                <sp who="#paquier">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="12" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="60" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Genevote, Corbineli.</head>
+                <sp who="#genevote">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="30" unit="chars"/>
+                </sp>
+                <sp who="#corbineli">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="93" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="491" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Granger, Paquier, Genevote, Corbineli.</head>
+                <sp who="#granger">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="608" unit="words"/>
+                    <amount n="36" unit="lines"/>
+                    <amount n="3017" unit="chars"/>
+                </sp>
+                <sp who="#genevote">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="6" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="24" unit="chars"/>
+                </sp>
+                <sp who="#corbineli">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="400" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="1933" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI.</head>
+                <sp who="#paquier">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="100" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="443" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Paquier, Chasteaufort.</head>
+                <sp who="#paquier">
+                    <amount n="8" unit="speech_acts"/>
+                    <amount n="221" unit="words"/>
+                    <amount n="31" unit="lines"/>
+                    <amount n="1022" unit="chars"/>
+                </sp>
+                <sp who="#chasteaufort">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="418" unit="words"/>
+                    <amount n="42" unit="lines"/>
+                    <amount n="1970" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VIII. Gareau, Paquier, Chasteaufort.</head>
+                <sp who="#gareau">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="138" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="603" unit="chars"/>
+                </sp>
+                <sp who="#chasteaufort">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="45" unit="words"/>
+                    <amount n="6" unit="lines"/>
+                    <amount n="228" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IX. Granger, Gareua, Chasteaufort, Paquier.</head>
+                <sp who="#granger">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="224" unit="words"/>
+                    <amount n="34" unit="lines"/>
+                    <amount n="1091" unit="chars"/>
+                </sp>
+                <sp who="#gareau">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="292" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="1278" unit="chars"/>
+                </sp>
+                <sp who="#chasteaufort">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="147" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="676" unit="chars"/>
+                </sp>
+                <sp who="#paquier">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="88" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="428" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE X. Corbineli, Granger, Chasteaufort, Paquier, Gareau, La Tremblaye, Granger le jeuene, Manon, Genevote.</head>
+                <sp who="#corbineli">
+                    <amount n="21" unit="speech_acts"/>
+                    <amount n="516" unit="words"/>
+                    <amount n="80" unit="lines"/>
+                    <amount n="2568" unit="chars"/>
+                </sp>
+                <sp who="#paquier">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="319" unit="words"/>
+                    <amount n="50" unit="lines"/>
+                    <amount n="1476" unit="chars"/>
+                </sp>
+                <sp who="#granger">
+                    <amount n="16" unit="speech_acts"/>
+                    <amount n="488" unit="words"/>
+                    <amount n="77" unit="lines"/>
+                    <amount n="2286" unit="chars"/>
+                </sp>
+                <sp who="#genevote">
+                    <amount n="12" unit="speech_acts"/>
+                    <amount n="556" unit="words"/>
+                    <amount n="50" unit="lines"/>
+                    <amount n="2811" unit="chars"/>
+                </sp>
+                <sp who="#granger_le_jeune">
+                    <amount n="15" unit="speech_acts"/>
+                    <amount n="531" unit="words"/>
+                    <amount n="59" unit="lines"/>
+                    <amount n="2444" unit="chars"/>
+                </sp>
+                <sp who="#granger_le__re">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="233" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="1168" unit="chars"/>
+                </sp>
+                <sp who="#la_tremblaye">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="26" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="114" unit="chars"/>
+                </sp>
+                <sp who="#gareau">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="688" unit="words"/>
+                    <amount n="44" unit="lines"/>
+                    <amount n="2990" unit="chars"/>
+                </sp>
+                <sp who="#chasteaufort">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="28" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="111" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>

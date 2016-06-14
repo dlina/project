@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play xmlns="http://lina.digital">
+    <header>
+        <title>JEANNE REINE D'ANGLETERRE</title>
+        <subtitle>TRAGÉDIE</subtitle>
+        <genretitle>Tragédie</genretitle>
+        <author>LA CALPRENEDE, Gautier Costes de</author>
+        <date when=""/>
+        <source>https://github.com/dramacode/theatre-classique/LACALPRENEDE_JEANNE.xml</source>
+    </header>
+    <personae>
+        <character>
+            <name>le_comte_de_clocestre</name>
+            <alias xml:id="le_comte_de_clocestre">
+                <name>le_comte_de_clocestre</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_comte_d_arondel</name>
+            <alias xml:id="le_comte_d_arondel">
+                <name>le_comte_d_arondel</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>un_anglais</name>
+            <alias xml:id="un_anglais">
+                <name>un_anglais</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>gilfort</name>
+            <alias xml:id="gilfort">
+                <name>gilfort</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>jeanne</name>
+            <alias xml:id="jeanne">
+                <name>jeanne</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_duc_de_northbelant</name>
+            <alias xml:id="le_duc_de_northbelant">
+                <name>le_duc_de_northbelant</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_soldat</name>
+            <alias xml:id="le_soldat">
+                <name>le_soldat</name>
+            </alias>
+        </character>
+        <character>
+            <name>marie</name>
+            <alias xml:id="marie">
+                <name>marie</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_duc_de_nolfoc</name>
+            <alias xml:id="le_duc_de_nolfoc">
+                <name>le_duc_de_nolfoc</name>
+            </alias>
+        </character>
+        <character>
+            <name>élisabeth</name>
+            <alias xml:id="élisabeth">
+                <name>élisabeth</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>é_onor</name>
+            <alias xml:id="é_onor">
+                <name>é_onor</name>
+                <sex>f</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_chancelier</name>
+            <alias xml:id="le_chancelier">
+                <name>le_chancelier</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_marquis_de_vincetre</name>
+            <alias xml:id="le_marquis_de_vincetre">
+                <name>le_marquis_de_vincetre</name>
+            </alias>
+        </character>
+        <character>
+            <name>_huissie_d_cabinet</name>
+            <alias xml:id="_huissie_d_cabinet">
+                <name>_huissie_d_cabinet</name>
+            </alias>
+        </character>
+        <character>
+            <name>le_capitaine_des_gardes</name>
+            <alias xml:id="le_capitaine_des_gardes">
+                <name>le_capitaine_des_gardes</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+        <character>
+            <name>le_comte_d_erby</name>
+            <alias xml:id="le_comte_d_erby">
+                <name>le_comte_d_erby</name>
+                <sex>m</sex>
+            </alias>
+        </character>
+    </personae>
+    <text>
+        <div>
+            <head>ACTE I</head>
+            <div>
+                <head>SCÈNE I. Le Comte de Clocestre, Le Comte d'Arondel, Un Anglais.</head>
+                <sp who="#le_comte_de_clocestre">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="854" unit="words"/>
+                    <amount n="92" unit="lines"/>
+                    <amount n="4031" unit="chars"/>
+                </sp>
+                <sp who="#le_comte_d_arondel">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="45" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="228" unit="chars"/>
+                </sp>
+                <sp who="#un_anglais">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="39" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="202" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Le Milord Gilford, Jeanne dans sa chambre.</head>
+                <sp who="#gilfort">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="411" unit="words"/>
+                    <amount n="45" unit="lines"/>
+                    <amount n="1986" unit="chars"/>
+                </sp>
+                <sp who="#jeanne">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="542" unit="words"/>
+                    <amount n="51" unit="lines"/>
+                    <amount n="2588" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Le Duc de Northbelant,  Jeanne, Gilfort. </head>
+                <sp who="#le_duc_de_northbelant">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="333" unit="words"/>
+                    <amount n="37" unit="lines"/>
+                    <amount n="1541" unit="chars"/>
+                </sp>
+                <sp who="#jeanne">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="110" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="550" unit="chars"/>
+                </sp>
+                <sp who="#gilfort">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="31" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="149" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Un Soldat, Jeanne, Gilfort, Le Duc de Northbelant. </head>
+                <sp who="#le_soldat">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="77" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="336" unit="chars"/>
+                </sp>
+                <sp who="#jeanne">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="68" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="290" unit="chars"/>
+                </sp>
+                <sp who="#le_duc_de_northbelant">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="50" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="235" unit="chars"/>
+                </sp>
+                <sp who="#gilfort">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="15" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="71" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V.</head>
+                <sp who="#jeanne">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="333" unit="words"/>
+                    <amount n="32" unit="lines"/>
+                    <amount n="1587" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VI. Le Duc de Northbelant, Jeanne, Gilfort.</head>
+                <sp who="#le_duc_de_northbelant">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="108" unit="chars"/>
+                </sp>
+                <sp who="#jeanne">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="26" unit="chars"/>
+                </sp>
+                <sp who="#gilfort">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="81" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="399" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE VII. Le Duc de Northbelant, Le Comte de Clocestre, Jeanne, Gilfort.</head>
+                <sp who="#le_duc_de_northbelant">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="145" unit="words"/>
+                    <amount n="17" unit="lines"/>
+                    <amount n="666" unit="chars"/>
+                </sp>
+                <sp who="#le_comte_de_clocestre">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="221" unit="words"/>
+                    <amount n="29" unit="lines"/>
+                    <amount n="1034" unit="chars"/>
+                </sp>
+                <sp who="#jeanne">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="47" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="229" unit="chars"/>
+                </sp>
+                <sp who="#gilfort">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="14" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="53" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE II</head>
+            <div>
+                <head>SCÈNE I. Marie, Le Duc de Nolfoc, Élisabeth, Le Comte de Clocestre.</head>
+                <sp who="#marie">
+                    <amount n="7" unit="speech_acts"/>
+                    <amount n="878" unit="words"/>
+                    <amount n="97" unit="lines"/>
+                    <amount n="4129" unit="chars"/>
+                </sp>
+                <sp who="#le_duc_de_nolfoc">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="65" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="303" unit="chars"/>
+                </sp>
+                <sp who="#le_comte_de_clocestre">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="100" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="446" unit="chars"/>
+                </sp>
+                <sp who="#élisabeth">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="475" unit="words"/>
+                    <amount n="52" unit="lines"/>
+                    <amount n="2261" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Marie, Jeanne.</head>
+                <sp who="#marie">
+                    <amount n="6" unit="speech_acts"/>
+                    <amount n="730" unit="words"/>
+                    <amount n="84" unit="lines"/>
+                    <amount n="3538" unit="chars"/>
+                </sp>
+                <sp who="#jeanne">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="1044" unit="words"/>
+                    <amount n="104" unit="lines"/>
+                    <amount n="4703" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE III</head>
+            <div>
+                <head>SCÈNE I. Jeanne, Éléonor.</head>
+                <sp who="#jeanne">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="115" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="544" unit="chars"/>
+                </sp>
+                <sp who="#é_onor">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="23" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="97" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Gilfort, Jeanne.</head>
+                <sp who="#gilfort">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="1020" unit="words"/>
+                    <amount n="107" unit="lines"/>
+                    <amount n="4683" unit="chars"/>
+                </sp>
+                <sp who="#jeanne">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="454" unit="words"/>
+                    <amount n="47" unit="lines"/>
+                    <amount n="2052" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Le Comte d'Arondel, Jeanne, Gilfort.</head>
+                <sp who="#le_comte_d_arondel">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="63" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="285" unit="chars"/>
+                </sp>
+                <sp who="#gilfort">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="64" unit="words"/>
+                    <amount n="8" unit="lines"/>
+                    <amount n="263" unit="chars"/>
+                </sp>
+                <sp who="#jeanne">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="96" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="417" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Le Duc de Nolfoc, et les Barons Anglais.</head>
+                <sp who="#le_duc_de_nolfoc">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="241" unit="words"/>
+                    <amount n="26" unit="lines"/>
+                    <amount n="1124" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Le Chancelier d'Angleterre, Le Duc de Northbelant, le Duc de Nolfoc, Le Marquis de Vincestre, Le Comte de Clocestre, Gilfort.</head>
+                <sp who="#le_chancelier">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="196" unit="words"/>
+                    <amount n="21" unit="lines"/>
+                    <amount n="908" unit="chars"/>
+                </sp>
+                <sp who="#le_duc_de_northbelant">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="741" unit="words"/>
+                    <amount n="77" unit="lines"/>
+                    <amount n="3418" unit="chars"/>
+                </sp>
+                <sp who="#le_duc_de_nolfoc">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="539" unit="words"/>
+                    <amount n="59" unit="lines"/>
+                    <amount n="2554" unit="chars"/>
+                </sp>
+                <sp who="#le_marquis_de_vincetre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="78" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="365" unit="chars"/>
+                </sp>
+                <sp who="#le_comte_de_clocestre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="82" unit="words"/>
+                    <amount n="9" unit="lines"/>
+                    <amount n="363" unit="chars"/>
+                </sp>
+                <sp who="#gilfort">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="145" unit="words"/>
+                    <amount n="16" unit="lines"/>
+                    <amount n="649" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE IV</head>
+            <div>
+                <head>SCÈNE I. Marie, Élisabeth, Le Duc de Nolfoc, Le Comte de Clocestre.</head>
+                <sp who="#marie">
+                    <amount n="9" unit="speech_acts"/>
+                    <amount n="584" unit="words"/>
+                    <amount n="68" unit="lines"/>
+                    <amount n="2761" unit="chars"/>
+                </sp>
+                <sp who="#élisabeth">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="447" unit="words"/>
+                    <amount n="50" unit="lines"/>
+                    <amount n="2047" unit="chars"/>
+                </sp>
+                <sp who="#le_duc_de_nolfoc">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="186" unit="words"/>
+                    <amount n="23" unit="lines"/>
+                    <amount n="912" unit="chars"/>
+                </sp>
+                <sp who="#le_comte_de_clocestre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="127" unit="words"/>
+                    <amount n="10" unit="lines"/>
+                    <amount n="556" unit="chars"/>
+                </sp>
+                <sp who="#_huissie_d_cabinet">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="77" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Éléonor, Marie.</head>
+                <sp who="#é_onor">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="731" unit="words"/>
+                    <amount n="84" unit="lines"/>
+                    <amount n="3304" unit="chars"/>
+                </sp>
+                <sp who="#marie">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="58" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="272" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Gilfort, Le Duc de Northbelant, Le Capitaine des Gardes.</head>
+                <sp who="#gilfort">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="256" unit="words"/>
+                    <amount n="28" unit="lines"/>
+                    <amount n="1214" unit="chars"/>
+                </sp>
+                <sp who="#le_duc_de_northbelant">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="419" unit="words"/>
+                    <amount n="46" unit="lines"/>
+                    <amount n="1944" unit="chars"/>
+                </sp>
+                <sp who="#le_capitaine_des_gardes">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="83" unit="words"/>
+                    <amount n="11" unit="lines"/>
+                    <amount n="357" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Jeanne, Gilfort, Le Capitaine des Gardes, Éléonor. </head>
+                <sp who="#jeanne">
+                    <amount n="3" unit="speech_acts"/>
+                    <amount n="272" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="1173" unit="chars"/>
+                </sp>
+                <sp who="#gilfort">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="5" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="16" unit="chars"/>
+                </sp>
+                <sp who="#le_capitaine_des_gardes">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="7" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="27" unit="chars"/>
+                </sp>
+                <sp who="#é_onor">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="20" unit="words"/>
+                    <amount n="3" unit="lines"/>
+                    <amount n="91" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+        <div>
+            <head>ACTE V</head>
+            <div>
+                <head>SCÈNE I. Jeanne, Éléonor. </head>
+                <sp who="#jeanne">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="735" unit="words"/>
+                    <amount n="73" unit="lines"/>
+                    <amount n="3284" unit="chars"/>
+                </sp>
+                <sp who="#é_onor">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="25" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="136" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE II. Jeanne, Le Comte d'Erby, Éléonor.</head>
+                <sp who="#jeanne">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="649" unit="words"/>
+                    <amount n="68" unit="lines"/>
+                    <amount n="2938" unit="chars"/>
+                </sp>
+                <sp who="#le_comte_d_erby">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="147" unit="words"/>
+                    <amount n="19" unit="lines"/>
+                    <amount n="671" unit="chars"/>
+                </sp>
+                <sp who="#é_onor">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="29" unit="words"/>
+                    <amount n="4" unit="lines"/>
+                    <amount n="135" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE III. Le Capitaine des Gardes, Éléonor, Jeanne. </head>
+                <sp who="#le_capitaine_des_gardes">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="18" unit="words"/>
+                    <amount n="5" unit="lines"/>
+                    <amount n="72" unit="chars"/>
+                </sp>
+                <sp who="#é_onor">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="3" unit="words"/>
+                    <amount n="2" unit="lines"/>
+                    <amount n="14" unit="chars"/>
+                </sp>
+                <sp who="#jeanne">
+                    <amount n="2" unit="speech_acts"/>
+                    <amount n="115" unit="words"/>
+                    <amount n="13" unit="lines"/>
+                    <amount n="482" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE IV. Élisabeth, Marie, Le Comte de Clocestre, Le Duc de Nolfoc.</head>
+                <sp who="#élisabeth">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="192" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="880" unit="chars"/>
+                </sp>
+                <sp who="#marie">
+                    <amount n="5" unit="speech_acts"/>
+                    <amount n="178" unit="words"/>
+                    <amount n="24" unit="lines"/>
+                    <amount n="805" unit="chars"/>
+                </sp>
+                <sp who="#le_comte_de_clocestre">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="107" unit="words"/>
+                    <amount n="12" unit="lines"/>
+                    <amount n="490" unit="chars"/>
+                </sp>
+                <sp who="#le_duc_de_nolfoc">
+                    <amount n="1" unit="speech_acts"/>
+                    <amount n="64" unit="words"/>
+                    <amount n="7" unit="lines"/>
+                    <amount n="274" unit="chars"/>
+                </sp>
+            </div>
+            <div>
+                <head>SCÈNE V. Le Comte d'Erby, Marie. </head>
+                <sp who="#le_comte_d_erby">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="749" unit="words"/>
+                    <amount n="81" unit="lines"/>
+                    <amount n="3469" unit="chars"/>
+                </sp>
+                <sp who="#marie">
+                    <amount n="4" unit="speech_acts"/>
+                    <amount n="266" unit="words"/>
+                    <amount n="30" unit="lines"/>
+                    <amount n="1207" unit="chars"/>
+                </sp>
+            </div>
+        </div>
+    </text>
+</play>
