@@ -1,67 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<play xmlns="http://lina.digital">
+<play xmlns="http://lina.digital" id="79tc">
     <header>
         <title>LA FRIVOLITÉ</title>
         <subtitle>COMÉDIE EN UN ACTE ET EN VERS.</subtitle>
         <subtitle>Représentée pour la première fois par les Comédiens Italiens le 23 Janvier 1753.</subtitle>
         <genretitle>Comédie</genretitle>
         <author>BOISSY, Louis de</author>
-        <date when="1732">1732</date>
+        <date type="premiere" when="1753-01-23">1753-01-23</date>
+        <date type="print" when="1753">1753</date>
         <source>https://github.com/dramacode/theatre-classique/BOISSY_FRIVOLITE.xml</source>
     </header>
     <personae>
         <character>
-            <name>la_frivoli_</name>
+            <name>LA FRIVOLITÉ</name>
             <alias xml:id="la_frivoli_">
-                <name>la_frivoli_</name>
+                <name>LA FRIVOLITÉ</name>
                 <sex>f</sex>
             </alias>
         </character>
         <character>
-            <name>l_hiver</name>
+            <name>L'HIVER</name>
             <alias xml:id="l_hiver">
-                <name>l_hiver</name>
+                <name>L'HIVER</name>
                 <sex>m</sex>
             </alias>
         </character>
         <character>
-            <name>monsieur_fauster</name>
+            <name>MONSIEUR FAUSTER</name>
             <alias xml:id="monsieur_fauster">
-                <name>monsieur_fauster</name>
+                <name>MONSIEUR FAUSTER</name>
                 <sex>m</sex>
             </alias>
         </character>
         <character>
-            <name>mis_blar</name>
+            <name>MISS-BLAR</name>
             <alias xml:id="mis_blar">
-                <name>mis_blar</name>
+                <name>MISS-BLAR</name>
                 <sex>f</sex>
             </alias>
         </character>
         <character>
-            <name>le_marquis</name>
+            <name>LE MARQUIS</name>
             <alias xml:id="le_marquis">
-                <name>le_marquis</name>
+                <name>LE MARQUIS</name>
                 <sex>m</sex>
             </alias>
         </character>
         <character>
-            <name>empty</name>
+            <name/>
             <alias xml:id="empty">
-                <name>empty</name>
+                <name/>
             </alias>
         </character>
         <character>
-            <name>arlequin</name>
+            <name>ARLEQUIN</name>
             <alias xml:id="arlequin">
-                <name>arlequin</name>
+                <name>ARLEQUIN</name>
                 <sex>m</sex>
             </alias>
         </character>
         <character>
-            <name>le_marquis__arlequin</name>
+            <name/>
             <alias xml:id="le_marquis__arlequin">
-                <name>le_marquis__arlequin</name>
+                <name/>
             </alias>
         </character>
     </personae>

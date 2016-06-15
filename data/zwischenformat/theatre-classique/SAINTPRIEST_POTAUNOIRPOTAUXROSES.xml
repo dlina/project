@@ -1,47 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<play xmlns="http://lina.digital">
+<play xmlns="http://lina.digital" id="750tc">
     <header>
         <title>LE POT AU NOIR ET  LE POT AUX ROSES</title>
         <subtitle>OU DAPHNIS ET HORTENSE</subtitle>
         <subtitle>PASTORALE EN UN ACTE</subtitle>
         <genretitle>Pastorale</genretitle>
         <author>SAINT-PRIEST, Commandant</author>
-        <date when=""/>
+        <date type="premiere" when="1789-02-19">1789-02-19</date>
+        <date type="print" when="1789">1789</date>
         <source>https://github.com/dramacode/theatre-classique/SAINTPRIEST_POTAUNOIRPOTAUXROSES.xml</source>
     </header>
     <personae>
         <character>
-            <name>daphnis</name>
+            <name>DAPHNIS</name>
             <alias xml:id="daphnis">
-                <name>daphnis</name>
+                <name>DAPHNIS</name>
                 <sex>m</sex>
             </alias>
         </character>
         <character>
-            <name>bobielle</name>
+            <name>BOBIELLE</name>
             <alias xml:id="bobielle">
-                <name>bobielle</name>
+                <name>BOBIELLE</name>
                 <sex>f</sex>
             </alias>
         </character>
         <character>
-            <name>alain</name>
+            <name>ALAIN</name>
             <alias xml:id="alain">
-                <name>alain</name>
+                <name>ALAIN</name>
                 <sex>f</sex>
             </alias>
         </character>
         <character>
-            <name>hortense</name>
+            <name>HORTENSE</name>
             <alias xml:id="hortense">
-                <name>hortense</name>
+                <name>HORTENSE</name>
                 <sex>f</sex>
             </alias>
         </character>
         <character>
-            <name>les_autres_sauf_alain</name>
+            <name/>
             <alias xml:id="les_autres_sauf_alain">
-                <name>les_autres_sauf_alain</name>
+                <name/>
             </alias>
         </character>
     </personae>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<play xmlns="http://lina.digital">
+<play xmlns="http://lina.digital" id="412tc">
     <header>
         <title>LE PHILINTE DE MOLIÈRE</title>
         <subtitle>ou La suite du Misanthrope </subtitle>
@@ -7,60 +7,61 @@
         <subtitle>représentée pour la première fois à Paris en 1790.</subtitle>
         <genretitle>Comédie</genretitle>
         <author>FABRE D'EGLANTINE, Jean-François-Nazaire Fabre dit</author>
-        <date when=""/>
+        <date type="premiere" when="1790-02-22">1790-02-22</date>
+        <date type="print" when="1790">1790</date>
         <source>https://github.com/dramacode/theatre-classique/FABREDEGLANTINE_PHILINTEDEMOLIERE.xml</source>
     </header>
     <personae>
         <character>
-            <name>philinte</name>
+            <name>PHILINTE</name>
             <alias xml:id="philinte">
-                <name>philinte</name>
+                <name>PHILINTE</name>
                 <sex>m</sex>
             </alias>
         </character>
         <character>
-            <name>éliante</name>
+            <name>ÉLIANTE</name>
             <alias xml:id="éliante">
-                <name>éliante</name>
+                <name>ÉLIANTE</name>
                 <sex>f</sex>
             </alias>
         </character>
         <character>
-            <name>dubois</name>
+            <name>DUBOIS</name>
             <alias xml:id="dubois">
-                <name>dubois</name>
+                <name>DUBOIS</name>
                 <sex>m</sex>
             </alias>
         </character>
         <character>
-            <name>alceste</name>
+            <name>ALCESTE</name>
             <alias xml:id="alceste">
-                <name>alceste</name>
+                <name>ALCESTE</name>
                 <sex>m</sex>
             </alias>
         </character>
         <character>
-            <name>l_avocat</name>
+            <name/>
             <alias xml:id="l_avocat">
-                <name>l_avocat</name>
+                <name/>
             </alias>
         </character>
         <character>
-            <name>le_procureur</name>
+            <name/>
             <alias xml:id="le_procureur">
-                <name>le_procureur</name>
+                <name/>
             </alias>
         </character>
         <character>
-            <name>le_commissaire</name>
+            <name/>
             <alias xml:id="le_commissaire">
-                <name>le_commissaire</name>
+                <name/>
             </alias>
         </character>
         <character>
-            <name>l_huissier</name>
+            <name/>
             <alias xml:id="l_huissier">
-                <name>l_huissier</name>
+                <name/>
             </alias>
         </character>
     </personae>

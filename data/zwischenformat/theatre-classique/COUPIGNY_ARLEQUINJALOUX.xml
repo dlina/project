@@ -1,39 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<play xmlns="http://lina.digital">
+<play xmlns="http://lina.digital" id="236tc">
     <header>
         <title>ARLEQUIN JALOUX</title>
         <subtitle>COMÉDIE EN UN ACTE</subtitle>
         <genretitle>Comédie</genretitle>
         <author>COUPIGNY, André-François de</author>
-        <date when="1677">1677</date>
+        <date type="premiere" when="1797-01-02">1797-01-02</date>
+        <date type="print" when="1797">1797</date>
         <source>https://github.com/dramacode/theatre-classique/COUPIGNY_ARLEQUINJALOUX.xml</source>
     </header>
     <personae>
         <character>
-            <name>arlequin</name>
+            <name>ARLEQUIN</name>
             <alias xml:id="arlequin">
-                <name>arlequin</name>
+                <name>ARLEQUIN</name>
                 <sex>m</sex>
             </alias>
         </character>
         <character>
-            <name>colombine</name>
+            <name>COLOMBINE</name>
             <alias xml:id="colombine">
-                <name>colombine</name>
+                <name>COLOMBINE</name>
                 <sex>f</sex>
             </alias>
         </character>
         <character>
-            <name>scapin</name>
+            <name>SCAPIN</name>
             <alias xml:id="scapin">
-                <name>scapin</name>
+                <name>SCAPIN</name>
                 <sex>m</sex>
             </alias>
         </character>
         <character>
-            <name>dumont</name>
+            <name/>
             <alias xml:id="dumont">
-                <name>dumont</name>
+                <name/>
             </alias>
         </character>
     </personae>

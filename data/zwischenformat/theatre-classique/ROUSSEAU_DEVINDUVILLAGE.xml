@@ -1,65 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<play xmlns="http://lina.digital">
+<play xmlns="http://lina.digital" id="738tc">
     <header>
         <title>LE DEVIN DU VILLAGE</title>
         <subtitle>DIVERTISSEMENT</subtitle>
         <subtitle>REPRÉSENTÉ À FONTAINEBLEAU DEVANT LE ROI, les 18 et 24 Octobre 1752, et à PARIS PAR L'ACADÉMIE ROYALE DE MUSIQUE, le JEudi premier mars 1753.</subtitle>
         <genretitle>Bergerie</genretitle>
         <author>ROUSSEAU, Jean-Jacques</author>
-        <date when="1752">1752</date>
+        <date type="premiere" when="1752-10-18">1752-10-18</date>
+        <date type="print" when="1753">1753</date>
         <source>https://github.com/dramacode/theatre-classique/ROUSSEAU_DEVINDUVILLAGE.xml</source>
     </header>
     <personae>
         <character>
-            <name>colette</name>
+            <name>COLETTE</name>
             <alias xml:id="colette">
-                <name>colette</name>
+                <name>COLETTE</name>
                 <sex>f</sex>
             </alias>
         </character>
         <character>
-            <name>devin</name>
+            <name>LE DEVIN</name>
             <alias xml:id="devin">
-                <name>devin</name>
+                <name>LE DEVIN</name>
                 <sex>m</sex>
             </alias>
         </character>
         <character>
-            <name>colin</name>
+            <name>COLIN</name>
             <alias xml:id="colin">
-                <name>colin</name>
+                <name>COLIN</name>
                 <sex>m</sex>
             </alias>
         </character>
         <character>
-            <name>colin_colette</name>
+            <name/>
             <alias xml:id="colin_colette">
-                <name>colin_colette</name>
+                <name/>
             </alias>
         </character>
         <character>
-            <name>choeur</name>
+            <name>Troupe de jeunes gens du village</name>
             <alias xml:id="choeur">
-                <name>choeur</name>
+                <name>Troupe de jeunes gens du village</name>
                 <sex>0</sex>
             </alias>
         </character>
         <character>
-            <name>ensemble</name>
+            <name/>
             <alias xml:id="ensemble">
-                <name>ensemble</name>
+                <name/>
             </alias>
         </character>
         <character>
-            <name>le_choeur</name>
+            <name/>
             <alias xml:id="le_choeur">
-                <name>le_choeur</name>
+                <name/>
             </alias>
         </character>
         <character>
-            <name>les_villageoises</name>
+            <name/>
             <alias xml:id="les_villageoises">
-                <name>les_villageoises</name>
+                <name/>
             </alias>
         </character>
     </personae>

@@ -1,46 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<play xmlns="http://lina.digital">
+<play xmlns="http://lina.digital" id="447tc">
     <header>
         <title>LE CHAPEAU DE FORTUNATUS</title>
         <subtitle>FARCE EN UN ACTE.</subtitle>
         <genretitle>Farce</genretitle>
         <author>GUEULLETTE, Thomas-Simon</author>
-        <date when=""/>
+        <date type="premiere" when="1712">1712</date>
+        <date type="print" when="1712">1712</date>
         <source>https://github.com/dramacode/theatre-classique/GUEULLETTE_CHAPEAUDEFORTUNATUS.xml</source>
     </header>
     <personae>
         <character>
-            <name>le_m_tre</name>
+            <name>LE MAÎTRE</name>
             <alias xml:id="le_m_tre">
-                <name>le_m_tre</name>
+                <name>LE MAÎTRE</name>
                 <sex>m</sex>
             </alias>
         </character>
         <character>
-            <name>gilles</name>
+            <name>GILLES</name>
             <alias xml:id="gilles">
-                <name>gilles</name>
+                <name>GILLES</name>
                 <sex>m</sex>
             </alias>
         </character>
         <character>
-            <name>divertissant</name>
+            <name>DIVERTISSANT</name>
             <alias xml:id="divertissant">
-                <name>divertissant</name>
+                <name>DIVERTISSANT</name>
                 <sex>m</sex>
             </alias>
         </character>
         <character>
-            <name>san_quartier</name>
+            <name>SANS-QUARTIER</name>
             <alias xml:id="san_quartier">
-                <name>san_quartier</name>
+                <name>SANS-QUARTIER</name>
                 <sex>m</sex>
             </alias>
         </character>
         <character>
-            <name>divertissant__san_quartier</name>
+            <name/>
             <alias xml:id="divertissant__san_quartier">
-                <name>divertissant__san_quartier</name>
+                <name/>
             </alias>
         </character>
     </personae>

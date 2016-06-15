@@ -11,7 +11,7 @@ then let $do := (xmldb:remove($path || '/' || $task),xmldb:create-collection($pa
     true()
 else let $do := xmldb:create-collection($path, $task) return true()
 };
-(: Asuming you have the module for the preparation of json files and hte recent lina.xml 
+(: Asuming you have the module for the preparation of json files and the recent lina.xml 
  : files in a folder like described by variable $col, you can prepare ALL markdown and
  : data files needed for the incredible dlina website with the help of this XQuery!
  : The first sequence ($dlina-ids) is to prevent the IDs ($num) created when first starting this 
@@ -22,17 +22,17 @@ else let $do := xmldb:create-collection($path, $task) return true()
  : JSON: creates JSON
  : LINA: creates the syntaxhighlighted XML
  : ENTRY: creates the entry point
- : MATRIX: ok, yo got it
+ : MATRIX: ok, i got it
  : NETWORK: again
  : AMOUNT: are you kidding me?
  :   :)
 
 (: offset according the ids before the one you like to create.
- : see ids.csv for a complete list 
+ : see ids.csv for a complete list
  : OR use the crawler :)
-let $offset := 0
+let $offset := 467
 let $what := ('json' ,'lina','matrix' ,'entry','network','amount','animation' )
-let $path := '/db/apps/lina/data'
+let $path := '/db/data/theatre-lina/'
 (: pattern is used to replace characters in author names :)
 let $pattern := '[^a-zA-Z0-9:,\s]'
 let $dlina-ids := ("Horvath: Gesamtfassung", 'Horvath: Endfassung')
@@ -46,23 +46,26 @@ let $cleanup :=
     return
         local:cleanup($path, $task)
 
-let $col := collection($path||'/source')
+let $col := collection($path)
 
 return
-    for $lina in $col//lina:play
+    for $lina at $pos in $col//lina:play
     let $num := number( substring-before( tokenize( $lina/base-uri(), '/' )[matches(., 'xml')], '.' )) + $offset,
-        $console := console:log($num)
+        $num := if(string($num) = 'NaN') then $pos + $offset else $num,
+        $console := console:log($lina/base-uri())
+    (: where $pos lt 3 :)
     return
-    
+
 (:    let $console := console:log(index-of($dlina-ids, $id)):)
 (:    return:)
 (:        for $lina in $col/lina:play//lina:header[concat(lina:author/replace(., $pattern, ''), ': ', lina:title/replace(., $pattern, '') ) = $id]:)
 
 let $date := 
 if ($lina//lina:date[@type='print']/@when and $lina//lina:date[@type='premiere']/@when) then min(number($lina//lina:date[@type='print']/@when), number($lina//lina:date[@type='premiere']/@when)) else if (number($lina//lina:date[@type='premiere']/@when)) then $lina//lina:date[@type='premiere']/@when else number($lina//lina:date[@type='print']/@when),
-$date := if ($date - 10 gt number($lina//lina:date[@type='written']/@when)) then number($lina//lina:date[@type='written']/@when) else $date
+$date := if ($date - 10 gt number($lina//lina:date[@type='written']/@when)) then number($lina//lina:date[@type='written']/@when) else $date,
+$date := if(string($date) = ('', 'NaN')) then '1800' else $date
    
-let $title := $lina//lina:author[1]/string()|| ': ' ||  $lina//lina:title[last()]/string() || ' (' ||  $date || ')',
+let $title := ($lina//lina:author)[1]/string()|| ': ' ||  $lina//lina:title[last()]/string() || ' (' ||  $date || ')',
 $blogdate := year-from-date(current-date()) || '-' || month-from-date(current-date()) || '-' || day-from-date(current-date())
 (: lina file with xml source :)
 

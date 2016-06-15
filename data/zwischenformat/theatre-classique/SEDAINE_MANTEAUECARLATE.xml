@@ -1,61 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<play xmlns="http://lina.digital">
+<play xmlns="http://lina.digital" id="777tc">
     <header>
         <title>LE MANTEAU ÉCARLATE</title>
         <subtitle>OU LE REVE SUPPOSÉ</subtitle>
         <subtitle>COMÉDIE-PROVERBE EN UN ACTE ET EN PROSE.</subtitle>
         <genretitle>Proverbe</genretitle>
         <author>SEDAINE, Michel-Jean</author>
-        <date when=""/>
+        <date type="premiere" when="1784-05-05">1784-05-05</date>
+        <date type="print" when="1784">1784</date>
         <source>https://github.com/dramacode/theatre-classique/SEDAINE_MANTEAUECARLATE.xml</source>
     </header>
     <personae>
         <character>
-            <name>marton</name>
+            <name>MARTON</name>
             <alias xml:id="marton">
-                <name>marton</name>
+                <name>MARTON</name>
                 <sex>f</sex>
             </alias>
         </character>
         <character>
-            <name>dori_ne</name>
+            <name>DORIMÈNE</name>
             <alias xml:id="dori_ne">
-                <name>dori_ne</name>
+                <name>DORIMÈNE</name>
                 <sex>f</sex>
             </alias>
         </character>
         <character>
-            <name>madame_de_florville</name>
+            <name>Madame DE FLORVILLE</name>
             <alias xml:id="madame_de_florville">
-                <name>madame_de_florville</name>
+                <name>Madame DE FLORVILLE</name>
                 <sex>f</sex>
             </alias>
         </character>
         <character>
-            <name>monsieur_de_florville</name>
+            <name>M. DE FLORVILLE</name>
             <alias xml:id="monsieur_de_florville">
-                <name>monsieur_de_florville</name>
+                <name>M. DE FLORVILLE</name>
                 <sex>m</sex>
             </alias>
         </character>
         <character>
-            <name>_rault</name>
+            <name>GÉRAULT</name>
             <alias xml:id="_rault">
-                <name>_rault</name>
+                <name>GÉRAULT</name>
                 <sex>m</sex>
             </alias>
         </character>
         <character>
-            <name>blaise</name>
+            <name>BLAISE</name>
             <alias xml:id="blaise">
-                <name>blaise</name>
+                <name>BLAISE</name>
                 <sex>m</sex>
             </alias>
         </character>
         <character>
-            <name>blaise__rault</name>
+            <name/>
             <alias xml:id="blaise__rault">
-                <name>blaise__rault</name>
+                <name/>
             </alias>
         </character>
     </personae>

@@ -1,38 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<play xmlns="http://lina.digital">
+<play xmlns="http://lina.digital" id="643tc">
     <header>
         <title>ARLEQUIN DEUCALION</title>
         <subtitle>MONOLOGUE EN TROIS ACTES</subtitle>
         <genretitle>Comédie</genretitle>
         <author>PIRON, Alexis</author>
-        <date when=""/>
+        <date type="premiere" when="1722-02-25">1722-02-25</date>
+        <date type="print" when="1722">1722</date>
         <source>https://github.com/dramacode/theatre-classique/PIRON_ARLEQUINDECALION.xml</source>
     </header>
     <personae>
         <character>
-            <name>arlequin</name>
+            <name>ARLEQUIN-DEUCALION</name>
             <alias xml:id="arlequin">
-                <name>arlequin</name>
+                <name>ARLEQUIN-DEUCALION</name>
                 <sex>m</sex>
             </alias>
         </character>
         <character>
-            <name>la_voix</name>
+            <name/>
             <alias xml:id="la_voix">
-                <name>la_voix</name>
+                <name/>
             </alias>
         </character>
         <character>
-            <name>pyrrha</name>
+            <name>PYRRHA</name>
             <alias xml:id="pyrrha">
-                <name>pyrrha</name>
+                <name>PYRRHA</name>
                 <sex>f</sex>
             </alias>
         </character>
         <character>
-            <name>polichinelle</name>
+            <name/>
             <alias xml:id="polichinelle">
-                <name>polichinelle</name>
+                <name/>
             </alias>
         </character>
     </personae>

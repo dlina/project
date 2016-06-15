@@ -38,24 +38,7 @@ let $distinctlinkswithweight := for $link in $distinctlinks
                                     let $replacement :=  'value:'||string($count)
                                     return
                                         replace($link, 'value:\d', $replacement)
-   
-(:            for $source in $lina//lina:alias/lower-case(@xml:id):)
-(:            let $targets := $lina//lina:sp[preceding-sibling::lina:sp]/@who:)
-(:            return:)
-(:                for $target in ( :)
-(:                                for $sp in $lina//lina:sp[:)
-(:                                        contains(@who, '#' || $source):)
-(:                                        or contains(preceding-sibling::lina:sp/@who, ('#' || $source)):)
-(:                                        or contains(following-sibling::lina:sp/@who, ('#' || $source))]:)
-(:                                return tokenize(string($sp/@who), ' '):)
-(:                                ):)
-(:                where index-of($index, substring-after($target, '#')) gt index-of($index, $source):)
-(:                return:)
-(:                let $value := count($lina//lina:div[child::lina:sp/contains(@who, $target)][child::lina:sp/contains(@who, ('#' || $source))]):)
-(:                return:)
-(:                   '{"source":' || index-of($index, $source) - 1 ||:)
-(:                   ',"target":' || index-of($index, substring-after($target, '#')) -1  ||:)
-(:                   ',"value":' || $value * $value || '},':)
+
 let $newlinks:=  string-join($distinctlinkswithweight[position() lt last()], '&#10;') || '&#10;' || substring-before($links[last()], '},') || '}'
 
 return

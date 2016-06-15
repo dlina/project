@@ -1,44 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<play xmlns="http://lina.digital">
+<play xmlns="http://lina.digital" id="9tc">
     <header>
         <title/>
         <genretitle>Comédie</genretitle>
         <author>ANDRIEUX, François Guilaume Jean Stanislas</author>
-        <date when="1782">1782</date>
+        <date type="premiere" when="1782-12-20">1782-12-20</date>
+        <date type="print" when="1784">1784</date>
         <source>https://github.com/dramacode/theatre-classique/ANDRIEUX_ANAXIMANDRE.xml</source>
     </header>
     <personae>
         <character>
-            <name>anaximandre</name>
+            <name>ANAXIMANDRE</name>
             <alias xml:id="anaximandre">
-                <name>anaximandre</name>
+                <name>ANAXIMANDRE</name>
                 <sex>m</sex>
             </alias>
         </character>
         <character>
-            <name>aspasie</name>
+            <name>ASPASIE</name>
             <alias xml:id="aspasie">
-                <name>aspasie</name>
+                <name>ASPASIE</name>
                 <sex>f</sex>
             </alias>
         </character>
         <character>
-            <name>phrosine</name>
+            <name>PHROSINE</name>
             <alias xml:id="phrosine">
-                <name>phrosine</name>
+                <name>PHROSINE</name>
                 <sex>f</sex>
             </alias>
         </character>
         <character>
-            <name>melidore</name>
+            <name/>
             <alias xml:id="melidore">
-                <name>melidore</name>
+                <name/>
             </alias>
         </character>
         <character>
-            <name>pretresse</name>
+            <name/>
             <alias xml:id="pretresse">
-                <name>pretresse</name>
+                <name/>
             </alias>
         </character>
     </personae>
