@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar ns="http://lina.digital" xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  <define name="aDiv">
+    <element name="div">
+      <optional>
+        <attribute name="n">
+          <data type="integer"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="type">
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <zeroOrMore>
+        <choice>
+          <ref name="aDiv"/>
+          <ref name="aHead"/>
+        </choice>
+      </zeroOrMore>
+      <zeroOrMore>
+        <element name="sp">
+          <attribute name="who"/>
+          <oneOrMore>
+            <element name="amount">
+              <attribute name="n">
+                <data type="integer"/>
+              </attribute>
+              <attribute name="unit">
+                <choice>
+                  <value>speech_acts</value>
+                  <value>lines</value>
+                  <value>words</value>
+                  <value>chars</value>
+                </choice>
+              </attribute>
+            </element>
+          </oneOrMore>
+        </element>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="aHead">
+    <element name="head">
+      <optional>
+        <attribute name="type"/>
+      </optional>
+      <optional>
+        <attribute name="n">
+          <data type="integer"/>
+        </attribute>
+      </optional>
+      <text/>
+    </element>
+  </define>
+  <start>
+    <element name="play">
+      <attribute name="id">
+        <data type="int"/>
+      </attribute>
+      <element name="header">
+        <element name="title">
+          <text/>
+        </element>
+        <optional>
+          <element name="subtitle">
+            <text/>
+          </element>
+        </optional>
+        <optional>
+          <element name="genretitle">
+            <text/>
+          </element>
+        </optional>
+        <oneOrMore>
+          <element name="author">
+            <optional>
+              <attribute name="key"/>
+            </optional>
+            <text/>
+          </element>
+        </oneOrMore>
+        <oneOrMore>
+          <element name="date">
+            <optional>
+              <attribute name="when">
+                <data type="int"/>
+              </attribute>
+            </optional>
+            <optional>
+              <attribute name="type">
+                <choice>
+                  <value>print</value>
+                  <value>premiere</value>
+                  <value>written</value>
+                </choice>
+              </attribute>
+            </optional>
+            <optional>
+              <text/>
+            </optional>
+          </element>
+        </oneOrMore>
+        <zeroOrMore>
+          <element name="source">
+            <optional>
+              <attribute name="n">
+                <data type="int"/>
+              </attribute>
+            </optional>
+            <data type="anyURI"/>
+          </element>
+        </zeroOrMore>
+      </element>
+      <element name="personae">
+        <zeroOrMore>
+          <element name="character">
+            <element name="name">
+              <text/>
+            </element>
+            <oneOrMore>
+              <element name="alias">
+                <attribute name="xml:id">
+                  <data type="ID"/>
+                </attribute>
+                <optional>
+                  <attribute name="type">
+                    <choice>
+                      <value>voiceOf</value>
+                      <value>stageName</value>
+                      <value>alias</value>
+                    </choice>
+                  </attribute>
+                </optional>
+                <element name="name">
+                  <text/>
+                </element>
+                <optional>
+                  <element name="sex">
+                    <choice>
+                      <value>M</value>
+                      <value>F</value>
+                      <value>male</value>
+                      <value>female</value>
+                      <value>m</value>
+                      <value>f</value>
+                    </choice>
+                  </element>
+                </optional>
+              </element>
+            </oneOrMore>
+          </element>
+        </zeroOrMore>
+      </element>
+      <element name="text">
+        <zeroOrMore>
+          <ref name="aHead"/>
+        </zeroOrMore>
+        <zeroOrMore>
+          <ref name="aDiv"/>
+        </zeroOrMore>
+      </element>
+      <optional>
+        <element name="documentation">
+          <oneOrMore>
+            <element name="change">
+              <attribute name="n">
+                <data type="int"/>
+              </attribute>
+              <optional>
+                <attribute name="type">
+                  <choice>
+                    <value>adjustSpeaker</value>
+                    <value>expandCollective</value>
+                    <value>expandCollectivePartially</value>
+                    <value>other</value>
+                  </choice>
+                </attribute>
+              </optional>
+              <attribute name="who"/>
+              <element name="path">
+                <text/>
+              </element>
+              <element name="orig">
+                <text/>
+              </element>
+              <optional>
+                <element name="corr">
+                  <text/>
+                </element>
+              </optional>
+              <optional>
+                <element name="comment">
+                  <text/>
+                </element>
+              </optional>
+            </element>
+          </oneOrMore>
+        </element>
+      </optional>
+    </element>
+  </start>
+</grammar>
