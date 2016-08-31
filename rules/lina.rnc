@@ -5,8 +5,7 @@ aDiv =
   element div {
     attribute n { xsd:integer }?,
     attribute type { xsd:NCName }?,
-    (aDiv*
-     | element head { text }?),
+    (aDiv | aHead )*,
     element sp {
       attribute who { text },
       element amount {
@@ -14,6 +13,13 @@ aDiv =
         attribute unit { "speech_acts" | "lines" | "words" | "chars" }
       }+
     }*
+  }
+  
+aHead =
+  element head {
+    attribute type { text }?,
+    attribute n { xsd:integer }?,
+    text
   }
 
 start =
@@ -49,9 +55,8 @@ start =
       }*
     },
     element text {
-        
         element head { text }*,
-        element div { aDiv }*
+        aDiv*
         },
     element documentation {
     	element change {
