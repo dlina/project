@@ -36,7 +36,7 @@ start =
     element text {
         
         element head { text }*,
-        element div { div }*
+        element div { aDiv }*
         },
     element documentation {
     	element change {
@@ -50,7 +50,7 @@ start =
     	}+
     }?
   }
-div =
+aDiv =
   element div {
     attribute n { xsd:integer }?,
     attribute type { xsd:NCName }?,
