@@ -36,7 +36,7 @@ start =
     element text {
         
         element head { text }*,
-        element div { \div* }*
+        element div { div }*
         },
     element documentation {
     	element change {
@@ -50,11 +50,11 @@ start =
     	}+
     }?
   }
-\div =
+div =
   element div {
     attribute n { xsd:integer }?,
     attribute type { xsd:NCName }?,
-    (\div
+    (div
      | element head { text })*,
     element sp {
       attribute who { text },
