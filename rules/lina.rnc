@@ -1,6 +1,27 @@
 default namespace = "http://lina.digital"
 namespace xml = "http://www.w3.org/XML/1998/namespace"
 
+aDiv =
+  element div {
+    attribute n { xsd:integer }?,
+    attribute type { xsd:NCName }?,
+    (aDiv | aHead )*,
+    element sp {
+      attribute who { text },
+      element amount {
+        attribute n { xsd:integer },
+        attribute unit { "speech_acts" | "lines" | "words" | "chars" }
+      }+
+    }*
+  }
+  
+aHead =
+  element head {
+    attribute type { text }?,
+    attribute n { xsd:integer }?,
+    text
+  }
+
 start =
   element play {
   	attribute id { xsd:int },
@@ -34,9 +55,8 @@ start =
       }*
     },
     element text {
-        
-        element head { text }*,
-        element div { \div* }*
+        aHead*,
+        aDiv*
         },
     element documentation {
     	element change {
@@ -49,18 +69,4 @@ start =
     		element comment { text }?
     	}+
     }?
-  }
-\div =
-  element div {
-    attribute n { xsd:integer }?,
-    attribute type { xsd:NCName }?,
-    (\div
-     | element head { text })*,
-    element sp {
-      attribute who { text },
-      element amount {
-        attribute n { xsd:integer },
-        attribute unit { "speech_acts" | "lines" | "words" | "chars" }
-      }+
-    }*
   }
